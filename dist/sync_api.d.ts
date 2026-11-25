@@ -1,1 +1,18 @@
-aW1wb3J0IHsgdHlwZSBCcm93c2VyLCB0eXBlIEJyb3dzZXJDb250ZXh0LCB0eXBlIEJyb3dzZXJUeXBlIH0gZnJvbSAicGxheXdyaWdodC1jb3JlIjsKaW1wb3J0IHsgdHlwZSBMYXVuY2hPcHRpb25zIH0gZnJvbSAiLi91dGlscy5qcyI7CmltcG9ydCB7IHR5cGUgVHVybnN0aWxlT3B0aW9ucyB9IGZyb20gIi4vdHVybnN0aWxlLmpzIjsKaW1wb3J0IHsgdHlwZSBCZXh4Y3ZQbHVnaW4sIHR5cGUgUGx1Z2luT3B0aW9ucyB9IGZyb20gIi4vcGx1Z2lucy9pbmRleC5qcyI7CmltcG9ydCB7IHR5cGUgVWFtT3B0aW9ucyB9IGZyb20gIi4vdWFtLmpzIjsKZXhwb3J0IGludGVyZmFjZSBCZXh4Y3ZPcHRpb25zIGV4dGVuZHMgTGF1bmNoT3B0aW9ucyB7CiAgICB1c2VyX2RhdGFfZGlyPzogc3RyaW5nOwogICAgYXV0b194dmZiPzogYm9vbGVhbjsKICAgIHR1cm5zdGlsZT86IGJvb2xlYW4gfCBUdXJuc3RpbGVPcHRpb25zOwogICAgdWFtPzogYm9vbGVhbiB8IFVhbU9wdGlvbnM7CiAgICBwcmVzZXQ/OiAicmVhbGlzdGljIjsKfQpleHBvcnQgdHlwZSBCZXh4Y3ZMYXVuY2hPcHRpb25zID0gQmV4eGN2T3B0aW9ucyAmIFBsdWdpbk9wdGlvbnM7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIEJleHhjdjxVc2VyRGF0YURpciBleHRlbmRzIHN0cmluZyB8IHVuZGVmaW5lZCA9IHVuZGVmaW5lZCwgUmV0dXJuVHlwZSA9IFVzZXJEYXRhRGlyIGV4dGVuZHMgc3RyaW5nID8gQnJvd3NlckNvbnRleHQgOiBCcm93c2VyPihsYXVuY2hfb3B0aW9ucz86IEJleHhjdk9wdGlvbnMgJiBQbHVnaW5PcHRpb25zICYgewogICAgdXNlcl9kYXRhX2Rpcj86IFVzZXJEYXRhRGlyOwp9LCBleHRyYVBsdWdpbnM/OiBCZXh4Y3ZQbHVnaW5bXSk6IFByb21pc2U8UmV0dXJuVHlwZT47CmV4cG9ydCBkZWNsYXJlIGNvbnN0IENhbW91Zm94OiB0eXBlb2YgQmV4eGN2OwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBOZXdCcm93c2VyPFVzZXJEYXRhRGlyIGV4dGVuZHMgc3RyaW5nIHwgZmFsc2UgPSBmYWxzZSwgUmV0dXJuVHlwZSA9IFVzZXJEYXRhRGlyIGV4dGVuZHMgc3RyaW5nID8gQnJvd3NlckNvbnRleHQgOiBCcm93c2VyPihwbGF5d3JpZ2h0OiBCcm93c2VyVHlwZTxCcm93c2VyPiwgaGVhZGxlc3M/OiBib29sZWFuIHwgInZpcnR1YWwiLCBmcm9tT3B0aW9ucz86IFJlY29yZDxzdHJpbmcsIGFueT4sIHVzZXJEYXRhRGlyPzogVXNlckRhdGFEaXIsIGRlYnVnPzogYm9vbGVhbiwgbGF1bmNoX29wdGlvbnM/OiBMYXVuY2hPcHRpb25zKTogUHJvbWlzZTxSZXR1cm5UeXBlPjsK
+import { type Browser, type BrowserContext, type BrowserType } from "playwright-core";
+import { type LaunchOptions } from "./utils.js";
+import { type TurnstileOptions } from "./turnstile.js";
+import { type BexxcvPlugin, type PluginOptions } from "./plugins/index.js";
+import { type UamOptions } from "./uam.js";
+export interface BexxcvOptions extends LaunchOptions {
+    user_data_dir?: string;
+    auto_xvfb?: boolean;
+    turnstile?: boolean | TurnstileOptions;
+    uam?: boolean | UamOptions;
+    preset?: "realistic";
+}
+export type BexxcvLaunchOptions = BexxcvOptions & PluginOptions;
+export declare function Bexxcv<UserDataDir extends string | undefined = undefined, ReturnType = UserDataDir extends string ? BrowserContext : Browser>(launch_options?: BexxcvOptions & PluginOptions & {
+    user_data_dir?: UserDataDir;
+}, extraPlugins?: BexxcvPlugin[]): Promise<ReturnType>;
+export declare const Camoufox: typeof Bexxcv;
+export declare function NewBrowser<UserDataDir extends string | false = false, ReturnType = UserDataDir extends string ? BrowserContext : Browser>(playwright: BrowserType<Browser>, headless?: boolean | "virtual", fromOptions?: Record<string, any>, userDataDir?: UserDataDir, debug?: boolean, launch_options?: LaunchOptions): Promise<ReturnType>;

@@ -1,1 +1,196 @@
-aW1wb3J0IHR5cGUgeyBCcm93c2VyLCBCcm93c2VyQ29udGV4dCwgUGFnZSB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB7IG9uRWFjaFBhZ2UgfSBmcm9tICIuL3BhZ2Vob29rcy5qcyI7CmltcG9ydCB7IGJldHdlZW4sIHNsZWVwIH0gZnJvbSAiLi9yYW5kb20uanMiOwppbXBvcnQgeyBIdW1hbiwgdHlwZSBIdW1hbk9wdGlvbnMgfSBmcm9tICIuL2h1bWFuLmpzIjsKCmV4cG9ydCBpbnRlcmZhY2UgVWFtT3B0aW9ucyB7CgkvKiogTWF4IHRpbWUgdG8gd2FpdCBmb3IgYSBjZl9jbGVhcmFuY2UgY29va2llIGFmdGVyIG5hdmlnYXRpb24gKG1zKS4gKi8KCXRpbWVvdXQ/OiBudW1iZXI7CgkvKiogUG9sbGluZyBpbnRlcnZhbCB3aGVuIHdhdGNoaW5nIGZvciBuZXcgY2hhbGxlbmdlcyAobXMpLiAqLwoJaW50ZXJ2YWw/OiBudW1iZXI7CgkvKiogV2hldGhlciB0byB3YWl0IGZvciBjbGVhcmFuY2UgcmlnaHQgYWZ0ZXIgZWFjaCBwYWdlLmdvdG8oKS4gKi8KCXdhaXRPbkdvdG8/OiBib29sZWFuOwoJLyoqCgkgKiBPcHRpb25hbCBleHRlcm5hbCBoZWxwZXIgdGhhdCBjYW4gcGVyZm9ybSBhbiBhY3Rpb24gb24gdGhlIGNoYWxsZW5nZSBwYWdlCgkgKiAoZS5nLiBjbGljayBhIGNoZWNrYm94KS4gUmV0dXJuIHRydWUgaWYgYW4gYWN0aW9uIHdhcyB0YWtlbi4KCSAqLwoJYXNzaXN0PzogKHBhZ2U6IFBhZ2UpID0+IFByb21pc2U8Ym9vbGVhbj47CgkvKiogRm9yd2FyZGVkIHRvIHRoZSBpbnRlcm5hbCB7QGxpbmsgSHVtYW59IGFjdG9yIGZvciBtb3VzZSBtb3ZlbWVudHMuICovCglodW1hbj86IEh1bWFuT3B0aW9uczsKfQoKZXhwb3J0IGludGVyZmFjZSBVYW1SZXN1bHQgewoJY2hhbGxlbmdlZDogYm9vbGVhbjsKCWJ5cGFzc2VkOiBib29sZWFuOwoJY29va2llOiBzdHJpbmcgfCBudWxsOwp9Cgpjb25zdCBDSEFMTEVOR0VfVElUTEVTID0gWwoJImp1c3QgYSBtb21lbnQiLAoJInR1bmdndSBzZWJlbnRhciIsCgkiYXR0ZW50aW9uIHJlcXVpcmVkIiwKCSJzZWN1cml0eSBjaGVjayIsCgkidW4gaW5zdGFudCIsCgkiZWluZW4gbW9tZW50IiwKCSLQvtC00LjQvSDQvNC+0LzQtdC90YIiLAoJInVtIG1vbWVudG8iLAoJInVuIG1vbWVudG8iLApdOwoKY29uc3QgV0FUQ0hFRCA9IG5ldyBXZWFrU2V0PG9iamVjdD4oKTsKY29uc3QgQlVTWSA9IG5ldyBXZWFrU2V0PG9iamVjdD4oKTsKCi8vIC0tLSBIZWxwZXJzIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgphc3luYyBmdW5jdGlvbiBjb29raWVWYWx1ZShwYWdlOiBQYWdlLCBuYW1lOiBzdHJpbmcpOiBQcm9taXNlPHN0cmluZyB8IG51bGw+IHsKCXRyeSB7CgkJY29uc3QgdXJsID0gcGFnZS51cmwoKTsKCQlpZiAoIXVybCB8fCB1cmwgPT09ICJhYm91dDpibGFuayIpIHJldHVybiBudWxsOwoJCWNvbnN0IGNvb2tpZXMgPSBhd2FpdCBwYWdlLmNvbnRleHQoKS5jb29raWVzKHVybCk7CgkJcmV0dXJuIGNvb2tpZXMuZmluZCgoYzogeyBuYW1lOiBzdHJpbmc7IHZhbHVlOiBzdHJpbmcgfSkgPT4gYy5uYW1lID09PSBuYW1lKT8udmFsdWUgPz8gbnVsbDsKCX0gY2F0Y2ggewoJCXJldHVybiBudWxsOwoJfQp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gaXNDaGFsbGVuZ2UocGFnZTogUGFnZSk6IFByb21pc2U8Ym9vbGVhbj4gewoJY29uc3QgdGl0bGUgPSAoYXdhaXQgcGFnZS50aXRsZSgpLmNhdGNoKCgpID0+ICIiKSkudG9Mb3dlckNhc2UoKTsKCXJldHVybiBDSEFMTEVOR0VfVElUTEVTLnNvbWUoKHQpID0+IHRpdGxlLmluY2x1ZGVzKHQpKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGh1bWFuQWN0aXZpdHkocGFnZTogUGFnZSwgc2NhbGUgPSAxKTogUHJvbWlzZTx2b2lkPiB7Cgljb25zdCB2aWV3ID0gcGFnZS52aWV3cG9ydFNpemUoKTsKCWNvbnN0IG9wdHM6IEh1bWFuT3B0aW9ucyA9IHsgc3BlZWQ6IHNjYWxlIDwgMSA/IDAuNCA6IDEgfTsKCWNvbnN0IGFjdG9yID0gbmV3IEh1bWFuKHBhZ2UsIG9wdHMpOwoJYXdhaXQgYWN0b3IuaWRsZShNYXRoLnJvdW5kKDgwMCAqICgyIC0gc2NhbGUpKSk7Cglmb3IgKGxldCBpID0gMDsgaSA8IE1hdGgubWF4KDEsIE1hdGguZmxvb3IoMiAqIHNjYWxlKSk7IGkrKykgewoJCWF3YWl0IGFjdG9yLnNjcm9sbChiZXR3ZWVuKDYwLCAxODApKTsKCX0KfQoKLy8gLS0tIE1haW4gd2FpdCBsb29wIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCi8qKgogKiBXYWl0cyB1bnRpbCBhIGBjZl9jbGVhcmFuY2VgIGNvb2tpZSBpcyBwcmVzZW50IGZvciB0aGUgY3VycmVudCBwYWdlIG9yaWdpbi4KICogSWYgYSBjaGFsbGVuZ2UgcGFnZSB3YXMgc2VlbiwgcGVyZm9ybXMgbGlnaHQgaHVtYW4tbGlrZSBhY3Rpdml0eSB3aGlsZQogKiBwb2xsaW5nIOKAlCBtYXRjaGluZyB0aGUgc3RyYXRlZ3kgdXNlZCBieSBjZi1jbGVhcmFuY2Utc2NyYXBlci4KICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiB3YWl0Rm9yVWFtKAoJcGFnZTogUGFnZSwKCW9wdGlvbnM6IFVhbU9wdGlvbnMgPSB7fSwKKTogUHJvbWlzZTxVYW1SZXN1bHQ+IHsKCWNvbnN0IHRpbWVvdXQgPSBvcHRpb25zLnRpbWVvdXQgPz8gMzAwMDA7Cgljb25zdCBzdGFydCA9IERhdGUubm93KCk7CglsZXQgY2hhbGxlbmdlZCA9IGZhbHNlOwoJbGV0IGNvbnNlY3V0aXZlTWlzc2VzID0gMDsKCgl3aGlsZSAoRGF0ZS5ub3coKSAtIHN0YXJ0IDwgdGltZW91dCAmJiAhcGFnZS5pc0Nsb3NlZCgpKSB7CgkJY29uc3QgY29va2llID0gYXdhaXQgY29va2llVmFsdWUocGFnZSwgImNmX2NsZWFyYW5jZSIpOwoKCQkvLyBDb29raWUgcHJlc2VudCDigJQgZG9uZQoJCWlmIChjb29raWUpIHsKCQkJcmV0dXJuIHsgY2hhbGxlbmdlZCwgYnlwYXNzZWQ6IHRydWUsIGNvb2tpZSB9OwoJCX0KCgkJLy8gRGV0ZWN0IHdoZXRoZXIgd2UncmUgY3VycmVudGx5IG9uIGEgY2hhbGxlbmdlIHBhZ2UKCQljb25zdCBjaGFsbGVuZ2luZyA9IGF3YWl0IGlzQ2hhbGxlbmdlKHBhZ2UpOwoJCWlmIChjaGFsbGVuZ2luZykgewoJCQljaGFsbGVuZ2VkID0gdHJ1ZTsKCQkJLy8gR2l2ZSB0aGUgZXh0ZXJuYWwgYXNzaXN0IGNhbGxiYWNrIGEgY2hhbmNlIHRvIGludGVyYWN0CgkJCWlmIChvcHRpb25zLmFzc2lzdCkgewoJCQkJY29uc3QgYWN0ZWQgPSBhd2FpdCBvcHRpb25zLmFzc2lzdChwYWdlKS5jYXRjaCgoKSA9PiBmYWxzZSk7CgkJCQlpZiAoYWN0ZWQpIHsKCQkJCQljb25zZWN1dGl2ZU1pc3NlcyA9IDA7CgkJCQkJYXdhaXQgc2xlZXAoMjAwMCk7CgkJCQkJY29udGludWU7CgkJCQl9CgkJCX0KCQkJLy8gTGlnaHQgaHVtYW4gYWN0aXZpdHkgd2hpbGUgd2FpdGluZyBmb3IgdGhlIEpTIGNoYWxsZW5nZSB0byBjb21wbGV0ZQoJCQl0cnkgewoJCQkJYXdhaXQgaHVtYW5BY3Rpdml0eShwYWdlLCAwLjUpOwoJCQl9IGNhdGNoIHsKCQkJCWF3YWl0IHNsZWVwKDUwMCk7CgkJCX0KCQkJYXdhaXQgc2xlZXAoMTUwMCk7CgkJCWNvbnRpbnVlOwoJCX0KCgkJLy8gTm90IGNoYWxsZW5nZWQgYnV0IG5vIGNvb2tpZSB5ZXQg4oCUIGNvdWxkIGJlIG1pZC1uYXZpZ2F0aW9uIG9yIHN0aWxsIGxvYWRpbmcKCQlpZiAoIWNoYWxsZW5nZWQpIHsKCQkJcmV0dXJuIHsgY2hhbGxlbmdlZDogZmFsc2UsIGJ5cGFzc2VkOiBmYWxzZSwgY29va2llOiBudWxsIH07CgkJfQoKCQkvLyBDaGFsbGVuZ2VkIGJlZm9yZSBidXQgY29va2llIHN0aWxsIG1pc3NpbmcgYWZ0ZXIgcmVwZWF0ZWQgcG9sbHMKCQljb25zZWN1dGl2ZU1pc3NlcysrOwoJCWlmIChjb25zZWN1dGl2ZU1pc3NlcyA+IDgpIHsKCQkJcmV0dXJuIHsgY2hhbGxlbmdlZDogdHJ1ZSwgYnlwYXNzZWQ6IHRydWUsIGNvb2tpZTogbnVsbCB9OwoJCX0KCQlhd2FpdCBzbGVlcCgxMDAwKTsKCX0KCglyZXR1cm4geyBjaGFsbGVuZ2VkLCBieXBhc3NlZDogZmFsc2UsIGNvb2tpZTogbnVsbCB9Owp9CgovLyAtLS0gV2F0Y2hlciAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKYXN5bmMgZnVuY3Rpb24gcnVuV2FpdCgKCXBhZ2U6IFBhZ2UsCglvcHRpb25zOiBVYW1PcHRpb25zLAopOiBQcm9taXNlPFVhbVJlc3VsdCB8IHVuZGVmaW5lZD4gewoJaWYgKEJVU1kuaGFzKHBhZ2UpKSByZXR1cm4gdW5kZWZpbmVkOwoJQlVTWS5hZGQocGFnZSk7Cgl0cnkgewoJCXJldHVybiBhd2FpdCB3YWl0Rm9yVWFtKHBhZ2UsIG9wdGlvbnMpOwoJfSBmaW5hbGx5IHsKCQlCVVNZLmRlbGV0ZShwYWdlKTsKCX0KfQoKZXhwb3J0IGZ1bmN0aW9uIHdhdGNoVWFtKHBhZ2U6IFBhZ2UsIG9wdGlvbnM6IFVhbU9wdGlvbnMgPSB7fSk6IHZvaWQgewoJaWYgKFdBVENIRUQuaGFzKHBhZ2UpKSByZXR1cm47CglXQVRDSEVELmFkZChwYWdlKTsKCgljb25zdCBpbnRlcnZhbCA9IG9wdGlvbnMuaW50ZXJ2YWwgPz8gMTUwMDsKCWNvbnN0IHRpbWVvdXQgPSBvcHRpb25zLnRpbWVvdXQgPz8gMzAwMDA7Cgljb25zdCB3YWl0T25Hb3RvID0gb3B0aW9ucy53YWl0T25Hb3RvID8/IHRydWU7CgoJaWYgKHdhaXRPbkdvdG8pIHsKCQljb25zdCBvcmlnaW5hbEdvdG8gPSBwYWdlLmdvdG8uYmluZChwYWdlKTsKCQlwYWdlLmdvdG8gPSAoYXN5bmMgKC4uLmFyZ3M6IFBhcmFtZXRlcnM8UGFnZVsiZ290byJdPikgPT4gewoJCQljb25zdCByZXNwb25zZSA9IGF3YWl0IG9yaWdpbmFsR290byguLi5hcmdzKTsKCQkJY29uc3QgYmVnYW4gPSBEYXRlLm5vdygpOwoJCQl3aGlsZSAoQlVTWS5oYXMocGFnZSkgJiYgRGF0ZS5ub3coKSAtIGJlZ2FuIDwgdGltZW91dCkgewoJCQkJYXdhaXQgc2xlZXAoMjAwKTsKCQkJfQoJCQlhd2FpdCBydW5XYWl0KHBhZ2UsIG9wdGlvbnMpLmNhdGNoKCgpID0+IHVuZGVmaW5lZCk7CgkJCXJldHVybiByZXNwb25zZTsKCQl9KSBhcyBQYWdlWyJnb3RvIl07Cgl9CgoJbGV0IGFjdGl2ZSA9IHRydWU7CglwYWdlLm9uKCJjbG9zZSIsICgpID0+IHsKCQlhY3RpdmUgPSBmYWxzZTsKCX0pOwoKCWNvbnN0IGxvb3AgPSBhc3luYyAoKSA9PiB7CgkJd2hpbGUgKGFjdGl2ZSAmJiAhcGFnZS5pc0Nsb3NlZCgpKSB7CgkJCXRyeSB7CgkJCQlpZiAoIUJVU1kuaGFzKHBhZ2UpICYmIChhd2FpdCBpc0NoYWxsZW5nZShwYWdlKSkpIHsKCQkJCQlhd2FpdCBydW5XYWl0KHBhZ2UsIG9wdGlvbnMpOwoJCQkJfQoJCQl9IGNhdGNoIHsKCQkJCWF3YWl0IHNsZWVwKDUwMCk7CgkJCX0KCQkJYXdhaXQgc2xlZXAoaW50ZXJ2YWwpOwoJCX0KCX07CgoJdm9pZCBsb29wKCk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBhdHRhY2hVYW08VCBleHRlbmRzIEJyb3dzZXIgfCBCcm93c2VyQ29udGV4dD4oCgl0YXJnZXQ6IFQsCglvcHRpb25zOiBVYW1PcHRpb25zID0ge30sCik6IFQgewoJcmV0dXJuIG9uRWFjaFBhZ2UodGFyZ2V0LCAocGFnZSkgPT4gd2F0Y2hVYW0ocGFnZSwgb3B0aW9ucykpOwp9Cg==
+import type { Browser, BrowserContext, Page } from "playwright-core";
+import { onEachPage } from "./pagehooks.js";
+import { between, sleep } from "./random.js";
+import { Human, type HumanOptions } from "./human.js";
+
+export interface UamOptions {
+	/** Max time to wait for a cf_clearance cookie after navigation (ms). */
+	timeout?: number;
+	/** Polling interval when watching for new challenges (ms). */
+	interval?: number;
+	/** Whether to wait for clearance right after each page.goto(). */
+	waitOnGoto?: boolean;
+	/**
+	 * Optional external helper that can perform an action on the challenge page
+	 * (e.g. click a checkbox). Return true if an action was taken.
+	 */
+	assist?: (page: Page) => Promise<boolean>;
+	/** Forwarded to the internal {@link Human} actor for mouse movements. */
+	human?: HumanOptions;
+}
+
+export interface UamResult {
+	challenged: boolean;
+	bypassed: boolean;
+	cookie: string | null;
+}
+
+const CHALLENGE_TITLES = [
+	"just a moment",
+	"tunggu sebentar",
+	"attention required",
+	"security check",
+	"un instant",
+	"einen moment",
+	"один момент",
+	"um momento",
+	"un momento",
+];
+
+const WATCHED = new WeakSet<object>();
+const BUSY = new WeakSet<object>();
+
+// --- Helpers -----------------------------------------------------------------
+
+async function cookieValue(page: Page, name: string): Promise<string | null> {
+	try {
+		const url = page.url();
+		if (!url || url === "about:blank") return null;
+		const cookies = await page.context().cookies(url);
+		return cookies.find((c: { name: string; value: string }) => c.name === name)?.value ?? null;
+	} catch {
+		return null;
+	}
+}
+
+export async function isChallenge(page: Page): Promise<boolean> {
+	const title = (await page.title().catch(() => "")).toLowerCase();
+	return CHALLENGE_TITLES.some((t) => title.includes(t));
+}
+
+export async function humanActivity(page: Page, scale = 1): Promise<void> {
+	const view = page.viewportSize();
+	const opts: HumanOptions = { speed: scale < 1 ? 0.4 : 1 };
+	const actor = new Human(page, opts);
+	await actor.idle(Math.round(800 * (2 - scale)));
+	for (let i = 0; i < Math.max(1, Math.floor(2 * scale)); i++) {
+		await actor.scroll(between(60, 180));
+	}
+}
+
+// --- Main wait loop ----------------------------------------------------------
+
+/**
+ * Waits until a `cf_clearance` cookie is present for the current page origin.
+ * If a challenge page was seen, performs light human-like activity while
+ * polling — matching the strategy used by cf-clearance-scraper.
+ */
+export async function waitForUam(
+	page: Page,
+	options: UamOptions = {},
+): Promise<UamResult> {
+	const timeout = options.timeout ?? 30000;
+	const start = Date.now();
+	let challenged = false;
+	let consecutiveMisses = 0;
+
+	while (Date.now() - start < timeout && !page.isClosed()) {
+		const cookie = await cookieValue(page, "cf_clearance");
+
+		// Cookie present — done
+		if (cookie) {
+			return { challenged, bypassed: true, cookie };
+		}
+
+		// Detect whether we're currently on a challenge page
+		const challenging = await isChallenge(page);
+		if (challenging) {
+			challenged = true;
+			// Give the external assist callback a chance to interact
+			if (options.assist) {
+				const acted = await options.assist(page).catch(() => false);
+				if (acted) {
+					consecutiveMisses = 0;
+					await sleep(2000);
+					continue;
+				}
+			}
+			// Light human activity while waiting for the JS challenge to complete
+			try {
+				await humanActivity(page, 0.5);
+			} catch {
+				await sleep(500);
+			}
+			await sleep(1500);
+			continue;
+		}
+
+		// Not challenged but no cookie yet — could be mid-navigation or still loading
+		if (!challenged) {
+			return { challenged: false, bypassed: false, cookie: null };
+		}
+
+		// Challenged before but cookie still missing after repeated polls
+		consecutiveMisses++;
+		if (consecutiveMisses > 8) {
+			return { challenged: true, bypassed: true, cookie: null };
+		}
+		await sleep(1000);
+	}
+
+	return { challenged, bypassed: false, cookie: null };
+}
+
+// --- Watcher -----------------------------------------------------------------
+
+async function runWait(
+	page: Page,
+	options: UamOptions,
+): Promise<UamResult | undefined> {
+	if (BUSY.has(page)) return undefined;
+	BUSY.add(page);
+	try {
+		return await waitForUam(page, options);
+	} finally {
+		BUSY.delete(page);
+	}
+}
+
+export function watchUam(page: Page, options: UamOptions = {}): void {
+	if (WATCHED.has(page)) return;
+	WATCHED.add(page);
+
+	const interval = options.interval ?? 1500;
+	const timeout = options.timeout ?? 30000;
+	const waitOnGoto = options.waitOnGoto ?? true;
+
+	if (waitOnGoto) {
+		const originalGoto = page.goto.bind(page);
+		page.goto = (async (...args: Parameters<Page["goto"]>) => {
+			const response = await originalGoto(...args);
+			const began = Date.now();
+			while (BUSY.has(page) && Date.now() - began < timeout) {
+				await sleep(200);
+			}
+			await runWait(page, options).catch(() => undefined);
+			return response;
+		}) as Page["goto"];
+	}
+
+	let active = true;
+	page.on("close", () => {
+		active = false;
+	});
+
+	const loop = async () => {
+		while (active && !page.isClosed()) {
+			try {
+				if (!BUSY.has(page) && (await isChallenge(page))) {
+					await runWait(page, options);
+				}
+			} catch {
+				await sleep(500);
+			}
+			await sleep(interval);
+		}
+	};
+
+	void loop();
+}
+
+export function attachUam<T extends Browser | BrowserContext>(
+	target: T,
+	options: UamOptions = {},
+): T {
+	return onEachPage(target, (page) => watchUam(page, options));
+}

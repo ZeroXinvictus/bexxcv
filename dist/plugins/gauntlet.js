@@ -1,1 +1,125 @@
-aW1wb3J0IHsgc2xlZXAgfSBmcm9tICIuLi9yYW5kb20uanMiOwppbXBvcnQgeyBjcmVhdGVDbGlja2VyLCBmaW5kV2lkZ2V0cywgc29sdmVUdXJuc3RpbGUgfSBmcm9tICIuLi90dXJuc3RpbGUuanMiOwppbXBvcnQgeyBodW1hbkFjdGl2aXR5LCBpc0NoYWxsZW5nZSwgd2FpdEZvclVhbSwgfSBmcm9tICIuLi91YW0uanMiOwpjb25zdCBSRVNVTFRTID0gbmV3IFdlYWtNYXAoKTsKY29uc3QgV1JBUFBFRCA9IG5ldyBXZWFrU2V0KCk7CmNvbnN0IFJVTk5JTkcgPSBuZXcgV2Vha1NldCgpOwpleHBvcnQgZnVuY3Rpb24gZ2F1bnRsZXRSZXN1bHQocGFnZSkgewogICAgcmV0dXJuIFJFU1VMVFMuZ2V0KHBhZ2UpID8/IG51bGw7Cn0KYXN5bmMgZnVuY3Rpb24gd2lkZ2V0UGVuZGluZyhwYWdlKSB7CiAgICB0cnkgewogICAgICAgIGNvbnN0IHdpZGdldHMgPSBhd2FpdCBmaW5kV2lkZ2V0cyhwYWdlKTsKICAgICAgICByZXR1cm4gd2lkZ2V0cy5zb21lKCh3aWRnZXQpID0+ICF3aWRnZXQuc29sdmVkKTsKICAgIH0KICAgIGNhdGNoIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cn0KYXN5bmMgZnVuY3Rpb24gc3VzdGFpbihwYWdlLCBtcykgewogICAgY29uc3QgZW5kID0gRGF0ZS5ub3coKSArIG1zOwogICAgd2hpbGUgKERhdGUubm93KCkgPCBlbmQgJiYgIXBhZ2UuaXNDbG9zZWQoKSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGF3YWl0IGh1bWFuQWN0aXZpdHkocGFnZSk7CiAgICAgICAgfQogICAgICAgIGNhdGNoIHsKICAgICAgICAgICAgYXdhaXQgc2xlZXAoNTAwKTsKICAgICAgICB9CiAgICB9Cn0KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJ1bkdhdW50bGV0KHBhZ2UsIG9wdGlvbnMgPSB7fSkgewogICAgY29uc3Qgc29sdmUgPSBvcHRpb25zLnNvbHZlID8/IFsidWFtIiwgInR1cm5zdGlsZSJdOwogICAgY29uc3QgbWF4VHJpZXMgPSBvcHRpb25zLm1heFRyaWVzID8/IDM7CiAgICBjb25zdCB0aW1lb3V0ID0gb3B0aW9ucy50aW1lb3V0ID8/IDMwMDAwOwogICAgY29uc3QgcmVzdWx0ID0geyBwYXNzZWQ6IGZhbHNlLCB0cmllczogMCwgdWFtOiBudWxsLCB0dXJuc3RpbGU6IG51bGwgfTsKICAgIGNvbnN0IHdhbnRzVHVybnN0aWxlID0gc29sdmUuaW5jbHVkZXMoInR1cm5zdGlsZSIpOwogICAgY29uc3Qgc3RhcnRBdHRlbXB0ID0gRGF0ZS5ub3coKTsKICAgIGZvciAobGV0IGF0dGVtcHQgPSAxOyBhdHRlbXB0IDw9IG1heFRyaWVzICYmICFwYWdlLmlzQ2xvc2VkKCk7IGF0dGVtcHQrKykgewogICAgICAgIHJlc3VsdC50cmllcyA9IGF0dGVtcHQ7CiAgICAgICAgZm9yIChjb25zdCBzdGFnZSBvZiBzb2x2ZSkgewogICAgICAgICAgICBpZiAoc3RhZ2UgPT09ICJ1YW0iKSB7CiAgICAgICAgICAgICAgICBjb25zdCBjbGlja2VyID0gd2FudHNUdXJuc3RpbGUgPyBjcmVhdGVDbGlja2VyKCkgOiB1bmRlZmluZWQ7CiAgICAgICAgICAgICAgICByZXN1bHQudWFtID0gYXdhaXQgd2FpdEZvclVhbShwYWdlLCB7IHRpbWVvdXQsIGFzc2lzdDogY2xpY2tlciB9KTsKICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlIGlmIChzdGFnZSA9PT0gInR1cm5zdGlsZSIpIHsKICAgICAgICAgICAgICAgIGNvbnN0IHRva2VuID0gYXdhaXQgc29sdmVUdXJuc3RpbGUocGFnZSwgdGltZW91dCk7CiAgICAgICAgICAgICAgICBpZiAodG9rZW4pCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0LnR1cm5zdGlsZSA9IHRva2VuOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIGNvbnN0IHN0aWxsQ2hhbGxlbmdlZCA9IGF3YWl0IGlzQ2hhbGxlbmdlKHBhZ2UpOwogICAgICAgIGNvbnN0IG1pc3NpbmdUb2tlbiA9IHdhbnRzVHVybnN0aWxlICYmICFyZXN1bHQudHVybnN0aWxlICYmIChhd2FpdCB3aWRnZXRQZW5kaW5nKHBhZ2UpKTsKICAgICAgICBpZiAoIXN0aWxsQ2hhbGxlbmdlZCAmJiAhbWlzc2luZ1Rva2VuKSB7CiAgICAgICAgICAgIHJlc3VsdC5wYXNzZWQgPSB0cnVlOwogICAgICAgICAgICBicmVhazsKICAgICAgICB9CiAgICAgICAgYXdhaXQgc2xlZXAoMTUwMCk7CiAgICB9CiAgICBpZiAocmVzdWx0LnBhc3NlZCAmJiBvcHRpb25zLnN1c3RhaW4gJiYgb3B0aW9ucy5zdXN0YWluID4gMCkgewogICAgICAgIGF3YWl0IHN1c3RhaW4ocGFnZSwgb3B0aW9ucy5zdXN0YWluKTsKICAgIH0KICAgIHJldHVybiByZXN1bHQ7Cn0KYXN5bmMgZnVuY3Rpb24gcnVuR3VhcmRlZChwYWdlLCBvcHRpb25zLCB3YWl0SWZCdXN5KSB7CiAgICBpZiAoUlVOTklORy5oYXMocGFnZSkpIHsKICAgICAgICBpZiAoIXdhaXRJZkJ1c3kpCiAgICAgICAgICAgIHJldHVybjsKICAgICAgICBjb25zdCBsaW1pdCA9IERhdGUubm93KCkgKyAob3B0aW9ucy50aW1lb3V0ID8/IDMwMDAwKSAqIChvcHRpb25zLm1heFRyaWVzID8/IDMpOwogICAgICAgIHdoaWxlIChSVU5OSU5HLmhhcyhwYWdlKSAmJiBEYXRlLm5vdygpIDwgbGltaXQpCiAgICAgICAgICAgIGF3YWl0IHNsZWVwKDIwMCk7CiAgICAgICAgcmV0dXJuOwogICAgfQogICAgUlVOTklORy5hZGQocGFnZSk7CiAgICB0cnkgewogICAgICAgIFJFU1VMVFMuc2V0KHBhZ2UsIGF3YWl0IHJ1bkdhdW50bGV0KHBhZ2UsIG9wdGlvbnMpKTsKICAgIH0KICAgIGNhdGNoIChlcnJvcikgewogICAgICAgIGNvbnNvbGUud2FybihgW2JleHhjdl0gZ2F1bnRsZXQgZmFpbGVkOiAke2Vycm9yLm1lc3NhZ2V9YCk7CiAgICB9CiAgICBmaW5hbGx5IHsKICAgICAgICBSVU5OSU5HLmRlbGV0ZShwYWdlKTsKICAgIH0KfQpleHBvcnQgZnVuY3Rpb24gZ2F1bnRsZXQob3B0aW9ucyA9IHt9KSB7CiAgICByZXR1cm4gewogICAgICAgIG5hbWU6ICJnYXVudGxldCIsCiAgICAgICAgb3JkZXI6IDUwLAogICAgICAgIG9uUGFnZShwYWdlKSB7CiAgICAgICAgICAgIGlmIChXUkFQUEVELmhhcyhwYWdlKSkKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgV1JBUFBFRC5hZGQocGFnZSk7CiAgICAgICAgICAgIGNvbnN0IG9yaWdpbmFsR290byA9IHBhZ2UuZ290by5iaW5kKHBhZ2UpOwogICAgICAgICAgICBwYWdlLmdvdG8gPSAoYXN5bmMgKC4uLmFyZ3MpID0+IHsKICAgICAgICAgICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgb3JpZ2luYWxHb3RvKC4uLmFyZ3MpOwogICAgICAgICAgICAgICAgYXdhaXQgcnVuR3VhcmRlZChwYWdlLCBvcHRpb25zLCB0cnVlKTsKICAgICAgICAgICAgICAgIHJldHVybiByZXNwb25zZTsKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIGlmIChvcHRpb25zLndhdGNoID09PSBmYWxzZSkKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgbGV0IGFjdGl2ZSA9IHRydWU7CiAgICAgICAgICAgIHBhZ2Uub24oImNsb3NlIiwgKCkgPT4gewogICAgICAgICAgICAgICAgYWN0aXZlID0gZmFsc2U7CiAgICAgICAgICAgIH0pOwogICAgICAgICAgICBjb25zdCBpbnRlcnZhbCA9IG9wdGlvbnMuaW50ZXJ2YWwgPz8gMTUwMDsKICAgICAgICAgICAgY29uc3QgbWF4UnVudGltZU1zID0gb3B0aW9ucy5tYXhSdW50aW1lID8/IDYwMF8wMDA7CiAgICAgICAgICAgIGNvbnN0IHJ1bnRpbWVTdGFydCA9IERhdGUubm93KCk7CiAgICAgICAgICAgIHZvaWQgKGFzeW5jICgpID0+IHsKICAgICAgICAgICAgICAgIHdoaWxlIChhY3RpdmUgJiYgIXBhZ2UuaXNDbG9zZWQoKSkgewogICAgICAgICAgICAgICAgICAgIGlmIChEYXRlLm5vdygpIC0gcnVudGltZVN0YXJ0ID49IG1heFJ1bnRpbWVNcykgewogICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLndhcm4oIltiZXh4Y3ZdIGdhdW50bGV0OiBiYWNrZ3JvdW5kIHdhdGNoZXIgcmVhY2hlZCBtYXhSdW50aW1lLCBzdG9wcGluZyIpOwogICAgICAgICAgICAgICAgICAgICAgICBicmVhazsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKCFSVU5OSU5HLmhhcyhwYWdlKSAmJiAoYXdhaXQgaXNDaGFsbGVuZ2UocGFnZSkpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhd2FpdCBydW5HdWFyZGVkKHBhZ2UsIG9wdGlvbnMsIGZhbHNlKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBjYXRjaCB7CiAgICAgICAgICAgICAgICAgICAgICAgIGF3YWl0IHNsZWVwKDUwMCk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGF3YWl0IHNsZWVwKGludGVydmFsKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSkoKTsKICAgICAgICB9LAogICAgfTsKfQo=
+import { sleep } from "../random.js";
+import { createClicker, findWidgets, solveTurnstile } from "../turnstile.js";
+import { humanActivity, isChallenge, waitForUam, } from "../uam.js";
+const RESULTS = new WeakMap();
+const WRAPPED = new WeakSet();
+const RUNNING = new WeakSet();
+export function gauntletResult(page) {
+    return RESULTS.get(page) ?? null;
+}
+async function widgetPending(page) {
+    try {
+        const widgets = await findWidgets(page);
+        return widgets.some((widget) => !widget.solved);
+    }
+    catch {
+        return false;
+    }
+}
+async function sustain(page, ms) {
+    const end = Date.now() + ms;
+    while (Date.now() < end && !page.isClosed()) {
+        try {
+            await humanActivity(page);
+        }
+        catch {
+            await sleep(500);
+        }
+    }
+}
+export async function runGauntlet(page, options = {}) {
+    const solve = options.solve ?? ["uam", "turnstile"];
+    const maxTries = options.maxTries ?? 3;
+    const timeout = options.timeout ?? 30000;
+    const result = { passed: false, tries: 0, uam: null, turnstile: null };
+    const wantsTurnstile = solve.includes("turnstile");
+    const startAttempt = Date.now();
+    for (let attempt = 1; attempt <= maxTries && !page.isClosed(); attempt++) {
+        result.tries = attempt;
+        for (const stage of solve) {
+            if (stage === "uam") {
+                const clicker = wantsTurnstile ? createClicker() : undefined;
+                result.uam = await waitForUam(page, { timeout, assist: clicker });
+            }
+            else if (stage === "turnstile") {
+                const token = await solveTurnstile(page, timeout);
+                if (token)
+                    result.turnstile = token;
+            }
+        }
+        const stillChallenged = await isChallenge(page);
+        const missingToken = wantsTurnstile && !result.turnstile && (await widgetPending(page));
+        if (!stillChallenged && !missingToken) {
+            result.passed = true;
+            break;
+        }
+        await sleep(1500);
+    }
+    if (result.passed && options.sustain && options.sustain > 0) {
+        await sustain(page, options.sustain);
+    }
+    return result;
+}
+async function runGuarded(page, options, waitIfBusy) {
+    if (RUNNING.has(page)) {
+        if (!waitIfBusy)
+            return;
+        const limit = Date.now() + (options.timeout ?? 30000) * (options.maxTries ?? 3);
+        while (RUNNING.has(page) && Date.now() < limit)
+            await sleep(200);
+        return;
+    }
+    RUNNING.add(page);
+    try {
+        RESULTS.set(page, await runGauntlet(page, options));
+    }
+    catch (error) {
+        console.warn(`[bexxcv] gauntlet failed: ${error.message}`);
+    }
+    finally {
+        RUNNING.delete(page);
+    }
+}
+export function gauntlet(options = {}) {
+    return {
+        name: "gauntlet",
+        order: 50,
+        onPage(page) {
+            if (WRAPPED.has(page))
+                return;
+            WRAPPED.add(page);
+            const originalGoto = page.goto.bind(page);
+            page.goto = (async (...args) => {
+                const response = await originalGoto(...args);
+                await runGuarded(page, options, true);
+                return response;
+            });
+            if (options.watch === false)
+                return;
+            let active = true;
+            page.on("close", () => {
+                active = false;
+            });
+            const interval = options.interval ?? 1500;
+            const maxRuntimeMs = options.maxRuntime ?? 600_000;
+            const runtimeStart = Date.now();
+            void (async () => {
+                while (active && !page.isClosed()) {
+                    if (Date.now() - runtimeStart >= maxRuntimeMs) {
+                        console.warn("[bexxcv] gauntlet: background watcher reached maxRuntime, stopping");
+                        break;
+                    }
+                    try {
+                        if (!RUNNING.has(page) && (await isChallenge(page))) {
+                            await runGuarded(page, options, false);
+                        }
+                    }
+                    catch {
+                        await sleep(500);
+                    }
+                    await sleep(interval);
+                }
+            })();
+        },
+    };
+}

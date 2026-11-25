@@ -1,1 +1,26 @@
-aW1wb3J0IHR5cGUgeyBQYWdlIH0gZnJvbSAicGxheXdyaWdodC1jb3JlIjsKZXhwb3J0IGludGVyZmFjZSBTZXNzaW9uT3B0aW9ucyB7CiAgICB0aW1lb3V0PzogbnVtYmVyOwogICAgbWF4UGFnZXM/OiBudW1iZXI7CiAgICBzZWVkTGVuZ3RoPzogbnVtYmVyOwp9CmludGVyZmFjZSBTZXNzaW9uU3RhdGUgewogICAgY3JlYXRlZEF0OiBudW1iZXI7CiAgICBwYWdlQ291bnQ6IG51bWJlcjsKICAgIHNlZWRCdWZmZXI6IFVpbnQ4QXJyYXk7Cn0KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gZ2V0U2Vzc2lvbklkKHBhZ2U6IFBhZ2UpOiBzdHJpbmcgfCBudWxsOwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBpbml0U2Vzc2lvbihwYWdlOiBQYWdlLCBvcHRpb25zPzogU2Vzc2lvbk9wdGlvbnMpOiBzdHJpbmc7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGdldFNlc3Npb24oc3RhdGU6IFNlc3Npb25TdGF0ZSk6IHsKICAgIHNlZWQ6IFVpbnQ4QXJyYXk7CiAgICBub3c6IG51bWJlcjsKICAgIGVsYXBzZWRNczogbnVtYmVyOwogICAgcGFnZUluZGV4OiBudW1iZXI7Cn07CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGdldFNlZWRlZEZsb2F0KHN0YXRlOiBTZXNzaW9uU3RhdGUsIGluZGV4OiBudW1iZXIpOiBudW1iZXI7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGdldFNlZWRlZEludChzdGF0ZTogU2Vzc2lvblN0YXRlLCBpbmRleDogbnVtYmVyLCBtaW46IG51bWJlciwgbWF4OiBudW1iZXIpOiBudW1iZXI7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGdldFNlZWRlZEdhdXNzKHN0YXRlOiBTZXNzaW9uU3RhdGUsIGluZGV4OiBudW1iZXIsIG1lYW46IG51bWJlciwgc2Q6IG51bWJlcik6IG51bWJlcjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gYWR2YW5jZVBhZ2UocGFnZTogUGFnZSk6IHZvaWQ7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGVuZFNlc3Npb24ocGFnZTogUGFnZSk6IHZvaWQ7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGlzU2Vzc2lvbkV4cGlyZWQocGFnZTogUGFnZSwgdGltZW91dE1zPzogbnVtYmVyKTogYm9vbGVhbjsKZXhwb3J0IHt9Owo=
+import type { Page } from "playwright-core";
+export interface SessionOptions {
+    timeout?: number;
+    maxPages?: number;
+    seedLength?: number;
+}
+interface SessionState {
+    createdAt: number;
+    pageCount: number;
+    seedBuffer: Uint8Array;
+}
+export declare function getSessionId(page: Page): string | null;
+export declare function initSession(page: Page, options?: SessionOptions): string;
+export declare function getSession(state: SessionState): {
+    seed: Uint8Array;
+    now: number;
+    elapsedMs: number;
+    pageIndex: number;
+};
+export declare function getSeededFloat(state: SessionState, index: number): number;
+export declare function getSeededInt(state: SessionState, index: number, min: number, max: number): number;
+export declare function getSeededGauss(state: SessionState, index: number, mean: number, sd: number): number;
+export declare function advancePage(page: Page): void;
+export declare function endSession(page: Page): void;
+export declare function isSessionExpired(page: Page, timeoutMs?: number): boolean;
+export {};

@@ -1,1 +1,21 @@
-aW1wb3J0IHR5cGUgeyBCcm93c2VyLCBCcm93c2VyQ29udGV4dCwgUGFnZSB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmV4cG9ydCBpbnRlcmZhY2UgVHVybnN0aWxlT3B0aW9ucyB7CiAgICAvKiogUG9sbGluZyBpbnRlcnZhbCBmb3IgY2hlY2tpbmcgd2lkZ2V0IHN0YXRlIChtcykuICovCiAgICBpbnRlcnZhbD86IG51bWJlcjsKICAgIC8qKiBNaW5pbXVtIHRpbWUgYmV0d2VlbiByZXBlYXRlZCBjbGlja3Mgb24gdGhlIHNhbWUgd2lkZ2V0IChtcykuICovCiAgICByZXRyeUFmdGVyPzogbnVtYmVyOwp9CmV4cG9ydCBpbnRlcmZhY2UgV2lkZ2V0IHsKICAgIHg6IG51bWJlcjsKICAgIHk6IG51bWJlcjsKICAgIHc6IG51bWJlcjsKICAgIGg6IG51bWJlcjsKICAgIHNvbHZlZDogYm9vbGVhbjsKICAgIGtleTogc3RyaW5nOwp9CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGZpbmRXaWRnZXRzKHBhZ2U6IFBhZ2UpOiBQcm9taXNlPFdpZGdldFtdPjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gcmVhZFR1cm5zdGlsZVRva2VuKHBhZ2U6IFBhZ2UpOiBQcm9taXNlPHN0cmluZyB8IG51bGw+OwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBjcmVhdGVDbGlja2VyKHJldHJ5QWZ0ZXI/OiBudW1iZXIpOiAocGFnZTogUGFnZSkgPT4gUHJvbWlzZTxib29sZWFuPjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gc29sdmVUdXJuc3RpbGUocGFnZTogUGFnZSwgdGltZW91dD86IG51bWJlciwgaWRsZUNoZWNrcz86IG51bWJlciwgcmV0cnlBZnRlcj86IG51bWJlcik6IFByb21pc2U8c3RyaW5nIHwgbnVsbD47CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHdhdGNoVHVybnN0aWxlKHBhZ2U6IFBhZ2UsIG9wdGlvbnM/OiBUdXJuc3RpbGVPcHRpb25zKTogdm9pZDsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gYXR0YWNoVHVybnN0aWxlPFQgZXh0ZW5kcyBCcm93c2VyIHwgQnJvd3NlckNvbnRleHQ+KHRhcmdldDogVCwgb3B0aW9ucz86IFR1cm5zdGlsZU9wdGlvbnMpOiBUOwo=
+import type { Browser, BrowserContext, Page } from "playwright-core";
+export interface TurnstileOptions {
+    /** Polling interval for checking widget state (ms). */
+    interval?: number;
+    /** Minimum time between repeated clicks on the same widget (ms). */
+    retryAfter?: number;
+}
+export interface Widget {
+    x: number;
+    y: number;
+    w: number;
+    h: number;
+    solved: boolean;
+    key: string;
+}
+export declare function findWidgets(page: Page): Promise<Widget[]>;
+export declare function readTurnstileToken(page: Page): Promise<string | null>;
+export declare function createClicker(retryAfter?: number): (page: Page) => Promise<boolean>;
+export declare function solveTurnstile(page: Page, timeout?: number, idleChecks?: number, retryAfter?: number): Promise<string | null>;
+export declare function watchTurnstile(page: Page, options?: TurnstileOptions): void;
+export declare function attachTurnstile<T extends Browser | BrowserContext>(target: T, options?: TurnstileOptions): T;

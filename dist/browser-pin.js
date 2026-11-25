@@ -1,1 +1,34 @@
-aW1wb3J0ICogYXMgZnMgZnJvbSAibm9kZTpmcyI7CmltcG9ydCAqIGFzIHBhdGggZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKY29uc3QgY3VycmVudERpciA9IGltcG9ydC5tZXRhLmRpcm5hbWUgPz8gcGF0aC5kaXJuYW1lKGZpbGVVUkxUb1BhdGgoaW1wb3J0Lm1ldGEudXJsKSk7CmV4cG9ydCBjb25zdCBQSU5fRklMRSA9IHBhdGguam9pbihjdXJyZW50RGlyLCAiZGF0YS1maWxlcyIsICJicm93c2VyLXBpbi5qc29uIik7CmV4cG9ydCBmdW5jdGlvbiBwaW5TcGVjKHBpbikgewogICAgcmV0dXJuIGAke3Bpbi52ZXJzaW9ufS0ke3Bpbi5idWlsZH1gOwp9CmV4cG9ydCBmdW5jdGlvbiBsb2FkUGluKGZpbGUgPSBQSU5fRklMRSkgewogICAgbGV0IGRhdGE7CiAgICB0cnkgewogICAgICAgIGRhdGEgPSBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyhmaWxlLCAidXRmLTgiKSk7CiAgICB9CiAgICBjYXRjaCB7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9CiAgICBpZiAoIWRhdGE/LnRhZykKICAgICAgICByZXR1cm4gbnVsbDsKICAgIHJldHVybiB7CiAgICAgICAgdGFnOiBkYXRhLnRhZywKICAgICAgICByZXBvOiBTdHJpbmcoZGF0YS5yZXBvKSwKICAgICAgICByZXBvTmFtZTogU3RyaW5nKGRhdGEucmVwb19uYW1lKS50b0xvd2VyQ2FzZSgpLAogICAgICAgIHZlcnNpb246IFN0cmluZyhkYXRhLnZlcnNpb24pLAogICAgICAgIGJ1aWxkOiBTdHJpbmcoZGF0YS5idWlsZCksCiAgICB9Owp9CmV4cG9ydCBmdW5jdGlvbiBlZmZlY3RpdmVQaW4oY29uZmlnKSB7CiAgICByZXR1cm4gY29uZmlnLmNoYW5uZWwgfHwgY29uZmlnLnBpbm5lZCA/IG51bGwgOiBsb2FkUGluKCk7Cn0KZXhwb3J0IGZ1bmN0aW9uIHBpbk1hdGNoZXMocGluLCByZXBvTmFtZSwgdmVyc2lvbiwgYnVpbGQpIHsKICAgIHJldHVybiAocmVwb05hbWUudG9Mb3dlckNhc2UoKSA9PT0gcGluLnJlcG9OYW1lICYmCiAgICAgICAgdmVyc2lvbiA9PT0gcGluLnZlcnNpb24gJiYKICAgICAgICBidWlsZCA9PT0gcGluLmJ1aWxkKTsKfQo=
+import * as fs from "node:fs";
+import * as path from "node:path";
+import { fileURLToPath } from "node:url";
+const currentDir = import.meta.dirname ?? path.dirname(fileURLToPath(import.meta.url));
+export const PIN_FILE = path.join(currentDir, "data-files", "browser-pin.json");
+export function pinSpec(pin) {
+    return `${pin.version}-${pin.build}`;
+}
+export function loadPin(file = PIN_FILE) {
+    let data;
+    try {
+        data = JSON.parse(fs.readFileSync(file, "utf-8"));
+    }
+    catch {
+        return null;
+    }
+    if (!data?.tag)
+        return null;
+    return {
+        tag: data.tag,
+        repo: String(data.repo),
+        repoName: String(data.repo_name).toLowerCase(),
+        version: String(data.version),
+        build: String(data.build),
+    };
+}
+export function effectivePin(config) {
+    return config.channel || config.pinned ? null : loadPin();
+}
+export function pinMatches(pin, repoName, version, build) {
+    return (repoName.toLowerCase() === pin.repoName &&
+        version === pin.version &&
+        build === pin.build);
+}

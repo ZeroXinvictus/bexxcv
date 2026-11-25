@@ -1,1 +1,3 @@
-aW1wb3J0IHsgdHlwZSBCcm93c2VyU2VydmVyIH0gZnJvbSAicGxheXdyaWdodC1jb3JlIjsKaW1wb3J0IHsgdHlwZSBMYXVuY2hPcHRpb25zIH0gZnJvbSAiLi91dGlscy5qcyI7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGxhdW5jaFNlcnZlcihvcHRpb25zOiBMYXVuY2hPcHRpb25zKTogUHJvbWlzZTxCcm93c2VyU2VydmVyPjsK
+import { type BrowserServer } from "playwright-core";
+import { type LaunchOptions } from "./utils.js";
+export declare function launchServer(options: LaunchOptions): Promise<BrowserServer>;

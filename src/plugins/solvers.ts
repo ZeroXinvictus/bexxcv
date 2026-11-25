@@ -1,1 +1,19 @@
-aW1wb3J0IHsgdHlwZSBUdXJuc3RpbGVPcHRpb25zLCB3YXRjaFR1cm5zdGlsZSB9IGZyb20gIi4uL3R1cm5zdGlsZS5qcyI7CmltcG9ydCB7IHR5cGUgVWFtT3B0aW9ucywgd2F0Y2hVYW0gfSBmcm9tICIuLi91YW0uanMiOwppbXBvcnQgdHlwZSB7IEJleHhjdlBsdWdpbiB9IGZyb20gIi4vdHlwZXMuanMiOwoKZXhwb3J0IGZ1bmN0aW9uIHR1cm5zdGlsZShvcHRpb25zOiBUdXJuc3RpbGVPcHRpb25zID0ge30pOiBCZXh4Y3ZQbHVnaW4gewoJcmV0dXJuIHsKCQluYW1lOiAidHVybnN0aWxlIiwKCQlvcmRlcjogNDUsCgkJb25QYWdlOiAocGFnZSkgPT4gd2F0Y2hUdXJuc3RpbGUocGFnZSwgb3B0aW9ucyksCgl9Owp9CgpleHBvcnQgZnVuY3Rpb24gdWFtKG9wdGlvbnM6IFVhbU9wdGlvbnMgPSB7fSk6IEJleHhjdlBsdWdpbiB7CglyZXR1cm4gewoJCW5hbWU6ICJ1YW0iLAoJCW9yZGVyOiA0NSwKCQlvblBhZ2U6IChwYWdlKSA9PiB3YXRjaFVhbShwYWdlLCBvcHRpb25zKSwKCX07Cn0K
+import { type TurnstileOptions, watchTurnstile } from "../turnstile.js";
+import { type UamOptions, watchUam } from "../uam.js";
+import type { BexxcvPlugin } from "./types.js";
+
+export function turnstile(options: TurnstileOptions = {}): BexxcvPlugin {
+	return {
+		name: "turnstile",
+		order: 45,
+		onPage: (page) => watchTurnstile(page, options),
+	};
+}
+
+export function uam(options: UamOptions = {}): BexxcvPlugin {
+	return {
+		name: "uam",
+		order: 45,
+		onPage: (page) => watchUam(page, options),
+	};
+}

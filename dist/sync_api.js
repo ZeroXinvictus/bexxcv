@@ -1,1 +1,83 @@
-aW1wb3J0IHsgZmlyZWZveCwgfSBmcm9tICJwbGF5d3JpZ2h0LWNvcmUiOwppbXBvcnQgeyBhdHRhY2hOb1ZpZXdwb3J0RGVmYXVsdCwgbGF1bmNoT3B0aW9ucywgc3Bvb2ZzV2luZG93RGltZW5zaW9ucywgc3luY0F0dGFjaFZELCB9IGZyb20gIi4vdXRpbHMuanMiOwppbXBvcnQgeyB3YXJuSWZEYXRhU3RhbGUgfSBmcm9tICIuL2RvY3Rvci5qcyI7CmltcG9ydCB7IHZhbGlkYXRlT3B0aW9ucyB9IGZyb20gIi4vc2NoZW1hLmpzIjsKaW1wb3J0IHsgYXR0YWNoVHVybnN0aWxlIH0gZnJvbSAiLi90dXJuc3RpbGUuanMiOwppbXBvcnQgeyBhcHBseVBsdWdpbnMsIGJ1aWxkUGx1Z2lucywgcnVuQmVmb3JlTGF1bmNoLCBzdHJpcFBsdWdpbk9wdGlvbnMsIH0gZnJvbSAiLi9wbHVnaW5zL2luZGV4LmpzIjsKaW1wb3J0IHsgYXR0YWNoVWFtIH0gZnJvbSAiLi91YW0uanMiOwppbXBvcnQgeyBWaXJ0dWFsRGlzcGxheSB9IGZyb20gIi4vdmlydGRpc3BsYXkuanMiOwppbXBvcnQgeyBuZWVkc1h2ZmIgfSBmcm9tICIuL3h2ZmIuanMiOwpmdW5jdGlvbiBhcHBseVByZXNldChvcHRpb25zKSB7CiAgICBpZiAob3B0aW9ucy5wcmVzZXQgIT09ICJyZWFsaXN0aWMiKQogICAgICAgIHJldHVybiBvcHRpb25zOwogICAgcmV0dXJuIHsKICAgICAgICAuLi5vcHRpb25zLAogICAgICAgIGh1bWFuaXplOiBvcHRpb25zLmh1bWFuaXplID8/IHRydWUsCiAgICAgICAgZ2VvaXA6IG9wdGlvbnMuZ2VvaXAgPz8gdHJ1ZSwKICAgICAgICBlbmFibGVfY2FjaGU6IG9wdGlvbnMuZW5hYmxlX2NhY2hlID8/IHRydWUsCiAgICAgICAgcmVhbGlzbTogb3B0aW9ucy5yZWFsaXNtID8/IHRydWUsCiAgICB9Owp9CmV4cG9ydCBhc3luYyBmdW5jdGlvbiBCZXh4Y3YobGF1bmNoX29wdGlvbnMgPSB7fSwgZXh0cmFQbHVnaW5zID0gW10pIHsKICAgIHZhbGlkYXRlT3B0aW9ucyhsYXVuY2hfb3B0aW9ucyk7CiAgICB3YXJuSWZEYXRhU3RhbGUoKTsKICAgIGxhdW5jaF9vcHRpb25zID0gYXBwbHlQcmVzZXQobGF1bmNoX29wdGlvbnMpOwogICAgY29uc3QgcGx1Z2luTGlzdCA9IFsKICAgICAgICAuLi5idWlsZFBsdWdpbnMobGF1bmNoX29wdGlvbnMpLAogICAgICAgIC4uLmV4dHJhUGx1Z2lucywKICAgIF07CiAgICBsYXVuY2hfb3B0aW9ucyA9IHsgLi4ubGF1bmNoX29wdGlvbnMgfTsKICAgIGF3YWl0IHJ1bkJlZm9yZUxhdW5jaChwbHVnaW5MaXN0LCBsYXVuY2hfb3B0aW9ucyk7CiAgICBjb25zdCB7IGhlYWRsZXNzLCB1c2VyX2RhdGFfZGlyLCBhdXRvX3h2ZmIgPSB0cnVlLCB0dXJuc3RpbGUgPSBmYWxzZSwgdWFtID0gZmFsc2UsIHByZXNldDogX3ByZXNldCwgLi4ucmVzdE9wdGlvbnMgfSA9IGxhdW5jaF9vcHRpb25zOwogICAgY29uc3Qgb3B0cyA9IHN0cmlwUGx1Z2luT3B0aW9ucyhyZXN0T3B0aW9ucyk7CiAgICBjb25zdCBuZWVkc0Rpc3BsYXkgPSBhdXRvX3h2ZmIgJiYgbmVlZHNYdmZiKCk7CiAgICBjb25zdCBlZmZlY3RpdmVIZWFkbGVzcyA9ICgoKSA9PiB7CiAgICAgICAgaWYgKGhlYWRsZXNzID09PSAidmlydHVhbCIpCiAgICAgICAgICAgIHJldHVybiAidmlydHVhbCI7CiAgICAgICAgaWYgKGhlYWRsZXNzID09PSB0cnVlKQogICAgICAgICAgICByZXR1cm4gdHJ1ZTsKICAgICAgICBpZiAobmVlZHNEaXNwbGF5KQogICAgICAgICAgICByZXR1cm4gInZpcnR1YWwiOwogICAgICAgIHJldHVybiBoZWFkbGVzcyA/PyBmYWxzZTsKICAgIH0pKCk7CiAgICBjb25zdCBsYXVuY2hlZCA9IGF3YWl0IE5ld0Jyb3dzZXIoZmlyZWZveCwgZWZmZWN0aXZlSGVhZGxlc3MsIHt9LCB1c2VyX2RhdGFfZGlyID8/IGZhbHNlLCBmYWxzZSwgb3B0cyk7CiAgICBpZiAodHVybnN0aWxlKSB7CiAgICAgICAgYXR0YWNoVHVybnN0aWxlKGxhdW5jaGVkLCB0dXJuc3RpbGUgPT09IHRydWUgPyB7fSA6IHR1cm5zdGlsZSk7CiAgICB9CiAgICBpZiAodWFtKSB7CiAgICAgICAgYXR0YWNoVWFtKGxhdW5jaGVkLCB1YW0gPT09IHRydWUgPyB7fSA6IHVhbSk7CiAgICB9CiAgICBpZiAocGx1Z2luTGlzdC5sZW5ndGggPiAwKSB7CiAgICAgICAgYXdhaXQgYXBwbHlQbHVnaW5zKGxhdW5jaGVkLCBwbHVnaW5MaXN0KTsKICAgIH0KICAgIHJldHVybiBsYXVuY2hlZDsKfQpleHBvcnQgY29uc3QgQ2Ftb3Vmb3ggPSBCZXh4Y3Y7CmV4cG9ydCBhc3luYyBmdW5jdGlvbiBOZXdCcm93c2VyKHBsYXl3cmlnaHQsIGhlYWRsZXNzID0gZmFsc2UsIGZyb21PcHRpb25zID0ge30sIHVzZXJEYXRhRGlyID0gZmFsc2UsIGRlYnVnID0gZmFsc2UsIGxhdW5jaF9vcHRpb25zID0ge30pIHsKICAgIGxldCB2aXJ0dWFsRGlzcGxheSA9IG51bGw7CiAgICBjb25zdCBub3JtYWxpemVkSGVhZGxlc3MgPSBoZWFkbGVzcyA9PT0gInZpcnR1YWwiID8gZmFsc2UgOiBoZWFkbGVzcyB8fCBmYWxzZTsKICAgIGlmIChoZWFkbGVzcyA9PT0gInZpcnR1YWwiKSB7CiAgICAgICAgdmlydHVhbERpc3BsYXkgPSBuZXcgVmlydHVhbERpc3BsYXkoZGVidWcpOwogICAgICAgIGxhdW5jaF9vcHRpb25zLnZpcnR1YWxfZGlzcGxheSA9IGF3YWl0IHZpcnR1YWxEaXNwbGF5LmdldCgpOwogICAgfQogICAgaWYgKCFmcm9tT3B0aW9ucyB8fCBPYmplY3Qua2V5cyhmcm9tT3B0aW9ucykubGVuZ3RoID09PSAwKSB7CiAgICAgICAgZnJvbU9wdGlvbnMgPSBhd2FpdCBsYXVuY2hPcHRpb25zKHsKICAgICAgICAgICAgZGVidWcsCiAgICAgICAgICAgIC4uLmxhdW5jaF9vcHRpb25zLAogICAgICAgICAgICBoZWFkbGVzczogbm9ybWFsaXplZEhlYWRsZXNzLAogICAgICAgIH0pOwogICAgfQogICAgY29uc3Qgbm9WaWV3cG9ydERlZmF1bHQgPSBzcG9vZnNXaW5kb3dEaW1lbnNpb25zKGZyb21PcHRpb25zKTsKICAgIGlmICh0eXBlb2YgdXNlckRhdGFEaXIgPT09ICJzdHJpbmciKSB7CiAgICAgICAgaWYgKG5vVmlld3BvcnREZWZhdWx0ICYmICEoInZpZXdwb3J0IiBpbiBmcm9tT3B0aW9ucykpIHsKICAgICAgICAgICAgZnJvbU9wdGlvbnMgPSB7IC4uLmZyb21PcHRpb25zLCB2aWV3cG9ydDogbnVsbCB9OwogICAgICAgIH0KICAgICAgICBjb25zdCBjb250ZXh0ID0gYXdhaXQgcGxheXdyaWdodC5sYXVuY2hQZXJzaXN0ZW50Q29udGV4dCh1c2VyRGF0YURpciwgZnJvbU9wdGlvbnMpOwogICAgICAgIHJldHVybiBzeW5jQXR0YWNoVkQoY29udGV4dCwgdmlydHVhbERpc3BsYXkpOwogICAgfQogICAgY29uc3QgYnJvd3NlciA9IGF3YWl0IHBsYXl3cmlnaHQubGF1bmNoKGZyb21PcHRpb25zKTsKICAgIGlmIChub1ZpZXdwb3J0RGVmYXVsdCkgewogICAgICAgIGF0dGFjaE5vVmlld3BvcnREZWZhdWx0KGJyb3dzZXIpOwogICAgfQogICAgcmV0dXJuIHN5bmNBdHRhY2hWRChicm93c2VyLCB2aXJ0dWFsRGlzcGxheSk7Cn0K
+import { firefox, } from "playwright-core";
+import { attachNoViewportDefault, launchOptions, spoofsWindowDimensions, syncAttachVD, } from "./utils.js";
+import { warnIfDataStale } from "./doctor.js";
+import { validateOptions } from "./schema.js";
+import { attachTurnstile } from "./turnstile.js";
+import { applyPlugins, buildPlugins, runBeforeLaunch, stripPluginOptions, } from "./plugins/index.js";
+import { attachUam } from "./uam.js";
+import { VirtualDisplay } from "./virtdisplay.js";
+import { needsXvfb } from "./xvfb.js";
+function applyPreset(options) {
+    if (options.preset !== "realistic")
+        return options;
+    return {
+        ...options,
+        humanize: options.humanize ?? true,
+        geoip: options.geoip ?? true,
+        enable_cache: options.enable_cache ?? true,
+        realism: options.realism ?? true,
+    };
+}
+export async function Bexxcv(launch_options = {}, extraPlugins = []) {
+    validateOptions(launch_options);
+    warnIfDataStale();
+    launch_options = applyPreset(launch_options);
+    const pluginList = [
+        ...buildPlugins(launch_options),
+        ...extraPlugins,
+    ];
+    launch_options = { ...launch_options };
+    await runBeforeLaunch(pluginList, launch_options);
+    const { headless, user_data_dir, auto_xvfb = true, turnstile = false, uam = false, preset: _preset, ...restOptions } = launch_options;
+    const opts = stripPluginOptions(restOptions);
+    const needsDisplay = auto_xvfb && needsXvfb();
+    const effectiveHeadless = (() => {
+        if (headless === "virtual")
+            return "virtual";
+        if (headless === true)
+            return true;
+        if (needsDisplay)
+            return "virtual";
+        return headless ?? false;
+    })();
+    const launched = await NewBrowser(firefox, effectiveHeadless, {}, user_data_dir ?? false, false, opts);
+    if (turnstile) {
+        attachTurnstile(launched, turnstile === true ? {} : turnstile);
+    }
+    if (uam) {
+        attachUam(launched, uam === true ? {} : uam);
+    }
+    if (pluginList.length > 0) {
+        await applyPlugins(launched, pluginList);
+    }
+    return launched;
+}
+export const Camoufox = Bexxcv;
+export async function NewBrowser(playwright, headless = false, fromOptions = {}, userDataDir = false, debug = false, launch_options = {}) {
+    let virtualDisplay = null;
+    const normalizedHeadless = headless === "virtual" ? false : headless || false;
+    if (headless === "virtual") {
+        virtualDisplay = new VirtualDisplay(debug);
+        launch_options.virtual_display = await virtualDisplay.get();
+    }
+    if (!fromOptions || Object.keys(fromOptions).length === 0) {
+        fromOptions = await launchOptions({
+            debug,
+            ...launch_options,
+            headless: normalizedHeadless,
+        });
+    }
+    const noViewportDefault = spoofsWindowDimensions(fromOptions);
+    if (typeof userDataDir === "string") {
+        if (noViewportDefault && !("viewport" in fromOptions)) {
+            fromOptions = { ...fromOptions, viewport: null };
+        }
+        const context = await playwright.launchPersistentContext(userDataDir, fromOptions);
+        return syncAttachVD(context, virtualDisplay);
+    }
+    const browser = await playwright.launch(fromOptions);
+    if (noViewportDefault) {
+        attachNoViewportDefault(browser);
+    }
+    return syncAttachVD(browser, virtualDisplay);
+}

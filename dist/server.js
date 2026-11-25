@@ -1,1 +1,6 @@
-aW1wb3J0IHsgZmlyZWZveCB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB7IGxhdW5jaE9wdGlvbnMgfSBmcm9tICIuL3V0aWxzLmpzIjsKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGxhdW5jaFNlcnZlcihvcHRpb25zKSB7CiAgICBjb25zdCBvcHRzID0gYXdhaXQgbGF1bmNoT3B0aW9ucyh7IC4uLm9wdGlvbnMsIGhlYWRsZXNzOiB0cnVlIH0pOwogICAgcmV0dXJuIGZpcmVmb3gubGF1bmNoU2VydmVyKG9wdHMpOwp9Cg==
+import { firefox } from "playwright-core";
+import { launchOptions } from "./utils.js";
+export async function launchServer(options) {
+    const opts = await launchOptions({ ...options, headless: true });
+    return firefox.launchServer(opts);
+}

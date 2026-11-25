@@ -1,1 +1,23 @@
-aW1wb3J0IHR5cGUgeyBQYWdlIH0gZnJvbSAicGxheXdyaWdodC1jb3JlIjsKaW1wb3J0IHR5cGUgeyBCZXh4Y3ZQbHVnaW4gfSBmcm9tICIuL3R5cGVzLmpzIjsKLyoqCiAqIEhhbmRsZXMgQ2xvdWRmbGFyZSBKYXZhU2NyaXB0IERldGVjdGlvbiAoSlNEKSBjaGFsbGVuZ2VzLgogKgogKiBXaGVuIEpTIERldGVjdGlvbnMgaXMgZW5hYmxlZCwgQ2xvdWRmbGFyZSBpbmplY3RzIGEgc2NyaXB0IHRoYXQgY2FsbHMKICogYHdpbmRvdy5jbG91ZGZsYXJlLmpzZC5leGVjdXRlT25jZSh7IGNhbGxiYWNrKHJlc3VsdCkge30gfSlgLiBUaGUgcmVzdWx0CiAqIG11c3QgYmUgYCJzdWNjZXNzImAgZm9yIHRoZSBjaGFsbGVuZ2UgdG8gcGFzcy4gVGhpcyBwbHVnaW46CiAqICAgMS4gSW5qZWN0cyBhIHNhZmUgd3JhcHBlciB2aWEgYWRkSW5pdFNjcmlwdCBiZWZvcmUgYW55IHBhZ2UgbG9hZAogKiAgIDIuIFBvbGxzIGZvciB0aGUgSlNEIGNhbGxiYWNrIHRvIGZpcmUKICogICAzLiBXYWl0cyB1bnRpbCBjZl9jbGVhcmFuY2UgYXBwZWFycyAoSlNEIGNvbXBsZXRpb24gc2lnbmFsKQogKi8KZXhwb3J0IGludGVyZmFjZSBKc2RPcHRpb25zIHsKICAgIC8qKiBUaW1lb3V0IGZvciB3YWl0aW5nIGZvciBKU0QgY29tcGxldGlvbiBhZnRlciBuYXZpZ2F0aW9uIChtcykuIERlZmF1bHQgMTUgcy4gKi8KICAgIHRpbWVvdXQ/OiBudW1iZXI7CiAgICAvKiogUG9sbCBpbnRlcnZhbCB3aGlsZSB3YWl0aW5nIGZvciB0aGUgSlNEIHJlc3VsdCAobXMpLiBEZWZhdWx0IDUwMC4gKi8KICAgIGludGVydmFsPzogbnVtYmVyOwp9CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGpzZChvcHRpb25zPzogSnNkT3B0aW9ucyk6IEJleHhjdlBsdWdpbjsKLyoqIENoZWNrIHdoZXRoZXIgdGhlIGN1cnJlbnQgcGFnZSBoYXMgcGFzc2VkIGl0cyBKU0QgY2hhbGxlbmdlLiAqLwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBpc0pzZFBhc3NlZChwYWdlOiBQYWdlKTogUHJvbWlzZTxib29sZWFuPjsKLyoqIEF0dGFjaCBKU0QgaGFuZGxpbmcgdG8gYW4gZXhpc3RpbmcgYnJvd3NlciBvciBjb250ZXh0LiAqLwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBhdHRhY2hKc2Q8VCBleHRlbmRzIGltcG9ydCgicGxheXdyaWdodC1jb3JlIikuQnJvd3NlciB8IGltcG9ydCgicGxheXdyaWdodC1jb3JlIikuQnJvd3NlckNvbnRleHQ+KHRhcmdldDogVCwgX29wdGlvbnM/OiBKc2RPcHRpb25zKTogVDsK
+import type { Page } from "playwright-core";
+import type { BexxcvPlugin } from "./types.js";
+/**
+ * Handles Cloudflare JavaScript Detection (JSD) challenges.
+ *
+ * When JS Detections is enabled, Cloudflare injects a script that calls
+ * `window.cloudflare.jsd.executeOnce({ callback(result) {} })`. The result
+ * must be `"success"` for the challenge to pass. This plugin:
+ *   1. Injects a safe wrapper via addInitScript before any page load
+ *   2. Polls for the JSD callback to fire
+ *   3. Waits until cf_clearance appears (JSD completion signal)
+ */
+export interface JsdOptions {
+    /** Timeout for waiting for JSD completion after navigation (ms). Default 15 s. */
+    timeout?: number;
+    /** Poll interval while waiting for the JSD result (ms). Default 500. */
+    interval?: number;
+}
+export declare function jsd(options?: JsdOptions): BexxcvPlugin;
+/** Check whether the current page has passed its JSD challenge. */
+export declare function isJsdPassed(page: Page): Promise<boolean>;
+/** Attach JSD handling to an existing browser or context. */
+export declare function attachJsd<T extends import("playwright-core").Browser | import("playwright-core").BrowserContext>(target: T, _options?: JsdOptions): T;

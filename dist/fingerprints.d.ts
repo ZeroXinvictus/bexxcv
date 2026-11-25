@@ -1,1 +1,30 @@
-aW1wb3J0IHsgdHlwZSBGaW5nZXJwcmludCwgdHlwZSBGaW5nZXJwcmludEdlbmVyYXRvck9wdGlvbnMsIHR5cGUgU2NyZWVuRmluZ2VycHJpbnQgfSBmcm9tICJmaW5nZXJwcmludC1nZW5lcmF0b3IiOwpleHBvcnQgZGVjbGFyZSBjb25zdCBTVVBQT1JURURfT1M6IHJlYWRvbmx5IFsibGludXgiLCAibWFjb3MiLCAid2luZG93cyJdOwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBjcnlwdG9SYW5kSW50KG1pbjogbnVtYmVyLCBtYXg6IG51bWJlcik6IG51bWJlcjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gY3J5cHRvRmxvYXQoKTogbnVtYmVyOwpleHBvcnQgaW50ZXJmYWNlIEV4dGVuZGVkU2NyZWVuIGV4dGVuZHMgU2NyZWVuRmluZ2VycHJpbnQgewogICAgc2NyZWVuWT86IG51bWJlcjsKICAgIGF1ZGlvU2VlZD86IG51bWJlcjsKICAgIGNhbnZhc1NlZWQ/OiBudW1iZXI7CiAgICB3ZWJnbFZlbmRvcj86IHN0cmluZzsKICAgIHdlYmdsUmVuZGVyZXI/OiBzdHJpbmc7CiAgICB3ZWJnbEdMU0w/OiBzdHJpbmc7CiAgICB3ZWJnbEV4dGVuc2lvbnM/OiBzdHJpbmdbXTsKICAgIGZvbnRTcGFjaW5nU2VlZD86IG51bWJlcjsKICAgIHBlcmZKaXR0ZXI/OiBudW1iZXI7CiAgICB0aW1lem9uZU9mZnNldEppdHRlcj86IG51bWJlcjsKICAgIG1lbW9yeU11bHRpcGxpZXI/OiBudW1iZXI7CiAgICBoYXJkd2FyZUNvbmN1cnJlbmN5U2VlZD86IG51bWJlcjsKICAgIHRvdWNoU3VwcG9ydD86IGJvb2xlYW47CiAgICB0b3VjaFBvaW50cz86IG51bWJlcjsKICAgIHBvaW50ZXJUeXBlPzogIm1vdXNlIiB8ICJ0b3VjaCIgfCAicGVuIjsKICAgIG9ubGluZVN0YXRlPzogYm9vbGVhbjsKICAgIHBsYXRmb3JtRGV2aWNlTWVtb3J5PzogbnVtYmVyOwp9CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGdlbmVyYXRlRmluZ2VycHJpbnQod2luZG93PzogW251bWJlciwgbnVtYmVyXSwgY29uZmlnPzogUGFydGlhbDxGaW5nZXJwcmludEdlbmVyYXRvck9wdGlvbnM+KTogRmluZ2VycHJpbnQgJiBFeHRlbmRlZFNjcmVlbjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gZnJvbUJyb3dzZXJmb3JnZShmaW5nZXJwcmludDogRmluZ2VycHJpbnQsIGZmVmVyc2lvbj86IHN0cmluZyk6IFJlY29yZDxzdHJpbmcsIGFueT47Ci8qKgogKiBSZXR1cm5zIGEgcmVhbGlzdGljIGZvbnQgbGlzdCBmb3IgdGhlIGdpdmVuIE9TLgogKiBUaGVzZSBhcmUgYWN0dWFsIHN5c3RlbSBmb250cyB0aGF0IHdvdWxkIGFwcGVhciBvbiB0aGF0IHBsYXRmb3JtLgogKi8KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gZ2V0UmVhbGlzdGljRm9udHMob3M6IHN0cmluZyk6IHN0cmluZ1tdOwo=
+import { type Fingerprint, type FingerprintGeneratorOptions, type ScreenFingerprint } from "fingerprint-generator";
+export declare const SUPPORTED_OS: readonly ["linux", "macos", "windows"];
+export declare function cryptoRandInt(min: number, max: number): number;
+export declare function cryptoFloat(): number;
+export interface ExtendedScreen extends ScreenFingerprint {
+    screenY?: number;
+    audioSeed?: number;
+    canvasSeed?: number;
+    webglVendor?: string;
+    webglRenderer?: string;
+    webglGLSL?: string;
+    webglExtensions?: string[];
+    fontSpacingSeed?: number;
+    perfJitter?: number;
+    timezoneOffsetJitter?: number;
+    memoryMultiplier?: number;
+    hardwareConcurrencySeed?: number;
+    touchSupport?: boolean;
+    touchPoints?: number;
+    pointerType?: "mouse" | "touch" | "pen";
+    onlineState?: boolean;
+    platformDeviceMemory?: number;
+}
+export declare function generateFingerprint(window?: [number, number], config?: Partial<FingerprintGeneratorOptions>): Fingerprint & ExtendedScreen;
+export declare function fromBrowserforge(fingerprint: Fingerprint, ffVersion?: string): Record<string, any>;
+/**
+ * Returns a realistic font list for the given OS.
+ * These are actual system fonts that would appear on that platform.
+ */
+export declare function getRealisticFonts(os: string): string[];

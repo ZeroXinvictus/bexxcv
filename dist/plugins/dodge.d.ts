@@ -1,1 +1,21 @@
-aW1wb3J0IHR5cGUgeyBCZXh4Y3ZQbHVnaW4gfSBmcm9tICIuL3R5cGVzLmpzIjsKZXhwb3J0IGludGVyZmFjZSBEb2RnZU9wdGlvbnMgewogICAgcG9vbDogc3RyaW5nW107CiAgICByb3RhdGVPbj86IG51bWJlcltdOwogICAgaGVhbHRoQ2hlY2s/OiBib29sZWFuOwogICAgaGVhbHRoVGltZW91dD86IG51bWJlcjsKICAgIGNvb2xkb3duPzogbnVtYmVyOwogICAgb25CbG9ja2VkPzogKGluZm86IHsKICAgICAgICBwcm94eTogc3RyaW5nOwogICAgICAgIHN0YXR1czogbnVtYmVyOwogICAgICAgIHVybDogc3RyaW5nOwogICAgfSkgPT4gdm9pZDsKfQp0eXBlIFByb3h5Q29uZmlnID0gewogICAgc2VydmVyOiBzdHJpbmc7CiAgICB1c2VybmFtZT86IHN0cmluZzsKICAgIHBhc3N3b3JkPzogc3RyaW5nOwp9OwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiB0b1Byb3h5Q29uZmlnKHVybDogc3RyaW5nKTogUHJveHlDb25maWc7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGRvZGdlKGlucHV0OiBzdHJpbmdbXSB8IERvZGdlT3B0aW9ucyk6IEJleHhjdlBsdWdpbjsKZXhwb3J0IHt9Owo=
+import type { BexxcvPlugin } from "./types.js";
+export interface DodgeOptions {
+    pool: string[];
+    rotateOn?: number[];
+    healthCheck?: boolean;
+    healthTimeout?: number;
+    cooldown?: number;
+    onBlocked?: (info: {
+        proxy: string;
+        status: number;
+        url: string;
+    }) => void;
+}
+type ProxyConfig = {
+    server: string;
+    username?: string;
+    password?: string;
+};
+export declare function toProxyConfig(url: string): ProxyConfig;
+export declare function dodge(input: string[] | DodgeOptions): BexxcvPlugin;
+export {};

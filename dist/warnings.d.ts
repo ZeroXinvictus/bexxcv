@@ -1,1 +1,4 @@
-ZXhwb3J0IGRlY2xhcmUgY2xhc3MgTGVha1dhcm5pbmcgZXh0ZW5kcyBFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlOiBzdHJpbmcpOwogICAgc3RhdGljIHdhcm4od2FybmluZ0tleTogc3RyaW5nLCBpS25vd1doYXRJbURvaW5nPzogYm9vbGVhbik6IHZvaWQ7Cn0K
+export declare class LeakWarning extends Error {
+    constructor(message: string);
+    static warn(warningKey: string, iKnowWhatImDoing?: boolean): void;
+}

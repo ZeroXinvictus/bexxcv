@@ -1,1 +1,124 @@
-aW1wb3J0IHR5cGUgeyBQYWdlIH0gZnJvbSAicGxheXdyaWdodC1jb3JlIjsKCmV4cG9ydCBpbnRlcmZhY2UgU2Vzc2lvbk9wdGlvbnMgewoJdGltZW91dD86IG51bWJlcjsKCW1heFBhZ2VzPzogbnVtYmVyOwoJc2VlZExlbmd0aD86IG51bWJlcjsKfQoKaW50ZXJmYWNlIFNlc3Npb25TdGF0ZSB7CgljcmVhdGVkQXQ6IG51bWJlcjsKCXBhZ2VDb3VudDogbnVtYmVyOwoJc2VlZEJ1ZmZlcjogVWludDhBcnJheTsKfQoKY29uc3QgU0VTU0lPTlMgPSBuZXcgV2Vha01hcDxQYWdlLCBTZXNzaW9uU3RhdGU+KCk7CmNvbnN0IEFDVElWRV9TRVNTSU9OUyA9IG5ldyBNYXA8c3RyaW5nLCBTZXNzaW9uU3RhdGU+KCk7CgpsZXQgc2Vzc2lvbklkQ291bnRlciA9IDA7CgpmdW5jdGlvbiBnZW5lcmF0ZVNlZWQobGVuZ3RoOiBudW1iZXIpOiBVaW50OEFycmF5IHsKCWNvbnN0IGJ1ZiA9IG5ldyBVaW50OEFycmF5KGxlbmd0aCk7CgljcnlwdG8uZ2V0UmFuZG9tVmFsdWVzKGJ1Zik7CglyZXR1cm4gYnVmOwp9CgpmdW5jdGlvbiBkZXJpdmVCeXRlKHNlZWQ6IFVpbnQ4QXJyYXksIGluZGV4OiBudW1iZXIpOiBudW1iZXIgewoJbGV0IGhhc2ggPSAweDllMzc3OWI5OwoJY29uc3QgZGF0YSA9IG5ldyBVaW50OEFycmF5KHNlZWQubGVuZ3RoICsgNCk7CglkYXRhLnNldChzZWVkKTsKCWNvbnN0IHZpZXcgPSBuZXcgRGF0YVZpZXcoZGF0YS5idWZmZXIpOwoJdmlldy5zZXRVaW50MzIoc2VlZC5sZW5ndGgsIGluZGV4LCBmYWxzZSk7Cglmb3IgKGxldCBpID0gMDsgaSA8IGRhdGEubGVuZ3RoOyBpKyspIHsKCQloYXNoIF49IGRhdGFbaV0hOwoJCWhhc2ggPSAoaGFzaCAqIDB4NWJkMWU5OTUgKyAweDdiNWE5YTdmKSA+Pj4gMDsKCX0KCXJldHVybiBoYXNoID4+PiAwOwp9CgpmdW5jdGlvbiBzZWVkZWRSYW5kb20oc2VlZDogVWludDhBcnJheSwgaW5kZXg6IG51bWJlcik6IG51bWJlciB7Cgljb25zdCB2YWx1ZSA9IGRlcml2ZUJ5dGUoc2VlZCwgaW5kZXgpOwoJcmV0dXJuIHZhbHVlIC8gMHgxMDAwMDAwMDA7Cn0KCmZ1bmN0aW9uIGdhdXNzRnJvbVNlZWQoc2VlZDogVWludDhBcnJheSwgaW5kZXg6IG51bWJlciwgbWVhbjogbnVtYmVyLCBzZDogbnVtYmVyKTogbnVtYmVyIHsKCWNvbnN0IHUxID0gTWF0aC5tYXgoc2VlZGVkUmFuZG9tKHNlZWQsIGluZGV4ICogMiksIDFlLTEwKTsKCWNvbnN0IHUyID0gc2VlZGVkUmFuZG9tKHNlZWQsIGluZGV4ICogMiArIDEpOwoJY29uc3QgeiA9IE1hdGguc3FydCgtMiAqIE1hdGgubG9nKHUxKSkgKiBNYXRoLmNvcygyICogTWF0aC5QSSAqIHUyKTsKCXJldHVybiBtZWFuICsgc2QgKiB6Owp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0U2Vzc2lvbklkKHBhZ2U6IFBhZ2UpOiBzdHJpbmcgfCBudWxsIHsKCWNvbnN0IHN0YXRlID0gU0VTU0lPTlMuZ2V0KHBhZ2UpOwoJaWYgKCFzdGF0ZSkgcmV0dXJuIG51bGw7Cglmb3IgKGNvbnN0IFtpZCwgc10gb2YgQUNUSVZFX1NFU1NJT05TKSB7CgkJaWYgKHMgPT09IHN0YXRlKSByZXR1cm4gaWQ7Cgl9CglyZXR1cm4gbnVsbDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGluaXRTZXNzaW9uKHBhZ2U6IFBhZ2UsIG9wdGlvbnM6IFNlc3Npb25PcHRpb25zID0ge30pOiBzdHJpbmcgewoJY29uc3QgZXhpc3RpbmdJZCA9IGdldFNlc3Npb25JZChwYWdlKTsKCWlmIChleGlzdGluZ0lkKSByZXR1cm4gZXhpc3RpbmdJZDsKCgljb25zdCBpZCA9IGBzZXNzXyR7KytzZXNzaW9uSWRDb3VudGVyfV8ke0RhdGUubm93KCkudG9TdHJpbmcoMzYpfWA7Cgljb25zdCBzdGF0ZTogU2Vzc2lvblN0YXRlID0gewoJCWNyZWF0ZWRBdDogRGF0ZS5ub3coKSwKCQlwYWdlQ291bnQ6IDAsCgkJc2VlZEJ1ZmZlcjogZ2VuZXJhdGVTZWVkKG9wdGlvbnMuc2VlZExlbmd0aCA/PyAzMiksCgl9OwoJU0VTU0lPTlMuc2V0KHBhZ2UsIHN0YXRlKTsKCUFDVElWRV9TRVNTSU9OUy5zZXQoaWQsIHN0YXRlKTsKCXJldHVybiBpZDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldFNlc3Npb24oc3RhdGU6IFNlc3Npb25TdGF0ZSk6IHsKCXNlZWQ6IFVpbnQ4QXJyYXk7Cglub3c6IG51bWJlcjsKCWVsYXBzZWRNczogbnVtYmVyOwoJcGFnZUluZGV4OiBudW1iZXI7Cn0gewoJcmV0dXJuIHsKCQlzZWVkOiBzdGF0ZS5zZWVkQnVmZmVyLAoJCW5vdzogRGF0ZS5ub3coKSwKCQllbGFwc2VkTXM6IERhdGUubm93KCkgLSBzdGF0ZS5jcmVhdGVkQXQsCgkJcGFnZUluZGV4OiBzdGF0ZS5wYWdlQ291bnQsCgl9Owp9CgpleHBvcnQgZnVuY3Rpb24gZ2V0U2VlZGVkRmxvYXQoc3RhdGU6IFNlc3Npb25TdGF0ZSwgaW5kZXg6IG51bWJlcik6IG51bWJlciB7CglyZXR1cm4gc2VlZGVkUmFuZG9tKHN0YXRlLnNlZWRCdWZmZXIsIGluZGV4KTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldFNlZWRlZEludChzdGF0ZTogU2Vzc2lvblN0YXRlLCBpbmRleDogbnVtYmVyLCBtaW46IG51bWJlciwgbWF4OiBudW1iZXIpOiBudW1iZXIgewoJY29uc3QgcmFuZ2UgPSBtYXggLSBtaW4gKyAxOwoJcmV0dXJuIG1pbiArIChkZXJpdmVCeXRlKHN0YXRlLnNlZWRCdWZmZXIsIGluZGV4KSAlIHJhbmdlKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldFNlZWRlZEdhdXNzKHN0YXRlOiBTZXNzaW9uU3RhdGUsIGluZGV4OiBudW1iZXIsIG1lYW46IG51bWJlciwgc2Q6IG51bWJlcik6IG51bWJlciB7CglyZXR1cm4gZ2F1c3NGcm9tU2VlZChzdGF0ZS5zZWVkQnVmZmVyLCBpbmRleCwgbWVhbiwgc2QpOwp9CgpleHBvcnQgZnVuY3Rpb24gYWR2YW5jZVBhZ2UocGFnZTogUGFnZSk6IHZvaWQgewoJY29uc3Qgc3RhdGUgPSBTRVNTSU9OUy5nZXQocGFnZSk7CglpZiAoc3RhdGUpIHN0YXRlLnBhZ2VDb3VudCsrOwp9CgpleHBvcnQgZnVuY3Rpb24gZW5kU2Vzc2lvbihwYWdlOiBQYWdlKTogdm9pZCB7Cgljb25zdCBzdGF0ZSA9IFNFU1NJT05TLmdldChwYWdlKTsKCWlmICghc3RhdGUpIHJldHVybjsKCWZvciAoY29uc3QgW2lkLCBzXSBvZiBBQ1RJVkVfU0VTU0lPTlMpIHsKCQlpZiAocyA9PT0gc3RhdGUpIHsKCQkJQUNUSVZFX1NFU1NJT05TLmRlbGV0ZShpZCk7CgkJCWJyZWFrOwoJCX0KCX0KCVNFU1NJT05TLmRlbGV0ZShwYWdlKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGlzU2Vzc2lvbkV4cGlyZWQocGFnZTogUGFnZSwgdGltZW91dE1zPzogbnVtYmVyKTogYm9vbGVhbiB7Cgljb25zdCBzdGF0ZSA9IFNFU1NJT05TLmdldChwYWdlKTsKCWlmICghc3RhdGUpIHJldHVybiB0cnVlOwoJY29uc3QgdGltZW91dCA9IHRpbWVvdXRNcyA/PyAxXzgwMF8wMDA7CglyZXR1cm4gRGF0ZS5ub3coKSAtIHN0YXRlLmNyZWF0ZWRBdCA+IHRpbWVvdXQ7Cn0K
+import type { Page } from "playwright-core";
+
+export interface SessionOptions {
+	timeout?: number;
+	maxPages?: number;
+	seedLength?: number;
+}
+
+interface SessionState {
+	createdAt: number;
+	pageCount: number;
+	seedBuffer: Uint8Array;
+}
+
+const SESSIONS = new WeakMap<Page, SessionState>();
+const ACTIVE_SESSIONS = new Map<string, SessionState>();
+
+let sessionIdCounter = 0;
+
+function generateSeed(length: number): Uint8Array {
+	const buf = new Uint8Array(length);
+	crypto.getRandomValues(buf);
+	return buf;
+}
+
+function deriveByte(seed: Uint8Array, index: number): number {
+	let hash = 0x9e3779b9;
+	const data = new Uint8Array(seed.length + 4);
+	data.set(seed);
+	const view = new DataView(data.buffer);
+	view.setUint32(seed.length, index, false);
+	for (let i = 0; i < data.length; i++) {
+		hash ^= data[i]!;
+		hash = (hash * 0x5bd1e995 + 0x7b5a9a7f) >>> 0;
+	}
+	return hash >>> 0;
+}
+
+function seededRandom(seed: Uint8Array, index: number): number {
+	const value = deriveByte(seed, index);
+	return value / 0x100000000;
+}
+
+function gaussFromSeed(seed: Uint8Array, index: number, mean: number, sd: number): number {
+	const u1 = Math.max(seededRandom(seed, index * 2), 1e-10);
+	const u2 = seededRandom(seed, index * 2 + 1);
+	const z = Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
+	return mean + sd * z;
+}
+
+export function getSessionId(page: Page): string | null {
+	const state = SESSIONS.get(page);
+	if (!state) return null;
+	for (const [id, s] of ACTIVE_SESSIONS) {
+		if (s === state) return id;
+	}
+	return null;
+}
+
+export function initSession(page: Page, options: SessionOptions = {}): string {
+	const existingId = getSessionId(page);
+	if (existingId) return existingId;
+
+	const id = `sess_${++sessionIdCounter}_${Date.now().toString(36)}`;
+	const state: SessionState = {
+		createdAt: Date.now(),
+		pageCount: 0,
+		seedBuffer: generateSeed(options.seedLength ?? 32),
+	};
+	SESSIONS.set(page, state);
+	ACTIVE_SESSIONS.set(id, state);
+	return id;
+}
+
+export function getSession(state: SessionState): {
+	seed: Uint8Array;
+	now: number;
+	elapsedMs: number;
+	pageIndex: number;
+} {
+	return {
+		seed: state.seedBuffer,
+		now: Date.now(),
+		elapsedMs: Date.now() - state.createdAt,
+		pageIndex: state.pageCount,
+	};
+}
+
+export function getSeededFloat(state: SessionState, index: number): number {
+	return seededRandom(state.seedBuffer, index);
+}
+
+export function getSeededInt(state: SessionState, index: number, min: number, max: number): number {
+	const range = max - min + 1;
+	return min + (deriveByte(state.seedBuffer, index) % range);
+}
+
+export function getSeededGauss(state: SessionState, index: number, mean: number, sd: number): number {
+	return gaussFromSeed(state.seedBuffer, index, mean, sd);
+}
+
+export function advancePage(page: Page): void {
+	const state = SESSIONS.get(page);
+	if (state) state.pageCount++;
+}
+
+export function endSession(page: Page): void {
+	const state = SESSIONS.get(page);
+	if (!state) return;
+	for (const [id, s] of ACTIVE_SESSIONS) {
+		if (s === state) {
+			ACTIVE_SESSIONS.delete(id);
+			break;
+		}
+	}
+	SESSIONS.delete(page);
+}
+
+export function isSessionExpired(page: Page, timeoutMs?: number): boolean {
+	const state = SESSIONS.get(page);
+	if (!state) return true;
+	const timeout = timeoutMs ?? 1_800_000;
+	return Date.now() - state.createdAt > timeout;
+}

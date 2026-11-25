@@ -1,1 +1,20 @@
-aW1wb3J0IHR5cGUgeyBQYWdlIH0gZnJvbSAicGxheXdyaWdodC1jb3JlIjsKaW1wb3J0IHR5cGUgeyBCZXh4Y3ZQbHVnaW4gfSBmcm9tICIuL3R5cGVzLmpzIjsKZXhwb3J0IGludGVyZmFjZSBMZW5zT3B0aW9ucyB7CiAgICBhdWRpdD86IGJvb2xlYW47CiAgICB0YXJnZXQ/OiAibG9jYWwiOwogICAgcXVpZXQ/OiBib29sZWFuOwogICAgb3V0Pzogc3RyaW5nOwp9CmV4cG9ydCBpbnRlcmZhY2UgTGVuc0NoZWNrIHsKICAgIGlkOiBzdHJpbmc7CiAgICBvazogYm9vbGVhbjsKICAgIGRldGFpbDogc3RyaW5nOwp9CmV4cG9ydCBpbnRlcmZhY2UgTGVuc1JlcG9ydCB7CiAgICBzY29yZTogbnVtYmVyOwogICAgY2hlY2tzOiBMZW5zQ2hlY2tbXTsKfQpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBsZW5zUmVwb3J0KHBhZ2U6IFBhZ2UpOiBMZW5zUmVwb3J0IHwgbnVsbDsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gYXVkaXRGaW5nZXJwcmludChwYWdlOiBQYWdlKTogUHJvbWlzZTxMZW5zUmVwb3J0PjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gbGVucyhvcHRpb25zPzogTGVuc09wdGlvbnMpOiBCZXh4Y3ZQbHVnaW47Cg==
+import type { Page } from "playwright-core";
+import type { BexxcvPlugin } from "./types.js";
+export interface LensOptions {
+    audit?: boolean;
+    target?: "local";
+    quiet?: boolean;
+    out?: string;
+}
+export interface LensCheck {
+    id: string;
+    ok: boolean;
+    detail: string;
+}
+export interface LensReport {
+    score: number;
+    checks: LensCheck[];
+}
+export declare function lensReport(page: Page): LensReport | null;
+export declare function auditFingerprint(page: Page): Promise<LensReport>;
+export declare function lens(options?: LensOptions): BexxcvPlugin;

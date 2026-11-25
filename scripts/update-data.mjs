@@ -1,1 +1,178 @@
-aW1wb3J0IHsgY3JlYXRlSGFzaCB9IGZyb20gIm5vZGU6Y3J5cHRvIjsKaW1wb3J0IHsgZXhlY0ZpbGVTeW5jIH0gZnJvbSAibm9kZTpjaGlsZF9wcm9jZXNzIjsKaW1wb3J0IGZzIGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgb3MgZnJvbSAibm9kZTpvcyI7CmltcG9ydCBwYXRoIGZyb20gIm5vZGU6cGF0aCI7CmltcG9ydCB7IGZpbGVVUkxUb1BhdGggfSBmcm9tICJub2RlOnVybCI7Cgpjb25zdCByb290ID0gcGF0aC5qb2luKHBhdGguZGlybmFtZShmaWxlVVJMVG9QYXRoKGltcG9ydC5tZXRhLnVybCkpLCAiLi4iKTsKY29uc3QgZGF0YURpciA9IHBhdGguam9pbihyb290LCAic3JjIiwgImRhdGEtZmlsZXMiKTsKY29uc3QgZGJGaWxlID0gcGF0aC5qb2luKGRhdGFEaXIsICJ3ZWJnbF9kYXRhLmRiIik7CmNvbnN0IHN0YW1wRmlsZSA9IHBhdGguam9pbihkYXRhRGlyLCAiZGF0YS12ZXJzaW9uLmpzb24iKTsKY29uc3QgcGluRmlsZSA9IHBhdGguam9pbihkYXRhRGlyLCAiYnJvd3Nlci1waW4uanNvbiIpOwoKY29uc3QgYXJncyA9IHByb2Nlc3MuYXJndi5zbGljZSgyKTsKY29uc3QgaGFzID0gKG5hbWUpID0+IGFyZ3MuaW5jbHVkZXMobmFtZSk7CmNvbnN0IHZhbHVlID0gKG5hbWUpID0+IHsKCWNvbnN0IGkgPSBhcmdzLmluZGV4T2YobmFtZSk7CglyZXR1cm4gaSA9PT0gLTEgPyBudWxsIDogYXJnc1tpICsgMV0gPz8gbnVsbDsKfTsKCmFzeW5jIGZ1bmN0aW9uIG9wZW5EYihmaWxlKSB7CglsZXQgc3FsaXRlID0gbnVsbDsKCXRyeSB7CgkJc3FsaXRlID0gYXdhaXQgaW1wb3J0KCJub2RlOnNxbGl0ZSIpOwoJfSBjYXRjaCB7CgkJc3FsaXRlID0gbnVsbDsKCX0KCWlmIChzcWxpdGUpIHJldHVybiBuZXcgc3FsaXRlLkRhdGFiYXNlU3luYyhmaWxlLCB7IHJlYWRPbmx5OiB0cnVlIH0pOwoJY29uc3QgeyBkZWZhdWx0OiBEYXRhYmFzZSB9ID0gYXdhaXQgaW1wb3J0KCJiZXR0ZXItc3FsaXRlMyIpOwoJcmV0dXJuIG5ldyBEYXRhYmFzZShmaWxlLCB7IHJlYWRvbmx5OiB0cnVlLCBmaWxlTXVzdEV4aXN0OiB0cnVlIH0pOwp9Cgphc3luYyBmdW5jdGlvbiBpbnNwZWN0KGZpbGUpIHsKCWlmICghZnMuZXhpc3RzU3luYyhmaWxlKSB8fCBmcy5zdGF0U3luYyhmaWxlKS5zaXplID09PSAwKSB7CgkJdGhyb3cgbmV3IEVycm9yKGB3ZWJnbF9kYXRhLmRiIG5vdCBmb3VuZCBvciBlbXB0eSBhdCAke2ZpbGV9YCk7Cgl9Cgljb25zdCBkYiA9IGF3YWl0IG9wZW5EYihmaWxlKTsKCXRyeSB7CgkJY29uc3QgY29sdW1ucyA9IGRiLnByZXBhcmUoIlBSQUdNQSB0YWJsZV9pbmZvKHdlYmdsX2ZpbmdlcnByaW50cykiKS5hbGwoKS5tYXAoKGMpID0+IGMubmFtZSk7CgkJZm9yIChjb25zdCBuZWVkZWQgb2YgWyJ2ZW5kb3IiLCAicmVuZGVyZXIiLCAiZGF0YSIsICJ3aW4iLCAibWFjIiwgImxpbiJdKSB7CgkJCWlmICghY29sdW1ucy5pbmNsdWRlcyhuZWVkZWQpKSB7CgkJCQl0aHJvdyBuZXcgRXJyb3IoYHdlYmdsX2ZpbmdlcnByaW50cyBpcyBtaXNzaW5nIGNvbHVtbiAiJHtuZWVkZWR9ImApOwoJCQl9CgkJfQoJCWNvbnN0IHJvd3MgPSBkYi5wcmVwYXJlKCJTRUxFQ1QgQ09VTlQoKikgQVMgbiBGUk9NIHdlYmdsX2ZpbmdlcnByaW50cyIpLmdldCgpLm47CgkJY29uc3QgcGVyT3MgPSB7fTsKCQlmb3IgKGNvbnN0IG5hbWUgb2YgWyJ3aW4iLCAibWFjIiwgImxpbiJdKSB7CgkJCXBlck9zW25hbWVdID0gZGIucHJlcGFyZShgU0VMRUNUIENPVU5UKCopIEFTIG4gRlJPTSB3ZWJnbF9maW5nZXJwcmludHMgV0hFUkUgJHtuYW1lfSA+IDBgKS5nZXQoKS5uOwoJCQlpZiAocGVyT3NbbmFtZV0gPT09IDApIHRocm93IG5ldyBFcnJvcihgbm8gcm93cyB3aXRoIGRhdGEgZm9yICR7bmFtZX1gKTsKCQl9CgkJcmV0dXJuIHsgcm93cywgcGVyT3MgfTsKCX0gZmluYWxseSB7CgkJZGIuY2xvc2UoKTsKCX0KfQoKZnVuY3Rpb24gc2hhMjU2KGZpbGUpIHsKCXJldHVybiBjcmVhdGVIYXNoKCJzaGEyNTYiKS51cGRhdGUoZnMucmVhZEZpbGVTeW5jKGZpbGUpKS5kaWdlc3QoImhleCIpOwp9CgpmdW5jdGlvbiB3cml0ZVN0YW1wKGluZm8pIHsKCWxldCBjdXJyZW50ID0ge307Cgl0cnkgewoJCWN1cnJlbnQgPSBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyhzdGFtcEZpbGUsICJ1dGY4IikpOwoJfSBjYXRjaCB7CgkJY3VycmVudCA9IHt9OwoJfQoJY3VycmVudC53ZWJnbF9kYXRhID0gewoJCXVwZGF0ZWQ6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwKCQlyb3dzOiBpbmZvLnJvd3MsCgkJc2hhMjU2OiBzaGEyNTYoZGJGaWxlKSwKCX07Cglmcy53cml0ZUZpbGVTeW5jKHN0YW1wRmlsZSwgSlNPTi5zdHJpbmdpZnkoY3VycmVudCwgbnVsbCwgIlx0IikgKyAiXG4iKTsKfQoKZnVuY3Rpb24gZmluZERiKGRpcikgewoJZm9yIChjb25zdCBlbnRyeSBvZiBmcy5yZWFkZGlyU3luYyhkaXIsIHsgd2l0aEZpbGVUeXBlczogdHJ1ZSB9KSkgewoJCWNvbnN0IGZ1bGwgPSBwYXRoLmpvaW4oZGlyLCBlbnRyeS5uYW1lKTsKCQlpZiAoZW50cnkuaXNEaXJlY3RvcnkoKSkgewoJCQljb25zdCBmb3VuZCA9IGZpbmREYihmdWxsKTsKCQkJaWYgKGZvdW5kKSByZXR1cm4gZm91bmQ7CgkJfSBlbHNlIGlmIChlbnRyeS5uYW1lID09PSAid2ViZ2xfZGF0YS5kYiIpIHsKCQkJcmV0dXJuIGZ1bGw7CgkJfQoJfQoJcmV0dXJuIG51bGw7Cn0KCmFzeW5jIGZ1bmN0aW9uIGluc3RhbGwoc291cmNlKSB7Cgljb25zdCBpbmZvID0gYXdhaXQgaW5zcGVjdChzb3VyY2UpOwoJbGV0IHByZXZpb3VzID0gbnVsbDsKCWlmIChmcy5leGlzdHNTeW5jKGRiRmlsZSkgJiYgZnMuc3RhdFN5bmMoZGJGaWxlKS5zaXplID4gMCkgewoJCXRyeSB7CgkJCXByZXZpb3VzID0gYXdhaXQgaW5zcGVjdChkYkZpbGUpOwoJCX0gY2F0Y2ggewoJCQlwcmV2aW91cyA9IG51bGw7CgkJfQoJfQoJaWYgKHByZXZpb3VzICYmIGluZm8ucm93cyA8IHByZXZpb3VzLnJvd3MgKiAwLjUgJiYgIWhhcygiLS1mb3JjZSIpKSB7CgkJdGhyb3cgbmV3IEVycm9yKGBuZXcgZGF0YWJhc2UgaGFzICR7aW5mby5yb3dzfSByb3dzLCBjdXJyZW50IGhhcyAke3ByZXZpb3VzLnJvd3N9LiBVc2UgLS1mb3JjZSB0byByZXBsYWNlIGl0YCk7Cgl9Cglmcy5jb3B5RmlsZVN5bmMoc291cmNlLCBkYkZpbGUpOwoJd3JpdGVTdGFtcChpbmZvKTsKCWNvbnNvbGUubG9nKGB3ZWJnbF9kYXRhLmRiIHVwZGF0ZWQ6ICR7aW5mby5yb3dzfSByb3dzICh3aW49JHtpbmZvLnBlck9zLndpbn0gbWFjPSR7aW5mby5wZXJPcy5tYWN9IGxpbj0ke2luZm8ucGVyT3MubGlufSlgKTsKCWlmIChwcmV2aW91cykgY29uc29sZS5sb2coYHByZXZpb3VzOiAke3ByZXZpb3VzLnJvd3N9IHJvd3NgKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHBhcnNlVGFnKHRhZykgewoJY29uc3QgbSA9IC9edj8oXGQrXC5cZCtcLlxkKyktKC4rKSQvLmV4ZWModGFnKTsKCXJldHVybiBtID8geyB0YWcsIHZlcnNpb246IG1bMV0sIGJ1aWxkOiBtWzJdIH0gOiBudWxsOwp9Cgphc3luYyBmdW5jdGlvbiBwaW4oKSB7Cgljb25zdCBjdXJyZW50ID0gSlNPTi5wYXJzZShmcy5yZWFkRmlsZVN5bmMocGluRmlsZSwgInV0ZjgiKSk7Cgljb25zdCByZXNwb25zZSA9IGF3YWl0IGZldGNoKGBodHRwczovL2FwaS5naXRodWIuY29tL3JlcG9zLyR7Y3VycmVudC5yZXBvfS9yZWxlYXNlcz9wZXJfcGFnZT0xMGAsIHsKCQloZWFkZXJzOiB7ICJVc2VyLUFnZW50IjogImJleHhjdi11cGRhdGUtZGF0YSIsIEFjY2VwdDogImFwcGxpY2F0aW9uL3ZuZC5naXRodWIranNvbiIgfSwKCX0pOwoJaWYgKCFyZXNwb25zZS5vaykgdGhyb3cgbmV3IEVycm9yKGBHaXRIdWIgcmV0dXJuZWQgJHtyZXNwb25zZS5zdGF0dXN9YCk7Cgljb25zdCByZWxlYXNlcyA9IChhd2FpdCByZXNwb25zZS5qc29uKCkpLmZpbHRlcigocikgPT4gIXIuZHJhZnQpOwoJY29uc3QgbGF0ZXN0ID0gcmVsZWFzZXMubWFwKChyKSA9PiBwYXJzZVRhZyhyLnRhZ19uYW1lKSkuZmluZChCb29sZWFuKTsKCWlmICghbGF0ZXN0KSB0aHJvdyBuZXcgRXJyb3IoIm5vIHJlbGVhc2Ugd2l0aCBhIHJlY29nbml6YWJsZSB0YWciKTsKCWNvbnNvbGUubG9nKGBwaW5uZWQ6ICR7Y3VycmVudC50YWd9YCk7Cgljb25zb2xlLmxvZyhgbGF0ZXN0OiAke2xhdGVzdC50YWd9YCk7CglpZiAobGF0ZXN0LnRhZyA9PT0gY3VycmVudC50YWcpIHsKCQljb25zb2xlLmxvZygicGluIGlzIHVwIHRvIGRhdGUiKTsKCQlyZXR1cm47Cgl9CglpZiAoIWhhcygiLS13cml0ZSIpKSB7CgkJY29uc29sZS5sb2coInJ1biBhZ2FpbiB3aXRoIC0td3JpdGUgdG8gdXBkYXRlIGJyb3dzZXItcGluLmpzb24sIHRoZW4gdGVzdCBiZWZvcmUgcmVsZWFzaW5nIik7CgkJcmV0dXJuOwoJfQoJY29uc3QgbmV4dCA9IHsgLi4uY3VycmVudCwgdGFnOiBsYXRlc3QudGFnLCB2ZXJzaW9uOiBsYXRlc3QudmVyc2lvbiwgYnVpbGQ6IGxhdGVzdC5idWlsZCB9OwoJZnMud3JpdGVGaWxlU3luYyhwaW5GaWxlLCBKU09OLnN0cmluZ2lmeShuZXh0LCBudWxsLCAiXHQiKSArICJcbiIpOwoJY29uc29sZS5sb2coImJyb3dzZXItcGluLmpzb24gdXBkYXRlZCIpOwp9Cgphc3luYyBmdW5jdGlvbiBtYWluKCkgewoJaWYgKGhhcygiLS1zdGFtcCIpKSB7CgkJY29uc3QgaW5mbyA9IGF3YWl0IGluc3BlY3QoZGJGaWxlKTsKCQl3cml0ZVN0YW1wKGluZm8pOwoJCWNvbnNvbGUubG9nKGBzdGFtcGVkOiAke2luZm8ucm93c30gcm93c2ApOwoJCXJldHVybjsKCX0KCWlmICh2YWx1ZSgiLS1mcm9tIikpIHsKCQlhd2FpdCBpbnN0YWxsKHBhdGgucmVzb2x2ZSh2YWx1ZSgiLS1mcm9tIikpKTsKCQlyZXR1cm47Cgl9CglpZiAoaGFzKCItLW5wbSIpKSB7CgkJY29uc3QgcGtnID0gdmFsdWUoIi0tbnBtIikgPz8gImNhbW91Zm94LWpzIjsKCQljb25zdCB0bXAgPSBmcy5ta2R0ZW1wU3luYyhwYXRoLmpvaW4ob3MudG1wZGlyKCksICJiZXh4Y3YtZGF0YS0iKSk7CgkJdHJ5IHsKCQkJY29uc3QgdGd6ID0gZXhlY0ZpbGVTeW5jKCJucG0iLCBbInBhY2siLCBwa2csICItLXNpbGVudCJdLCB7IGN3ZDogdG1wLCBlbmNvZGluZzogInV0ZjgiIH0pLnRyaW0oKS5zcGxpdCgiXG4iKS5wb3AoKTsKCQkJZXhlY0ZpbGVTeW5jKCJ0YXIiLCBbIi14emYiLCB0Z3pdLCB7IGN3ZDogdG1wIH0pOwoJCQljb25zdCBmb3VuZCA9IGZpbmREYihwYXRoLmpvaW4odG1wLCAicGFja2FnZSIpKTsKCQkJaWYgKCFmb3VuZCkgdGhyb3cgbmV3IEVycm9yKGAke3BrZ30gZG9lcyBub3QgY29udGFpbiB3ZWJnbF9kYXRhLmRiYCk7CgkJCWF3YWl0IGluc3RhbGwoZm91bmQpOwoJCX0gZmluYWxseSB7CgkJCWZzLnJtU3luYyh0bXAsIHsgcmVjdXJzaXZlOiB0cnVlLCBmb3JjZTogdHJ1ZSB9KTsKCQl9CgkJcmV0dXJuOwoJfQoJaWYgKGhhcygiLS1waW4iKSkgewoJCWF3YWl0IHBpbigpOwoJCXJldHVybjsKCX0KCWNvbnNvbGUubG9nKCJ1c2FnZToiKTsKCWNvbnNvbGUubG9nKCIgIG5vZGUgc2NyaXB0cy91cGRhdGUtZGF0YS5tanMgLS1zdGFtcCIpOwoJY29uc29sZS5sb2coIiAgbm9kZSBzY3JpcHRzL3VwZGF0ZS1kYXRhLm1qcyAtLWZyb20gL3BhdGgvdG8vd2ViZ2xfZGF0YS5kYiBbLS1mb3JjZV0iKTsKCWNvbnNvbGUubG9nKCIgIG5vZGUgc2NyaXB0cy91cGRhdGUtZGF0YS5tanMgLS1ucG0gY2Ftb3Vmb3gtanMiKTsKCWNvbnNvbGUubG9nKCIgIG5vZGUgc2NyaXB0cy91cGRhdGUtZGF0YS5tanMgLS1waW4gWy0td3JpdGVdIik7Cn0KCmlmIChwcm9jZXNzLmFyZ3ZbMV0gPT09IGZpbGVVUkxUb1BhdGgoaW1wb3J0Lm1ldGEudXJsKSkgewoJbWFpbigpLmNhdGNoKChlcnJvcikgPT4gewoJCWNvbnNvbGUuZXJyb3IoZXJyb3IubWVzc2FnZSk7CgkJcHJvY2Vzcy5leGl0KDEpOwoJfSk7Cn0K
+import { createHash } from "node:crypto";
+import { execFileSync } from "node:child_process";
+import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
+const dataDir = path.join(root, "src", "data-files");
+const dbFile = path.join(dataDir, "webgl_data.db");
+const stampFile = path.join(dataDir, "data-version.json");
+const pinFile = path.join(dataDir, "browser-pin.json");
+
+const args = process.argv.slice(2);
+const has = (name) => args.includes(name);
+const value = (name) => {
+	const i = args.indexOf(name);
+	return i === -1 ? null : args[i + 1] ?? null;
+};
+
+async function openDb(file) {
+	let sqlite = null;
+	try {
+		sqlite = await import("node:sqlite");
+	} catch {
+		sqlite = null;
+	}
+	if (sqlite) return new sqlite.DatabaseSync(file, { readOnly: true });
+	const { default: Database } = await import("better-sqlite3");
+	return new Database(file, { readonly: true, fileMustExist: true });
+}
+
+async function inspect(file) {
+	if (!fs.existsSync(file) || fs.statSync(file).size === 0) {
+		throw new Error(`webgl_data.db not found or empty at ${file}`);
+	}
+	const db = await openDb(file);
+	try {
+		const columns = db.prepare("PRAGMA table_info(webgl_fingerprints)").all().map((c) => c.name);
+		for (const needed of ["vendor", "renderer", "data", "win", "mac", "lin"]) {
+			if (!columns.includes(needed)) {
+				throw new Error(`webgl_fingerprints is missing column "${needed}"`);
+			}
+		}
+		const rows = db.prepare("SELECT COUNT(*) AS n FROM webgl_fingerprints").get().n;
+		const perOs = {};
+		for (const name of ["win", "mac", "lin"]) {
+			perOs[name] = db.prepare(`SELECT COUNT(*) AS n FROM webgl_fingerprints WHERE ${name} > 0`).get().n;
+			if (perOs[name] === 0) throw new Error(`no rows with data for ${name}`);
+		}
+		return { rows, perOs };
+	} finally {
+		db.close();
+	}
+}
+
+function sha256(file) {
+	return createHash("sha256").update(fs.readFileSync(file)).digest("hex");
+}
+
+function writeStamp(info) {
+	let current = {};
+	try {
+		current = JSON.parse(fs.readFileSync(stampFile, "utf8"));
+	} catch {
+		current = {};
+	}
+	current.webgl_data = {
+		updated: new Date().toISOString(),
+		rows: info.rows,
+		sha256: sha256(dbFile),
+	};
+	fs.writeFileSync(stampFile, JSON.stringify(current, null, "\t") + "\n");
+}
+
+function findDb(dir) {
+	for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+		const full = path.join(dir, entry.name);
+		if (entry.isDirectory()) {
+			const found = findDb(full);
+			if (found) return found;
+		} else if (entry.name === "webgl_data.db") {
+			return full;
+		}
+	}
+	return null;
+}
+
+async function install(source) {
+	const info = await inspect(source);
+	let previous = null;
+	if (fs.existsSync(dbFile) && fs.statSync(dbFile).size > 0) {
+		try {
+			previous = await inspect(dbFile);
+		} catch {
+			previous = null;
+		}
+	}
+	if (previous && info.rows < previous.rows * 0.5 && !has("--force")) {
+		throw new Error(`new database has ${info.rows} rows, current has ${previous.rows}. Use --force to replace it`);
+	}
+	fs.copyFileSync(source, dbFile);
+	writeStamp(info);
+	console.log(`webgl_data.db updated: ${info.rows} rows (win=${info.perOs.win} mac=${info.perOs.mac} lin=${info.perOs.lin})`);
+	if (previous) console.log(`previous: ${previous.rows} rows`);
+}
+
+export function parseTag(tag) {
+	const m = /^v?(\d+\.\d+\.\d+)-(.+)$/.exec(tag);
+	return m ? { tag, version: m[1], build: m[2] } : null;
+}
+
+async function pin() {
+	const current = JSON.parse(fs.readFileSync(pinFile, "utf8"));
+	const response = await fetch(`https://api.github.com/repos/${current.repo}/releases?per_page=10`, {
+		headers: { "User-Agent": "bexxcv-update-data", Accept: "application/vnd.github+json" },
+	});
+	if (!response.ok) throw new Error(`GitHub returned ${response.status}`);
+	const releases = (await response.json()).filter((r) => !r.draft);
+	const latest = releases.map((r) => parseTag(r.tag_name)).find(Boolean);
+	if (!latest) throw new Error("no release with a recognizable tag");
+	console.log(`pinned: ${current.tag}`);
+	console.log(`latest: ${latest.tag}`);
+	if (latest.tag === current.tag) {
+		console.log("pin is up to date");
+		return;
+	}
+	if (!has("--write")) {
+		console.log("run again with --write to update browser-pin.json, then test before releasing");
+		return;
+	}
+	const next = { ...current, tag: latest.tag, version: latest.version, build: latest.build };
+	fs.writeFileSync(pinFile, JSON.stringify(next, null, "\t") + "\n");
+	console.log("browser-pin.json updated");
+}
+
+async function main() {
+	if (has("--stamp")) {
+		const info = await inspect(dbFile);
+		writeStamp(info);
+		console.log(`stamped: ${info.rows} rows`);
+		return;
+	}
+	if (value("--from")) {
+		await install(path.resolve(value("--from")));
+		return;
+	}
+	if (has("--npm")) {
+		const pkg = value("--npm") ?? "camoufox-js";
+		const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "bexxcv-data-"));
+		try {
+			const tgz = execFileSync("npm", ["pack", pkg, "--silent"], { cwd: tmp, encoding: "utf8" }).trim().split("\n").pop();
+			execFileSync("tar", ["-xzf", tgz], { cwd: tmp });
+			const found = findDb(path.join(tmp, "package"));
+			if (!found) throw new Error(`${pkg} does not contain webgl_data.db`);
+			await install(found);
+		} finally {
+			fs.rmSync(tmp, { recursive: true, force: true });
+		}
+		return;
+	}
+	if (has("--pin")) {
+		await pin();
+		return;
+	}
+	console.log("usage:");
+	console.log("  node scripts/update-data.mjs --stamp");
+	console.log("  node scripts/update-data.mjs --from /path/to/webgl_data.db [--force]");
+	console.log("  node scripts/update-data.mjs --npm camoufox-js");
+	console.log("  node scripts/update-data.mjs --pin [--write]");
+}
+
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+	main().catch((error) => {
+		console.error(error.message);
+		process.exit(1);
+	});
+}

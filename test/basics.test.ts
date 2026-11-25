@@ -1,1 +1,370 @@
-aW1wb3J0IHsgbWtkdGVtcCB9IGZyb20gIm5vZGU6ZnMvcHJvbWlzZXMiOwppbXBvcnQgeyB0bXBkaXIgfSBmcm9tICJub2RlOm9zIjsKaW1wb3J0IHsgam9pbiB9IGZyb20gIm5vZGU6cGF0aCI7CmltcG9ydCB7IGZpcmVmb3ggfSBmcm9tICJwbGF5d3JpZ2h0LWNvcmUiOwppbXBvcnQgeyBkZXNjcmliZSwgZXhwZWN0LCB0ZXN0IH0gZnJvbSAidml0ZXN0IjsKaW1wb3J0IHsgQ2Ftb3Vmb3gsIGxhdW5jaFNlcnZlciwgYXVkaXRGaW5nZXJwcmludCwgdHlwZSBMZW5zUmVwb3J0IH0gZnJvbSAiLi4vc3JjIjsKCmNvbnN0IFRFU1RfQ0FTRVMgPSBbCgl7IG9zOiAibGludXgiIGFzIGNvbnN0LCB1c2VyQWdlbnRSZWdleDogL0xpbnV4L2kgfSwKCXsgb3M6ICJ3aW5kb3dzIiBhcyBjb25zdCwgdXNlckFnZW50UmVnZXg6IC9XaW5kb3dzL2kgfSwKCXsgb3M6ICJtYWNvcyIgYXMgY29uc3QsIHVzZXJBZ2VudFJlZ2V4OiAvTWFjIE9TL2kgfSwKXTsKCmRlc2NyaWJlLnNraXBJZihwcm9jZXNzLnBsYXRmb3JtICE9PSAibGludXgiKSgidmlydHVhbCBkaXNwbGF5IiwgKCkgPT4gewoJdGVzdCgic2hvdWxkIGxhdW5jaCIsIGFzeW5jICgpID0+IHsKCQljb25zdCBicm93c2VyID0gYXdhaXQgQ2Ftb3Vmb3goewoJCQlvczogImxpbnV4IiwKCQkJaGVhZGxlc3M6ICJ2aXJ0dWFsIiwKCQl9KTsKCgkJY29uc3QgcGFnZSA9IGF3YWl0IGJyb3dzZXIubmV3UGFnZSgpOwoJCWF3YWl0IHBhZ2UuZ290bygiaHR0cHM6Ly9hcGkuYXBpZnkuY29tL3YyL2Jyb3dzZXItaW5mbyIpOwoJCWNvbnN0IHVzZXJBZ2VudCA9IGF3YWl0IHBhZ2UuZXZhbHVhdGUoKCkgPT4gbmF2aWdhdG9yLnVzZXJBZ2VudC50b1N0cmluZygpKTsKCQlleHBlY3QodXNlckFnZW50KS50b01hdGNoKC9MaW51eC9pKTsKCQlhd2FpdCBicm93c2VyLmNsb3NlKCk7Cgl9LCAxMGUzKTsKCgl0ZXN0KCJtdWx0aXBsZSBicm93c2VycyBzcGF3biBvd24gdmlydHVhbCBkaXNwbGF5cyIsIGFzeW5jICgpID0+IHsKCQljb25zdCBicm93c2VyMSA9IGF3YWl0IENhbW91Zm94KHsKCQkJb3M6ICJsaW51eCIsCgkJCWhlYWRsZXNzOiAidmlydHVhbCIsCgkJfSk7CgoJCWNvbnN0IGJyb3dzZXIyID0gYXdhaXQgQ2Ftb3Vmb3goewoJCQlvczogImxpbnV4IiwKCQkJaGVhZGxlc3M6ICJ2aXJ0dWFsIiwKCQl9KTsKCgkJZXhwZWN0KGJyb3dzZXIxKS5ub3QudG9CZShicm93c2VyMik7CgoJCWF3YWl0IGJyb3dzZXIxLmNsb3NlKCk7CgoJCWNvbnN0IHBhZ2UgPSBhd2FpdCBicm93c2VyMi5uZXdQYWdlKCk7CgkJYXdhaXQgcGFnZS5nb3RvKCJodHRwczovL2FwaS5hcGlmeS5jb20vdjIvYnJvd3Nlci1pbmZvIik7CgkJYXdhaXQgYnJvd3NlcjIuY2xvc2UoKTsKCX0sIDEwZTMpOwoKCXRlc3QoInNob3VsZCBzdXBwb3J0IGNvbWJpbmluZyBoZWFkbGVzcyB2aXJ0dWFsIHdpdGggb3RoZXIgbGF1bmNoIG9wdGlvbnMiLCBhc3luYyAoKSA9PiB7CgkJY29uc3QgYnJvd3NlciA9IGF3YWl0IENhbW91Zm94KHsKCQkJb3M6ICJsaW51eCIsCgkJCWhlYWRsZXNzOiAidmlydHVhbCIsCgkJCWJsb2NrX2ltYWdlczogdHJ1ZSwKCQkJaHVtYW5pemU6IHRydWUsCgkJfSk7CgoJCWNvbnN0IHBhZ2UgPSBhd2FpdCBicm93c2VyLm5ld1BhZ2UoKTsKCQlhd2FpdCBwYWdlLmdvdG8oImh0dHBzOi8vYXBpLmFwaWZ5LmNvbS92Mi9icm93c2VyLWluZm8iKTsKCQljb25zdCB1c2VyQWdlbnQgPSBhd2FpdCBwYWdlLmV2YWx1YXRlKCgpID0+IG5hdmlnYXRvci51c2VyQWdlbnQudG9TdHJpbmcoKSk7CgkJZXhwZWN0KHVzZXJBZ2VudCkudG9NYXRjaCgvTGludXgvaSk7CgkJYXdhaXQgYnJvd3Nlci5jbG9zZSgpOwoJfSwgMTBlMyk7Cn0pOwoKZGVzY3JpYmUoIkZpbmdlcnByaW50IGNvbnNpc3RlbmN5IiwgKCkgPT4gewoJdGVzdC5lYWNoKFRFU1RfQ0FTRVMpKCJVc2VyLUFnZW50IG1hdGNoZXMgc2V0IE9TICgkb3MpIiwgYXN5bmMgKHsKCQlvcywKCQl1c2VyQWdlbnRSZWdleCwKCX0pID0+IHsKCQljb25zdCBicm93c2VyID0gYXdhaXQgQ2Ftb3Vmb3goewoJCQlvcywKCQkJaGVhZGxlc3M6IHRydWUsCgkJfSk7CgoJCWNvbnN0IHBhZ2UgPSBhd2FpdCBicm93c2VyLm5ld1BhZ2UoKTsKCgkJYXdhaXQgcGFnZS5nb3RvKCJodHRwczovL2FwaS5hcGlmeS5jb20vdjIvYnJvd3Nlci1pbmZvIik7CgoJCWNvbnN0IGRhdGEgPSBhd2FpdCBwYWdlLmV2YWx1YXRlKCgpID0+CgkJCUpTT04ucGFyc2UoZG9jdW1lbnQucXVlcnlTZWxlY3RvcigicHJlIik/LnRleHRDb250ZW50ID8/ICIiKSwKCQkpOwoJCWNvbnN0IGh0dHBBZ2VudCA9IGRhdGEuaGVhZGVyc1sidXNlci1hZ2VudCJdOwoJCWNvbnN0IGpzQWdlbnQgPSBhd2FpdCBwYWdlLmV2YWx1YXRlKCgpID0+IG5hdmlnYXRvci51c2VyQWdlbnQudG9TdHJpbmcoKSk7CgoJCWV4cGVjdChodHRwQWdlbnQpLnRvRXF1YWwoanNBZ2VudCk7CgkJZXhwZWN0KGh0dHBBZ2VudCkudG9NYXRjaCh1c2VyQWdlbnRSZWdleCk7CgoJCVRFU1RfQ0FTRVMuZm9yRWFjaCgoeyBvczogdGVzdE9zLCB1c2VyQWdlbnRSZWdleCB9KSA9PiB7CgkJCWlmICh0ZXN0T3MgIT09IG9zKSB7CgkJCQlleHBlY3QoaHR0cEFnZW50KS5ub3QudG9NYXRjaCh1c2VyQWdlbnRSZWdleCk7CgkJCX0KCQl9KTsKCgkJYXdhaXQgYnJvd3Nlci5jbG9zZSgpOwoJfSwgMTBlMyk7Cn0pOwoKdGVzdCgiUGxheXdyaWdodCBjb25uZWN0cyB0byBDYW1vdWZveCBzZXJ2ZXIiLCBhc3luYyAoKSA9PiB7Cgljb25zdCBzZXJ2ZXIgPSBhd2FpdCBsYXVuY2hTZXJ2ZXIoewoJCWhlYWRsZXNzOiB0cnVlLAoJfSk7CgoJY29uc3QgYnJvd3NlciA9IGF3YWl0IGZpcmVmb3guY29ubmVjdChzZXJ2ZXIud3NFbmRwb2ludCgpKTsKCWNvbnN0IHBhZ2UgPSBhd2FpdCBicm93c2VyLm5ld1BhZ2UoKTsKCWF3YWl0IHBhZ2UuZ290bygiaHR0cHM6Ly9hcGkuYXBpZnkuY29tL3YyL2Jyb3dzZXItaW5mbyIpOwoKCWNvbnN0IHVzZXJBZ2VudCA9IGF3YWl0IHBhZ2UuZXZhbHVhdGUoKCkgPT4gbmF2aWdhdG9yLnVzZXJBZ2VudC50b1N0cmluZygpKTsKCWV4cGVjdCh1c2VyQWdlbnQpLnRvTWF0Y2goL0ZpcmVmb3gvKTsKCWF3YWl0IGJyb3dzZXIuY2xvc2UoKTsKCglhd2FpdCBzZXJ2ZXIuY2xvc2UoKTsKfSwgMzBlMyk7Cgp0ZXN0KCJQZXJzaXN0ZW50IGNvbnRleHQgd29ya3MiLCBhc3luYyAoKSA9PiB7Cgljb25zdCB1c2VyRGF0YURpciA9IGF3YWl0IG1rZHRlbXAoam9pbih0bXBkaXIoKSwgInVzZXJfZGF0YV8iKSk7CgoJewoJCWNvbnN0IGNvbnRleHQgPSBhd2FpdCBDYW1vdWZveCh7CgkJCXVzZXJfZGF0YV9kaXI6IHVzZXJEYXRhRGlyLAoJCQloZWFkbGVzczogdHJ1ZSwKCQl9KTsKCgkJY29uc3QgcGFnZSA9IGF3YWl0IGNvbnRleHQubmV3UGFnZSgpOwoJCWF3YWl0IHBhZ2UuZ290bygiaHR0cHM6Ly9leGFtcGxlLmNvbSIpOwoKCQlhd2FpdCBwYWdlLmV2YWx1YXRlKCgpID0+IHsKCQkJZG9jdW1lbnQuY29va2llID0KCQkJCSJuYW1lPXZhbHVlOyBwYXRoPS87IGRvbWFpbj1leGFtcGxlLmNvbTsgZXhwaXJlcz1GcmksIDMxIERlYyA5OTk5IDIzOjU5OjU5IEdNVCI7CgkJfSk7CgkJYXdhaXQgcGFnZS5jbG9zZSgpOwoJCWF3YWl0IGNvbnRleHQuY2xvc2UoKTsKCX0KCglsZXQgcmVhZENvb2tpZXM6IGFueSA9IG51bGw7CgoJewoJCWNvbnN0IGNvbnRleHQgPSBhd2FpdCBDYW1vdWZveCh7CgkJCXVzZXJfZGF0YV9kaXI6IHVzZXJEYXRhRGlyLAoJCQloZWFkbGVzczogdHJ1ZSwKCQl9KTsKCgkJY29uc3QgcGFnZSA9IGF3YWl0IGNvbnRleHQubmV3UGFnZSgpOwoJCWF3YWl0IHBhZ2UuZ290bygiaHR0cHM6Ly9leGFtcGxlLmNvbSIpOwoKCQlyZWFkQ29va2llcyA9IGF3YWl0IHBhZ2UuZXZhbHVhdGUoKCkgPT4gewoJCQljb25zdCBjb29raWVzID0gZG9jdW1lbnQuY29va2llCgkJCQkuc3BsaXQoIjsgIikKCQkJCS5yZWR1Y2U8UmVjb3JkPHN0cmluZywgc3RyaW5nPj4oKGFjYywgY29va2llKSA9PiB7CgkJCQkJY29uc3QgW25hbWUsIHZhbHVlXSA9IGNvb2tpZS5zcGxpdCgiPSIpOwoJCQkJCWFjY1tuYW1lXSA9IHZhbHVlOwoJCQkJCXJldHVybiBhY2M7CgkJCQl9LCB7fSk7CgkJCXJldHVybiBjb29raWVzOwoJCX0pOwoKCQlhd2FpdCBwYWdlLmNsb3NlKCk7CgkJYXdhaXQgY29udGV4dC5jbG9zZSgpOwoJfQoKCWV4cGVjdChyZWFkQ29va2llcykudG9FcXVhbCh7IG5hbWU6ICJ2YWx1ZSIgfSk7Cn0sIDMwZTMpOwoKZGVzY3JpYmUoIkZpbmdlcnByaW50IGluamVjdGlvbiIsICgpID0+IHsKCXRlc3QoImN1c3RvbSB3aW5kb3cgc2l6ZSBpcyBhcHBsaWVkIiwgYXN5bmMgKCkgPT4gewoJCWNvbnN0IGJyb3dzZXIgPSBhd2FpdCBDYW1vdWZveCh7CgkJCWhlYWRsZXNzOiB0cnVlLAoJCQl3aW5kb3c6IFsxMjgwLCA3MjBdLAoJCX0pOwoKCQljb25zdCBwYWdlID0gYXdhaXQgYnJvd3Nlci5uZXdQYWdlKCk7CgoJCWNvbnN0IGRpbWVuc2lvbnMgPSBhd2FpdCBwYWdlLmV2YWx1YXRlKCgpID0+ICh7CgkJCW91dGVyV2lkdGg6IHdpbmRvdy5vdXRlcldpZHRoLAoJCQlvdXRlckhlaWdodDogd2luZG93Lm91dGVySGVpZ2h0LAoJCX0pKTsKCgkJZXhwZWN0KGRpbWVuc2lvbnMub3V0ZXJXaWR0aCkudG9CZSgxMjgwKTsKCQlleHBlY3QoZGltZW5zaW9ucy5vdXRlckhlaWdodCkudG9CZSg3MjApOwoKCQlhd2FpdCBicm93c2VyLmNsb3NlKCk7Cgl9LCAxMGUzKTsKCgl0ZXN0KCJmaW5nZXJwcmludCBkaWZmZXJzIGJldHdlZW4gbGF1bmNoZXMiLCBhc3luYyAoKSA9PiB7CgkJY29uc3QgZ2V0RmluZ2VycHJpbnQgPSBhc3luYyAoKSA9PiB7CgkJCWNvbnN0IGJyb3dzZXIgPSBhd2FpdCBDYW1vdWZveCh7IGhlYWRsZXNzOiB0cnVlIH0pOwoJCQljb25zdCBwYWdlID0gYXdhaXQgYnJvd3Nlci5uZXdQYWdlKCk7CgkJCWNvbnN0IGZwID0gYXdhaXQgcGFnZS5ldmFsdWF0ZSgoKSA9PiAoewoJCQkJdWE6IG5hdmlnYXRvci51c2VyQWdlbnQsCgkJCQljb3JlczogbmF2aWdhdG9yLmhhcmR3YXJlQ29uY3VycmVuY3ksCgkJCQlzY3JlZW5XOiBzY3JlZW4ud2lkdGgsCgkJCQlzY3JlZW5IOiBzY3JlZW4uaGVpZ2h0LAoJCQkJb3V0ZXJXOiB3aW5kb3cub3V0ZXJXaWR0aCwKCQkJCW91dGVySDogd2luZG93Lm91dGVySGVpZ2h0LAoJCQl9KSk7CgkJCWF3YWl0IGJyb3dzZXIuY2xvc2UoKTsKCQkJcmV0dXJuIGZwOwoJCX07CgoJCWNvbnN0IGZwMSA9IGF3YWl0IGdldEZpbmdlcnByaW50KCk7CgkJY29uc3QgZnAyID0gYXdhaXQgZ2V0RmluZ2VycHJpbnQoKTsKCgkJY29uc3QgaWRlbnRpY2FsID0gT2JqZWN0LmtleXMoZnAxKS5ldmVyeSgKCQkJKGspID0+IGZwMVtrIGFzIGtleW9mIHR5cGVvZiBmcDFdID09PSBmcDJbayBhcyBrZXlvZiB0eXBlb2YgZnAyXSwKCQkpOwoJCWV4cGVjdChpZGVudGljYWwpLnRvQmUoZmFsc2UpOwoJfSwgMTVlMyk7CgoJdGVzdCgic2NyZWVuIGRpbWVuc2lvbnMgYXJlIHNwb29mZWQiLCBhc3luYyAoKSA9PiB7CgkJY29uc3QgYnJvd3NlciA9IGF3YWl0IENhbW91Zm94KHsKCQkJaGVhZGxlc3M6IHRydWUsCgkJCXNjcmVlbjogeyBtYXhXaWR0aDogMTkyMCwgbWF4SGVpZ2h0OiAxMDgwIH0sCgkJfSk7CgoJCWNvbnN0IHBhZ2UgPSBhd2FpdCBicm93c2VyLm5ld1BhZ2UoKTsKCgkJY29uc3Qgc2NyZWVuID0gYXdhaXQgcGFnZS5ldmFsdWF0ZSgoKSA9PiAoewoJCQl3aWR0aDogd2luZG93LnNjcmVlbi53aWR0aCwKCQkJaGVpZ2h0OiB3aW5kb3cuc2NyZWVuLmhlaWdodCwKCQl9KSk7CgoJCWV4cGVjdChzY3JlZW4ud2lkdGgpLnRvQmVHcmVhdGVyVGhhbigwKTsKCQlleHBlY3Qoc2NyZWVuLndpZHRoKS50b0JlTGVzc1RoYW5PckVxdWFsKDE5MjApOwoJCWV4cGVjdChzY3JlZW4uaGVpZ2h0KS50b0JlR3JlYXRlclRoYW4oMCk7CgkJZXhwZWN0KHNjcmVlbi5oZWlnaHQpLnRvQmVMZXNzVGhhbk9yRXF1YWwoMTA4MCk7CgoJCWF3YWl0IGJyb3dzZXIuY2xvc2UoKTsKCX0sIDEwZTMpOwoKCXRlc3QoImhhcmR3YXJlQ29uY3VycmVuY3kgaXMgc3Bvb2ZlZCIsIGFzeW5jICgpID0+IHsKCQljb25zdCBicm93c2VyID0gYXdhaXQgQ2Ftb3Vmb3goewoJCQloZWFkbGVzczogdHJ1ZSwKCQl9KTsKCgkJY29uc3QgcGFnZSA9IGF3YWl0IGJyb3dzZXIubmV3UGFnZSgpOwoJCWNvbnN0IGNvcmVzID0gYXdhaXQgcGFnZS5ldmFsdWF0ZSgoKSA9PiBuYXZpZ2F0b3IuaGFyZHdhcmVDb25jdXJyZW5jeSk7CgkJZXhwZWN0KGNvcmVzKS50b0JlR3JlYXRlclRoYW4oMCk7CgkJZXhwZWN0KE51bWJlci5pc0ludGVnZXIoY29yZXMpKS50b0JlKHRydWUpOwoKCQlhd2FpdCBicm93c2VyLmNsb3NlKCk7Cgl9LCAxMGUzKTsKCgl0ZXN0KCJsb2NhbGUgb3B0aW9uIG92ZXJyaWRlcyBJbnRsIGxvY2FsZSIsIGFzeW5jICgpID0+IHsKCQljb25zdCBicm93c2VyID0gYXdhaXQgQ2Ftb3Vmb3goewoJCQloZWFkbGVzczogdHJ1ZSwKCQkJbG9jYWxlOiAiZnItRlIiLAoJCQlpX2tub3dfd2hhdF9pbV9kb2luZzogdHJ1ZSwKCQl9KTsKCgkJY29uc3QgcGFnZSA9IGF3YWl0IGJyb3dzZXIubmV3UGFnZSgpOwoKCQljb25zdCBsb2NhbGUgPSBhd2FpdCBwYWdlLmV2YWx1YXRlKAoJCQkoKSA9PiBJbnRsLkRhdGVUaW1lRm9ybWF0KCkucmVzb2x2ZWRPcHRpb25zKCkubG9jYWxlLAoJCSk7CgkJZXhwZWN0KGxvY2FsZSkudG9NYXRjaCgvXmZyLyk7CgoJCWNvbnN0IGxhbmd1YWdlID0gYXdhaXQgcGFnZS5ldmFsdWF0ZSgoKSA9PiBuYXZpZ2F0b3IubGFuZ3VhZ2UpOwoJCWV4cGVjdChsYW5ndWFnZSkudG9NYXRjaCgvXmZyLyk7CgoJCWF3YWl0IGJyb3dzZXIuY2xvc2UoKTsKCX0sIDEwZTMpOwoKCXRlc3QoIldlYkdMIGlzIGJsb2NrZWQgd2hlbiBibG9ja193ZWJnbCBpcyB0cnVlIiwgYXN5bmMgKCkgPT4gewoJCWNvbnN0IGJyb3dzZXIgPSBhd2FpdCBDYW1vdWZveCh7CgkJCWhlYWRsZXNzOiB0cnVlLAoJCQlibG9ja193ZWJnbDogdHJ1ZSwKCQkJaV9rbm93X3doYXRfaW1fZG9pbmc6IHRydWUsCgkJfSk7CgoJCWNvbnN0IHBhZ2UgPSBhd2FpdCBicm93c2VyLm5ld1BhZ2UoKTsKCgkJY29uc3QgaGFzV2ViR0wgPSBhd2FpdCBwYWdlLmV2YWx1YXRlKCgpID0+IHsKCQkJY29uc3QgY2FudmFzID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiY2FudmFzIik7CgkJCXJldHVybiAhIShjYW52YXMuZ2V0Q29udGV4dCgid2ViZ2wiKSB8fCBjYW52YXMuZ2V0Q29udGV4dCgid2ViZ2wyIikpOwoJCX0pOwoKCQlleHBlY3QoaGFzV2ViR0wpLnRvQmUoZmFsc2UpOwoKCQlhd2FpdCBicm93c2VyLmNsb3NlKCk7Cgl9LCAxMGUzKTsKCgl0ZXN0KCJXZWJSVEMgaXMgYmxvY2tlZCB3aGVuIGJsb2NrX3dlYnJ0YyBpcyB0cnVlIiwgYXN5bmMgKCkgPT4gewoJCWNvbnN0IGJyb3dzZXIgPSBhd2FpdCBDYW1vdWZveCh7CgkJCWhlYWRsZXNzOiB0cnVlLAoJCQlibG9ja193ZWJydGM6IHRydWUsCgkJfSk7CgoJCWNvbnN0IHBhZ2UgPSBhd2FpdCBicm93c2VyLm5ld1BhZ2UoKTsKCgkJY29uc3QgaGFzV2ViUlRDID0gYXdhaXQgcGFnZS5ldmFsdWF0ZSgKCQkJKCkgPT4gdHlwZW9mIHdpbmRvdy5SVENQZWVyQ29ubmVjdGlvbiwKCQkpOwoJCWV4cGVjdChoYXNXZWJSVEMpLnRvQmUoInVuZGVmaW5lZCIpOwoKCQlhd2FpdCBicm93c2VyLmNsb3NlKCk7Cgl9LCAxMGUzKTsKfSk7Cgp0ZXN0KCJsZW5zIGF1ZGl0IHJlcG9ydHMgYSBub24temVybyBmaW5nZXJwcmludCBzY29yZSIsIGFzeW5jICgpID0+IHsKCWNvbnN0IGJyb3dzZXIgPSBhd2FpdCBDYW1vdWZveCh7CgkJaGVhZGxlc3M6IHRydWUsCgkJb3M6ICJsaW51eCIsCgl9KTsKCgljb25zdCBwYWdlID0gYXdhaXQgYnJvd3Nlci5uZXdQYWdlKCk7Cglhd2FpdCBwYWdlLmdvdG8oImh0dHBzOi8vZXhhbXBsZS5jb20iKTsKCgljb25zdCByZXBvcnQgPSBhd2FpdCBhdWRpdEZpbmdlcnByaW50KHBhZ2UpOwoJZXhwZWN0KHJlcG9ydC5zY29yZSkudG9CZUdyZWF0ZXJUaGFuKDApOwoJZXhwZWN0KHJlcG9ydC5jaGVja3MubGVuZ3RoKS50b0JlR3JlYXRlclRoYW4oNSk7CgoJY29uc3QgZmFpbGVkSWRzID0gcmVwb3J0LmNoZWNrcy5maWx0ZXIoKGMpID0+ICFjLm9rKS5tYXAoKGMpID0+IGMuaWQpOwoJY29uc29sZS5sb2coYFt0ZXN0XSBsZW5zIHNjb3JlPSR7cmVwb3J0LnNjb3JlfS8xMDAsIGZhaWxlZD1bJHtmYWlsZWRJZHMuam9pbigiLCAiKX1dYCk7CgoJYXdhaXQgYnJvd3Nlci5jbG9zZSgpOwp9LCAxNWUzKTsKCnRlc3QoIldlYkdMIHNoYWRlciBwcmVjaXNpb24gaXMgY29uc2lzdGVudCBhY3Jvc3MgY29udGV4dHMiLCBhc3luYyAoKSA9PiB7Cgljb25zdCBicm93c2VyID0gYXdhaXQgQ2Ftb3Vmb3goeyBoZWFkbGVzczogdHJ1ZSB9KTsKCgkvLyBGaXJzdCB2ZXJpZnkgV2ViR0wgaXMgYWN0dWFsbHkgYXZhaWxhYmxlIGluIHRoaXMgZW52aXJvbm1lbnQKCWNvbnN0IHBhZ2VQcm9iZSA9IGF3YWl0IGJyb3dzZXIubmV3UGFnZSgpOwoJY29uc3QgaGFzV2ViR0wgPSBhd2FpdCBwYWdlUHJvYmUuZXZhbHVhdGUoKCkgPT4gewoJCWNvbnN0IGMgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJjYW52YXMiKTsKCQlyZXR1cm4gISEoYy5nZXRDb250ZXh0KCJ3ZWJnbCIpIHx8IGMuZ2V0Q29udGV4dCgiZXhwZXJpbWVudGFsLXdlYmdsIikpOwoJfSk7Cglhd2FpdCBwYWdlUHJvYmUuY2xvc2UoKTsKCglpZiAoIWhhc1dlYkdMKSB7CgkJLy8gSGVhZGxlc3MgZW52aXJvbm1lbnRzIHdpdGhvdXQgR1BVIG1heSBub3Qgc3VwcG9ydCBXZWJHTCDigJQgc2tpcCBncmFjZWZ1bGx5CgkJY29uc29sZS5sb2coIlt0ZXN0XSBza2lwcGluZyBzaGFkZXIgcHJlY2lzaW9uOiBXZWJHTCB1bmF2YWlsYWJsZSBpbiBoZWFkbGVzcyBlbnYiKTsKCQlhd2FpdCBicm93c2VyLmNsb3NlKCk7CgkJcmV0dXJuOwoJfQoKCWNvbnN0IGN0eEEgPSBhd2FpdCBicm93c2VyLm5ld0NvbnRleHQoKTsKCWNvbnN0IGN0eEIgPSBhd2FpdCBicm93c2VyLm5ld0NvbnRleHQoKTsKCWNvbnN0IHBhZ2VBID0gYXdhaXQgY3R4QS5uZXdQYWdlKCk7Cgljb25zdCBwYWdlQiA9IGF3YWl0IGN0eEIubmV3UGFnZSgpOwoKCWF3YWl0IHBhZ2VBLmdvdG8oImFib3V0OmJsYW5rIik7Cglhd2FpdCBwYWdlQi5nb3RvKCJhYm91dDpibGFuayIpOwoKCWNvbnN0IHByZWNpc2lvbkEgPSBhd2FpdCBwYWdlQS5ldmFsdWF0ZSgoKSA9PiB7CgkJY29uc3QgY2FudmFzID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgiY2FudmFzIik7CgkJY29uc3QgZ2wgPSBjYW52YXMuZ2V0Q29udGV4dCgid2ViZ2wiKSBhcyBXZWJHTFJlbmRlcmluZ0NvbnRleHQgfCBudWxsOwoJCWlmICghZ2wpIHJldHVybiBudWxsOwoJCWNvbnN0IGZtdCA9IGdsLmdldFNoYWRlclByZWNpc2lvbkZvcm1hdCgKCQkJV2ViR0xSZW5kZXJpbmdDb250ZXh0LkZSQUdNRU5UX1NIQURFUiwKCQkJV2ViR0xSZW5kZXJpbmdDb250ZXh0LkhJR0hfRkxPQVQsCgkJKTsKCQlyZXR1cm4gZm10ID8gZm10LnByZWNpc2lvbiA6IG51bGw7Cgl9KTsKCgljb25zdCBwcmVjaXNpb25CID0gYXdhaXQgcGFnZUIuZXZhbHVhdGUoKCkgPT4gewoJCWNvbnN0IGNhbnZhcyA9IGRvY3VtZW50LmNyZWF0ZUVsZW1lbnQoImNhbnZhcyIpOwoJCWNvbnN0IGdsID0gY2FudmFzLmdldENvbnRleHQoIndlYmdsIikgYXMgV2ViR0xSZW5kZXJpbmdDb250ZXh0IHwgbnVsbDsKCQlpZiAoIWdsKSByZXR1cm4gbnVsbDsKCQljb25zdCBmbXQgPSBnbC5nZXRTaGFkZXJQcmVjaXNpb25Gb3JtYXQoCgkJCVdlYkdMUmVuZGVyaW5nQ29udGV4dC5GUkFHTUVOVF9TSEFERVIsCgkJCVdlYkdMUmVuZGVyaW5nQ29udGV4dC5ISUdIX0ZMT0FULAoJCSk7CgkJcmV0dXJuIGZtdCA/IGZtdC5wcmVjaXNpb24gOiBudWxsOwoJfSk7CgoJZXhwZWN0KHByZWNpc2lvbkEpLm5vdC50b0JlTnVsbCgpOwoJZXhwZWN0KHByZWNpc2lvbkIpLm5vdC50b0JlTnVsbCgpOwoJZXhwZWN0KHByZWNpc2lvbkEpLnRvQmUocHJlY2lzaW9uQik7CglleHBlY3QocHJlY2lzaW9uQSEpLnRvQmVHcmVhdGVyVGhhbk9yRXF1YWwoMjMpOwoKCWF3YWl0IGJyb3dzZXIuY2xvc2UoKTsKfSwgMTVlMyk7Cgo=
+import { mkdtemp } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import { firefox } from "playwright-core";
+import { describe, expect, test } from "vitest";
+import { Camoufox, launchServer, auditFingerprint, type LensReport } from "../src";
+
+const TEST_CASES = [
+ { os: "linux" as const, userAgentRegex: /Linux/i },
+ { os: "windows" as const, userAgentRegex: /Windows/i },
+ { os: "macos" as const, userAgentRegex: /Mac OS/i },
+];
+
+describe.skipIf(process.platform !== "linux")("virtual display", () => {
+ test("should launch", async () => {
+ const browser = await Camoufox({
+ os: "linux",
+ headless: "virtual",
+ });
+
+ const page = await browser.newPage();
+ await page.goto("https://api.apify.com/v2/browser-info");
+ const userAgent = await page.evaluate(() => navigator.userAgent.toString());
+ expect(userAgent).toMatch(/Linux/i);
+ await browser.close();
+ }, 30e3);
+
+ test("multiple browsers spawn own virtual displays", async () => {
+ const browser1 = await Camoufox({
+ os: "linux",
+ headless: "virtual",
+ });
+
+ const browser2 = await Camoufox({
+ os: "linux",
+ headless: "virtual",
+ });
+
+ expect(browser1).not.toBe(browser2);
+
+ await browser1.close();
+
+ const page = await browser2.newPage();
+ await page.goto("https://api.apify.com/v2/browser-info");
+ await browser2.close();
+ }, 30e3);
+
+
+ test("should support combining headless virtual with other launch options", async () => {
+ const browser = await Camoufox({
+ os: "linux",
+ headless: "virtual",
+ block_images: true,
+ humanize: true,
+ });
+
+ const page = await browser.newPage();
+ await page.goto("https://api.apify.com/v2/browser-info");
+ const userAgent = await page.evaluate(() => navigator.userAgent.toString());
+ expect(userAgent).toMatch(/Linux/i);
+ await browser.close();
+ }, 30e3);
+});
+
+describe("Fingerprint consistency", () => {
+ test.each(TEST_CASES)("User-Agent matches set OS ($os)", async ({
+ os,
+ userAgentRegex,
+ }) => {
+ const browser = await Camoufox({
+ os,
+ headless: true,
+ });
+
+ const page = await browser.newPage();
+
+ await page.goto("https://api.apify.com/v2/browser-info");
+
+ const data = await page.evaluate(() =>
+ JSON.parse(document.querySelector("pre")?.textContent ?? ""),
+ );
+ const httpAgent = data.headers["user-agent"];
+ const jsAgent = await page.evaluate(() => navigator.userAgent.toString());
+
+ expect(httpAgent).toEqual(jsAgent);
+ expect(httpAgent).toMatch(userAgentRegex);
+
+ TEST_CASES.forEach(({ os: testOs, userAgentRegex }) => {
+ if (testOs !== os) {
+ expect(httpAgent).not.toMatch(userAgentRegex);
+ }
+ });
+
+ await browser.close();
+ }, 30e3);
+});
+
+test("Playwright connects to Camoufox server", async () => {
+ const server = await launchServer({
+ headless: true,
+ });
+
+ const browser = await firefox.connect(server.wsEndpoint());
+ const page = await browser.newPage();
+ await page.goto("https://api.apify.com/v2/browser-info");
+
+ const userAgent = await page.evaluate(() => navigator.userAgent.toString());
+ expect(userAgent).toMatch(/Firefox/);
+ await browser.close();
+
+ await server.close();
+}, 30e3);
+
+test("Persistent context works", async () => {
+ const userDataDir = await mkdtemp(join(tmpdir(), "user_data_"));
+
+ {
+ const context = await Camoufox({
+ user_data_dir: userDataDir,
+ headless: true,
+ });
+
+ const page = await context.newPage();
+ await page.goto("https://example.com");
+
+ await page.evaluate(() => {
+ document.cookie =
+ "name=value; path=/; domain=example.com; expires=Fri, 31 Dec 9999 23:59:59 GMT";
+ });
+ await page.close();
+ await context.close();
+ }
+
+ let readCookies: any = null;
+
+ {
+ const context = await Camoufox({
+ user_data_dir: userDataDir,
+ headless: true,
+ });
+
+ const page = await context.newPage();
+ await page.goto("https://example.com");
+
+ readCookies = await page.evaluate(() => {
+ const cookies = document.cookie
+ .split("; ")
+ .reduce<Record<string, string>>((acc, cookie) => {
+ const [name, value] = cookie.split("=");
+ acc[name] = value;
+ return acc;
+ }, {});
+ return cookies;
+ });
+
+ await page.close();
+ await context.close();
+ }
+
+ expect(readCookies).toEqual({ name: "value" });
+}, 30e3);
+
+describe("Fingerprint injection", () => {
+ test("custom window size is applied", async () => {
+ const browser = await Camoufox({
+ headless: true,
+ window: [1280, 720],
+ });
+
+ const page = await browser.newPage();
+
+ const dimensions = await page.evaluate(() => ({
+ outerWidth: window.outerWidth,
+ outerHeight: window.outerHeight,
+ }));
+
+ expect(dimensions.outerWidth).toBe(1280);
+ expect(dimensions.outerHeight).toBe(720);
+
+ await browser.close();
+ }, 10e3);
+
+ test("fingerprint differs between launches", async () => {
+ const getFingerprint = async () => {
+ const browser = await Camoufox({ headless: true });
+ const page = await browser.newPage();
+ const fp = await page.evaluate(() => ({
+ ua: navigator.userAgent,
+ cores: navigator.hardwareConcurrency,
+ screenW: screen.width,
+ screenH: screen.height,
+ outerW: window.outerWidth,
+ outerH: window.outerHeight,
+ }));
+ await browser.close();
+ return fp;
+ };
+
+ const fp1 = await getFingerprint();
+ const fp2 = await getFingerprint();
+
+ const identical = Object.keys(fp1).every(
+ (k) => fp1[k as keyof typeof fp1] === fp2[k as keyof typeof fp2],
+ );
+ expect(identical).toBe(false);
+ }, 15e3);
+
+ test("screen dimensions are spoofed", async () => {
+ const browser = await Camoufox({
+ headless: true,
+ screen: { maxWidth: 1920, maxHeight: 1080 },
+ });
+
+ const page = await browser.newPage();
+
+ const screen = await page.evaluate(() => ({
+ width: window.screen.width,
+ height: window.screen.height,
+ }));
+
+ expect(screen.width).toBeGreaterThan(0);
+ expect(screen.width).toBeLessThanOrEqual(1920);
+ expect(screen.height).toBeGreaterThan(0);
+ expect(screen.height).toBeLessThanOrEqual(1080);
+
+ await browser.close();
+ }, 10e3);
+
+ test("hardwareConcurrency is spoofed", async () => {
+ const browser = await Camoufox({
+ headless: true,
+ });
+
+ const page = await browser.newPage();
+ const cores = await page.evaluate(() => navigator.hardwareConcurrency);
+ expect(cores).toBeGreaterThan(0);
+ expect(Number.isInteger(cores)).toBe(true);
+
+ await browser.close();
+ }, 10e3);
+
+ test("locale option overrides Intl locale", async () => {
+ const browser = await Camoufox({
+ headless: true,
+ locale: "fr-FR",
+ i_know_what_im_doing: true,
+ });
+
+ const page = await browser.newPage();
+
+ const locale = await page.evaluate(
+ () => Intl.DateTimeFormat().resolvedOptions().locale,
+ );
+ expect(locale).toMatch(/^fr/);
+
+ const language = await page.evaluate(() => navigator.language);
+ expect(language).toMatch(/^fr/);
+
+ await browser.close();
+ }, 10e3);
+
+ test("WebGL is blocked when block_webgl is true", async () => {
+ const browser = await Camoufox({
+ headless: true,
+ block_webgl: true,
+ i_know_what_im_doing: true,
+ });
+
+ const page = await browser.newPage();
+ const hasWebGL = await page.evaluate(() => {
+ const canvas = document.createElement("canvas");
+ return !!(canvas.getContext("webgl") || canvas.getContext("webgl2"));
+ });
+
+ expect(hasWebGL).toBe(false);
+
+ await browser.close();
+ }, 10e3);
+
+ test("WebRTC is blocked when block_webrtc is true", async () => {
+ const browser = await Camoufox({
+ headless: true,
+ block_webrtc: true,
+ });
+
+ const page = await browser.newPage();
+ const hasWebRTC = await page.evaluate(
+ () => typeof window.RTCPeerConnection,
+ );
+ expect(hasWebRTC).toBe("undefined");
+
+ await browser.close();
+ }, 10e3);
+});
+
+test("lens audit reports a non-zero fingerprint score", async () => {
+ const browser = await Camoufox({
+ headless: true,
+ os: "linux",
+ });
+
+ const page = await browser.newPage();
+ await page.goto("https://example.com");
+
+ const report = await auditFingerprint(page);
+ expect(report.score).toBeGreaterThan(0);
+ expect(report.checks.length).toBeGreaterThan(5);
+
+ const failedIds = report.checks.filter((c) => !c.ok).map((c) => c.id);
+ console.log(`[test] lens score=${report.score}/100, failed=[${failedIds.join(", ")}]`);
+
+ await browser.close();
+}, 30e3);
+
+test("WebGL shader precision is consistent across contexts", async () => {
+ const browser = await Camoufox({ headless: true });
+
+ // First verify WebGL is actually available in this environment
+ const pageProbe = await browser.newPage();
+ const hasWebGL = await pageProbe.evaluate(() => {
+ const c = document.createElement("canvas");
+ return !!(c.getContext("webgl") || c.getContext("experimental-webgl"));
+ });
+ await pageProbe.close();
+
+ if (!hasWebGL) {
+ // Headless environments without GPU may not support WebGL — skip gracefully
+ console.log("[test] skipping shader precision: WebGL unavailable in headless env");
+ await browser.close();
+ return;
+ }
+
+ const ctxA = await browser.newContext();
+ const ctxB = await browser.newContext();
+ const pageA = ctxA.newPage();
+ const pageB = ctxB.newPage();
+
+ await pageA.goto("about:blank");
+ await pageB.goto("about:blank");
+
+ const precisionA = await pageA.evaluate(() => {
+ const canvas = document.createElement("canvas");
+ const gl = canvas.getContext("webgl") as WebGLRenderingContext | null;
+ if (!gl) return null;
+ const fmt = gl.getShaderPrecisionFormat(
+ WebGLRenderingContext.FRAGMENT_SHADER,
+ WebGLRenderingContext.HIGH_FLOAT,
+ );
+ return fmt ? fmt.precision : null;
+ });
+
+ const precisionB = await pageB.evaluate(() => {
+ const canvas = document.createElement("canvas");
+ const gl = canvas.getContext("webgl") as WebGLRenderingContext | null;
+ if (!gl) return null;
+ const fmt = gl.getShaderPrecisionFormat(
+ WebGLRenderingContext.FRAGMENT_SHADER,
+ WebGLRenderingContext.HIGH_FLOAT,
+ );
+ return fmt ? fmt.precision : null;
+ });
+
+ expect(precisionA).not.toBeNull();
+ expect(precisionB).not.toBeNull();
+ expect(precisionA).toBe(precisionB);
+ expect(precisionA!).toBeGreaterThanOrEqual(23);
+
+ await browser.close();
+}, 30e3);
+

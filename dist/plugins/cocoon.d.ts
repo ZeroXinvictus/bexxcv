@@ -1,1 +1,5 @@
-aW1wb3J0IHR5cGUgeyBCZXh4Y3ZQbHVnaW4gfSBmcm9tICIuL3R5cGVzLmpzIjsKZXhwb3J0IGludGVyZmFjZSBDb2Nvb25PcHRpb25zIHsKICAgIGRpcjogc3RyaW5nOwp9CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGNvY29vbihpbnB1dDogc3RyaW5nIHwgQ29jb29uT3B0aW9ucyk6IEJleHhjdlBsdWdpbjsK
+import type { BexxcvPlugin } from "./types.js";
+export interface CocoonOptions {
+    dir: string;
+}
+export declare function cocoon(input: string | CocoonOptions): BexxcvPlugin;

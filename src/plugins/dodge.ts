@@ -1,1 +1,131 @@
-aW1wb3J0IHR5cGUgeyBCcm93c2VyQ29udGV4dCB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB7IHB1YmxpY0lQIH0gZnJvbSAiLi4vaXAuanMiOwppbXBvcnQgdHlwZSB7IEJleHhjdlBsdWdpbiB9IGZyb20gIi4vdHlwZXMuanMiOwoKZXhwb3J0IGludGVyZmFjZSBEb2RnZU9wdGlvbnMgewoJcG9vbDogc3RyaW5nW107Cglyb3RhdGVPbj86IG51bWJlcltdOwoJaGVhbHRoQ2hlY2s/OiBib29sZWFuOwoJaGVhbHRoVGltZW91dD86IG51bWJlcjsKCWNvb2xkb3duPzogbnVtYmVyOwoJb25CbG9ja2VkPzogKGluZm86IHsgcHJveHk6IHN0cmluZzsgc3RhdHVzOiBudW1iZXI7IHVybDogc3RyaW5nIH0pID0+IHZvaWQ7Cn0KCmludGVyZmFjZSBQcm94eVN0YXRlIHsKCXVybDogc3RyaW5nOwoJYmFkVW50aWw6IG51bWJlcjsKCWlwPzogc3RyaW5nOwp9Cgp0eXBlIFByb3h5Q29uZmlnID0geyBzZXJ2ZXI6IHN0cmluZzsgdXNlcm5hbWU/OiBzdHJpbmc7IHBhc3N3b3JkPzogc3RyaW5nIH07CgpleHBvcnQgZnVuY3Rpb24gdG9Qcm94eUNvbmZpZyh1cmw6IHN0cmluZyk6IFByb3h5Q29uZmlnIHsKCWNvbnN0IHBhcnNlZCA9IG5ldyBVUkwodXJsKTsKCWNvbnN0IGNvbmZpZzogUHJveHlDb25maWcgPSB7IHNlcnZlcjogYCR7cGFyc2VkLnByb3RvY29sfS8vJHtwYXJzZWQuaG9zdH1gIH07CglpZiAocGFyc2VkLnVzZXJuYW1lKSBjb25maWcudXNlcm5hbWUgPSBkZWNvZGVVUklDb21wb25lbnQocGFyc2VkLnVzZXJuYW1lKTsKCWlmIChwYXJzZWQucGFzc3dvcmQpIGNvbmZpZy5wYXNzd29yZCA9IGRlY29kZVVSSUNvbXBvbmVudChwYXJzZWQucGFzc3dvcmQpOwoJcmV0dXJuIGNvbmZpZzsKfQoKZnVuY3Rpb24gdGltZW91dDxUPihwcm9taXNlOiBQcm9taXNlPFQ+LCBtczogbnVtYmVyKTogUHJvbWlzZTxUPiB7CglyZXR1cm4gbmV3IFByb21pc2U8VD4oKHJlc29sdmUsIHJlamVjdCkgPT4gewoJCWNvbnN0IHRpbWVyID0gc2V0VGltZW91dCgoKSA9PiByZWplY3QobmV3IEVycm9yKCJ0aW1lb3V0IikpLCBtcyk7CgkJcHJvbWlzZS50aGVuKAoJCQkodmFsdWUpID0+IHsKCQkJCWNsZWFyVGltZW91dCh0aW1lcik7CgkJCQlyZXNvbHZlKHZhbHVlKTsKCQkJfSwKCQkJKGVycm9yKSA9PiB7CgkJCQljbGVhclRpbWVvdXQodGltZXIpOwoJCQkJcmVqZWN0KGVycm9yKTsKCQkJfSwKCQkpOwoJfSk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBkb2RnZShpbnB1dDogc3RyaW5nW10gfCBEb2RnZU9wdGlvbnMpOiBCZXh4Y3ZQbHVnaW4gewoJY29uc3Qgb3B0aW9uczogRG9kZ2VPcHRpb25zID0gQXJyYXkuaXNBcnJheShpbnB1dCkgPyB7IHBvb2w6IGlucHV0IH0gOiBpbnB1dDsKCWlmICghb3B0aW9ucy5wb29sIHx8IG9wdGlvbnMucG9vbC5sZW5ndGggPT09IDApIHsKCQl0aHJvdyBuZXcgRXJyb3IoImRvZGdlIG5lZWRzIGF0IGxlYXN0IG9uZSBwcm94eSBpbiBwb29sIik7Cgl9CgoJY29uc3Qgcm90YXRlT24gPSBuZXcgU2V0KG9wdGlvbnMucm90YXRlT24gPz8gWzQwMywgNDI5XSk7Cgljb25zdCBjb29sZG93biA9IG9wdGlvbnMuY29vbGRvd24gPz8gMzAwXzAwMDsKCWNvbnN0IHN0YXRlczogUHJveHlTdGF0ZVtdID0gb3B0aW9ucy5wb29sLm1hcCgodXJsKSA9PiAoeyB1cmwsIGJhZFVudGlsOiAwIH0pKTsKCWNvbnN0IG93bmVycyA9IG5ldyBXZWFrTWFwPEJyb3dzZXJDb250ZXh0LCBzdHJpbmc+KCk7CglsZXQgY3Vyc29yID0gMDsKCWxldCBsYXVuY2hQcm94eTogc3RyaW5nIHwgbnVsbCA9IG51bGw7CglsZXQgZmlyc3RDb250ZXh0ID0gdHJ1ZTsKCgljb25zdCBwaWNrID0gKCk6IFByb3h5U3RhdGUgPT4gewoJCWNvbnN0IG5vdyA9IERhdGUubm93KCk7CgkJZm9yIChsZXQgaSA9IDA7IGkgPCBzdGF0ZXMubGVuZ3RoOyBpKyspIHsKCQkJY29uc3Qgc3RhdGUgPSBzdGF0ZXNbKGN1cnNvciArIGkpICUgc3RhdGVzLmxlbmd0aF0hOwoJCQlpZiAoc3RhdGUuYmFkVW50aWwgPD0gbm93KSB7CgkJCQljdXJzb3IgPSAoY3Vyc29yICsgaSArIDEpICUgc3RhdGVzLmxlbmd0aDsKCQkJCXJldHVybiBzdGF0ZTsKCQkJfQoJCX0KCQljb25zdCBzb29uZXN0ID0gWy4uLnN0YXRlc10uc29ydCgoYSwgYikgPT4gYS5iYWRVbnRpbCAtIGIuYmFkVW50aWwpWzBdITsKCQljb25zb2xlLndhcm4oIltiZXh4Y3ZdIGRvZGdlOiBldmVyeSBwcm94eSBpcyBjb29saW5nIGRvd24sIHJldXNpbmcgdGhlIG9uZSB0aGF0IHJlY292ZXJzIGZpcnN0Iik7CgkJcmV0dXJuIHNvb25lc3Q7Cgl9OwoKCXJldHVybiB7CgkJbmFtZTogImRvZGdlIiwKCQlvcmRlcjogMTAsCgkJYXN5bmMgYmVmb3JlTGF1bmNoKGxhdW5jaCkgewoJCQlpZiAob3B0aW9ucy5oZWFsdGhDaGVjayAhPT0gZmFsc2UpIHsKCQkJCWNvbnN0IGxpbWl0ID0gb3B0aW9ucy5oZWFsdGhUaW1lb3V0ID8/IDEwXzAwMDsKCQkJCWNvbnN0IGhlYWx0aFJlc3VsdHMgPSBhd2FpdCBQcm9taXNlLmFsbFNldHRsZWQoCgkJCQkJc3RhdGVzLm1hcChhc3luYyAoc3RhdGUsIGluZGV4KSA9PiB7CgkJCQkJCXRyeSB7CgkJCQkJCQlzdGF0ZS5pcCA9IGF3YWl0IHRpbWVvdXQocHVibGljSVAoc3RhdGUudXJsKSwgbGltaXQpOwoJCQkJCQkJcmV0dXJuIHsgaW5kZXgsIGhlYWx0aHk6IHRydWUgfSBhcyBjb25zdDsKCQkJCQkJfSBjYXRjaCB7CgkJCQkJCQlzdGF0ZS5iYWRVbnRpbCA9IERhdGUubm93KCkgKyBjb29sZG93bjsKCQkJCQkJCXJldHVybiB7IGluZGV4LCBoZWFsdGh5OiBmYWxzZSB9IGFzIGNvbnN0OwoJCQkJCQl9CgkJCQkJfSksCgkJCQkpOwoJCQkJY29uc3QgaGFzSGVhbHRoeSA9IGhlYWx0aFJlc3VsdHMuc29tZSgocikgPT4gci5zdGF0dXMgPT09ICJmdWxmaWxsZWQiICYmIHIudmFsdWUuaGVhbHRoeSk7CgkJCQlpZiAoIWhhc0hlYWx0aHkpIHsKCQkJCQl0aHJvdyBuZXcgRXJyb3IoImRvZGdlOiBubyBoZWFsdGh5IHByb3h5IGluIHBvb2wiKTsKCQkJCX0KCQkJfQoJCQljb25zdCBjaG9zZW4gPSBwaWNrKCk7CgkJCWxhdW5jaFByb3h5ID0gY2hvc2VuLnVybDsKCQkJaWYgKGxhdW5jaC5wcm94eSA9PT0gdW5kZWZpbmVkKSBsYXVuY2gucHJveHkgPSB0b1Byb3h5Q29uZmlnKGNob3Nlbi51cmwpOwoJCX0sCgkJYmVmb3JlQ29udGV4dChjb250ZXh0T3B0aW9ucykgewoJCQlpZiAoY29udGV4dE9wdGlvbnMucHJveHkpIHJldHVybjsKCQkJaWYgKGZpcnN0Q29udGV4dCkgewoJCQkJZmlyc3RDb250ZXh0ID0gZmFsc2U7CgkJCQlyZXR1cm47CgkJCX0KCQkJY29uc3QgY2hvc2VuID0gcGljaygpOwoJCQljb250ZXh0T3B0aW9ucy5wcm94eSA9IHRvUHJveHlDb25maWcoY2hvc2VuLnVybCk7CgkJfSwKCQlvbkNvbnRleHQoY29udGV4dCwgY29udGV4dE9wdGlvbnMpIHsKCQkJY29uc3Qgc2VydmVyID0gY29udGV4dE9wdGlvbnMucHJveHk/LnNlcnZlcjsKCQkJY29uc3Qgb3duZXIgPQoJCQkJc3RhdGVzLmZpbmQoKHN0YXRlKSA9PiBzZXJ2ZXIgJiYgc3RhdGUudXJsLmluY2x1ZGVzKG5ldyBVUkwoc3RhdGUudXJsKS5ob3N0KSAmJiBzdGF0ZS51cmwuc3RhcnRzV2l0aChzZXJ2ZXIuc3BsaXQoIi8vIilbMF0hKSk/LnVybCA/PwoJCQkJbGF1bmNoUHJveHk7CgkJCWlmIChvd25lcikgb3duZXJzLnNldChjb250ZXh0LCBvd25lcik7CgoJCQljb250ZXh0Lm9uKCJyZXNwb25zZSIsIChyZXNwb25zZSkgPT4gewoJCQkJY29uc3Qgc3RhdHVzID0gcmVzcG9uc2Uuc3RhdHVzKCk7CgkJCQlpZiAoIXJvdGF0ZU9uLmhhcyhzdGF0dXMpKSByZXR1cm47CgkJCQlpZiAoIXJlc3BvbnNlLnJlcXVlc3QoKS5pc05hdmlnYXRpb25SZXF1ZXN0KCkpIHJldHVybjsKCQkJCWNvbnN0IHByb3h5ID0gb3duZXJzLmdldChjb250ZXh0KTsKCQkJCWNvbnN0IHN0YXRlID0gc3RhdGVzLmZpbmQoKHMpID0+IHMudXJsID09PSBwcm94eSk7CgkJCQlpZiAoIXN0YXRlKSByZXR1cm47CgkJCQlzdGF0ZS5iYWRVbnRpbCA9IERhdGUubm93KCkgKyBjb29sZG93bjsKCQkJCW9wdGlvbnMub25CbG9ja2VkPy4oeyBwcm94eTogc3RhdGUudXJsLCBzdGF0dXMsIHVybDogcmVzcG9uc2UudXJsKCkgfSk7CgkJCQljb25zb2xlLndhcm4oCgkJCQkJYFtiZXh4Y3ZdIGRvZGdlOiBwcm94eSBhbnN3ZXJlZCAke3N0YXR1c30sIGl0IGlzIHBhdXNlZCBmb3IgJHtNYXRoLnJvdW5kKGNvb2xkb3duIC8gMTAwMCl9cy4gTmV3IGNvbnRleHRzIHdpbGwgdXNlIGFub3RoZXIgcHJveHkuYCwKCQkJCSk7CgkJCX0pOwoJCX0sCgl9Owp9Cg==
+import type { BrowserContext } from "playwright-core";
+import { publicIP } from "../ip.js";
+import type { BexxcvPlugin } from "./types.js";
+
+export interface DodgeOptions {
+	pool: string[];
+	rotateOn?: number[];
+	healthCheck?: boolean;
+	healthTimeout?: number;
+	cooldown?: number;
+	onBlocked?: (info: { proxy: string; status: number; url: string }) => void;
+}
+
+interface ProxyState {
+	url: string;
+	badUntil: number;
+	ip?: string;
+}
+
+type ProxyConfig = { server: string; username?: string; password?: string };
+
+export function toProxyConfig(url: string): ProxyConfig {
+	const parsed = new URL(url);
+	const config: ProxyConfig = { server: `${parsed.protocol}//${parsed.host}` };
+	if (parsed.username) config.username = decodeURIComponent(parsed.username);
+	if (parsed.password) config.password = decodeURIComponent(parsed.password);
+	return config;
+}
+
+function timeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+	return new Promise<T>((resolve, reject) => {
+		const timer = setTimeout(() => reject(new Error("timeout")), ms);
+		promise.then(
+			(value) => {
+				clearTimeout(timer);
+				resolve(value);
+			},
+			(error) => {
+				clearTimeout(timer);
+				reject(error);
+			},
+		);
+	});
+}
+
+export function dodge(input: string[] | DodgeOptions): BexxcvPlugin {
+	const options: DodgeOptions = Array.isArray(input) ? { pool: input } : input;
+	if (!options.pool || options.pool.length === 0) {
+		throw new Error("dodge needs at least one proxy in pool");
+	}
+
+	const rotateOn = new Set(options.rotateOn ?? [403, 429]);
+	const cooldown = options.cooldown ?? 300_000;
+	const states: ProxyState[] = options.pool.map((url) => ({ url, badUntil: 0 }));
+	const owners = new WeakMap<BrowserContext, string>();
+	let cursor = 0;
+	let launchProxy: string | null = null;
+	let firstContext = true;
+
+	const pick = (): ProxyState => {
+		const now = Date.now();
+		for (let i = 0; i < states.length; i++) {
+			const state = states[(cursor + i) % states.length]!;
+			if (state.badUntil <= now) {
+				cursor = (cursor + i + 1) % states.length;
+				return state;
+			}
+		}
+		const soonest = [...states].sort((a, b) => a.badUntil - b.badUntil)[0]!;
+		console.warn("[bexxcv] dodge: every proxy is cooling down, reusing the one that recovers first");
+		return soonest;
+	};
+
+	return {
+		name: "dodge",
+		order: 10,
+		async beforeLaunch(launch) {
+			if (options.healthCheck !== false) {
+				const limit = options.healthTimeout ?? 10_000;
+				const healthResults = await Promise.allSettled(
+					states.map(async (state, index) => {
+						try {
+							state.ip = await timeout(publicIP(state.url), limit);
+							return { index, healthy: true } as const;
+						} catch {
+							state.badUntil = Date.now() + cooldown;
+							return { index, healthy: false } as const;
+						}
+					}),
+				);
+				const hasHealthy = healthResults.some((r) => r.status === "fulfilled" && r.value.healthy);
+				if (!hasHealthy) {
+					throw new Error("dodge: no healthy proxy in pool");
+				}
+			}
+			const chosen = pick();
+			launchProxy = chosen.url;
+			if (launch.proxy === undefined) launch.proxy = toProxyConfig(chosen.url);
+		},
+		beforeContext(contextOptions) {
+			if (contextOptions.proxy) return;
+			if (firstContext) {
+				firstContext = false;
+				return;
+			}
+			const chosen = pick();
+			contextOptions.proxy = toProxyConfig(chosen.url);
+		},
+		onContext(context, contextOptions) {
+			const server = contextOptions.proxy?.server;
+			const owner =
+				states.find((state) => server && state.url.includes(new URL(state.url).host) && state.url.startsWith(server.split("//")[0]!))?.url ??
+				launchProxy;
+			if (owner) owners.set(context, owner);
+
+			context.on("response", (response) => {
+				const status = response.status();
+				if (!rotateOn.has(status)) return;
+				if (!response.request().isNavigationRequest()) return;
+				const proxy = owners.get(context);
+				const state = states.find((s) => s.url === proxy);
+				if (!state) return;
+				state.badUntil = Date.now() + cooldown;
+				options.onBlocked?.({ proxy: state.url, status, url: response.url() });
+				console.warn(
+					`[bexxcv] dodge: proxy answered ${status}, it is paused for ${Math.round(cooldown / 1000)}s. New contexts will use another proxy.`,
+				);
+			});
+		},
+	};
+}

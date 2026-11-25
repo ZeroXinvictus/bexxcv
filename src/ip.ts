@@ -1,1 +1,121 @@
-aW1wb3J0IHsgSW1waXQgfSBmcm9tICJpbXBpdCI7CmltcG9ydCB7IEludmFsaWRJUCwgSW52YWxpZFByb3h5IH0gZnJvbSAiLi9leGNlcHRpb25zLmpzIjsKCmV4cG9ydCB7IEludmFsaWRJUCwgSW52YWxpZFByb3h5IH07CgpleHBvcnQgaW50ZXJmYWNlIFByb3h5IHsKCXNlcnZlcjogc3RyaW5nOwoJdXNlcm5hbWU/OiBzdHJpbmc7CglwYXNzd29yZD86IHN0cmluZzsKCWJ5cGFzcz86IHN0cmluZzsKfQoKZXhwb3J0IGNsYXNzIFByb3h5SGVscGVyIHsKCXN0YXRpYyBwYXJzZVNlcnZlcihzZXJ2ZXI6IHN0cmluZyk6IHsKCQlzY2hlbWE6IHN0cmluZzsKCQl1cmw6IHN0cmluZzsKCQlwb3J0Pzogc3RyaW5nOwoJfSB7CgkJY29uc3QgcHJveHlNYXRjaCA9IHNlcnZlci5tYXRjaCgvXig/OihcdyspOlwvXC8pPyguKj8pKD86OihcZCspKT8kLyk7CgkJaWYgKCFwcm94eU1hdGNoKSB7CgkJCXRocm93IG5ldyBJbnZhbGlkUHJveHkoYEludmFsaWQgcHJveHkgc2VydmVyOiAke3NlcnZlcn1gKTsKCQl9CgkJcmV0dXJuIHsKCQkJc2NoZW1hOiBwcm94eU1hdGNoWzFdIHx8ICJodHRwIiwKCQkJdXJsOiBwcm94eU1hdGNoWzJdLAoJCQlwb3J0OiBwcm94eU1hdGNoWzNdLAoJCX07Cgl9CgoJc3RhdGljIGFzU3RyaW5nKHByb3h5OiBQcm94eSk6IHN0cmluZyB7CgkJY29uc3QgeyBzY2hlbWEsIHVybCwgcG9ydCB9ID0gUHJveHlIZWxwZXIucGFyc2VTZXJ2ZXIocHJveHkuc2VydmVyKTsKCQlsZXQgcmVzdWx0ID0gYCR7c2NoZW1hfTovL2A7CgkJaWYgKHByb3h5LnVzZXJuYW1lKSB7CgkJCXJlc3VsdCArPSBwcm94eS51c2VybmFtZTsKCQkJaWYgKHByb3h5LnBhc3N3b3JkKSB7CgkJCQlyZXN1bHQgKz0gYDoke3Byb3h5LnBhc3N3b3JkfWA7CgkJCX0KCQkJcmVzdWx0ICs9ICJAIjsKCQl9CgkJcmVzdWx0ICs9IHVybDsKCQlpZiAocG9ydCkgewoJCQlyZXN1bHQgKz0gYDoke3BvcnR9YDsKCQl9CgkJcmV0dXJuIHJlc3VsdDsKCX0KCglzdGF0aWMgYXNBeGlvc1Byb3h5KHByb3h5U3RyaW5nOiBzdHJpbmcpOiB7IFtrZXk6IHN0cmluZ106IHN0cmluZyB9IHsKCQlyZXR1cm4gewoJCQlodHRwOiBwcm94eVN0cmluZywKCQkJaHR0cHM6IHByb3h5U3RyaW5nLAoJCX07Cgl9Cn0KCmV4cG9ydCBmdW5jdGlvbiB2YWxpZElQdjQoaXA6IHN0cmluZyB8IGZhbHNlKTogYm9vbGVhbiB7CglpZiAoIWlwKSByZXR1cm4gZmFsc2U7CglyZXR1cm4gL14oPzpbMC05XXsxLDN9XC4pezN9WzAtOV17MSwzfSQvLnRlc3QoaXApOwp9CgpleHBvcnQgZnVuY3Rpb24gdmFsaWRJUHY2KGlwOiBzdHJpbmcgfCBmYWxzZSk6IGJvb2xlYW4gewoJaWYgKCFpcCkgcmV0dXJuIGZhbHNlOwoJcmV0dXJuIC9eKChbMC05YS1mQS1GXXswLDR9Oil7MSw3fVswLTlhLWZBLUZdezAsNH0pJC8udGVzdChpcCk7Cn0KCmV4cG9ydCBmdW5jdGlvbiB2YWxpZGF0ZUlQKGlwOiBzdHJpbmcpOiB2b2lkIHsKCWlmICghdmFsaWRJUHY0KGlwKSAmJiAhdmFsaWRJUHY2KGlwKSkgewoJCXRocm93IG5ldyBJbnZhbGlkSVAoYEludmFsaWQgSVAgYWRkcmVzczogJHtpcH1gKTsKCX0KfQoKY29uc3QgSU1QSVRfQ0FDSEVfTUFYID0gTnVtYmVyKHByb2Nlc3MuZW52LmJleHhjdl9JTVBJVF9DQUNIRSkgfHwgODsKY29uc3QgaW1waXRDYWNoZSA9IG5ldyBNYXA8c3RyaW5nIHwgdW5kZWZpbmVkLCBJbXBpdD4oKTsKCmZ1bmN0aW9uIGdldEltcGl0KHByb3h5Pzogc3RyaW5nKTogSW1waXQgewoJY29uc3Qga2V5ID0gcHJveHk7Cgljb25zdCBjYWNoZWQgPSBpbXBpdENhY2hlLmdldChrZXkpOwoJaWYgKGNhY2hlZCkgewoJCWltcGl0Q2FjaGUuZGVsZXRlKGtleSk7CgkJaW1waXRDYWNoZS5zZXQoa2V5LCBjYWNoZWQpOwoJCXJldHVybiBjYWNoZWQ7Cgl9Cgljb25zdCBpbXBpdCA9IG5ldyBJbXBpdCh7CgkJcHJveHlVcmw6IHByb3h5LAoJCXRpbWVvdXQ6IDUwMDAsCgl9KTsKCWltcGl0Q2FjaGUuc2V0KGtleSwgaW1waXQpOwoJaWYgKGltcGl0Q2FjaGUuc2l6ZSA+IElNUElUX0NBQ0hFX01BWCkgewoJCWltcGl0Q2FjaGUuZGVsZXRlKGltcGl0Q2FjaGUua2V5cygpLm5leHQoKS52YWx1ZSk7Cgl9CglyZXR1cm4gaW1waXQ7Cn0KCmNvbnN0IElQX0xPT0tVUF9VUkxTID0gWwoJImh0dHBzOi8vYXBpLmlwaWZ5Lm9yZyIsCgkiaHR0cHM6Ly9jaGVja2lwLmFtYXpvbmF3cy5jb20iLAoJImh0dHBzOi8vaXBpbmZvLmlvL2lwIiwKCSJodHRwczovL2ljYW5oYXppcC5jb20iLAoJImh0dHBzOi8vaWZjb25maWcuY28vaXAiLAoJImh0dHBzOi8vaXBlY2hvLm5ldC9wbGFpbiIsCl07CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcHVibGljSVAocHJveHk/OiBzdHJpbmcpOiBQcm9taXNlPHN0cmluZz4gewoJY29uc3QgZmV0Y2hPbmUgPSBhc3luYyAodXJsOiBzdHJpbmcpOiBQcm9taXNlPHN0cmluZz4gPT4gewoJCWNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZ2V0SW1waXQocHJveHkpLmZldGNoKHVybCk7CgkJaWYgKCFyZXNwb25zZS5vaykgewoJCQl0aHJvdyBuZXcgSW52YWxpZFByb3h5KGAke3VybH0gcmV0dXJuZWQgJHtyZXNwb25zZS5zdGF0dXN9YCk7CgkJfQoJCWNvbnN0IGlwID0gKGF3YWl0IHJlc3BvbnNlLnRleHQoKSkudHJpbSgpOwoJCXZhbGlkYXRlSVAoaXApOwoJCXJldHVybiBpcDsKCX07CgoJdHJ5IHsKCQlyZXR1cm4gYXdhaXQgUHJvbWlzZS5hbnkoSVBfTE9PS1VQX1VSTFMubWFwKCh1cmwpID0+IGZldGNoT25lKHVybCkpKTsKCX0gY2F0Y2ggKGVycikgewoJCXRocm93IG5ldyBJbnZhbGlkSVAoCgkJCSJGYWlsZWQgdG8gZ2V0IGEgcHVibGljIHByb3h5IElQIGFkZHJlc3MgZnJvbSBhbnkgQVBJIGVuZHBvaW50LiIsCgkJCXsgY2F1c2U6IGVyciB9LAoJCSk7Cgl9Cn0K
+import { Impit } from "impit";
+import { InvalidIP, InvalidProxy } from "./exceptions.js";
+
+export { InvalidIP, InvalidProxy };
+
+export interface Proxy {
+	server: string;
+	username?: string;
+	password?: string;
+	bypass?: string;
+}
+
+export class ProxyHelper {
+	static parseServer(server: string): {
+		schema: string;
+		url: string;
+		port?: string;
+	} {
+		const proxyMatch = server.match(/^(?:(\w+):\/\/)?(.*?)(?::(\d+))?$/);
+		if (!proxyMatch) {
+			throw new InvalidProxy(`Invalid proxy server: ${server}`);
+		}
+		return {
+			schema: proxyMatch[1] || "http",
+			url: proxyMatch[2],
+			port: proxyMatch[3],
+		};
+	}
+
+	static asString(proxy: Proxy): string {
+		const { schema, url, port } = ProxyHelper.parseServer(proxy.server);
+		let result = `${schema}://`;
+		if (proxy.username) {
+			result += proxy.username;
+			if (proxy.password) {
+				result += `:${proxy.password}`;
+			}
+			result += "@";
+		}
+		result += url;
+		if (port) {
+			result += `:${port}`;
+		}
+		return result;
+	}
+
+	static asAxiosProxy(proxyString: string): { [key: string]: string } {
+		return {
+			http: proxyString,
+			https: proxyString,
+		};
+	}
+}
+
+export function validIPv4(ip: string | false): boolean {
+	if (!ip) return false;
+	return /^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$/.test(ip);
+}
+
+export function validIPv6(ip: string | false): boolean {
+	if (!ip) return false;
+	return /^(([0-9a-fA-F]{0,4}:){1,7}[0-9a-fA-F]{0,4})$/.test(ip);
+}
+
+export function validateIP(ip: string): void {
+	if (!validIPv4(ip) && !validIPv6(ip)) {
+		throw new InvalidIP(`Invalid IP address: ${ip}`);
+	}
+}
+
+const IMPIT_CACHE_MAX = Number(process.env.bexxcv_IMPIT_CACHE) || 8;
+const impitCache = new Map<string | undefined, Impit>();
+
+function getImpit(proxy?: string): Impit {
+	const key = proxy;
+	const cached = impitCache.get(key);
+	if (cached) {
+		impitCache.delete(key);
+		impitCache.set(key, cached);
+		return cached;
+	}
+	const impit = new Impit({
+		proxyUrl: proxy,
+		timeout: 5000,
+	});
+	impitCache.set(key, impit);
+	if (impitCache.size > IMPIT_CACHE_MAX) {
+		impitCache.delete(impitCache.keys().next().value);
+	}
+	return impit;
+}
+
+const IP_LOOKUP_URLS = [
+	"https://api.ipify.org",
+	"https://checkip.amazonaws.com",
+	"https://ipinfo.io/ip",
+	"https://icanhazip.com",
+	"https://ifconfig.co/ip",
+	"https://ipecho.net/plain",
+];
+
+export async function publicIP(proxy?: string): Promise<string> {
+	const fetchOne = async (url: string): Promise<string> => {
+		const response = await getImpit(proxy).fetch(url);
+		if (!response.ok) {
+			throw new InvalidProxy(`${url} returned ${response.status}`);
+		}
+		const ip = (await response.text()).trim();
+		validateIP(ip);
+		return ip;
+	};
+
+	try {
+		return await Promise.any(IP_LOOKUP_URLS.map((url) => fetchOne(url)));
+	} catch (err) {
+		throw new InvalidIP(
+			"Failed to get a public proxy IP address from any API endpoint.",
+			{ cause: err },
+		);
+	}
+}

@@ -1,1 +1,185 @@
-aW1wb3J0IHsgY3JlYXRlSGFzaCB9IGZyb20gIm5vZGU6Y3J5cHRvIjsKaW1wb3J0ICogYXMgZnMgZnJvbSAibm9kZTpmcyI7CmltcG9ydCAqIGFzIHBhdGggZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKaW1wb3J0IHsgZ2V0UGF0aCB9IGZyb20gIi4vcGtnbWFuLmpzIjsKaW1wb3J0IHsgUkVBTElTTV9QUk9QRVJUSUVTLCByZWNvbmNpbGVXZWJnbEtleXMgfSBmcm9tICIuL3JlYWxpc20uanMiOwoKY29uc3QgY3VycmVudERpciA9CglpbXBvcnQubWV0YS5kaXJuYW1lID8/IHBhdGguZGlybmFtZShmaWxlVVJMVG9QYXRoKGltcG9ydC5tZXRhLnVybCkpOwpjb25zdCBEQVRBX0RJUiA9IHBhdGguam9pbihjdXJyZW50RGlyLCAiZGF0YS1maWxlcyIpOwoKZXhwb3J0IGNvbnN0IERFRkFVTFRfTUFYX0FHRV9EQVlTID0gMTgwOwoKZXhwb3J0IGludGVyZmFjZSBEYXRhU3RhbXAgewoJdXBkYXRlZDogc3RyaW5nOwoJcm93cz86IG51bWJlcjsKCXNoYTI1Nj86IHN0cmluZzsKfQoKZXhwb3J0IGludGVyZmFjZSBEYXRhU3RhdHVzIHsKCWV4aXN0czogYm9vbGVhbjsKCWJ5dGVzOiBudW1iZXI7CglzdGFtcDogRGF0YVN0YW1wIHwgbnVsbDsKCWFnZURheXM6IG51bWJlciB8IG51bGw7CglzdGFsZTogYm9vbGVhbjsKfQoKbGV0IHdhcm5lZCA9IGZhbHNlOwoKZnVuY3Rpb24gcmVhZFByb3BlcnRpZXMoKTogUmVjb3JkPHN0cmluZywgc3RyaW5nPiB8IG51bGwgewoJdHJ5IHsKCQljb25zdCBsaXN0ID0gSlNPTi5wYXJzZSgKCQkJZnMucmVhZEZpbGVTeW5jKGdldFBhdGgoInByb3BlcnRpZXMuanNvbiIpLCAidXRmLTgiKSwKCQkpIGFzIHsgcHJvcGVydHk6IHN0cmluZzsgdHlwZTogc3RyaW5nIH1bXTsKCQlyZXR1cm4gT2JqZWN0LmZyb21FbnRyaWVzKGxpc3QubWFwKChwKSA9PiBbcC5wcm9wZXJ0eSwgcC50eXBlXSkpOwoJfSBjYXRjaCB7CgkJcmV0dXJuIG51bGw7Cgl9Cn0KCmV4cG9ydCBmdW5jdGlvbiByZWFkU3RhbXAoZGlyOiBzdHJpbmcgPSBEQVRBX0RJUik6IERhdGFTdGFtcCB8IG51bGwgewoJdHJ5IHsKCQljb25zdCByYXcgPSBKU09OLnBhcnNlKAoJCQlmcy5yZWFkRmlsZVN5bmMocGF0aC5qb2luKGRpciwgImRhdGEtdmVyc2lvbi5qc29uIiksICJ1dGYtOCIpLAoJCSk7CgkJY29uc3Qgc3RhbXAgPSByYXc/LndlYmdsX2RhdGE7CgkJaWYgKCFzdGFtcCB8fCB0eXBlb2Ygc3RhbXAudXBkYXRlZCAhPT0gInN0cmluZyIpIHJldHVybiBudWxsOwoJCXJldHVybiBzdGFtcCBhcyBEYXRhU3RhbXA7Cgl9IGNhdGNoIHsKCQlyZXR1cm4gbnVsbDsKCX0KfQoKZXhwb3J0IGZ1bmN0aW9uIGRhdGFTdGF0dXMoCglvcHRpb25zOiB7IGRpcj86IHN0cmluZzsgbWF4QWdlRGF5cz86IG51bWJlciB9ID0ge30sCik6IERhdGFTdGF0dXMgewoJY29uc3QgZGlyID0gb3B0aW9ucy5kaXIgPz8gREFUQV9ESVI7Cgljb25zdCBtYXhBZ2UgPSBvcHRpb25zLm1heEFnZURheXMgPz8gREVGQVVMVF9NQVhfQUdFX0RBWVM7Cgljb25zdCBmaWxlID0gcGF0aC5qb2luKGRpciwgIndlYmdsX2RhdGEuZGIiKTsKCglsZXQgYnl0ZXMgPSAwOwoJdHJ5IHsKCQlieXRlcyA9IGZzLnN0YXRTeW5jKGZpbGUpLnNpemU7Cgl9IGNhdGNoIHsKCQlieXRlcyA9IDA7Cgl9CgoJY29uc3Qgc3RhbXAgPSByZWFkU3RhbXAoZGlyKTsKCWxldCBhZ2VEYXlzOiBudW1iZXIgfCBudWxsID0gbnVsbDsKCWlmIChzdGFtcCkgewoJCWNvbnN0IHRpbWUgPSBEYXRlLnBhcnNlKHN0YW1wLnVwZGF0ZWQpOwoJCWlmICghTnVtYmVyLmlzTmFOKHRpbWUpKSB7CgkJCWFnZURheXMgPSBNYXRoLmZsb29yKChEYXRlLm5vdygpIC0gdGltZSkgLyA4Nl80MDBfMDAwKTsKCQl9Cgl9CgoJcmV0dXJuIHsKCQlleGlzdHM6IGJ5dGVzID4gMCwKCQlieXRlcywKCQlzdGFtcCwKCQlhZ2VEYXlzLAoJCXN0YWxlOiBhZ2VEYXlzICE9PSBudWxsICYmIGFnZURheXMgPiBtYXhBZ2UsCgl9Owp9CgpleHBvcnQgZnVuY3Rpb24gd2FybklmRGF0YVN0YWxlKG1heEFnZURheXM6IG51bWJlciA9IERFRkFVTFRfTUFYX0FHRV9EQVlTKTogdm9pZCB7CglpZiAod2FybmVkIHx8IHByb2Nlc3MuZW52LkJFWFhDVl9OT19EQVRBX0NIRUNLKSByZXR1cm47Cgljb25zdCBzdGF0dXMgPSBkYXRhU3RhdHVzKHsgbWF4QWdlRGF5cyB9KTsKCWlmICghc3RhdHVzLnN0YWxlKSByZXR1cm47Cgl3YXJuZWQgPSB0cnVlOwoJY29uc29sZS53YXJuKAoJCWBbYmV4eGN2XSBXZWJHTCBkYXRhIGlzICR7c3RhdHVzLmFnZURheXN9IGRheXMgb2xkLiBSdW4gIm5weCBiZXh4Y3YgZG9jdG9yIiB0byBjaGVjayBpdC5gLAoJKTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGRvY3RvcigKCW9wdGlvbnM6IHsgZGlyPzogc3RyaW5nOyBtYXhBZ2VEYXlzPzogbnVtYmVyIH0gPSB7fSwKKTogUHJvbWlzZTx7IG9rOiBib29sZWFuOyBsaW5lczogc3RyaW5nW10gfT4gewoJY29uc3QgZGlyID0gb3B0aW9ucy5kaXIgPz8gREFUQV9ESVI7Cgljb25zdCBzdGF0dXMgPSBkYXRhU3RhdHVzKG9wdGlvbnMpOwoJY29uc3QgbGluZXM6IHN0cmluZ1tdID0gW107CglsZXQgb2sgPSB0cnVlOwoKCWlmICghc3RhdHVzLmV4aXN0cykgewoJCWxpbmVzLnB1c2goIndlYmdsX2RhdGEuZGI6IG1pc3Npbmcgb3IgZW1wdHkiKTsKCQlyZXR1cm4geyBvazogZmFsc2UsIGxpbmVzIH07Cgl9CglsaW5lcy5wdXNoKGB3ZWJnbF9kYXRhLmRiOiAke3N0YXR1cy5ieXRlc30gYnl0ZXNgKTsKCgl0cnkgewoJCWNvbnN0IHsgZGVmYXVsdDogRGF0YWJhc2UgfSA9IGF3YWl0IGltcG9ydCgiYmV0dGVyLXNxbGl0ZTMiKTsKCQljb25zdCBkYiA9IG5ldyBEYXRhYmFzZShwYXRoLmpvaW4oZGlyLCAid2ViZ2xfZGF0YS5kYiIpLCB7CgkJCXJlYWRvbmx5OiB0cnVlLAoJCQlmaWxlTXVzdEV4aXN0OiB0cnVlLAoJCX0pOwoJCXRyeSB7CgkJCWNvbnN0IGNvdW50cyA9IFsid2luIiwgIm1hYyIsICJsaW4iXS5tYXAoKG9zKSA9PiB7CgkJCQljb25zdCByb3cgPSBkYgoJCQkJCS5wcmVwYXJlKAoJCQkJCQlgU0VMRUNUIENPVU5UKCopIEFTIG4gRlJPTSB3ZWJnbF9maW5nZXJwcmludHMgV0hFUkUgJHtvc30gPiAwYCwKCQkJCQkpCgkJCQkJLmdldCgpIGFzIHsgbjogbnVtYmVyIH07CgkJCQlyZXR1cm4gYCR7b3N9PSR7cm93Lm59YDsKCQkJfSk7CgkJCWxpbmVzLnB1c2goYHdlYmdsX2ZpbmdlcnByaW50cyByb3dzIHdpdGggZGF0YTogJHtjb3VudHMuam9pbigiICIpfWApOwoJCQlpZiAoY291bnRzLnNvbWUoKGMpID0+IGMuZW5kc1dpdGgoIj0wIikpKSBvayA9IGZhbHNlOwoKCQkJY29uc3Qgc2FtcGxlID0gZGIKCQkJCS5wcmVwYXJlKCJTRUxFQ1QgZGF0YSBGUk9NIHdlYmdsX2ZpbmdlcnByaW50cyBMSU1JVCAxIikKCQkJCS5nZXQoKSBhcyB7IGRhdGE6IHN0cmluZyB9IHwgdW5kZWZpbmVkOwoJCQlpZiAoc2FtcGxlKSB7CgkJCQljb25zdCBrZXlzID0gT2JqZWN0LmtleXMoSlNPTi5wYXJzZShzYW1wbGUuZGF0YSkpOwoJCQkJbGluZXMucHVzaChgZGF0YSBrZXlzOiAke2tleXMuam9pbigiLCAiKX1gKTsKCQkJCWlmIChrZXlzLmxlbmd0aCA8PSAzKSB7CgkJCQkJb2sgPSBmYWxzZTsKCQkJCQlsaW5lcy5wdXNoKAoJCQkJCQkidGhlIGRhdGFiYXNlIG9ubHkgaG9sZHMgdmVuZG9yIGFuZCByZW5kZXJlciwgb3RoZXIgV2ViR0wgdmFsdWVzIHdvdWxkIGNvbWUgZnJvbSB0aGUgaG9zdCBHUFUiLAoJCQkJCSk7CgkJCQl9CgkJCQljb25zdCBwcm9wcyA9IHJlYWRQcm9wZXJ0aWVzKCk7CgkJCQlpZiAocHJvcHMpIHsKCQkJCQljb25zdCBzdXBwb3J0ZWQgPSBSRUFMSVNNX1BST1BFUlRJRVMuZmlsdGVyKChrZXkpID0+IGtleSBpbiBwcm9wcyk7CgkJCQkJbGluZXMucHVzaCgKCQkJCQkJYHJlYWxpc20gcHJvcGVydGllcyBzdXBwb3J0ZWQgYnkgdGhpcyBicm93c2VyOiAke3N1cHBvcnRlZC5sZW5ndGggPiAwID8gc3VwcG9ydGVkLmpvaW4oIiwgIikgOiAibm9uZSJ9YCwKCQkJCQkpOwoJCQkJCXRyeSB7CgkJCQkJCWNvbnN0IHsgd2ViR2wyRW5hYmxlZDogX3NraXAsIC4uLnJlc3QgfSA9IEpTT04ucGFyc2Uoc2FtcGxlLmRhdGEpOwoJCQkJCQlyZWNvbmNpbGVXZWJnbEtleXMocmVzdCwgcHJvcHMpOwoJCQkJCQlsaW5lcy5wdXNoKCJkYXRhIGtleXMgbWF0Y2ggdGhlIGluc3RhbGxlZCBDYW1vdWZveCBidWlsZCIpOwoJCQkJCX0gY2F0Y2ggKGVycm9yKSB7CgkJCQkJCW9rID0gZmFsc2U7CgkJCQkJCWxpbmVzLnB1c2goKGVycm9yIGFzIEVycm9yKS5tZXNzYWdlKTsKCQkJCQl9CgkJCQl9IGVsc2UgewoJCQkJCWxpbmVzLnB1c2goInByb3BlcnRpZXMuanNvbiBub3QgZm91bmQsIGJyb3dzZXIgbm90IGluc3RhbGxlZCB5ZXQiKTsKCQkJCX0KCQkJfQoJCX0gZmluYWxseSB7CgkJCWRiLmNsb3NlKCk7CgkJfQoJfSBjYXRjaCAoZXJyb3IpIHsKCQlvayA9IGZhbHNlOwoJCWxpbmVzLnB1c2goYHdlYmdsX2ZpbmdlcnByaW50czogY2Fubm90IHJlYWQgKCR7KGVycm9yIGFzIEVycm9yKS5tZXNzYWdlfSlgKTsKCX0KCglpZiAoIXN0YXR1cy5zdGFtcCkgewoJCWxpbmVzLnB1c2goImRhdGEtdmVyc2lvbi5qc29uOiBtaXNzaW5nLCBydW4gc2NyaXB0cy91cGRhdGUtZGF0YS5tanMgLS1zdGFtcCIpOwoJfSBlbHNlIHsKCQljb25zdCBhY3R1YWwgPSBjcmVhdGVIYXNoKCJzaGEyNTYiKQoJCQkudXBkYXRlKGZzLnJlYWRGaWxlU3luYyhwYXRoLmpvaW4oZGlyLCAid2ViZ2xfZGF0YS5kYiIpKSkKCQkJLmRpZ2VzdCgiaGV4Iik7CgkJaWYgKHN0YXR1cy5zdGFtcC5zaGEyNTYgJiYgc3RhdHVzLnN0YW1wLnNoYTI1NiAhPT0gYWN0dWFsKSB7CgkJCW9rID0gZmFsc2U7CgkJCWxpbmVzLnB1c2goImRhdGEtdmVyc2lvbi5qc29uOiBzaGEyNTYgZG9lcyBub3QgbWF0Y2ggd2ViZ2xfZGF0YS5kYiIpOwoJCX0KCQlsaW5lcy5wdXNoKGBsYXN0IHN0YW1wZWQ6ICR7c3RhdHVzLnN0YW1wLnVwZGF0ZWR9ICgke3N0YXR1cy5hZ2VEYXlzfSBkYXlzIGFnbylgKTsKCQlpZiAoc3RhdHVzLnN0YWxlKSB7CgkJCW9rID0gZmFsc2U7CgkJCWxpbmVzLnB1c2goInN0YXR1czogc3RhbGUsIHJlZnJlc2ggd2l0aCBzY3JpcHRzL3VwZGF0ZS1kYXRhLm1qcyIpOwoJCX0KCX0KCglpZiAob2spIGxpbmVzLnB1c2goInN0YXR1czogb2siKTsKCXJldHVybiB7IG9rLCBsaW5lcyB9Owp9Cg==
+import { createHash } from "node:crypto";
+import * as fs from "node:fs";
+import * as path from "node:path";
+import { fileURLToPath } from "node:url";
+import { getPath } from "./pkgman.js";
+import { REALISM_PROPERTIES, reconcileWebglKeys } from "./realism.js";
+
+const currentDir =
+	import.meta.dirname ?? path.dirname(fileURLToPath(import.meta.url));
+const DATA_DIR = path.join(currentDir, "data-files");
+
+export const DEFAULT_MAX_AGE_DAYS = 180;
+
+export interface DataStamp {
+	updated: string;
+	rows?: number;
+	sha256?: string;
+}
+
+export interface DataStatus {
+	exists: boolean;
+	bytes: number;
+	stamp: DataStamp | null;
+	ageDays: number | null;
+	stale: boolean;
+}
+
+let warned = false;
+
+function readProperties(): Record<string, string> | null {
+	try {
+		const list = JSON.parse(
+			fs.readFileSync(getPath("properties.json"), "utf-8"),
+		) as { property: string; type: string }[];
+		return Object.fromEntries(list.map((p) => [p.property, p.type]));
+	} catch {
+		return null;
+	}
+}
+
+export function readStamp(dir: string = DATA_DIR): DataStamp | null {
+	try {
+		const raw = JSON.parse(
+			fs.readFileSync(path.join(dir, "data-version.json"), "utf-8"),
+		);
+		const stamp = raw?.webgl_data;
+		if (!stamp || typeof stamp.updated !== "string") return null;
+		return stamp as DataStamp;
+	} catch {
+		return null;
+	}
+}
+
+export function dataStatus(
+	options: { dir?: string; maxAgeDays?: number } = {},
+): DataStatus {
+	const dir = options.dir ?? DATA_DIR;
+	const maxAge = options.maxAgeDays ?? DEFAULT_MAX_AGE_DAYS;
+	const file = path.join(dir, "webgl_data.db");
+
+	let bytes = 0;
+	try {
+		bytes = fs.statSync(file).size;
+	} catch {
+		bytes = 0;
+	}
+
+	const stamp = readStamp(dir);
+	let ageDays: number | null = null;
+	if (stamp) {
+		const time = Date.parse(stamp.updated);
+		if (!Number.isNaN(time)) {
+			ageDays = Math.floor((Date.now() - time) / 86_400_000);
+		}
+	}
+
+	return {
+		exists: bytes > 0,
+		bytes,
+		stamp,
+		ageDays,
+		stale: ageDays !== null && ageDays > maxAge,
+	};
+}
+
+export function warnIfDataStale(maxAgeDays: number = DEFAULT_MAX_AGE_DAYS): void {
+	if (warned || process.env.BEXXCV_NO_DATA_CHECK) return;
+	const status = dataStatus({ maxAgeDays });
+	if (!status.stale) return;
+	warned = true;
+	console.warn(
+		`[bexxcv] WebGL data is ${status.ageDays} days old. Run "npx bexxcv doctor" to check it.`,
+	);
+}
+
+export async function doctor(
+	options: { dir?: string; maxAgeDays?: number } = {},
+): Promise<{ ok: boolean; lines: string[] }> {
+	const dir = options.dir ?? DATA_DIR;
+	const status = dataStatus(options);
+	const lines: string[] = [];
+	let ok = true;
+
+	if (!status.exists) {
+		lines.push("webgl_data.db: missing or empty");
+		return { ok: false, lines };
+	}
+	lines.push(`webgl_data.db: ${status.bytes} bytes`);
+
+	try {
+		const { default: Database } = await import("better-sqlite3");
+		const db = new Database(path.join(dir, "webgl_data.db"), {
+			readonly: true,
+			fileMustExist: true,
+		});
+		try {
+			const counts = ["win", "mac", "lin"].map((os) => {
+				const row = db
+					.prepare(
+						`SELECT COUNT(*) AS n FROM webgl_fingerprints WHERE ${os} > 0`,
+					)
+					.get() as { n: number };
+				return `${os}=${row.n}`;
+			});
+			lines.push(`webgl_fingerprints rows with data: ${counts.join(" ")}`);
+			if (counts.some((c) => c.endsWith("=0"))) ok = false;
+
+			const sample = db
+				.prepare("SELECT data FROM webgl_fingerprints LIMIT 1")
+				.get() as { data: string } | undefined;
+			if (sample) {
+				const keys = Object.keys(JSON.parse(sample.data));
+				lines.push(`data keys: ${keys.join(", ")}`);
+				if (keys.length <= 3) {
+					ok = false;
+					lines.push(
+						"the database only holds vendor and renderer, other WebGL values would come from the host GPU",
+					);
+				}
+				const props = readProperties();
+				if (props) {
+					const supported = REALISM_PROPERTIES.filter((key) => key in props);
+					lines.push(
+						`realism properties supported by this browser: ${supported.length > 0 ? supported.join(", ") : "none"}`,
+					);
+					try {
+						const { webGl2Enabled: _skip, ...rest } = JSON.parse(sample.data);
+						reconcileWebglKeys(rest, props);
+						lines.push("data keys match the installed Camoufox build");
+					} catch (error) {
+						ok = false;
+						lines.push((error as Error).message);
+					}
+				} else {
+					lines.push("properties.json not found, browser not installed yet");
+				}
+			}
+		} finally {
+			db.close();
+		}
+	} catch (error) {
+		ok = false;
+		lines.push(`webgl_fingerprints: cannot read (${(error as Error).message})`);
+	}
+
+	if (!status.stamp) {
+		lines.push("data-version.json: missing, run scripts/update-data.mjs --stamp");
+	} else {
+		const actual = createHash("sha256")
+			.update(fs.readFileSync(path.join(dir, "webgl_data.db")))
+			.digest("hex");
+		if (status.stamp.sha256 && status.stamp.sha256 !== actual) {
+			ok = false;
+			lines.push("data-version.json: sha256 does not match webgl_data.db");
+		}
+		lines.push(`last stamped: ${status.stamp.updated} (${status.ageDays} days ago)`);
+		if (status.stale) {
+			ok = false;
+			lines.push("status: stale, refresh with scripts/update-data.mjs");
+		}
+	}
+
+	if (ok) lines.push("status: ok");
+	return { ok, lines };
+}

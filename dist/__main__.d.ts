@@ -1,1 +1,2 @@
-IyEvdXNyL2Jpbi9lbnYgbm9kZQpleHBvcnQge307Cg==
+#!/usr/bin/env node
+export {};

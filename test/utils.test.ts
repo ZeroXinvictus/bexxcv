@@ -1,1 +1,108 @@
-aW1wb3J0IGZzIGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgb3MgZnJvbSAibm9kZTpvcyI7CmltcG9ydCBwYXRoIGZyb20gIm5vZGU6cGF0aCI7CmltcG9ydCB7IGFmdGVyRWFjaCwgZGVzY3JpYmUsIGV4cGVjdCwgdGVzdCwgdmkgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBnZXRQYXRoIH0gZnJvbSAiLi4vc3JjL3BrZ21hbiI7CmltcG9ydCB7IGdldEFzQm9vbGVhbkZyb21FTlYsIGxhdW5jaE9wdGlvbnMgfSBmcm9tICIuLi9zcmMvdXRpbHMiOwoKZGVzY3JpYmUoImdldEFzQm9vbGVhbkZyb21FTlYiLCAoKSA9PiB7CglhZnRlckVhY2goKCkgPT4gewoJCWRlbGV0ZSBwcm9jZXNzLmVudi5URVNUX0JPT0xfVkFSOwoJfSk7CgoJdGVzdCgicmV0dXJucyB0cnVlIGZvciB0cnV0aHkgZW52IHZhbHVlIiwgKCkgPT4gewoJCXByb2Nlc3MuZW52LlRFU1RfQk9PTF9WQVIgPSAiMSI7CgkJZXhwZWN0KGdldEFzQm9vbGVhbkZyb21FTlYoIlRFU1RfQk9PTF9WQVIiKSkudG9CZSh0cnVlKTsKCX0pOwoKCXRlc3QoInJldHVybnMgdHJ1ZSBmb3Igbm9uLWVtcHR5IHN0cmluZyIsICgpID0+IHsKCQlwcm9jZXNzLmVudi5URVNUX0JPT0xfVkFSID0gInllcyI7CgkJZXhwZWN0KGdldEFzQm9vbGVhbkZyb21FTlYoIlRFU1RfQk9PTF9WQVIiKSkudG9CZSh0cnVlKTsKCX0pOwoKCXRlc3QoInJldHVybnMgZmFsc2UgZm9yICcwJyIsICgpID0+IHsKCQlwcm9jZXNzLmVudi5URVNUX0JPT0xfVkFSID0gIjAiOwoJCWV4cGVjdChnZXRBc0Jvb2xlYW5Gcm9tRU5WKCJURVNUX0JPT0xfVkFSIikpLnRvQmUoZmFsc2UpOwoJfSk7CgoJdGVzdCgicmV0dXJucyBmYWxzZSBmb3IgJ2ZhbHNlJyIsICgpID0+IHsKCQlwcm9jZXNzLmVudi5URVNUX0JPT0xfVkFSID0gImZhbHNlIjsKCQlleHBlY3QoZ2V0QXNCb29sZWFuRnJvbUVOVigiVEVTVF9CT09MX1ZBUiIpKS50b0JlKGZhbHNlKTsKCX0pOwoKCXRlc3QoInJldHVybnMgZGVmYXVsdCB2YWx1ZSB3aGVuIGVudiB2YXIgbm90IHNldCIsICgpID0+IHsKCQlleHBlY3QoZ2V0QXNCb29sZWFuRnJvbUVOVigiVEVTVF9CT09MX1ZBUiIsIHRydWUpKS50b0JlKHRydWUpOwoJCWV4cGVjdChnZXRBc0Jvb2xlYW5Gcm9tRU5WKCJURVNUX0JPT0xfVkFSIiwgZmFsc2UpKS50b0JlKGZhbHNlKTsKCX0pOwoKCXRlc3QoInJldHVybnMgZmFsc2Ugd2hlbiBlbnYgdmFyIG5vdCBzZXQgYW5kIG5vIGRlZmF1bHQiLCAoKSA9PiB7CgkJZXhwZWN0KGdldEFzQm9vbGVhbkZyb21FTlYoIlRFU1RfQk9PTF9WQVIiKSkudG9CZShmYWxzZSk7Cgl9KTsKfSk7CgpkZXNjcmliZSgibGF1bmNoT3B0aW9ucyBzZWVkaW5nIiwgKCkgPT4gewoJY29uc3QgcmVhZENvbmZpZyA9IChlbnY6IFJlY29yZDxzdHJpbmcsIHVua25vd24+KSA9PgoJCUpTT04ucGFyc2UoCgkJCU9iamVjdC5rZXlzKGVudikKCQkJCS5maWx0ZXIoKGspID0+IGsuc3RhcnRzV2l0aCgiQ0FNT1VfQ09ORklHXyIpKQoJCQkJLnNvcnQoKQoJCQkJLm1hcCgoaykgPT4gZW52W2tdKQoJCQkJLmpvaW4oIiIpLAoJCSk7CgoJY29uc3QgbGVnYWN5QnJvd3NlckRpciA9ICgpID0+IHsKCQljb25zdCBkaXIgPSBmcy5ta2R0ZW1wU3luYyhwYXRoLmpvaW4ob3MudG1wZGlyKCksICJjYW1vdWZveC1sZWdhY3ktIikpOwoJCWNvbnN0IHByb3BlcnRpZXMgPSBKU09OLnBhcnNlKAoJCQlmcy5yZWFkRmlsZVN5bmMoZ2V0UGF0aCgicHJvcGVydGllcy5qc29uIiksICJ1dGYtOCIpLAoJCSkuZmlsdGVyKAoJCQkocDogeyBwcm9wZXJ0eTogc3RyaW5nIH0pID0+CgkJCQlwLnByb3BlcnR5ICE9PSAiYXVkaW86c2VlZCIgJiYgcC5wcm9wZXJ0eSAhPT0gImNhbnZhczpzZWVkIiwKCQkpOwoJCWZzLndyaXRlRmlsZVN5bmMoCgkJCXBhdGguam9pbihkaXIsICJwcm9wZXJ0aWVzLmpzb24iKSwKCQkJSlNPTi5zdHJpbmdpZnkocHJvcGVydGllcyksCgkJKTsKCQlyZXR1cm4gcGF0aC5qb2luKGRpciwgImNhbW91Zm94LWJpbiIpOwoJfTsKCgl0ZXN0KCJ0aGUgaW5zdGFsbGVkIGJyb3dzZXIgZGVjbGFyZXMgZXZlcnkgc2VlZCB3ZSBzZXQiLCAoKSA9PiB7CgkJY29uc3QgcHJvcGVydGllczogeyBwcm9wZXJ0eTogc3RyaW5nOyB0eXBlOiBzdHJpbmcgfVtdID0gSlNPTi5wYXJzZSgKCQkJZnMucmVhZEZpbGVTeW5jKGdldFBhdGgoInByb3BlcnRpZXMuanNvbiIpLCAidXRmLTgiKSwKCQkpOwoJCWZvciAoY29uc3Qgc2VlZCBvZiBbImZvbnRzOnNwYWNpbmdfc2VlZCIsICJhdWRpbzpzZWVkIiwgImNhbnZhczpzZWVkIl0pIHsKCQkJZXhwZWN0KHByb3BlcnRpZXMpLnRvQ29udGFpbkVxdWFsKHsgcHJvcGVydHk6IHNlZWQsIHR5cGU6ICJ1aW50IiB9KTsKCQl9Cgl9KTsKCgl0ZXN0KCJzZWVkcyBhbGwgdGhyZWUgcHJvcGVydGllcyBvbiBhIHN1cHBvcnRlZCBicm93c2VyIiwgYXN5bmMgKCkgPT4gewoJCWNvbnN0IHsgZW52IH0gPSBhd2FpdCBsYXVuY2hPcHRpb25zKHsgaGVhZGxlc3M6IHRydWUgfSk7CgkJZXhwZWN0KE9iamVjdC5rZXlzKHJlYWRDb25maWcoZW52KSkpLnRvRXF1YWwoCgkJCWV4cGVjdC5hcnJheUNvbnRhaW5pbmcoWwoJCQkJImZvbnRzOnNwYWNpbmdfc2VlZCIsCgkJCQkiYXVkaW86c2VlZCIsCgkJCQkiY2FudmFzOnNlZWQiLAoJCQldKSwKCQkpOwoJfSk7CgoJdGVzdCgic2tpcHMgc2VlZHMgdGhlIGluc3RhbGxlZCBicm93c2VyIGRvZXMgbm90IHN1cHBvcnQiLCBhc3luYyAoKSA9PiB7CgkJY29uc3QgeyBlbnYgfSA9IGF3YWl0IGxhdW5jaE9wdGlvbnMoewoJCQloZWFkbGVzczogdHJ1ZSwKCQkJZXhlY3V0YWJsZV9wYXRoOiBsZWdhY3lCcm93c2VyRGlyKCksCgkJfSk7CgkJY29uc3Qga2V5cyA9IE9iamVjdC5rZXlzKHJlYWRDb25maWcoZW52KSk7CgkJZXhwZWN0KGtleXMpLnRvQ29udGFpbigiZm9udHM6c3BhY2luZ19zZWVkIik7CgkJZXhwZWN0KGtleXMpLm5vdC50b0NvbnRhaW4oImF1ZGlvOnNlZWQiKTsKCQlleHBlY3Qoa2V5cykubm90LnRvQ29udGFpbigiY2FudmFzOnNlZWQiKTsKCX0pOwoKCXRlc3QoInN0aWxsIHJlamVjdHMgYW4gZXhwbGljaXRseSBwYXNzZWQgdW5zdXBwb3J0ZWQgc2VlZCIsIGFzeW5jICgpID0+IHsKCQlhd2FpdCBleHBlY3QoCgkJCWxhdW5jaE9wdGlvbnMoewoJCQkJaGVhZGxlc3M6IHRydWUsCgkJCQlleGVjdXRhYmxlX3BhdGg6IGxlZ2FjeUJyb3dzZXJEaXIoKSwKCQkJCWNvbmZpZzogeyAiYXVkaW86c2VlZCI6IDEyMyB9LAoJCQl9KSwKCQkpLnJlamVjdHMudG9UaHJvdygiVW5rbm93biBwcm9wZXJ0eSBhdWRpbzpzZWVkIGluIGNvbmZpZyIpOwoJfSk7Cn0pOwo=
+import fs from "node:fs";
+import os from "node:os";
+import path from "node:path";
+import { afterEach, describe, expect, test, vi } from "vitest";
+import { getPath } from "../src/pkgman";
+import { getAsBooleanFromENV, launchOptions } from "../src/utils";
+
+describe("getAsBooleanFromENV", () => {
+	afterEach(() => {
+		delete process.env.TEST_BOOL_VAR;
+	});
+
+	test("returns true for truthy env value", () => {
+		process.env.TEST_BOOL_VAR = "1";
+		expect(getAsBooleanFromENV("TEST_BOOL_VAR")).toBe(true);
+	});
+
+	test("returns true for non-empty string", () => {
+		process.env.TEST_BOOL_VAR = "yes";
+		expect(getAsBooleanFromENV("TEST_BOOL_VAR")).toBe(true);
+	});
+
+	test("returns false for '0'", () => {
+		process.env.TEST_BOOL_VAR = "0";
+		expect(getAsBooleanFromENV("TEST_BOOL_VAR")).toBe(false);
+	});
+
+	test("returns false for 'false'", () => {
+		process.env.TEST_BOOL_VAR = "false";
+		expect(getAsBooleanFromENV("TEST_BOOL_VAR")).toBe(false);
+	});
+
+	test("returns default value when env var not set", () => {
+		expect(getAsBooleanFromENV("TEST_BOOL_VAR", true)).toBe(true);
+		expect(getAsBooleanFromENV("TEST_BOOL_VAR", false)).toBe(false);
+	});
+
+	test("returns false when env var not set and no default", () => {
+		expect(getAsBooleanFromENV("TEST_BOOL_VAR")).toBe(false);
+	});
+});
+
+describe("launchOptions seeding", () => {
+	const readConfig = (env: Record<string, unknown>) =>
+		JSON.parse(
+			Object.keys(env)
+				.filter((k) => k.startsWith("CAMOU_CONFIG_"))
+				.sort()
+				.map((k) => env[k])
+				.join(""),
+		);
+
+	const legacyBrowserDir = () => {
+		const dir = fs.mkdtempSync(path.join(os.tmpdir(), "camoufox-legacy-"));
+		const properties = JSON.parse(
+			fs.readFileSync(getPath("properties.json"), "utf-8"),
+		).filter(
+			(p: { property: string }) =>
+				p.property !== "audio:seed" && p.property !== "canvas:seed",
+		);
+		fs.writeFileSync(
+			path.join(dir, "properties.json"),
+			JSON.stringify(properties),
+		);
+		return path.join(dir, "camoufox-bin");
+	};
+
+	test("the installed browser declares every seed we set", () => {
+		const properties: { property: string; type: string }[] = JSON.parse(
+			fs.readFileSync(getPath("properties.json"), "utf-8"),
+		);
+		for (const seed of ["fonts:spacing_seed", "audio:seed", "canvas:seed"]) {
+			expect(properties).toContainEqual({ property: seed, type: "uint" });
+		}
+	});
+
+	test("seeds all three properties on a supported browser", async () => {
+		const { env } = await launchOptions({ headless: true });
+		expect(Object.keys(readConfig(env))).toEqual(
+			expect.arrayContaining([
+				"fonts:spacing_seed",
+				"audio:seed",
+				"canvas:seed",
+			]),
+		);
+	});
+
+	test("skips seeds the installed browser does not support", async () => {
+		const { env } = await launchOptions({
+			headless: true,
+			executable_path: legacyBrowserDir(),
+		});
+		const keys = Object.keys(readConfig(env));
+		expect(keys).toContain("fonts:spacing_seed");
+		expect(keys).not.toContain("audio:seed");
+		expect(keys).not.toContain("canvas:seed");
+	});
+
+	test("still rejects an explicitly passed unsupported seed", async () => {
+		await expect(
+			launchOptions({
+				headless: true,
+				executable_path: legacyBrowserDir(),
+				config: { "audio:seed": 123 },
+			}),
+		).rejects.toThrow("Unknown property audio:seed in config");
+	});
+});

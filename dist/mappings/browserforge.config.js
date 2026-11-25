@@ -1,1 +1,43 @@
-ZXhwb3J0IGRlZmF1bHQgewogICAgbmF2aWdhdG9yOiB7CiAgICAgICAgdXNlckFnZW50OiAibmF2aWdhdG9yLnVzZXJBZ2VudCIsCiAgICAgICAgZG9Ob3RUcmFjazogIm5hdmlnYXRvci5kb05vdFRyYWNrIiwKICAgICAgICBhcHBDb2RlTmFtZTogIm5hdmlnYXRvci5hcHBDb2RlTmFtZSIsCiAgICAgICAgYXBwTmFtZTogIm5hdmlnYXRvci5hcHBOYW1lIiwKICAgICAgICBhcHBWZXJzaW9uOiAibmF2aWdhdG9yLmFwcFZlcnNpb24iLAogICAgICAgIG9zY3B1OiAibmF2aWdhdG9yLm9zY3B1IiwKICAgICAgICBwbGF0Zm9ybTogIm5hdmlnYXRvci5wbGF0Zm9ybSIsCiAgICAgICAgaGFyZHdhcmVDb25jdXJyZW5jeTogIm5hdmlnYXRvci5oYXJkd2FyZUNvbmN1cnJlbmN5IiwKICAgICAgICBwcm9kdWN0OiAibmF2aWdhdG9yLnByb2R1Y3QiLAogICAgICAgIG1heFRvdWNoUG9pbnRzOiAibmF2aWdhdG9yLm1heFRvdWNoUG9pbnRzIiwKICAgICAgICBleHRyYVByb3BlcnRpZXM6IHsKICAgICAgICAgICAgZ2xvYmFsUHJpdmFjeUNvbnRyb2w6ICJuYXZpZ2F0b3IuZ2xvYmFsUHJpdmFjeUNvbnRyb2wiLAogICAgICAgIH0sCiAgICB9LAogICAgc2NyZWVuOiB7CiAgICAgICAgYXZhaWxMZWZ0OiAic2NyZWVuLmF2YWlsTGVmdCIsCiAgICAgICAgYXZhaWxUb3A6ICJzY3JlZW4uYXZhaWxUb3AiLAogICAgICAgIGF2YWlsV2lkdGg6ICJzY3JlZW4uYXZhaWxXaWR0aCIsCiAgICAgICAgYXZhaWxIZWlnaHQ6ICJzY3JlZW4uYXZhaWxIZWlnaHQiLAogICAgICAgIGhlaWdodDogInNjcmVlbi5oZWlnaHQiLAogICAgICAgIHdpZHRoOiAic2NyZWVuLndpZHRoIiwKICAgICAgICBjb2xvckRlcHRoOiAic2NyZWVuLmNvbG9yRGVwdGgiLAogICAgICAgIHBpeGVsRGVwdGg6ICJzY3JlZW4ucGl4ZWxEZXB0aCIsCiAgICAgICAgcGFnZVhPZmZzZXQ6ICJzY3JlZW4ucGFnZVhPZmZzZXQiLAogICAgICAgIHBhZ2VZT2Zmc2V0OiAic2NyZWVuLnBhZ2VZT2Zmc2V0IiwKICAgICAgICBvdXRlckhlaWdodDogIndpbmRvdy5vdXRlckhlaWdodCIsCiAgICAgICAgb3V0ZXJXaWR0aDogIndpbmRvdy5vdXRlcldpZHRoIiwKICAgICAgICBpbm5lckhlaWdodDogIndpbmRvdy5pbm5lckhlaWdodCIsCiAgICAgICAgaW5uZXJXaWR0aDogIndpbmRvdy5pbm5lcldpZHRoIiwKICAgICAgICBzY3JlZW5YOiAid2luZG93LnNjcmVlblgiLAogICAgICAgIHNjcmVlblk6ICJ3aW5kb3cuc2NyZWVuWSIsCiAgICB9LAogICAgaGVhZGVyczogewogICAgICAgICJBY2NlcHQtRW5jb2RpbmciOiAiaGVhZGVycy5BY2NlcHQtRW5jb2RpbmciLAogICAgfSwKICAgIGJhdHRlcnk6IHsKICAgICAgICBjaGFyZ2luZzogImJhdHRlcnk6Y2hhcmdpbmciLAogICAgICAgIGNoYXJnaW5nVGltZTogImJhdHRlcnk6Y2hhcmdpbmdUaW1lIiwKICAgICAgICBkaXNjaGFyZ2luZ1RpbWU6ICJiYXR0ZXJ5OmRpc2NoYXJnaW5nVGltZSIsCiAgICB9LAp9Owo=
+export default {
+    navigator: {
+        userAgent: "navigator.userAgent",
+        doNotTrack: "navigator.doNotTrack",
+        appCodeName: "navigator.appCodeName",
+        appName: "navigator.appName",
+        appVersion: "navigator.appVersion",
+        oscpu: "navigator.oscpu",
+        platform: "navigator.platform",
+        hardwareConcurrency: "navigator.hardwareConcurrency",
+        product: "navigator.product",
+        maxTouchPoints: "navigator.maxTouchPoints",
+        extraProperties: {
+            globalPrivacyControl: "navigator.globalPrivacyControl",
+        },
+    },
+    screen: {
+        availLeft: "screen.availLeft",
+        availTop: "screen.availTop",
+        availWidth: "screen.availWidth",
+        availHeight: "screen.availHeight",
+        height: "screen.height",
+        width: "screen.width",
+        colorDepth: "screen.colorDepth",
+        pixelDepth: "screen.pixelDepth",
+        pageXOffset: "screen.pageXOffset",
+        pageYOffset: "screen.pageYOffset",
+        outerHeight: "window.outerHeight",
+        outerWidth: "window.outerWidth",
+        innerHeight: "window.innerHeight",
+        innerWidth: "window.innerWidth",
+        screenX: "window.screenX",
+        screenY: "window.screenY",
+    },
+    headers: {
+        "Accept-Encoding": "headers.Accept-Encoding",
+    },
+    battery: {
+        charging: "battery:charging",
+        chargingTime: "battery:chargingTime",
+        dischargingTime: "battery:dischargingTime",
+    },
+};

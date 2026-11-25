@@ -1,1 +1,233 @@
-aW1wb3J0IHR5cGUgeyBSZXNwb25zZSB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB0eXBlIHsgQmV4eGN2UGx1Z2luIH0gZnJvbSAiLi90eXBlcy5qcyI7CgovKioKICogQ2xhc3NpZmllcyBDbG91ZGZsYXJlIGNoYWxsZW5nZSB0eXBlcyBmcm9tIEhUVFAgcmVzcG9uc2VzLgogKgogKiBSZWFkcyByZXNwb25zZSBzdGF0dXMsIHNlbGVjdGVkIGhlYWRlcnMgKGNmLXJheSwgY2YtY2FjaGUtc3RhdHVzLCBzZXJ2ZXIpLAogKiBhbmQgcGFnZSB0aXRsZSAvIGJvZHkgbWFya2VycyB0byBkZWNpZGUgd2hpY2ggYW50aS1ib3QgbGF5ZXIgZmlyZWQgYW5kIGF0CiAqIHdoYXQgY2xlYXJhbmNlIGxldmVsLiBSZXN1bHRzIGFyZSBhdHRhY2hlZCB0byBldmVyeSBwYWdlIHZpYSBhIFdlYWtNYXAgc28KICogZG93bnN0cmVhbSBwbHVnaW5zIChnYXVudGxldCwgd2lyZXRhcCkgY2FuIHF1ZXJ5IHRoZW0uCiAqLwoKZXhwb3J0IHR5cGUgQ2hhbGxlbmdlVHlwZSA9Cgl8ICJub25lIgoJfCAianNkIgoJfCAibWFuYWdlZCIKCXwgImludGVyYWN0aXZlIgoJfCAibm9uX2ludGVyYWN0aXZlIgoJfCAidHVybnN0aWxlIgoJfCAicmF0ZV9saW1pdCIKCXwgImJvdF9zY29yZV9sb3ciCgl8ICJ1bmtub3duIjsKCmV4cG9ydCB0eXBlIENsZWFyYW5jZUxldmVsID0gIm5vbmUiIHwgImpzIiB8ICJtYW5hZ2VkIiB8ICJoaWdoIjsKCmV4cG9ydCBpbnRlcmZhY2UgQ2hhbGxlbmdlSW5mbyB7Cgl0eXBlOiBDaGFsbGVuZ2VUeXBlOwoJY2xlYXJhbmNlTGV2ZWw6IENsZWFyYW5jZUxldmVsOwoJY29uZmlkZW5jZTogbnVtYmVyOyAvLyAwLTEKCXJlYXNvbjogc3RyaW5nOwoJY2ZSYXk/OiBzdHJpbmc7CgljYWNoZWQ/OiBib29sZWFuOwp9Cgpjb25zdCBDSEFMTEVOR0VfVElUTEVTID0gbmV3IFNldChbCgkianVzdCBhIG1vbWVudCIsCgkidHVuZ2d1IHNlYmVudGFyIiwKCSJhdHRlbnRpb24gcmVxdWlyZWQiLAoJInNlY3VyaXR5IGNoZWNrIiwKCSJ1biBpbnN0YW50IiwKCSJlaW5lbiBtb21lbnQiLAoJItC+0LTQuNC9INC80L7QvNC10L3RgiIsCgkidW0gbW9tZW50byIsCgkidW4gbW9tZW50byIsCl0pOwoKY29uc3QgSlNEX0JPRFlfTUFSS0VSUyA9IFsKCSJ3aW5kb3cuY2xvdWRmbGFyZS5qc2QuZXhlY3V0ZU9uY2UiLAoJImNkbi1jZ2kvY2hhbGxlbmdlLXBsYXRmb3JtIiwKCSJjZi1qc2RzIiwKXTsKCmNvbnN0IFRVUk5TVElMRV9NQVJLRVJTID0gWyJjZi10dXJuc3RpbGUiLCAidHVybnN0aWxlLnJlbmRlciIsICJkYXRhLWNmLXdpZGdldCJdOwoKZnVuY3Rpb24gY2xhc3NpZnlGcm9tUmVzcG9uc2UocmVzcG9uc2U6IFJlc3BvbnNlKTogQ2hhbGxlbmdlSW5mbyB8IG51bGwgewoJY29uc3Qgc3RhdHVzID0gcmVzcG9uc2Uuc3RhdHVzKCk7Cgljb25zdCBoZWFkZXJzID0gcmVzcG9uc2UuaGVhZGVycygpOwoJY29uc3QgY2ZSYXkgPSBoZWFkZXJzWyJjZi1yYXkiXSA/PyBoZWFkZXJzWyJ4LWNmLXJheSJdOwoJY29uc3Qgc2VydmVyID0gaGVhZGVyc1sic2VydmVyIl0gPz8gIiI7Cgljb25zdCBjYWNoZVN0YXR1cyA9IGhlYWRlcnNbImNmLWNhY2hlLXN0YXR1cyJdID8/ICIiOwoJY29uc3QgY29udGVudFR5cGUgPSBoZWFkZXJzWyJjb250ZW50LXR5cGUiXSA/PyAiIjsKCgkvLyA0MjkgLyA1MDMg4oaSIHJhdGUgbGltaXQKCWlmIChzdGF0dXMgPT09IDQyOSB8fCBzdGF0dXMgPT09IDUwMykgewoJCXJldHVybiB7CgkJCXR5cGU6ICJyYXRlX2xpbWl0IiwKCQkJY2xlYXJhbmNlTGV2ZWw6ICJub25lIiwKCQkJY29uZmlkZW5jZTogMC45NSwKCQkJcmVhc29uOiBgSFRUUCAke3N0YXR1c30gd2l0aCBSZXRyeS1BZnRlcmAsCgkJCWNmUmF5LAoJCQljYWNoZWQ6IGNhY2hlU3RhdHVzID09PSAiRFlOQU1JQyIsCgkJfTsKCX0KCgkvLyBLbm93biBibG9ja2VkIHN0YXR1cyB3aXRoIENsb3VkZmxhcmUgc2VydmVyIGhlYWRlcgoJaWYgKChzdGF0dXMgPT09IDQwMyB8fCBzdGF0dXMgPT09IDQwMCkgJiYgL2Nsb3VkZmxhcmUvaS50ZXN0KHNlcnZlcikpIHsKCQlyZXR1cm4gewoJCQl0eXBlOiAibWFuYWdlZCIsCgkJCWNsZWFyYW5jZUxldmVsOiAibWFuYWdlZCIsCgkJCWNvbmZpZGVuY2U6IDAuODUsCgkJCXJlYXNvbjogYEhUVFAgJHtzdGF0dXN9IGZyb20gY2xvdWRmbGFyZSBzZXJ2ZXJgLAoJCQljZlJheSwKCQkJY2FjaGVkOiBmYWxzZSwKCQl9OwoJfQoKCS8vIENoYWxsZW5nZSBwYWdlIHNlcnZlZCAoaW50ZXJhY3RpdmUgLyBub24taW50ZXJhY3RpdmUgLyBtYW5hZ2VkKQoJaWYgKAoJCXN0YXR1cyA9PT0gMjAwICYmCgkJY29udGVudFR5cGUuaW5jbHVkZXMoInRleHQvaHRtbCIpICYmCgkJL3NlcnZlci4qY2xvdWRmbGFyZS9pLnRlc3Qoc2VydmVyKQoJKSB7CgkJcmV0dXJuIHsKCQkJdHlwZTogIm1hbmFnZWQiLAoJCQljbGVhcmFuY2VMZXZlbDogIm1hbmFnZWQiLAoJCQljb25maWRlbmNlOiAwLjcsCgkJCXJlYXNvbjogIkNsb3VkZmxhcmUgc2VydmVyIHJldHVybmVkIEhUTUwgKHBvc3NpYmxlIGNoYWxsZW5nZSBwYWdlKSIsCgkJCWNmUmF5LAoJCQljYWNoZWQ6IGNhY2hlU3RhdHVzID09PSAiTUlTUyIgfHwgY2FjaGVTdGF0dXMgPT09ICJFWFBJUkVEIiwKCQl9OwoJfQoKCXJldHVybiBudWxsOwp9CgpmdW5jdGlvbiBjbGFzc2lmeUZyb21Cb2R5KGJvZHk6IHN0cmluZywgdGl0bGU6IHN0cmluZyk6IENoYWxsZW5nZUluZm8gfCBudWxsIHsKCWNvbnN0IGxvd2VyVGl0bGUgPSB0aXRsZS50b0xvd2VyQ2FzZSgpOwoJY29uc3QgbG93ZXJCb2R5ID0gYm9keS50b0xvd2VyQ2FzZSgpOwoKCS8vIEpTRCBtYXJrZXIKCWZvciAoY29uc3QgbWFya2VyIG9mIEpTRF9CT0RZX01BUktFUlMpIHsKCQlpZiAobG93ZXJCb2R5LmluY2x1ZGVzKG1hcmtlcikpIHsKCQkJcmV0dXJuIHsKCQkJCXR5cGU6ICJqc2QiLAoJCQkJY2xlYXJhbmNlTGV2ZWw6ICJqcyIsCgkJCQljb25maWRlbmNlOiAwLjksCgkJCQlyZWFzb246ICJKUyBEZXRlY3Rpb24gc2NyaXB0IGZvdW5kIGluIHJlc3BvbnNlIGJvZHkiLAoJCQl9OwoJCX0KCX0KCgkvLyBUdXJuc3RpbGUgbWFya2VyCglmb3IgKGNvbnN0IG1hcmtlciBvZiBUVVJOU1RJTEVfTUFSS0VSUykgewoJCWlmIChsb3dlckJvZHkuaW5jbHVkZXMobWFya2VyKSkgewoJCQlyZXR1cm4gewoJCQkJdHlwZTogInR1cm5zdGlsZSIsCgkJCQljbGVhcmFuY2VMZXZlbDogIm1hbmFnZWQiLAoJCQkJY29uZmlkZW5jZTogMC44NSwKCQkJCXJlYXNvbjogIlR1cm5zdGlsZSB3aWRnZXQgbWFya3VwIGZvdW5kIGluIHJlc3BvbnNlIGJvZHkiLAoJCQl9OwoJCX0KCX0KCgkvLyBUaXRsZS1iYXNlZCBjbGFzc2lmaWNhdGlvbgoJaWYgKENIQUxMRU5HRV9USVRMRVMuaGFzKGxvd2VyVGl0bGUudHJpbSgpKSkgewoJCS8vIERpc3Rpbmd1aXNoIGludGVyYWN0aXZlIHZzIG5vbi1pbnRlcmFjdGl2ZSBieSBET00gY2x1ZXMKCQljb25zdCBoYXNDaGVja2JveCA9IC9jaGVja2JveHxzZWxlY3QtYXxjaG9vc2UvaS50ZXN0KGxvd2VyQm9keSk7CgkJY29uc3QgaGFzQnV0dG9uID0gL2J1dHRvbnxjb250aW51ZXxwcm9jZWVkL2kudGVzdChsb3dlckJvZHkpOwoJCWNvbnN0IGNsZWFyYW5jZTogQ2xlYXJhbmNlTGV2ZWwgPSBoYXNDaGVja2JveCB8fCBoYXNCdXR0b24gPyAiaGlnaCIgOiAianMiOwoJCWNvbnN0IHR5cGU6IENoYWxsZW5nZVR5cGUgPSBoYXNDaGVja2JveCB8fCBoYXNCdXR0b24gPyAiaW50ZXJhY3RpdmUiIDogIm5vbl9pbnRlcmFjdGl2ZSI7CgkJcmV0dXJuIHsKCQkJdHlwZSwKCQkJY2xlYXJhbmNlTGV2ZWw6IGNsZWFyYW5jZSwKCQkJY29uZmlkZW5jZTogMC45NSwKCQkJcmVhc29uOiBgQ2hhbGxlbmdlIHRpdGxlIG1hdGNoZWQ6ICIke2xvd2VyVGl0bGUudHJpbSgpfSJgLAoJCX07Cgl9CgoJcmV0dXJuIG51bGw7Cn0KCmNvbnN0IElORk9fTUFQID0gbmV3IFdlYWtNYXA8UmVzcG9uc2UsIENoYWxsZW5nZUluZm8+KCk7CmNvbnN0IFBBR0VfSU5GTyA9IG5ldyBXZWFrTWFwPHsgaWQ6IHN0cmluZyB9LCBDaGFsbGVuZ2VJbmZvW10+KCk7CgovKiogQ2FjaGUgdGhlIGxhc3QgTiBjaGFsbGVuZ2UgaW5mb3MgcGVyIHBhZ2UgKGJ5IHBhZ2Ugb2JqZWN0IGlkZW50aXR5KS4gKi8KY29uc3QgUEFHRV9ISVNUID0gbmV3IFdlYWtNYXA8b2JqZWN0LCBDaGFsbGVuZ2VJbmZvW10+KCk7CgpleHBvcnQgZnVuY3Rpb24gY2hhbGxlbmdlSW5mb0ZvcihyZXNwb25zZTogUmVzcG9uc2UpOiBDaGFsbGVuZ2VJbmZvIHwgbnVsbCB7Cgljb25zdCBjYWNoZWQgPSBJTkZPX01BUC5nZXQocmVzcG9uc2UpOwoJaWYgKGNhY2hlZCkgcmV0dXJuIGNhY2hlZDsKCWNvbnN0IGluZm8gPSBjbGFzc2lmeUZyb21SZXNwb25zZShyZXNwb25zZSkgPz8gbnVsbDsKCWlmIChpbmZvKSBJTkZPX01BUC5zZXQocmVzcG9uc2UsIGluZm8pOwoJcmV0dXJuIGluZm87Cn0KCmV4cG9ydCBmdW5jdGlvbiBwYWdlQ2hhbGxlbmdlSGlzdG9yeShwYWdlOiB7IGlkOiBzdHJpbmcgfSk6IENoYWxsZW5nZUluZm9bXSB7CglyZXR1cm4gUEFHRV9ISVNULmdldChwYWdlKSA/PyBbXTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGFwcGVuZENoYWxsZW5nZUluZm8ocGFnZTogeyBpZDogc3RyaW5nIH0sIGluZm86IENoYWxsZW5nZUluZm8pOiB2b2lkIHsKCWNvbnN0IGhpc3QgPSBQQUdFX0hJU1QuZ2V0KHBhZ2UpID8/IFtdOwoJaGlzdC5wdXNoKGluZm8pOwoJaWYgKGhpc3QubGVuZ3RoID4gMjApIGhpc3Quc2hpZnQoKTsKCVBBR0VfSElTVC5zZXQocGFnZSwgaGlzdCk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBsYXRlc3RDaGFsbGVuZ2UocGFnZTogeyBpZDogc3RyaW5nIH0pOiBDaGFsbGVuZ2VJbmZvIHwgbnVsbCB7Cgljb25zdCBoaXN0ID0gUEFHRV9ISVNULmdldChwYWdlKSA/PyBbXTsKCXJldHVybiBoaXN0Lmxlbmd0aCA+IDAgPyBoaXN0W2hpc3QubGVuZ3RoIC0gMV0hIDogbnVsbDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNsYXNzaWZ5UmVzcG9uc2UocmVzcG9uc2U6IFJlc3BvbnNlKTogQ2hhbGxlbmdlSW5mbyB7Cgljb25zdCBmcm9tUmVzcCA9IGNsYXNzaWZ5RnJvbVJlc3BvbnNlKHJlc3BvbnNlKTsKCWlmIChmcm9tUmVzcCkgcmV0dXJuIGZyb21SZXNwOwoKCS8vIEZhbGxiYWNrOiB0cnkgdG8gcmVhZCBib2R5IGZvciBIVE1MIHJlc3BvbnNlcwoJaWYgKHJlc3BvbnNlLmhlYWRlcnMoKVsiY29udGVudC10eXBlIl0/LmluY2x1ZGVzKCJ0ZXh0L2h0bWwiKSkgewoJCXRyeSB7CgkJCWNvbnN0IGJvZHkgPSByZXNwb25zZS50ZXh0KCkudGhlbihTdHJpbmcpLmNhdGNoKCgpID0+ICIiKTsKCQkJYm9keS50aGVuKChiKSA9PiB7CgkJCQljb25zdCBmcm9tQm9keSA9IGNsYXNzaWZ5RnJvbUJvZHkoYiwgIiIpOwoJCQkJaWYgKGZyb21Cb2R5KSBhcHBlbmRDaGFsbGVuZ2VJbmZvKHsgaWQ6IHJlc3BvbnNlLnVybCgpIH0sIGZyb21Cb2R5KTsKCQkJfSk7CgkJfSBjYXRjaCB7CgkJCS8vIGlnbm9yZQoJCX0KCX0KCglyZXR1cm4gewoJCXR5cGU6ICJub25lIiwKCQljbGVhcmFuY2VMZXZlbDogIm5vbmUiLAoJCWNvbmZpZGVuY2U6IDAsCgkJcmVhc29uOiAiTm8gY2hhbGxlbmdlIHNpZ25hbHMgZGV0ZWN0ZWQiLAoJfTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNsYXNzaWZ5UGFnZShwYWdlOiB7Cgl1cmwoKTogc3RyaW5nOwoJdGl0bGUoKTogUHJvbWlzZTxzdHJpbmc+Owp9KTogUHJvbWlzZTxDaGFsbGVuZ2VJbmZvPiB7CglyZXR1cm4gcGFnZS50aXRsZSgpLnRoZW4oKHRpdGxlKSA9PiB7CgkJY29uc3QgaW5mbyA9IGNsYXNzaWZ5RnJvbUJvZHkoIiIsIHRpdGxlKTsKCQlyZXR1cm4gaW5mbyA/PyB7IHR5cGU6ICJub25lIiwgY2xlYXJhbmNlTGV2ZWw6ICJub25lIiwgY29uZmlkZW5jZTogMCwgcmVhc29uOiAiVGl0bGUgY2xlYW4iIH07Cgl9KTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGNoYWxsZW5nZVBsdWdpbigpOiBCZXh4Y3ZQbHVnaW4gewoJcmV0dXJuIHsKCQluYW1lOiAiY2hhbGxlbmdlLWNsYXNzaWZ5IiwKCQlvcmRlcjogNDAsCgkJb25Db250ZXh0KGNvbnRleHQpIHsKCQkJY29udGV4dC5vbigicmVzcG9uc2UiLCAocmVzcG9uc2UpID0+IHsKCQkJCWNvbnN0IGluZm8gPSBjaGFsbGVuZ2VJbmZvRm9yKHJlc3BvbnNlKTsKCQkJCWlmIChpbmZvICYmIGluZm8udHlwZSAhPT0gIm5vbmUiKSB7CgkJCQkJYXBwZW5kQ2hhbGxlbmdlSW5mbygKCQkJCQkJeyBpZDogcmVzcG9uc2UudXJsKCkgfSwKCQkJCQkJaW5mbywKCQkJCQkpOwoJCQkJfQoJCQl9KTsKCQl9LAoJfTsKfQo=
+import type { Response } from "playwright-core";
+import type { BexxcvPlugin } from "./types.js";
+
+/**
+ * Classifies Cloudflare challenge types from HTTP responses.
+ *
+ * Reads response status, selected headers (cf-ray, cf-cache-status, server),
+ * and page title / body markers to decide which anti-bot layer fired and at
+ * what clearance level. Results are attached to every page via a WeakMap so
+ * downstream plugins (gauntlet, wiretap) can query them.
+ */
+
+export type ChallengeType =
+	| "none"
+	| "jsd"
+	| "managed"
+	| "interactive"
+	| "non_interactive"
+	| "turnstile"
+	| "rate_limit"
+	| "bot_score_low"
+	| "unknown";
+
+export type ClearanceLevel = "none" | "js" | "managed" | "high";
+
+export interface ChallengeInfo {
+	type: ChallengeType;
+	clearanceLevel: ClearanceLevel;
+	confidence: number; // 0-1
+	reason: string;
+	cfRay?: string;
+	cached?: boolean;
+}
+
+const CHALLENGE_TITLES = new Set([
+	"just a moment",
+	"tunggu sebentar",
+	"attention required",
+	"security check",
+	"un instant",
+	"einen moment",
+	"один момент",
+	"um momento",
+	"un momento",
+]);
+
+const JSD_BODY_MARKERS = [
+	"window.cloudflare.jsd.executeOnce",
+	"cdn-cgi/challenge-platform",
+	"cf-jsds",
+];
+
+const TURNSTILE_MARKERS = ["cf-turnstile", "turnstile.render", "data-cf-widget"];
+
+function classifyFromResponse(response: Response): ChallengeInfo | null {
+	const status = response.status();
+	const headers = response.headers();
+	const cfRay = headers["cf-ray"] ?? headers["x-cf-ray"];
+	const server = headers["server"] ?? "";
+	const cacheStatus = headers["cf-cache-status"] ?? "";
+	const contentType = headers["content-type"] ?? "";
+
+	// 429 / 503 → rate limit
+	if (status === 429 || status === 503) {
+		return {
+			type: "rate_limit",
+			clearanceLevel: "none",
+			confidence: 0.95,
+			reason: `HTTP ${status} with Retry-After`,
+			cfRay,
+			cached: cacheStatus === "DYNAMIC",
+		};
+	}
+
+	// Known blocked status with Cloudflare server header
+	if ((status === 403 || status === 400) && /cloudflare/i.test(server)) {
+		return {
+			type: "managed",
+			clearanceLevel: "managed",
+			confidence: 0.85,
+			reason: `HTTP ${status} from cloudflare server`,
+			cfRay,
+			cached: false,
+		};
+	}
+
+	// Challenge page served (interactive / non-interactive / managed)
+	if (
+		status === 200 &&
+		contentType.includes("text/html") &&
+		/server.*cloudflare/i.test(server)
+	) {
+		return {
+			type: "managed",
+			clearanceLevel: "managed",
+			confidence: 0.7,
+			reason: "Cloudflare server returned HTML (possible challenge page)",
+			cfRay,
+			cached: cacheStatus === "MISS" || cacheStatus === "EXPIRED",
+		};
+	}
+
+	return null;
+}
+
+function classifyFromBody(body: string, title: string): ChallengeInfo | null {
+	const lowerTitle = title.toLowerCase();
+	const lowerBody = body.toLowerCase();
+
+	// JSD marker
+	for (const marker of JSD_BODY_MARKERS) {
+		if (lowerBody.includes(marker)) {
+			return {
+				type: "jsd",
+				clearanceLevel: "js",
+				confidence: 0.9,
+				reason: "JS Detection script found in response body",
+			};
+		}
+	}
+
+	// Turnstile marker
+	for (const marker of TURNSTILE_MARKERS) {
+		if (lowerBody.includes(marker)) {
+			return {
+				type: "turnstile",
+				clearanceLevel: "managed",
+				confidence: 0.85,
+				reason: "Turnstile widget markup found in response body",
+			};
+		}
+	}
+
+	// Title-based classification
+	if (CHALLENGE_TITLES.has(lowerTitle.trim())) {
+		// Distinguish interactive vs non-interactive by DOM clues
+		const hasCheckbox = /checkbox|select-a|choose/i.test(lowerBody);
+		const hasButton = /button|continue|proceed/i.test(lowerBody);
+		const clearance: ClearanceLevel = hasCheckbox || hasButton ? "high" : "js";
+		const type: ChallengeType = hasCheckbox || hasButton ? "interactive" : "non_interactive";
+		return {
+			type,
+			clearanceLevel: clearance,
+			confidence: 0.95,
+			reason: `Challenge title matched: "${lowerTitle.trim()}"`,
+		};
+	}
+
+	return null;
+}
+
+const INFO_MAP = new WeakMap<Response, ChallengeInfo>();
+const PAGE_INFO = new WeakMap<{ id: string }, ChallengeInfo[]>();
+
+/** Cache the last N challenge infos per page (by page object identity). */
+const PAGE_HIST = new WeakMap<object, ChallengeInfo[]>();
+
+export function challengeInfoFor(response: Response): ChallengeInfo | null {
+	const cached = INFO_MAP.get(response);
+	if (cached) return cached;
+	const info = classifyFromResponse(response) ?? null;
+	if (info) INFO_MAP.set(response, info);
+	return info;
+}
+
+export function pageChallengeHistory(page: { id: string }): ChallengeInfo[] {
+	return PAGE_HIST.get(page) ?? [];
+}
+
+export function appendChallengeInfo(page: { id: string }, info: ChallengeInfo): void {
+	const hist = PAGE_HIST.get(page) ?? [];
+	hist.push(info);
+	if (hist.length > 20) hist.shift();
+	PAGE_HIST.set(page, hist);
+}
+
+export function latestChallenge(page: { id: string }): ChallengeInfo | null {
+	const hist = PAGE_HIST.get(page) ?? [];
+	return hist.length > 0 ? hist[hist.length - 1]! : null;
+}
+
+export function classifyResponse(response: Response): ChallengeInfo {
+	const fromResp = classifyFromResponse(response);
+	if (fromResp) return fromResp;
+
+	// Fallback: try to read body for HTML responses
+	if (response.headers()["content-type"]?.includes("text/html")) {
+		try {
+			const body = response.text().then(String).catch(() => "");
+			body.then((b) => {
+				const fromBody = classifyFromBody(b, "");
+				if (fromBody) appendChallengeInfo({ id: response.url() }, fromBody);
+			});
+		} catch {
+			// ignore
+		}
+	}
+
+	return {
+		type: "none",
+		clearanceLevel: "none",
+		confidence: 0,
+		reason: "No challenge signals detected",
+	};
+}
+
+export function classifyPage(page: {
+	url(): string;
+	title(): Promise<string>;
+}): Promise<ChallengeInfo> {
+	return page.title().then((title) => {
+		const info = classifyFromBody("", title);
+		return info ?? { type: "none", clearanceLevel: "none", confidence: 0, reason: "Title clean" };
+	});
+}
+
+export function challengePlugin(): BexxcvPlugin {
+	return {
+		name: "challenge-classify",
+		order: 40,
+		onContext(context) {
+			context.on("response", (response) => {
+				const info = challengeInfoFor(response);
+				if (info && info.type !== "none") {
+					appendChallengeInfo(
+						{ id: response.url() },
+						info,
+					);
+				}
+			});
+		},
+	};
+}

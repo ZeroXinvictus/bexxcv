@@ -1,1 +1,22 @@
-ZXhwb3J0IHsgbGF1bmNoU2VydmVyIH0gZnJvbSAiLi9zZXJ2ZXIuanMiOwpleHBvcnQgeyBCZXh4Y3YsIEJleHhjdiBhcyBiZXh4Y3YsIENhbW91Zm94LCBOZXdCcm93c2VyLCB9IGZyb20gIi4vc3luY19hcGkuanMiOwpleHBvcnQgeyBsYXVuY2hPcHRpb25zIH0gZnJvbSAiLi91dGlscy5qcyI7CmV4cG9ydCB7IFZpcnR1YWxEaXNwbGF5IH0gZnJvbSAiLi92aXJ0ZGlzcGxheS5qcyI7CmV4cG9ydCB7IG5lZWRzWHZmYiwgc3RhcnRYdmZiLCB3aXRoWHZmYiB9IGZyb20gIi4veHZmYi5qcyI7CmV4cG9ydCB7IGNoZWNrU2VsZlVwZGF0ZSwgYXBwbHlTZWxmVXBkYXRlIH0gZnJvbSAiLi9zZWxmdXBkYXRlLmpzIjsKZXhwb3J0IHsgY3JlYXRlSHVtYW4sIEh1bWFuLCB9IGZyb20gIi4vaHVtYW4uanMiOwpleHBvcnQgeyBhdHRhY2hUdXJuc3RpbGUsIHdhdGNoVHVybnN0aWxlLCB9IGZyb20gIi4vdHVybnN0aWxlLmpzIjsKZXhwb3J0IHsgYXR0YWNoVWFtLCB3YWl0Rm9yVWFtLCB3YXRjaFVhbSB9IGZyb20gIi4vdWFtLmpzIjsKZXhwb3J0IHsgZGF0YVN0YXR1cywgZG9jdG9yIH0gZnJvbSAiLi9kb2N0b3IuanMiOwpleHBvcnQgeyB2YWxpZGF0ZU9wdGlvbnMgfSBmcm9tICIuL3NjaGVtYS5qcyI7CmV4cG9ydCB7IGFwcGx5UGx1Z2lucywgYXVkaXRGaW5nZXJwcmludCwgYnVpbGRQbHVnaW5zLCBnYXVudGxldFJlc3VsdCwgbGVuc1JlcG9ydCwgcnVuR2F1bnRsZXQsIHdpcmV0YXBFbnRyaWVzLCB9IGZyb20gIi4vcGx1Z2lucy9pbmRleC5qcyI7CmV4cG9ydCB7IHNvbHZlVHVybnN0aWxlIH0gZnJvbSAiLi90dXJuc3RpbGUuanMiOwpleHBvcnQgeyBicmFrZSwgY29jb29uLCBkb2RnZSwgZ2F1bnRsZXQsIGh1bWFuLCBsZW5zLCBzdGFzaCwgdmVuZWVyLCB3aXJldGFwLCBjaGFsbGVuZ2VQbHVnaW4sIGpzZCwgZXBoZW1lcmFsLCBwcmVjdXJzb3IsIGJvdFNjb3JlLCB9IGZyb20gIi4vcGx1Z2lucy9pbmRleC5qcyI7CmV4cG9ydCB7IHR1cm5zdGlsZSwgdWFtIH0gZnJvbSAiLi9wbHVnaW5zL3NvbHZlcnMuanMiOwpleHBvcnQgeyBnZXRFcGhlbWVyYWxFbnRyaWVzLCByZXBsYXlFcGhlbWVyYWwsIGlzSnNkUGFzc2VkIH0gZnJvbSAiLi9wbHVnaW5zL2luZGV4LmpzIjsKZXhwb3J0IHsgZ2V0UHJlY3Vyc29yU3RhdGUsIHJlc2V0UHJlY3Vyc29yU3RhdGUgfSBmcm9tICIuL3BsdWdpbnMvcHJlY3Vyc29yLmpzIjsKZXhwb3J0IHsgZ2V0Qm90U2NvcmVzLCBhdmdCb3RTY29yZSwgaGFkTG93U2NvcmUgfSBmcm9tICIuL3BsdWdpbnMvYm90c2NvcmUuanMiOwpleHBvcnQgeyBhdHRhY2hIdW1hbkJlaGF2aW9yLCBkZXRhY2hIdW1hbkJlaGF2aW9yLCBnZXRTZXNzaW9uSW5mbywgfSBmcm9tICIuL2h1bWFuX2JlaGF2aW9yLmpzIjsKZXhwb3J0IHsgaW5pdFNlc3Npb24sIGdldFNlc3Npb25JZCwgYWR2YW5jZVBhZ2UsIGVuZFNlc3Npb24sIGlzU2Vzc2lvbkV4cGlyZWQsIGdldFNlZWRlZEZsb2F0LCBnZXRTZWVkZWRJbnQsIGdldFNlZWRlZEdhdXNzLCB9IGZyb20gIi4vc2Vzc2lvbi5qcyI7CmV4cG9ydCB7IGdlbmVyYXRlRmluZ2VycHJpbnQsIGNyeXB0b1JhbmRJbnQsIGNyeXB0b0Zsb2F0LCBTVVBQT1JURURfT1MgfSBmcm9tICIuL2ZpbmdlcnByaW50cy5qcyI7CmV4cG9ydCB7IHNhbXBsZUdQVVByb2ZpbGUsIHJlc29sdmVVQU9TLCBLTk9XTl9HUFVTIH0gZnJvbSAiLi93ZWJnbC9wcm9maWxlcy5qcyI7Cg==
+export { launchServer } from "./server.js";
+export { Bexxcv, Bexxcv as bexxcv, Camoufox, NewBrowser, } from "./sync_api.js";
+export { launchOptions } from "./utils.js";
+export { VirtualDisplay } from "./virtdisplay.js";
+export { needsXvfb, startXvfb, withXvfb } from "./xvfb.js";
+export { checkSelfUpdate, applySelfUpdate } from "./selfupdate.js";
+export { createHuman, Human, } from "./human.js";
+export { attachTurnstile, watchTurnstile, } from "./turnstile.js";
+export { attachUam, waitForUam, watchUam } from "./uam.js";
+export { dataStatus, doctor } from "./doctor.js";
+export { validateOptions } from "./schema.js";
+export { applyPlugins, auditFingerprint, buildPlugins, gauntletResult, lensReport, runGauntlet, wiretapEntries, } from "./plugins/index.js";
+export { solveTurnstile } from "./turnstile.js";
+export { brake, cocoon, dodge, gauntlet, human, lens, stash, veneer, wiretap, challengePlugin, jsd, ephemeral, precursor, botScore, stealth, attachStealth, } from "./plugins/index.js";
+export { turnstile, uam } from "./plugins/solvers.js";
+export { getEphemeralEntries, replayEphemeral, isJsdPassed } from "./plugins/index.js";
+export { getPrecursorState, resetPrecursorState } from "./plugins/precursor.js";
+export { getBotScores, avgBotScore, hadLowScore } from "./plugins/botscore.js";
+export { attachHumanBehavior, detachHumanBehavior, getSessionInfo, } from "./human_behavior.js";
+export { initSession, getSessionId, advancePage, endSession, isSessionExpired, getSeededFloat, getSeededInt, getSeededGauss, } from "./session.js";
+export { generateFingerprint, cryptoRandInt, cryptoFloat, SUPPORTED_OS } from "./fingerprints.js";
+export { sampleGPUProfile, resolveUAOS, KNOWN_GPUS } from "./webgl/profiles.js";

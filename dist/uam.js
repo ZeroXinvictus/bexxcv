@@ -1,1 +1,148 @@
-aW1wb3J0IHsgb25FYWNoUGFnZSB9IGZyb20gIi4vcGFnZWhvb2tzLmpzIjsKaW1wb3J0IHsgYmV0d2Vlbiwgc2xlZXAgfSBmcm9tICIuL3JhbmRvbS5qcyI7CmltcG9ydCB7IEh1bWFuIH0gZnJvbSAiLi9odW1hbi5qcyI7CmNvbnN0IENIQUxMRU5HRV9USVRMRVMgPSBbCiAgICAianVzdCBhIG1vbWVudCIsCiAgICAidHVuZ2d1IHNlYmVudGFyIiwKICAgICJhdHRlbnRpb24gcmVxdWlyZWQiLAogICAgInNlY3VyaXR5IGNoZWNrIiwKICAgICJ1biBpbnN0YW50IiwKICAgICJlaW5lbiBtb21lbnQiLAogICAgItC+0LTQuNC9INC80L7QvNC10L3RgiIsCiAgICAidW0gbW9tZW50byIsCiAgICAidW4gbW9tZW50byIsCl07CmNvbnN0IFdBVENIRUQgPSBuZXcgV2Vha1NldCgpOwpjb25zdCBCVVNZID0gbmV3IFdlYWtTZXQoKTsKLy8gLS0tIEhlbHBlcnMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KYXN5bmMgZnVuY3Rpb24gY29va2llVmFsdWUocGFnZSwgbmFtZSkgewogICAgdHJ5IHsKICAgICAgICBjb25zdCB1cmwgPSBwYWdlLnVybCgpOwogICAgICAgIGlmICghdXJsIHx8IHVybCA9PT0gImFib3V0OmJsYW5rIikKICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgY29uc3QgY29va2llcyA9IGF3YWl0IHBhZ2UuY29udGV4dCgpLmNvb2tpZXModXJsKTsKICAgICAgICByZXR1cm4gY29va2llcy5maW5kKChjKSA9PiBjLm5hbWUgPT09IG5hbWUpPy52YWx1ZSA/PyBudWxsOwogICAgfQogICAgY2F0Y2ggewogICAgICAgIHJldHVybiBudWxsOwogICAgfQp9CmV4cG9ydCBhc3luYyBmdW5jdGlvbiBpc0NoYWxsZW5nZShwYWdlKSB7CiAgICBjb25zdCB0aXRsZSA9IChhd2FpdCBwYWdlLnRpdGxlKCkuY2F0Y2goKCkgPT4gIiIpKS50b0xvd2VyQ2FzZSgpOwogICAgcmV0dXJuIENIQUxMRU5HRV9USVRMRVMuc29tZSgodCkgPT4gdGl0bGUuaW5jbHVkZXModCkpOwp9CmV4cG9ydCBhc3luYyBmdW5jdGlvbiBodW1hbkFjdGl2aXR5KHBhZ2UsIHNjYWxlID0gMSkgewogICAgY29uc3QgdmlldyA9IHBhZ2Uudmlld3BvcnRTaXplKCk7CiAgICBjb25zdCBvcHRzID0geyBzcGVlZDogc2NhbGUgPCAxID8gMC40IDogMSB9OwogICAgY29uc3QgYWN0b3IgPSBuZXcgSHVtYW4ocGFnZSwgb3B0cyk7CiAgICBhd2FpdCBhY3Rvci5pZGxlKE1hdGgucm91bmQoODAwICogKDIgLSBzY2FsZSkpKTsKICAgIGZvciAobGV0IGkgPSAwOyBpIDwgTWF0aC5tYXgoMSwgTWF0aC5mbG9vcigyICogc2NhbGUpKTsgaSsrKSB7CiAgICAgICAgYXdhaXQgYWN0b3Iuc2Nyb2xsKGJldHdlZW4oNjAsIDE4MCkpOwogICAgfQp9Ci8vIC0tLSBNYWluIHdhaXQgbG9vcCAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCi8qKgogKiBXYWl0cyB1bnRpbCBhIGBjZl9jbGVhcmFuY2VgIGNvb2tpZSBpcyBwcmVzZW50IGZvciB0aGUgY3VycmVudCBwYWdlIG9yaWdpbi4KICogSWYgYSBjaGFsbGVuZ2UgcGFnZSB3YXMgc2VlbiwgcGVyZm9ybXMgbGlnaHQgaHVtYW4tbGlrZSBhY3Rpdml0eSB3aGlsZQogKiBwb2xsaW5nIOKAlCBtYXRjaGluZyB0aGUgc3RyYXRlZ3kgdXNlZCBieSBjZi1jbGVhcmFuY2Utc2NyYXBlci4KICovCmV4cG9ydCBhc3luYyBmdW5jdGlvbiB3YWl0Rm9yVWFtKHBhZ2UsIG9wdGlvbnMgPSB7fSkgewogICAgY29uc3QgdGltZW91dCA9IG9wdGlvbnMudGltZW91dCA/PyAzMDAwMDsKICAgIGNvbnN0IHN0YXJ0ID0gRGF0ZS5ub3coKTsKICAgIGxldCBjaGFsbGVuZ2VkID0gZmFsc2U7CiAgICBsZXQgY29uc2VjdXRpdmVNaXNzZXMgPSAwOwogICAgd2hpbGUgKERhdGUubm93KCkgLSBzdGFydCA8IHRpbWVvdXQgJiYgIXBhZ2UuaXNDbG9zZWQoKSkgewogICAgICAgIGNvbnN0IGNvb2tpZSA9IGF3YWl0IGNvb2tpZVZhbHVlKHBhZ2UsICJjZl9jbGVhcmFuY2UiKTsKICAgICAgICAvLyBDb29raWUgcHJlc2VudCDigJQgZG9uZQogICAgICAgIGlmIChjb29raWUpIHsKICAgICAgICAgICAgcmV0dXJuIHsgY2hhbGxlbmdlZCwgYnlwYXNzZWQ6IHRydWUsIGNvb2tpZSB9OwogICAgICAgIH0KICAgICAgICAvLyBEZXRlY3Qgd2hldGhlciB3ZSdyZSBjdXJyZW50bHkgb24gYSBjaGFsbGVuZ2UgcGFnZQogICAgICAgIGNvbnN0IGNoYWxsZW5naW5nID0gYXdhaXQgaXNDaGFsbGVuZ2UocGFnZSk7CiAgICAgICAgaWYgKGNoYWxsZW5naW5nKSB7CiAgICAgICAgICAgIGNoYWxsZW5nZWQgPSB0cnVlOwogICAgICAgICAgICAvLyBHaXZlIHRoZSBleHRlcm5hbCBhc3Npc3QgY2FsbGJhY2sgYSBjaGFuY2UgdG8gaW50ZXJhY3QKICAgICAgICAgICAgaWYgKG9wdGlvbnMuYXNzaXN0KSB7CiAgICAgICAgICAgICAgICBjb25zdCBhY3RlZCA9IGF3YWl0IG9wdGlvbnMuYXNzaXN0KHBhZ2UpLmNhdGNoKCgpID0+IGZhbHNlKTsKICAgICAgICAgICAgICAgIGlmIChhY3RlZCkgewogICAgICAgICAgICAgICAgICAgIGNvbnNlY3V0aXZlTWlzc2VzID0gMDsKICAgICAgICAgICAgICAgICAgICBhd2FpdCBzbGVlcCgyMDAwKTsKICAgICAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICAvLyBMaWdodCBodW1hbiBhY3Rpdml0eSB3aGlsZSB3YWl0aW5nIGZvciB0aGUgSlMgY2hhbGxlbmdlIHRvIGNvbXBsZXRlCiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBhd2FpdCBodW1hbkFjdGl2aXR5KHBhZ2UsIDAuNSk7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggewogICAgICAgICAgICAgICAgYXdhaXQgc2xlZXAoNTAwKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBhd2FpdCBzbGVlcCgxNTAwKTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIC8vIE5vdCBjaGFsbGVuZ2VkIGJ1dCBubyBjb29raWUgeWV0IOKAlCBjb3VsZCBiZSBtaWQtbmF2aWdhdGlvbiBvciBzdGlsbCBsb2FkaW5nCiAgICAgICAgaWYgKCFjaGFsbGVuZ2VkKSB7CiAgICAgICAgICAgIHJldHVybiB7IGNoYWxsZW5nZWQ6IGZhbHNlLCBieXBhc3NlZDogZmFsc2UsIGNvb2tpZTogbnVsbCB9OwogICAgICAgIH0KICAgICAgICAvLyBDaGFsbGVuZ2VkIGJlZm9yZSBidXQgY29va2llIHN0aWxsIG1pc3NpbmcgYWZ0ZXIgcmVwZWF0ZWQgcG9sbHMKICAgICAgICBjb25zZWN1dGl2ZU1pc3NlcysrOwogICAgICAgIGlmIChjb25zZWN1dGl2ZU1pc3NlcyA+IDgpIHsKICAgICAgICAgICAgcmV0dXJuIHsgY2hhbGxlbmdlZDogdHJ1ZSwgYnlwYXNzZWQ6IHRydWUsIGNvb2tpZTogbnVsbCB9OwogICAgICAgIH0KICAgICAgICBhd2FpdCBzbGVlcCgxMDAwKTsKICAgIH0KICAgIHJldHVybiB7IGNoYWxsZW5nZWQsIGJ5cGFzc2VkOiBmYWxzZSwgY29va2llOiBudWxsIH07Cn0KLy8gLS0tIFdhdGNoZXIgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KYXN5bmMgZnVuY3Rpb24gcnVuV2FpdChwYWdlLCBvcHRpb25zKSB7CiAgICBpZiAoQlVTWS5oYXMocGFnZSkpCiAgICAgICAgcmV0dXJuIHVuZGVmaW5lZDsKICAgIEJVU1kuYWRkKHBhZ2UpOwogICAgdHJ5IHsKICAgICAgICByZXR1cm4gYXdhaXQgd2FpdEZvclVhbShwYWdlLCBvcHRpb25zKTsKICAgIH0KICAgIGZpbmFsbHkgewogICAgICAgIEJVU1kuZGVsZXRlKHBhZ2UpOwogICAgfQp9CmV4cG9ydCBmdW5jdGlvbiB3YXRjaFVhbShwYWdlLCBvcHRpb25zID0ge30pIHsKICAgIGlmIChXQVRDSEVELmhhcyhwYWdlKSkKICAgICAgICByZXR1cm47CiAgICBXQVRDSEVELmFkZChwYWdlKTsKICAgIGNvbnN0IGludGVydmFsID0gb3B0aW9ucy5pbnRlcnZhbCA/PyAxNTAwOwogICAgY29uc3QgdGltZW91dCA9IG9wdGlvbnMudGltZW91dCA/PyAzMDAwMDsKICAgIGNvbnN0IHdhaXRPbkdvdG8gPSBvcHRpb25zLndhaXRPbkdvdG8gPz8gdHJ1ZTsKICAgIGlmICh3YWl0T25Hb3RvKSB7CiAgICAgICAgY29uc3Qgb3JpZ2luYWxHb3RvID0gcGFnZS5nb3RvLmJpbmQocGFnZSk7CiAgICAgICAgcGFnZS5nb3RvID0gKGFzeW5jICguLi5hcmdzKSA9PiB7CiAgICAgICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgb3JpZ2luYWxHb3RvKC4uLmFyZ3MpOwogICAgICAgICAgICBjb25zdCBiZWdhbiA9IERhdGUubm93KCk7CiAgICAgICAgICAgIHdoaWxlIChCVVNZLmhhcyhwYWdlKSAmJiBEYXRlLm5vdygpIC0gYmVnYW4gPCB0aW1lb3V0KSB7CiAgICAgICAgICAgICAgICBhd2FpdCBzbGVlcCgyMDApOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGF3YWl0IHJ1bldhaXQocGFnZSwgb3B0aW9ucykuY2F0Y2goKCkgPT4gdW5kZWZpbmVkKTsKICAgICAgICAgICAgcmV0dXJuIHJlc3BvbnNlOwogICAgICAgIH0pOwogICAgfQogICAgbGV0IGFjdGl2ZSA9IHRydWU7CiAgICBwYWdlLm9uKCJjbG9zZSIsICgpID0+IHsKICAgICAgICBhY3RpdmUgPSBmYWxzZTsKICAgIH0pOwogICAgY29uc3QgbG9vcCA9IGFzeW5jICgpID0+IHsKICAgICAgICB3aGlsZSAoYWN0aXZlICYmICFwYWdlLmlzQ2xvc2VkKCkpIHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGlmICghQlVTWS5oYXMocGFnZSkgJiYgKGF3YWl0IGlzQ2hhbGxlbmdlKHBhZ2UpKSkgewogICAgICAgICAgICAgICAgICAgIGF3YWl0IHJ1bldhaXQocGFnZSwgb3B0aW9ucyk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggewogICAgICAgICAgICAgICAgYXdhaXQgc2xlZXAoNTAwKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBhd2FpdCBzbGVlcChpbnRlcnZhbCk7CiAgICAgICAgfQogICAgfTsKICAgIHZvaWQgbG9vcCgpOwp9CmV4cG9ydCBmdW5jdGlvbiBhdHRhY2hVYW0odGFyZ2V0LCBvcHRpb25zID0ge30pIHsKICAgIHJldHVybiBvbkVhY2hQYWdlKHRhcmdldCwgKHBhZ2UpID0+IHdhdGNoVWFtKHBhZ2UsIG9wdGlvbnMpKTsKfQo=
+import { onEachPage } from "./pagehooks.js";
+import { between, sleep } from "./random.js";
+import { Human } from "./human.js";
+const CHALLENGE_TITLES = [
+    "just a moment",
+    "tunggu sebentar",
+    "attention required",
+    "security check",
+    "un instant",
+    "einen moment",
+    "один момент",
+    "um momento",
+    "un momento",
+];
+const WATCHED = new WeakSet();
+const BUSY = new WeakSet();
+// --- Helpers -----------------------------------------------------------------
+async function cookieValue(page, name) {
+    try {
+        const url = page.url();
+        if (!url || url === "about:blank")
+            return null;
+        const cookies = await page.context().cookies(url);
+        return cookies.find((c) => c.name === name)?.value ?? null;
+    }
+    catch {
+        return null;
+    }
+}
+export async function isChallenge(page) {
+    const title = (await page.title().catch(() => "")).toLowerCase();
+    return CHALLENGE_TITLES.some((t) => title.includes(t));
+}
+export async function humanActivity(page, scale = 1) {
+    const view = page.viewportSize();
+    const opts = { speed: scale < 1 ? 0.4 : 1 };
+    const actor = new Human(page, opts);
+    await actor.idle(Math.round(800 * (2 - scale)));
+    for (let i = 0; i < Math.max(1, Math.floor(2 * scale)); i++) {
+        await actor.scroll(between(60, 180));
+    }
+}
+// --- Main wait loop ----------------------------------------------------------
+/**
+ * Waits until a `cf_clearance` cookie is present for the current page origin.
+ * If a challenge page was seen, performs light human-like activity while
+ * polling — matching the strategy used by cf-clearance-scraper.
+ */
+export async function waitForUam(page, options = {}) {
+    const timeout = options.timeout ?? 30000;
+    const start = Date.now();
+    let challenged = false;
+    let consecutiveMisses = 0;
+    while (Date.now() - start < timeout && !page.isClosed()) {
+        const cookie = await cookieValue(page, "cf_clearance");
+        // Cookie present — done
+        if (cookie) {
+            return { challenged, bypassed: true, cookie };
+        }
+        // Detect whether we're currently on a challenge page
+        const challenging = await isChallenge(page);
+        if (challenging) {
+            challenged = true;
+            // Give the external assist callback a chance to interact
+            if (options.assist) {
+                const acted = await options.assist(page).catch(() => false);
+                if (acted) {
+                    consecutiveMisses = 0;
+                    await sleep(2000);
+                    continue;
+                }
+            }
+            // Light human activity while waiting for the JS challenge to complete
+            try {
+                await humanActivity(page, 0.5);
+            }
+            catch {
+                await sleep(500);
+            }
+            await sleep(1500);
+            continue;
+        }
+        // Not challenged but no cookie yet — could be mid-navigation or still loading
+        if (!challenged) {
+            return { challenged: false, bypassed: false, cookie: null };
+        }
+        // Challenged before but cookie still missing after repeated polls
+        consecutiveMisses++;
+        if (consecutiveMisses > 8) {
+            return { challenged: true, bypassed: true, cookie: null };
+        }
+        await sleep(1000);
+    }
+    return { challenged, bypassed: false, cookie: null };
+}
+// --- Watcher -----------------------------------------------------------------
+async function runWait(page, options) {
+    if (BUSY.has(page))
+        return undefined;
+    BUSY.add(page);
+    try {
+        return await waitForUam(page, options);
+    }
+    finally {
+        BUSY.delete(page);
+    }
+}
+export function watchUam(page, options = {}) {
+    if (WATCHED.has(page))
+        return;
+    WATCHED.add(page);
+    const interval = options.interval ?? 1500;
+    const timeout = options.timeout ?? 30000;
+    const waitOnGoto = options.waitOnGoto ?? true;
+    if (waitOnGoto) {
+        const originalGoto = page.goto.bind(page);
+        page.goto = (async (...args) => {
+            const response = await originalGoto(...args);
+            const began = Date.now();
+            while (BUSY.has(page) && Date.now() - began < timeout) {
+                await sleep(200);
+            }
+            await runWait(page, options).catch(() => undefined);
+            return response;
+        });
+    }
+    let active = true;
+    page.on("close", () => {
+        active = false;
+    });
+    const loop = async () => {
+        while (active && !page.isClosed()) {
+            try {
+                if (!BUSY.has(page) && (await isChallenge(page))) {
+                    await runWait(page, options);
+                }
+            }
+            catch {
+                await sleep(500);
+            }
+            await sleep(interval);
+        }
+    };
+    void loop();
+}
+export function attachUam(target, options = {}) {
+    return onEachPage(target, (page) => watchUam(page, options));
+}

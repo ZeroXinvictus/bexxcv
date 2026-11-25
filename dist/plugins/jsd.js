@@ -1,1 +1,141 @@
-aW1wb3J0IHsgc2xlZXAgfSBmcm9tICIuLi9yYW5kb20uanMiOwpjb25zdCBKU0RfUkVBRFkgPSBuZXcgV2Vha1NldCgpOwpjb25zdCBXQVRDSEVEID0gbmV3IFdlYWtTZXQoKTsKYXN5bmMgZnVuY3Rpb24gaXNKc2RQYWdlKHBhZ2UpIHsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgdGl0bGUgPSAoYXdhaXQgcGFnZS50aXRsZSgpLmNhdGNoKCgpID0+ICIiKSkudG9Mb3dlckNhc2UoKTsKICAgICAgICBpZiAodGl0bGUuaW5jbHVkZXMoImp1c3QgYSBtb21lbnQiKSB8fCB0aXRsZS5pbmNsdWRlcygiYXR0ZW50aW9uIHJlcXVpcmVkIikpIHsKICAgICAgICAgICAgcmV0dXJuIHRydWU7CiAgICAgICAgfQogICAgICAgIGNvbnN0IGhhc0pzZCA9IGF3YWl0IHBhZ2UuZXZhbHVhdGUoKCkgPT4gewogICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgY29uc3QgdyA9IHdpbmRvdzsKICAgICAgICAgICAgICAgIHJldHVybiB0eXBlb2Ygd2luZG93ICE9PSAidW5kZWZpbmVkIiAmJiAhIXc/LmNsb3VkZmxhcmU/LmpzZDsKICAgICAgICAgICAgfQogICAgICAgICAgICBjYXRjaCB7CiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgIH0KICAgICAgICB9KS5jYXRjaCgoKSA9PiBmYWxzZSk7CiAgICAgICAgcmV0dXJuIGhhc0pzZDsKICAgIH0KICAgIGNhdGNoIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cn0KYXN5bmMgZnVuY3Rpb24gd2FpdEZvckpzZENvbXBsZXRpb24ocGFnZSwgb3B0aW9ucykgewogICAgY29uc3QgdGltZW91dCA9IG9wdGlvbnMudGltZW91dCA/PyAxNV8wMDA7CiAgICBjb25zdCBpbnRlcnZhbCA9IG9wdGlvbnMuaW50ZXJ2YWwgPz8gNTAwOwogICAgY29uc3Qgc3RhcnQgPSBEYXRlLm5vdygpOwogICAgd2hpbGUgKERhdGUubm93KCkgLSBzdGFydCA8IHRpbWVvdXQgJiYgIXBhZ2UuaXNDbG9zZWQoKSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IHBhc3NlZCA9IGF3YWl0IHBhZ2UuZXZhbHVhdGUoKCkgPT4gewogICAgICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgICAgICBjb25zdCB3ID0gd2luZG93OwogICAgICAgICAgICAgICAgICAgIGlmICghdz8uY2xvdWRmbGFyZT8uanNkPy5zdGF0ZSkKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHcuY2xvdWRmbGFyZS5qc2Quc3RhdGUgPT09ICJwYXNzZWQiID8gdHJ1ZSA6IG51bGw7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjYXRjaCB7CiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0pLmNhdGNoKCgpID0+IG51bGwpOwogICAgICAgICAgICBpZiAocGFzc2VkID09PSB0cnVlKSB7CiAgICAgICAgICAgICAgICByZXR1cm4geyBwYXNzZWQ6IHRydWUgfTsKICAgICAgICAgICAgfQogICAgICAgICAgICAvLyBBbHNvIGNoZWNrIGlmIGNmX2NsZWFyYW5jZSBhcHBlYXJlZCAoaW5kaWNhdGVzIEpTRCBjb21wbGV0ZWQgZXh0ZXJuYWxseSkKICAgICAgICAgICAgY29uc3QgY29va2llcyA9IGF3YWl0IHBhZ2UuY29udGV4dCgpLmNvb2tpZXMocGFnZS51cmwoKSkuY2F0Y2goKCkgPT4gW10pOwogICAgICAgICAgICBpZiAoY29va2llcy5zb21lKChjKSA9PiBjLm5hbWUgPT09ICJjZl9jbGVhcmFuY2UiKSkgewogICAgICAgICAgICAgICAgcmV0dXJuIHsgcGFzc2VkOiB0cnVlIH07CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgY2F0Y2ggewogICAgICAgICAgICAvLyBpZ25vcmUgZXZhbHVhdGlvbiBlcnJvcnMKICAgICAgICB9CiAgICAgICAgYXdhaXQgc2xlZXAoaW50ZXJ2YWwpOwogICAgfQogICAgcmV0dXJuIHsgcGFzc2VkOiBmYWxzZSB9Owp9CmV4cG9ydCBmdW5jdGlvbiBqc2Qob3B0aW9ucyA9IHt9KSB7CiAgICBjb25zdCB0aW1lb3V0ID0gb3B0aW9ucy50aW1lb3V0ID8/IDE1XzAwMDsKICAgIGNvbnN0IGludGVydmFsID0gb3B0aW9ucy5pbnRlcnZhbCA/PyA1MDA7CiAgICByZXR1cm4gewogICAgICAgIG5hbWU6ICJqc2QiLAogICAgICAgIG9yZGVyOiA0MywKICAgICAgICBvblBhZ2UocGFnZSkgewogICAgICAgICAgICBpZiAoV0FUQ0hFRC5oYXMocGFnZSkpCiAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIFdBVENIRUQuYWRkKHBhZ2UpOwogICAgICAgICAgICAvLyBJbmplY3QgYSBmYWxsYmFjayBjbG91ZGZsYXJlLmpzZCBuYW1lc3BhY2Ugc28gcGFnZSBKUyBkb2Vzbid0IGNyYXNoCiAgICAgICAgICAgIHZvaWQgcGFnZS5hZGRJbml0U2NyaXB0KCgpID0+IHsKICAgICAgICAgICAgICAgIGlmICh0eXBlb2Ygd2luZG93ID09PSAidW5kZWZpbmVkIikKICAgICAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgICAgICBjb25zdCB3ID0gd2luZG93OwogICAgICAgICAgICAgICAgaWYgKCF3LmNsb3VkZmxhcmUpCiAgICAgICAgICAgICAgICAgICAgdy5jbG91ZGZsYXJlID0ge307CiAgICAgICAgICAgICAgICBjb25zdCBjZiA9IHcuY2xvdWRmbGFyZTsKICAgICAgICAgICAgICAgIGlmICghY2YuanNkKSB7CiAgICAgICAgICAgICAgICAgICAgY2YuanNkID0gewogICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZTogInBlbmRpbmciLAogICAgICAgICAgICAgICAgICAgICAgICBleGVjdXRlT25jZShfb3B0cyA9IHt9KSB7IH0sCiAgICAgICAgICAgICAgICAgICAgfTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGNvbnN0IF9qc2QgPSBjZi5qc2Q7CiAgICAgICAgICAgICAgICBfanNkICYmCiAgICAgICAgICAgICAgICAgICAgT2JqZWN0LmFzc2lnbihjZi5qc2QsIHsKICAgICAgICAgICAgICAgICAgICAgICAgZXhlY3V0ZU9uY2U6IGZ1bmN0aW9uIChvcHRzID0ge30pIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGlmIChvcHRzLmNhbGxiYWNrKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc2V0VGltZW91dCgoKSA9PiBvcHRzLmNhbGxiYWNrKCJzdWNjZXNzIiksIDApOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuIHsgdGhlbjogKGNiKSA9PiBzZXRUaW1lb3V0KGNiLCAwKSB9OwogICAgICAgICAgICAgICAgICAgICAgICB9LAogICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICB9KTsKICAgICAgICAgICAgY29uc3Qgb3JpZ2luYWxHb3RvID0gcGFnZS5nb3RvLmJpbmQocGFnZSk7CiAgICAgICAgICAgIHBhZ2UuZ290byA9IChhc3luYyAoLi4uYXJncykgPT4gewogICAgICAgICAgICAgICAgSlNEX1JFQURZLmRlbGV0ZShwYWdlKTsKICAgICAgICAgICAgICAgIGNvbnN0IHJlc3BvbnNlID0gYXdhaXQgb3JpZ2luYWxHb3RvKC4uLmFyZ3MpOwogICAgICAgICAgICAgICAgLy8gSWYgd2UgbGFuZGVkIG9uIGEgSlNEIHBhZ2UsIHdhaXQgZm9yIGl0IHRvIGNvbXBsZXRlCiAgICAgICAgICAgICAgICBjb25zdCBjaGFsbGVuZ2luZyA9IGF3YWl0IGlzSnNkUGFnZShwYWdlKS5jYXRjaCgoKSA9PiBmYWxzZSk7CiAgICAgICAgICAgICAgICBpZiAoY2hhbGxlbmdpbmcpIHsKICAgICAgICAgICAgICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCB3YWl0Rm9ySnNkQ29tcGxldGlvbihwYWdlLCB7IHRpbWVvdXQsIGludGVydmFsIH0pLmNhdGNoKCgpID0+ICh7IHBhc3NlZDogZmFsc2UgfSkpOwogICAgICAgICAgICAgICAgICAgIGlmIChyZXN1bHQucGFzc2VkKSB7CiAgICAgICAgICAgICAgICAgICAgICAgIEpTRF9SRUFEWS5hZGQocGFnZSk7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGVsc2UgewogICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLndhcm4oYFtiZXh4Y3ZdIGpzZDogY2hhbGxlbmdlIGRpZCBub3QgY29tcGxldGUgd2l0aGluICR7dGltZW91dH1tc2ApOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIHJldHVybiByZXNwb25zZTsKICAgICAgICAgICAgfSk7CiAgICAgICAgfSwKICAgIH07Cn0KLyoqIENoZWNrIHdoZXRoZXIgdGhlIGN1cnJlbnQgcGFnZSBoYXMgcGFzc2VkIGl0cyBKU0QgY2hhbGxlbmdlLiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gaXNKc2RQYXNzZWQocGFnZSkgewogICAgaWYgKEpTRF9SRUFEWS5oYXMocGFnZSkpCiAgICAgICAgcmV0dXJuIHRydWU7CiAgICBjb25zdCBwYXNzZWQgPSBhd2FpdCBwYWdlLmV2YWx1YXRlKCgpID0+IHsKICAgICAgICB0cnkgewogICAgICAgICAgICBjb25zdCB3ID0gd2luZG93OwogICAgICAgICAgICByZXR1cm4gdz8uY2xvdWRmbGFyZT8uanNkPy5zdGF0ZSA9PT0gInBhc3NlZCI7CiAgICAgICAgfQogICAgICAgIGNhdGNoIHsKICAgICAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgICAgIH0KICAgIH0pLmNhdGNoKCgpID0+IGZhbHNlKTsKICAgIGlmIChwYXNzZWQpCiAgICAgICAgSlNEX1JFQURZLmFkZChwYWdlKTsKICAgIHJldHVybiBwYXNzZWQ7Cn0KLyoqIEF0dGFjaCBKU0QgaGFuZGxpbmcgdG8gYW4gZXhpc3RpbmcgYnJvd3NlciBvciBjb250ZXh0LiAqLwpleHBvcnQgZnVuY3Rpb24gYXR0YWNoSnNkKHRhcmdldCwgX29wdGlvbnMgPSB7fSkgewogICAgdm9pZCBqc2QoX29wdGlvbnMpOwogICAgcmV0dXJuIHRhcmdldDsKfQo=
+import { sleep } from "../random.js";
+const JSD_READY = new WeakSet();
+const WATCHED = new WeakSet();
+async function isJsdPage(page) {
+    try {
+        const title = (await page.title().catch(() => "")).toLowerCase();
+        if (title.includes("just a moment") || title.includes("attention required")) {
+            return true;
+        }
+        const hasJsd = await page.evaluate(() => {
+            try {
+                const w = window;
+                if (!w?.cloudflare?.jsd)
+                    return false;
+                // If it's our fallback (bexxcv), not a real CF challenge
+                if (w.cloudflare.jsd._bexxcv)
+                    return false;
+                // Real CF JSD has state "pending" or a registered executeOnce
+                return w.cloudflare.jsd.state === "pending" || typeof w.cloudflare.jsd.executeOnce === "function";
+            }
+            catch {
+                return false;
+            }
+        }).catch(() => false);
+        return hasJsd;
+    }
+    catch {
+        return false;
+    }
+}
+async function waitForJsdCompletion(page, options) {
+    const timeout = options.timeout ?? 15_000;
+    const interval = options.interval ?? 500;
+    const start = Date.now();
+    while (Date.now() - start < timeout && !page.isClosed()) {
+        try {
+            const passed = await page.evaluate(() => {
+                try {
+                    const w = window;
+                    if (!w?.cloudflare?.jsd?.state)
+                        return null;
+                    return w.cloudflare.jsd.state === "passed" ? true : null;
+                }
+                catch {
+                    return null;
+                }
+            }).catch(() => null);
+            if (passed === true) {
+                return { passed: true };
+            }
+            // Also check if cf_clearance appeared (indicates JSD completed externally)
+            const cookies = await page.context().cookies(page.url()).catch(() => []);
+            if (cookies.some((c) => c.name === "cf_clearance")) {
+                return { passed: true };
+            }
+        }
+        catch {
+            // ignore evaluation errors
+        }
+        await sleep(interval);
+    }
+    return { passed: false };
+}
+export function jsd(options = {}) {
+    const timeout = options.timeout ?? 15_000;
+    const interval = options.interval ?? 500;
+    return {
+        name: "jsd",
+        order: 43,
+        onPage(page) {
+            if (WATCHED.has(page))
+                return;
+            WATCHED.add(page);
+            // Inject a fallback cloudflare.jsd namespace so page JS doesn't crash
+            void page.addInitScript(() => {
+                if (typeof window === "undefined")
+                    return;
+                const w = window;
+                if (!w.cloudflare)
+                    w.cloudflare = {};
+                const cf = w.cloudflare;
+                if (!cf.jsd) {
+                    cf.jsd = {
+                        state: "pending",
+                        executeOnce(_opts = {}) { },
+                        _bexxcv: true,
+                    };
+                }
+                const _jsd = cf.jsd;
+                _jsd &&
+                    Object.assign(cf.jsd, {
+                        executeOnce: function (opts = {}) {
+                            if (opts.callback) {
+                                setTimeout(() => opts.callback("success"), 0);
+                            }
+                            return { then: (cb) => setTimeout(cb, 0) };
+                        },
+                    });
+            });
+            const originalGoto = page.goto.bind(page);
+            page.goto = (async (...args) => {
+                JSD_READY.delete(page);
+                const response = await originalGoto(...args);
+                // If we landed on a JSD page, wait for it to complete
+                const challenging = await isJsdPage(page).catch(() => false);
+                if (challenging) {
+                    const result = await waitForJsdCompletion(page, { timeout, interval }).catch(() => ({ passed: false }));
+                    if (result.passed) {
+                        JSD_READY.add(page);
+                    }
+                    else {
+                        console.warn(`[bexxcv] jsd: challenge did not complete within ${timeout}ms`);
+                    }
+                }
+                return response;
+            });
+        },
+    };
+}
+/** Check whether the current page has passed its JSD challenge. */
+export async function isJsdPassed(page) {
+    if (JSD_READY.has(page))
+        return true;
+    const passed = await page.evaluate(() => {
+        try {
+            const w = window;
+            return w?.cloudflare?.jsd?.state === "passed";
+        }
+        catch {
+            return false;
+        }
+    }).catch(() => false);
+    if (passed)
+        JSD_READY.add(page);
+    return passed;
+}
+/** Attach JSD handling to an existing browser or context. */
+export function attachJsd(target, _options = {}) {
+    void jsd(_options);
+    return target;
+}

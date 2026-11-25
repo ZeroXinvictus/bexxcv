@@ -1,1 +1,2 @@
-ZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gYmV0d2VlbihtaW46IG51bWJlciwgbWF4OiBudW1iZXIpOiBudW1iZXI7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHNsZWVwKG1zOiBudW1iZXIpOiBQcm9taXNlPHZvaWQ+Owo=
+export declare function between(min: number, max: number): number;
+export declare function sleep(ms: number): Promise<void>;

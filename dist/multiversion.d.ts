@@ -1,1 +1,27 @@
-aW1wb3J0IHsgVmVyc2lvbiB9IGZyb20gIi4vcGtnbWFuLmpzIjsKZXhwb3J0IGRlY2xhcmUgY29uc3QgYnJvd3NlcnNEaXI6ICgpID0+IHN0cmluZzsKZXhwb3J0IGRlY2xhcmUgY29uc3QgY29uZmlnRmlsZTogKCkgPT4gc3RyaW5nOwpleHBvcnQgZGVjbGFyZSBjb25zdCBjb21wYXRGbGFnOiAoKSA9PiBzdHJpbmc7CmV4cG9ydCBpbnRlcmZhY2UgQ2Ftb3Vmb3hDb25maWcgewogICAgYWN0aXZlX3ZlcnNpb24/OiBzdHJpbmcgfCBudWxsOwogICAgY2hhbm5lbD86IHN0cmluZzsKICAgIHBpbm5lZD86IHN0cmluZzsKICAgIHBpbm5lZF9zaGE/OiBzdHJpbmc7CiAgICBba2V5OiBzdHJpbmddOiB1bmtub3duOwp9CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGxvYWRDb25maWcoKTogQ2Ftb3Vmb3hDb25maWc7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHNhdmVDb25maWcoY29uZmlnOiBDYW1vdWZveENvbmZpZyk6IHZvaWQ7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHNldEFjdGl2ZShyZWxhdGl2ZVBhdGg6IHN0cmluZyk6IHZvaWQ7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGdldFJlcG9OYW1lKGdpdGh1YlJlcG86IHN0cmluZyk6IHN0cmluZzsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gdmVyc2lvbkZvbGRlck5hbWUodmVyc2lvbjogc3RyaW5nLCBidWlsZDogc3RyaW5nLCBzaGEyNTY/OiBzdHJpbmcpOiBzdHJpbmc7CmV4cG9ydCBpbnRlcmZhY2UgSW5zdGFsbGVkVmVyc2lvbiB7CiAgICByZXBvTmFtZTogc3RyaW5nOwogICAgdmVyc2lvbjogVmVyc2lvbjsKICAgIHBhdGg6IHN0cmluZzsKICAgIHJlbGF0aXZlUGF0aDogc3RyaW5nOwogICAgaXNBY3RpdmU6IGJvb2xlYW47CiAgICBpc1ByZXJlbGVhc2U6IGJvb2xlYW47CiAgICBzaGEyNTY/OiBzdHJpbmc7Cn0KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gbGlzdEluc3RhbGxlZCgpOiBJbnN0YWxsZWRWZXJzaW9uW107CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGdldEFjdGl2ZVBhdGgoKTogc3RyaW5nIHwgbnVsbDsK
+import { Version } from "./pkgman.js";
+export declare const browsersDir: () => string;
+export declare const configFile: () => string;
+export declare const compatFlag: () => string;
+export interface CamoufoxConfig {
+    active_version?: string | null;
+    channel?: string;
+    pinned?: string;
+    pinned_sha?: string;
+    [key: string]: unknown;
+}
+export declare function loadConfig(): CamoufoxConfig;
+export declare function saveConfig(config: CamoufoxConfig): void;
+export declare function setActive(relativePath: string): void;
+export declare function getRepoName(githubRepo: string): string;
+export declare function versionFolderName(version: string, build: string, sha256?: string): string;
+export interface InstalledVersion {
+    repoName: string;
+    version: Version;
+    path: string;
+    relativePath: string;
+    isActive: boolean;
+    isPrerelease: boolean;
+    sha256?: string;
+}
+export declare function listInstalled(): InstalledVersion[];
+export declare function getActivePath(): string | null;

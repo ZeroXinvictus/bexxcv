@@ -1,1 +1,131 @@
-aW1wb3J0IHsgaW5pdFNlc3Npb24sIGFkdmFuY2VQYWdlLCBlbmRTZXNzaW9uLCBpc1Nlc3Npb25FeHBpcmVkLCBnZXRTZXNzaW9uSWQgfSBmcm9tICIuL3Nlc3Npb24uanMiOwppbXBvcnQgdHlwZSB7IFBhZ2UgfSBmcm9tICJwbGF5d3JpZ2h0LWNvcmUiOwoKZXhwb3J0IGludGVyZmFjZSBIdW1hbkJlaGF2aW9yT3B0aW9ucyB7CglzcGVlZD86IG51bWJlcjsKCXR5cG9SYXRlPzogbnVtYmVyOwoJc2Nyb2xsUGF0dGVybj86ICJuYXR1cmFsIiB8ICJsaW5lYXIiIHwgImJ1cnN0IjsKCWlkbGVEcmlmdD86IGJvb2xlYW47CglzZXNzaW9uVGltZW91dD86IG51bWJlcjsKCW1heFBhZ2VzUGVyU2Vzc2lvbj86IG51bWJlcjsKCXBhZ2VUcmFuc2l0aW9uTWluTXM/OiBudW1iZXI7CglwYWdlVHJhbnNpdGlvbk1heE1zPzogbnVtYmVyOwoJbW91c2VBY2NlbGVyYXRpb24/OiBib29sZWFuOwp9Cgpjb25zdCBERUZBVUxUX01JTl9NUyA9IDgwMDsKY29uc3QgREVGQVVMVF9NQVhfTVMgPSAzXzAwMDsKY29uc3QgREVGQVVMVF9USU1FT1VUID0gMV84MDBfMDAwOwoKZnVuY3Rpb24gZW5zdXJlT3B0cyhvcHRzOiBIdW1hbkJlaGF2aW9yT3B0aW9ucyk6IFJlcXVpcmVkPFBpY2s8SHVtYW5CZWhhdmlvck9wdGlvbnMsICJwYWdlVHJhbnNpdGlvbk1pbk1zIiB8ICJwYWdlVHJhbnNpdGlvbk1heE1zIiB8ICJzZXNzaW9uVGltZW91dCI+PiAmIE9taXQ8SHVtYW5CZWhhdmlvck9wdGlvbnMsICJwYWdlVHJhbnNpdGlvbk1pbk1zIiB8ICJwYWdlVHJhbnNpdGlvbk1heE1zIiB8ICJzZXNzaW9uVGltZW91dCI+IHsKCXJldHVybiB7CgkJcGFnZVRyYW5zaXRpb25NaW5Nczogb3B0cy5wYWdlVHJhbnNpdGlvbk1pbk1zID8/IERFRkFVTFRfTUlOX01TLAoJCXBhZ2VUcmFuc2l0aW9uTWF4TXM6IG9wdHMucGFnZVRyYW5zaXRpb25NYXhNcyA/PyBERUZBVUxUX01BWF9NUywKCQlzZXNzaW9uVGltZW91dDogb3B0cy5zZXNzaW9uVGltZW91dCA/PyBERUZBVUxUX1RJTUVPVVQsCgkJLi4ub3B0cywKCX07Cn0KCmZ1bmN0aW9uIGNyeXB0b1JhbmRCZXR3ZWVuKG1pbjogbnVtYmVyLCBtYXg6IG51bWJlcik6IG51bWJlciB7Cgljb25zdCBidWYgPSBuZXcgVWludDMyQXJyYXkoMSk7CgljcnlwdG8uZ2V0UmFuZG9tVmFsdWVzKGJ1Zik7CglyZXR1cm4gbWluICsgKGJ1ZlswXSEgLyAweDEwMDAwMDAwMCkgKiAobWF4IC0gbWluKTsKfQoKZnVuY3Rpb24gY3J5cHRvR2F1c3Moc2VlZDogVWludDhBcnJheSwgaW5kZXg6IG51bWJlciwgbWVhbjogbnVtYmVyLCBzZDogbnVtYmVyKTogbnVtYmVyIHsKCWxldCBoYXNoID0gMHg5ZTM3NzliOTsKCWZvciAobGV0IGkgPSAwOyBpIDwgc2VlZC5sZW5ndGg7IGkrKykgewoJCWhhc2ggPSAoKGhhc2ggPDwgNSkgLSBoYXNoICsgc2VlZFtpXSEpID4+PiAwOwoJfQoJaGFzaCA9IChoYXNoICsgaW5kZXggKiAweDViZDFlOTk1KSA+Pj4gMDsKCWNvbnN0IHUxID0gTWF0aC5tYXgoKGhhc2ggPj4+IDApIC8gMHgxMDAwMDAwMDAsIDFlLTEwKTsKCWNvbnN0IG5leHRIYXNoID0gKGhhc2ggXiAweDllMzc3OWI5KSA+Pj4gMDsKCWNvbnN0IHUyID0gbmV4dEhhc2ggLyAweDEwMDAwMDAwMDsKCWNvbnN0IHogPSBNYXRoLnNxcnQoLTIgKiBNYXRoLmxvZyh1MSkpICogTWF0aC5jb3MoMiAqIE1hdGguUEkgKiB1Mik7CglyZXR1cm4gbWVhbiArIHNkICogejsKfQoKZnVuY3Rpb24gY3JlYXRlU2Vzc2lvbihwYWdlOiBQYWdlLCBvcHRzOiBIdW1hbkJlaGF2aW9yT3B0aW9ucyk6IHZvaWQgewoJaWYgKCFnZXRTZXNzaW9uSWQocGFnZSkpIHsKCQlpbml0U2Vzc2lvbihwYWdlLCB7IHRpbWVvdXQ6IG9wdHMuc2Vzc2lvblRpbWVvdXQgfSk7Cgl9Cn0KCmZ1bmN0aW9uIGdldFBhZ2VEZWxheShwYWdlOiBQYWdlLCBvcHRzOiBIdW1hbkJlaGF2aW9yT3B0aW9ucyk6IG51bWJlciB7Cgljb25zdCByZXNvbHZlZCA9IGVuc3VyZU9wdHMob3B0cyk7Cgljb25zdCBzdGF0ZSA9IChwYWdlIGFzIGFueSkuX2JleHhjdl9zZXNzaW9uOwoJaWYgKCFzdGF0ZSkgcmV0dXJuIGNyeXB0b1JhbmRCZXR3ZWVuKHJlc29sdmVkLnBhZ2VUcmFuc2l0aW9uTWluTXMsIHJlc29sdmVkLnBhZ2VUcmFuc2l0aW9uTWF4TXMpOwoJY29uc3QgZWxhcHNlZCA9IERhdGUubm93KCkgLSBzdGF0ZS5jcmVhdGVkQXQ7Cgljb25zdCBwcm9ncmVzcyA9IE1hdGgubWluKGVsYXBzZWQgLyByZXNvbHZlZC5zZXNzaW9uVGltZW91dCwgMSk7Cgljb25zdCBiYXNlRGVsYXkgPSBjcnlwdG9SYW5kQmV0d2VlbihyZXNvbHZlZC5wYWdlVHJhbnNpdGlvbk1pbk1zLCByZXNvbHZlZC5wYWdlVHJhbnNpdGlvbk1heE1zKTsKCWNvbnN0IGZhdGlndWVGYWN0b3IgPSAxICsgcHJvZ3Jlc3MgKiAwLjU7CglyZXR1cm4gYmFzZURlbGF5ICogZmF0aWd1ZUZhY3RvcjsKfQoKZXhwb3J0IGZ1bmN0aW9uIGF0dGFjaEh1bWFuQmVoYXZpb3IocGFnZTogUGFnZSwgb3B0aW9uczogSHVtYW5CZWhhdmlvck9wdGlvbnMgPSB7fSk6IHZvaWQgewoJY29uc3Qgb3B0cyA9IGVuc3VyZU9wdHMob3B0aW9ucyk7CgljcmVhdGVTZXNzaW9uKHBhZ2UsIG9wdHMpOwoJKHBhZ2UgYXMgYW55KS5fYmV4eGN2X2h1bWFuX29wdGlvbnMgPSBvcHRzOwoKCWNvbnN0IG9yaWdpbmFsR290byA9IHBhZ2UuZ290by5iaW5kKHBhZ2UpOwoJcGFnZS5nb3RvID0gYXN5bmMgKC4uLmFyZ3M6IFBhcmFtZXRlcnM8UGFnZVsiZ290byJdPikgPT4gewoJCWNvbnN0IGRlbGF5ID0gZ2V0UGFnZURlbGF5KHBhZ2UsIG9wdHMpOwoJCWF3YWl0IHNsZWVwKGNyeXB0b1JhbmRCZXR3ZWVuKGRlbGF5ICogMC4zLCBkZWxheSkpOwoJCWNvbnN0IHJlc3VsdCA9IGF3YWl0IG9yaWdpbmFsR290byguLi5hcmdzKTsKCQlhZHZhbmNlUGFnZShwYWdlKTsKCQlyZXR1cm4gcmVzdWx0OwoJfTsKCgljb25zdCBvcmlnaW5hbENsaWNrID0gcGFnZS5jbGljay5iaW5kKHBhZ2UpOwoJcGFnZS5jbGljayA9IGFzeW5jIChzZWxlY3Rvcjogc3RyaW5nLCAuLi5hcmdzOiBhbnlbXSkgPT4gewoJCWF3YWl0IHNsZWVwKGNyeXB0b1JhbmRCZXR3ZWVuKDEyMCwgNDAwKSk7CgkJcmV0dXJuIG9yaWdpbmFsQ2xpY2soc2VsZWN0b3IsIC4uLmFyZ3MpOwoJfTsKCgljb25zdCBvcmlnaW5hbEV2YWx1YXRlID0gcGFnZS5ldmFsdWF0ZS5iaW5kKHBhZ2UpOwoJcGFnZS5ldmFsdWF0ZSA9IGFzeW5jIDxUPihwYWdlRnVuY3Rpb246IGFueSwgLi4uZXZhbEFyZ3M6IGFueVtdKTogUHJvbWlzZTxUPiA9PiB7CgkJaWYgKG9wdHMuaWRsZURyaWZ0KSB7CgkJCWNvbnN0IHZpZXcgPSBhd2FpdCBwYWdlLnZpZXdwb3J0U2l6ZSgpOwoJCQlpZiAodmlldykgewoJCQkJY29uc3Qgc3RhdGUgPSAocGFnZSBhcyBhbnkpLl9iZXh4Y3Zfc2Vzc2lvbjsKCQkJCWNvbnN0IHNlZWQgPSBzdGF0ZT8uc2VlZEJ1ZmZlciA/PyBuZXcgVWludDhBcnJheSgzMik7CgkJCQljb25zdCB0aW1lSW5kZXggPSBEYXRlLm5vdygpICUgMTAwMDsKCQkJCWNvbnN0IGRyaWZ0WCA9IGNyeXB0b0dhdXNzKHNlZWQsIHRpbWVJbmRleCwgdmlldy53aWR0aCAvIDIsIHZpZXcud2lkdGggKiAwLjE1KTsKCQkJCWNvbnN0IGRyaWZ0WSA9IGNyeXB0b0dhdXNzKHNlZWQsIHRpbWVJbmRleCArIDEsIHZpZXcuaGVpZ2h0IC8gMiwgdmlldy5oZWlnaHQgKiAwLjEpOwoJCQkJYXdhaXQgcGFnZS5tb3VzZS5tb3ZlKAoJCQkJCU1hdGgubWF4KDAsIE1hdGgubWluKHZpZXcud2lkdGgsIGRyaWZ0WCkpLAoJCQkJCU1hdGgubWF4KDAsIE1hdGgubWluKHZpZXcuaGVpZ2h0LCBkcmlmdFkpKSwKCQkJCSk7CgkJCX0KCQl9CgkJcmV0dXJuIG9yaWdpbmFsRXZhbHVhdGUocGFnZUZ1bmN0aW9uLCAuLi5ldmFsQXJncyk7Cgl9Owp9CgpleHBvcnQgZnVuY3Rpb24gZGV0YWNoSHVtYW5CZWhhdmlvcihwYWdlOiBQYWdlKTogdm9pZCB7Cgljb25zdCBzZXNzaW9uU3RhdGUgPSAocGFnZSBhcyBhbnkpLl9iZXh4Y3Zfc2Vzc2lvbjsKCWlmIChzZXNzaW9uU3RhdGUpIHsKCQllbmRTZXNzaW9uKHBhZ2UpOwoJfQoJZGVsZXRlIChwYWdlIGFzIGFueSkuX2JleHhjdl9odW1hbl9vcHRpb25zOwoJY29uc3Qgb3JpZ0dvdG8gPSAocGFnZSBhcyBhbnkpLl9vcmlnX2dvdG87Cgljb25zdCBvcmlnQ2xpY2sgPSAocGFnZSBhcyBhbnkpLl9vcmlnX2NsaWNrOwoJY29uc3Qgb3JpZ0V2YWwgPSAocGFnZSBhcyBhbnkpLl9vcmlnX2V2YWx1YXRlOwoJaWYgKG9yaWdHb3RvKSBwYWdlLmdvdG8gPSBvcmlnR290bzsKCWlmIChvcmlnQ2xpY2spIHBhZ2UuY2xpY2sgPSBvcmlnQ2xpY2s7CglpZiAob3JpZ0V2YWwpIHBhZ2UuZXZhbHVhdGUgPSBvcmlnRXZhbDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldFNlc3Npb25JbmZvKHBhZ2U6IFBhZ2UpOiB7IGlkOiBzdHJpbmcgfCBudWxsOyBwYWdlQ291bnQ6IG51bWJlcjsgYWdlTXM6IG51bWJlciB9IHwgbnVsbCB7Cgljb25zdCBzdGF0ZSA9IChwYWdlIGFzIGFueSkuX2JleHhjdl9zZXNzaW9uOwoJaWYgKCFzdGF0ZSkgcmV0dXJuIG51bGw7CglyZXR1cm4gewoJCWlkOiBnZXRTZXNzaW9uSWQocGFnZSksCgkJcGFnZUNvdW50OiBzdGF0ZS5wYWdlQ291bnQsCgkJYWdlTXM6IERhdGUubm93KCkgLSBzdGF0ZS5jcmVhdGVkQXQsCgl9Owp9CgpleHBvcnQgZnVuY3Rpb24gc2xlZXAobXM6IG51bWJlcik6IFByb21pc2U8dm9pZD4gewoJcmV0dXJuIG5ldyBQcm9taXNlKHJlc29sdmUgPT4gc2V0VGltZW91dChyZXNvbHZlLCBNYXRoLm1heCgwLCBtcykpKTsKfQo=
+import { initSession, advancePage, endSession, isSessionExpired, getSessionId } from "./session.js";
+import type { Page } from "playwright-core";
+
+export interface HumanBehaviorOptions {
+	speed?: number;
+	typoRate?: number;
+	scrollPattern?: "natural" | "linear" | "burst";
+	idleDrift?: boolean;
+	sessionTimeout?: number;
+	maxPagesPerSession?: number;
+	pageTransitionMinMs?: number;
+	pageTransitionMaxMs?: number;
+	mouseAcceleration?: boolean;
+}
+
+const DEFAULT_MIN_MS = 800;
+const DEFAULT_MAX_MS = 3_000;
+const DEFAULT_TIMEOUT = 1_800_000;
+
+function ensureOpts(opts: HumanBehaviorOptions): Required<Pick<HumanBehaviorOptions, "pageTransitionMinMs" | "pageTransitionMaxMs" | "sessionTimeout">> & Omit<HumanBehaviorOptions, "pageTransitionMinMs" | "pageTransitionMaxMs" | "sessionTimeout"> {
+	return {
+		pageTransitionMinMs: opts.pageTransitionMinMs ?? DEFAULT_MIN_MS,
+		pageTransitionMaxMs: opts.pageTransitionMaxMs ?? DEFAULT_MAX_MS,
+		sessionTimeout: opts.sessionTimeout ?? DEFAULT_TIMEOUT,
+		...opts,
+	};
+}
+
+function cryptoRandBetween(min: number, max: number): number {
+	const buf = new Uint32Array(1);
+	crypto.getRandomValues(buf);
+	return min + (buf[0]! / 0x100000000) * (max - min);
+}
+
+function cryptoGauss(seed: Uint8Array, index: number, mean: number, sd: number): number {
+	let hash = 0x9e3779b9;
+	for (let i = 0; i < seed.length; i++) {
+		hash = ((hash << 5) - hash + seed[i]!) >>> 0;
+	}
+	hash = (hash + index * 0x5bd1e995) >>> 0;
+	const u1 = Math.max((hash >>> 0) / 0x100000000, 1e-10);
+	const nextHash = (hash ^ 0x9e3779b9) >>> 0;
+	const u2 = nextHash / 0x100000000;
+	const z = Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
+	return mean + sd * z;
+}
+
+function createSession(page: Page, opts: HumanBehaviorOptions): void {
+	if (!getSessionId(page)) {
+		initSession(page, { timeout: opts.sessionTimeout });
+	}
+}
+
+function getPageDelay(page: Page, opts: HumanBehaviorOptions): number {
+	const resolved = ensureOpts(opts);
+	const state = (page as any)._bexxcv_session;
+	if (!state) return cryptoRandBetween(resolved.pageTransitionMinMs, resolved.pageTransitionMaxMs);
+	const elapsed = Date.now() - state.createdAt;
+	const progress = Math.min(elapsed / resolved.sessionTimeout, 1);
+	const baseDelay = cryptoRandBetween(resolved.pageTransitionMinMs, resolved.pageTransitionMaxMs);
+	const fatigueFactor = 1 + progress * 0.5;
+	return baseDelay * fatigueFactor;
+}
+
+export function attachHumanBehavior(page: Page, options: HumanBehaviorOptions = {}): void {
+	const opts = ensureOpts(options);
+	createSession(page, opts);
+	(page as any)._bexxcv_human_options = opts;
+
+	const originalGoto = page.goto.bind(page);
+	page.goto = async (...args: Parameters<Page["goto"]>) => {
+		const delay = getPageDelay(page, opts);
+		await sleep(cryptoRandBetween(delay * 0.3, delay));
+		const result = await originalGoto(...args);
+		advancePage(page);
+		return result;
+	};
+
+	const originalClick = page.click.bind(page);
+	page.click = async (selector: string, ...args: any[]) => {
+		await sleep(cryptoRandBetween(120, 400));
+		return originalClick(selector, ...args);
+	};
+
+	const originalEvaluate = page.evaluate.bind(page);
+	page.evaluate = async <T>(pageFunction: any, ...evalArgs: any[]): Promise<T> => {
+		if (opts.idleDrift) {
+			const view = await page.viewportSize();
+			if (view) {
+				const state = (page as any)._bexxcv_session;
+				const seed = state?.seedBuffer ?? new Uint8Array(32);
+				const timeIndex = Date.now() % 1000;
+				const driftX = cryptoGauss(seed, timeIndex, view.width / 2, view.width * 0.15);
+				const driftY = cryptoGauss(seed, timeIndex + 1, view.height / 2, view.height * 0.1);
+				await page.mouse.move(
+					Math.max(0, Math.min(view.width, driftX)),
+					Math.max(0, Math.min(view.height, driftY)),
+				);
+			}
+		}
+		return originalEvaluate(pageFunction, ...evalArgs);
+	};
+}
+
+export function detachHumanBehavior(page: Page): void {
+	const sessionState = (page as any)._bexxcv_session;
+	if (sessionState) {
+		endSession(page);
+	}
+	delete (page as any)._bexxcv_human_options;
+	const origGoto = (page as any)._orig_goto;
+	const origClick = (page as any)._orig_click;
+	const origEval = (page as any)._orig_evaluate;
+	if (origGoto) page.goto = origGoto;
+	if (origClick) page.click = origClick;
+	if (origEval) page.evaluate = origEval;
+}
+
+export function getSessionInfo(page: Page): { id: string | null; pageCount: number; ageMs: number } | null {
+	const state = (page as any)._bexxcv_session;
+	if (!state) return null;
+	return {
+		id: getSessionId(page),
+		pageCount: state.pageCount,
+		ageMs: Date.now() - state.createdAt,
+	};
+}
+
+export function sleep(ms: number): Promise<void> {
+	return new Promise(resolve => setTimeout(resolve, Math.max(0, ms)));
+}

@@ -1,1 +1,52 @@
-aW1wb3J0IHR5cGUgeyBQYWdlIH0gZnJvbSAicGxheXdyaWdodC1jb3JlIjsKaW1wb3J0IHsgSHVtYW4sIHR5cGUgSHVtYW5PcHRpb25zLCB0eXBlIEh1bWFuUGFnZSB9IGZyb20gIi4uL2h1bWFuLmpzIjsKaW1wb3J0IHsgYmV0d2Vlbiwgc2xlZXAgfSBmcm9tICIuLi9yYW5kb20uanMiOwppbXBvcnQgdHlwZSB7IEJleHhjdlBsdWdpbiB9IGZyb20gIi4vdHlwZXMuanMiOwoKZXhwb3J0IGludGVyZmFjZSBIdW1hblBsdWdpbk9wdGlvbnMgZXh0ZW5kcyBIdW1hbk9wdGlvbnMgewoJdGhpbms/OiBbbnVtYmVyLCBudW1iZXJdIHwgZmFsc2U7Cn0KCmNvbnN0IFdSQVBQRUQgPSBuZXcgV2Vha1NldDxQYWdlPigpOwoKZXhwb3J0IGZ1bmN0aW9uIGh1bWFuKG9wdGlvbnM6IEh1bWFuUGx1Z2luT3B0aW9ucyA9IHt9KTogQmV4eGN2UGx1Z2luIHsKCWNvbnN0IHRoaW5rID0gb3B0aW9ucy50aGluayA9PT0gZmFsc2UgPyBudWxsIDogKG9wdGlvbnMudGhpbmsgPz8gWzE1MCwgNzAwXSk7Cgljb25zdCBzcGVlZCA9IG9wdGlvbnMuc3BlZWQgPz8gMTsKCglyZXR1cm4gewoJCW5hbWU6ICJodW1hbiIsCgkJb3JkZXI6IDYwLAoJCW9uUGFnZShwYWdlKSB7CgkJCWlmIChXUkFQUEVELmhhcyhwYWdlKSkgcmV0dXJuOwoJCQlXUkFQUEVELmFkZChwYWdlKTsKCQkJY29uc3QgYWN0b3IgPSBuZXcgSHVtYW4ocGFnZSBhcyB1bmtub3duIGFzIEh1bWFuUGFnZSwgb3B0aW9ucyk7CgkJCWNvbnN0IHBhdXNlID0gYXN5bmMgKCkgPT4gewoJCQkJaWYgKHRoaW5rKSBhd2FpdCBzbGVlcChiZXR3ZWVuKHRoaW5rWzBdLCB0aGlua1sxXSkgLyBzcGVlZCk7CgkJCX07CgoJCQlwYWdlLmNsaWNrID0gKGFzeW5jICgKCQkJCXNlbGVjdG9yOiBzdHJpbmcsCgkJCQljbGlja09wdGlvbnM/OiB7IGJ1dHRvbj86ICJsZWZ0IiB8ICJyaWdodCIgfCAibWlkZGxlIiB9LAoJCQkpID0+IHsKCQkJCWF3YWl0IHBhdXNlKCk7CgkJCQlhd2FpdCBhY3Rvci5jbGljayhzZWxlY3RvciwgeyBidXR0b246IGNsaWNrT3B0aW9ucz8uYnV0dG9uIH0pOwoJCQl9KSBhcyBQYWdlWyJjbGljayJdOwoKCQkJcGFnZS5ob3ZlciA9IChhc3luYyAoc2VsZWN0b3I6IHN0cmluZykgPT4gewoJCQkJYXdhaXQgcGF1c2UoKTsKCQkJCWF3YWl0IGFjdG9yLmhvdmVyKHNlbGVjdG9yKTsKCQkJfSkgYXMgUGFnZVsiaG92ZXIiXTsKCgkJCXBhZ2UuZmlsbCA9IChhc3luYyAoc2VsZWN0b3I6IHN0cmluZywgdmFsdWU6IHN0cmluZykgPT4gewoJCQkJYXdhaXQgcGF1c2UoKTsKCQkJCWF3YWl0IGFjdG9yLmNsZWFyKHNlbGVjdG9yKTsKCQkJCWF3YWl0IGFjdG9yLnR5cGUobnVsbCwgdmFsdWUpOwoJCQl9KSBhcyBQYWdlWyJmaWxsIl07CgoJCQlwYWdlLnR5cGUgPSAoYXN5bmMgKHNlbGVjdG9yOiBzdHJpbmcsIHRleHQ6IHN0cmluZykgPT4gewoJCQkJYXdhaXQgcGF1c2UoKTsKCQkJCWF3YWl0IGFjdG9yLnR5cGUoc2VsZWN0b3IsIHRleHQpOwoJCQl9KSBhcyBQYWdlWyJ0eXBlIl07CgkJfSwKCX07Cn0K
+import type { Page } from "playwright-core";
+import { Human, type HumanOptions, type HumanPage } from "../human.js";
+import { between, sleep } from "../random.js";
+import type { BexxcvPlugin } from "./types.js";
+
+export interface HumanPluginOptions extends HumanOptions {
+	think?: [number, number] | false;
+}
+
+const WRAPPED = new WeakSet<Page>();
+
+export function human(options: HumanPluginOptions = {}): BexxcvPlugin {
+	const think = options.think === false ? null : (options.think ?? [150, 700]);
+	const speed = options.speed ?? 1;
+
+	return {
+		name: "human",
+		order: 60,
+		onPage(page) {
+			if (WRAPPED.has(page)) return;
+			WRAPPED.add(page);
+			const actor = new Human(page as unknown as HumanPage, options);
+			const pause = async () => {
+				if (think) await sleep(between(think[0], think[1]) / speed);
+			};
+
+			page.click = (async (
+				selector: string,
+				clickOptions?: { button?: "left" | "right" | "middle" },
+			) => {
+				await pause();
+				await actor.click(selector, { button: clickOptions?.button });
+			}) as Page["click"];
+
+			page.hover = (async (selector: string) => {
+				await pause();
+				await actor.hover(selector);
+			}) as Page["hover"];
+
+			page.fill = (async (selector: string, value: string) => {
+				await pause();
+				await actor.clear(selector);
+				await actor.type(null, value);
+			}) as Page["fill"];
+
+			page.type = (async (selector: string, text: string) => {
+				await pause();
+				await actor.type(selector, text);
+			}) as Page["type"];
+		},
+	};
+}

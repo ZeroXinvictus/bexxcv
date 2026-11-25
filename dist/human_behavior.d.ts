@@ -1,1 +1,20 @@
-aW1wb3J0IHR5cGUgeyBQYWdlIH0gZnJvbSAicGxheXdyaWdodC1jb3JlIjsKZXhwb3J0IGludGVyZmFjZSBIdW1hbkJlaGF2aW9yT3B0aW9ucyB7CiAgICBzcGVlZD86IG51bWJlcjsKICAgIHR5cG9SYXRlPzogbnVtYmVyOwogICAgc2Nyb2xsUGF0dGVybj86ICJuYXR1cmFsIiB8ICJsaW5lYXIiIHwgImJ1cnN0IjsKICAgIGlkbGVEcmlmdD86IGJvb2xlYW47CiAgICBzZXNzaW9uVGltZW91dD86IG51bWJlcjsKICAgIG1heFBhZ2VzUGVyU2Vzc2lvbj86IG51bWJlcjsKICAgIHBhZ2VUcmFuc2l0aW9uTWluTXM/OiBudW1iZXI7CiAgICBwYWdlVHJhbnNpdGlvbk1heE1zPzogbnVtYmVyOwogICAgbW91c2VBY2NlbGVyYXRpb24/OiBib29sZWFuOwp9CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGF0dGFjaEh1bWFuQmVoYXZpb3IocGFnZTogUGFnZSwgb3B0aW9ucz86IEh1bWFuQmVoYXZpb3JPcHRpb25zKTogdm9pZDsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gZGV0YWNoSHVtYW5CZWhhdmlvcihwYWdlOiBQYWdlKTogdm9pZDsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gZ2V0U2Vzc2lvbkluZm8ocGFnZTogUGFnZSk6IHsKICAgIGlkOiBzdHJpbmcgfCBudWxsOwogICAgcGFnZUNvdW50OiBudW1iZXI7CiAgICBhZ2VNczogbnVtYmVyOwp9IHwgbnVsbDsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gc2xlZXAobXM6IG51bWJlcik6IFByb21pc2U8dm9pZD47Cg==
+import type { Page } from "playwright-core";
+export interface HumanBehaviorOptions {
+    speed?: number;
+    typoRate?: number;
+    scrollPattern?: "natural" | "linear" | "burst";
+    idleDrift?: boolean;
+    sessionTimeout?: number;
+    maxPagesPerSession?: number;
+    pageTransitionMinMs?: number;
+    pageTransitionMaxMs?: number;
+    mouseAcceleration?: boolean;
+}
+export declare function attachHumanBehavior(page: Page, options?: HumanBehaviorOptions): void;
+export declare function detachHumanBehavior(page: Page): void;
+export declare function getSessionInfo(page: Page): {
+    id: string | null;
+    pageCount: number;
+    ageMs: number;
+} | null;
+export declare function sleep(ms: number): Promise<void>;

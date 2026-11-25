@@ -1,1 +1,84 @@
-aW1wb3J0IHsgZXhlY0ZpbGUsIGV4ZWNGaWxlU3luYyB9IGZyb20gIm5vZGU6Y2hpbGRfcHJvY2VzcyI7CmltcG9ydCB7IHJlYWRGaWxlU3luYyB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgcGF0aCBmcm9tICJub2RlOnBhdGgiOwppbXBvcnQgeyBmaWxlVVJMVG9QYXRoIH0gZnJvbSAibm9kZTp1cmwiOwpjb25zdCBQS0dfTkFNRSA9ICJiZXh4Y3YiOwpmdW5jdGlvbiBjdXJyZW50VmVyc2lvbigpIHsKICAgIGNvbnN0IHBrZ1BhdGggPSBwYXRoLmpvaW4ocGF0aC5kaXJuYW1lKGZpbGVVUkxUb1BhdGgoaW1wb3J0Lm1ldGEudXJsKSksICIuLiIsICJwYWNrYWdlLmpzb24iKTsKICAgIGNvbnN0IHJhdyA9IEpTT04ucGFyc2UocmVhZEZpbGVTeW5jKHBrZ1BhdGgsICJ1dGYtOCIpKTsKICAgIHJldHVybiByYXcudmVyc2lvbjsKfQphc3luYyBmdW5jdGlvbiBmZXRjaExhdGVzdFZlcnNpb24oKSB7CiAgICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChgaHR0cHM6Ly9yZWdpc3RyeS5ucG1qcy5vcmcvJHtQS0dfTkFNRX0vbGF0ZXN0YCwgewogICAgICAgIGhlYWRlcnM6IHsgQWNjZXB0OiAiYXBwbGljYXRpb24vanNvbiIgfSwKICAgICAgICBzaWduYWw6IEFib3J0U2lnbmFsLnRpbWVvdXQoMTBfMDAwKSwKICAgIH0pOwogICAgaWYgKCFyZXMub2spIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYG5wbSByZWdpc3RyeSByZXNwb25kZWQgd2l0aCAke3Jlcy5zdGF0dXN9IGZvciAke1BLR19OQU1FfWApOwogICAgfQogICAgY29uc3QgZGF0YSA9IChhd2FpdCByZXMuanNvbigpKTsKICAgIHJldHVybiBkYXRhLnZlcnNpb247Cn0KZnVuY3Rpb24gc2VtdmVyR3QoYSwgYikgewogICAgY29uc3QgcGFyc2UgPSAodikgPT4gdgogICAgICAgIC5yZXBsYWNlKC9edi8sICIiKQogICAgICAgIC5zcGxpdCgiLiIpCiAgICAgICAgLm1hcCgobikgPT4gTnVtYmVyLnBhcnNlSW50KG4sIDEwKSB8fCAwKTsKICAgIGNvbnN0IFthTWFqID0gMCwgYU1pbiA9IDAsIGFQYXRjaCA9IDBdID0gcGFyc2UoYSk7CiAgICBjb25zdCBbYk1haiA9IDAsIGJNaW4gPSAwLCBiUGF0Y2ggPSAwXSA9IHBhcnNlKGIpOwogICAgaWYgKGFNYWogIT09IGJNYWopCiAgICAgICAgcmV0dXJuIGFNYWogPiBiTWFqOwogICAgaWYgKGFNaW4gIT09IGJNaW4pCiAgICAgICAgcmV0dXJuIGFNaW4gPiBiTWluOwogICAgcmV0dXJuIGFQYXRjaCA+IGJQYXRjaDsKfQpmdW5jdGlvbiBkZXRlY3RQTSgpIHsKICAgIGZvciAoY29uc3QgcG0gb2YgWyJwbnBtIiwgInlhcm4iXSkgewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGV4ZWNGaWxlU3luYyhwbSwgWyItLXZlcnNpb24iXSwgeyBzdGRpbzogImlnbm9yZSIgfSk7CiAgICAgICAgICAgIHJldHVybiBwbTsKICAgICAgICB9CiAgICAgICAgY2F0Y2ggeyB9CiAgICB9CiAgICByZXR1cm4gIm5wbSI7Cn0KZnVuY3Rpb24gaW5zdGFsbEFyZ3MocG0sIHBrZykgewogICAgY29uc3QgdGFyZ2V0ID0gYCR7cGtnfUBsYXRlc3RgOwogICAgaWYgKHBtID09PSAibnBtIikKICAgICAgICByZXR1cm4gWyJpbnN0YWxsIiwgIi1nIiwgdGFyZ2V0XTsKICAgIGlmIChwbSA9PT0gInBucG0iKQogICAgICAgIHJldHVybiBbImFkZCIsICItZyIsIHRhcmdldF07CiAgICByZXR1cm4gWyJnbG9iYWwiLCAiYWRkIiwgdGFyZ2V0XTsKfQpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY2hlY2tTZWxmVXBkYXRlKCkgewogICAgY29uc3QgY3VycmVudCA9IGN1cnJlbnRWZXJzaW9uKCk7CiAgICBjb25zdCBsYXRlc3QgPSBhd2FpdCBmZXRjaExhdGVzdFZlcnNpb24oKTsKICAgIHJldHVybiB7CiAgICAgICAgY3VycmVudCwKICAgICAgICBsYXRlc3QsCiAgICAgICAgaGFzVXBkYXRlOiBzZW12ZXJHdChsYXRlc3QsIGN1cnJlbnQpLAogICAgICAgIHJlbGVhc2VVcmw6IGBodHRwczovL3d3dy5ucG1qcy5jb20vcGFja2FnZS8ke1BLR19OQU1FfS92LyR7bGF0ZXN0fWAsCiAgICB9Owp9CmV4cG9ydCBhc3luYyBmdW5jdGlvbiBhcHBseVNlbGZVcGRhdGUoKSB7CiAgICBjb25zdCBpbmZvID0gYXdhaXQgY2hlY2tTZWxmVXBkYXRlKCk7CiAgICBpZiAoIWluZm8uaGFzVXBkYXRlKSB7CiAgICAgICAgY29uc29sZS5sb2coYGJleHhjdiBpcyBhbHJlYWR5IHVwIHRvIGRhdGUgKHYke2luZm8uY3VycmVudH0pLmApOwogICAgICAgIHJldHVybjsKICAgIH0KICAgIGNvbnNvbGUubG9nKGBVcGRhdGluZyBiZXh4Y3YgdiR7aW5mby5jdXJyZW50fSDihpIgdiR7aW5mby5sYXRlc3R9IC4uLmApOwogICAgY29uc3QgcG0gPSBkZXRlY3RQTSgpOwogICAgY29uc3QgYXJncyA9IGluc3RhbGxBcmdzKHBtLCBQS0dfTkFNRSk7CiAgICBjb25zb2xlLmxvZyhgUnVubmluZzogJHtwbX0gJHthcmdzLmpvaW4oIiAiKX1gKTsKICAgIGF3YWl0IG5ldyBQcm9taXNlKChyZXNvbHZlLCByZWplY3QpID0+IHsKICAgICAgICBjb25zdCBwcm9jID0gZXhlY0ZpbGUocG0sIGFyZ3MsIHsgc3RkaW86ICJpbmhlcml0IiB9KTsKICAgICAgICBwcm9jLm9uKCJjbG9zZSIsIChjb2RlKSA9PiB7CiAgICAgICAgICAgIGlmIChjb2RlID09PSAwKQogICAgICAgICAgICAgICAgcmVzb2x2ZSgpOwogICAgICAgICAgICBlbHNlCiAgICAgICAgICAgICAgICByZWplY3QobmV3IEVycm9yKGAke3BtfSBleGl0ZWQgd2l0aCBjb2RlICR7Y29kZX1gKSk7CiAgICAgICAgfSk7CiAgICAgICAgcHJvYy5vbigiZXJyb3IiLCByZWplY3QpOwogICAgfSk7CiAgICBjb25zb2xlLmxvZyhgYmV4eGN2IHVwZGF0ZWQgdG8gdiR7aW5mby5sYXRlc3R9LmApOwp9Cg==
+import { execFile, execFileSync } from "node:child_process";
+import { readFileSync } from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const PKG_NAME = "bexxcv";
+function currentVersion() {
+    const pkgPath = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "package.json");
+    const raw = JSON.parse(readFileSync(pkgPath, "utf-8"));
+    return raw.version;
+}
+async function fetchLatestVersion() {
+    const res = await fetch(`https://registry.npmjs.org/${PKG_NAME}/latest`, {
+        headers: { Accept: "application/json" },
+        signal: AbortSignal.timeout(10_000),
+    });
+    if (!res.ok) {
+        throw new Error(`npm registry responded with ${res.status} for ${PKG_NAME}`);
+    }
+    const data = (await res.json());
+    return data.version;
+}
+function semverGt(a, b) {
+    const parse = (v) => v
+        .replace(/^v/, "")
+        .split(".")
+        .map((n) => Number.parseInt(n, 10) || 0);
+    const [aMaj = 0, aMin = 0, aPatch = 0] = parse(a);
+    const [bMaj = 0, bMin = 0, bPatch = 0] = parse(b);
+    if (aMaj !== bMaj)
+        return aMaj > bMaj;
+    if (aMin !== bMin)
+        return aMin > bMin;
+    return aPatch > bPatch;
+}
+function detectPM() {
+    for (const pm of ["pnpm", "yarn"]) {
+        try {
+            execFileSync(pm, ["--version"], { stdio: "ignore" });
+            return pm;
+        }
+        catch { }
+    }
+    return "npm";
+}
+function installArgs(pm, pkg) {
+    const target = `${pkg}@latest`;
+    if (pm === "npm")
+        return ["install", "-g", target];
+    if (pm === "pnpm")
+        return ["add", "-g", target];
+    return ["global", "add", target];
+}
+export async function checkSelfUpdate() {
+    const current = currentVersion();
+    const latest = await fetchLatestVersion();
+    return {
+        current,
+        latest,
+        hasUpdate: semverGt(latest, current),
+        releaseUrl: `https://www.npmjs.com/package/${PKG_NAME}/v/${latest}`,
+    };
+}
+export async function applySelfUpdate() {
+    const info = await checkSelfUpdate();
+    if (!info.hasUpdate) {
+        console.log(`bexxcv is already up to date (v${info.current}).`);
+        return;
+    }
+    console.log(`Updating bexxcv v${info.current} → v${info.latest} ...`);
+    const pm = detectPM();
+    const args = installArgs(pm, PKG_NAME);
+    console.log(`Running: ${pm} ${args.join(" ")}`);
+    await new Promise((resolve, reject) => {
+        const proc = execFile(pm, args, { stdio: "inherit" });
+        proc.on("close", (code) => {
+            if (code === 0)
+                resolve();
+            else
+                reject(new Error(`${pm} exited with code ${code}`));
+        });
+        proc.on("error", reject);
+    });
+    console.log(`bexxcv updated to v${info.latest}.`);
+}

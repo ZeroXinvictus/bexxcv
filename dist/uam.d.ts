@@ -1,1 +1,32 @@
-aW1wb3J0IHR5cGUgeyBCcm93c2VyLCBCcm93c2VyQ29udGV4dCwgUGFnZSB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB7IHR5cGUgSHVtYW5PcHRpb25zIH0gZnJvbSAiLi9odW1hbi5qcyI7CmV4cG9ydCBpbnRlcmZhY2UgVWFtT3B0aW9ucyB7CiAgICAvKiogTWF4IHRpbWUgdG8gd2FpdCBmb3IgYSBjZl9jbGVhcmFuY2UgY29va2llIGFmdGVyIG5hdmlnYXRpb24gKG1zKS4gKi8KICAgIHRpbWVvdXQ/OiBudW1iZXI7CiAgICAvKiogUG9sbGluZyBpbnRlcnZhbCB3aGVuIHdhdGNoaW5nIGZvciBuZXcgY2hhbGxlbmdlcyAobXMpLiAqLwogICAgaW50ZXJ2YWw/OiBudW1iZXI7CiAgICAvKiogV2hldGhlciB0byB3YWl0IGZvciBjbGVhcmFuY2UgcmlnaHQgYWZ0ZXIgZWFjaCBwYWdlLmdvdG8oKS4gKi8KICAgIHdhaXRPbkdvdG8/OiBib29sZWFuOwogICAgLyoqCiAgICAgKiBPcHRpb25hbCBleHRlcm5hbCBoZWxwZXIgdGhhdCBjYW4gcGVyZm9ybSBhbiBhY3Rpb24gb24gdGhlIGNoYWxsZW5nZSBwYWdlCiAgICAgKiAoZS5nLiBjbGljayBhIGNoZWNrYm94KS4gUmV0dXJuIHRydWUgaWYgYW4gYWN0aW9uIHdhcyB0YWtlbi4KICAgICAqLwogICAgYXNzaXN0PzogKHBhZ2U6IFBhZ2UpID0+IFByb21pc2U8Ym9vbGVhbj47CiAgICAvKiogRm9yd2FyZGVkIHRvIHRoZSBpbnRlcm5hbCB7QGxpbmsgSHVtYW59IGFjdG9yIGZvciBtb3VzZSBtb3ZlbWVudHMuICovCiAgICBodW1hbj86IEh1bWFuT3B0aW9uczsKfQpleHBvcnQgaW50ZXJmYWNlIFVhbVJlc3VsdCB7CiAgICBjaGFsbGVuZ2VkOiBib29sZWFuOwogICAgYnlwYXNzZWQ6IGJvb2xlYW47CiAgICBjb29raWU6IHN0cmluZyB8IG51bGw7Cn0KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gaXNDaGFsbGVuZ2UocGFnZTogUGFnZSk6IFByb21pc2U8Ym9vbGVhbj47CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGh1bWFuQWN0aXZpdHkocGFnZTogUGFnZSwgc2NhbGU/OiBudW1iZXIpOiBQcm9taXNlPHZvaWQ+OwovKioKICogV2FpdHMgdW50aWwgYSBgY2ZfY2xlYXJhbmNlYCBjb29raWUgaXMgcHJlc2VudCBmb3IgdGhlIGN1cnJlbnQgcGFnZSBvcmlnaW4uCiAqIElmIGEgY2hhbGxlbmdlIHBhZ2Ugd2FzIHNlZW4sIHBlcmZvcm1zIGxpZ2h0IGh1bWFuLWxpa2UgYWN0aXZpdHkgd2hpbGUKICogcG9sbGluZyDigJQgbWF0Y2hpbmcgdGhlIHN0cmF0ZWd5IHVzZWQgYnkgY2YtY2xlYXJhbmNlLXNjcmFwZXIuCiAqLwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiB3YWl0Rm9yVWFtKHBhZ2U6IFBhZ2UsIG9wdGlvbnM/OiBVYW1PcHRpb25zKTogUHJvbWlzZTxVYW1SZXN1bHQ+OwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiB3YXRjaFVhbShwYWdlOiBQYWdlLCBvcHRpb25zPzogVWFtT3B0aW9ucyk6IHZvaWQ7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGF0dGFjaFVhbTxUIGV4dGVuZHMgQnJvd3NlciB8IEJyb3dzZXJDb250ZXh0Pih0YXJnZXQ6IFQsIG9wdGlvbnM/OiBVYW1PcHRpb25zKTogVDsK
+import type { Browser, BrowserContext, Page } from "playwright-core";
+import { type HumanOptions } from "./human.js";
+export interface UamOptions {
+    /** Max time to wait for a cf_clearance cookie after navigation (ms). */
+    timeout?: number;
+    /** Polling interval when watching for new challenges (ms). */
+    interval?: number;
+    /** Whether to wait for clearance right after each page.goto(). */
+    waitOnGoto?: boolean;
+    /**
+     * Optional external helper that can perform an action on the challenge page
+     * (e.g. click a checkbox). Return true if an action was taken.
+     */
+    assist?: (page: Page) => Promise<boolean>;
+    /** Forwarded to the internal {@link Human} actor for mouse movements. */
+    human?: HumanOptions;
+}
+export interface UamResult {
+    challenged: boolean;
+    bypassed: boolean;
+    cookie: string | null;
+}
+export declare function isChallenge(page: Page): Promise<boolean>;
+export declare function humanActivity(page: Page, scale?: number): Promise<void>;
+/**
+ * Waits until a `cf_clearance` cookie is present for the current page origin.
+ * If a challenge page was seen, performs light human-like activity while
+ * polling — matching the strategy used by cf-clearance-scraper.
+ */
+export declare function waitForUam(page: Page, options?: UamOptions): Promise<UamResult>;
+export declare function watchUam(page: Page, options?: UamOptions): void;
+export declare function attachUam<T extends Browser | BrowserContext>(target: T, options?: UamOptions): T;

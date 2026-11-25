@@ -1,1 +1,136 @@
-aW1wb3J0IHsgb25FYWNoUGFnZSB9IGZyb20gIi4uL3BhZ2Vob29rcy5qcyI7CmNvbnN0IFNUQVRFID0gbmV3IFdlYWtNYXAoKTsKY29uc3QgV0FSTkVEID0gbmV3IFdlYWtTZXQoKTsKY29uc3QgV0FUQ0hFRCA9IG5ldyBXZWFrU2V0KCk7CmFzeW5jIGZ1bmN0aW9uIHJlYWRDb29raWVzKHBhZ2UpIHsKICAgIHRyeSB7CiAgICAgICAgY29uc3QgdXJsID0gcGFnZS51cmwoKTsKICAgICAgICBpZiAoIXVybCB8fCB1cmwgPT09ICJhYm91dDpibGFuayIpCiAgICAgICAgICAgIHJldHVybiB7IHByZWN1cnNvcjogbnVsbCwgY2xlYXJhbmNlOiBudWxsIH07CiAgICAgICAgY29uc3QgY29va2llcyA9IGF3YWl0IHBhZ2UuY29udGV4dCgpLmNvb2tpZXModXJsKTsKICAgICAgICBsZXQgY2xlYXJhbmNlID0gbnVsbDsKICAgICAgICBsZXQgcHJlY3Vyc29yID0gbnVsbDsKICAgICAgICBmb3IgKGNvbnN0IGMgb2YgY29va2llcykgewogICAgICAgICAgICBpZiAoYy5uYW1lID09PSAiY2ZfY2xlYXJhbmNlIikKICAgICAgICAgICAgICAgIGNsZWFyYW5jZSA9IGMudmFsdWU7CiAgICAgICAgICAgIGlmIChjLm5hbWUuc3RhcnRzV2l0aCgiY2ZfIikgJiYgYy5uYW1lICE9PSAiY2ZfY2xlYXJhbmNlIikgewogICAgICAgICAgICAgICAgcHJlY3Vyc29yID0gYy52YWx1ZTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICByZXR1cm4geyBjbGVhcmFuY2UsIHByZWN1cnNvciB9OwogICAgfQogICAgY2F0Y2ggewogICAgICAgIHJldHVybiB7IHByZWN1cnNvcjogbnVsbCwgY2xlYXJhbmNlOiBudWxsIH07CiAgICB9Cn0KZnVuY3Rpb24gZ2V0U3RhdGUocGFnZSkgewogICAgbGV0IHMgPSBTVEFURS5nZXQocGFnZSk7CiAgICBpZiAoIXMpIHsKICAgICAgICBzID0geyBwcmVjdXJzb3JWYWx1ZTogbnVsbCwgY2xlYXJhbmNlVmFsdWU6IG51bGwsIGxhc3RDaGVja0F0OiAwLCBkcmlmdENvdW50OiAwIH07CiAgICAgICAgU1RBVEUuc2V0KHBhZ2UsIHMpOwogICAgfQogICAgcmV0dXJuIHM7Cn0KZXhwb3J0IGZ1bmN0aW9uIHByZWN1cnNvcihvcHRpb25zID0ge30pIHsKICAgIGNvbnN0IHdhcm4gPSBvcHRpb25zLndhcm4gPz8gdHJ1ZTsKICAgIGNvbnN0IGF1dG9SZWxvYWQgPSBvcHRpb25zLmF1dG9SZWxvYWQgPz8gZmFsc2U7CiAgICBjb25zdCBleHRyYU5hbWVzID0gbmV3IFNldChvcHRpb25zLm5hbWVzID8/IFtdKTsKICAgIHJldHVybiB7CiAgICAgICAgbmFtZTogInByZWN1cnNvciIsCiAgICAgICAgb3JkZXI6IDQyLAogICAgICAgIG9uUGFnZShwYWdlKSB7CiAgICAgICAgICAgIGlmIChXQVRDSEVELmhhcyhwYWdlKSkKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgV0FUQ0hFRC5hZGQocGFnZSk7CiAgICAgICAgICAgIC8vIEluaXRpYWwgc25hcHNob3QKICAgICAgICAgICAgcmVhZENvb2tpZXMocGFnZSkudGhlbigoeyBjbGVhcmFuY2UsIHByZWN1cnNvcjogcHJlYyB9KSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBzID0gZ2V0U3RhdGUocGFnZSk7CiAgICAgICAgICAgICAgICBzLmNsZWFyYW5jZVZhbHVlID0gY2xlYXJhbmNlOwogICAgICAgICAgICAgICAgcy5wcmVjdXJzb3JWYWx1ZSA9IHByZWM7CiAgICAgICAgICAgICAgICBzLmxhc3RDaGVja0F0ID0gRGF0ZS5ub3coKTsKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIC8vIFBlcmlvZGljIGNoZWNrIG9uIG5hdmlnYXRpb24gY29tcGxldGUKICAgICAgICAgICAgcGFnZS5vbigiZnJhbWVuYXZpZ2F0ZWQiLCBhc3luYyAoKSA9PiB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGNvbnN0IHsgY2xlYXJhbmNlLCBwcmVjdXJzb3I6IHByZWMgfSA9IGF3YWl0IHJlYWRDb29raWVzKHBhZ2UpOwogICAgICAgICAgICAgICAgICAgIGNvbnN0IHMgPSBnZXRTdGF0ZShwYWdlKTsKICAgICAgICAgICAgICAgICAgICAvLyBDbGVhcmFuY2UgY2hhbmdlZCDihpIgZnJlc2ggc29sdmUsIHJlc2V0IHN0YXRlCiAgICAgICAgICAgICAgICAgICAgaWYgKGNsZWFyYW5jZSAmJiBjbGVhcmFuY2UgIT09IHMuY2xlYXJhbmNlVmFsdWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcy5jbGVhcmFuY2VWYWx1ZSA9IGNsZWFyYW5jZTsKICAgICAgICAgICAgICAgICAgICAgICAgcy5wcmVjdXJzb3JWYWx1ZSA9IHByZWM7CiAgICAgICAgICAgICAgICAgICAgICAgIHMuZHJpZnRDb3VudCA9IDA7CiAgICAgICAgICAgICAgICAgICAgICAgIFdBUk5FRC5kZWxldGUocGFnZSk7CiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgLy8gUHJlY3Vyc29yIGNoYW5nZWQgd2hpbGUgY2xlYXJhbmNlIHN0YXllZCB0aGUgc2FtZSDihpIgZHJpZnQKICAgICAgICAgICAgICAgICAgICBpZiAocHJlYyAmJiBwcmVjICE9PSBzLnByZWN1cnNvclZhbHVlICYmIHMuY2xlYXJhbmNlVmFsdWUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgcy5kcmlmdENvdW50Kys7CiAgICAgICAgICAgICAgICAgICAgICAgIHMucHJlY3Vyc29yVmFsdWUgPSBwcmVjOwogICAgICAgICAgICAgICAgICAgICAgICBzLmxhc3RDaGVja0F0ID0gRGF0ZS5ub3coKTsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKHdhcm4gJiYgIVdBUk5FRC5oYXMocGFnZSkpIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFdBUk5FRC5hZGQocGFnZSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb25zb2xlLndhcm4oYFtiZXh4Y3ZdIHByZWN1cnNvcjogY29va2llIGRyaWZ0IGRldGVjdGVkIG9uICR7cGFnZS51cmwoKX0gKGRyaWZ0ICMke3MuZHJpZnRDb3VudH0pLiBgICsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBgU2Vzc2lvbiBtYXkgYmUgc3RhbGUg4oCUIGNvbnNpZGVyIHJlbG9hZGluZy5gKTsKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICAgICBpZiAoYXV0b1JlbG9hZCAmJiBzLmRyaWZ0Q291bnQgPj0gMikgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgcy5kcmlmdENvdW50ID0gMDsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIFdBUk5FRC5kZWxldGUocGFnZSk7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhd2FpdCBwYWdlLnJlbG9hZCh7IHdhaXRVbnRpbDogImRvbWNvbnRlbnRsb2FkZWQiIH0pLmNhdGNoKCgpID0+IHVuZGVmaW5lZCk7CiAgICAgICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgZWxzZSBpZiAoIXByZWMgJiYgcy5jbGVhcmFuY2VWYWx1ZSkgewogICAgICAgICAgICAgICAgICAgICAgICAvLyBQcmVjdXJzb3IgZGlzYXBwZWFyZWQgdW5leHBlY3RlZGx5CiAgICAgICAgICAgICAgICAgICAgICAgIHMuZHJpZnRDb3VudCsrOwogICAgICAgICAgICAgICAgICAgICAgICBpZiAod2FybiAmJiAhV0FSTkVELmhhcyhwYWdlKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgV0FSTkVELmFkZChwYWdlKTsKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnNvbGUud2FybihgW2JleHhjdl0gcHJlY3Vyc29yOiBtaXNzaW5nIHByZWN1cnNvciBjb29raWUgb24gJHtwYWdlLnVybCgpfWApOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2F0Y2ggewogICAgICAgICAgICAgICAgICAgIC8vIGlnbm9yZSB0cmFuc2llbnQgZXJyb3JzCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0pOwogICAgICAgICAgICAvLyBBbHNvIGNoZWNrIGFmdGVyIGVhY2ggcmVzcG9uc2UgZm9yIG5vbi1uYXZpZ2F0aW9uIHJlcXVlc3RzIHRoYXQgc2V0IGNvb2tpZXMKICAgICAgICAgICAgcGFnZS5vbigicmVzcG9uc2UiLCBhc3luYyAocmVzcG9uc2UpID0+IHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgY29uc3Qgc2V0Q29va2llUmF3ID0gcmVzcG9uc2UuaGVhZGVycygpWyJzZXQtY29va2llIl07CiAgICAgICAgICAgICAgICAgICAgY29uc3Qgc2V0Q29va2llcyA9IEFycmF5LmlzQXJyYXkoc2V0Q29va2llUmF3KSA/IHNldENvb2tpZVJhdyA6IHR5cGVvZiBzZXRDb29raWVSYXcgPT09ICJzdHJpbmciID8gW3NldENvb2tpZVJhd10gOiBbXTsKICAgICAgICAgICAgICAgICAgICBpZiAoIXNldENvb2tpZXMubGVuZ3RoKQogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgICAgICAgICAgY29uc3QgaGFzQ2ZDbGVhcmFuY2UgPSBzZXRDb29raWVzLnNvbWUoKGMpID0+IGMuc3RhcnRzV2l0aCgiY2ZfY2xlYXJhbmNlPSIpKTsKICAgICAgICAgICAgICAgICAgICBjb25zdCBoYXNPdGhlckNmID0gc2V0Q29va2llcy5zb21lKChjKSA9PiBjLnN0YXJ0c1dpdGgoImNmXyIpICYmICFjLnN0YXJ0c1dpdGgoImNmX2NsZWFyYW5jZT0iKSk7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFoYXNDZkNsZWFyYW5jZSAmJiAhaGFzT3RoZXJDZikKICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICAgICAgICAgIGNvbnN0IHsgY2xlYXJhbmNlLCBwcmVjdXJzb3I6IHByZWMgfSA9IGF3YWl0IHJlYWRDb29raWVzKHBhZ2UpOwogICAgICAgICAgICAgICAgICAgIGNvbnN0IHMgPSBnZXRTdGF0ZShwYWdlKTsKICAgICAgICAgICAgICAgICAgICBpZiAoY2xlYXJhbmNlICYmIGNsZWFyYW5jZSAhPT0gcy5jbGVhcmFuY2VWYWx1ZSkgewogICAgICAgICAgICAgICAgICAgICAgICBzLmNsZWFyYW5jZVZhbHVlID0gY2xlYXJhbmNlOwogICAgICAgICAgICAgICAgICAgICAgICBzLnByZWN1cnNvclZhbHVlID0gcHJlYzsKICAgICAgICAgICAgICAgICAgICAgICAgcy5kcmlmdENvdW50ID0gMDsKICAgICAgICAgICAgICAgICAgICAgICAgV0FSTkVELmRlbGV0ZShwYWdlKTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBjYXRjaCB7CiAgICAgICAgICAgICAgICAgICAgLy8gaWdub3JlCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0pOwogICAgICAgIH0sCiAgICB9Owp9Ci8qKiBHZXQgY3VycmVudCBwcmVjdXJzb3Igc3RhdGUgZm9yIGEgcGFnZS4gKi8KZXhwb3J0IGZ1bmN0aW9uIGdldFByZWN1cnNvclN0YXRlKHBhZ2UpIHsKICAgIHJldHVybiBTVEFURS5nZXQocGFnZSkgPz8gbnVsbDsKfQovKiogRm9yY2UtcmVzZXQgcHJlY3Vyc29yIHN0YXRlIChjYWxsIGFmdGVyIG1hbnVhbCBjb29raWUgaW5qZWN0aW9uKS4gKi8KZXhwb3J0IGZ1bmN0aW9uIHJlc2V0UHJlY3Vyc29yU3RhdGUocGFnZSkgewogICAgU1RBVEUuZGVsZXRlKHBhZ2UpOwogICAgV0FSTkVELmRlbGV0ZShwYWdlKTsKfQovKiogQXR0YWNoIHByZWN1cnNvciB2YWxpZGF0aW9uIHRvIGFuIGV4aXN0aW5nIGJyb3dzZXIgb3IgY29udGV4dC4gKi8KZXhwb3J0IGZ1bmN0aW9uIGF0dGFjaFByZWN1cnNvcih0YXJnZXQsIG9wdGlvbnMgPSB7fSkgewogICAgdm9pZCBwcmVjdXJzb3Iob3B0aW9ucyk7IC8vIHNpZGUtZWZmZWN0IHBsdWdpbiByZWdpc3RyYXRpb24gaGFuZGxlZCBieSBhcHBseVBsdWdpbnMKICAgIHJldHVybiBvbkVhY2hQYWdlKHRhcmdldCwgKF9wYWdlKSA9PiB7CiAgICAgICAgLy8gZW5zdXJlcyBvblBhZ2UgaGFuZGxlciBydW5zCiAgICB9KTsKfQo=
+import { onEachPage } from "../pagehooks.js";
+const STATE = new WeakMap();
+const WARNED = new WeakSet();
+const WATCHED = new WeakSet();
+async function readCookies(page) {
+    try {
+        const url = page.url();
+        if (!url || url === "about:blank")
+            return { precursor: null, clearance: null };
+        const cookies = await page.context().cookies(url);
+        let clearance = null;
+        let precursor = null;
+        for (const c of cookies) {
+            if (c.name === "cf_clearance")
+                clearance = c.value;
+            if (c.name.startsWith("cf_") && c.name !== "cf_clearance") {
+                precursor = c.value;
+            }
+        }
+        return { clearance, precursor };
+    }
+    catch {
+        return { precursor: null, clearance: null };
+    }
+}
+function getState(page) {
+    let s = STATE.get(page);
+    if (!s) {
+        s = { precursorValue: null, clearanceValue: null, lastCheckAt: 0, driftCount: 0 };
+        STATE.set(page, s);
+    }
+    return s;
+}
+export function precursor(options = {}) {
+    const warn = options.warn ?? true;
+    const autoReload = options.autoReload ?? false;
+    const extraNames = new Set(options.names ?? []);
+    return {
+        name: "precursor",
+        order: 42,
+        onPage(page) {
+            if (WATCHED.has(page))
+                return;
+            WATCHED.add(page);
+            // Initial snapshot
+            readCookies(page).then(({ clearance, precursor: prec }) => {
+                const s = getState(page);
+                s.clearanceValue = clearance;
+                s.precursorValue = prec;
+                s.lastCheckAt = Date.now();
+            });
+            // Periodic check on navigation complete
+            page.on("framenavigated", async () => {
+                try {
+                    const { clearance, precursor: prec } = await readCookies(page);
+                    const s = getState(page);
+                    // Clearance changed → fresh solve, reset state
+                    if (clearance && clearance !== s.clearanceValue) {
+                        s.clearanceValue = clearance;
+                        s.precursorValue = prec;
+                        s.driftCount = 0;
+                        WARNED.delete(page);
+                        return;
+                    }
+                    // Precursor changed while clearance stayed the same → drift
+                    if (prec && prec !== s.precursorValue && s.clearanceValue) {
+                        s.driftCount++;
+                        s.precursorValue = prec;
+                        s.lastCheckAt = Date.now();
+                        if (warn && !WARNED.has(page)) {
+                            WARNED.add(page);
+                            console.warn(`[bexxcv] precursor: cookie drift detected on ${page.url()} (drift #${s.driftCount}). ` +
+                                `Session may be stale — consider reloading.`);
+                        }
+                        if (autoReload && s.driftCount >= 2) {
+                            s.driftCount = 0;
+                            WARNED.delete(page);
+                            await page.reload({ waitUntil: "domcontentloaded" }).catch(() => undefined);
+                        }
+                    }
+                    else if (!prec && s.clearanceValue) {
+                        // Precursor disappeared unexpectedly
+                        s.driftCount++;
+                        if (warn && !WARNED.has(page)) {
+                            WARNED.add(page);
+                            console.warn(`[bexxcv] precursor: missing precursor cookie on ${page.url()}`);
+                        }
+                    }
+                }
+                catch {
+                    // ignore transient errors
+                }
+            });
+            // Also check after each response for non-navigation requests that set cookies
+            page.on("response", async (response) => {
+                try {
+                    const setCookieRaw = response.headers()["set-cookie"];
+                    const setCookies = Array.isArray(setCookieRaw) ? setCookieRaw : typeof setCookieRaw === "string" ? [setCookieRaw] : [];
+                    if (!setCookies.length)
+                        return;
+                    const hasCfClearance = setCookies.some((c) => c.startsWith("cf_clearance="));
+                    const hasOtherCf = setCookies.some((c) => c.startsWith("cf_") && !c.startsWith("cf_clearance="));
+                    if (!hasCfClearance && !hasOtherCf)
+                        return;
+                    const { clearance, precursor: prec } = await readCookies(page);
+                    const s = getState(page);
+                    if (clearance && clearance !== s.clearanceValue) {
+                        s.clearanceValue = clearance;
+                        s.precursorValue = prec;
+                        s.driftCount = 0;
+                        WARNED.delete(page);
+                    }
+                }
+                catch {
+                    // ignore
+                }
+            });
+        },
+    };
+}
+/** Get current precursor state for a page. */
+export function getPrecursorState(page) {
+    return STATE.get(page) ?? null;
+}
+/** Force-reset precursor state (call after manual cookie injection). */
+export function resetPrecursorState(page) {
+    STATE.delete(page);
+    WARNED.delete(page);
+}
+/** Attach precursor validation to an existing browser or context. */
+export function attachPrecursor(target, options = {}) {
+    void precursor(options); // side-effect plugin registration handled by applyPlugins
+    return onEachPage(target, (_page) => {
+        // ensures onPage handler runs
+    });
+}

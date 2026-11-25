@@ -1,1 +1,8 @@
-aW1wb3J0IHR5cGUgeyBCcm93c2VyLCBCcm93c2VyQ29udGV4dCwgUGFnZSB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmV4cG9ydCB0eXBlIENvbnRleHRPcHRpb25zID0gTm9uTnVsbGFibGU8UGFyYW1ldGVyczxCcm93c2VyWyJuZXdDb250ZXh0Il0+WzBdPjsKZXhwb3J0IGludGVyZmFjZSBDb250ZXh0SG9va3MgewogICAgYmVmb3JlPzogKG9wdGlvbnM6IENvbnRleHRPcHRpb25zKSA9PiB2b2lkIHwgUHJvbWlzZTx2b2lkPjsKICAgIGFmdGVyPzogKGNvbnRleHQ6IEJyb3dzZXJDb250ZXh0LCBvcHRpb25zOiBDb250ZXh0T3B0aW9ucykgPT4gdm9pZCB8IFByb21pc2U8dm9pZD47Cn0KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gb25FYWNoQ29udGV4dDxUIGV4dGVuZHMgQnJvd3NlciB8IEJyb3dzZXJDb250ZXh0Pih0YXJnZXQ6IFQsIGhvb2tzOiBDb250ZXh0SG9va3MpOiBQcm9taXNlPFQ+OwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBvbkVhY2hQYWdlPFQgZXh0ZW5kcyBCcm93c2VyIHwgQnJvd3NlckNvbnRleHQ+KHRhcmdldDogVCwgaGFuZGxlcjogKHBhZ2U6IFBhZ2UpID0+IHZvaWQpOiBUOwo=
+import type { Browser, BrowserContext, Page } from "playwright-core";
+export type ContextOptions = NonNullable<Parameters<Browser["newContext"]>[0]>;
+export interface ContextHooks {
+    before?: (options: ContextOptions) => void | Promise<void>;
+    after?: (context: BrowserContext, options: ContextOptions) => void | Promise<void>;
+}
+export declare function onEachContext<T extends Browser | BrowserContext>(target: T, hooks: ContextHooks): Promise<T>;
+export declare function onEachPage<T extends Browser | BrowserContext>(target: T, handler: (page: Page) => void): T;

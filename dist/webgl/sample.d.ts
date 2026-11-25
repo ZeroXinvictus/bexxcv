@@ -1,1 +1,19 @@
-aW50ZXJmYWNlIFdlYkdMRGF0YSB7CiAgICB2ZW5kb3I6IHN0cmluZzsKICAgIHJlbmRlcmVyOiBzdHJpbmc7CiAgICBkYXRhOiBzdHJpbmc7CiAgICB3aW46IG51bWJlcjsKICAgIG1hYzogbnVtYmVyOwogICAgbGluOiBudW1iZXI7CiAgICB3ZWJHbDJFbmFibGVkOiBib29sZWFuOwp9CmludGVyZmFjZSBWZW5kb3JSZW5kZXJlciB7CiAgICB2ZW5kb3I6IHN0cmluZzsKICAgIHJlbmRlcmVyOiBzdHJpbmc7Cn0KaW50ZXJmYWNlIFBvc3NpYmxlUGFpcnMgewogICAgW2tleTogc3RyaW5nXTogQXJyYXk8VmVuZG9yUmVuZGVyZXI+Owp9CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHNhbXBsZVdlYkdMKG9zOiAid2luIiB8ICJtYWMiIHwgImxpbiIsIHZlbmRvcj86IHN0cmluZywgcmVuZGVyZXI/OiBzdHJpbmcpOiBQcm9taXNlPFdlYkdMRGF0YT47CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGdldFBvc3NpYmxlUGFpcnMoKTogUHJvbWlzZTxQb3NzaWJsZVBhaXJzPjsKZXhwb3J0IHt9Owo=
+interface WebGLData {
+    vendor: string;
+    renderer: string;
+    data: string;
+    win: number;
+    mac: number;
+    lin: number;
+    webGl2Enabled: boolean;
+}
+interface VendorRenderer {
+    vendor: string;
+    renderer: string;
+}
+interface PossiblePairs {
+    [key: string]: Array<VendorRenderer>;
+}
+export declare function sampleWebGL(os: "win" | "mac" | "lin", vendor?: string, renderer?: string): Promise<WebGLData>;
+export declare function getPossiblePairs(): Promise<PossiblePairs>;
+export {};

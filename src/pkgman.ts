@@ -1,1 +1,702 @@
-aW1wb3J0IHsgZXhlY0ZpbGVTeW5jIH0gZnJvbSAibm9kZTpjaGlsZF9wcm9jZXNzIjsKaW1wb3J0IHsgY3JlYXRlSGFzaCB9IGZyb20gIm5vZGU6Y3J5cHRvIjsKaW1wb3J0IHR5cGUgeyBQYXRoTGlrZSB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgKiBhcyBmcyBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHsgY3JlYXRlUmVxdWlyZSB9IGZyb20gIm5vZGU6bW9kdWxlIjsKaW1wb3J0ICogYXMgb3MgZnJvbSAibm9kZTpvcyI7CmltcG9ydCAqIGFzIHBhdGggZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHR5cGUgeyBXcml0YWJsZSB9IGZyb20gIm5vZGU6c3RyZWFtIjsKaW1wb3J0IHsgc2V0VGltZW91dCB9IGZyb20gIm5vZGU6dGltZXJzL3Byb21pc2VzIjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKaW1wb3J0IEFkbVppcCBmcm9tICJhZG0temlwIjsKaW1wb3J0IGNsaVByb2dyZXNzLCB7IHR5cGUgT3B0aW9ucyB9IGZyb20gImNsaS1wcm9ncmVzcyI7CmltcG9ydCBwcmV0dHlCeXRlcyBmcm9tICJwcmV0dHktYnl0ZXMiOwppbXBvcnQgeyBDT05TVFJBSU5UUyB9IGZyb20gIi4vX192ZXJzaW9uX18uanMiOwppbXBvcnQgeyBlZmZlY3RpdmVQaW4sIHBpbk1hdGNoZXMsIHBpblNwZWMgfSBmcm9tICIuL2Jyb3dzZXItcGluLmpzIjsKaW1wb3J0IHsKCUNhbW91Zm94Tm90SW5zdGFsbGVkLAoJQ29ycnVwdGVkRG93bmxvYWQsCglGaWxlTm90Rm91bmRFcnJvciwKCU1pc3NpbmdSZWxlYXNlLAoJVW5zdXBwb3J0ZWRBcmNoaXRlY3R1cmUsCglVbnN1cHBvcnRlZE9TLAoJVW5zdXBwb3J0ZWRWZXJzaW9uLAp9IGZyb20gIi4vZXhjZXB0aW9ucy5qcyI7CmltcG9ydCB7Cglicm93c2Vyc0RpciwKCWNvbXBhdEZsYWcsCglnZXRBY3RpdmVQYXRoLAoJZ2V0UmVwb05hbWUsCglsb2FkQ29uZmlnLAoJc2V0QWN0aXZlLAoJdmVyc2lvbkZvbGRlck5hbWUsCn0gZnJvbSAiLi9tdWx0aXZlcnNpb24uanMiOwoKY29uc3QgQVJDSF9NQVA6IHsgW2tleTogc3RyaW5nXTogc3RyaW5nIH0gPSB7Cgl4NjQ6ICJ4ODZfNjQiLAoJaWEzMjogImk2ODYiLAoJYXJtNjQ6ICJhcm02NCIsCglhcm06ICJhcm02NCIsCn07Cgpjb25zdCBPU19NQVA6IHsgW2tleTogc3RyaW5nXTogIm1hYyIgfCAid2luIiB8ICJsaW4iIH0gPSB7CglkYXJ3aW46ICJtYWMiLAoJbGludXg6ICJsaW4iLAoJd2luMzI6ICJ3aW4iLAp9OwoKZnVuY3Rpb24gZ2V0QXV0aG9yaXphdGlvbkhlYWRlcnModXJsOiBzdHJpbmcpOiBIZWFkZXJzSW5pdCB7Cgljb25zdCBnaXRodWJUb2tlbiA9IHByb2Nlc3MuZW52LkdJVEhVQl9UT0tFTjsKCWlmICghZ2l0aHViVG9rZW4pIHJldHVybiB7fTsKCWNvbnN0IGhvc3QgPSBuZXcgVVJMKHVybCkuaG9zdG5hbWU7CglpZiAoaG9zdCA9PT0gImFwaS5naXRodWIuY29tIiB8fCBob3N0ID09PSAiZ2l0aHViLmNvbSIpIHsKCQlyZXR1cm4geyBBdXRob3JpemF0aW9uOiBgQmVhcmVyICR7Z2l0aHViVG9rZW59YCB9OwoJfQoJcmV0dXJuIHt9Owp9CgppZiAoIShwcm9jZXNzLnBsYXRmb3JtIGluIE9TX01BUCkpIHsKCXRocm93IG5ldyBVbnN1cHBvcnRlZE9TKGBPUyAke3Byb2Nlc3MucGxhdGZvcm19IGlzIG5vdCBzdXBwb3J0ZWRgKTsKfQoKZXhwb3J0IGNvbnN0IE9TX05BTUU6ICJtYWMiIHwgIndpbiIgfCAibGluIiA9IE9TX01BUFtwcm9jZXNzLnBsYXRmb3JtXTsKCmNvbnN0IGN1cnJlbnREaXIgPQoJaW1wb3J0Lm1ldGEuZGlybmFtZSA/PyBwYXRoLmRpcm5hbWUoZmlsZVVSTFRvUGF0aChpbXBvcnQubWV0YS51cmwpKTsKCmV4cG9ydCBjb25zdCBJTlNUQUxMX0RJUjogUGF0aExpa2UgPSBwcm9jZXNzLmVudi5DQU1PVUZPWF9JTlNUQUxMX0RJUgoJPyBwYXRoLnJlc29sdmUocHJvY2Vzcy5lbnYuQ0FNT1VGT1hfSU5TVEFMTF9ESVIpCgk6IHVzZXJDYWNoZURpcigiY2Ftb3Vmb3giKTsKCmNvbnN0IGZvcm1hdEJ5dGVzID0gKHY6IG51bWJlciwgXzogT3B0aW9ucywgdHlwZTogc3RyaW5nKSA9PgoJdHlwZSA9PT0gInRvdGFsIiB8fCB0eXBlID09PSAidmFsdWUiID8gcHJldHR5Qnl0ZXModikgOiBTdHJpbmcodik7CmV4cG9ydCBjb25zdCBMT0NBTF9EQVRBOiBQYXRoTGlrZSA9IHBhdGguam9pbihjdXJyZW50RGlyLCAiZGF0YS1maWxlcyIpOwoKZXhwb3J0IGNvbnN0IE9TX0FSQ0hfTUFUUklYOiB7IFtrZXk6IHN0cmluZ106IHN0cmluZ1tdIH0gPSB7Cgl3aW46IFsieDg2XzY0IiwgImk2ODYiXSwKCW1hYzogWyJ4ODZfNjQiLCAiYXJtNjQiXSwKCWxpbjogWyJ4ODZfNjQiLCAiYXJtNjQiLCAiaTY4NiJdLAp9OwoKY29uc3QgTEFVTkNIX0ZJTEU6IHsgW2tleTogc3RyaW5nXTogc3RyaW5nIH0gPSB7Cgl3aW46ICJjYW1vdWZveC5leGUiLAoJbWFjOiAiLi4vTWFjT1MvY2Ftb3Vmb3giLAoJbGluOiAiY2Ftb3Vmb3gtYmluIiwKfTsKCmZ1bmN0aW9uIGlzUGxheXdyaWdodDE2MU9yTmV3ZXIoKTogYm9vbGVhbiB7Cgl0cnkgewoJCWNvbnN0IHsgdmVyc2lvbiB9ID0gY3JlYXRlUmVxdWlyZShpbXBvcnQubWV0YS51cmwpKAoJCQkicGxheXdyaWdodC1jb3JlL3BhY2thZ2UuanNvbiIsCgkJKTsKCQljb25zdCBbbWFqb3IsIG1pbm9yXSA9IHZlcnNpb24uc3BsaXQoIi4iKS5tYXAoTnVtYmVyKTsKCQlyZXR1cm4gbWFqb3IgPiAxIHx8IChtYWpvciA9PT0gMSAmJiBtaW5vciA+PSA2MSk7Cgl9IGNhdGNoIHsKCQlyZXR1cm4gZmFsc2U7Cgl9Cn0KCmV4cG9ydCBjbGFzcyBWZXJzaW9uIHsKCXJlbGVhc2U6IHN0cmluZzsKCXZlcnNpb24/OiBzdHJpbmc7Cglzb3J0ZWRfcmVsOiBudW1iZXJbXTsKCgljb25zdHJ1Y3RvcihyZWxlYXNlOiBzdHJpbmcsIHZlcnNpb24/OiBzdHJpbmcpIHsKCQl0aGlzLnJlbGVhc2UgPSByZWxlYXNlOwoJCXRoaXMudmVyc2lvbiA9IHZlcnNpb247CgkJdGhpcy5zb3J0ZWRfcmVsID0gdGhpcy5idWlsZFNvcnRlZFJlbCgpOwoJfQoKCXByaXZhdGUgYnVpbGRTb3J0ZWRSZWwoKTogbnVtYmVyW10gewoJCWNvbnN0IHBhcnRzID0gdGhpcy5yZWxlYXNlCgkJCS5zcGxpdCgiLiIpCgkJCS5tYXAoKHgpID0+CgkJCQlOdW1iZXIuaXNOYU4oTnVtYmVyKHgpKSA/IHguY2hhckNvZGVBdCgwKSAtIDEwMjQgOiBOdW1iZXIoeCksCgkJCSk7CgkJd2hpbGUgKHBhcnRzLmxlbmd0aCA8IDUpIHsKCQkJcGFydHMucHVzaCgwKTsKCQl9CgkJcmV0dXJuIHBhcnRzOwoJfQoKCWdldCBmdWxsU3RyaW5nKCk6IHN0cmluZyB7CgkJcmV0dXJuIGAke3RoaXMudmVyc2lvbn0tJHt0aGlzLnJlbGVhc2V9YDsKCX0KCgllcXVhbHMob3RoZXI6IFZlcnNpb24pOiBib29sZWFuIHsKCQlyZXR1cm4gdGhpcy5zb3J0ZWRfcmVsLmpvaW4oIi4iKSA9PT0gb3RoZXIuc29ydGVkX3JlbC5qb2luKCIuIik7Cgl9CgoJbGVzc1RoYW4ob3RoZXI6IFZlcnNpb24pOiBib29sZWFuIHsKCQlmb3IgKGxldCBpID0gMDsgaSA8IHRoaXMuc29ydGVkX3JlbC5sZW5ndGg7IGkrKykgewoJCQlpZiAodGhpcy5zb3J0ZWRfcmVsW2ldIDwgb3RoZXIuc29ydGVkX3JlbFtpXSkgcmV0dXJuIHRydWU7CgkJCWlmICh0aGlzLnNvcnRlZF9yZWxbaV0gPiBvdGhlci5zb3J0ZWRfcmVsW2ldKSByZXR1cm4gZmFsc2U7CgkJfQoJCXJldHVybiBmYWxzZTsKCX0KCglpc1N1cHBvcnRlZCgpOiBib29sZWFuIHsKCQlyZXR1cm4gIXRoaXMubGVzc1RoYW4oVkVSU0lPTl9NSU4pICYmIHRoaXMubGVzc1RoYW4oVkVSU0lPTl9NQVgpOwoJfQoKCXN0YXRpYyBmcm9tUGF0aChmaWxlUGF0aDogUGF0aExpa2UgPSBJTlNUQUxMX0RJUik6IFZlcnNpb24gewoJCWNvbnN0IHZlcnNpb25QYXRoID0gcGF0aC5qb2luKGZpbGVQYXRoLnRvU3RyaW5nKCksICJ2ZXJzaW9uLmpzb24iKTsKCQlpZiAoIWZzLmV4aXN0c1N5bmModmVyc2lvblBhdGgpKSB7CgkJCXRocm93IG5ldyBGaWxlTm90Rm91bmRFcnJvcigKCQkJCWBWZXJzaW9uIGluZm9ybWF0aW9uIG5vdCBmb3VuZCBhdCAke3ZlcnNpb25QYXRofS4gUGxlYXNlIHJ1biBcYGJleHhjdiBmZXRjaFxgIHRvIGluc3RhbGwuYCwKCQkJKTsKCQl9CgkJY29uc3QgdmVyc2lvbkRhdGEgPSBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyh2ZXJzaW9uUGF0aCwgInV0Zi04IikpOwoJCXJldHVybiBuZXcgVmVyc2lvbigKCQkJdmVyc2lvbkRhdGEuYnVpbGQgPz8gdmVyc2lvbkRhdGEucmVsZWFzZSwKCQkJdmVyc2lvbkRhdGEudmVyc2lvbiwKCQkpOwoJfQoKCXN0YXRpYyBpc1N1cHBvcnRlZFBhdGgocGF0aDogUGF0aExpa2UpOiBib29sZWFuIHsKCQlyZXR1cm4gVmVyc2lvbi5mcm9tUGF0aChwYXRoKS5pc1N1cHBvcnRlZCgpOwoJfQoKCXN0YXRpYyBidWlsZE1pbk1heCgpOiBbVmVyc2lvbiwgVmVyc2lvbl0gewoJCXJldHVybiBbCgkJCW5ldyBWZXJzaW9uKAoJCQkJaXNQbGF5d3JpZ2h0MTYxT3JOZXdlcigpCgkJCQkJPyBDT05TVFJBSU5UUy5QTEFZV1JJR0hUXzFfNjFfTUlOX1ZFUlNJT04KCQkJCQk6IENPTlNUUkFJTlRTLk1JTl9WRVJTSU9OLAoJCQkpLAoJCQluZXcgVmVyc2lvbihDT05TVFJBSU5UUy5NQVhfVkVSU0lPTiksCgkJXTsKCX0KfQoKY29uc3QgW1ZFUlNJT05fTUlOLCBWRVJTSU9OX01BWF0gPSBWZXJzaW9uLmJ1aWxkTWluTWF4KCk7CmNvbnN0IFNVUFBPUlRFRF9SQU5HRSA9IGA+PSR7VkVSU0lPTl9NSU4ucmVsZWFzZX0sIDwke1ZFUlNJT05fTUFYLnJlbGVhc2V9YDsKCmV4cG9ydCBjbGFzcyBHaXRIdWJEb3dubG9hZGVyIHsKCWdpdGh1YlJlcG86IHN0cmluZzsKCWFwaVVybDogc3RyaW5nOwoKCWNvbnN0cnVjdG9yKGdpdGh1YlJlcG86IHN0cmluZykgewoJCXRoaXMuZ2l0aHViUmVwbyA9IGdpdGh1YlJlcG87CgkJdGhpcy5hcGlVcmwgPSBgaHR0cHM6Ly9hcGkuZ2l0aHViLmNvbS9yZXBvcy8ke2dpdGh1YlJlcG99L3JlbGVhc2VzYDsKCX0KCgljaGVja0Fzc2V0KGFzc2V0OiBhbnksIF9yZWxlYXNlPzogYW55KTogYW55IHsKCQlyZXR1cm4gYXNzZXQuYnJvd3Nlcl9kb3dubG9hZF91cmw7Cgl9CgoJcmVsZWFzZXNVcmwoKTogc3RyaW5nIHsKCQlyZXR1cm4gdGhpcy5hcGlVcmw7Cgl9CgoJbWlzc2luZ0Fzc2V0RXJyb3IoKTogdm9pZCB7CgkJdGhyb3cgbmV3IE1pc3NpbmdSZWxlYXNlKAoJCQlgQ291bGQgbm90IGZpbmQgYSByZWxlYXNlIGFzc2V0IGluICR7dGhpcy5naXRodWJSZXBvfS5gLAoJCSk7Cgl9CgoJYXN5bmMgZ2V0QXNzZXQoCgkJeyByZXRyaWVzIH06IHsgcmV0cmllczogbnVtYmVyIH0gPSB7IHJldHJpZXM6IDUgfSwKCSk6IFByb21pc2U8YW55PiB7CgkJbGV0IGF0dGVtcHRzID0gMDsKCQlsZXQgcmVzcG9uc2U6IFJlc3BvbnNlIHwgdW5kZWZpbmVkOwoJCWNvbnN0IHVybCA9IHRoaXMucmVsZWFzZXNVcmwoKTsKCgkJd2hpbGUgKGF0dGVtcHRzIDwgcmV0cmllcykgewoJCQl0cnkgewoJCQkJcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCh1cmwsIHsKCQkJCQloZWFkZXJzOiBnZXRBdXRob3JpemF0aW9uSGVhZGVycyh1cmwpLAoJCQkJfSk7CgkJCQlpZiAocmVzcG9uc2Uub2spIGJyZWFrOwoJCQl9IGNhdGNoIChlKSB7CgkJCQljb25zb2xlLmVycm9yKGUsIGByZXRyeWluZyAoJHthdHRlbXB0cyArIDF9LyR7cmV0cmllc30pLi4uYCk7CgkJCQljb25zdCBqbiA9IGNyeXB0by5nZXRSYW5kb21WYWx1ZXMobmV3IFVpbnQzMkFycmF5KDEpKVswXSA+Pj4gMDsKCQljb25zdCBqaXR0ZXIgPSBqbiAvIDB4MTAwMDAwMDAwICogNTAwOwoJCQkJY29uc3QgZGVsYXlNcyA9IE1hdGgubWluKDJfMDAwICogMiAqKiBhdHRlbXB0cyArIGppdHRlciwgMzBfMDAwKTsKCQkJCWF3YWl0IHNldFRpbWVvdXQoZGVsYXlNcyk7CgkJCX0KCQkJYXR0ZW1wdHMrKzsKCQl9CgkJaWYgKCFyZXNwb25zZSB8fCAhcmVzcG9uc2Uub2spIHsKCQkJdGhyb3cgbmV3IEVycm9yKAoJCQkJYEZhaWxlZCB0byBmZXRjaCByZWxlYXNlcyBmcm9tICR7dXJsfSBhZnRlciAke3JldHJpZXN9IGF0dGVtcHRzYCwKCQkJKTsKCQl9CgoJCWNvbnN0IGRhdGEgPSBhd2FpdCByZXNwb25zZS5qc29uKCk7CgkJY29uc3QgcmVsZWFzZXMgPSBBcnJheS5pc0FycmF5KGRhdGEpID8gZGF0YSA6IFtkYXRhXTsKCgkJZm9yIChjb25zdCByZWxlYXNlIG9mIHJlbGVhc2VzKSB7CgkJCWlmIChyZWxlYXNlLnByZXJlbGVhc2UgfHwgcmVsZWFzZS5kcmFmdCkgY29udGludWU7CgkJCWZvciAoY29uc3QgYXNzZXQgb2YgcmVsZWFzZS5hc3NldHMpIHsKCQkJCWNvbnN0IGRhdGEgPSB0aGlzLmNoZWNrQXNzZXQoYXNzZXQsIHJlbGVhc2UpOwoJCQkJaWYgKGRhdGEpIHsKCQkJCQlyZXR1cm4gZGF0YTsKCQkJCX0KCQkJfQoJCX0KCgkJdGhpcy5taXNzaW5nQXNzZXRFcnJvcigpOwoJfQp9CgpleHBvcnQgY2xhc3MgQ2Ftb3Vmb3hGZXRjaGVyIGV4dGVuZHMgR2l0SHViRG93bmxvYWRlciB7CglhcmNoOiBzdHJpbmc7CglfdmVyc2lvbl9vYmo/OiBWZXJzaW9uOwoJcGF0dGVybjogUmVnRXhwOwoJX3VybD86IHN0cmluZzsKCWlzUHJlcmVsZWFzZSA9IGZhbHNlOwoJc2hhMjU2Pzogc3RyaW5nOwoJY3JlYXRlZEF0Pzogc3RyaW5nOwoKCWNvbnN0cnVjdG9yKCkgewoJCXN1cGVyKCJkYWlqcm8vY2Ftb3Vmb3giKTsKCQl0aGlzLmFyY2ggPSBDYW1vdWZveEZldGNoZXIuZ2V0UGxhdGZvcm1BcmNoKCk7CgkJdGhpcy5wYXR0ZXJuID0gbmV3IFJlZ0V4cCgKCQkJYGNhbW91Zm94LSguKyktKC4rKS0ke09TX05BTUV9XFwuJHt0aGlzLmFyY2h9XFwuemlwYCwKCQkpOwoJfQoKCWFzeW5jIGluaXQoKSB7CgkJYXdhaXQgdGhpcy5mZXRjaExhdGVzdCgpOwoJfQoKCXJlbGVhc2VzVXJsKCk6IHN0cmluZyB7CgkJY29uc3QgcGluID0gZWZmZWN0aXZlUGluKGxvYWRDb25maWcoKSk7CgkJcmV0dXJuIHBpbiAmJiBnZXRSZXBvTmFtZSh0aGlzLmdpdGh1YlJlcG8pID09PSBwaW4ucmVwb05hbWUKCQkJPyBgJHt0aGlzLmFwaVVybH0vdGFncy8ke3Bpbi50YWd9YAoJCQk6IHRoaXMuYXBpVXJsOwoJfQoKCWNoZWNrQXNzZXQoYXNzZXQ6IGFueSwgcmVsZWFzZT86IGFueSk6IFtWZXJzaW9uLCBzdHJpbmddIHwgbnVsbCB7CgkJY29uc3QgbWF0Y2ggPSBhc3NldC5uYW1lLm1hdGNoKHRoaXMucGF0dGVybik7CgkJaWYgKCFtYXRjaCkgcmV0dXJuIG51bGw7CgoJCWNvbnN0IHZlcnNpb24gPSBuZXcgVmVyc2lvbihtYXRjaFsyXSwgbWF0Y2hbMV0pOwoJCWlmICghdmVyc2lvbi5pc1N1cHBvcnRlZCgpKSByZXR1cm4gbnVsbDsKCgkJY29uc3QgcGluID0gZWZmZWN0aXZlUGluKGxvYWRDb25maWcoKSk7CgkJaWYgKAoJCQlwaW4gJiYKCQkJIXBpbk1hdGNoZXMocGluLCBnZXRSZXBvTmFtZSh0aGlzLmdpdGh1YlJlcG8pLCBtYXRjaFsxXSwgbWF0Y2hbMl0pCgkJKSB7CgkJCXJldHVybiBudWxsOwoJCX0KCgkJdGhpcy5pc1ByZXJlbGVhc2UgPSBCb29sZWFuKHJlbGVhc2U/LnByZXJlbGVhc2UpOwoJCXRoaXMuc2hhMjU2ID0gYXNzZXQuZGlnZXN0Py5zdGFydHNXaXRoKCJzaGEyNTY6IikKCQkJPyBhc3NldC5kaWdlc3Quc2xpY2UoInNoYTI1NjoiLmxlbmd0aCkKCQkJOiB1bmRlZmluZWQ7CgkJdGhpcy5jcmVhdGVkQXQgPSBhc3NldC5jcmVhdGVkX2F0OwoJCXJldHVybiBbdmVyc2lvbiwgYXNzZXQuYnJvd3Nlcl9kb3dubG9hZF91cmxdOwoJfQoKCW1pc3NpbmdBc3NldEVycm9yKCk6IHZvaWQgewoJCXRocm93IG5ldyBNaXNzaW5nUmVsZWFzZSgKCQkJYE5vIG1hdGNoaW5nIHJlbGVhc2UgZm91bmQgZm9yICR7T1NfTkFNRX0gJHt0aGlzLmFyY2h9IGluIHRoZSBzdXBwb3J0ZWQgcmFuZ2U6ICgke1NVUFBPUlRFRF9SQU5HRX0pLiBQbGVhc2UgdXBkYXRlIHRoZSBsaWJyYXJ5LmAsCgkJKTsKCX0KCglzdGF0aWMgZ2V0UGxhdGZvcm1BcmNoKCk6IHN0cmluZyB7CgkJY29uc3QgcGxhdEFyY2ggPSBvcy5hcmNoKCkudG9Mb3dlckNhc2UoKTsKCQlpZiAoIShwbGF0QXJjaCBpbiBBUkNIX01BUCkpIHsKCQkJdGhyb3cgbmV3IFVuc3VwcG9ydGVkQXJjaGl0ZWN0dXJlKAoJCQkJYEFyY2hpdGVjdHVyZSAke3BsYXRBcmNofSBpcyBub3Qgc3VwcG9ydGVkYCwKCQkJKTsKCQl9CgoJCWNvbnN0IGFyY2ggPSBBUkNIX01BUFtwbGF0QXJjaF07CgkJaWYgKCFPU19BUkNIX01BVFJJWFtPU19OQU1FXS5pbmNsdWRlcyhhcmNoKSkgewoJCQl0aHJvdyBuZXcgVW5zdXBwb3J0ZWRBcmNoaXRlY3R1cmUoCgkJCQlgQXJjaGl0ZWN0dXJlICR7YXJjaH0gaXMgbm90IHN1cHBvcnRlZCBmb3IgJHtPU19OQU1FfWAsCgkJCSk7CgkJfQoKCQlyZXR1cm4gYXJjaDsKCX0KCglhc3luYyBmZXRjaExhdGVzdCgpOiBQcm9taXNlPHZvaWQ+IHsKCQlpZiAodGhpcy5fdmVyc2lvbl9vYmopIHJldHVybjsKCQljb25zdCByZWxlYXNlRGF0YSA9IGF3YWl0IHRoaXMuZ2V0QXNzZXQoKTsKCQl0aGlzLl92ZXJzaW9uX29iaiA9IHJlbGVhc2VEYXRhWzBdOwoJCXRoaXMuX3VybCA9IHJlbGVhc2VEYXRhWzFdOwoJfQoKCXN0YXRpYyBhc3luYyBkb3dubG9hZEZpbGUodXJsOiBzdHJpbmcpOiBQcm9taXNlPEJ1ZmZlcj4gewoJCWNvbnN0IHJlc3BvbnNlID0gYXdhaXQgZmV0Y2godXJsLCB7CgkJCWhlYWRlcnM6IGdldEF1dGhvcml6YXRpb25IZWFkZXJzKHVybCksCgkJfSk7CgoJCXJldHVybiBCdWZmZXIuZnJvbShhd2FpdCByZXNwb25zZS5hcnJheUJ1ZmZlcigpKTsKCX0KCglhc3luYyBleHRyYWN0WmlwKAoJCXppcEZpbGU6IHN0cmluZyB8IEJ1ZmZlciwKCQlkZXN0RGlyOiBzdHJpbmcgPSBJTlNUQUxMX0RJUi50b1N0cmluZygpLAoJKTogUHJvbWlzZTx2b2lkPiB7CgkJY29uc3QgemlwID0gbmV3IEFkbVppcCh6aXBGaWxlKTsKCQl6aXAuZXh0cmFjdEFsbFRvKGRlc3REaXIsIHRydWUpOwoJfQoKCXN0YXRpYyBjbGVhbnVwKCk6IGJvb2xlYW4gewoJCWlmIChmcy5leGlzdHNTeW5jKElOU1RBTExfRElSKSkgewoJCQlmcy5ybVN5bmMoSU5TVEFMTF9ESVIsIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwoJCQlyZXR1cm4gdHJ1ZTsKCQl9CgkJcmV0dXJuIGZhbHNlOwoJfQoKCXNldFZlcnNpb24oZGVzdERpcjogc3RyaW5nID0gSU5TVEFMTF9ESVIudG9TdHJpbmcoKSk6IHZvaWQgewoJCWZzLndyaXRlRmlsZVN5bmMoCgkJCXBhdGguam9pbihkZXN0RGlyLCAidmVyc2lvbi5qc29uIiksCgkJCUpTT04uc3RyaW5naWZ5KHsKCQkJCXZlcnNpb246IHRoaXMudmVyc2lvbiwKCQkJCWJ1aWxkOiB0aGlzLnJlbGVhc2UsCgkJCQlwcmVyZWxlYXNlOiB0aGlzLmlzUHJlcmVsZWFzZSwKCQkJCXNoYTI1NjogdGhpcy5zaGEyNTYgPz8gbnVsbCwKCQkJCWNyZWF0ZWRfYXQ6IHRoaXMuY3JlYXRlZEF0ID8/IG51bGwsCgkJCX0pLAoJCSk7Cgl9CgoJcHJpdmF0ZSBzdGF0aWMgcmVtb3ZlTGVmdG92ZXJzKGRpcjogc3RyaW5nLCBwcmVmaXg6IHN0cmluZyk6IHZvaWQgewoJCWZvciAoY29uc3QgbmFtZSBvZiBmcy5yZWFkZGlyU3luYyhkaXIpKSB7CgkJCWlmIChuYW1lLnN0YXJ0c1dpdGgocHJlZml4KSAmJiBpc1N0YWxlKHBhdGguam9pbihkaXIsIG5hbWUpKSkgewoJCQkJZnMucm1TeW5jKHBhdGguam9pbihkaXIsIG5hbWUpLCB7IHJlY3Vyc2l2ZTogdHJ1ZSwgZm9yY2U6IHRydWUgfSk7CgkJCX0KCQl9Cgl9CgoJcHJpdmF0ZSBzdGF0aWMgYWN0aXZhdGUoaW5zdGFsbERpcjogc3RyaW5nLCByZWxhdGl2ZVBhdGg6IHN0cmluZyk6IHZvaWQgewoJCXNldEFjdGl2ZShyZWxhdGl2ZVBhdGgpOwoJCXJlbW92ZUxlZ2FjeUluc3RhbGwoaW5zdGFsbERpcik7Cgl9CgoJYXN5bmMgaW5zdGFsbCgpOiBQcm9taXNlPHZvaWQ+IHsKCQlhd2FpdCB0aGlzLmluaXQoKTsKCQljb25zdCBmb2xkZXIgPSB2ZXJzaW9uRm9sZGVyTmFtZSh0aGlzLnZlcnNpb24sIHRoaXMucmVsZWFzZSwgdGhpcy5zaGEyNTYpOwoJCWNvbnN0IHJlbGF0aXZlUGF0aCA9IGBicm93c2Vycy8ke2dldFJlcG9OYW1lKHRoaXMuZ2l0aHViUmVwbyl9LyR7Zm9sZGVyfWA7CgkJY29uc3QgaW5zdGFsbERpciA9IHBhdGguam9pbihJTlNUQUxMX0RJUi50b1N0cmluZygpLCByZWxhdGl2ZVBhdGgpOwoJCWZzLm1rZGlyU3luYyhicm93c2Vyc0RpcigpLCB7IHJlY3Vyc2l2ZTogdHJ1ZSB9KTsKCQlmcy53cml0ZUZpbGVTeW5jKGNvbXBhdEZsYWcoKSwgIiIpOwoJCWlmIChmcy5leGlzdHNTeW5jKHBhdGguam9pbihpbnN0YWxsRGlyLCAidmVyc2lvbi5qc29uIikpKSB7CgkJCWNvbnNvbGUubG9nKGBDYW1vdWZveCB2JHt0aGlzLnZlcnN0cn0gaXMgYWxyZWFkeSBpbnN0YWxsZWQuYCk7CgkJCUNhbW91Zm94RmV0Y2hlci5hY3RpdmF0ZShpbnN0YWxsRGlyLCByZWxhdGl2ZVBhdGgpOwoJCQlyZXR1cm47CgkJfQoKCQljb25zdCByb290ID0gZnMucmVhbHBhdGhTeW5jKElOU1RBTExfRElSKTsKCQlDYW1vdWZveEZldGNoZXIucmVtb3ZlTGVmdG92ZXJzKAoJCQlwYXRoLmRpcm5hbWUocm9vdCksCgkJCWAke3BhdGguYmFzZW5hbWUocm9vdCl9LnN0YWdpbmctYCwKCQkpOwoJCUNhbW91Zm94RmV0Y2hlci5yZW1vdmVMZWZ0b3ZlcnMoYnJvd3NlcnNEaXIoKSwgIi5zdGFnaW5nLSIpOwoJCWNvbnN0IHN0YWdpbmdEaXIgPSBmcy5ta2R0ZW1wU3luYyhwYXRoLmpvaW4oYnJvd3NlcnNEaXIoKSwgIi5zdGFnaW5nLSIpKTsKCQljb25zdCB0ZW1wRGlyID0gZnMubWtkdGVtcFN5bmMocGF0aC5qb2luKG9zLnRtcGRpcigpLCAiY2Ftb3Vmb3gtIikpOwoJCWNvbnN0IHRlbXBGaWxlUGF0aCA9IHBhdGguam9pbih0ZW1wRGlyLCAiY2Ftb3Vmb3guemlwIik7CgkJY29uc3QgdGVtcEZpbGVTdHJlYW0gPSBmcy5jcmVhdGVXcml0ZVN0cmVhbSh0ZW1wRmlsZVBhdGgpOwoJCXRyeSB7CgkJCWF3YWl0IHdlYmRsKHRoaXMudXJsLCAiRG93bmxvYWRpbmcgQ2Ftb3Vmb3guLi4iLCB0cnVlLCB0ZW1wRmlsZVN0cmVhbSk7CgkJCWF3YWl0IG5ldyBQcm9taXNlKChyKSA9PiB0ZW1wRmlsZVN0cmVhbS5jbG9zZShyKSk7CgkJCWF3YWl0IHZlcmlmeVNoYTI1Nih0ZW1wRmlsZVBhdGgsIHRoaXMuc2hhMjU2LCBgQ2Ftb3Vmb3ggdiR7dGhpcy52ZXJzdHJ9YCk7CgoJCQlhd2FpdCB0aGlzLmV4dHJhY3RaaXAodGVtcEZpbGVQYXRoLCBzdGFnaW5nRGlyKTsKCQkJdGhpcy5zZXRWZXJzaW9uKHN0YWdpbmdEaXIpOwoKCQkJaWYgKE9TX05BTUUgIT09ICJ3aW4iKSB7CgkJCQlleGVjRmlsZVN5bmMoImNobW9kIiwgWyItUiIsICI3NTUiLCBzdGFnaW5nRGlyXSk7CgkJCX0KCgkJCWZzLm1rZGlyU3luYyhwYXRoLmRpcm5hbWUoaW5zdGFsbERpciksIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwoJCQl0cnkgewoJCQkJZnMucmVuYW1lU3luYyhzdGFnaW5nRGlyLCBpbnN0YWxsRGlyKTsKCQkJfSBjYXRjaCAoZSkgewoJCQkJaWYgKCFmcy5leGlzdHNTeW5jKHBhdGguam9pbihpbnN0YWxsRGlyLCAidmVyc2lvbi5qc29uIikpKSB7CgkJCQkJaWYgKCFmcy5leGlzdHNTeW5jKGluc3RhbGxEaXIpKSB0aHJvdyBlOwoJCQkJCWlmICghaXNTdGFsZShpbnN0YWxsRGlyKSkgewoJCQkJCQl0aHJvdyBuZXcgRXJyb3IoCgkJCQkJCQlgQW5vdGhlciBwcm9jZXNzIGlzIGluc3RhbGxpbmcgQ2Ftb3Vmb3ggaW50byAke2luc3RhbGxEaXJ9LCB0cnkgYWdhaW4gb25jZSBpdCBmaW5pc2hlcy5gLAoJCQkJCQkpOwoJCQkJCX0KCQkJCQlmcy5ybVN5bmMoaW5zdGFsbERpciwgeyByZWN1cnNpdmU6IHRydWUsIGZvcmNlOiB0cnVlIH0pOwoJCQkJCWZzLnJlbmFtZVN5bmMoc3RhZ2luZ0RpciwgaW5zdGFsbERpcik7CgkJCQl9CgkJCX0KCQkJQ2Ftb3Vmb3hGZXRjaGVyLmFjdGl2YXRlKGluc3RhbGxEaXIsIHJlbGF0aXZlUGF0aCk7CgoJCQljb25zb2xlLmxvZyhgQ2Ftb3Vmb3ggc3VjY2Vzc2Z1bGx5IGluc3RhbGxlZCB0byAke2luc3RhbGxEaXJ9LmApOwoJCX0gY2F0Y2ggKGUpIHsKCQkJY29uc29sZS5lcnJvcihgRXJyb3IgaW5zdGFsbGluZyBDYW1vdWZveDogJHtlfWApOwoJCQl0aHJvdyBlOwoJCX0gZmluYWxseSB7CgkJCXRyeSB7CgkJCQlpZiAoIXRlbXBGaWxlU3RyZWFtLmNsb3NlZCkgewoJCQkJCWF3YWl0IG5ldyBQcm9taXNlPHZvaWQ+KChyZXNvbHZlKSA9PgoJCQkJCQl0ZW1wRmlsZVN0cmVhbS5jbG9zZSgoKSA9PiByZXNvbHZlKCkpLAoJCQkJCSk7CgkJCQl9CgkJCQlmcy5ybVN5bmModGVtcERpciwgeyByZWN1cnNpdmU6IHRydWUsIGZvcmNlOiB0cnVlIH0pOwoJCQkJZnMucm1TeW5jKHN0YWdpbmdEaXIsIHsgcmVjdXJzaXZlOiB0cnVlLCBmb3JjZTogdHJ1ZSB9KTsKCQkJfSBjYXRjaCAoY2xlYW51cEVycikgewoJCQkJY29uc29sZS5lcnJvcihgRmFpbGVkIHRvIHJlbW92ZSBzdGFnaW5nIGRpcjogJHtjbGVhbnVwRXJyfWApOwoJCQl9CgkJfQoJfQoKCWdldCB1cmwoKTogc3RyaW5nIHsKCQlpZiAoIXRoaXMuX3VybCkgewoJCQl0aHJvdyBuZXcgRXJyb3IoCgkJCQkiVXJsIGlzIG5vdCBhdmFpbGFibGUuIE1ha2Ugc3VyZSB0byBydW4gZmV0Y2hMYXRlc3QgZmlyc3QuIiwKCQkJKTsKCQl9CgkJcmV0dXJuIHRoaXMuX3VybDsKCX0KCglnZXQgdmVyc2lvbigpOiBzdHJpbmcgewoJCWlmICghdGhpcy5fdmVyc2lvbl9vYmogfHwgIXRoaXMuX3ZlcnNpb25fb2JqLnZlcnNpb24pIHsKCQkJdGhyb3cgbmV3IEVycm9yKAoJCQkJIlZlcnNpb24gaXMgbm90IGF2YWlsYWJsZS4gTWFrZSBzdXJlIHRvIHJ1biBmZXRjaExhdGVzdCBmaXJzdC4iLAoJCQkpOwoJCX0KCQlyZXR1cm4gdGhpcy5fdmVyc2lvbl9vYmoudmVyc2lvbjsKCX0KCglnZXQgcmVsZWFzZSgpOiBzdHJpbmcgewoJCWlmICghdGhpcy5fdmVyc2lvbl9vYmopIHsKCQkJdGhyb3cgbmV3IEVycm9yKAoJCQkJIlJlbGVhc2UgaW5mb3JtYXRpb24gaXMgbm90IGF2YWlsYWJsZS4gTWFrZSBzdXJlIHRvIHJ1biB0aGUgaW5zdGFsbGF0aW9uIGZpcnN0LiIsCgkJCSk7CgkJfQoJCXJldHVybiB0aGlzLl92ZXJzaW9uX29iai5yZWxlYXNlOwoJfQoKCWdldCB2ZXJzdHIoKTogc3RyaW5nIHsKCQlpZiAoIXRoaXMuX3ZlcnNpb25fb2JqKSB7CgkJCXRocm93IG5ldyBFcnJvcigKCQkJCSJWZXJzaW9uIGlzIG5vdCBhdmFpbGFibGUuIE1ha2Ugc3VyZSB0byBydW4gdGhlIGluc3RhbGxhdGlvbiBmaXJzdC4iLAoJCQkpOwoJCX0KCQlyZXR1cm4gdGhpcy5fdmVyc2lvbl9vYmouZnVsbFN0cmluZzsKCX0KfQoKZnVuY3Rpb24gdXNlckNhY2hlRGlyKGFwcE5hbWU6IHN0cmluZyk6IHN0cmluZyB7CglpZiAoT1NfTkFNRSA9PT0gIndpbiIpIHsKCQlyZXR1cm4gcGF0aC5qb2luKAoJCQlvcy5ob21lZGlyKCksCgkJCSJBcHBEYXRhIiwKCQkJIkxvY2FsIiwKCQkJYXBwTmFtZSwKCQkJYXBwTmFtZSwKCQkJIkNhY2hlIiwKCQkpOwoJfSBlbHNlIGlmIChPU19OQU1FID09PSAibWFjIikgewoJCXJldHVybiBwYXRoLmpvaW4ob3MuaG9tZWRpcigpLCAiTGlicmFyeSIsICJDYWNoZXMiLCBhcHBOYW1lKTsKCX0gZWxzZSB7CgkJY29uc3QgeGRnID0gcHJvY2Vzcy5lbnYuWERHX0NBQ0hFX0hPTUU7CgkJcmV0dXJuIHBhdGguam9pbigKCQkJeGRnICYmIHBhdGguaXNBYnNvbHV0ZSh4ZGcpID8geGRnIDogcGF0aC5qb2luKG9zLmhvbWVkaXIoKSwgIi5jYWNoZSIpLAoJCQlhcHBOYW1lLAoJCSk7Cgl9Cn0KCmNvbnN0IFNIQVJFRF9FTlRSSUVTID0gbmV3IFNldChbCgkiLjAuNV9GTEFHIiwKCSJhZGRvbnMiLAoJImJyb3dzZXJzIiwKCSJjb25maWcuanNvbiIsCgkiZm9udGNvbmZpZyIsCgkiZ2VvaXAiLAoJInJlcG9fY2FjaGUuanNvbiIsCl0pOwoKZnVuY3Rpb24gaXNTdGFsZShwOiBzdHJpbmcpOiBib29sZWFuIHsKCXRyeSB7CgkJcmV0dXJuIERhdGUubm93KCkgLSBmcy5zdGF0U3luYyhwKS5tdGltZU1zID4gMjQgKiA2MCAqIDYwICogMTAwMDsKCX0gY2F0Y2ggewoJCXJldHVybiBmYWxzZTsKCX0KfQoKZnVuY3Rpb24gcmVtb3ZlTGVnYWN5SW5zdGFsbChpbnN0YWxsRGlyOiBzdHJpbmcpOiB2b2lkIHsKCWNvbnN0IHJvb3QgPSBJTlNUQUxMX0RJUi50b1N0cmluZygpOwoJaWYgKCFmcy5leGlzdHNTeW5jKHBhdGguam9pbihyb290LCAidmVyc2lvbi5qc29uIikpKSByZXR1cm47Cgl0cnkgewoJCWZvciAoY29uc3QgbmFtZSBvZiBmcy5yZWFkZGlyU3luYyhpbnN0YWxsRGlyKSkgewoJCQlpZiAoIVNIQVJFRF9FTlRSSUVTLmhhcyhuYW1lKSkgewoJCQkJZnMucm1TeW5jKHBhdGguam9pbihyb290LCBuYW1lKSwgeyByZWN1cnNpdmU6IHRydWUsIGZvcmNlOiB0cnVlIH0pOwoJCQl9CgkJfQoJfSBjYXRjaCAoZSkgewoJCWNvbnNvbGUud2FybihgRmFpbGVkIHRvIHJlbW92ZSB0aGUgcHJldmlvdXMgaW5zdGFsbCBhdCAke3Jvb3R9OiAke2V9YCk7Cgl9Cn0KCmZ1bmN0aW9uIGFjdGl2ZUluc3RhbGxEaXIoKTogc3RyaW5nIHsKCXJldHVybiBnZXRBY3RpdmVQYXRoKCkgPz8gSU5TVEFMTF9ESVIudG9TdHJpbmcoKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGluc3RhbGxlZFZlclN0cigpOiBzdHJpbmcgewoJcmV0dXJuIFZlcnNpb24uZnJvbVBhdGgoYWN0aXZlSW5zdGFsbERpcigpKS5mdWxsU3RyaW5nOwp9CgpleHBvcnQgZnVuY3Rpb24gY2Ftb3Vmb3hQYXRoKF9kb3dubG9hZElmTWlzc2luZzogYm9vbGVhbiA9IHRydWUpOiBQYXRoTGlrZSB7Cgljb25zdCBpbnN0YWxsRGlyID0gYWN0aXZlSW5zdGFsbERpcigpOwoJaWYgKCFmcy5leGlzdHNTeW5jKHBhdGguam9pbihpbnN0YWxsRGlyLCAidmVyc2lvbi5qc29uIikpKSB7CgkJY29uc3QgcGluID0gZWZmZWN0aXZlUGluKGxvYWRDb25maWcoKSk7CgkJdGhyb3cgbmV3IENhbW91Zm94Tm90SW5zdGFsbGVkKAoJCQlgQ2Ftb3Vmb3gke3BpbiA/IGAgdiR7cGluU3BlYyhwaW4pfWAgOiAiIn0gaXMgbm90IGluc3RhbGxlZCBhdCAke0lOU1RBTExfRElSfS4gUGxlYXNlIHJ1biBcYGJleHhjdiBmZXRjaFxgIHRvIGluc3RhbGwuYCwKCQkpOwoJfQoJaWYgKCFWZXJzaW9uLmlzU3VwcG9ydGVkUGF0aChpbnN0YWxsRGlyKSkgewoJCXRocm93IG5ldyBVbnN1cHBvcnRlZFZlcnNpb24oCgkJCWBDYW1vdWZveCB2JHtpbnN0YWxsZWRWZXJTdHIoKX0gaXMgbm90IHN1cHBvcnRlZCBieSB0aGlzIGxpYnJhcnkgKHN1cHBvcnRlZCByYW5nZTogJHtTVVBQT1JURURfUkFOR0V9KS4gUGxlYXNlIHJ1biBcYGJleHhjdiBmZXRjaFxgIHRvIGluc3RhbGwgYSBzdXBwb3J0ZWQgdmVyc2lvbi5gLAoJCSk7Cgl9CglyZXR1cm4gaW5zdGFsbERpcjsKfQoKbGV0IHBlbmRpbmdJbnN0YWxsOiBQcm9taXNlPHZvaWQ+IHwgdW5kZWZpbmVkOwoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGVuc3VyZUNhbW91Zm94SW5zdGFsbGVkKCk6IFByb21pc2U8dm9pZD4gewoJaWYgKCFlZmZlY3RpdmVQaW4obG9hZENvbmZpZygpKSkgcmV0dXJuOwoJY29uc3QgaW5zdGFsbERpciA9IGFjdGl2ZUluc3RhbGxEaXIoKTsKCWlmICgKCQlmcy5leGlzdHNTeW5jKHBhdGguam9pbihpbnN0YWxsRGlyLCAidmVyc2lvbi5qc29uIikpICYmCgkJVmVyc2lvbi5pc1N1cHBvcnRlZFBhdGgoaW5zdGFsbERpcikKCSkgewoJCXJldHVybjsKCX0KCXBlbmRpbmdJbnN0YWxsID8/PSBuZXcgQ2Ftb3Vmb3hGZXRjaGVyKCkuaW5zdGFsbCgpLmZpbmFsbHkoKCkgPT4gewoJCXBlbmRpbmdJbnN0YWxsID0gdW5kZWZpbmVkOwoJfSk7Cglhd2FpdCBwZW5kaW5nSW5zdGFsbDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdldFBhdGgoZmlsZTogc3RyaW5nKTogc3RyaW5nIHsKCWlmIChPU19OQU1FID09PSAibWFjIikgewoJCXJldHVybiBwYXRoLnJlc29sdmUoCgkJCWNhbW91Zm94UGF0aCgpLnRvU3RyaW5nKCksCgkJCSJDYW1vdWZveC5hcHAiLAoJCQkiQ29udGVudHMiLAoJCQkiUmVzb3VyY2VzIiwKCQkJZmlsZSwKCQkpOwoJfQoJcmV0dXJuIHBhdGguam9pbihjYW1vdWZveFBhdGgoKS50b1N0cmluZygpLCBmaWxlKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGxhdW5jaFBhdGgoKTogc3RyaW5nIHsKCWNvbnN0IGxwID0gZ2V0UGF0aChMQVVOQ0hfRklMRVtPU19OQU1FXSk7CglpZiAoIWZzLmV4aXN0c1N5bmMobHApKSB7CgkJdGhyb3cgbmV3IENhbW91Zm94Tm90SW5zdGFsbGVkKAoJCQlgQ2Ftb3Vmb3ggaXMgbm90IGluc3RhbGxlZCBhdCAke2NhbW91Zm94UGF0aCgpfS4gUGxlYXNlIHJ1biBcYGJleHhjdiBmZXRjaFxgIHRvIGluc3RhbGwuYCwKCQkpOwoJfQoJcmV0dXJuIGxwOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gd2ViZGwoCgl1cmw6IHN0cmluZywKCWRlc2M6IHN0cmluZyA9ICIiLAoJYmFyOiBib29sZWFuID0gdHJ1ZSwKCWJ1ZmZlcjogV3JpdGFibGUgfCBudWxsID0gbnVsbCwKCXsgcmV0cmllcyB9OiB7IHJldHJpZXM6IG51bWJlciB9ID0geyByZXRyaWVzOiA1IH0sCik6IFByb21pc2U8QnVmZmVyPiB7CglsZXQgYXR0ZW1wdHMgPSAwOwoJbGV0IHJlc3BvbnNlOiBSZXNwb25zZSB8IHVuZGVmaW5lZDsKCgl3aGlsZSAoYXR0ZW1wdHMgPCByZXRyaWVzKSB7CgkJdHJ5IHsKCQkJcmVzcG9uc2UgPSBhd2FpdCBmZXRjaCh1cmwsIHsgaGVhZGVyczogZ2V0QXV0aG9yaXphdGlvbkhlYWRlcnModXJsKSB9KTsKCQkJaWYgKHJlc3BvbnNlLm9rKSBicmVhazsKCQl9IGNhdGNoIChlKSB7CgkJCWNvbnNvbGUuZXJyb3IoZSwgYHJldHJ5aW5nICgke2F0dGVtcHRzICsgMX0vJHtyZXRyaWVzfSkuLi5gKTsKCQkJY29uc3Qgam4gPSBjcnlwdG8uZ2V0UmFuZG9tVmFsdWVzKG5ldyBVaW50MzJBcnJheSgxKSlbMF0gPj4+IDA7CgkJY29uc3Qgaml0dGVyID0gam4gLyAweDEwMDAwMDAwMCAqIDUwMDsKCQkJY29uc3QgZGVsYXlNcyA9IE1hdGgubWluKDJfMDAwICogMiAqKiBhdHRlbXB0cyArIGppdHRlciwgMzBfMDAwKTsKCQkJYXdhaXQgc2V0VGltZW91dChkZWxheU1zKTsKCQl9CgkJYXR0ZW1wdHMrKzsKCX0KCglpZiAoIXJlc3BvbnNlIHx8ICFyZXNwb25zZS5vaykgewoJCXRocm93IG5ldyBFcnJvcihgRmFpbGVkIHRvIGRvd25sb2FkIGZyb20gJHt1cmx9IGFmdGVyICR7cmV0cmllc30gYXR0ZW1wdHNgKTsKCX0KCgljb25zdCB0b3RhbFNpemUgPSBwYXJzZUludChyZXNwb25zZS5oZWFkZXJzLmdldCgiY29udGVudC1sZW5ndGgiKSB8fCAiMCIsIDEwKTsKCWxldCBwcm9ncmVzc0JhcjogY2xpUHJvZ3Jlc3MuU2luZ2xlQmFyIHwgbnVsbCA9IG51bGw7CglpZiAoYmFyICYmIHRvdGFsU2l6ZSA+IDApIHsKCQlwcm9ncmVzc0JhciA9IG5ldyBjbGlQcm9ncmVzcy5TaW5nbGVCYXIoCgkJCXsKCQkJCWZvcm1hdDogYCR7ZGVzY30gW3tiYXJ9XSB7cGVyY2VudGFnZX0lIHwgRVRBOiB7ZXRhX2Zvcm1hdHRlZH0gfCB7dmFsdWV9L3t0b3RhbH1gLAoJCQkJZm9ybWF0VmFsdWU6IGZvcm1hdEJ5dGVzLAoJCQkJbm9UVFlPdXRwdXQ6IHRydWUsCgkJCX0sCgkJCWNsaVByb2dyZXNzLlByZXNldHMuc2hhZGVzX2NsYXNzaWMsCgkJKTsKCQlwcm9ncmVzc0Jhci5zdGFydCh0b3RhbFNpemUsIDApOwoJfQoKCWNvbnN0IGNodW5rczogVWludDhBcnJheVtdID0gW107Cgl0cnkgewoJCWZvciBhd2FpdCAoY29uc3QgY2h1bmsgb2YgKHJlc3BvbnNlLmJvZHkgPz8gW10pKSB7CgkJCWlmIChidWZmZXIpIHsKCQkJCWJ1ZmZlci53cml0ZShjaHVuayk7CgkJCX0gZWxzZSB7CgkJCQljaHVua3MucHVzaChjaHVuayk7CgkJCX0KCQkJaWYgKHByb2dyZXNzQmFyKSB7CgkJCQlwcm9ncmVzc0Jhci5pbmNyZW1lbnQoY2h1bmsubGVuZ3RoKTsKCQkJfQoJCX0KCX0gZmluYWxseSB7CgkJcHJvZ3Jlc3NCYXI/LnN0b3AoKTsKCX0KCglyZXR1cm4gQnVmZmVyLmNvbmNhdChjaHVua3MpOwp9Cgphc3luYyBmdW5jdGlvbiB2ZXJpZnlTaGEyNTYoCglmaWxlOiBzdHJpbmcsCglleHBlY3RlZDogc3RyaW5nIHwgdW5kZWZpbmVkLAoJZGVzYzogc3RyaW5nLAopOiBQcm9taXNlPHZvaWQ+IHsKCWlmICghZXhwZWN0ZWQpIHsKCQljb25zb2xlLndhcm4oYE5vIHNoYTI1NiBwdWJsaXNoZWQgZm9yICR7ZGVzY30sIHNraXBwaW5nIHZlcmlmaWNhdGlvbi5gKTsKCQlyZXR1cm47Cgl9Cgljb25zdCBoYXNoID0gY3JlYXRlSGFzaCgic2hhMjU2Iik7Cglmb3IgYXdhaXQgKGNvbnN0IGNodW5rIG9mIGZzLmNyZWF0ZVJlYWRTdHJlYW0oZmlsZSkpIHsKCQloYXNoLnVwZGF0ZShjaHVuayk7Cgl9Cgljb25zdCBhY3R1YWwgPSBoYXNoLmRpZ2VzdCgiaGV4Iik7CglpZiAoYWN0dWFsICE9PSBleHBlY3RlZC50b0xvd2VyQ2FzZSgpKSB7CgkJdGhyb3cgbmV3IENvcnJ1cHRlZERvd25sb2FkKAoJCQlgQ2hlY2tzdW0gbWlzbWF0Y2ggZm9yICR7ZGVzY306IGV4cGVjdGVkIHNoYTI1NiAke2V4cGVjdGVkLnRvTG93ZXJDYXNlKCl9LCBnb3QgJHthY3R1YWx9LmAsCgkJKTsKCX0KfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHVuemlwKAoJemlwRmlsZTogQnVmZmVyLAoJZXh0cmFjdFBhdGg6IHN0cmluZywKCWRlc2M/OiBzdHJpbmcsCgliYXI6IGJvb2xlYW4gPSB0cnVlLAopOiBQcm9taXNlPHZvaWQ+IHsKCWNvbnN0IHppcCA9IG5ldyBBZG1aaXAoemlwRmlsZSk7Cgljb25zdCB6aXBFbnRyaWVzID0gemlwLmdldEVudHJpZXMoKTsKCglpZiAoYmFyKSB7CgkJY29uc29sZS5sb2coZGVzYyB8fCAiRXh0cmFjdGluZyBmaWxlcy4uLiIpOwoJfQoKCWZvciAoY29uc3QgZW50cnkgb2YgemlwRW50cmllcykgewoJCXppcC5leHRyYWN0RW50cnlUbyhlbnRyeSwgZXh0cmFjdFBhdGgsIHRydWUsIHRydWUpOwoJfQoKCWlmIChiYXIpIHsKCQljb25zb2xlLmxvZygiRXh0cmFjdGlvbiBjb21wbGV0ZS4iKTsKCX0KfQo=
+import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
+import type { PathLike } from "node:fs";
+import * as fs from "node:fs";
+import { createRequire } from "node:module";
+import * as os from "node:os";
+import * as path from "node:path";
+import type { Writable } from "node:stream";
+import { setTimeout } from "node:timers/promises";
+import { fileURLToPath } from "node:url";
+import AdmZip from "adm-zip";
+import cliProgress, { type Options } from "cli-progress";
+import prettyBytes from "pretty-bytes";
+import { CONSTRAINTS } from "./__version__.js";
+import { effectivePin, pinMatches, pinSpec } from "./browser-pin.js";
+import {
+	CamoufoxNotInstalled,
+	CorruptedDownload,
+	FileNotFoundError,
+	MissingRelease,
+	UnsupportedArchitecture,
+	UnsupportedOS,
+	UnsupportedVersion,
+} from "./exceptions.js";
+import {
+	browsersDir,
+	compatFlag,
+	getActivePath,
+	getRepoName,
+	loadConfig,
+	setActive,
+	versionFolderName,
+} from "./multiversion.js";
+
+const ARCH_MAP: { [key: string]: string } = {
+	x64: "x86_64",
+	ia32: "i686",
+	arm64: "arm64",
+	arm: "arm64",
+};
+
+const OS_MAP: { [key: string]: "mac" | "win" | "lin" } = {
+	darwin: "mac",
+	linux: "lin",
+	win32: "win",
+};
+
+function getAuthorizationHeaders(url: string): HeadersInit {
+	const githubToken = process.env.GITHUB_TOKEN;
+	if (!githubToken) return {};
+	const host = new URL(url).hostname;
+	if (host === "api.github.com" || host === "github.com") {
+		return { Authorization: `Bearer ${githubToken}` };
+	}
+	return {};
+}
+
+if (!(process.platform in OS_MAP)) {
+	throw new UnsupportedOS(`OS ${process.platform} is not supported`);
+}
+
+export const OS_NAME: "mac" | "win" | "lin" = OS_MAP[process.platform];
+
+const currentDir =
+	import.meta.dirname ?? path.dirname(fileURLToPath(import.meta.url));
+
+export const INSTALL_DIR: PathLike = process.env.CAMOUFOX_INSTALL_DIR
+	? path.resolve(process.env.CAMOUFOX_INSTALL_DIR)
+	: userCacheDir("camoufox");
+
+const formatBytes = (v: number, _: Options, type: string) =>
+	type === "total" || type === "value" ? prettyBytes(v) : String(v);
+export const LOCAL_DATA: PathLike = path.join(currentDir, "data-files");
+
+export const OS_ARCH_MATRIX: { [key: string]: string[] } = {
+	win: ["x86_64", "i686"],
+	mac: ["x86_64", "arm64"],
+	lin: ["x86_64", "arm64", "i686"],
+};
+
+const LAUNCH_FILE: { [key: string]: string } = {
+	win: "camoufox.exe",
+	mac: "../MacOS/camoufox",
+	lin: "camoufox-bin",
+};
+
+function isPlaywright161OrNewer(): boolean {
+	try {
+		const { version } = createRequire(import.meta.url)(
+			"playwright-core/package.json",
+		);
+		const [major, minor] = version.split(".").map(Number);
+		return major > 1 || (major === 1 && minor >= 61);
+	} catch {
+		return false;
+	}
+}
+
+export class Version {
+	release: string;
+	version?: string;
+	sorted_rel: number[];
+
+	constructor(release: string, version?: string) {
+		this.release = release;
+		this.version = version;
+		this.sorted_rel = this.buildSortedRel();
+	}
+
+	private buildSortedRel(): number[] {
+		const parts = this.release
+			.split(".")
+			.map((x) =>
+				Number.isNaN(Number(x)) ? x.charCodeAt(0) - 1024 : Number(x),
+			);
+		while (parts.length < 5) {
+			parts.push(0);
+		}
+		return parts;
+	}
+
+	get fullString(): string {
+		return `${this.version}-${this.release}`;
+	}
+
+	equals(other: Version): boolean {
+		return this.sorted_rel.join(".") === other.sorted_rel.join(".");
+	}
+
+	lessThan(other: Version): boolean {
+		for (let i = 0; i < this.sorted_rel.length; i++) {
+			if (this.sorted_rel[i] < other.sorted_rel[i]) return true;
+			if (this.sorted_rel[i] > other.sorted_rel[i]) return false;
+		}
+		return false;
+	}
+
+	isSupported(): boolean {
+		return !this.lessThan(VERSION_MIN) && this.lessThan(VERSION_MAX);
+	}
+
+	static fromPath(filePath: PathLike = INSTALL_DIR): Version {
+		const versionPath = path.join(filePath.toString(), "version.json");
+		if (!fs.existsSync(versionPath)) {
+			throw new FileNotFoundError(
+				`Version information not found at ${versionPath}. Please run \`bexxcv fetch\` to install.`,
+			);
+		}
+		const versionData = JSON.parse(fs.readFileSync(versionPath, "utf-8"));
+		return new Version(
+			versionData.build ?? versionData.release,
+			versionData.version,
+		);
+	}
+
+	static isSupportedPath(path: PathLike): boolean {
+		return Version.fromPath(path).isSupported();
+	}
+
+	static buildMinMax(): [Version, Version] {
+		return [
+			new Version(
+				isPlaywright161OrNewer()
+					? CONSTRAINTS.PLAYWRIGHT_1_61_MIN_VERSION
+					: CONSTRAINTS.MIN_VERSION,
+			),
+			new Version(CONSTRAINTS.MAX_VERSION),
+		];
+	}
+}
+
+const [VERSION_MIN, VERSION_MAX] = Version.buildMinMax();
+const SUPPORTED_RANGE = `>=${VERSION_MIN.release}, <${VERSION_MAX.release}`;
+
+export class GitHubDownloader {
+	githubRepo: string;
+	apiUrl: string;
+
+	constructor(githubRepo: string) {
+		this.githubRepo = githubRepo;
+		this.apiUrl = `https://api.github.com/repos/${githubRepo}/releases`;
+	}
+
+	checkAsset(asset: any, _release?: any): any {
+		return asset.browser_download_url;
+	}
+
+	releasesUrl(): string {
+		return this.apiUrl;
+	}
+
+	missingAssetError(): void {
+		throw new MissingRelease(
+			`Could not find a release asset in ${this.githubRepo}.`,
+		);
+	}
+
+	async getAsset(
+		{ retries }: { retries: number } = { retries: 5 },
+	): Promise<any> {
+		let attempts = 0;
+		let response: Response | undefined;
+		const url = this.releasesUrl();
+
+		while (attempts < retries) {
+			try {
+				response = await fetch(url, {
+					headers: getAuthorizationHeaders(url),
+				});
+				if (response.ok) break;
+			} catch (e) {
+				console.error(e, `retrying (${attempts + 1}/${retries})...`);
+				const jn = crypto.getRandomValues(new Uint32Array(1))[0] >>> 0;
+		const jitter = jn / 0x100000000 * 500;
+				const delayMs = Math.min(2_000 * 2 ** attempts + jitter, 30_000);
+				await setTimeout(delayMs);
+			}
+			attempts++;
+		}
+		if (!response || !response.ok) {
+			throw new Error(
+				`Failed to fetch releases from ${url} after ${retries} attempts`,
+			);
+		}
+
+		const data = await response.json();
+		const releases = Array.isArray(data) ? data : [data];
+
+		for (const release of releases) {
+			if (release.prerelease || release.draft) continue;
+			for (const asset of release.assets) {
+				const data = this.checkAsset(asset, release);
+				if (data) {
+					return data;
+				}
+			}
+		}
+
+		this.missingAssetError();
+	}
+}
+
+export class CamoufoxFetcher extends GitHubDownloader {
+	arch: string;
+	_version_obj?: Version;
+	pattern: RegExp;
+	_url?: string;
+	isPrerelease = false;
+	sha256?: string;
+	createdAt?: string;
+
+	constructor() {
+		super("daijro/camoufox");
+		this.arch = CamoufoxFetcher.getPlatformArch();
+		this.pattern = new RegExp(
+			`camoufox-(.+)-(.+)-${OS_NAME}\\.${this.arch}\\.zip`,
+		);
+	}
+
+	async init() {
+		await this.fetchLatest();
+	}
+
+	releasesUrl(): string {
+		const pin = effectivePin(loadConfig());
+		return pin && getRepoName(this.githubRepo) === pin.repoName
+			? `${this.apiUrl}/tags/${pin.tag}`
+			: this.apiUrl;
+	}
+
+	checkAsset(asset: any, release?: any): [Version, string] | null {
+		const match = asset.name.match(this.pattern);
+		if (!match) return null;
+
+		const version = new Version(match[2], match[1]);
+		if (!version.isSupported()) return null;
+
+		const pin = effectivePin(loadConfig());
+		if (
+			pin &&
+			!pinMatches(pin, getRepoName(this.githubRepo), match[1], match[2])
+		) {
+			return null;
+		}
+
+		this.isPrerelease = Boolean(release?.prerelease);
+		this.sha256 = asset.digest?.startsWith("sha256:")
+			? asset.digest.slice("sha256:".length)
+			: undefined;
+		this.createdAt = asset.created_at;
+		return [version, asset.browser_download_url];
+	}
+
+	missingAssetError(): void {
+		throw new MissingRelease(
+			`No matching release found for ${OS_NAME} ${this.arch} in the supported range: (${SUPPORTED_RANGE}). Please update the library.`,
+		);
+	}
+
+	static getPlatformArch(): string {
+		const platArch = os.arch().toLowerCase();
+		if (!(platArch in ARCH_MAP)) {
+			throw new UnsupportedArchitecture(
+				`Architecture ${platArch} is not supported`,
+			);
+		}
+
+		const arch = ARCH_MAP[platArch];
+		if (!OS_ARCH_MATRIX[OS_NAME].includes(arch)) {
+			throw new UnsupportedArchitecture(
+				`Architecture ${arch} is not supported for ${OS_NAME}`,
+			);
+		}
+
+		return arch;
+	}
+
+	async fetchLatest(): Promise<void> {
+		if (this._version_obj) return;
+		const releaseData = await this.getAsset();
+		this._version_obj = releaseData[0];
+		this._url = releaseData[1];
+	}
+
+	static async downloadFile(url: string): Promise<Buffer> {
+		const response = await fetch(url, {
+			headers: getAuthorizationHeaders(url),
+		});
+
+		return Buffer.from(await response.arrayBuffer());
+	}
+
+	async extractZip(
+		zipFile: string | Buffer,
+		destDir: string = INSTALL_DIR.toString(),
+	): Promise<void> {
+		const zip = new AdmZip(zipFile);
+		zip.extractAllTo(destDir, true);
+	}
+
+	static cleanup(): boolean {
+		if (fs.existsSync(INSTALL_DIR)) {
+			fs.rmSync(INSTALL_DIR, { recursive: true });
+			return true;
+		}
+		return false;
+	}
+
+	setVersion(destDir: string = INSTALL_DIR.toString()): void {
+		fs.writeFileSync(
+			path.join(destDir, "version.json"),
+			JSON.stringify({
+				version: this.version,
+				build: this.release,
+				prerelease: this.isPrerelease,
+				sha256: this.sha256 ?? null,
+				created_at: this.createdAt ?? null,
+			}),
+		);
+	}
+
+	private static removeLeftovers(dir: string, prefix: string): void {
+		for (const name of fs.readdirSync(dir)) {
+			if (name.startsWith(prefix) && isStale(path.join(dir, name))) {
+				fs.rmSync(path.join(dir, name), { recursive: true, force: true });
+			}
+		}
+	}
+
+	private static activate(installDir: string, relativePath: string): void {
+		setActive(relativePath);
+		removeLegacyInstall(installDir);
+	}
+
+	async install(): Promise<void> {
+		await this.init();
+		const folder = versionFolderName(this.version, this.release, this.sha256);
+		const relativePath = `browsers/${getRepoName(this.githubRepo)}/${folder}`;
+		const installDir = path.join(INSTALL_DIR.toString(), relativePath);
+		fs.mkdirSync(browsersDir(), { recursive: true });
+		fs.writeFileSync(compatFlag(), "");
+		if (fs.existsSync(path.join(installDir, "version.json"))) {
+			console.log(`Camoufox v${this.verstr} is already installed.`);
+			CamoufoxFetcher.activate(installDir, relativePath);
+			return;
+		}
+
+		const root = fs.realpathSync(INSTALL_DIR);
+		CamoufoxFetcher.removeLeftovers(
+			path.dirname(root),
+			`${path.basename(root)}.staging-`,
+		);
+		CamoufoxFetcher.removeLeftovers(browsersDir(), ".staging-");
+		const stagingDir = fs.mkdtempSync(path.join(browsersDir(), ".staging-"));
+		const tempDir = fs.mkdtempSync(path.join(os.tmpdir(), "camoufox-"));
+		const tempFilePath = path.join(tempDir, "camoufox.zip");
+		const tempFileStream = fs.createWriteStream(tempFilePath);
+		try {
+			await webdl(this.url, "Downloading Camoufox...", true, tempFileStream);
+			await new Promise((r) => tempFileStream.close(r));
+			await verifySha256(tempFilePath, this.sha256, `Camoufox v${this.verstr}`);
+
+			await this.extractZip(tempFilePath, stagingDir);
+			this.setVersion(stagingDir);
+
+			if (OS_NAME !== "win") {
+				execFileSync("chmod", ["-R", "755", stagingDir]);
+			}
+
+			fs.mkdirSync(path.dirname(installDir), { recursive: true });
+			try {
+				fs.renameSync(stagingDir, installDir);
+			} catch (e) {
+				if (!fs.existsSync(path.join(installDir, "version.json"))) {
+					if (!fs.existsSync(installDir)) throw e;
+					if (!isStale(installDir)) {
+						throw new Error(
+							`Another process is installing Camoufox into ${installDir}, try again once it finishes.`,
+						);
+					}
+					fs.rmSync(installDir, { recursive: true, force: true });
+					fs.renameSync(stagingDir, installDir);
+				}
+			}
+			CamoufoxFetcher.activate(installDir, relativePath);
+
+			console.log(`Camoufox successfully installed to ${installDir}.`);
+		} catch (e) {
+			console.error(`Error installing Camoufox: ${e}`);
+			throw e;
+		} finally {
+			try {
+				if (!tempFileStream.closed) {
+					await new Promise<void>((resolve) =>
+						tempFileStream.close(() => resolve()),
+					);
+				}
+				fs.rmSync(tempDir, { recursive: true, force: true });
+				fs.rmSync(stagingDir, { recursive: true, force: true });
+			} catch (cleanupErr) {
+				console.error(`Failed to remove staging dir: ${cleanupErr}`);
+			}
+		}
+	}
+
+	get url(): string {
+		if (!this._url) {
+			throw new Error(
+				"Url is not available. Make sure to run fetchLatest first.",
+			);
+		}
+		return this._url;
+	}
+
+	get version(): string {
+		if (!this._version_obj || !this._version_obj.version) {
+			throw new Error(
+				"Version is not available. Make sure to run fetchLatest first.",
+			);
+		}
+		return this._version_obj.version;
+	}
+
+	get release(): string {
+		if (!this._version_obj) {
+			throw new Error(
+				"Release information is not available. Make sure to run the installation first.",
+			);
+		}
+		return this._version_obj.release;
+	}
+
+	get verstr(): string {
+		if (!this._version_obj) {
+			throw new Error(
+				"Version is not available. Make sure to run the installation first.",
+			);
+		}
+		return this._version_obj.fullString;
+	}
+}
+
+function userCacheDir(appName: string): string {
+	if (OS_NAME === "win") {
+		return path.join(
+			os.homedir(),
+			"AppData",
+			"Local",
+			appName,
+			appName,
+			"Cache",
+		);
+	} else if (OS_NAME === "mac") {
+		return path.join(os.homedir(), "Library", "Caches", appName);
+	} else {
+		const xdg = process.env.XDG_CACHE_HOME;
+		return path.join(
+			xdg && path.isAbsolute(xdg) ? xdg : path.join(os.homedir(), ".cache"),
+			appName,
+		);
+	}
+}
+
+const SHARED_ENTRIES = new Set([
+	".0.5_FLAG",
+	"addons",
+	"browsers",
+	"config.json",
+	"fontconfig",
+	"geoip",
+	"repo_cache.json",
+]);
+
+function isStale(p: string): boolean {
+	try {
+		return Date.now() - fs.statSync(p).mtimeMs > 24 * 60 * 60 * 1000;
+	} catch {
+		return false;
+	}
+}
+
+function removeLegacyInstall(installDir: string): void {
+	const root = INSTALL_DIR.toString();
+	if (!fs.existsSync(path.join(root, "version.json"))) return;
+	try {
+		for (const name of fs.readdirSync(installDir)) {
+			if (!SHARED_ENTRIES.has(name)) {
+				fs.rmSync(path.join(root, name), { recursive: true, force: true });
+			}
+		}
+	} catch (e) {
+		console.warn(`Failed to remove the previous install at ${root}: ${e}`);
+	}
+}
+
+function activeInstallDir(): string {
+	return getActivePath() ?? INSTALL_DIR.toString();
+}
+
+export function installedVerStr(): string {
+	return Version.fromPath(activeInstallDir()).fullString;
+}
+
+export function camoufoxPath(_downloadIfMissing: boolean = true): PathLike {
+	const installDir = activeInstallDir();
+	if (!fs.existsSync(path.join(installDir, "version.json"))) {
+		const pin = effectivePin(loadConfig());
+		throw new CamoufoxNotInstalled(
+			`Camoufox${pin ? ` v${pinSpec(pin)}` : ""} is not installed at ${INSTALL_DIR}. Please run \`bexxcv fetch\` to install.`,
+		);
+	}
+	if (!Version.isSupportedPath(installDir)) {
+		throw new UnsupportedVersion(
+			`Camoufox v${installedVerStr()} is not supported by this library (supported range: ${SUPPORTED_RANGE}). Please run \`bexxcv fetch\` to install a supported version.`,
+		);
+	}
+	return installDir;
+}
+
+let pendingInstall: Promise<void> | undefined;
+
+export async function ensureCamoufoxInstalled(): Promise<void> {
+	if (!effectivePin(loadConfig())) return;
+	const installDir = activeInstallDir();
+	if (
+		fs.existsSync(path.join(installDir, "version.json")) &&
+		Version.isSupportedPath(installDir)
+	) {
+		return;
+	}
+	pendingInstall ??= new CamoufoxFetcher().install().finally(() => {
+		pendingInstall = undefined;
+	});
+	await pendingInstall;
+}
+
+export function getPath(file: string): string {
+	if (OS_NAME === "mac") {
+		return path.resolve(
+			camoufoxPath().toString(),
+			"Camoufox.app",
+			"Contents",
+			"Resources",
+			file,
+		);
+	}
+	return path.join(camoufoxPath().toString(), file);
+}
+
+export function launchPath(): string {
+	const lp = getPath(LAUNCH_FILE[OS_NAME]);
+	if (!fs.existsSync(lp)) {
+		throw new CamoufoxNotInstalled(
+			`Camoufox is not installed at ${camoufoxPath()}. Please run \`bexxcv fetch\` to install.`,
+		);
+	}
+	return lp;
+}
+
+export async function webdl(
+	url: string,
+	desc: string = "",
+	bar: boolean = true,
+	buffer: Writable | null = null,
+	{ retries }: { retries: number } = { retries: 5 },
+): Promise<Buffer> {
+	let attempts = 0;
+	let response: Response | undefined;
+
+	while (attempts < retries) {
+		try {
+			response = await fetch(url, { headers: getAuthorizationHeaders(url) });
+			if (response.ok) break;
+		} catch (e) {
+			console.error(e, `retrying (${attempts + 1}/${retries})...`);
+			const jn = crypto.getRandomValues(new Uint32Array(1))[0] >>> 0;
+		const jitter = jn / 0x100000000 * 500;
+			const delayMs = Math.min(2_000 * 2 ** attempts + jitter, 30_000);
+			await setTimeout(delayMs);
+		}
+		attempts++;
+	}
+
+	if (!response || !response.ok) {
+		throw new Error(`Failed to download from ${url} after ${retries} attempts`);
+	}
+
+	const totalSize = parseInt(response.headers.get("content-length") || "0", 10);
+	let progressBar: cliProgress.SingleBar | null = null;
+	if (bar && totalSize > 0) {
+		progressBar = new cliProgress.SingleBar(
+			{
+				format: `${desc} [{bar}] {percentage}% | ETA: {eta_formatted} | {value}/{total}`,
+				formatValue: formatBytes,
+				noTTYOutput: true,
+			},
+			cliProgress.Presets.shades_classic,
+		);
+		progressBar.start(totalSize, 0);
+	}
+
+	const chunks: Uint8Array[] = [];
+	try {
+		for await (const chunk of (response.body ?? [])) {
+			if (buffer) {
+				buffer.write(chunk);
+			} else {
+				chunks.push(chunk);
+			}
+			if (progressBar) {
+				progressBar.increment(chunk.length);
+			}
+		}
+	} finally {
+		progressBar?.stop();
+	}
+
+	return Buffer.concat(chunks);
+}
+
+async function verifySha256(
+	file: string,
+	expected: string | undefined,
+	desc: string,
+): Promise<void> {
+	if (!expected) {
+		console.warn(`No sha256 published for ${desc}, skipping verification.`);
+		return;
+	}
+	const hash = createHash("sha256");
+	for await (const chunk of fs.createReadStream(file)) {
+		hash.update(chunk);
+	}
+	const actual = hash.digest("hex");
+	if (actual !== expected.toLowerCase()) {
+		throw new CorruptedDownload(
+			`Checksum mismatch for ${desc}: expected sha256 ${expected.toLowerCase()}, got ${actual}.`,
+		);
+	}
+}
+
+export async function unzip(
+	zipFile: Buffer,
+	extractPath: string,
+	desc?: string,
+	bar: boolean = true,
+): Promise<void> {
+	const zip = new AdmZip(zipFile);
+	const zipEntries = zip.getEntries();
+
+	if (bar) {
+		console.log(desc || "Extracting files...");
+	}
+
+	for (const entry of zipEntries) {
+		zip.extractEntryTo(entry, extractPath, true, true);
+	}
+
+	if (bar) {
+		console.log("Extraction complete.");
+	}
+}

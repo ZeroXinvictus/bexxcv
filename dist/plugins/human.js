@@ -1,1 +1,38 @@
-aW1wb3J0IHsgSHVtYW4gfSBmcm9tICIuLi9odW1hbi5qcyI7CmltcG9ydCB7IGJldHdlZW4sIHNsZWVwIH0gZnJvbSAiLi4vcmFuZG9tLmpzIjsKY29uc3QgV1JBUFBFRCA9IG5ldyBXZWFrU2V0KCk7CmV4cG9ydCBmdW5jdGlvbiBodW1hbihvcHRpb25zID0ge30pIHsKICAgIGNvbnN0IHRoaW5rID0gb3B0aW9ucy50aGluayA9PT0gZmFsc2UgPyBudWxsIDogKG9wdGlvbnMudGhpbmsgPz8gWzE1MCwgNzAwXSk7CiAgICBjb25zdCBzcGVlZCA9IG9wdGlvbnMuc3BlZWQgPz8gMTsKICAgIHJldHVybiB7CiAgICAgICAgbmFtZTogImh1bWFuIiwKICAgICAgICBvcmRlcjogNjAsCiAgICAgICAgb25QYWdlKHBhZ2UpIHsKICAgICAgICAgICAgaWYgKFdSQVBQRUQuaGFzKHBhZ2UpKQogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICBXUkFQUEVELmFkZChwYWdlKTsKICAgICAgICAgICAgY29uc3QgYWN0b3IgPSBuZXcgSHVtYW4ocGFnZSwgb3B0aW9ucyk7CiAgICAgICAgICAgIGNvbnN0IHBhdXNlID0gYXN5bmMgKCkgPT4gewogICAgICAgICAgICAgICAgaWYgKHRoaW5rKQogICAgICAgICAgICAgICAgICAgIGF3YWl0IHNsZWVwKGJldHdlZW4odGhpbmtbMF0sIHRoaW5rWzFdKSAvIHNwZWVkKTsKICAgICAgICAgICAgfTsKICAgICAgICAgICAgcGFnZS5jbGljayA9IChhc3luYyAoc2VsZWN0b3IsIGNsaWNrT3B0aW9ucykgPT4gewogICAgICAgICAgICAgICAgYXdhaXQgcGF1c2UoKTsKICAgICAgICAgICAgICAgIGF3YWl0IGFjdG9yLmNsaWNrKHNlbGVjdG9yLCB7IGJ1dHRvbjogY2xpY2tPcHRpb25zPy5idXR0b24gfSk7CiAgICAgICAgICAgIH0pOwogICAgICAgICAgICBwYWdlLmhvdmVyID0gKGFzeW5jIChzZWxlY3RvcikgPT4gewogICAgICAgICAgICAgICAgYXdhaXQgcGF1c2UoKTsKICAgICAgICAgICAgICAgIGF3YWl0IGFjdG9yLmhvdmVyKHNlbGVjdG9yKTsKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIHBhZ2UuZmlsbCA9IChhc3luYyAoc2VsZWN0b3IsIHZhbHVlKSA9PiB7CiAgICAgICAgICAgICAgICBhd2FpdCBwYXVzZSgpOwogICAgICAgICAgICAgICAgYXdhaXQgYWN0b3IuY2xlYXIoc2VsZWN0b3IpOwogICAgICAgICAgICAgICAgYXdhaXQgYWN0b3IudHlwZShudWxsLCB2YWx1ZSk7CiAgICAgICAgICAgIH0pOwogICAgICAgICAgICBwYWdlLnR5cGUgPSAoYXN5bmMgKHNlbGVjdG9yLCB0ZXh0KSA9PiB7CiAgICAgICAgICAgICAgICBhd2FpdCBwYXVzZSgpOwogICAgICAgICAgICAgICAgYXdhaXQgYWN0b3IudHlwZShzZWxlY3RvciwgdGV4dCk7CiAgICAgICAgICAgIH0pOwogICAgICAgIH0sCiAgICB9Owp9Cg==
+import { Human } from "../human.js";
+import { between, sleep } from "../random.js";
+const WRAPPED = new WeakSet();
+export function human(options = {}) {
+    const think = options.think === false ? null : (options.think ?? [150, 700]);
+    const speed = options.speed ?? 1;
+    return {
+        name: "human",
+        order: 60,
+        onPage(page) {
+            if (WRAPPED.has(page))
+                return;
+            WRAPPED.add(page);
+            const actor = new Human(page, options);
+            const pause = async () => {
+                if (think)
+                    await sleep(between(think[0], think[1]) / speed);
+            };
+            page.click = (async (selector, clickOptions) => {
+                await pause();
+                await actor.click(selector, { button: clickOptions?.button });
+            });
+            page.hover = (async (selector) => {
+                await pause();
+                await actor.hover(selector);
+            });
+            page.fill = (async (selector, value) => {
+                await pause();
+                await actor.clear(selector);
+                await actor.type(null, value);
+            });
+            page.type = (async (selector, text) => {
+                await pause();
+                await actor.type(selector, text);
+            });
+        },
+    };
+}

@@ -1,1 +1,23 @@
-aW1wb3J0IHsgSW52YWxpZElQLCBJbnZhbGlkUHJveHkgfSBmcm9tICIuL2V4Y2VwdGlvbnMuanMiOwpleHBvcnQgeyBJbnZhbGlkSVAsIEludmFsaWRQcm94eSB9OwpleHBvcnQgaW50ZXJmYWNlIFByb3h5IHsKICAgIHNlcnZlcjogc3RyaW5nOwogICAgdXNlcm5hbWU/OiBzdHJpbmc7CiAgICBwYXNzd29yZD86IHN0cmluZzsKICAgIGJ5cGFzcz86IHN0cmluZzsKfQpleHBvcnQgZGVjbGFyZSBjbGFzcyBQcm94eUhlbHBlciB7CiAgICBzdGF0aWMgcGFyc2VTZXJ2ZXIoc2VydmVyOiBzdHJpbmcpOiB7CiAgICAgICAgc2NoZW1hOiBzdHJpbmc7CiAgICAgICAgdXJsOiBzdHJpbmc7CiAgICAgICAgcG9ydD86IHN0cmluZzsKICAgIH07CiAgICBzdGF0aWMgYXNTdHJpbmcocHJveHk6IFByb3h5KTogc3RyaW5nOwogICAgc3RhdGljIGFzQXhpb3NQcm94eShwcm94eVN0cmluZzogc3RyaW5nKTogewogICAgICAgIFtrZXk6IHN0cmluZ106IHN0cmluZzsKICAgIH07Cn0KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gdmFsaWRJUHY0KGlwOiBzdHJpbmcgfCBmYWxzZSk6IGJvb2xlYW47CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHZhbGlkSVB2NihpcDogc3RyaW5nIHwgZmFsc2UpOiBib29sZWFuOwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiB2YWxpZGF0ZUlQKGlwOiBzdHJpbmcpOiB2b2lkOwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBwdWJsaWNJUChwcm94eT86IHN0cmluZyk6IFByb21pc2U8c3RyaW5nPjsK
+import { InvalidIP, InvalidProxy } from "./exceptions.js";
+export { InvalidIP, InvalidProxy };
+export interface Proxy {
+    server: string;
+    username?: string;
+    password?: string;
+    bypass?: string;
+}
+export declare class ProxyHelper {
+    static parseServer(server: string): {
+        schema: string;
+        url: string;
+        port?: string;
+    };
+    static asString(proxy: Proxy): string;
+    static asAxiosProxy(proxyString: string): {
+        [key: string]: string;
+    };
+}
+export declare function validIPv4(ip: string | false): boolean;
+export declare function validIPv6(ip: string | false): boolean;
+export declare function validateIP(ip: string): void;
+export declare function publicIP(proxy?: string): Promise<string>;

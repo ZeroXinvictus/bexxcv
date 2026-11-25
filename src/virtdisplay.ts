@@ -1,1 +1,187 @@
-aW1wb3J0IHsgdHlwZSBDaGlsZFByb2Nlc3MsIGV4ZWNGaWxlU3luYywgc3Bhd24gfSBmcm9tICJub2RlOmNoaWxkX3Byb2Nlc3MiOwppbXBvcnQgeyBhY2Nlc3NTeW5jLCBjb25zdGFudHMgYXMgZnNDb25zdGFudHMsIHVubGlua1N5bmMgfSBmcm9tICJub2RlOmZzIjsKaW1wb3J0IHR5cGUgeyBSZWFkYWJsZSB9IGZyb20gIm5vZGU6c3RyZWFtIjsKaW1wb3J0IHsKCUNhbm5vdEV4ZWN1dGVYdmZiLAoJQ2Fubm90RmluZFh2ZmIsCglWaXJ0dWFsRGlzcGxheU5vdFN1cHBvcnRlZCwKfSBmcm9tICIuL2V4Y2VwdGlvbnMuanMiOwppbXBvcnQgeyBPU19OQU1FIH0gZnJvbSAiLi9wa2dtYW4uanMiOwoKY29uc3QgRElTUExBWUZEX1JFQURfVElNRU9VVF9NUyA9IE51bWJlcihwcm9jZXNzLmVudi5CRVhYQ1ZfWFZGQl9GRF9USU1FT1VUX01TKSB8fCAxMF8wMDA7CmNvbnN0IEdSQUNFRlVMX1NIVVRET1dOX1RJTUVPVVRfTVMgPSBOdW1iZXIocHJvY2Vzcy5lbnYuQkVYWENWX1hWRkJfR1JBQ0VGVUxfVElNRU9VVF9NUykgfHwgM18wMDA7CgpleHBvcnQgY2xhc3MgVmlydHVhbERpc3BsYXkgewoJcHJpdmF0ZSBkZWJ1ZzogYm9vbGVhbjsKCXByaXZhdGUgcHJvYzogQ2hpbGRQcm9jZXNzIHwgbnVsbCA9IG51bGw7Cglwcml2YXRlIF9kaXNwbGF5OiBudW1iZXIgfCBudWxsID0gbnVsbDsKCgljb25zdHJ1Y3RvcihkZWJ1ZzogYm9vbGVhbiA9IGZhbHNlKSB7CgkJdGhpcy5kZWJ1ZyA9IGRlYnVnOwoJfQoKCXByaXZhdGUgZ2V0IHh2ZmJfYXJncygpOiBzdHJpbmdbXSB7CgkJcmV0dXJuIFsKCQkJIi1zY3JlZW4iLAoJCQkiMCIsCgkJCSIxeDF4MjQiLAoJCQkiLWFjIiwKCQkJIi1ub2xpc3RlbiIsCgkJCSJ0Y3AiLAoJCQkiLWV4dGVuc2lvbiIsCgkJCSJSRU5ERVIiLAoJCQkiK2V4dGVuc2lvbiIsCgkJCSJHTFgiLAoJCQkiLWV4dGVuc2lvbiIsCgkJCSJDT01QT1NJVEUiLAoJCQkiLWV4dGVuc2lvbiIsCgkJCSJYVmlkZW8iLAoJCQkiLWV4dGVuc2lvbiIsCgkJCSJYVmlkZW8tTW90aW9uQ29tcGVuc2F0aW9uIiwKCQkJIi1leHRlbnNpb24iLAoJCQkiWElORVJBTUEiLAoJCQkiLWZwIiwKCQkJImJ1aWx0LWlucyIsCgkJCSItbm9jdXJzb3IiLAoJCQkiLWJyIiwKCQldOwoJfQoKCXByaXZhdGUgZ2V0IHh2ZmJfcGF0aCgpOiBzdHJpbmcgewoJCWxldCByZXNvbHZlZDogc3RyaW5nOwoJCXRyeSB7CgkJCXJlc29sdmVkID0gZXhlY0ZpbGVTeW5jKCJ3aGljaCIsIFsiWHZmYiJdKS50b1N0cmluZygpLnRyaW0oKTsKCQl9IGNhdGNoIHsKCQkJdGhyb3cgbmV3IENhbm5vdEZpbmRYdmZiKAoJCQkJIlh2ZmIgbm90IGZvdW5kLiBJbnN0YWxsIGl0IHdpdGg6IHN1ZG8gYXB0LWdldCBpbnN0YWxsIHh2ZmIiLAoJCQkpOwoJCX0KCQlpZiAoIXJlc29sdmVkKSB7CgkJCXRocm93IG5ldyBDYW5ub3RGaW5kWHZmYigKCQkJCSJYdmZiIG5vdCBmb3VuZC4gSW5zdGFsbCBpdCB3aXRoOiBzdWRvIGFwdC1nZXQgaW5zdGFsbCB4dmZiIiwKCQkJKTsKCQl9CgkJdHJ5IHsKCQkJYWNjZXNzU3luYyhyZXNvbHZlZCwgZnNDb25zdGFudHMuWF9PSyk7CgkJfSBjYXRjaCB7CgkJCXRocm93IG5ldyBDYW5ub3RFeGVjdXRlWHZmYigKCQkJCWBObyBleGVjdXRlIHBlcm1pc3Npb24gb24gWHZmYjogJHtyZXNvbHZlZH1gLAoJCQkpOwoJCX0KCQlyZXR1cm4gcmVzb2x2ZWQ7Cgl9CgoJcHJpdmF0ZSBzcGF3blh2ZmIoKTogQ2hpbGRQcm9jZXNzIHsKCQljb25zdCB4dmZiUGF0aCA9IHRoaXMueHZmYl9wYXRoOwoJCWNvbnN0IGNtZCA9IFt4dmZiUGF0aCwgIi1kaXNwbGF5ZmQiLCAiMyIsIC4uLnRoaXMueHZmYl9hcmdzXTsKCQlpZiAodGhpcy5kZWJ1ZykgewoJCQljb25zb2xlLmxvZygiU3RhcnRpbmcgdmlydHVhbCBkaXNwbGF5OiIsIGNtZC5qb2luKCIgIikpOwoJCX0KCQlyZXR1cm4gc3Bhd24oY21kWzBdLCBjbWQuc2xpY2UoMSksIHsKCQkJc3RkaW86IFsKCQkJCSJpZ25vcmUiLAoJCQkJdGhpcy5kZWJ1ZyA/ICJpbmhlcml0IiA6ICJpZ25vcmUiLAoJCQkJdGhpcy5kZWJ1ZyA/ICJpbmhlcml0IiA6ICJpZ25vcmUiLAoJCQkJInBpcGUiLAoJCQldLAoJCQlkZXRhY2hlZDogdHJ1ZSwKCQkJZW52OiB7CgkJCQkuLi5wcm9jZXNzLmVudiwKCQkJCV9fR0xYX1ZFTkRPUl9MSUJSQVJZX05BTUU6ICJtZXNhIiwKCQkJCUxJQkdMX0FMV0FZU19TT0ZUV0FSRTogIjEiLAoJCQl9LAoJCX0pOwoJfQoKCXB1YmxpYyBhc3luYyBnZXQoKTogUHJvbWlzZTxzdHJpbmc+IHsKCQlWaXJ0dWFsRGlzcGxheS5hc3NlcnRfbGludXgoKTsKCgkJaWYgKCF0aGlzLnByb2MpIHsKCQkJdGhpcy5wcm9jID0gdGhpcy5zcGF3blh2ZmIoKTsKCQkJY29uc3Qgc3RyZWFtID0gdGhpcy5wcm9jLnN0ZGlvWzNdIGFzIFJlYWRhYmxlOwoJCQljb25zdCB0aW1lciA9IHNldFRpbWVvdXQoCgkJCQkoKSA9PgoJCQkJCXN0cmVhbS5kZXN0cm95KAoJCQkJCQluZXcgQ2Fubm90RXhlY3V0ZVh2ZmIoCgkJCQkJCQlgWHZmYiBkaWQgbm90IHJlcG9ydCBhIGRpc3BsYXkgd2l0aGluICR7RElTUExBWUZEX1JFQURfVElNRU9VVF9NU31tc2AsCgkJCQkJCSksCgkJCQkJKSwKCQkJCURJU1BMQVlGRF9SRUFEX1RJTUVPVVRfTVMsCgkJCSk7CgkJCWxldCBidWYgPSAiIjsKCQkJdHJ5IHsKCQkJCWZvciBhd2FpdCAoY29uc3QgY2h1bmsgb2Ygc3RyZWFtKSB7CgkJCQkJYnVmICs9IGNodW5rOwoJCQkJCWlmIChidWYuaW5jbHVkZXMoIlxuIikpIGJyZWFrOwoJCQkJfQoJCQl9IGNhdGNoIChlcnIpIHsKCQkJCXRoaXMua2lsbCgpOwoJCQkJdGhyb3cgZXJyOwoJCQl9IGZpbmFsbHkgewoJCQkJY2xlYXJUaW1lb3V0KHRpbWVyKTsKCQkJfQoJCQljb25zdCBuID0gTnVtYmVyLnBhcnNlSW50KGJ1ZiwgMTApOwoJCQlpZiAoIU51bWJlci5pc0Zpbml0ZShuKSkgewoJCQkJdGhpcy5raWxsKCk7CgkJCQl0aHJvdyBuZXcgQ2Fubm90RXhlY3V0ZVh2ZmIoCgkJCQkJYFh2ZmIgZGlkIG5vdCByZXBvcnQgYSBkaXNwbGF5IChnb3QgJHtKU09OLnN0cmluZ2lmeShidWYpfSwgZXhpdD0ke3RoaXMucHJvYy5leGl0Q29kZX0pYCwKCQkJCSk7CgkJCX0KCQkJdGhpcy5fZGlzcGxheSA9IG47CgkJfSBlbHNlIGlmICh0aGlzLmRlYnVnKSB7CgkJCWNvbnNvbGUubG9nKGBVc2luZyB2aXJ0dWFsIGRpc3BsYXk6ICR7dGhpcy5fZGlzcGxheX1gKTsKCQl9CgoJCXJldHVybiBgOiR7dGhpcy5fZGlzcGxheX1gOwoJfQoKCXB1YmxpYyBraWxsKCk6IHZvaWQgewoJCWNvbnN0IHByb2MgPSB0aGlzLnByb2M7CgkJY29uc3QgZGlzcGxheSA9IHRoaXMuX2Rpc3BsYXk7CgkJaWYgKCFwcm9jIHx8IHByb2MuZXhpdENvZGUgIT09IG51bGwgfHwgcHJvYy5raWxsZWQpIHJldHVybjsKCQlpZiAodGhpcy5kZWJ1ZykgewoJCQljb25zb2xlLmxvZygiVGVybWluYXRpbmcgdmlydHVhbCBkaXNwbGF5OiIsIGRpc3BsYXkpOwoJCX0KCQljb25zdCBjbGVhbnVwTG9jayA9ICgpID0+IHsKCQkJdHJ5IHsKCQkJCXVubGlua1N5bmMoYC90bXAvLlgke2Rpc3BsYXl9LWxvY2tgKTsKCQkJfSBjYXRjaCB7CgkJCX0KCQkJdHJ5IHsKCQkJCXVubGlua1N5bmMoYC90bXAvLlgxMS11bml4L1gke2Rpc3BsYXl9YCk7CgkJCX0gY2F0Y2ggewoJCQl9CgkJfTsKCgkJY29uc3QgdHJ5Q2xlYW51cCA9ICgpID0+IHsKCQkJcHJvYy5yZW1vdmVMaXN0ZW5lcigiZXhpdCIsIHRyeUNsZWFudXApOwoJCQljbGVhbnVwTG9jaygpOwoJCX07CgkJcHJvYy5vbmNlKCJleGl0IiwgdHJ5Q2xlYW51cCk7CgoJCXByb2Mua2lsbCgiU0lHVEVSTSIpOwoKCQljb25zdCBzaHV0ZG93blRpbWVyID0gc2V0VGltZW91dCgoKSA9PiB7CgkJCXByb2MucmVtb3ZlTGlzdGVuZXIoImV4aXQiLCB0cnlDbGVhbnVwKTsKCQkJaWYgKHByb2MuZXhpdENvZGUgPT09IG51bGwgJiYgIXByb2Mua2lsbGVkKSB7CgkJCQlpZiAodGhpcy5kZWJ1ZykgewoJCQkJCWNvbnNvbGUubG9nKCJYdmZiIGRpZCBub3QgZXhpdCBhZnRlciBTSUdURVJNLCBzZW5kaW5nIFNJR0tJTEwiKTsKCQkJCX0KCQkJCXByb2Mua2lsbCgiU0lHS0lMTCIpOwoJCQkJY2xlYW51cExvY2soKTsKCQkJfQoJCX0sIEdSQUNFRlVMX1NIVVRET1dOX1RJTUVPVVRfTVMpOwoKCQlpZiAoIXNodXRkb3duVGltZXIudW5yZWYpIHsKCQkJc2h1dGRvd25UaW1lci51bnJlZigpOwoJCX0KCX0KCglwcml2YXRlIHN0YXRpYyBhc3NlcnRfbGludXgoKTogdm9pZCB7CgkJaWYgKE9TX05BTUUgIT09ICJsaW4iKSB7CgkJCXRocm93IG5ldyBWaXJ0dWFsRGlzcGxheU5vdFN1cHBvcnRlZCgKCQkJCSJWaXJ0dWFsIGRpc3BsYXkgaXMgb25seSBzdXBwb3J0ZWQgb24gTGludXguIiwKCQkJKTsKCQl9Cgl9Cn0K
+import { type ChildProcess, execFileSync, spawn } from "node:child_process";
+import { accessSync, constants as fsConstants, unlinkSync } from "node:fs";
+import type { Readable } from "node:stream";
+import {
+	CannotExecuteXvfb,
+	CannotFindXvfb,
+	VirtualDisplayNotSupported,
+} from "./exceptions.js";
+import { OS_NAME } from "./pkgman.js";
+
+const DISPLAYFD_READ_TIMEOUT_MS = Number(process.env.BEXXCV_XVFB_FD_TIMEOUT_MS) || 10_000;
+const GRACEFUL_SHUTDOWN_TIMEOUT_MS = Number(process.env.BEXXCV_XVFB_GRACEFUL_TIMEOUT_MS) || 3_000;
+
+export class VirtualDisplay {
+	private debug: boolean;
+	private proc: ChildProcess | null = null;
+	private _display: number | null = null;
+
+	constructor(debug: boolean = false) {
+		this.debug = debug;
+	}
+
+	private get xvfb_args(): string[] {
+		return [
+			"-screen",
+			"0",
+			"1x1x24",
+			"-ac",
+			"-nolisten",
+			"tcp",
+			"-extension",
+			"RENDER",
+			"+extension",
+			"GLX",
+			"-extension",
+			"COMPOSITE",
+			"-extension",
+			"XVideo",
+			"-extension",
+			"XVideo-MotionCompensation",
+			"-extension",
+			"XINERAMA",
+			"-fp",
+			"built-ins",
+			"-nocursor",
+			"-br",
+		];
+	}
+
+	private get xvfb_path(): string {
+		let resolved: string;
+		try {
+			resolved = execFileSync("which", ["Xvfb"]).toString().trim();
+		} catch {
+			throw new CannotFindXvfb(
+				"Xvfb not found. Install it with: sudo apt-get install xvfb",
+			);
+		}
+		if (!resolved) {
+			throw new CannotFindXvfb(
+				"Xvfb not found. Install it with: sudo apt-get install xvfb",
+			);
+		}
+		try {
+			accessSync(resolved, fsConstants.X_OK);
+		} catch {
+			throw new CannotExecuteXvfb(
+				`No execute permission on Xvfb: ${resolved}`,
+			);
+		}
+		return resolved;
+	}
+
+	private spawnXvfb(): ChildProcess {
+		const xvfbPath = this.xvfb_path;
+		const cmd = [xvfbPath, "-displayfd", "3", ...this.xvfb_args];
+		if (this.debug) {
+			console.log("Starting virtual display:", cmd.join(" "));
+		}
+		return spawn(cmd[0], cmd.slice(1), {
+			stdio: [
+				"ignore",
+				this.debug ? "inherit" : "ignore",
+				this.debug ? "inherit" : "ignore",
+				"pipe",
+			],
+			detached: true,
+			env: {
+				...process.env,
+				__GLX_VENDOR_LIBRARY_NAME: "mesa",
+				LIBGL_ALWAYS_SOFTWARE: "1",
+			},
+		});
+	}
+
+	public async get(): Promise<string> {
+		VirtualDisplay.assert_linux();
+
+		if (!this.proc) {
+			this.proc = this.spawnXvfb();
+			const stream = this.proc.stdio[3] as Readable;
+			const timer = setTimeout(
+				() =>
+					stream.destroy(
+						new CannotExecuteXvfb(
+							`Xvfb did not report a display within ${DISPLAYFD_READ_TIMEOUT_MS}ms`,
+						),
+					),
+				DISPLAYFD_READ_TIMEOUT_MS,
+			);
+			let buf = "";
+			try {
+				for await (const chunk of stream) {
+					buf += chunk;
+					if (buf.includes("\n")) break;
+				}
+			} catch (err) {
+				this.kill();
+				throw err;
+			} finally {
+				clearTimeout(timer);
+			}
+			const n = Number.parseInt(buf, 10);
+			if (!Number.isFinite(n)) {
+				this.kill();
+				throw new CannotExecuteXvfb(
+					`Xvfb did not report a display (got ${JSON.stringify(buf)}, exit=${this.proc.exitCode})`,
+				);
+			}
+			this._display = n;
+		} else if (this.debug) {
+			console.log(`Using virtual display: ${this._display}`);
+		}
+
+		return `:${this._display}`;
+	}
+
+	public kill(): void {
+		const proc = this.proc;
+		const display = this._display;
+		if (!proc || proc.exitCode !== null || proc.killed) return;
+		if (this.debug) {
+			console.log("Terminating virtual display:", display);
+		}
+		const cleanupLock = () => {
+			try {
+				unlinkSync(`/tmp/.X${display}-lock`);
+			} catch {
+			}
+			try {
+				unlinkSync(`/tmp/.X11-unix/X${display}`);
+			} catch {
+			}
+		};
+
+		const tryCleanup = () => {
+			proc.removeListener("exit", tryCleanup);
+			cleanupLock();
+		};
+		proc.once("exit", tryCleanup);
+
+		proc.kill("SIGTERM");
+
+		const shutdownTimer = setTimeout(() => {
+			proc.removeListener("exit", tryCleanup);
+			if (proc.exitCode === null && !proc.killed) {
+				if (this.debug) {
+					console.log("Xvfb did not exit after SIGTERM, sending SIGKILL");
+				}
+				proc.kill("SIGKILL");
+				cleanupLock();
+			}
+		}, GRACEFUL_SHUTDOWN_TIMEOUT_MS);
+
+		if (!shutdownTimer.unref) {
+			shutdownTimer.unref();
+		}
+	}
+
+	private static assert_linux(): void {
+		if (OS_NAME !== "lin") {
+			throw new VirtualDisplayNotSupported(
+				"Virtual display is only supported on Linux.",
+			);
+		}
+	}
+}

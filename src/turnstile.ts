@@ -1,1 +1,199 @@
-aW1wb3J0IHR5cGUgeyBCcm93c2VyLCBCcm93c2VyQ29udGV4dCwgUGFnZSB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB7IG9uRWFjaFBhZ2UgfSBmcm9tICIuL3BhZ2Vob29rcy5qcyI7CmltcG9ydCB7IGJldHdlZW4sIHNsZWVwIH0gZnJvbSAiLi9yYW5kb20uanMiOwoKZXhwb3J0IGludGVyZmFjZSBUdXJuc3RpbGVPcHRpb25zIHsKCS8qKiBQb2xsaW5nIGludGVydmFsIGZvciBjaGVja2luZyB3aWRnZXQgc3RhdGUgKG1zKS4gKi8KCWludGVydmFsPzogbnVtYmVyOwoJLyoqIE1pbmltdW0gdGltZSBiZXR3ZWVuIHJlcGVhdGVkIGNsaWNrcyBvbiB0aGUgc2FtZSB3aWRnZXQgKG1zKS4gKi8KCXJldHJ5QWZ0ZXI/OiBudW1iZXI7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgV2lkZ2V0IHsKCXg6IG51bWJlcjsKCXk6IG51bWJlcjsKCXc6IG51bWJlcjsKCWg6IG51bWJlcjsKCXNvbHZlZDogYm9vbGVhbjsKCWtleTogc3RyaW5nOwp9Cgpjb25zdCBXQVRDSEVEID0gbmV3IFdlYWtTZXQ8b2JqZWN0PigpOwoKLy8gLS0tIFdpZGdldCBkaXNjb3ZlcnkgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiBmaW5kV2lkZ2V0cyhwYWdlOiBQYWdlKTogUHJvbWlzZTxXaWRnZXRbXT4gewoJcmV0dXJuIHBhZ2UuZXZhbHVhdGUoKCkgPT4gewoJCWNvbnN0IG91dDogV2lkZ2V0W10gPSBbXTsKCQljb25zdCBzZWVuID0gbmV3IFNldDxzdHJpbmc+KCk7CgoJCWNvbnN0IHB1c2ggPSAoZWw6IEVsZW1lbnQsIHNvbHZlZDogYm9vbGVhbikgPT4gewoJCQlsZXQgcmVjdCA9IGVsLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwoJCQlpZiAocmVjdC53aWR0aCA8IDEwIHx8IHJlY3QuaGVpZ2h0IDwgMTApIHJldHVybjsKCQkJaWYgKCFzb2x2ZWQgJiYgKHJlY3QudG9wIDwgMCB8fCByZWN0LmJvdHRvbSA+IHdpbmRvdy5pbm5lckhlaWdodCkpIHsKCQkJCWVsLnNjcm9sbEludG9WaWV3KHsgYmxvY2s6ICJjZW50ZXIiLCBiZWhhdmlvcjogImluc3RhbnQiIGFzIFNjcm9sbEJlaGF2aW9yIH0pOwoJCQkJcmVjdCA9IGVsLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwoJCQl9CgkJCWNvbnN0IGtleSA9IGAke01hdGgucm91bmQocmVjdC54ICsgd2luZG93LnNjcm9sbFgpfToke01hdGgucm91bmQocmVjdC55ICsgd2luZG93LnNjcm9sbFkpfToke01hdGgucm91bmQocmVjdC53aWR0aCl9YDsKCQkJaWYgKHNlZW4uaGFzKGtleSkpIHJldHVybjsKCQkJc2Vlbi5hZGQoa2V5KTsKCQkJb3V0LnB1c2goeyB4OiByZWN0LngsIHk6IHJlY3QueSwgdzogcmVjdC53aWR0aCwgaDogcmVjdC5oZWlnaHQsIHNvbHZlZCwga2V5IH0pOwoJCX07CgoJCS8vIDEuIEltcGxpY2l0IHJlbmRlcmluZzogaGlkZGVuIGlucHV0IHdpdGggdGhlIHRva2VuCgkJZm9yIChjb25zdCBpbnB1dCBvZiBBcnJheS5mcm9tKAoJCQlkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsPEhUTUxJbnB1dEVsZW1lbnQ+KCdbbmFtZT0iY2YtdHVybnN0aWxlLXJlc3BvbnNlIl0nKSwKCQkpKSB7CgkJCWNvbnN0IHBhcmVudCA9IGlucHV0LnBhcmVudEVsZW1lbnQ7CgkJCWlmICghcGFyZW50KSBjb250aW51ZTsKCQkJcHVzaChwYXJlbnQsICEhKGlucHV0LnZhbHVlICYmIGlucHV0LnZhbHVlLmxlbmd0aCA+IDIwKSk7CgkJfQoKCQkvLyAyLiBGYWxsYmFjazogYmFyZSB3aWRnZXQgYm94IGhldXJpc3RpYyAod2lkdGggfjMwMHB4LCBlbXB0eSwgY29tcGFjdCkKCQlpZiAob3V0Lmxlbmd0aCA9PT0gMCkgewoJCQlmb3IgKGNvbnN0IHN0cmljdCBvZiBbdHJ1ZSwgZmFsc2VdKSB7CgkJCQlmb3IgKGNvbnN0IGRpdiBvZiBBcnJheS5mcm9tKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoImRpdiIpKSkgewoJCQkJCWNvbnN0IHJlY3QgPSBkaXYuZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCk7CgkJCQkJaWYgKHJlY3Qud2lkdGggPD0gMjkwIHx8IHJlY3Qud2lkdGggPiAzMTAgfHwgZGl2LnF1ZXJ5U2VsZWN0b3IoIioiKSkgY29udGludWU7CgkJCQkJaWYgKHN0cmljdCkgewoJCQkJCQljb25zdCBjc3MgPSB3aW5kb3cuZ2V0Q29tcHV0ZWRTdHlsZShkaXYpOwoJCQkJCQlpZiAoY3NzLm1hcmdpbiAhPT0gIjBweCIgfHwgY3NzLnBhZGRpbmcgIT09ICIwcHgiKSBjb250aW51ZTsKCQkJCQl9CgkJCQkJcHVzaChkaXYsIGZhbHNlKTsKCQkJCX0KCQkJCWlmIChvdXQubGVuZ3RoID4gMCkgYnJlYWs7CgkJCX0KCQl9CgoJCXJldHVybiBvdXQ7Cgl9KTsKfQoKLy8gLS0tIFRva2VuIHJlYWRpbmcgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmV4cG9ydCBhc3luYyBmdW5jdGlvbiByZWFkVHVybnN0aWxlVG9rZW4ocGFnZTogUGFnZSk6IFByb21pc2U8c3RyaW5nIHwgbnVsbD4gewoJdHJ5IHsKCQlyZXR1cm4gYXdhaXQgcGFnZS5ldmFsdWF0ZSgoKSA9PiB7CgkJCWZvciAoY29uc3QgZWwgb2YgQXJyYXkuZnJvbSgKCQkJCWRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGw8SFRNTElucHV0RWxlbWVudD4oJ1tuYW1lPSJjZi10dXJuc3RpbGUtcmVzcG9uc2UiXScpLAoJCQkpKSB7CgkJCQlpZiAoZWwudmFsdWUgJiYgZWwudmFsdWUubGVuZ3RoID4gMjApIHJldHVybiBlbC52YWx1ZTsKCQkJfQoJCQl0cnkgewoJCQkJY29uc3QgdyA9IHdpbmRvdyBhcyB1bmtub3duIGFzIHsKCQkJCQl0dXJuc3RpbGU/OiB7IGdldFJlc3BvbnNlPzogKCkgPT4gc3RyaW5nIHwgdW5kZWZpbmVkIH07CgkJCQl9OwoJCQkJY29uc3QgdmFsdWUgPSB3LnR1cm5zdGlsZT8uZ2V0UmVzcG9uc2U/LigpOwoJCQkJaWYgKHZhbHVlICYmIHZhbHVlLmxlbmd0aCA+IDIwKSByZXR1cm4gdmFsdWU7CgkJCX0gY2F0Y2ggewoJCQkJcmV0dXJuIG51bGw7CgkJCX0KCQkJcmV0dXJuIG51bGw7CgkJfSk7Cgl9IGNhdGNoIHsKCQlyZXR1cm4gbnVsbDsKCX0KfQoKLy8gLS0tIENsaWNrIGhlbHBlcnMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KCmFzeW5jIGZ1bmN0aW9uIGNsaWNrQXQocGFnZTogUGFnZSwgeDogbnVtYmVyLCB5OiBudW1iZXIpOiBQcm9taXNlPHZvaWQ+IHsKCWF3YWl0IHBhZ2UubW91c2UubW92ZSh4ICsgYmV0d2VlbigtNjAsIDYwKSwgeSArIGJldHdlZW4oLTQwLCA0MCksIHsgc3RlcHM6IDQgfSk7Cglhd2FpdCBzbGVlcChiZXR3ZWVuKDYwLCAxNjApKTsKCWF3YWl0IHBhZ2UubW91c2UubW92ZSh4LCB5LCB7IHN0ZXBzOiBNYXRoLmZsb29yKGJldHdlZW4oOCwgMTYpKSB9KTsKCWF3YWl0IHNsZWVwKGJldHdlZW4oNjAsIDE0MCkpOwoJYXdhaXQgcGFnZS5tb3VzZS5kb3duKCk7Cglhd2FpdCBzbGVlcChiZXR3ZWVuKDYwLCAxMjApKTsKCWF3YWl0IHBhZ2UubW91c2UudXAoKTsKfQoKYXN5bmMgZnVuY3Rpb24gY2xpY2tQZW5kaW5nKAoJcGFnZTogUGFnZSwKCWNsaWNrZWQ6IE1hcDxzdHJpbmcsIG51bWJlcj4sCglyZXRyeUFmdGVyOiBudW1iZXIsCik6IFByb21pc2U8eyB3aWRnZXRzOiBXaWRnZXRbXTsgY2xpY2tzOiBudW1iZXIgfT4gewoJY29uc3Qgd2lkZ2V0cyA9IGF3YWl0IGZpbmRXaWRnZXRzKHBhZ2UpOwoJbGV0IGNsaWNrcyA9IDA7Cglmb3IgKGNvbnN0IHdpZGdldCBvZiB3aWRnZXRzKSB7CgkJaWYgKHdpZGdldC5zb2x2ZWQpIGNvbnRpbnVlOwoJCWNvbnN0IGxhc3QgPSBjbGlja2VkLmdldCh3aWRnZXQua2V5KSA/PyAwOwoJCWlmIChEYXRlLm5vdygpIC0gbGFzdCA8IHJldHJ5QWZ0ZXIpIGNvbnRpbnVlOwoJCWNsaWNrZWQuc2V0KHdpZGdldC5rZXksIERhdGUubm93KCkpOwoJCWNvbnN0IHggPSB3aWRnZXQueCArIE1hdGgubWluKDMwLCB3aWRnZXQudyAvIDIpICsgYmV0d2VlbigtNCwgNCk7CgkJY29uc3QgeSA9IHdpZGdldC55ICsgd2lkZ2V0LmggLyAyICsgYmV0d2VlbigtNCwgNCk7CgkJYXdhaXQgY2xpY2tBdChwYWdlLCB4LCB5KTsKCQljbGlja3MrKzsKCX0KCXJldHVybiB7IHdpZGdldHMsIGNsaWNrcyB9Owp9CgpleHBvcnQgZnVuY3Rpb24gY3JlYXRlQ2xpY2tlcihyZXRyeUFmdGVyID0gODAwMCk6IChwYWdlOiBQYWdlKSA9PiBQcm9taXNlPGJvb2xlYW4+IHsKCWNvbnN0IGNsaWNrZWQgPSBuZXcgTWFwPHN0cmluZywgbnVtYmVyPigpOwoJcmV0dXJuIGFzeW5jIChwYWdlKSA9PiB7CgkJY29uc3QgcmVzdWx0ID0gYXdhaXQgY2xpY2tQZW5kaW5nKHBhZ2UsIGNsaWNrZWQsIHJldHJ5QWZ0ZXIpOwoJCXJldHVybiByZXN1bHQuY2xpY2tzID4gMDsKCX07Cn0KCi8vIC0tLSBTb2x2ZSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc29sdmVUdXJuc3RpbGUoCglwYWdlOiBQYWdlLAoJdGltZW91dCA9IDMwMDAwLAoJaWRsZUNoZWNrcyA9IDQsCglyZXRyeUFmdGVyID0gODAwMCwKKTogUHJvbWlzZTxzdHJpbmcgfCBudWxsPiB7Cgljb25zdCBlbmQgPSBEYXRlLm5vdygpICsgdGltZW91dDsKCWNvbnN0IGNsaWNrZWQgPSBuZXcgTWFwPHN0cmluZywgbnVtYmVyPigpOwoJbGV0IGlkbGUgPSAwOwoKCXdoaWxlIChEYXRlLm5vdygpIDwgZW5kICYmICFwYWdlLmlzQ2xvc2VkKCkpIHsKCQljb25zdCB0b2tlbiA9IGF3YWl0IHJlYWRUdXJuc3RpbGVUb2tlbihwYWdlKTsKCQlpZiAodG9rZW4pIHJldHVybiB0b2tlbjsKCQl0cnkgewoJCQljb25zdCByZXN1bHQgPSBhd2FpdCBjbGlja1BlbmRpbmcocGFnZSwgY2xpY2tlZCwgcmV0cnlBZnRlcik7CgkJCWlkbGUgPSByZXN1bHQud2lkZ2V0cy5sZW5ndGggPT09IDAgPyBpZGxlICsgMSA6IDA7CgkJfSBjYXRjaCB7CgkJCWlkbGUrKzsKCQl9CgkJaWYgKGlkbGUgPj0gaWRsZUNoZWNrcykgcmV0dXJuIG51bGw7CgkJYXdhaXQgc2xlZXAoMTAwMCk7Cgl9CglyZXR1cm4gcmVhZFR1cm5zdGlsZVRva2VuKHBhZ2UpOwp9CgovLyAtLS0gV2F0Y2hlciAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKZXhwb3J0IGZ1bmN0aW9uIHdhdGNoVHVybnN0aWxlKHBhZ2U6IFBhZ2UsIG9wdGlvbnM6IFR1cm5zdGlsZU9wdGlvbnMgPSB7fSk6IHZvaWQgewoJaWYgKFdBVENIRUQuaGFzKHBhZ2UpKSByZXR1cm47CglXQVRDSEVELmFkZChwYWdlKTsKCgljb25zdCBpbnRlcnZhbCA9IG9wdGlvbnMuaW50ZXJ2YWwgPz8gMTAwMDsKCWNvbnN0IHJldHJ5QWZ0ZXIgPSBvcHRpb25zLnJldHJ5QWZ0ZXIgPz8gODAwMDsKCWNvbnN0IGNsaWNrZWQgPSBuZXcgTWFwPHN0cmluZywgbnVtYmVyPigpOwoJbGV0IGFjdGl2ZSA9IHRydWU7CgoJcGFnZS5vbigiY2xvc2UiLCAoKSA9PiB7CgkJYWN0aXZlID0gZmFsc2U7Cgl9KTsKCgljb25zdCBsb29wID0gYXN5bmMgKCkgPT4gewoJCXdoaWxlIChhY3RpdmUgJiYgIXBhZ2UuaXNDbG9zZWQoKSkgewoJCQl0cnkgewoJCQkJYXdhaXQgY2xpY2tQZW5kaW5nKHBhZ2UsIGNsaWNrZWQsIHJldHJ5QWZ0ZXIpOwoJCQl9IGNhdGNoIHsKCQkJCWF3YWl0IHNsZWVwKDUwMCk7CgkJCX0KCQkJYXdhaXQgc2xlZXAoaW50ZXJ2YWwpOwoJCX0KCX07CgoJdm9pZCBsb29wKCk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBhdHRhY2hUdXJuc3RpbGU8VCBleHRlbmRzIEJyb3dzZXIgfCBCcm93c2VyQ29udGV4dD4oCgl0YXJnZXQ6IFQsCglvcHRpb25zOiBUdXJuc3RpbGVPcHRpb25zID0ge30sCik6IFQgewoJcmV0dXJuIG9uRWFjaFBhZ2UodGFyZ2V0LCAocGFnZSkgPT4gd2F0Y2hUdXJuc3RpbGUocGFnZSwgb3B0aW9ucykpOwp9Cg==
+import type { Browser, BrowserContext, Page } from "playwright-core";
+import { onEachPage } from "./pagehooks.js";
+import { between, sleep } from "./random.js";
+
+export interface TurnstileOptions {
+	/** Polling interval for checking widget state (ms). */
+	interval?: number;
+	/** Minimum time between repeated clicks on the same widget (ms). */
+	retryAfter?: number;
+}
+
+export interface Widget {
+	x: number;
+	y: number;
+	w: number;
+	h: number;
+	solved: boolean;
+	key: string;
+}
+
+const WATCHED = new WeakSet<object>();
+
+// --- Widget discovery --------------------------------------------------------
+
+export async function findWidgets(page: Page): Promise<Widget[]> {
+	return page.evaluate(() => {
+		const out: Widget[] = [];
+		const seen = new Set<string>();
+
+		const push = (el: Element, solved: boolean) => {
+			let rect = el.getBoundingClientRect();
+			if (rect.width < 10 || rect.height < 10) return;
+			if (!solved && (rect.top < 0 || rect.bottom > window.innerHeight)) {
+				el.scrollIntoView({ block: "center", behavior: "instant" as ScrollBehavior });
+				rect = el.getBoundingClientRect();
+			}
+			const key = `${Math.round(rect.x + window.scrollX)}:${Math.round(rect.y + window.scrollY)}:${Math.round(rect.width)}`;
+			if (seen.has(key)) return;
+			seen.add(key);
+			out.push({ x: rect.x, y: rect.y, w: rect.width, h: rect.height, solved, key });
+		};
+
+		// 1. Implicit rendering: hidden input with the token
+		for (const input of Array.from(
+			document.querySelectorAll<HTMLInputElement>('[name="cf-turnstile-response"]'),
+		)) {
+			const parent = input.parentElement;
+			if (!parent) continue;
+			push(parent, !!(input.value && input.value.length > 20));
+		}
+
+		// 2. Fallback: bare widget box heuristic (width ~300px, empty, compact)
+		if (out.length === 0) {
+			for (const strict of [true, false]) {
+				for (const div of Array.from(document.querySelectorAll("div"))) {
+					const rect = div.getBoundingClientRect();
+					if (rect.width <= 290 || rect.width > 310 || div.querySelector("*")) continue;
+					if (strict) {
+						const css = window.getComputedStyle(div);
+						if (css.margin !== "0px" || css.padding !== "0px") continue;
+					}
+					push(div, false);
+				}
+				if (out.length > 0) break;
+			}
+		}
+
+		return out;
+	});
+}
+
+// --- Token reading -----------------------------------------------------------
+
+export async function readTurnstileToken(page: Page): Promise<string | null> {
+	try {
+		return await page.evaluate(() => {
+			for (const el of Array.from(
+				document.querySelectorAll<HTMLInputElement>('[name="cf-turnstile-response"]'),
+			)) {
+				if (el.value && el.value.length > 20) return el.value;
+			}
+			try {
+				const w = window as unknown as {
+					turnstile?: { getResponse?: () => string | undefined };
+				};
+				const value = w.turnstile?.getResponse?.();
+				if (value && value.length > 20) return value;
+			} catch {
+				return null;
+			}
+			return null;
+		});
+	} catch {
+		return null;
+	}
+}
+
+// --- Click helpers -----------------------------------------------------------
+
+async function clickAt(page: Page, x: number, y: number): Promise<void> {
+	await page.mouse.move(x + between(-60, 60), y + between(-40, 40), { steps: 4 });
+	await sleep(between(60, 160));
+	await page.mouse.move(x, y, { steps: Math.floor(between(8, 16)) });
+	await sleep(between(60, 140));
+	await page.mouse.down();
+	await sleep(between(60, 120));
+	await page.mouse.up();
+}
+
+async function clickPending(
+	page: Page,
+	clicked: Map<string, number>,
+	retryAfter: number,
+): Promise<{ widgets: Widget[]; clicks: number }> {
+	const widgets = await findWidgets(page);
+	let clicks = 0;
+	for (const widget of widgets) {
+		if (widget.solved) continue;
+		const last = clicked.get(widget.key) ?? 0;
+		if (Date.now() - last < retryAfter) continue;
+		clicked.set(widget.key, Date.now());
+		const x = widget.x + Math.min(30, widget.w / 2) + between(-4, 4);
+		const y = widget.y + widget.h / 2 + between(-4, 4);
+		await clickAt(page, x, y);
+		clicks++;
+	}
+	return { widgets, clicks };
+}
+
+export function createClicker(retryAfter = 8000): (page: Page) => Promise<boolean> {
+	const clicked = new Map<string, number>();
+	return async (page) => {
+		const result = await clickPending(page, clicked, retryAfter);
+		return result.clicks > 0;
+	};
+}
+
+// --- Solve -------------------------------------------------------------------
+
+export async function solveTurnstile(
+	page: Page,
+	timeout = 30000,
+	idleChecks = 4,
+	retryAfter = 8000,
+): Promise<string | null> {
+	const end = Date.now() + timeout;
+	const clicked = new Map<string, number>();
+	let idle = 0;
+
+	while (Date.now() < end && !page.isClosed()) {
+		const token = await readTurnstileToken(page);
+		if (token) return token;
+		try {
+			const result = await clickPending(page, clicked, retryAfter);
+			idle = result.widgets.length === 0 ? idle + 1 : 0;
+		} catch {
+			idle++;
+		}
+		if (idle >= idleChecks) return null;
+		await sleep(1000);
+	}
+	return readTurnstileToken(page);
+}
+
+// --- Watcher -----------------------------------------------------------------
+
+export function watchTurnstile(page: Page, options: TurnstileOptions = {}): void {
+	if (WATCHED.has(page)) return;
+	WATCHED.add(page);
+
+	const interval = options.interval ?? 1000;
+	const retryAfter = options.retryAfter ?? 8000;
+	const clicked = new Map<string, number>();
+	let active = true;
+
+	page.on("close", () => {
+		active = false;
+	});
+
+	const loop = async () => {
+		while (active && !page.isClosed()) {
+			try {
+				await clickPending(page, clicked, retryAfter);
+			} catch {
+				await sleep(500);
+			}
+			await sleep(interval);
+		}
+	};
+
+	void loop();
+}
+
+export function attachTurnstile<T extends Browser | BrowserContext>(
+	target: T,
+	options: TurnstileOptions = {},
+): T {
+	return onEachPage(target, (page) => watchTurnstile(page, options));
+}

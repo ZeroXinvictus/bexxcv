@@ -1,1 +1,165 @@
-ZXhwb3J0IGNsYXNzIFVuc3VwcG9ydGVkVmVyc2lvbiBleHRlbmRzIEVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2UpIHsKICAgICAgICBzdXBlcihtZXNzYWdlID8/ICJUaGUgQ2Ftb3Vmb3ggZXhlY3V0YWJsZSBpcyBvdXRkYXRlZC4iKTsKICAgICAgICB0aGlzLm5hbWUgPSAiVW5zdXBwb3J0ZWRWZXJzaW9uIjsKICAgIH0KfQpleHBvcnQgY2xhc3MgTWlzc2luZ1JlbGVhc2UgZXh0ZW5kcyBFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlKSB7CiAgICAgICAgc3VwZXIobWVzc2FnZSA/PyAiQSByZXF1aXJlZCBHaXRIdWIgcmVsZWFzZSBhc3NldCBpcyBtaXNzaW5nLiIpOwogICAgICAgIHRoaXMubmFtZSA9ICJNaXNzaW5nUmVsZWFzZSI7CiAgICB9Cn0KZXhwb3J0IGNsYXNzIFVuc3VwcG9ydGVkQXJjaGl0ZWN0dXJlIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIlRoZSBhcmNoaXRlY3R1cmUgaXMgbm90IHN1cHBvcnRlZC4iKTsKICAgICAgICB0aGlzLm5hbWUgPSAiVW5zdXBwb3J0ZWRBcmNoaXRlY3R1cmUiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBVbnN1cHBvcnRlZE9TIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIlRoZSBPUyBpcyBub3Qgc3VwcG9ydGVkLiIpOwogICAgICAgIHRoaXMubmFtZSA9ICJVbnN1cHBvcnRlZE9TIjsKICAgIH0KfQpleHBvcnQgY2xhc3MgVW5rbm93blByb3BlcnR5IGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIlRoZSBwcm9wZXJ0eSBpcyB1bmtub3duLiIpOwogICAgICAgIHRoaXMubmFtZSA9ICJVbmtub3duUHJvcGVydHkiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBJbnZhbGlkUHJvcGVydHlUeXBlIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIlRoZSBwcm9wZXJ0eSB0eXBlIGlzIGludmFsaWQuIik7CiAgICAgICAgdGhpcy5uYW1lID0gIkludmFsaWRQcm9wZXJ0eVR5cGUiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBJbnZhbGlkQWRkb25QYXRoIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIlRoZSBhZGRvbiBwYXRoIGlzIGludmFsaWQuIik7CiAgICAgICAgdGhpcy5uYW1lID0gIkludmFsaWRBZGRvblBhdGgiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBJbnZhbGlkRGVidWdQb3J0IGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIlRoZSBkZWJ1ZyBwb3J0IGlzIGludmFsaWQuIik7CiAgICAgICAgdGhpcy5uYW1lID0gIkludmFsaWREZWJ1Z1BvcnQiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBNaXNzaW5nRGVidWdQb3J0IGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIlRoZSBkZWJ1ZyBwb3J0IGlzIG1pc3NpbmcuIik7CiAgICAgICAgdGhpcy5uYW1lID0gIk1pc3NpbmdEZWJ1Z1BvcnQiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBMb2NhbGVFcnJvciBleHRlbmRzIEVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2UpIHsKICAgICAgICBzdXBlcihtZXNzYWdlID8/ICJUaGUgbG9jYWxlIGlzIGludmFsaWQuIik7CiAgICAgICAgdGhpcy5uYW1lID0gIkxvY2FsZUVycm9yIjsKICAgIH0KfQpleHBvcnQgY2xhc3MgSW52YWxpZElQIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSwgb3B0aW9ucykgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIkFuIElQIGFkZHJlc3MgaXMgaW52YWxpZC4iLCBvcHRpb25zKTsKICAgICAgICB0aGlzLm5hbWUgPSAiSW52YWxpZElQIjsKICAgIH0KfQpleHBvcnQgY2xhc3MgSW52YWxpZFByb3h5IGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIkEgcHJveHkgaXMgaW52YWxpZC4iKTsKICAgICAgICB0aGlzLm5hbWUgPSAiSW52YWxpZFByb3h5IjsKICAgIH0KfQpleHBvcnQgY2xhc3MgVW5rbm93bklQTG9jYXRpb24gZXh0ZW5kcyBMb2NhbGVFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlKSB7CiAgICAgICAgc3VwZXIobWVzc2FnZSA/PyAiVGhlIGxvY2F0aW9uIG9mIGFuIElQIGlzIHVua25vd24uIik7CiAgICAgICAgdGhpcy5uYW1lID0gIlVua25vd25JUExvY2F0aW9uIjsKICAgIH0KfQpleHBvcnQgY2xhc3MgSW52YWxpZExvY2FsZSBleHRlbmRzIExvY2FsZUVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2UpIHsKICAgICAgICBzdXBlcihtZXNzYWdlID8/ICJUaGUgbG9jYWxlIGlucHV0IGlzIGludmFsaWQuIik7CiAgICAgICAgdGhpcy5uYW1lID0gIkludmFsaWRMb2NhbGUiOwogICAgfQogICAgc3RhdGljIGludmFsaWRJbnB1dChsb2NhbGUpIHsKICAgICAgICByZXR1cm4gbmV3IEludmFsaWRMb2NhbGUoYEludmFsaWQgbG9jYWxlOiAnJHtsb2NhbGV9Jy4gTXVzdCBiZSBlaXRoZXIgYSByZWdpb24sIGxhbmd1YWdlLCBsYW5ndWFnZS1yZWdpb24sIG9yIGxhbmd1YWdlLXNjcmlwdC1yZWdpb24uYCk7CiAgICB9Cn0KZXhwb3J0IGNsYXNzIFVua25vd25UZXJyaXRvcnkgZXh0ZW5kcyBJbnZhbGlkTG9jYWxlIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2UpIHsKICAgICAgICBzdXBlcihtZXNzYWdlID8/ICJUaGUgdGVycml0b3J5IGlzIHVua25vd24uIik7CiAgICAgICAgdGhpcy5uYW1lID0gIlVua25vd25UZXJyaXRvcnkiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBVbmtub3duTGFuZ3VhZ2UgZXh0ZW5kcyBJbnZhbGlkTG9jYWxlIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2UpIHsKICAgICAgICBzdXBlcihtZXNzYWdlID8/ICJUaGUgbGFuZ3VhZ2UgaXMgdW5rbm93bi4iKTsKICAgICAgICB0aGlzLm5hbWUgPSAiVW5rbm93bkxhbmd1YWdlIjsKICAgIH0KfQpleHBvcnQgY2xhc3MgTm90SW5zdGFsbGVkR2VvSVBFeHRyYSBleHRlbmRzIEVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2UpIHsKICAgICAgICBzdXBlcihtZXNzYWdlID8/ICJUaGUgZ2VvaXAyIG1vZHVsZSBpcyBub3QgaW5zdGFsbGVkLiIpOwogICAgICAgIHRoaXMubmFtZSA9ICJOb3RJbnN0YWxsZWRHZW9JUEV4dHJhIjsKICAgIH0KfQpleHBvcnQgY2xhc3MgTm9uRmlyZWZveEZpbmdlcnByaW50IGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIkEgcGFzc2VkIEJyb3dzZXJmb3JnZSBmaW5nZXJwcmludCBpcyBpbnZhbGlkLiIpOwogICAgICAgIHRoaXMubmFtZSA9ICJOb25GaXJlZm94RmluZ2VycHJpbnQiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBJbnZhbGlkT1MgZXh0ZW5kcyBFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlKSB7CiAgICAgICAgc3VwZXIobWVzc2FnZSA/PyAiVGhlIHRhcmdldCBPUyBpcyBpbnZhbGlkLiIpOwogICAgICAgIHRoaXMubmFtZSA9ICJJbnZhbGlkT1MiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBWaXJ0dWFsRGlzcGxheUVycm9yIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIlRoZXJlIGlzIGFuIGVycm9yIHdpdGggdGhlIHZpcnR1YWwgZGlzcGxheS4iKTsKICAgICAgICB0aGlzLm5hbWUgPSAiVmlydHVhbERpc3BsYXlFcnJvciI7CiAgICB9Cn0KZXhwb3J0IGNsYXNzIENhbm5vdEZpbmRYdmZiIGV4dGVuZHMgVmlydHVhbERpc3BsYXlFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlKSB7CiAgICAgICAgc3VwZXIobWVzc2FnZSA/PyAiWHZmYiBjYW5ub3QgYmUgZm91bmQuIik7CiAgICAgICAgdGhpcy5uYW1lID0gIkNhbm5vdEZpbmRYdmZiIjsKICAgIH0KfQpleHBvcnQgY2xhc3MgQ2Fubm90RXhlY3V0ZVh2ZmIgZXh0ZW5kcyBWaXJ0dWFsRGlzcGxheUVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2UpIHsKICAgICAgICBzdXBlcihtZXNzYWdlID8/ICJYdmZiIGNhbm5vdCBiZSBleGVjdXRlZC4iKTsKICAgICAgICB0aGlzLm5hbWUgPSAiQ2Fubm90RXhlY3V0ZVh2ZmIiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBWaXJ0dWFsRGlzcGxheU5vdFN1cHBvcnRlZCBleHRlbmRzIFZpcnR1YWxEaXNwbGF5RXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIlRoZSB1c2VyIHRyaWVkIHRvIHVzZSBhIHZpcnR1YWwgZGlzcGxheSBvbiBhIG5vbi1MaW51eCBPUy4iKTsKICAgICAgICB0aGlzLm5hbWUgPSAiVmlydHVhbERpc3BsYXlOb3RTdXBwb3J0ZWQiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBDYW1vdWZveE5vdEluc3RhbGxlZCBleHRlbmRzIEVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2UpIHsKICAgICAgICBzdXBlcihtZXNzYWdlID8/ICJDYW1vdWZveCBpcyBub3QgaW5zdGFsbGVkLiIpOwogICAgICAgIHRoaXMubmFtZSA9ICJDYW1vdWZveE5vdEluc3RhbGxlZCI7CiAgICB9Cn0KZXhwb3J0IGNsYXNzIENvcnJ1cHRlZERvd25sb2FkIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZSkgewogICAgICAgIHN1cGVyKG1lc3NhZ2UgPz8gIlRoZSBkb3dubG9hZCBpcyBjb3JydXB0ZWQuIik7CiAgICAgICAgdGhpcy5uYW1lID0gIkNvcnJ1cHRlZERvd25sb2FkIjsKICAgIH0KfQpleHBvcnQgY2xhc3MgRmlsZU5vdEZvdW5kRXJyb3IgZXh0ZW5kcyBFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlKSB7CiAgICAgICAgc3VwZXIobWVzc2FnZSA/PyAiRmlsZSBjb3VsZG4ndCBiZSBmb3VuZC4iKTsKICAgICAgICB0aGlzLm5hbWUgPSAiRmlsZU5vdEZvdW5kRXJyb3IiOwogICAgfQp9CmV4cG9ydCBjbGFzcyBJbnZhbGlkT3B0aW9ucyBleHRlbmRzIEVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2UpIHsKICAgICAgICBzdXBlcihtZXNzYWdlID8/ICJPbmUgb3IgbW9yZSBvcHRpb25zIGFyZSBpbnZhbGlkLiIpOwogICAgICAgIHRoaXMubmFtZSA9ICJJbnZhbGlkT3B0aW9ucyI7CiAgICB9Cn0K
+export class UnsupportedVersion extends Error {
+    constructor(message) {
+        super(message ?? "The Camoufox executable is outdated.");
+        this.name = "UnsupportedVersion";
+    }
+}
+export class MissingRelease extends Error {
+    constructor(message) {
+        super(message ?? "A required GitHub release asset is missing.");
+        this.name = "MissingRelease";
+    }
+}
+export class UnsupportedArchitecture extends Error {
+    constructor(message) {
+        super(message ?? "The architecture is not supported.");
+        this.name = "UnsupportedArchitecture";
+    }
+}
+export class UnsupportedOS extends Error {
+    constructor(message) {
+        super(message ?? "The OS is not supported.");
+        this.name = "UnsupportedOS";
+    }
+}
+export class UnknownProperty extends Error {
+    constructor(message) {
+        super(message ?? "The property is unknown.");
+        this.name = "UnknownProperty";
+    }
+}
+export class InvalidPropertyType extends Error {
+    constructor(message) {
+        super(message ?? "The property type is invalid.");
+        this.name = "InvalidPropertyType";
+    }
+}
+export class InvalidAddonPath extends Error {
+    constructor(message) {
+        super(message ?? "The addon path is invalid.");
+        this.name = "InvalidAddonPath";
+    }
+}
+export class InvalidDebugPort extends Error {
+    constructor(message) {
+        super(message ?? "The debug port is invalid.");
+        this.name = "InvalidDebugPort";
+    }
+}
+export class MissingDebugPort extends Error {
+    constructor(message) {
+        super(message ?? "The debug port is missing.");
+        this.name = "MissingDebugPort";
+    }
+}
+export class LocaleError extends Error {
+    constructor(message) {
+        super(message ?? "The locale is invalid.");
+        this.name = "LocaleError";
+    }
+}
+export class InvalidIP extends Error {
+    constructor(message, options) {
+        super(message ?? "An IP address is invalid.", options);
+        this.name = "InvalidIP";
+    }
+}
+export class InvalidProxy extends Error {
+    constructor(message) {
+        super(message ?? "A proxy is invalid.");
+        this.name = "InvalidProxy";
+    }
+}
+export class UnknownIPLocation extends LocaleError {
+    constructor(message) {
+        super(message ?? "The location of an IP is unknown.");
+        this.name = "UnknownIPLocation";
+    }
+}
+export class InvalidLocale extends LocaleError {
+    constructor(message) {
+        super(message ?? "The locale input is invalid.");
+        this.name = "InvalidLocale";
+    }
+    static invalidInput(locale) {
+        return new InvalidLocale(`Invalid locale: '${locale}'. Must be either a region, language, language-region, or language-script-region.`);
+    }
+}
+export class UnknownTerritory extends InvalidLocale {
+    constructor(message) {
+        super(message ?? "The territory is unknown.");
+        this.name = "UnknownTerritory";
+    }
+}
+export class UnknownLanguage extends InvalidLocale {
+    constructor(message) {
+        super(message ?? "The language is unknown.");
+        this.name = "UnknownLanguage";
+    }
+}
+export class NotInstalledGeoIPExtra extends Error {
+    constructor(message) {
+        super(message ?? "The geoip2 module is not installed.");
+        this.name = "NotInstalledGeoIPExtra";
+    }
+}
+export class NonFirefoxFingerprint extends Error {
+    constructor(message) {
+        super(message ?? "A passed Browserforge fingerprint is invalid.");
+        this.name = "NonFirefoxFingerprint";
+    }
+}
+export class InvalidOS extends Error {
+    constructor(message) {
+        super(message ?? "The target OS is invalid.");
+        this.name = "InvalidOS";
+    }
+}
+export class VirtualDisplayError extends Error {
+    constructor(message) {
+        super(message ?? "There is an error with the virtual display.");
+        this.name = "VirtualDisplayError";
+    }
+}
+export class CannotFindXvfb extends VirtualDisplayError {
+    constructor(message) {
+        super(message ?? "Xvfb cannot be found.");
+        this.name = "CannotFindXvfb";
+    }
+}
+export class CannotExecuteXvfb extends VirtualDisplayError {
+    constructor(message) {
+        super(message ?? "Xvfb cannot be executed.");
+        this.name = "CannotExecuteXvfb";
+    }
+}
+export class VirtualDisplayNotSupported extends VirtualDisplayError {
+    constructor(message) {
+        super(message ?? "The user tried to use a virtual display on a non-Linux OS.");
+        this.name = "VirtualDisplayNotSupported";
+    }
+}
+export class CamoufoxNotInstalled extends Error {
+    constructor(message) {
+        super(message ?? "Camoufox is not installed.");
+        this.name = "CamoufoxNotInstalled";
+    }
+}
+export class CorruptedDownload extends Error {
+    constructor(message) {
+        super(message ?? "The download is corrupted.");
+        this.name = "CorruptedDownload";
+    }
+}
+export class FileNotFoundError extends Error {
+    constructor(message) {
+        super(message ?? "File couldn't be found.");
+        this.name = "FileNotFoundError";
+    }
+}
+export class InvalidOptions extends Error {
+    constructor(message) {
+        super(message ?? "One or more options are invalid.");
+        this.name = "InvalidOptions";
+    }
+}

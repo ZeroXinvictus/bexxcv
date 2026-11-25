@@ -1,1 +1,16 @@
-ewoJImNvbXBpbGVyT3B0aW9ucyI6IHsKCQkidGFyZ2V0IjogIkVTMjAyMiIsCgkJImxpYiI6IFsiRVMyMDIyIiwgIkRPTSIsICJET00uSXRlcmFibGUiLCAiRE9NLkFzeW5jSXRlcmFibGUiXSwKCQkibW9kdWxlIjogIk5vZGUxNiIsCgkJIm1vZHVsZVJlc29sdXRpb24iOiAibm9kZTE2IiwKCQkicHJlc2VydmVDb25zdEVudW1zIjogdHJ1ZSwKCQkic291cmNlTWFwIjogZmFsc2UsCgkJInJlbW92ZUNvbW1lbnRzIjogZmFsc2UsCgkJIm91dERpciI6ICIuL2Rpc3QiLAoJCSJkZWNsYXJhdGlvbiI6IHRydWUsCgkJInN0cmljdCI6IHRydWUsCgkJInNraXBMaWJDaGVjayI6IHRydWUKCX0sCgkiaW5jbHVkZSI6IFsic3JjLyoqLyoudHMiXQp9Cg==
+{
+ "compilerOptions": {
+  "target": "ES2022",
+  "lib": ["ES2022", "DOM", "DOM.Iterable", "DOM.AsyncIterable"],
+  "module": "Node16",
+  "moduleResolution": "node16",
+  "preserveConstEnums": true,
+  "sourceMap": false,
+  "removeComments": false,
+  "outDir": "./dist",
+  "declaration": true,
+  "strict": true,
+  "skipLibCheck": true
+ },
+ "include": ["src/**/*.ts"]
+}

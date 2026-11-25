@@ -1,1 +1,9 @@
-ZXhwb3J0IGZ1bmN0aW9uIGJldHdlZW4obWluOiBudW1iZXIsIG1heDogbnVtYmVyKTogbnVtYmVyIHsKCWNvbnN0IGJ1ZiA9IG5ldyBVaW50MzJBcnJheSgxKTsKCWNyeXB0by5nZXRSYW5kb21WYWx1ZXMoYnVmKTsKCXJldHVybiBtaW4gKyAoYnVmWzBdISAvIDQyOTQ5NjcyOTYpICogKG1heCAtIG1pbik7Cn0KCmV4cG9ydCBmdW5jdGlvbiBzbGVlcChtczogbnVtYmVyKTogUHJvbWlzZTx2b2lkPiB7CglyZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUpID0+IHNldFRpbWVvdXQocmVzb2x2ZSwgTWF0aC5tYXgoMCwgbXMpKSk7Cn0K
+export function between(min: number, max: number): number {
+	const buf = new Uint32Array(1);
+	crypto.getRandomValues(buf);
+	return min + (buf[0]! / 4294967296) * (max - min);
+}
+
+export function sleep(ms: number): Promise<void> {
+	return new Promise((resolve) => setTimeout(resolve, Math.max(0, ms)));
+}

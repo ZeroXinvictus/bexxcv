@@ -1,1 +1,44 @@
-ZGVjbGFyZSBjb25zdCBfZGVmYXVsdDogewogICAgbmF2aWdhdG9yOiB7CiAgICAgICAgdXNlckFnZW50OiBzdHJpbmc7CiAgICAgICAgZG9Ob3RUcmFjazogc3RyaW5nOwogICAgICAgIGFwcENvZGVOYW1lOiBzdHJpbmc7CiAgICAgICAgYXBwTmFtZTogc3RyaW5nOwogICAgICAgIGFwcFZlcnNpb246IHN0cmluZzsKICAgICAgICBvc2NwdTogc3RyaW5nOwogICAgICAgIHBsYXRmb3JtOiBzdHJpbmc7CiAgICAgICAgaGFyZHdhcmVDb25jdXJyZW5jeTogc3RyaW5nOwogICAgICAgIHByb2R1Y3Q6IHN0cmluZzsKICAgICAgICBtYXhUb3VjaFBvaW50czogc3RyaW5nOwogICAgICAgIGV4dHJhUHJvcGVydGllczogewogICAgICAgICAgICBnbG9iYWxQcml2YWN5Q29udHJvbDogc3RyaW5nOwogICAgICAgIH07CiAgICB9OwogICAgc2NyZWVuOiB7CiAgICAgICAgYXZhaWxMZWZ0OiBzdHJpbmc7CiAgICAgICAgYXZhaWxUb3A6IHN0cmluZzsKICAgICAgICBhdmFpbFdpZHRoOiBzdHJpbmc7CiAgICAgICAgYXZhaWxIZWlnaHQ6IHN0cmluZzsKICAgICAgICBoZWlnaHQ6IHN0cmluZzsKICAgICAgICB3aWR0aDogc3RyaW5nOwogICAgICAgIGNvbG9yRGVwdGg6IHN0cmluZzsKICAgICAgICBwaXhlbERlcHRoOiBzdHJpbmc7CiAgICAgICAgcGFnZVhPZmZzZXQ6IHN0cmluZzsKICAgICAgICBwYWdlWU9mZnNldDogc3RyaW5nOwogICAgICAgIG91dGVySGVpZ2h0OiBzdHJpbmc7CiAgICAgICAgb3V0ZXJXaWR0aDogc3RyaW5nOwogICAgICAgIGlubmVySGVpZ2h0OiBzdHJpbmc7CiAgICAgICAgaW5uZXJXaWR0aDogc3RyaW5nOwogICAgICAgIHNjcmVlblg6IHN0cmluZzsKICAgICAgICBzY3JlZW5ZOiBzdHJpbmc7CiAgICB9OwogICAgaGVhZGVyczogewogICAgICAgICJBY2NlcHQtRW5jb2RpbmciOiBzdHJpbmc7CiAgICB9OwogICAgYmF0dGVyeTogewogICAgICAgIGNoYXJnaW5nOiBzdHJpbmc7CiAgICAgICAgY2hhcmdpbmdUaW1lOiBzdHJpbmc7CiAgICAgICAgZGlzY2hhcmdpbmdUaW1lOiBzdHJpbmc7CiAgICB9Owp9OwpleHBvcnQgZGVmYXVsdCBfZGVmYXVsdDsK
+declare const _default: {
+    navigator: {
+        userAgent: string;
+        doNotTrack: string;
+        appCodeName: string;
+        appName: string;
+        appVersion: string;
+        oscpu: string;
+        platform: string;
+        hardwareConcurrency: string;
+        product: string;
+        maxTouchPoints: string;
+        extraProperties: {
+            globalPrivacyControl: string;
+        };
+    };
+    screen: {
+        availLeft: string;
+        availTop: string;
+        availWidth: string;
+        availHeight: string;
+        height: string;
+        width: string;
+        colorDepth: string;
+        pixelDepth: string;
+        pageXOffset: string;
+        pageYOffset: string;
+        outerHeight: string;
+        outerWidth: string;
+        innerHeight: string;
+        innerWidth: string;
+        screenX: string;
+        screenY: string;
+    };
+    headers: {
+        "Accept-Encoding": string;
+    };
+    battery: {
+        charging: string;
+        chargingTime: string;
+        dischargingTime: string;
+    };
+};
+export default _default;

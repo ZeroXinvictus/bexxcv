@@ -1,1 +1,6 @@
-ZGVjbGFyZSBjb25zdCBfZGVmYXVsdDogewogICAgd2luOiBzdHJpbmdbXTsKICAgIG1hYzogc3RyaW5nW107CiAgICBsaW46IHN0cmluZ1tdOwp9OwpleHBvcnQgZGVmYXVsdCBfZGVmYXVsdDsK
+declare const _default: {
+    win: string[];
+    mac: string[];
+    lin: string[];
+};
+export default _default;

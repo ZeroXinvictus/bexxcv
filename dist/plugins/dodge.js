@@ -1,1 +1,106 @@
-aW1wb3J0IHsgcHVibGljSVAgfSBmcm9tICIuLi9pcC5qcyI7CmV4cG9ydCBmdW5jdGlvbiB0b1Byb3h5Q29uZmlnKHVybCkgewogICAgY29uc3QgcGFyc2VkID0gbmV3IFVSTCh1cmwpOwogICAgY29uc3QgY29uZmlnID0geyBzZXJ2ZXI6IGAke3BhcnNlZC5wcm90b2NvbH0vLyR7cGFyc2VkLmhvc3R9YCB9OwogICAgaWYgKHBhcnNlZC51c2VybmFtZSkKICAgICAgICBjb25maWcudXNlcm5hbWUgPSBkZWNvZGVVUklDb21wb25lbnQocGFyc2VkLnVzZXJuYW1lKTsKICAgIGlmIChwYXJzZWQucGFzc3dvcmQpCiAgICAgICAgY29uZmlnLnBhc3N3b3JkID0gZGVjb2RlVVJJQ29tcG9uZW50KHBhcnNlZC5wYXNzd29yZCk7CiAgICByZXR1cm4gY29uZmlnOwp9CmZ1bmN0aW9uIHRpbWVvdXQocHJvbWlzZSwgbXMpIHsKICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgICAgY29uc3QgdGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHJlamVjdChuZXcgRXJyb3IoInRpbWVvdXQiKSksIG1zKTsKICAgICAgICBwcm9taXNlLnRoZW4oKHZhbHVlKSA9PiB7CiAgICAgICAgICAgIGNsZWFyVGltZW91dCh0aW1lcik7CiAgICAgICAgICAgIHJlc29sdmUodmFsdWUpOwogICAgICAgIH0sIChlcnJvcikgPT4gewogICAgICAgICAgICBjbGVhclRpbWVvdXQodGltZXIpOwogICAgICAgICAgICByZWplY3QoZXJyb3IpOwogICAgICAgIH0pOwogICAgfSk7Cn0KZXhwb3J0IGZ1bmN0aW9uIGRvZGdlKGlucHV0KSB7CiAgICBjb25zdCBvcHRpb25zID0gQXJyYXkuaXNBcnJheShpbnB1dCkgPyB7IHBvb2w6IGlucHV0IH0gOiBpbnB1dDsKICAgIGlmICghb3B0aW9ucy5wb29sIHx8IG9wdGlvbnMucG9vbC5sZW5ndGggPT09IDApIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoImRvZGdlIG5lZWRzIGF0IGxlYXN0IG9uZSBwcm94eSBpbiBwb29sIik7CiAgICB9CiAgICBjb25zdCByb3RhdGVPbiA9IG5ldyBTZXQob3B0aW9ucy5yb3RhdGVPbiA/PyBbNDAzLCA0MjldKTsKICAgIGNvbnN0IGNvb2xkb3duID0gb3B0aW9ucy5jb29sZG93biA/PyAzMDBfMDAwOwogICAgY29uc3Qgc3RhdGVzID0gb3B0aW9ucy5wb29sLm1hcCgodXJsKSA9PiAoeyB1cmwsIGJhZFVudGlsOiAwIH0pKTsKICAgIGNvbnN0IG93bmVycyA9IG5ldyBXZWFrTWFwKCk7CiAgICBsZXQgY3Vyc29yID0gMDsKICAgIGxldCBsYXVuY2hQcm94eSA9IG51bGw7CiAgICBsZXQgZmlyc3RDb250ZXh0ID0gdHJ1ZTsKICAgIGNvbnN0IHBpY2sgPSAoKSA9PiB7CiAgICAgICAgY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKICAgICAgICBmb3IgKGxldCBpID0gMDsgaSA8IHN0YXRlcy5sZW5ndGg7IGkrKykgewogICAgICAgICAgICBjb25zdCBzdGF0ZSA9IHN0YXRlc1soY3Vyc29yICsgaSkgJSBzdGF0ZXMubGVuZ3RoXTsKICAgICAgICAgICAgaWYgKHN0YXRlLmJhZFVudGlsIDw9IG5vdykgewogICAgICAgICAgICAgICAgY3Vyc29yID0gKGN1cnNvciArIGkgKyAxKSAlIHN0YXRlcy5sZW5ndGg7CiAgICAgICAgICAgICAgICByZXR1cm4gc3RhdGU7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgY29uc3Qgc29vbmVzdCA9IFsuLi5zdGF0ZXNdLnNvcnQoKGEsIGIpID0+IGEuYmFkVW50aWwgLSBiLmJhZFVudGlsKVswXTsKICAgICAgICBjb25zb2xlLndhcm4oIltiZXh4Y3ZdIGRvZGdlOiBldmVyeSBwcm94eSBpcyBjb29saW5nIGRvd24sIHJldXNpbmcgdGhlIG9uZSB0aGF0IHJlY292ZXJzIGZpcnN0Iik7CiAgICAgICAgcmV0dXJuIHNvb25lc3Q7CiAgICB9OwogICAgcmV0dXJuIHsKICAgICAgICBuYW1lOiAiZG9kZ2UiLAogICAgICAgIG9yZGVyOiAxMCwKICAgICAgICBhc3luYyBiZWZvcmVMYXVuY2gobGF1bmNoKSB7CiAgICAgICAgICAgIGlmIChvcHRpb25zLmhlYWx0aENoZWNrICE9PSBmYWxzZSkgewogICAgICAgICAgICAgICAgY29uc3QgbGltaXQgPSBvcHRpb25zLmhlYWx0aFRpbWVvdXQgPz8gMTBfMDAwOwogICAgICAgICAgICAgICAgY29uc3QgaGVhbHRoUmVzdWx0cyA9IGF3YWl0IFByb21pc2UuYWxsU2V0dGxlZChzdGF0ZXMubWFwKGFzeW5jIChzdGF0ZSwgaW5kZXgpID0+IHsKICAgICAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgICAgICBzdGF0ZS5pcCA9IGF3YWl0IHRpbWVvdXQocHVibGljSVAoc3RhdGUudXJsKSwgbGltaXQpOwogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4geyBpbmRleCwgaGVhbHRoeTogdHJ1ZSB9OwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBjYXRjaCB7CiAgICAgICAgICAgICAgICAgICAgICAgIHN0YXRlLmJhZFVudGlsID0gRGF0ZS5ub3coKSArIGNvb2xkb3duOwogICAgICAgICAgICAgICAgICAgICAgICByZXR1cm4geyBpbmRleCwgaGVhbHRoeTogZmFsc2UgfTsKICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICB9KSk7CiAgICAgICAgICAgICAgICBjb25zdCBoYXNIZWFsdGh5ID0gaGVhbHRoUmVzdWx0cy5zb21lKChyKSA9PiByLnN0YXR1cyA9PT0gImZ1bGZpbGxlZCIgJiYgci52YWx1ZS5oZWFsdGh5KTsKICAgICAgICAgICAgICAgIGlmICghaGFzSGVhbHRoeSkgewogICAgICAgICAgICAgICAgICAgIHRocm93IG5ldyBFcnJvcigiZG9kZ2U6IG5vIGhlYWx0aHkgcHJveHkgaW4gcG9vbCIpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnN0IGNob3NlbiA9IHBpY2soKTsKICAgICAgICAgICAgbGF1bmNoUHJveHkgPSBjaG9zZW4udXJsOwogICAgICAgICAgICBpZiAobGF1bmNoLnByb3h5ID09PSB1bmRlZmluZWQpCiAgICAgICAgICAgICAgICBsYXVuY2gucHJveHkgPSB0b1Byb3h5Q29uZmlnKGNob3Nlbi51cmwpOwogICAgICAgIH0sCiAgICAgICAgYmVmb3JlQ29udGV4dChjb250ZXh0T3B0aW9ucykgewogICAgICAgICAgICBpZiAoY29udGV4dE9wdGlvbnMucHJveHkpCiAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIGlmIChmaXJzdENvbnRleHQpIHsKICAgICAgICAgICAgICAgIGZpcnN0Q29udGV4dCA9IGZhbHNlOwogICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnN0IGNob3NlbiA9IHBpY2soKTsKICAgICAgICAgICAgY29udGV4dE9wdGlvbnMucHJveHkgPSB0b1Byb3h5Q29uZmlnKGNob3Nlbi51cmwpOwogICAgICAgIH0sCiAgICAgICAgb25Db250ZXh0KGNvbnRleHQsIGNvbnRleHRPcHRpb25zKSB7CiAgICAgICAgICAgIGNvbnN0IHNlcnZlciA9IGNvbnRleHRPcHRpb25zLnByb3h5Py5zZXJ2ZXI7CiAgICAgICAgICAgIGNvbnN0IG93bmVyID0gc3RhdGVzLmZpbmQoKHN0YXRlKSA9PiBzZXJ2ZXIgJiYgc3RhdGUudXJsLmluY2x1ZGVzKG5ldyBVUkwoc3RhdGUudXJsKS5ob3N0KSAmJiBzdGF0ZS51cmwuc3RhcnRzV2l0aChzZXJ2ZXIuc3BsaXQoIi8vIilbMF0pKT8udXJsID8/CiAgICAgICAgICAgICAgICBsYXVuY2hQcm94eTsKICAgICAgICAgICAgaWYgKG93bmVyKQogICAgICAgICAgICAgICAgb3duZXJzLnNldChjb250ZXh0LCBvd25lcik7CiAgICAgICAgICAgIGNvbnRleHQub24oInJlc3BvbnNlIiwgKHJlc3BvbnNlKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBzdGF0dXMgPSByZXNwb25zZS5zdGF0dXMoKTsKICAgICAgICAgICAgICAgIGlmICghcm90YXRlT24uaGFzKHN0YXR1cykpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICAgICAgaWYgKCFyZXNwb25zZS5yZXF1ZXN0KCkuaXNOYXZpZ2F0aW9uUmVxdWVzdCgpKQogICAgICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgICAgIGNvbnN0IHByb3h5ID0gb3duZXJzLmdldChjb250ZXh0KTsKICAgICAgICAgICAgICAgIGNvbnN0IHN0YXRlID0gc3RhdGVzLmZpbmQoKHMpID0+IHMudXJsID09PSBwcm94eSk7CiAgICAgICAgICAgICAgICBpZiAoIXN0YXRlKQogICAgICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgICAgIHN0YXRlLmJhZFVudGlsID0gRGF0ZS5ub3coKSArIGNvb2xkb3duOwogICAgICAgICAgICAgICAgb3B0aW9ucy5vbkJsb2NrZWQ/Lih7IHByb3h5OiBzdGF0ZS51cmwsIHN0YXR1cywgdXJsOiByZXNwb25zZS51cmwoKSB9KTsKICAgICAgICAgICAgICAgIGNvbnNvbGUud2FybihgW2JleHhjdl0gZG9kZ2U6IHByb3h5IGFuc3dlcmVkICR7c3RhdHVzfSwgaXQgaXMgcGF1c2VkIGZvciAke01hdGgucm91bmQoY29vbGRvd24gLyAxMDAwKX1zLiBOZXcgY29udGV4dHMgd2lsbCB1c2UgYW5vdGhlciBwcm94eS5gKTsKICAgICAgICAgICAgfSk7CiAgICAgICAgfSwKICAgIH07Cn0K
+import { publicIP } from "../ip.js";
+export function toProxyConfig(url) {
+    const parsed = new URL(url);
+    const config = { server: `${parsed.protocol}//${parsed.host}` };
+    if (parsed.username)
+        config.username = decodeURIComponent(parsed.username);
+    if (parsed.password)
+        config.password = decodeURIComponent(parsed.password);
+    return config;
+}
+function timeout(promise, ms) {
+    return new Promise((resolve, reject) => {
+        const timer = setTimeout(() => reject(new Error("timeout")), ms);
+        promise.then((value) => {
+            clearTimeout(timer);
+            resolve(value);
+        }, (error) => {
+            clearTimeout(timer);
+            reject(error);
+        });
+    });
+}
+export function dodge(input) {
+    const options = Array.isArray(input) ? { pool: input } : input;
+    if (!options.pool || options.pool.length === 0) {
+        throw new Error("dodge needs at least one proxy in pool");
+    }
+    const rotateOn = new Set(options.rotateOn ?? [403, 429]);
+    const cooldown = options.cooldown ?? 300_000;
+    const states = options.pool.map((url) => ({ url, badUntil: 0 }));
+    const owners = new WeakMap();
+    let cursor = 0;
+    let launchProxy = null;
+    let firstContext = true;
+    const pick = () => {
+        const now = Date.now();
+        for (let i = 0; i < states.length; i++) {
+            const state = states[(cursor + i) % states.length];
+            if (state.badUntil <= now) {
+                cursor = (cursor + i + 1) % states.length;
+                return state;
+            }
+        }
+        const soonest = [...states].sort((a, b) => a.badUntil - b.badUntil)[0];
+        console.warn("[bexxcv] dodge: every proxy is cooling down, reusing the one that recovers first");
+        return soonest;
+    };
+    return {
+        name: "dodge",
+        order: 10,
+        async beforeLaunch(launch) {
+            if (options.healthCheck !== false) {
+                const limit = options.healthTimeout ?? 10_000;
+                const healthResults = await Promise.allSettled(states.map(async (state, index) => {
+                    try {
+                        state.ip = await timeout(publicIP(state.url), limit);
+                        return { index, healthy: true };
+                    }
+                    catch {
+                        state.badUntil = Date.now() + cooldown;
+                        return { index, healthy: false };
+                    }
+                }));
+                const hasHealthy = healthResults.some((r) => r.status === "fulfilled" && r.value.healthy);
+                if (!hasHealthy) {
+                    throw new Error("dodge: no healthy proxy in pool");
+                }
+            }
+            const chosen = pick();
+            launchProxy = chosen.url;
+            if (launch.proxy === undefined)
+                launch.proxy = toProxyConfig(chosen.url);
+        },
+        beforeContext(contextOptions) {
+            if (contextOptions.proxy)
+                return;
+            if (firstContext) {
+                firstContext = false;
+                return;
+            }
+            const chosen = pick();
+            contextOptions.proxy = toProxyConfig(chosen.url);
+        },
+        onContext(context, contextOptions) {
+            const server = contextOptions.proxy?.server;
+            const owner = states.find((state) => server && state.url.includes(new URL(state.url).host) && state.url.startsWith(server.split("//")[0]))?.url ??
+                launchProxy;
+            if (owner)
+                owners.set(context, owner);
+            context.on("response", (response) => {
+                const status = response.status();
+                if (!rotateOn.has(status))
+                    return;
+                if (!response.request().isNavigationRequest())
+                    return;
+                const proxy = owners.get(context);
+                const state = states.find((s) => s.url === proxy);
+                if (!state)
+                    return;
+                state.badUntil = Date.now() + cooldown;
+                options.onBlocked?.({ proxy: state.url, status, url: response.url() });
+                console.warn(`[bexxcv] dodge: proxy answered ${status}, it is paused for ${Math.round(cooldown / 1000)}s. New contexts will use another proxy.`);
+            });
+        },
+    };
+}

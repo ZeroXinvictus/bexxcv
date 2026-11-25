@@ -1,1 +1,40 @@
-ewoJIiRzY2hlbWEiOiAiaHR0cHM6Ly9iaW9tZWpzLmRldi9zY2hlbWFzLzIuNC4wL3NjaGVtYS5qc29uIiwKCSJ2Y3MiOiB7CgkJImVuYWJsZWQiOiBmYWxzZSwKCQkiY2xpZW50S2luZCI6ICJnaXQiLAoJCSJ1c2VJZ25vcmVGaWxlIjogZmFsc2UKCX0sCgkiZmlsZXMiOiB7CgkJImlnbm9yZVVua25vd24iOiBmYWxzZSwKCQkiaW5jbHVkZXMiOiBbInNyYy8qKi8qLnRzIiwgInRlc3QvKiovKi50cyJdCgl9LAoJImZvcm1hdHRlciI6IHsKCQkiZW5hYmxlZCI6IHRydWUsCgkJImluZGVudFN0eWxlIjogInRhYiIKCX0sCgkibGludGVyIjogewoJCSJlbmFibGVkIjogdHJ1ZSwKCQkicnVsZXMiOiB7CgkJCSJyZWNvbW1lbmRlZCI6IHRydWUsCgkJCSJzdXNwaWNpb3VzIjogewoJCQkJIm5vRG9jdW1lbnRDb29raWUiOiAib2ZmIiwKCQkJCSJub0V4cGxpY2l0QW55IjogIm9mZiIsCgkJCQkibm9JbXBsaWNpdEFueUxldCI6ICJvZmYiCgkJCX0KCQl9Cgl9LAoJImphdmFzY3JpcHQiOiB7CgkJImZvcm1hdHRlciI6IHsKCQkJInF1b3RlU3R5bGUiOiAiZG91YmxlIgoJCX0KCX0sCgkiYXNzaXN0IjogewoJCSJlbmFibGVkIjogdHJ1ZSwKCQkiYWN0aW9ucyI6IHsKCQkJInNvdXJjZSI6IHsKCQkJCSJvcmdhbml6ZUltcG9ydHMiOiAib24iCgkJCX0KCQl9Cgl9Cn0K
+{
+	"$schema": "https://biomejs.dev/schemas/2.4.0/schema.json",
+	"vcs": {
+		"enabled": false,
+		"clientKind": "git",
+		"useIgnoreFile": false
+	},
+	"files": {
+		"ignoreUnknown": false,
+		"includes": ["src/**/*.ts", "test/**/*.ts"]
+	},
+	"formatter": {
+		"enabled": true,
+		"indentStyle": "tab"
+	},
+	"linter": {
+		"enabled": true,
+		"rules": {
+			"recommended": true,
+			"suspicious": {
+				"noDocumentCookie": "off",
+				"noExplicitAny": "off",
+				"noImplicitAnyLet": "off"
+			}
+		}
+	},
+	"javascript": {
+		"formatter": {
+			"quoteStyle": "double"
+		}
+	},
+	"assist": {
+		"enabled": true,
+		"actions": {
+			"source": {
+				"organizeImports": "on"
+			}
+		}
+	}
+}

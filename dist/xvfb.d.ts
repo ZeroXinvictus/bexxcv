@@ -1,1 +1,6 @@
-ZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gbmVlZHNYdmZiKCk6IGJvb2xlYW47CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHN0YXJ0WHZmYihkZWJ1Zz86IGJvb2xlYW4pOiBQcm9taXNlPHsKICAgIGRpc3BsYXk6IHN0cmluZzsKICAgIGtpbGw6ICgpID0+IHZvaWQ7Cn0+OwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiB3aXRoWHZmYjxUPihmbjogKGRpc3BsYXk6IHN0cmluZykgPT4gUHJvbWlzZTxUPiwgZGVidWc/OiBib29sZWFuKTogUHJvbWlzZTxUPjsK
+export declare function needsXvfb(): boolean;
+export declare function startXvfb(debug?: boolean): Promise<{
+    display: string;
+    kill: () => void;
+}>;
+export declare function withXvfb<T>(fn: (display: string) => Promise<T>, debug?: boolean): Promise<T>;

@@ -1,1 +1,68 @@
-aW1wb3J0IHR5cGUgeyBCcm93c2VyLCBCcm93c2VyQ29udGV4dCwgUGFnZSB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CgpleHBvcnQgdHlwZSBDb250ZXh0T3B0aW9ucyA9IE5vbk51bGxhYmxlPFBhcmFtZXRlcnM8QnJvd3NlclsibmV3Q29udGV4dCJdPlswXT47CgpleHBvcnQgaW50ZXJmYWNlIENvbnRleHRIb29rcyB7CgliZWZvcmU/OiAob3B0aW9uczogQ29udGV4dE9wdGlvbnMpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+OwoJYWZ0ZXI/OiAoCgkJY29udGV4dDogQnJvd3NlckNvbnRleHQsCgkJb3B0aW9uczogQ29udGV4dE9wdGlvbnMsCgkpID0+IHZvaWQgfCBQcm9taXNlPHZvaWQ+Owp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gb25FYWNoQ29udGV4dDxUIGV4dGVuZHMgQnJvd3NlciB8IEJyb3dzZXJDb250ZXh0PigKCXRhcmdldDogVCwKCWhvb2tzOiBDb250ZXh0SG9va3MsCik6IFByb21pc2U8VD4gewoJaWYgKHR5cGVvZiAodGFyZ2V0IGFzIEJyb3dzZXIpLm5ld0NvbnRleHQgIT09ICJmdW5jdGlvbiIpIHsKCQlhd2FpdCBob29rcy5hZnRlcj8uKHRhcmdldCBhcyBCcm93c2VyQ29udGV4dCwge30pOwoJCXJldHVybiB0YXJnZXQ7Cgl9CgoJY29uc3QgYnJvd3NlciA9IHRhcmdldCBhcyBCcm93c2VyOwoJZm9yIChjb25zdCBjb250ZXh0IG9mIGJyb3dzZXIuY29udGV4dHMoKSkgewoJCWF3YWl0IGhvb2tzLmFmdGVyPy4oY29udGV4dCwge30pOwoJfQoKCWNvbnN0IG9yaWdpbmFsID0gYnJvd3Nlci5uZXdDb250ZXh0LmJpbmQoYnJvd3Nlcik7Cglicm93c2VyLm5ld0NvbnRleHQgPSBhc3luYyAob3B0aW9ucz86IENvbnRleHRPcHRpb25zKSA9PiB7CgkJY29uc3QgbmV4dDogQ29udGV4dE9wdGlvbnMgPSB7IC4uLihvcHRpb25zID8/IHt9KSB9OwoJCWF3YWl0IGhvb2tzLmJlZm9yZT8uKG5leHQpOwoJCWNvbnN0IGNvbnRleHQgPSBhd2FpdCBvcmlnaW5hbChuZXh0KTsKCQlhd2FpdCBob29rcy5hZnRlcj8uKGNvbnRleHQsIG5leHQpOwoJCXJldHVybiBjb250ZXh0OwoJfTsKCglyZXR1cm4gdGFyZ2V0Owp9CgpleHBvcnQgZnVuY3Rpb24gb25FYWNoUGFnZTxUIGV4dGVuZHMgQnJvd3NlciB8IEJyb3dzZXJDb250ZXh0PigKCXRhcmdldDogVCwKCWhhbmRsZXI6IChwYWdlOiBQYWdlKSA9PiB2b2lkLAopOiBUIHsKCWNvbnN0IHNlZW4gPSBuZXcgV2Vha1NldDxvYmplY3Q+KCk7CgoJY29uc3Qgd2F0Y2hDb250ZXh0ID0gKGNvbnRleHQ6IEJyb3dzZXJDb250ZXh0KSA9PiB7CgkJaWYgKHNlZW4uaGFzKGNvbnRleHQpKSByZXR1cm47CgkJc2Vlbi5hZGQoY29udGV4dCk7CgkJZm9yIChjb25zdCBwYWdlIG9mIGNvbnRleHQucGFnZXMoKSkgaGFuZGxlcihwYWdlKTsKCQljb250ZXh0Lm9uKCJwYWdlIiwgKHBhZ2U6IFBhZ2UpID0+IGhhbmRsZXIocGFnZSkpOwoJfTsKCglpZiAodHlwZW9mICh0YXJnZXQgYXMgQnJvd3NlcikubmV3Q29udGV4dCAhPT0gImZ1bmN0aW9uIikgewoJCXdhdGNoQ29udGV4dCh0YXJnZXQgYXMgQnJvd3NlckNvbnRleHQpOwoJCXJldHVybiB0YXJnZXQ7Cgl9CgoJY29uc3QgYnJvd3NlciA9IHRhcmdldCBhcyBCcm93c2VyOwoJZm9yIChjb25zdCBjb250ZXh0IG9mIGJyb3dzZXIuY29udGV4dHMoKSkgd2F0Y2hDb250ZXh0KGNvbnRleHQpOwoKCWNvbnN0IG9yaWdpbmFsTmV3Q29udGV4dCA9IGJyb3dzZXIubmV3Q29udGV4dC5iaW5kKGJyb3dzZXIpOwoJYnJvd3Nlci5uZXdDb250ZXh0ID0gYXN5bmMgKC4uLmFyZ3M6IFBhcmFtZXRlcnM8QnJvd3NlclsibmV3Q29udGV4dCJdPikgPT4gewoJCWNvbnN0IGNvbnRleHQgPSBhd2FpdCBvcmlnaW5hbE5ld0NvbnRleHQoLi4uYXJncyk7CgkJd2F0Y2hDb250ZXh0KGNvbnRleHQpOwoJCXJldHVybiBjb250ZXh0OwoJfTsKCglyZXR1cm4gdGFyZ2V0Owp9Cg==
+import type { Browser, BrowserContext, Page } from "playwright-core";
+
+export type ContextOptions = NonNullable<Parameters<Browser["newContext"]>[0]>;
+
+export interface ContextHooks {
+	before?: (options: ContextOptions) => void | Promise<void>;
+	after?: (
+		context: BrowserContext,
+		options: ContextOptions,
+	) => void | Promise<void>;
+}
+
+export async function onEachContext<T extends Browser | BrowserContext>(
+	target: T,
+	hooks: ContextHooks,
+): Promise<T> {
+	if (typeof (target as Browser).newContext !== "function") {
+		await hooks.after?.(target as BrowserContext, {});
+		return target;
+	}
+
+	const browser = target as Browser;
+	for (const context of browser.contexts()) {
+		await hooks.after?.(context, {});
+	}
+
+	const original = browser.newContext.bind(browser);
+	browser.newContext = async (options?: ContextOptions) => {
+		const next: ContextOptions = { ...(options ?? {}) };
+		await hooks.before?.(next);
+		const context = await original(next);
+		await hooks.after?.(context, next);
+		return context;
+	};
+
+	return target;
+}
+
+export function onEachPage<T extends Browser | BrowserContext>(
+	target: T,
+	handler: (page: Page) => void,
+): T {
+	const seen = new WeakSet<object>();
+
+	const watchContext = (context: BrowserContext) => {
+		if (seen.has(context)) return;
+		seen.add(context);
+		for (const page of context.pages()) handler(page);
+		context.on("page", (page: Page) => handler(page));
+	};
+
+	if (typeof (target as Browser).newContext !== "function") {
+		watchContext(target as BrowserContext);
+		return target;
+	}
+
+	const browser = target as Browser;
+	for (const context of browser.contexts()) watchContext(context);
+
+	const originalNewContext = browser.newContext.bind(browser);
+	browser.newContext = async (...args: Parameters<Browser["newContext"]>) => {
+		const context = await originalNewContext(...args);
+		watchContext(context);
+		return context;
+	};
+
+	return target;
+}

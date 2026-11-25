@@ -1,1 +1,57 @@
-aW1wb3J0ICogYXMgZnMgZnJvbSAibm9kZTpmcyI7CmltcG9ydCAqIGFzIHBhdGggZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKCmNvbnN0IGN1cnJlbnREaXIgPQoJaW1wb3J0Lm1ldGEuZGlybmFtZSA/PyBwYXRoLmRpcm5hbWUoZmlsZVVSTFRvUGF0aChpbXBvcnQubWV0YS51cmwpKTsKCmV4cG9ydCBjb25zdCBQSU5fRklMRSA9IHBhdGguam9pbihjdXJyZW50RGlyLCAiZGF0YS1maWxlcyIsICJicm93c2VyLXBpbi5qc29uIik7CgpleHBvcnQgaW50ZXJmYWNlIEJyb3dzZXJQaW4gewoJdGFnOiBzdHJpbmc7CglyZXBvOiBzdHJpbmc7CglyZXBvTmFtZTogc3RyaW5nOwoJdmVyc2lvbjogc3RyaW5nOwoJYnVpbGQ6IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIHBpblNwZWMocGluOiBCcm93c2VyUGluKTogc3RyaW5nIHsKCXJldHVybiBgJHtwaW4udmVyc2lvbn0tJHtwaW4uYnVpbGR9YDsKfQoKZXhwb3J0IGZ1bmN0aW9uIGxvYWRQaW4oZmlsZTogc3RyaW5nID0gUElOX0ZJTEUpOiBCcm93c2VyUGluIHwgbnVsbCB7CglsZXQgZGF0YTogYW55OwoJdHJ5IHsKCQlkYXRhID0gSlNPTi5wYXJzZShmcy5yZWFkRmlsZVN5bmMoZmlsZSwgInV0Zi04IikpOwoJfSBjYXRjaCB7CgkJcmV0dXJuIG51bGw7Cgl9CglpZiAoIWRhdGE/LnRhZykgcmV0dXJuIG51bGw7CglyZXR1cm4gewoJCXRhZzogZGF0YS50YWcsCgkJcmVwbzogU3RyaW5nKGRhdGEucmVwbyksCgkJcmVwb05hbWU6IFN0cmluZyhkYXRhLnJlcG9fbmFtZSkudG9Mb3dlckNhc2UoKSwKCQl2ZXJzaW9uOiBTdHJpbmcoZGF0YS52ZXJzaW9uKSwKCQlidWlsZDogU3RyaW5nKGRhdGEuYnVpbGQpLAoJfTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGVmZmVjdGl2ZVBpbihjb25maWc6IHsKCWNoYW5uZWw/OiBzdHJpbmc7CglwaW5uZWQ/OiBzdHJpbmc7Cn0pOiBCcm93c2VyUGluIHwgbnVsbCB7CglyZXR1cm4gY29uZmlnLmNoYW5uZWwgfHwgY29uZmlnLnBpbm5lZCA/IG51bGwgOiBsb2FkUGluKCk7Cn0KCmV4cG9ydCBmdW5jdGlvbiBwaW5NYXRjaGVzKAoJcGluOiBCcm93c2VyUGluLAoJcmVwb05hbWU6IHN0cmluZywKCXZlcnNpb246IHN0cmluZywKCWJ1aWxkOiBzdHJpbmcsCik6IGJvb2xlYW4gewoJcmV0dXJuICgKCQlyZXBvTmFtZS50b0xvd2VyQ2FzZSgpID09PSBwaW4ucmVwb05hbWUgJiYKCQl2ZXJzaW9uID09PSBwaW4udmVyc2lvbiAmJgoJCWJ1aWxkID09PSBwaW4uYnVpbGQKCSk7Cn0K
+import * as fs from "node:fs";
+import * as path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const currentDir =
+	import.meta.dirname ?? path.dirname(fileURLToPath(import.meta.url));
+
+export const PIN_FILE = path.join(currentDir, "data-files", "browser-pin.json");
+
+export interface BrowserPin {
+	tag: string;
+	repo: string;
+	repoName: string;
+	version: string;
+	build: string;
+}
+
+export function pinSpec(pin: BrowserPin): string {
+	return `${pin.version}-${pin.build}`;
+}
+
+export function loadPin(file: string = PIN_FILE): BrowserPin | null {
+	let data: any;
+	try {
+		data = JSON.parse(fs.readFileSync(file, "utf-8"));
+	} catch {
+		return null;
+	}
+	if (!data?.tag) return null;
+	return {
+		tag: data.tag,
+		repo: String(data.repo),
+		repoName: String(data.repo_name).toLowerCase(),
+		version: String(data.version),
+		build: String(data.build),
+	};
+}
+
+export function effectivePin(config: {
+	channel?: string;
+	pinned?: string;
+}): BrowserPin | null {
+	return config.channel || config.pinned ? null : loadPin();
+}
+
+export function pinMatches(
+	pin: BrowserPin,
+	repoName: string,
+	version: string,
+	build: string,
+): boolean {
+	return (
+		repoName.toLowerCase() === pin.repoName &&
+		version === pin.version &&
+		build === pin.build
+	);
+}

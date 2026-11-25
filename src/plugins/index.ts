@@ -1,1 +1,123 @@
-aW1wb3J0IHsgYnJha2UsIHR5cGUgQnJha2VPcHRpb25zIH0gZnJvbSAiLi9icmFrZS5qcyI7CmltcG9ydCB7IGNoYWxsZW5nZVBsdWdpbiwgdHlwZSBDaGFsbGVuZ2VJbmZvLCB0eXBlIENoYWxsZW5nZVR5cGUgfSBmcm9tICIuL2NsYXNzaWZ5LmpzIjsKaW1wb3J0IHsgY29jb29uIH0gZnJvbSAiLi9jb2Nvb24uanMiOwppbXBvcnQgeyBkb2RnZSwgdHlwZSBEb2RnZU9wdGlvbnMgfSBmcm9tICIuL2RvZGdlLmpzIjsKaW1wb3J0IHsgZXBoZW1lcmFsLCB0eXBlIEVwaGVtZXJhbE9wdGlvbnMsIGdldEVwaGVtZXJhbEVudHJpZXMsIHJlcGxheUVwaGVtZXJhbCB9IGZyb20gIi4vZXBoZW1lcmFsLmpzIjsKaW1wb3J0IHsgZ2F1bnRsZXQsIHR5cGUgR2F1bnRsZXRPcHRpb25zLCB0eXBlIEdhdW50bGV0UmVzdWx0IH0gZnJvbSAiLi9nYXVudGxldC5qcyI7CmltcG9ydCB7IGh1bWFuLCB0eXBlIEh1bWFuUGx1Z2luT3B0aW9ucyB9IGZyb20gIi4vaHVtYW4uanMiOwppbXBvcnQgeyBqc2QsIHR5cGUgSnNkT3B0aW9ucywgaXNKc2RQYXNzZWQgfSBmcm9tICIuL2pzZC5qcyI7CmltcG9ydCB7IGxlbnMsIHR5cGUgTGVuc09wdGlvbnMsIHR5cGUgTGVuc1JlcG9ydCwgdHlwZSBMZW5zQ2hlY2sgfSBmcm9tICIuL2xlbnMuanMiOwppbXBvcnQgeyBwcmVjdXJzb3IsIHR5cGUgUHJlY3Vyc29yT3B0aW9ucywgZ2V0UHJlY3Vyc29yU3RhdGUsIHJlc2V0UHJlY3Vyc29yU3RhdGUgfSBmcm9tICIuL3ByZWN1cnNvci5qcyI7CmltcG9ydCB7IHN0YXNoLCB0eXBlIFN0YXNoT3B0aW9ucyB9IGZyb20gIi4vc3Rhc2guanMiOwppbXBvcnQgdHlwZSB7IEJleHhjdlBsdWdpbiB9IGZyb20gIi4vdHlwZXMuanMiOwppbXBvcnQgeyB2ZW5lZXIsIHR5cGUgVmVuZWVyT3B0aW9ucyB9IGZyb20gIi4vdmVuZWVyLmpzIjsKaW1wb3J0IHsgd2lyZXRhcCwgdHlwZSBXaXJldGFwT3B0aW9ucyB9IGZyb20gIi4vd2lyZXRhcC5qcyI7CmltcG9ydCB7IGJvdFNjb3JlLCB0eXBlIEJvdFNjb3JlT3B0aW9ucywgZ2V0Qm90U2NvcmVzLCBhdmdCb3RTY29yZSwgaGFkTG93U2NvcmUgfSBmcm9tICIuL2JvdHNjb3JlLmpzIjsKCmV4cG9ydCBpbnRlcmZhY2UgUGx1Z2luT3B0aW9ucyB7CglnYXVudGxldD86IGJvb2xlYW4gfCBHYXVudGxldE9wdGlvbnM7Cgl3aXJldGFwPzogYm9vbGVhbiB8IFdpcmV0YXBPcHRpb25zOwoJc3Rhc2g/OiBzdHJpbmcgfCBTdGFzaE9wdGlvbnM7Cgl2ZW5lZXI/OiBib29sZWFuIHwgVmVuZWVyT3B0aW9uczsKCWJyYWtlPzogYm9vbGVhbiB8IEJyYWtlT3B0aW9uczsKCWRvZGdlPzogRG9kZ2VPcHRpb25zOwoJY29jb29uPzogc3RyaW5nOwoJbGVucz86IGJvb2xlYW4gfCBMZW5zT3B0aW9uczsKCWh1bWFuPzogYm9vbGVhbiB8IEh1bWFuUGx1Z2luT3B0aW9uczsKCXBsdWdpbnM/OiBCZXh4Y3ZQbHVnaW5bXTsKCS8qKiBFbmFibGUgQ2xvdWRmbGFyZSBjaGFsbGVuZ2UgY2xhc3NpZmljYXRpb24gKGNoYWxsZW5nZS1jbGFzc2lmeSkuIERlZmF1bHQgdHJ1ZS4gKi8KCWNsYXNzaWZ5PzogYm9vbGVhbjsKCS8qKiBFbmFibGUgSlMgRGV0ZWN0aW9uIGhhbmRsaW5nIChqc2QpLiBSZXF1aXJlcyBnYXVudGxldDogdHJ1ZS4gRGVmYXVsdCB0cnVlLiAqLwoJanNkPzogYm9vbGVhbiB8IEpzZE9wdGlvbnM7CgkvKiogRW5hYmxlIFR1cm5zdGlsZSBlcGhlbWVyYWwgSUQgdHJhY2tpbmcgKGVwaGVtZXJhbCkuIERlZmF1bHQgdHJ1ZS4gKi8KCWVwaGVtZXJhbD86IGJvb2xlYW4gfCBFcGhlbWVyYWxPcHRpb25zOwoJLyoqIEVuYWJsZSBQcmVjdXJzb3IgY29va2llIGRyaWZ0IGRldGVjdGlvbiAocHJlY3Vyc29yKS4gRGVmYXVsdCB0cnVlLiAqLwoJcHJlY3Vyc29yPzogYm9vbGVhbiB8IFByZWN1cnNvck9wdGlvbnM7CgkvKiogRW5hYmxlIEJvdCBNYW5hZ2VtZW50IHNjb3JlIG1vbml0b3JpbmcgKGJvdC1zY29yZS1tb25pdG9yKS4gRGVmYXVsdCBmYWxzZS4gKi8KCWJvdFNjb3JlPzogYm9vbGVhbiB8IEJvdFNjb3JlT3B0aW9uczsKfQoKZXhwb3J0IGNvbnN0IFBMVUdJTl9LRVlTID0gWwoJImdhdW50bGV0IiwKCSJ3aXJldGFwIiwKCSJzdGFzaCIsCgkidmVuZWVyIiwKCSJicmFrZSIsCgkiZG9kZ2UiLAoJImNvY29vbiIsCgkiZ2F1bnRsZXQiLAoJImxlbnMiLAoJImh1bWFuIiwKCSJwbHVnaW5zIiwKCSJjbGFzc2lmeSIsCgkianNkIiwKCSJlcGhlbWVyYWwiLAoJInByZWN1cnNvciIsCgkiYm90U2NvcmUiLApdIGFzIGNvbnN0OwoKZnVuY3Rpb24gb3B0czxUIGV4dGVuZHMgb2JqZWN0Pih2YWx1ZTogYm9vbGVhbiB8IFQpOiBUIHsKCXJldHVybiB2YWx1ZSA9PT0gdHJ1ZSA/ICh7fSBhcyBUKSA6ICh2YWx1ZSBhcyBUKTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGJ1aWxkUGx1Z2lucyhvcHRpb25zOiBQbHVnaW5PcHRpb25zKTogQmV4eGN2UGx1Z2luW10gewoJY29uc3QgbGlzdDogQmV4eGN2UGx1Z2luW10gPSBbXTsKCgkvLyBDb3JlIHByb3RlY3Rpb24gcGx1Z2lucyDigJQgb3JkZXIgbWF0dGVycwoJaWYgKG9wdGlvbnMuZG9kZ2UpIGxpc3QucHVzaChkb2RnZShvcHRpb25zLmRvZGdlKSk7CglpZiAob3B0aW9ucy5jb2Nvb24pIGxpc3QucHVzaChjb2Nvb24oeyBkaXI6IG9wdGlvbnMuY29jb29uIH0pKTsKCWlmIChvcHRpb25zLnN0YXNoKSB7CgkJbGlzdC5wdXNoKAoJCQlzdGFzaCh0eXBlb2Ygb3B0aW9ucy5zdGFzaCA9PT0gInN0cmluZyIgPyB7IGZpbGU6IG9wdGlvbnMuc3Rhc2ggfSA6IG9wdGlvbnMuc3Rhc2gpLAoJCSk7Cgl9CglpZiAob3B0aW9ucy52ZW5lZXIpIGxpc3QucHVzaCh2ZW5lZXIob3B0cyhvcHRpb25zLnZlbmVlcikpKTsKCWlmIChvcHRpb25zLmNsYXNzaWZ5ICE9PSBmYWxzZSkgbGlzdC5wdXNoKGNoYWxsZW5nZVBsdWdpbigpKTsKCWlmIChvcHRpb25zLnByZWN1cnNvciAhPT0gZmFsc2UpIGxpc3QucHVzaChwcmVjdXJzb3IodHlwZW9mIG9wdGlvbnMucHJlY3Vyc29yID09PSAib2JqZWN0IiA/IG9wdGlvbnMucHJlY3Vyc29yIDoge30pKTsKCWlmIChvcHRpb25zLmJvdFNjb3JlKSBsaXN0LnB1c2goYm90U2NvcmUodHlwZW9mIG9wdGlvbnMuYm90U2NvcmUgPT09ICJvYmplY3QiID8gb3B0aW9ucy5ib3RTY29yZSA6IHt9KSk7CglpZiAob3B0aW9ucy5qc2QgIT09IGZhbHNlKSBsaXN0LnB1c2goanNkKHR5cGVvZiBvcHRpb25zLmpzZCA9PT0gIm9iamVjdCIgPyBvcHRpb25zLmpzZCA6IHt9KSk7CglpZiAob3B0aW9ucy5lcGhlbWVyYWwgIT09IGZhbHNlKSBsaXN0LnB1c2goZXBoZW1lcmFsKHR5cGVvZiBvcHRpb25zLmVwaGVtZXJhbCA9PT0gIm9iamVjdCIgPyBvcHRpb25zLmVwaGVtZXJhbCA6IHt9KSk7CglpZiAob3B0aW9ucy5nYXVudGxldCkgbGlzdC5wdXNoKGdhdW50bGV0KG9wdHMob3B0aW9ucy5nYXVudGxldCkpKTsKCWlmIChvcHRpb25zLmh1bWFuKSBsaXN0LnB1c2goaHVtYW4ob3B0cyhvcHRpb25zLmh1bWFuKSkpOwoJaWYgKG9wdGlvbnMuYnJha2UpIGxpc3QucHVzaChicmFrZShvcHRzKG9wdGlvbnMuYnJha2UpKSk7CglpZiAob3B0aW9ucy5sZW5zKSBsaXN0LnB1c2gobGVucyhvcHRzKG9wdGlvbnMubGVucykpKTsKCWlmIChvcHRpb25zLndpcmV0YXApIGxpc3QucHVzaCh3aXJldGFwKG9wdHMob3B0aW9ucy53aXJldGFwKSkpOwoJaWYgKG9wdGlvbnMucGx1Z2lucykgbGlzdC5wdXNoKC4uLm9wdGlvbnMucGx1Z2lucyk7CglyZXR1cm4gbGlzdDsKfQoKZXhwb3J0IGZ1bmN0aW9uIHN0cmlwUGx1Z2luT3B0aW9uczxUIGV4dGVuZHMgUmVjb3JkPHN0cmluZywgdW5rbm93bj4+KG9wdGlvbnM6IFQpOiBUIHsKCWNvbnN0IGNvcHk6IFJlY29yZDxzdHJpbmcsIHVua25vd24+ID0geyAuLi5vcHRpb25zIH07Cglmb3IgKGNvbnN0IGtleSBvZiBQTFVHSU5fS0VZUykgZGVsZXRlIGNvcHlba2V5XTsKCXJldHVybiBjb3B5IGFzIFQ7Cn0KCmV4cG9ydCB7IGFwcGx5UGx1Z2lucywgcnVuQmVmb3JlTGF1bmNoLCB0eXBlIEJleHhjdlBsdWdpbiB9IGZyb20gIi4vdHlwZXMuanMiOwpleHBvcnQgeyBhdWRpdEZpbmdlcnByaW50LCBsZW5zUmVwb3J0IH0gZnJvbSAiLi9sZW5zLmpzIjsKZXhwb3J0IHsgZ2F1bnRsZXRSZXN1bHQsIHJ1bkdhdW50bGV0IH0gZnJvbSAiLi9nYXVudGxldC5qcyI7CmV4cG9ydCB7IHdpcmV0YXBFbnRyaWVzIH0gZnJvbSAiLi93aXJldGFwLmpzIjsKCWV4cG9ydCB7IGJyYWtlLCBjb2Nvb24sIGRvZGdlLCBnYXVudGxldCwgaHVtYW4sIGxlbnMsIHN0YXNoLCB2ZW5lZXIsIHdpcmV0YXAsIGNoYWxsZW5nZVBsdWdpbiwganNkLCBlcGhlbWVyYWwsIHByZWN1cnNvciwgYm90U2NvcmUsIGdldEVwaGVtZXJhbEVudHJpZXMsIHJlcGxheUVwaGVtZXJhbCwgaXNKc2RQYXNzZWQsIGdldFByZWN1cnNvclN0YXRlLCByZXNldFByZWN1cnNvclN0YXRlLCBnZXRCb3RTY29yZXMsIGF2Z0JvdFNjb3JlLCBoYWRMb3dTY29yZSB9IGZyb20gIi4vaW5kZXgtcmVleHBvcnRzLmpzIjsKZXhwb3J0IHR5cGUgewoJSHVtYW5QbHVnaW5PcHRpb25zLAoJQnJha2VPcHRpb25zLAoJRG9kZ2VPcHRpb25zLAoJR2F1bnRsZXRPcHRpb25zLAoJR2F1bnRsZXRSZXN1bHQsCglMZW5zT3B0aW9ucywKCUxlbnNSZXBvcnQsCglMZW5zQ2hlY2ssCglTdGFzaE9wdGlvbnMsCglWZW5lZXJPcHRpb25zLAoJV2lyZXRhcE9wdGlvbnMsCglDaGFsbGVuZ2VJbmZvLAoJQ2hhbGxlbmdlVHlwZSwKCUpzZE9wdGlvbnMsCglFcGhlbWVyYWxPcHRpb25zLAoJUHJlY3Vyc29yT3B0aW9ucywKCUJvdFNjb3JlT3B0aW9ucywKfTsK
+import { brake, type BrakeOptions } from "./brake.js";
+import { challengePlugin, type ChallengeInfo, type ChallengeType } from "./classify.js";
+import { cocoon } from "./cocoon.js";
+import { dodge, type DodgeOptions } from "./dodge.js";
+import { ephemeral, type EphemeralOptions, getEphemeralEntries, replayEphemeral } from "./ephemeral.js";
+import { gauntlet, type GauntletOptions, type GauntletResult } from "./gauntlet.js";
+import { human, type HumanPluginOptions } from "./human.js";
+import { jsd, type JsdOptions, isJsdPassed } from "./jsd.js";
+import { lens, type LensOptions, type LensReport, type LensCheck } from "./lens.js";
+import { precursor, type PrecursorOptions, getPrecursorState, resetPrecursorState } from "./precursor.js";
+import { stash, type StashOptions } from "./stash.js";
+import type { BexxcvPlugin } from "./types.js";
+import { veneer, type VeneerOptions } from "./veneer.js";
+import { wiretap, type WiretapOptions } from "./wiretap.js";
+import { botScore, type BotScoreOptions, getBotScores, avgBotScore, hadLowScore } from "./botscore.js";
+import { stealth, type StealthOptions, attachStealth } from "./stealth.js";
+
+export interface PluginOptions {
+	gauntlet?: boolean | GauntletOptions;
+	wiretap?: boolean | WiretapOptions;
+	stash?: string | StashOptions;
+	veneer?: boolean | VeneerOptions;
+	brake?: boolean | BrakeOptions;
+	dodge?: DodgeOptions;
+	cocoon?: string;
+	lens?: boolean | LensOptions;
+	human?: boolean | HumanPluginOptions;
+	plugins?: BexxcvPlugin[];
+	/** Enable Cloudflare challenge classification (challenge-classify). Default true. */
+	classify?: boolean;
+	/** Enable JS Detection handling (jsd). Requires gauntlet: true. Default true. */
+	jsd?: boolean | JsdOptions;
+	/** Enable Turnstile ephemeral ID tracking (ephemeral). Default true. */
+	ephemeral?: boolean | EphemeralOptions;
+	/** Enable Precursor cookie drift detection (precursor). Default true. */
+	precursor?: boolean | PrecursorOptions;
+	/** Enable Bot Management score monitoring (bot-score-monitor). Default false. */
+	botScore?: boolean | BotScoreOptions;
+	/** Enable automation marker spoofing (stealth). Default false. */
+	stealth?: boolean | StealthOptions;
+}
+
+export const PLUGIN_KEYS = [
+	"gauntlet",
+	"wiretap",
+	"stash",
+	"veneer",
+	"brake",
+	"dodge",
+	"cocoon",
+	"gauntlet",
+	"lens",
+	"human",
+	"plugins",
+	"classify",
+	"jsd",
+	"ephemeral",
+	"precursor",
+	"botScore",
+	"stealth",
+] as const;
+
+function opts<T extends object>(value: boolean | T): T {
+	return value === true ? ({} as T) : (value as T);
+}
+
+export function buildPlugins(options: PluginOptions): BexxcvPlugin[] {
+	const list: BexxcvPlugin[] = [];
+
+	// Core protection plugins — order matters
+	if (options.dodge) list.push(dodge(options.dodge));
+	if (options.cocoon) list.push(cocoon({ dir: options.cocoon }));
+	if (options.stash) {
+		list.push(
+			stash(typeof options.stash === "string" ? { file: options.stash } : options.stash),
+		);
+	}
+	if (options.veneer) list.push(veneer(opts(options.veneer)));
+	if (options.classify !== false) list.push(challengePlugin());
+	if (options.precursor !== false) list.push(precursor(typeof options.precursor === "object" ? options.precursor : {}));
+	if (options.botScore) list.push(botScore(typeof options.botScore === "object" ? options.botScore : {}));
+	if (options.jsd !== false) list.push(jsd(typeof options.jsd === "object" ? options.jsd : {}));
+	if (options.stealth) list.push(stealth(typeof options.stealth === "object" ? options.stealth : {}));
+	if (options.ephemeral !== false) list.push(ephemeral(typeof options.ephemeral === "object" ? options.ephemeral : {}));
+	if (options.gauntlet) list.push(gauntlet(opts(options.gauntlet)));
+	if (options.human) list.push(human(opts(options.human)));
+	if (options.brake) list.push(brake(opts(options.brake)));
+	if (options.lens) list.push(lens(opts(options.lens)));
+	if (options.wiretap) list.push(wiretap(opts(options.wiretap)));
+	if (options.plugins) list.push(...options.plugins);
+	return list;
+}
+
+export function stripPluginOptions<T extends Record<string, unknown>>(options: T): T {
+	const copy: Record<string, unknown> = { ...options };
+	for (const key of PLUGIN_KEYS) delete copy[key];
+	return copy as T;
+}
+
+export { applyPlugins, runBeforeLaunch, type BexxcvPlugin } from "./types.js";
+export { auditFingerprint, lensReport } from "./lens.js";
+export { gauntletResult, runGauntlet } from "./gauntlet.js";
+export { wiretapEntries } from "./wiretap.js";
+	export { brake, cocoon, dodge, gauntlet, human, lens, stash, veneer, wiretap, challengePlugin, jsd, ephemeral, precursor, botScore, stealth, attachStealth, getEphemeralEntries, replayEphemeral, isJsdPassed, getPrecursorState, resetPrecursorState, getBotScores, avgBotScore, hadLowScore } from "./index-reexports.js";
+export type {
+	HumanPluginOptions,
+	BrakeOptions,
+	DodgeOptions,
+	GauntletOptions,
+	GauntletResult,
+	LensOptions,
+	LensReport,
+	LensCheck,
+	StashOptions,
+	VeneerOptions,
+	WiretapOptions,
+	ChallengeInfo,
+	ChallengeType,
+	JsdOptions,
+	EphemeralOptions,
+	PrecursorOptions,
+	BotScoreOptions,
+};

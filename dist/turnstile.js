@@ -1,1 +1,158 @@
-aW1wb3J0IHsgb25FYWNoUGFnZSB9IGZyb20gIi4vcGFnZWhvb2tzLmpzIjsKaW1wb3J0IHsgYmV0d2Vlbiwgc2xlZXAgfSBmcm9tICIuL3JhbmRvbS5qcyI7CmNvbnN0IFdBVENIRUQgPSBuZXcgV2Vha1NldCgpOwovLyAtLS0gV2lkZ2V0IGRpc2NvdmVyeSAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZmluZFdpZGdldHMocGFnZSkgewogICAgcmV0dXJuIHBhZ2UuZXZhbHVhdGUoKCkgPT4gewogICAgICAgIGNvbnN0IG91dCA9IFtdOwogICAgICAgIGNvbnN0IHNlZW4gPSBuZXcgU2V0KCk7CiAgICAgICAgY29uc3QgcHVzaCA9IChlbCwgc29sdmVkKSA9PiB7CiAgICAgICAgICAgIGxldCByZWN0ID0gZWwuZ2V0Qm91bmRpbmdDbGllbnRSZWN0KCk7CiAgICAgICAgICAgIGlmIChyZWN0LndpZHRoIDwgMTAgfHwgcmVjdC5oZWlnaHQgPCAxMCkKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgaWYgKCFzb2x2ZWQgJiYgKHJlY3QudG9wIDwgMCB8fCByZWN0LmJvdHRvbSA+IHdpbmRvdy5pbm5lckhlaWdodCkpIHsKICAgICAgICAgICAgICAgIGVsLnNjcm9sbEludG9WaWV3KHsgYmxvY2s6ICJjZW50ZXIiLCBiZWhhdmlvcjogImluc3RhbnQiIH0pOwogICAgICAgICAgICAgICAgcmVjdCA9IGVsLmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwogICAgICAgICAgICB9CiAgICAgICAgICAgIGNvbnN0IGtleSA9IGAke01hdGgucm91bmQocmVjdC54ICsgd2luZG93LnNjcm9sbFgpfToke01hdGgucm91bmQocmVjdC55ICsgd2luZG93LnNjcm9sbFkpfToke01hdGgucm91bmQocmVjdC53aWR0aCl9YDsKICAgICAgICAgICAgaWYgKHNlZW4uaGFzKGtleSkpCiAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIHNlZW4uYWRkKGtleSk7CiAgICAgICAgICAgIG91dC5wdXNoKHsgeDogcmVjdC54LCB5OiByZWN0LnksIHc6IHJlY3Qud2lkdGgsIGg6IHJlY3QuaGVpZ2h0LCBzb2x2ZWQsIGtleSB9KTsKICAgICAgICB9OwogICAgICAgIC8vIDEuIEltcGxpY2l0IHJlbmRlcmluZzogaGlkZGVuIGlucHV0IHdpdGggdGhlIHRva2VuCiAgICAgICAgZm9yIChjb25zdCBpbnB1dCBvZiBBcnJheS5mcm9tKGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJ1tuYW1lPSJjZi10dXJuc3RpbGUtcmVzcG9uc2UiXScpKSkgewogICAgICAgICAgICBjb25zdCBwYXJlbnQgPSBpbnB1dC5wYXJlbnRFbGVtZW50OwogICAgICAgICAgICBpZiAoIXBhcmVudCkKICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICBwdXNoKHBhcmVudCwgISEoaW5wdXQudmFsdWUgJiYgaW5wdXQudmFsdWUubGVuZ3RoID4gMjApKTsKICAgICAgICB9CiAgICAgICAgLy8gMi4gRmFsbGJhY2s6IGJhcmUgd2lkZ2V0IGJveCBoZXVyaXN0aWMgKHdpZHRoIH4zMDBweCwgZW1wdHksIGNvbXBhY3QpCiAgICAgICAgaWYgKG91dC5sZW5ndGggPT09IDApIHsKICAgICAgICAgICAgZm9yIChjb25zdCBzdHJpY3Qgb2YgW3RydWUsIGZhbHNlXSkgewogICAgICAgICAgICAgICAgZm9yIChjb25zdCBkaXYgb2YgQXJyYXkuZnJvbShkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCJkaXYiKSkpIHsKICAgICAgICAgICAgICAgICAgICBjb25zdCByZWN0ID0gZGl2LmdldEJvdW5kaW5nQ2xpZW50UmVjdCgpOwogICAgICAgICAgICAgICAgICAgIGlmIChyZWN0LndpZHRoIDw9IDI5MCB8fCByZWN0LndpZHRoID4gMzEwIHx8IGRpdi5xdWVyeVNlbGVjdG9yKCIqIikpCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgIGlmIChzdHJpY3QpIHsKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3QgY3NzID0gd2luZG93LmdldENvbXB1dGVkU3R5bGUoZGl2KTsKICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGNzcy5tYXJnaW4gIT09ICIwcHgiIHx8IGNzcy5wYWRkaW5nICE9PSAiMHB4IikKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgICAgICBwdXNoKGRpdiwgZmFsc2UpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgaWYgKG91dC5sZW5ndGggPiAwKQogICAgICAgICAgICAgICAgICAgIGJyZWFrOwogICAgICAgICAgICB9CiAgICAgICAgfQogICAgICAgIHJldHVybiBvdXQ7CiAgICB9KTsKfQovLyAtLS0gVG9rZW4gcmVhZGluZyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQpleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVhZFR1cm5zdGlsZVRva2VuKHBhZ2UpIHsKICAgIHRyeSB7CiAgICAgICAgcmV0dXJuIGF3YWl0IHBhZ2UuZXZhbHVhdGUoKCkgPT4gewogICAgICAgICAgICBmb3IgKGNvbnN0IGVsIG9mIEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnW25hbWU9ImNmLXR1cm5zdGlsZS1yZXNwb25zZSJdJykpKSB7CiAgICAgICAgICAgICAgICBpZiAoZWwudmFsdWUgJiYgZWwudmFsdWUubGVuZ3RoID4gMjApCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuIGVsLnZhbHVlOwogICAgICAgICAgICB9CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBjb25zdCB3ID0gd2luZG93OwogICAgICAgICAgICAgICAgY29uc3QgdmFsdWUgPSB3LnR1cm5zdGlsZT8uZ2V0UmVzcG9uc2U/LigpOwogICAgICAgICAgICAgICAgaWYgKHZhbHVlICYmIHZhbHVlLmxlbmd0aCA+IDIwKQogICAgICAgICAgICAgICAgICAgIHJldHVybiB2YWx1ZTsKICAgICAgICAgICAgfQogICAgICAgICAgICBjYXRjaCB7CiAgICAgICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gbnVsbDsKICAgICAgICB9KTsKICAgIH0KICAgIGNhdGNoIHsKICAgICAgICByZXR1cm4gbnVsbDsKICAgIH0KfQovLyAtLS0gQ2xpY2sgaGVscGVycyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQphc3luYyBmdW5jdGlvbiBjbGlja0F0KHBhZ2UsIHgsIHkpIHsKICAgIGF3YWl0IHBhZ2UubW91c2UubW92ZSh4ICsgYmV0d2VlbigtNjAsIDYwKSwgeSArIGJldHdlZW4oLTQwLCA0MCksIHsgc3RlcHM6IDQgfSk7CiAgICBhd2FpdCBzbGVlcChiZXR3ZWVuKDYwLCAxNjApKTsKICAgIGF3YWl0IHBhZ2UubW91c2UubW92ZSh4LCB5LCB7IHN0ZXBzOiBNYXRoLmZsb29yKGJldHdlZW4oOCwgMTYpKSB9KTsKICAgIGF3YWl0IHNsZWVwKGJldHdlZW4oNjAsIDE0MCkpOwogICAgYXdhaXQgcGFnZS5tb3VzZS5kb3duKCk7CiAgICBhd2FpdCBzbGVlcChiZXR3ZWVuKDYwLCAxMjApKTsKICAgIGF3YWl0IHBhZ2UubW91c2UudXAoKTsKfQphc3luYyBmdW5jdGlvbiBjbGlja1BlbmRpbmcocGFnZSwgY2xpY2tlZCwgcmV0cnlBZnRlcikgewogICAgY29uc3Qgd2lkZ2V0cyA9IGF3YWl0IGZpbmRXaWRnZXRzKHBhZ2UpOwogICAgbGV0IGNsaWNrcyA9IDA7CiAgICBmb3IgKGNvbnN0IHdpZGdldCBvZiB3aWRnZXRzKSB7CiAgICAgICAgaWYgKHdpZGdldC5zb2x2ZWQpCiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIGNvbnN0IGxhc3QgPSBjbGlja2VkLmdldCh3aWRnZXQua2V5KSA/PyAwOwogICAgICAgIGlmIChEYXRlLm5vdygpIC0gbGFzdCA8IHJldHJ5QWZ0ZXIpCiAgICAgICAgICAgIGNvbnRpbnVlOwogICAgICAgIGNsaWNrZWQuc2V0KHdpZGdldC5rZXksIERhdGUubm93KCkpOwogICAgICAgIGNvbnN0IHggPSB3aWRnZXQueCArIE1hdGgubWluKDMwLCB3aWRnZXQudyAvIDIpICsgYmV0d2VlbigtNCwgNCk7CiAgICAgICAgY29uc3QgeSA9IHdpZGdldC55ICsgd2lkZ2V0LmggLyAyICsgYmV0d2VlbigtNCwgNCk7CiAgICAgICAgYXdhaXQgY2xpY2tBdChwYWdlLCB4LCB5KTsKICAgICAgICBjbGlja3MrKzsKICAgIH0KICAgIHJldHVybiB7IHdpZGdldHMsIGNsaWNrcyB9Owp9CmV4cG9ydCBmdW5jdGlvbiBjcmVhdGVDbGlja2VyKHJldHJ5QWZ0ZXIgPSA4MDAwKSB7CiAgICBjb25zdCBjbGlja2VkID0gbmV3IE1hcCgpOwogICAgcmV0dXJuIGFzeW5jIChwYWdlKSA9PiB7CiAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgY2xpY2tQZW5kaW5nKHBhZ2UsIGNsaWNrZWQsIHJldHJ5QWZ0ZXIpOwogICAgICAgIHJldHVybiByZXN1bHQuY2xpY2tzID4gMDsKICAgIH07Cn0KLy8gLS0tIFNvbHZlIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHNvbHZlVHVybnN0aWxlKHBhZ2UsIHRpbWVvdXQgPSAzMDAwMCwgaWRsZUNoZWNrcyA9IDQsIHJldHJ5QWZ0ZXIgPSA4MDAwKSB7CiAgICBjb25zdCBlbmQgPSBEYXRlLm5vdygpICsgdGltZW91dDsKICAgIGNvbnN0IGNsaWNrZWQgPSBuZXcgTWFwKCk7CiAgICBsZXQgaWRsZSA9IDA7CiAgICB3aGlsZSAoRGF0ZS5ub3coKSA8IGVuZCAmJiAhcGFnZS5pc0Nsb3NlZCgpKSB7CiAgICAgICAgY29uc3QgdG9rZW4gPSBhd2FpdCByZWFkVHVybnN0aWxlVG9rZW4ocGFnZSk7CiAgICAgICAgaWYgKHRva2VuKQogICAgICAgICAgICByZXR1cm4gdG9rZW47CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgY29uc3QgcmVzdWx0ID0gYXdhaXQgY2xpY2tQZW5kaW5nKHBhZ2UsIGNsaWNrZWQsIHJldHJ5QWZ0ZXIpOwogICAgICAgICAgICBpZGxlID0gcmVzdWx0LndpZGdldHMubGVuZ3RoID09PSAwID8gaWRsZSArIDEgOiAwOwogICAgICAgIH0KICAgICAgICBjYXRjaCB7CiAgICAgICAgICAgIGlkbGUrKzsKICAgICAgICB9CiAgICAgICAgaWYgKGlkbGUgPj0gaWRsZUNoZWNrcykKICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgYXdhaXQgc2xlZXAoMTAwMCk7CiAgICB9CiAgICByZXR1cm4gcmVhZFR1cm5zdGlsZVRva2VuKHBhZ2UpOwp9Ci8vIC0tLSBXYXRjaGVyIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tCmV4cG9ydCBmdW5jdGlvbiB3YXRjaFR1cm5zdGlsZShwYWdlLCBvcHRpb25zID0ge30pIHsKICAgIGlmIChXQVRDSEVELmhhcyhwYWdlKSkKICAgICAgICByZXR1cm47CiAgICBXQVRDSEVELmFkZChwYWdlKTsKICAgIGNvbnN0IGludGVydmFsID0gb3B0aW9ucy5pbnRlcnZhbCA/PyAxMDAwOwogICAgY29uc3QgcmV0cnlBZnRlciA9IG9wdGlvbnMucmV0cnlBZnRlciA/PyA4MDAwOwogICAgY29uc3QgY2xpY2tlZCA9IG5ldyBNYXAoKTsKICAgIGxldCBhY3RpdmUgPSB0cnVlOwogICAgcGFnZS5vbigiY2xvc2UiLCAoKSA9PiB7CiAgICAgICAgYWN0aXZlID0gZmFsc2U7CiAgICB9KTsKICAgIGNvbnN0IGxvb3AgPSBhc3luYyAoKSA9PiB7CiAgICAgICAgd2hpbGUgKGFjdGl2ZSAmJiAhcGFnZS5pc0Nsb3NlZCgpKSB7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBhd2FpdCBjbGlja1BlbmRpbmcocGFnZSwgY2xpY2tlZCwgcmV0cnlBZnRlcik7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggewogICAgICAgICAgICAgICAgYXdhaXQgc2xlZXAoNTAwKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBhd2FpdCBzbGVlcChpbnRlcnZhbCk7CiAgICAgICAgfQogICAgfTsKICAgIHZvaWQgbG9vcCgpOwp9CmV4cG9ydCBmdW5jdGlvbiBhdHRhY2hUdXJuc3RpbGUodGFyZ2V0LCBvcHRpb25zID0ge30pIHsKICAgIHJldHVybiBvbkVhY2hQYWdlKHRhcmdldCwgKHBhZ2UpID0+IHdhdGNoVHVybnN0aWxlKHBhZ2UsIG9wdGlvbnMpKTsKfQo=
+import { onEachPage } from "./pagehooks.js";
+import { between, sleep } from "./random.js";
+const WATCHED = new WeakSet();
+// --- Widget discovery --------------------------------------------------------
+export async function findWidgets(page) {
+    return page.evaluate(() => {
+        const out = [];
+        const seen = new Set();
+        const push = (el, solved) => {
+            let rect = el.getBoundingClientRect();
+            if (rect.width < 10 || rect.height < 10)
+                return;
+            if (!solved && (rect.top < 0 || rect.bottom > window.innerHeight)) {
+                el.scrollIntoView({ block: "center", behavior: "instant" });
+                rect = el.getBoundingClientRect();
+            }
+            const key = `${Math.round(rect.x + window.scrollX)}:${Math.round(rect.y + window.scrollY)}:${Math.round(rect.width)}`;
+            if (seen.has(key))
+                return;
+            seen.add(key);
+            out.push({ x: rect.x, y: rect.y, w: rect.width, h: rect.height, solved, key });
+        };
+        // 1. Implicit rendering: hidden input with the token
+        for (const input of Array.from(document.querySelectorAll('[name="cf-turnstile-response"]'))) {
+            const parent = input.parentElement;
+            if (!parent)
+                continue;
+            push(parent, !!(input.value && input.value.length > 20));
+        }
+        // 2. Fallback: bare widget box heuristic (width ~300px, empty, compact)
+        if (out.length === 0) {
+            for (const strict of [true, false]) {
+                for (const div of Array.from(document.querySelectorAll("div"))) {
+                    const rect = div.getBoundingClientRect();
+                    if (rect.width <= 290 || rect.width > 310 || div.querySelector("*"))
+                        continue;
+                    if (strict) {
+                        const css = window.getComputedStyle(div);
+                        if (css.margin !== "0px" || css.padding !== "0px")
+                            continue;
+                    }
+                    push(div, false);
+                }
+                if (out.length > 0)
+                    break;
+            }
+        }
+        return out;
+    });
+}
+// --- Token reading -----------------------------------------------------------
+export async function readTurnstileToken(page) {
+    try {
+        return await page.evaluate(() => {
+            for (const el of Array.from(document.querySelectorAll('[name="cf-turnstile-response"]'))) {
+                if (el.value && el.value.length > 20)
+                    return el.value;
+            }
+            try {
+                const w = window;
+                const value = w.turnstile?.getResponse?.();
+                if (value && value.length > 20)
+                    return value;
+            }
+            catch {
+                return null;
+            }
+            return null;
+        });
+    }
+    catch {
+        return null;
+    }
+}
+// --- Click helpers -----------------------------------------------------------
+async function clickAt(page, x, y) {
+    await page.mouse.move(x + between(-60, 60), y + between(-40, 40), { steps: 4 });
+    await sleep(between(60, 160));
+    await page.mouse.move(x, y, { steps: Math.floor(between(8, 16)) });
+    await sleep(between(60, 140));
+    await page.mouse.down();
+    await sleep(between(60, 120));
+    await page.mouse.up();
+}
+async function clickPending(page, clicked, retryAfter) {
+    const widgets = await findWidgets(page);
+    let clicks = 0;
+    for (const widget of widgets) {
+        if (widget.solved)
+            continue;
+        const last = clicked.get(widget.key) ?? 0;
+        if (Date.now() - last < retryAfter)
+            continue;
+        clicked.set(widget.key, Date.now());
+        const x = widget.x + Math.min(30, widget.w / 2) + between(-4, 4);
+        const y = widget.y + widget.h / 2 + between(-4, 4);
+        await clickAt(page, x, y);
+        clicks++;
+    }
+    return { widgets, clicks };
+}
+export function createClicker(retryAfter = 8000) {
+    const clicked = new Map();
+    return async (page) => {
+        const result = await clickPending(page, clicked, retryAfter);
+        return result.clicks > 0;
+    };
+}
+// --- Solve -------------------------------------------------------------------
+export async function solveTurnstile(page, timeout = 30000, idleChecks = 4, retryAfter = 8000) {
+    const end = Date.now() + timeout;
+    const clicked = new Map();
+    let idle = 0;
+    while (Date.now() < end && !page.isClosed()) {
+        const token = await readTurnstileToken(page);
+        if (token)
+            return token;
+        try {
+            const result = await clickPending(page, clicked, retryAfter);
+            idle = result.widgets.length === 0 ? idle + 1 : 0;
+        }
+        catch {
+            idle++;
+        }
+        if (idle >= idleChecks)
+            return null;
+        await sleep(1000);
+    }
+    return readTurnstileToken(page);
+}
+// --- Watcher -----------------------------------------------------------------
+export function watchTurnstile(page, options = {}) {
+    if (WATCHED.has(page))
+        return;
+    WATCHED.add(page);
+    const interval = options.interval ?? 1000;
+    const retryAfter = options.retryAfter ?? 8000;
+    const clicked = new Map();
+    let active = true;
+    page.on("close", () => {
+        active = false;
+    });
+    const loop = async () => {
+        while (active && !page.isClosed()) {
+            try {
+                await clickPending(page, clicked, retryAfter);
+            }
+            catch {
+                await sleep(500);
+            }
+            await sleep(interval);
+        }
+    };
+    void loop();
+}
+export function attachTurnstile(target, options = {}) {
+    return onEachPage(target, (page) => watchTurnstile(page, options));
+}

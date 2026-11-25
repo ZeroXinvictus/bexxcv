@@ -1,1 +1,37 @@
-ZXhwb3J0IGZ1bmN0aW9uIHZlbmVlcihvcHRpb25zID0ge30pIHsKICAgIGxldCB3YXJuZWQgPSBmYWxzZTsKICAgIHJldHVybiB7CiAgICAgICAgbmFtZTogInZlbmVlciIsCiAgICAgICAgb3JkZXI6IDMwLAogICAgICAgIGFzeW5jIG9uQ29udGV4dChjb250ZXh0KSB7CiAgICAgICAgICAgIGlmIChvcHRpb25zLnN0cmljdCkgewogICAgICAgICAgICAgICAgYXdhaXQgY29udGV4dC5yb3V0ZSgiKiovKiIsIGFzeW5jIChyb3V0ZSkgPT4gewogICAgICAgICAgICAgICAgICAgIGNvbnN0IGhlYWRlcnMgPSByb3V0ZS5yZXF1ZXN0KCkuaGVhZGVycygpOwogICAgICAgICAgICAgICAgICAgIGlmICgvZmlyZWZveC9pLnRlc3QoaGVhZGVyc1sidXNlci1hZ2VudCJdID8/ICIiKSkgewogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBjbGVhbmVkID0ge307CiAgICAgICAgICAgICAgICAgICAgICAgIGZvciAoY29uc3QgW2tleSwgdmFsdWVdIG9mIE9iamVjdC5lbnRyaWVzKGhlYWRlcnMpKSB7CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoIWtleS50b0xvd2VyQ2FzZSgpLnN0YXJ0c1dpdGgoInNlYy1jaC11YSIpKQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNsZWFuZWRba2V5XSA9IHZhbHVlOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIChPYmplY3Qua2V5cyhjbGVhbmVkKS5sZW5ndGggIT09IE9iamVjdC5rZXlzKGhlYWRlcnMpLmxlbmd0aCkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgYXdhaXQgcm91dGUuY29udGludWUoeyBoZWFkZXJzOiBjbGVhbmVkIH0pOwogICAgICAgICAgICAgICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgIGF3YWl0IHJvdXRlLmNvbnRpbnVlKCk7CiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQogICAgICAgICAgICBjb250ZXh0Lm9uKCJyZXF1ZXN0IiwgKHJlcXVlc3QpID0+IHsKICAgICAgICAgICAgICAgIGlmICh3YXJuZWQpCiAgICAgICAgICAgICAgICAgICAgcmV0dXJuOwogICAgICAgICAgICAgICAgY29uc3QgaGVhZGVycyA9IHJlcXVlc3QuaGVhZGVycygpOwogICAgICAgICAgICAgICAgaWYgKC9maXJlZm94L2kudGVzdChoZWFkZXJzWyJ1c2VyLWFnZW50Il0gPz8gIiIpICYmCiAgICAgICAgICAgICAgICAgICAgT2JqZWN0LmtleXMoaGVhZGVycykuc29tZSgoa2V5KSA9PiBrZXkudG9Mb3dlckNhc2UoKS5zdGFydHNXaXRoKCJzZWMtY2gtdWEiKSkpIHsKICAgICAgICAgICAgICAgICAgICB3YXJuZWQgPSB0cnVlOwogICAgICAgICAgICAgICAgICAgIGNvbnNvbGUud2FybigiW2JleHhjdl0gdmVuZWVyOiBhIEZpcmVmb3ggdXNlciBhZ2VudCBpcyBzZW5kaW5nIHNlYy1jaC11YSBoZWFkZXJzLCBzb21ldGhpbmcgdXBzdHJlYW0gaXMgaW5qZWN0aW5nIHRoZW0uIFVzZSB2ZW5lZXI6IHsgc3RyaWN0OiB0cnVlIH0gdG8gc3RyaXAgdGhlbS4iKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfSk7CiAgICAgICAgfSwKICAgIH07Cn0K
+export function veneer(options = {}) {
+    let warned = false;
+    return {
+        name: "veneer",
+        order: 30,
+        async onContext(context) {
+            if (options.strict) {
+                await context.route("**/*", async (route) => {
+                    const headers = route.request().headers();
+                    if (/firefox/i.test(headers["user-agent"] ?? "")) {
+                        const cleaned = {};
+                        for (const [key, value] of Object.entries(headers)) {
+                            if (!key.toLowerCase().startsWith("sec-ch-ua"))
+                                cleaned[key] = value;
+                        }
+                        if (Object.keys(cleaned).length !== Object.keys(headers).length) {
+                            await route.continue({ headers: cleaned });
+                            return;
+                        }
+                    }
+                    await route.continue();
+                });
+                return;
+            }
+            context.on("request", (request) => {
+                if (warned)
+                    return;
+                const headers = request.headers();
+                if (/firefox/i.test(headers["user-agent"] ?? "") &&
+                    Object.keys(headers).some((key) => key.toLowerCase().startsWith("sec-ch-ua"))) {
+                    warned = true;
+                    console.warn("[bexxcv] veneer: a Firefox user agent is sending sec-ch-ua headers, something upstream is injecting them. Use veneer: { strict: true } to strip them.");
+                }
+            });
+        },
+    };
+}

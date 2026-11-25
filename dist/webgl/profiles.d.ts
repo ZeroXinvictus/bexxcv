@@ -1,1 +1,12 @@
-ZXhwb3J0IGRlY2xhcmUgY29uc3QgS05PV05fR1BVUzogUmVjb3JkPCJ3aW4iIHwgIm1hYyIgfCAibGluIiwgQXJyYXk8ewogICAgdmVuZG9yOiBzdHJpbmc7CiAgICByZW5kZXJlcjogc3RyaW5nOwogICAgd2VpZ2h0OiBudW1iZXI7Cn0+PjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gc2FtcGxlR1BVUHJvZmlsZShvczogIndpbiIgfCAibWFjIiB8ICJsaW4iKTogewogICAgdmVuZG9yOiBzdHJpbmc7CiAgICByZW5kZXJlcjogc3RyaW5nOwogICAgd2ViZ2xFeHRlbnNpb25zOiBzdHJpbmdbXTsKICAgIGdsc2xWZXJzaW9uOiBzdHJpbmc7Cn07CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHJlc29sdmVVQU9TKHVzZXJBZ2VudDogc3RyaW5nKTogIndpbiIgfCAibWFjIiB8ICJsaW4iOwo=
+export declare const KNOWN_GPUS: Record<"win" | "mac" | "lin", Array<{
+    vendor: string;
+    renderer: string;
+    weight: number;
+}>>;
+export declare function sampleGPUProfile(os: "win" | "mac" | "lin"): {
+    vendor: string;
+    renderer: string;
+    webglExtensions: string[];
+    glslVersion: string;
+};
+export declare function resolveUAOS(userAgent: string): "win" | "mac" | "lin";

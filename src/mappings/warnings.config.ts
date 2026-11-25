@@ -1,1 +1,53 @@
-ZXhwb3J0IGRlZmF1bHQgewoJbmF2aWdhdG9yOgoJCSJNYW51YWxseSBzZXR0aW5nIG5hdmlnYXRvciBwcm9wZXJ0aWVzIGlzIG5vdCByZWNvbW1lbmRlZC4iICsKCQkiIERldmljZSBpbmZvcm1hdGlvbiBpcyBhdXRvbWF0aWNhbGx5IGdlbmVyYXRlZCB3aXRoaW4gQ2Ftb3Vmb3giICsKCQkiIGJhc2VkIG9uIHRoZSBwcm92aWRlZCBgb3NgLiIsCgoJbG9jYWxlOgoJCSJVc2UgdGhlIGBsb2NhbGVgIHBhcmFtZXRlciBpbiBDYW1vdWZveCBpbnN0ZWFkIG9mIHNldHRpbmcgdGhlIGNvbmZpZyBtYW51YWxseS4iLAoKCWdlb2xvY2F0aW9uOgoJCSJQbGVhc2UgdXNlIHRoZSBgZ2VvaXBgIHBhcmFtZXRlciBpbiBDYW1vdWZveCBpbnN0ZWFkIG9mIHNldHRpbmcgeW91ciBnZW9sb2NhdGlvbiBtYW51YWxseS4iICsKCQkiIFRoaXMgY2FuIGxlYWQgdG8gZGV0ZWN0aW9uIGlmIHlvdXIgdGFyZ2V0IGdlb2xvY2F0aW9uIGRvZXMgbm90IG1hdGNoIHlvdXIgSVAuIiArCgkJIiBQYXNzIGBnZW9pcD1UcnVlYCBvciBhIHRhcmdldCBJUCAoZXg6IGdlb2lwPScxMjMuNDUuNjcuODknKSB0byBsZXQgQ2Ftb3Vmb3ggcG9wdWxhdGUgdGhpcyBkYXRhIGZvciB5b3UuIiwKCgkiaGVhZGVyLXVhIjoKCQkiRG8gbm90IHNldCB0aGUgaGVhZGVyLlVzZXItQWdlbnQgbWFudWFsbHkuIENhbW91Zm94IHdpbGwgZ2VuZXJhdGUgYSBVc2VyLUFnZW50IGZvciB5b3UuIiwKCgl2aWV3cG9ydDoKCQkiTWFudWFsbHkgc2V0dGluZyBzY3JlZW4gJiB3aW5kb3cgcHJvcGVydGllcyBpcyBub3QgcmVjb21tZW5kZWQuIiArCgkJIiBTY3JlZW4gZGltZW5zaW9ucyBhcmUgcmFuZG9tbHkgZ2VuZXJhdGVkIHdpdGhpbiBDYW1vdWZveCIgKwoJCSIgYmFzZWQgb24gdGhlIHByb3ZpZGVkIHNjcmVlbiBjb25zdHJhaW50cy4gU2VlIGhlcmU6IiArCgkJIiBodHRwczovL2dpdGh1Yi5jb20vZGFpanJvL2NhbW91Zm94L3RyZWUvbWFpbi9weXRob25saWIjYnJvd3NlcmZvcmdlLWludGVncmF0aW9uLiIsCgoJY3VzdG9tX2ZpbmdlcnByaW50OgoJCSJQYXNzaW5nIHlvdXIgb3duIGZpbmdlcnByaW50IGlzIG5vdCByZWNvbW1lbmRlZC4iICsKCQkiIEJyb3dzZXJGb3JnZSBmaW5nZXJwcmludHMgYXJlIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkIHdpdGhpbiBDYW1vdWZveCIgKwoJCSIgYmFzZWQgb24gdGhlIHByb3ZpZGVkIGBvc2AgYW5kIGBzY3JlZW5gIGNvbnN0cmFpbnRzLiIsCgoJcHJveHlfd2l0aG91dF9nZW9pcDoKCQkiV2hlbiB1c2luZyBhIHByb3h5LCBpdCBpcyBoZWF2aWx5IHJlY29tbWVuZGVkIHRoYXQgeW91IHBhc3MgYGdlb2lwPVRydWVgLiIsCgoJZmZfdmVyc2lvbjoKCQkiU3Bvb2ZpbmcgdGhlIEZpcmVmb3ggdmVyc2lvbiB3aWxsIGxpa2VseSBsZWFkIHRvIGRldGVjdGlvbi4iICsKCQkiIElmIHJvdGF0aW5nIHRoZSBGaXJlZm94IHZlcnNpb24gaXMgYWJzb2x1dGVseSBuZWNlc3NhcnksIGl0IHdvdWxkIGJlIG1vcmUgYWR2aXNhYmxlIHRvIiArCgkJIiByb3RhdGUgYmV0d2VlbiBvbGRlciB2ZXJzaW9ucyBvZiBDYW1vdWZveCBpbnN0ZWFkLiIsCgoJbm9fcmVnaW9uOgoJCSJCZWNhdXNlIHlvdSBkaWQgbm90IHBhc3MgaW4gYSBsb2NhbGUgcmVnaW9uLCBDYW1vdWZveCB3aWxsIGdlbmVyYXRlIG9uZSBmb3IgeW91LiIgKwoJCSIgVGhpcyBjYW4gY2F1c2Ugc3VzcGljaW9uIGlmIHlvdXIgSVAgZG9lcyBub3QgbWF0Y2ggeW91ciBsb2NhbGUgcmVnaW9uLiIsCgoJYmxvY2tfd2ViZ2w6CgkJIkRpc2FibGluZyBXZWJHTCBpcyBub3QgcmVjb21tZW5kZWQuIE1hbnkgV0FGcyB3aWxsIGNoZWNrIGlmIFdlYkdMIGlzIGVuYWJsZWQuIiwKCglibG9ja19pbWFnZXM6CgkJIkJsb2NraW5nIGltYWdlIHJlcXVlc3RzIGhhcyBiZWVuIHJlcG9ydGVkIHRvIGNhdXNlIGRldGVjdGlvbiBpc3N1ZXMgb24gbWFqb3IgV0FGcy4iLAoKCWN1c3RvbV9mb250c19vbmx5OgoJCSJEaXNhYmxpbmcgT1Mtc3BlY2lmaWMgZm9udHMgd2hpbGUgc3Bvb2ZpbmcgeW91ciBPUyB3aWxsIG1ha2UgeW91ciBicm93c2VyIGZpbmdlcnByaW50IGluY29uc2lzdGVudC4iICsKCQkiIFdBRnMgY2FuIGRldGVjdCB0aGlzIG1pc21hdGNoIGJldHdlZW4geW91ciBjbGFpbWVkIE9TIGFuZCBhdmFpbGFibGUgc3lzdGVtIGZvbnRzLiIsCgoJZGlzYWJsZV9jb29wOgoJCSJEaXNhYmxpbmcgQ3Jvc3MtT3JpZ2luLU9wZW5lci1Qb2xpY3kgKENPT1ApIGhhbmRsaW5nIGNhbiBwb3RlbnRpYWxseSBiZSBkZXRlY3RlZCBieSBzb3BoaXN0aWNhdGVkIFdBRnMuIiwKfTsK
+export default {
+	navigator:
+		"Manually setting navigator properties is not recommended." +
+		" Device information is automatically generated within Camoufox" +
+		" based on the provided `os`.",
+
+	locale:
+		"Use the `locale` parameter in Camoufox instead of setting the config manually.",
+
+	geolocation:
+		"Please use the `geoip` parameter in Camoufox instead of setting your geolocation manually." +
+		" This can lead to detection if your target geolocation does not match your IP." +
+		" Pass `geoip=True` or a target IP (ex: geoip='123.45.67.89') to let Camoufox populate this data for you.",
+
+	"header-ua":
+		"Do not set the header.User-Agent manually. Camoufox will generate a User-Agent for you.",
+
+	viewport:
+		"Manually setting screen & window properties is not recommended." +
+		" Screen dimensions are randomly generated within Camoufox" +
+		" based on the provided screen constraints. See here:" +
+		" https://github.com/daijro/camoufox/tree/main/pythonlib#browserforge-integration.",
+
+	custom_fingerprint:
+		"Passing your own fingerprint is not recommended." +
+		" BrowserForge fingerprints are automatically generated within Camoufox" +
+		" based on the provided `os` and `screen` constraints.",
+
+	proxy_without_geoip:
+		"When using a proxy, it is heavily recommended that you pass `geoip=True`.",
+
+	ff_version:
+		"Spoofing the Firefox version will likely lead to detection." +
+		" If rotating the Firefox version is absolutely necessary, it would be more advisable to" +
+		" rotate between older versions of Camoufox instead.",
+
+	no_region:
+		"Because you did not pass in a locale region, Camoufox will generate one for you." +
+		" This can cause suspicion if your IP does not match your locale region.",
+
+	block_webgl:
+		"Disabling WebGL is not recommended. Many WAFs will check if WebGL is enabled.",
+
+	block_images:
+		"Blocking image requests has been reported to cause detection issues on major WAFs.",
+
+	custom_fonts_only:
+		"Disabling OS-specific fonts while spoofing your OS will make your browser fingerprint inconsistent." +
+		" WAFs can detect this mismatch between your claimed OS and available system fonts.",
+
+	disable_coop:
+		"Disabling Cross-Origin-Opener-Policy (COOP) handling can potentially be detected by sophisticated WAFs.",
+};

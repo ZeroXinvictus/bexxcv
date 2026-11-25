@@ -1,1 +1,5 @@
-aW1wb3J0IHR5cGUgeyBCZXh4Y3ZQbHVnaW4gfSBmcm9tICIuL3R5cGVzLmpzIjsKZXhwb3J0IGludGVyZmFjZSBWZW5lZXJPcHRpb25zIHsKICAgIHN0cmljdD86IGJvb2xlYW47Cn0KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gdmVuZWVyKG9wdGlvbnM/OiBWZW5lZXJPcHRpb25zKTogQmV4eGN2UGx1Z2luOwo=
+import type { BexxcvPlugin } from "./types.js";
+export interface VeneerOptions {
+    strict?: boolean;
+}
+export declare function veneer(options?: VeneerOptions): BexxcvPlugin;

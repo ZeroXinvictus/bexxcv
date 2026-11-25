@@ -1,1 +1,56 @@
-aW1wb3J0IGZzIGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgeyBqb2luIH0gZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHsgSW52YWxpZEFkZG9uUGF0aCB9IGZyb20gIi4vZXhjZXB0aW9ucy5qcyI7CmltcG9ydCB7IGdldFBhdGgsIHVuemlwLCB3ZWJkbCB9IGZyb20gIi4vcGtnbWFuLmpzIjsKaW1wb3J0IHsgZ2V0QXNCb29sZWFuRnJvbUVOViB9IGZyb20gIi4vdXRpbHMuanMiOwpleHBvcnQgY29uc3QgRGVmYXVsdEFkZG9ucyA9IHsKICAgIFVCTzogImh0dHBzOi8vYWRkb25zLm1vemlsbGEub3JnL2ZpcmVmb3gvZG93bmxvYWRzL2xhdGVzdC91YmxvY2stb3JpZ2luL2xhdGVzdC54cGkiLAp9OwpleHBvcnQgZnVuY3Rpb24gY29uZmlybVBhdGhzKHBhdGhzKSB7CiAgICBmb3IgKGNvbnN0IHBhdGggb2YgcGF0aHMpIHsKICAgICAgICBpZiAoIWZzLmV4aXN0c1N5bmMocGF0aCkgfHwgIWZzLmxzdGF0U3luYyhwYXRoKS5pc0RpcmVjdG9yeSgpKSB7CiAgICAgICAgICAgIHRocm93IG5ldyBJbnZhbGlkQWRkb25QYXRoKHBhdGgpOwogICAgICAgIH0KICAgICAgICBpZiAoIWZzLmV4aXN0c1N5bmMoam9pbihwYXRoLCAibWFuaWZlc3QuanNvbiIpKSkgewogICAgICAgICAgICB0aHJvdyBuZXcgSW52YWxpZEFkZG9uUGF0aCgibWFuaWZlc3QuanNvbiBpcyBtaXNzaW5nLiBBZGRvbiBwYXRoIG11c3QgYmUgYSBwYXRoIHRvIGFuIGV4dHJhY3RlZCBhZGRvbi4iKTsKICAgICAgICB9CiAgICB9Cn0KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGFkZERlZmF1bHRBZGRvbnMoYWRkb25zTGlzdCwgZXhjbHVkZUxpc3QgPSBbXSkgewogICAgY29uc3QgYWRkb25zID0ge307CiAgICBmb3IgKGNvbnN0IFtuYW1lLCB1cmxdIG9mIE9iamVjdC5lbnRyaWVzKERlZmF1bHRBZGRvbnMpKSB7CiAgICAgICAgaWYgKCFleGNsdWRlTGlzdC5pbmNsdWRlcyhuYW1lKSkgewogICAgICAgICAgICBhZGRvbnNbbmFtZV0gPSB1cmw7CiAgICAgICAgfQogICAgfQogICAgYXdhaXQgbWF5YmVEb3dubG9hZEFkZG9ucyhhZGRvbnMsIGFkZG9uc0xpc3QpOwp9CmV4cG9ydCBhc3luYyBmdW5jdGlvbiBkb3dubG9hZEFuZEV4dHJhY3QodXJsLCBleHRyYWN0UGF0aCwgbmFtZSkgewogICAgY29uc3QgYnVmZmVyID0gYXdhaXQgd2ViZGwodXJsLCBgRG93bmxvYWRpbmcgYWRkb24gKCR7bmFtZX0pYCwgZmFsc2UpOwogICAgYXdhaXQgdW56aXAoYnVmZmVyLCBleHRyYWN0UGF0aCwgYEV4dHJhY3RpbmcgYWRkb24gKCR7bmFtZX0pYCwgZmFsc2UpOwp9CmZ1bmN0aW9uIGdldEFkZG9uUGF0aChhZGRvbk5hbWUpIHsKICAgIHJldHVybiBnZXRQYXRoKGpvaW4oImFkZG9ucyIsIGFkZG9uTmFtZSkpOwp9CmV4cG9ydCBhc3luYyBmdW5jdGlvbiBtYXliZURvd25sb2FkQWRkb25zKGFkZG9ucywgYWRkb25zTGlzdCA9IFtdKSB7CiAgICBpZiAoZ2V0QXNCb29sZWFuRnJvbUVOVigiUExBWVdSSUdIVF9TS0lQX0JST1dTRVJfRE9XTkxPQUQiLCBmYWxzZSkpIHsKICAgICAgICBjb25zb2xlLmxvZygiU2tpcHBpbmcgYWRkb24gZG93bmxvYWQgZHVlIHRvIFBMQVlXUklHSFRfU0tJUF9CUk9XU0VSX0RPV05MT0FEIHNldCEiKTsKICAgICAgICByZXR1cm47CiAgICB9CiAgICBmb3IgKGNvbnN0IGFkZG9uTmFtZSBpbiBhZGRvbnMpIHsKICAgICAgICBjb25zdCBhZGRvblBhdGggPSBnZXRBZGRvblBhdGgoYWRkb25OYW1lKTsKICAgICAgICBpZiAoZnMuZXhpc3RzU3luYyhhZGRvblBhdGgpKSB7CiAgICAgICAgICAgIGFkZG9uc0xpc3QucHVzaChhZGRvblBhdGgpOwogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgZnMubWtkaXJTeW5jKGFkZG9uUGF0aCwgeyByZWN1cnNpdmU6IHRydWUgfSk7CiAgICAgICAgICAgIGF3YWl0IGRvd25sb2FkQW5kRXh0cmFjdChhZGRvbnNbYWRkb25OYW1lXSwgYWRkb25QYXRoLCBhZGRvbk5hbWUpOwogICAgICAgICAgICBhZGRvbnNMaXN0LnB1c2goYWRkb25QYXRoKTsKICAgICAgICB9CiAgICAgICAgY2F0Y2ggKGUpIHsKICAgICAgICAgICAgY29uc29sZS5lcnJvcihgRmFpbGVkIHRvIGRvd25sb2FkIGFuZCBleHRyYWN0ICR7YWRkb25OYW1lfTogJHtlfWApOwogICAgICAgICAgICBmcy5ybVN5bmMoYWRkb25QYXRoLCB7IHJlY3Vyc2l2ZTogdHJ1ZSwgZm9yY2U6IHRydWUgfSk7CiAgICAgICAgfQogICAgfQp9Cg==
+import fs from "node:fs";
+import { join } from "node:path";
+import { InvalidAddonPath } from "./exceptions.js";
+import { getPath, unzip, webdl } from "./pkgman.js";
+import { getAsBooleanFromENV } from "./utils.js";
+export const DefaultAddons = {
+    UBO: "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi",
+};
+export function confirmPaths(paths) {
+    for (const path of paths) {
+        if (!fs.existsSync(path) || !fs.lstatSync(path).isDirectory()) {
+            throw new InvalidAddonPath(path);
+        }
+        if (!fs.existsSync(join(path, "manifest.json"))) {
+            throw new InvalidAddonPath("manifest.json is missing. Addon path must be a path to an extracted addon.");
+        }
+    }
+}
+export async function addDefaultAddons(addonsList, excludeList = []) {
+    const addons = {};
+    for (const [name, url] of Object.entries(DefaultAddons)) {
+        if (!excludeList.includes(name)) {
+            addons[name] = url;
+        }
+    }
+    await maybeDownloadAddons(addons, addonsList);
+}
+export async function downloadAndExtract(url, extractPath, name) {
+    const buffer = await webdl(url, `Downloading addon (${name})`, false);
+    await unzip(buffer, extractPath, `Extracting addon (${name})`, false);
+}
+function getAddonPath(addonName) {
+    return getPath(join("addons", addonName));
+}
+export async function maybeDownloadAddons(addons, addonsList = []) {
+    if (getAsBooleanFromENV("PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD", false)) {
+        console.log("Skipping addon download due to PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD set!");
+        return;
+    }
+    for (const addonName in addons) {
+        const addonPath = getAddonPath(addonName);
+        if (fs.existsSync(addonPath)) {
+            addonsList.push(addonPath);
+            continue;
+        }
+        try {
+            fs.mkdirSync(addonPath, { recursive: true });
+            await downloadAndExtract(addons[addonName], addonPath, addonName);
+            addonsList.push(addonPath);
+        }
+        catch (e) {
+            console.error(`Failed to download and extract ${addonName}: ${e}`);
+            fs.rmSync(addonPath, { recursive: true, force: true });
+        }
+    }
+}

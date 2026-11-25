@@ -1,1 +1,82 @@
-ZXhwb3J0IGRlY2xhcmUgY2xhc3MgVW5zdXBwb3J0ZWRWZXJzaW9uIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZT86IHN0cmluZyk7Cn0KZXhwb3J0IGRlY2xhcmUgY2xhc3MgTWlzc2luZ1JlbGVhc2UgZXh0ZW5kcyBFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlPzogc3RyaW5nKTsKfQpleHBvcnQgZGVjbGFyZSBjbGFzcyBVbnN1cHBvcnRlZEFyY2hpdGVjdHVyZSBleHRlbmRzIEVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2U/OiBzdHJpbmcpOwp9CmV4cG9ydCBkZWNsYXJlIGNsYXNzIFVuc3VwcG9ydGVkT1MgZXh0ZW5kcyBFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlPzogc3RyaW5nKTsKfQpleHBvcnQgZGVjbGFyZSBjbGFzcyBVbmtub3duUHJvcGVydHkgZXh0ZW5kcyBFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlPzogc3RyaW5nKTsKfQpleHBvcnQgZGVjbGFyZSBjbGFzcyBJbnZhbGlkUHJvcGVydHlUeXBlIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZT86IHN0cmluZyk7Cn0KZXhwb3J0IGRlY2xhcmUgY2xhc3MgSW52YWxpZEFkZG9uUGF0aCBleHRlbmRzIEVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2U/OiBzdHJpbmcpOwp9CmV4cG9ydCBkZWNsYXJlIGNsYXNzIEludmFsaWREZWJ1Z1BvcnQgZXh0ZW5kcyBFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlPzogc3RyaW5nKTsKfQpleHBvcnQgZGVjbGFyZSBjbGFzcyBNaXNzaW5nRGVidWdQb3J0IGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZT86IHN0cmluZyk7Cn0KZXhwb3J0IGRlY2xhcmUgY2xhc3MgTG9jYWxlRXJyb3IgZXh0ZW5kcyBFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlOiBzdHJpbmcpOwp9CmV4cG9ydCBkZWNsYXJlIGNsYXNzIEludmFsaWRJUCBleHRlbmRzIEVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2U/OiBzdHJpbmcsIG9wdGlvbnM/OiBFcnJvck9wdGlvbnMpOwp9CmV4cG9ydCBkZWNsYXJlIGNsYXNzIEludmFsaWRQcm94eSBleHRlbmRzIEVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2U/OiBzdHJpbmcpOwp9CmV4cG9ydCBkZWNsYXJlIGNsYXNzIFVua25vd25JUExvY2F0aW9uIGV4dGVuZHMgTG9jYWxlRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZT86IHN0cmluZyk7Cn0KZXhwb3J0IGRlY2xhcmUgY2xhc3MgSW52YWxpZExvY2FsZSBleHRlbmRzIExvY2FsZUVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2U/OiBzdHJpbmcpOwogICAgc3RhdGljIGludmFsaWRJbnB1dChsb2NhbGU6IHN0cmluZyk6IEludmFsaWRMb2NhbGU7Cn0KZXhwb3J0IGRlY2xhcmUgY2xhc3MgVW5rbm93blRlcnJpdG9yeSBleHRlbmRzIEludmFsaWRMb2NhbGUgewogICAgY29uc3RydWN0b3IobWVzc2FnZT86IHN0cmluZyk7Cn0KZXhwb3J0IGRlY2xhcmUgY2xhc3MgVW5rbm93bkxhbmd1YWdlIGV4dGVuZHMgSW52YWxpZExvY2FsZSB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlPzogc3RyaW5nKTsKfQpleHBvcnQgZGVjbGFyZSBjbGFzcyBOb3RJbnN0YWxsZWRHZW9JUEV4dHJhIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZT86IHN0cmluZyk7Cn0KZXhwb3J0IGRlY2xhcmUgY2xhc3MgTm9uRmlyZWZveEZpbmdlcnByaW50IGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZT86IHN0cmluZyk7Cn0KZXhwb3J0IGRlY2xhcmUgY2xhc3MgSW52YWxpZE9TIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZT86IHN0cmluZyk7Cn0KZXhwb3J0IGRlY2xhcmUgY2xhc3MgVmlydHVhbERpc3BsYXlFcnJvciBleHRlbmRzIEVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2U/OiBzdHJpbmcpOwp9CmV4cG9ydCBkZWNsYXJlIGNsYXNzIENhbm5vdEZpbmRYdmZiIGV4dGVuZHMgVmlydHVhbERpc3BsYXlFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlPzogc3RyaW5nKTsKfQpleHBvcnQgZGVjbGFyZSBjbGFzcyBDYW5ub3RFeGVjdXRlWHZmYiBleHRlbmRzIFZpcnR1YWxEaXNwbGF5RXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZT86IHN0cmluZyk7Cn0KZXhwb3J0IGRlY2xhcmUgY2xhc3MgVmlydHVhbERpc3BsYXlOb3RTdXBwb3J0ZWQgZXh0ZW5kcyBWaXJ0dWFsRGlzcGxheUVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2U/OiBzdHJpbmcpOwp9CmV4cG9ydCBkZWNsYXJlIGNsYXNzIENhbW91Zm94Tm90SW5zdGFsbGVkIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZT86IHN0cmluZyk7Cn0KZXhwb3J0IGRlY2xhcmUgY2xhc3MgQ29ycnVwdGVkRG93bmxvYWQgZXh0ZW5kcyBFcnJvciB7CiAgICBjb25zdHJ1Y3RvcihtZXNzYWdlPzogc3RyaW5nKTsKfQpleHBvcnQgZGVjbGFyZSBjbGFzcyBGaWxlTm90Rm91bmRFcnJvciBleHRlbmRzIEVycm9yIHsKICAgIGNvbnN0cnVjdG9yKG1lc3NhZ2U/OiBzdHJpbmcpOwp9CmV4cG9ydCBkZWNsYXJlIGNsYXNzIEludmFsaWRPcHRpb25zIGV4dGVuZHMgRXJyb3IgewogICAgY29uc3RydWN0b3IobWVzc2FnZT86IHN0cmluZyk7Cn0K
+export declare class UnsupportedVersion extends Error {
+    constructor(message?: string);
+}
+export declare class MissingRelease extends Error {
+    constructor(message?: string);
+}
+export declare class UnsupportedArchitecture extends Error {
+    constructor(message?: string);
+}
+export declare class UnsupportedOS extends Error {
+    constructor(message?: string);
+}
+export declare class UnknownProperty extends Error {
+    constructor(message?: string);
+}
+export declare class InvalidPropertyType extends Error {
+    constructor(message?: string);
+}
+export declare class InvalidAddonPath extends Error {
+    constructor(message?: string);
+}
+export declare class InvalidDebugPort extends Error {
+    constructor(message?: string);
+}
+export declare class MissingDebugPort extends Error {
+    constructor(message?: string);
+}
+export declare class LocaleError extends Error {
+    constructor(message: string);
+}
+export declare class InvalidIP extends Error {
+    constructor(message?: string, options?: ErrorOptions);
+}
+export declare class InvalidProxy extends Error {
+    constructor(message?: string);
+}
+export declare class UnknownIPLocation extends LocaleError {
+    constructor(message?: string);
+}
+export declare class InvalidLocale extends LocaleError {
+    constructor(message?: string);
+    static invalidInput(locale: string): InvalidLocale;
+}
+export declare class UnknownTerritory extends InvalidLocale {
+    constructor(message?: string);
+}
+export declare class UnknownLanguage extends InvalidLocale {
+    constructor(message?: string);
+}
+export declare class NotInstalledGeoIPExtra extends Error {
+    constructor(message?: string);
+}
+export declare class NonFirefoxFingerprint extends Error {
+    constructor(message?: string);
+}
+export declare class InvalidOS extends Error {
+    constructor(message?: string);
+}
+export declare class VirtualDisplayError extends Error {
+    constructor(message?: string);
+}
+export declare class CannotFindXvfb extends VirtualDisplayError {
+    constructor(message?: string);
+}
+export declare class CannotExecuteXvfb extends VirtualDisplayError {
+    constructor(message?: string);
+}
+export declare class VirtualDisplayNotSupported extends VirtualDisplayError {
+    constructor(message?: string);
+}
+export declare class CamoufoxNotInstalled extends Error {
+    constructor(message?: string);
+}
+export declare class CorruptedDownload extends Error {
+    constructor(message?: string);
+}
+export declare class FileNotFoundError extends Error {
+    constructor(message?: string);
+}
+export declare class InvalidOptions extends Error {
+    constructor(message?: string);
+}

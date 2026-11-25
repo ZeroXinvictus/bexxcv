@@ -1,1 +1,34 @@
-aW1wb3J0IHsgT1NfTkFNRSB9IGZyb20gIi4vcGtnbWFuLmpzIjsKaW1wb3J0IHsgVmlydHVhbERpc3BsYXkgfSBmcm9tICIuL3ZpcnRkaXNwbGF5LmpzIjsKCmV4cG9ydCBmdW5jdGlvbiBuZWVkc1h2ZmIoKTogYm9vbGVhbiB7CglyZXR1cm4gKAoJCU9TX05BTUUgPT09ICJsaW4iICYmCgkJIXByb2Nlc3MuZW52LkRJU1BMQVkgJiYKCQkhcHJvY2Vzcy5lbnYuV0FZTEFORF9ESVNQTEFZCgkpOwp9CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gc3RhcnRYdmZiKAoJZGVidWcgPSBmYWxzZSwKKTogUHJvbWlzZTx7IGRpc3BsYXk6IHN0cmluZzsga2lsbDogKCkgPT4gdm9pZCB9PiB7Cgljb25zdCB2ZCA9IG5ldyBWaXJ0dWFsRGlzcGxheShkZWJ1Zyk7Cgljb25zdCBkaXNwbGF5ID0gYXdhaXQgdmQuZ2V0KCk7CglyZXR1cm4gewoJCWRpc3BsYXksCgkJa2lsbDogKCkgPT4gdmQua2lsbCgpLAoJfTsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHdpdGhYdmZiPFQ+KAoJZm46IChkaXNwbGF5OiBzdHJpbmcpID0+IFByb21pc2U8VD4sCglkZWJ1ZyA9IGZhbHNlLAopOiBQcm9taXNlPFQ+IHsKCWNvbnN0IHZkID0gbmV3IFZpcnR1YWxEaXNwbGF5KGRlYnVnKTsKCWNvbnN0IGRpc3BsYXkgPSBhd2FpdCB2ZC5nZXQoKTsKCXRyeSB7CgkJcmV0dXJuIGF3YWl0IGZuKGRpc3BsYXkpOwoJfSBmaW5hbGx5IHsKCQl2ZC5raWxsKCk7Cgl9Cn0K
+import { OS_NAME } from "./pkgman.js";
+import { VirtualDisplay } from "./virtdisplay.js";
+
+export function needsXvfb(): boolean {
+	return (
+		OS_NAME === "lin" &&
+		!process.env.DISPLAY &&
+		!process.env.WAYLAND_DISPLAY
+	);
+}
+
+export async function startXvfb(
+	debug = false,
+): Promise<{ display: string; kill: () => void }> {
+	const vd = new VirtualDisplay(debug);
+	const display = await vd.get();
+	return {
+		display,
+		kill: () => vd.kill(),
+	};
+}
+
+export async function withXvfb<T>(
+	fn: (display: string) => Promise<T>,
+	debug = false,
+): Promise<T> {
+	const vd = new VirtualDisplay(debug);
+	const display = await vd.get();
+	try {
+		return await fn(display);
+	} finally {
+		vd.kill();
+	}
+}

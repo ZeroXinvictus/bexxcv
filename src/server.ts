@@ -1,1 +1,9 @@
-aW1wb3J0IHsgdHlwZSBCcm93c2VyU2VydmVyLCBmaXJlZm94IH0gZnJvbSAicGxheXdyaWdodC1jb3JlIjsKaW1wb3J0IHsgdHlwZSBMYXVuY2hPcHRpb25zLCBsYXVuY2hPcHRpb25zIH0gZnJvbSAiLi91dGlscy5qcyI7CgpleHBvcnQgYXN5bmMgZnVuY3Rpb24gbGF1bmNoU2VydmVyKAoJb3B0aW9uczogTGF1bmNoT3B0aW9ucywKKTogUHJvbWlzZTxCcm93c2VyU2VydmVyPiB7Cgljb25zdCBvcHRzID0gYXdhaXQgbGF1bmNoT3B0aW9ucyh7IC4uLm9wdGlvbnMsIGhlYWRsZXNzOiB0cnVlIH0pOwoJcmV0dXJuIGZpcmVmb3gubGF1bmNoU2VydmVyKG9wdHMpOwp9Cg==
+import { type BrowserServer, firefox } from "playwright-core";
+import { type LaunchOptions, launchOptions } from "./utils.js";
+
+export async function launchServer(
+	options: LaunchOptions,
+): Promise<BrowserServer> {
+	const opts = await launchOptions({ ...options, headless: true });
+	return firefox.launchServer(opts);
+}

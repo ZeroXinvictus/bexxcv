@@ -1,1 +1,36 @@
-aW1wb3J0IHR5cGUgeyBSZXNwb25zZSB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB0eXBlIHsgQmV4eGN2UGx1Z2luIH0gZnJvbSAiLi90eXBlcy5qcyI7Ci8qKgogKiBDbGFzc2lmaWVzIENsb3VkZmxhcmUgY2hhbGxlbmdlIHR5cGVzIGZyb20gSFRUUCByZXNwb25zZXMuCiAqCiAqIFJlYWRzIHJlc3BvbnNlIHN0YXR1cywgc2VsZWN0ZWQgaGVhZGVycyAoY2YtcmF5LCBjZi1jYWNoZS1zdGF0dXMsIHNlcnZlciksCiAqIGFuZCBwYWdlIHRpdGxlIC8gYm9keSBtYXJrZXJzIHRvIGRlY2lkZSB3aGljaCBhbnRpLWJvdCBsYXllciBmaXJlZCBhbmQgYXQKICogd2hhdCBjbGVhcmFuY2UgbGV2ZWwuIFJlc3VsdHMgYXJlIGF0dGFjaGVkIHRvIGV2ZXJ5IHBhZ2UgdmlhIGEgV2Vha01hcCBzbwogKiBkb3duc3RyZWFtIHBsdWdpbnMgKGdhdW50bGV0LCB3aXJldGFwKSBjYW4gcXVlcnkgdGhlbS4KICovCmV4cG9ydCB0eXBlIENoYWxsZW5nZVR5cGUgPSAibm9uZSIgfCAianNkIiB8ICJtYW5hZ2VkIiB8ICJpbnRlcmFjdGl2ZSIgfCAibm9uX2ludGVyYWN0aXZlIiB8ICJ0dXJuc3RpbGUiIHwgInJhdGVfbGltaXQiIHwgImJvdF9zY29yZV9sb3ciIHwgInVua25vd24iOwpleHBvcnQgdHlwZSBDbGVhcmFuY2VMZXZlbCA9ICJub25lIiB8ICJqcyIgfCAibWFuYWdlZCIgfCAiaGlnaCI7CmV4cG9ydCBpbnRlcmZhY2UgQ2hhbGxlbmdlSW5mbyB7CiAgICB0eXBlOiBDaGFsbGVuZ2VUeXBlOwogICAgY2xlYXJhbmNlTGV2ZWw6IENsZWFyYW5jZUxldmVsOwogICAgY29uZmlkZW5jZTogbnVtYmVyOwogICAgcmVhc29uOiBzdHJpbmc7CiAgICBjZlJheT86IHN0cmluZzsKICAgIGNhY2hlZD86IGJvb2xlYW47Cn0KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gY2hhbGxlbmdlSW5mb0ZvcihyZXNwb25zZTogUmVzcG9uc2UpOiBDaGFsbGVuZ2VJbmZvIHwgbnVsbDsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gcGFnZUNoYWxsZW5nZUhpc3RvcnkocGFnZTogewogICAgaWQ6IHN0cmluZzsKfSk6IENoYWxsZW5nZUluZm9bXTsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gYXBwZW5kQ2hhbGxlbmdlSW5mbyhwYWdlOiB7CiAgICBpZDogc3RyaW5nOwp9LCBpbmZvOiBDaGFsbGVuZ2VJbmZvKTogdm9pZDsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gbGF0ZXN0Q2hhbGxlbmdlKHBhZ2U6IHsKICAgIGlkOiBzdHJpbmc7Cn0pOiBDaGFsbGVuZ2VJbmZvIHwgbnVsbDsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gY2xhc3NpZnlSZXNwb25zZShyZXNwb25zZTogUmVzcG9uc2UpOiBDaGFsbGVuZ2VJbmZvOwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBjbGFzc2lmeVBhZ2UocGFnZTogewogICAgdXJsKCk6IHN0cmluZzsKICAgIHRpdGxlKCk6IFByb21pc2U8c3RyaW5nPjsKfSk6IFByb21pc2U8Q2hhbGxlbmdlSW5mbz47CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGNoYWxsZW5nZVBsdWdpbigpOiBCZXh4Y3ZQbHVnaW47Cg==
+import type { Response } from "playwright-core";
+import type { BexxcvPlugin } from "./types.js";
+/**
+ * Classifies Cloudflare challenge types from HTTP responses.
+ *
+ * Reads response status, selected headers (cf-ray, cf-cache-status, server),
+ * and page title / body markers to decide which anti-bot layer fired and at
+ * what clearance level. Results are attached to every page via a WeakMap so
+ * downstream plugins (gauntlet, wiretap) can query them.
+ */
+export type ChallengeType = "none" | "jsd" | "managed" | "interactive" | "non_interactive" | "turnstile" | "rate_limit" | "bot_score_low" | "unknown";
+export type ClearanceLevel = "none" | "js" | "managed" | "high";
+export interface ChallengeInfo {
+    type: ChallengeType;
+    clearanceLevel: ClearanceLevel;
+    confidence: number;
+    reason: string;
+    cfRay?: string;
+    cached?: boolean;
+}
+export declare function challengeInfoFor(response: Response): ChallengeInfo | null;
+export declare function pageChallengeHistory(page: {
+    id: string;
+}): ChallengeInfo[];
+export declare function appendChallengeInfo(page: {
+    id: string;
+}, info: ChallengeInfo): void;
+export declare function latestChallenge(page: {
+    id: string;
+}): ChallengeInfo | null;
+export declare function classifyResponse(response: Response): ChallengeInfo;
+export declare function classifyPage(page: {
+    url(): string;
+    title(): Promise<string>;
+}): Promise<ChallengeInfo>;
+export declare function challengePlugin(): BexxcvPlugin;

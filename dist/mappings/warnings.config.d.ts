@@ -1,1 +1,16 @@
-ZGVjbGFyZSBjb25zdCBfZGVmYXVsdDogewogICAgbmF2aWdhdG9yOiBzdHJpbmc7CiAgICBsb2NhbGU6IHN0cmluZzsKICAgIGdlb2xvY2F0aW9uOiBzdHJpbmc7CiAgICAiaGVhZGVyLXVhIjogc3RyaW5nOwogICAgdmlld3BvcnQ6IHN0cmluZzsKICAgIGN1c3RvbV9maW5nZXJwcmludDogc3RyaW5nOwogICAgcHJveHlfd2l0aG91dF9nZW9pcDogc3RyaW5nOwogICAgZmZfdmVyc2lvbjogc3RyaW5nOwogICAgbm9fcmVnaW9uOiBzdHJpbmc7CiAgICBibG9ja193ZWJnbDogc3RyaW5nOwogICAgYmxvY2tfaW1hZ2VzOiBzdHJpbmc7CiAgICBjdXN0b21fZm9udHNfb25seTogc3RyaW5nOwogICAgZGlzYWJsZV9jb29wOiBzdHJpbmc7Cn07CmV4cG9ydCBkZWZhdWx0IF9kZWZhdWx0Owo=
+declare const _default: {
+    navigator: string;
+    locale: string;
+    geolocation: string;
+    "header-ua": string;
+    viewport: string;
+    custom_fingerprint: string;
+    proxy_without_geoip: string;
+    ff_version: string;
+    no_region: string;
+    block_webgl: string;
+    block_images: string;
+    custom_fonts_only: string;
+    disable_coop: string;
+};
+export default _default;

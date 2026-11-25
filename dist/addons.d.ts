@@ -1,1 +1,7 @@
-ZXhwb3J0IGRlY2xhcmUgY29uc3QgRGVmYXVsdEFkZG9uczogewogICAgVUJPOiBzdHJpbmc7Cn07CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGNvbmZpcm1QYXRocyhwYXRoczogc3RyaW5nW10pOiB2b2lkOwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBhZGREZWZhdWx0QWRkb25zKGFkZG9uc0xpc3Q6IHN0cmluZ1tdLCBleGNsdWRlTGlzdD86IChrZXlvZiB0eXBlb2YgRGVmYXVsdEFkZG9ucylbXSk6IFByb21pc2U8dm9pZD47CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGRvd25sb2FkQW5kRXh0cmFjdCh1cmw6IHN0cmluZywgZXh0cmFjdFBhdGg6IHN0cmluZywgbmFtZTogc3RyaW5nKTogUHJvbWlzZTx2b2lkPjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gbWF5YmVEb3dubG9hZEFkZG9ucyhhZGRvbnM6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4sIGFkZG9uc0xpc3Q/OiBzdHJpbmdbXSk6IFByb21pc2U8dm9pZD47Cg==
+export declare const DefaultAddons: {
+    UBO: string;
+};
+export declare function confirmPaths(paths: string[]): void;
+export declare function addDefaultAddons(addonsList: string[], excludeList?: (keyof typeof DefaultAddons)[]): Promise<void>;
+export declare function downloadAndExtract(url: string, extractPath: string, name: string): Promise<void>;
+export declare function maybeDownloadAddons(addons: Record<string, string>, addonsList?: string[]): Promise<void>;

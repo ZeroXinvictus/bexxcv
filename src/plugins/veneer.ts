@@ -1,1 +1,47 @@
-aW1wb3J0IHR5cGUgeyBCZXh4Y3ZQbHVnaW4gfSBmcm9tICIuL3R5cGVzLmpzIjsKCmV4cG9ydCBpbnRlcmZhY2UgVmVuZWVyT3B0aW9ucyB7CglzdHJpY3Q/OiBib29sZWFuOwp9CgpleHBvcnQgZnVuY3Rpb24gdmVuZWVyKG9wdGlvbnM6IFZlbmVlck9wdGlvbnMgPSB7fSk6IEJleHhjdlBsdWdpbiB7CglsZXQgd2FybmVkID0gZmFsc2U7CgoJcmV0dXJuIHsKCQluYW1lOiAidmVuZWVyIiwKCQlvcmRlcjogMzAsCgkJYXN5bmMgb25Db250ZXh0KGNvbnRleHQpIHsKCQkJaWYgKG9wdGlvbnMuc3RyaWN0KSB7CgkJCQlhd2FpdCBjb250ZXh0LnJvdXRlKCIqKi8qIiwgYXN5bmMgKHJvdXRlKSA9PiB7CgkJCQkJY29uc3QgaGVhZGVycyA9IHJvdXRlLnJlcXVlc3QoKS5oZWFkZXJzKCk7CgkJCQkJaWYgKC9maXJlZm94L2kudGVzdChoZWFkZXJzWyJ1c2VyLWFnZW50Il0gPz8gIiIpKSB7CgkJCQkJCWNvbnN0IGNsZWFuZWQ6IFJlY29yZDxzdHJpbmcsIHN0cmluZz4gPSB7fTsKCQkJCQkJZm9yIChjb25zdCBba2V5LCB2YWx1ZV0gb2YgT2JqZWN0LmVudHJpZXMoaGVhZGVycykpIHsKCQkJCQkJCWlmICgha2V5LnRvTG93ZXJDYXNlKCkuc3RhcnRzV2l0aCgic2VjLWNoLXVhIikpIGNsZWFuZWRba2V5XSA9IHZhbHVlOwoJCQkJCQl9CgkJCQkJCWlmIChPYmplY3Qua2V5cyhjbGVhbmVkKS5sZW5ndGggIT09IE9iamVjdC5rZXlzKGhlYWRlcnMpLmxlbmd0aCkgewoJCQkJCQkJYXdhaXQgcm91dGUuY29udGludWUoeyBoZWFkZXJzOiBjbGVhbmVkIH0pOwoJCQkJCQkJcmV0dXJuOwoJCQkJCQl9CgkJCQkJfQoJCQkJCWF3YWl0IHJvdXRlLmNvbnRpbnVlKCk7CgkJCQl9KTsKCQkJCXJldHVybjsKCQkJfQoKCQkJY29udGV4dC5vbigicmVxdWVzdCIsIChyZXF1ZXN0KSA9PiB7CgkJCQlpZiAod2FybmVkKSByZXR1cm47CgkJCQljb25zdCBoZWFkZXJzID0gcmVxdWVzdC5oZWFkZXJzKCk7CgkJCQlpZiAoCgkJCQkJL2ZpcmVmb3gvaS50ZXN0KGhlYWRlcnNbInVzZXItYWdlbnQiXSA/PyAiIikgJiYKCQkJCQlPYmplY3Qua2V5cyhoZWFkZXJzKS5zb21lKChrZXkpID0+IGtleS50b0xvd2VyQ2FzZSgpLnN0YXJ0c1dpdGgoInNlYy1jaC11YSIpKQoJCQkJKSB7CgkJCQkJd2FybmVkID0gdHJ1ZTsKCQkJCQljb25zb2xlLndhcm4oCgkJCQkJCSJbYmV4eGN2XSB2ZW5lZXI6IGEgRmlyZWZveCB1c2VyIGFnZW50IGlzIHNlbmRpbmcgc2VjLWNoLXVhIGhlYWRlcnMsIHNvbWV0aGluZyB1cHN0cmVhbSBpcyBpbmplY3RpbmcgdGhlbS4gVXNlIHZlbmVlcjogeyBzdHJpY3Q6IHRydWUgfSB0byBzdHJpcCB0aGVtLiIsCgkJCQkJKTsKCQkJCX0KCQkJfSk7CgkJfSwKCX07Cn0K
+import type { BexxcvPlugin } from "./types.js";
+
+export interface VeneerOptions {
+	strict?: boolean;
+}
+
+export function veneer(options: VeneerOptions = {}): BexxcvPlugin {
+	let warned = false;
+
+	return {
+		name: "veneer",
+		order: 30,
+		async onContext(context) {
+			if (options.strict) {
+				await context.route("**/*", async (route) => {
+					const headers = route.request().headers();
+					if (/firefox/i.test(headers["user-agent"] ?? "")) {
+						const cleaned: Record<string, string> = {};
+						for (const [key, value] of Object.entries(headers)) {
+							if (!key.toLowerCase().startsWith("sec-ch-ua")) cleaned[key] = value;
+						}
+						if (Object.keys(cleaned).length !== Object.keys(headers).length) {
+							await route.continue({ headers: cleaned });
+							return;
+						}
+					}
+					await route.continue();
+				});
+				return;
+			}
+
+			context.on("request", (request) => {
+				if (warned) return;
+				const headers = request.headers();
+				if (
+					/firefox/i.test(headers["user-agent"] ?? "") &&
+					Object.keys(headers).some((key) => key.toLowerCase().startsWith("sec-ch-ua"))
+				) {
+					warned = true;
+					console.warn(
+						"[bexxcv] veneer: a Firefox user agent is sending sec-ch-ua headers, something upstream is injecting them. Use veneer: { strict: true } to strip them.",
+					);
+				}
+			});
+		},
+	};
+}

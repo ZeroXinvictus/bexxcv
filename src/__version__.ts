@@ -1,1 +1,5 @@
-ZXhwb3J0IGNsYXNzIENPTlNUUkFJTlRTIHsKCXN0YXRpYyByZWFkb25seSBNSU5fVkVSU0lPTjogc3RyaW5nID0gImFscGhhLjEiOwoJc3RhdGljIHJlYWRvbmx5IE1BWF9WRVJTSU9OOiBzdHJpbmcgPSAiOTkuOTkuOTkiOwoJc3RhdGljIHJlYWRvbmx5IFBMQVlXUklHSFRfMV82MV9NSU5fVkVSU0lPTjogc3RyaW5nID0gImJldGEuMzAiOwp9Cg==
+export class CONSTRAINTS {
+	static readonly MIN_VERSION: string = "alpha.1";
+	static readonly MAX_VERSION: string = "99.99.99";
+	static readonly PLAYWRIGHT_1_61_MIN_VERSION: string = "beta.30";
+}

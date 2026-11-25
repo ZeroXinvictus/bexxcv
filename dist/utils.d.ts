@@ -1,1 +1,55 @@
-aW1wb3J0IHsgdHlwZSBQYXRoTGlrZSB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgdHlwZSB7IEZpbmdlcnByaW50LCBGaW5nZXJwcmludEdlbmVyYXRvck9wdGlvbnMgfSBmcm9tICJmaW5nZXJwcmludC1nZW5lcmF0b3IiOwppbXBvcnQgdHlwZSB7IExhdW5jaE9wdGlvbnMgYXMgUGxheXdyaWdodExhdW5jaE9wdGlvbnMgfSBmcm9tICJwbGF5d3JpZ2h0LWNvcmUiOwppbXBvcnQgeyB0eXBlIERlZmF1bHRBZGRvbnMgfSBmcm9tICIuL2FkZG9ucy5qcyI7CmltcG9ydCB7IFNVUFBPUlRFRF9PUywgdHlwZSBFeHRlbmRlZFNjcmVlbiB9IGZyb20gIi4vZmluZ2VycHJpbnRzLmpzIjsKaW1wb3J0IHR5cGUgeyBWaXJ0dWFsRGlzcGxheSB9IGZyb20gIi4vdmlydGRpc3BsYXkuanMiOwp0eXBlIFNjcmVlbiA9IEZpbmdlcnByaW50R2VuZXJhdG9yT3B0aW9uc1sic2NyZWVuIl07CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGdldEFzQm9vbGVhbkZyb21FTlYobmFtZTogc3RyaW5nLCBkZWZhdWx0VmFsdWU/OiBib29sZWFuIHwgdW5kZWZpbmVkKTogYm9vbGVhbjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gc3Bvb2ZzV2luZG93RGltZW5zaW9ucyhmcm9tT3B0aW9uczogUmVjb3JkPHN0cmluZywgYW55Pik6IGJvb2xlYW47CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGF0dGFjaE5vVmlld3BvcnREZWZhdWx0PFQ+KHRhcmdldDogVCk6IFQ7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHN5bmNBdHRhY2hWRChicm93c2VyOiBhbnksIHZpcnR1YWxEaXNwbGF5PzogVmlydHVhbERpc3BsYXkgfCBudWxsKTogYW55OwpleHBvcnQgaW50ZXJmYWNlIExhdW5jaE9wdGlvbnMgewogICAgb3M/OiAodHlwZW9mIFNVUFBPUlRFRF9PUylbbnVtYmVyXSB8ICh0eXBlb2YgU1VQUE9SVEVEX09TKVtudW1iZXJdW107CiAgICBibG9ja19pbWFnZXM/OiBib29sZWFuOwogICAgYmxvY2tfd2VicnRjPzogYm9vbGVhbjsKICAgIGJsb2NrX3dlYmdsPzogYm9vbGVhbjsKICAgIGRpc2FibGVfY29vcD86IGJvb2xlYW47CiAgICBnZW9pcD86IHN0cmluZyB8IGJvb2xlYW47CiAgICBodW1hbml6ZT86IGJvb2xlYW4gfCBudW1iZXI7CiAgICBsb2NhbGU/OiBzdHJpbmcgfCBzdHJpbmdbXTsKICAgIGFkZG9ucz86IHN0cmluZ1tdOwogICAgZm9udHM/OiBzdHJpbmdbXTsKICAgIGN1c3RvbV9mb250c19vbmx5PzogYm9vbGVhbjsKICAgIGV4Y2x1ZGVfYWRkb25zPzogKGtleW9mIHR5cGVvZiBEZWZhdWx0QWRkb25zKVtdOwogICAgc2NyZWVuPzogU2NyZWVuOwogICAgd2luZG93PzogW251bWJlciwgbnVtYmVyXTsKICAgIGZpbmdlcnByaW50PzogRmluZ2VycHJpbnQgJiBFeHRlbmRlZFNjcmVlbjsKICAgIGZmX3ZlcnNpb24/OiBudW1iZXI7CiAgICBoZWFkbGVzcz86IGJvb2xlYW4gfCAidmlydHVhbCI7CiAgICBtYWluX3dvcmxkX2V2YWw/OiBib29sZWFuOwogICAgZXhlY3V0YWJsZV9wYXRoPzogc3RyaW5nIHwgUGF0aExpa2U7CiAgICBmaXJlZm94X3VzZXJfcHJlZnM/OiBSZWNvcmQ8c3RyaW5nLCBhbnk+OwogICAgcHJveHk/OiBzdHJpbmcgfCBQbGF5d3JpZ2h0TGF1bmNoT3B0aW9uc1sicHJveHkiXTsKICAgIGVuYWJsZV9jYWNoZT86IGJvb2xlYW47CiAgICByZWFsaXNtPzogYm9vbGVhbjsKICAgIGFyZ3M/OiBzdHJpbmdbXTsKICAgIGVudj86IFJlY29yZDxzdHJpbmcsIHN0cmluZyB8IG51bWJlciB8IGJvb2xlYW4+OwogICAgZGVidWc/OiBib29sZWFuOwogICAgdmlydHVhbF9kaXNwbGF5Pzogc3RyaW5nOwogICAgd2ViZ2xfY29uZmlnPzogW3N0cmluZywgc3RyaW5nXTsKICAgIGhhcmR3YXJlX2NvbmN1cnJlbmN5X292ZXJyaWRlPzogbnVtYmVyOwogICAgZGV2aWNlX21lbW9yeV9vdmVycmlkZT86IG51bWJlcjsKICAgIHRpbWV6b25lX2ppdHRlcj86IGJvb2xlYW47CiAgICBwZXJmX2ppdHRlcj86IGJvb2xlYW47CiAgICBzZXNzaW9uX3N0aWNraW5lc3M/OiBib29sZWFuOwogICAgc2Nyb2xsX3BhdHRlcm4/OiAibmF0dXJhbCIgfCAibGluZWFyIiB8ICJidXJzdCI7CiAgICBpZGxlX2RyaWZ0PzogYm9vbGVhbjsKICAgIHR5cG9fcmF0ZT86IG51bWJlcjsKICAgIG1vdXNlX2FjY2VsZXJhdGlvbj86IGJvb2xlYW47CiAgICBba2V5OiBzdHJpbmddOiBhbnk7Cn0KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gbGF1bmNoT3B0aW9ucyh7IGNvbmZpZywgb3MsIGJsb2NrX2ltYWdlcywgYmxvY2tfd2VicnRjLCBibG9ja193ZWJnbCwgZGlzYWJsZV9jb29wLCB3ZWJnbF9jb25maWcsIGdlb2lwLCBodW1hbml6ZSwgbG9jYWxlLCBhZGRvbnMsIGZvbnRzLCBjdXN0b21fZm9udHNfb25seSwgZXhjbHVkZV9hZGRvbnMsIHNjcmVlbiwgd2luZG93LCBmaW5nZXJwcmludCwgZmZfdmVyc2lvbiwgaGVhZGxlc3MsIG1haW5fd29ybGRfZXZhbCwgZXhlY3V0YWJsZV9wYXRoLCBmaXJlZm94X3VzZXJfcHJlZnMsIHByb3h5LCBlbmFibGVfY2FjaGUsIHJlYWxpc20sIGFyZ3MsIGVudiwgaV9rbm93X3doYXRfaW1fZG9pbmcsIGRlYnVnLCB2aXJ0dWFsX2Rpc3BsYXksIGhhcmR3YXJlX2NvbmN1cnJlbmN5X292ZXJyaWRlLCBkZXZpY2VfbWVtb3J5X292ZXJyaWRlLCB0aW1lem9uZV9qaXR0ZXIsIHBlcmZfaml0dGVyLCBzZXNzaW9uX3N0aWNraW5lc3MsIC4uLmxhdW5jaF9vcHRpb25zIH06IE9taXQ8TGF1bmNoT3B0aW9ucywgImhlYWRsZXNzIj4gJiB7CiAgICBoZWFkbGVzcz86IGJvb2xlYW47Cn0pOiBQcm9taXNlPFJlY29yZDxzdHJpbmcsIGFueT4+OwpleHBvcnQge307Cg==
+import { type PathLike } from "node:fs";
+import type { Fingerprint, FingerprintGeneratorOptions } from "fingerprint-generator";
+import type { LaunchOptions as PlaywrightLaunchOptions } from "playwright-core";
+import { type DefaultAddons } from "./addons.js";
+import { SUPPORTED_OS, type ExtendedScreen } from "./fingerprints.js";
+import type { VirtualDisplay } from "./virtdisplay.js";
+type Screen = FingerprintGeneratorOptions["screen"];
+export declare function getAsBooleanFromENV(name: string, defaultValue?: boolean | undefined): boolean;
+export declare function spoofsWindowDimensions(fromOptions: Record<string, any>): boolean;
+export declare function attachNoViewportDefault<T>(target: T): T;
+export declare function syncAttachVD(browser: any, virtualDisplay?: VirtualDisplay | null): any;
+export interface LaunchOptions {
+    os?: (typeof SUPPORTED_OS)[number] | (typeof SUPPORTED_OS)[number][];
+    block_images?: boolean;
+    block_webrtc?: boolean;
+    block_webgl?: boolean;
+    disable_coop?: boolean;
+    geoip?: string | boolean;
+    humanize?: boolean | number;
+    locale?: string | string[];
+    addons?: string[];
+    fonts?: string[];
+    custom_fonts_only?: boolean;
+    exclude_addons?: (keyof typeof DefaultAddons)[];
+    screen?: Screen;
+    window?: [number, number];
+    fingerprint?: Fingerprint & ExtendedScreen;
+    ff_version?: number;
+    headless?: boolean | "virtual";
+    main_world_eval?: boolean;
+    executable_path?: string | PathLike;
+    firefox_user_prefs?: Record<string, any>;
+    proxy?: string | PlaywrightLaunchOptions["proxy"];
+    enable_cache?: boolean;
+    realism?: boolean;
+    args?: string[];
+    env?: Record<string, string | number | boolean>;
+    debug?: boolean;
+    virtual_display?: string;
+    webgl_config?: [string, string];
+    hardware_concurrency_override?: number;
+    device_memory_override?: number;
+    timezone_jitter?: boolean;
+    perf_jitter?: boolean;
+    session_stickiness?: boolean;
+    scroll_pattern?: "natural" | "linear" | "burst";
+    idle_drift?: boolean;
+    typo_rate?: number;
+    mouse_acceleration?: boolean;
+    [key: string]: any;
+}
+export declare function launchOptions({ config, os, block_images, block_webrtc, block_webgl, disable_coop, webgl_config, geoip, humanize, locale, addons, fonts, custom_fonts_only, exclude_addons, screen, window, fingerprint, ff_version, headless, main_world_eval, executable_path, firefox_user_prefs, proxy, enable_cache, realism, args, env, i_know_what_im_doing, debug, virtual_display, hardware_concurrency_override, device_memory_override, timezone_jitter, perf_jitter, session_stickiness, ...launch_options }: Omit<LaunchOptions, "headless"> & {
+    headless?: boolean;
+}): Promise<Record<string, any>>;
+export {};

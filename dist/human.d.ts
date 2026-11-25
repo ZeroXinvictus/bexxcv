@@ -1,1 +1,70 @@
-ZXhwb3J0IGludGVyZmFjZSBIdW1hbkJveCB7CiAgICB4OiBudW1iZXI7CiAgICB5OiBudW1iZXI7CiAgICB3aWR0aDogbnVtYmVyOwogICAgaGVpZ2h0OiBudW1iZXI7Cn0KZXhwb3J0IGludGVyZmFjZSBIdW1hbkxvY2F0b3IgewogICAgc2Nyb2xsSW50b1ZpZXdJZk5lZWRlZCgpOiBQcm9taXNlPHZvaWQ+OwogICAgYm91bmRpbmdCb3goKTogUHJvbWlzZTxIdW1hbkJveCB8IG51bGw+Owp9CmV4cG9ydCBpbnRlcmZhY2UgSHVtYW5QYWdlIHsKICAgIG1vdXNlOiB7CiAgICAgICAgbW92ZSh4OiBudW1iZXIsIHk6IG51bWJlcik6IFByb21pc2U8dm9pZD47CiAgICAgICAgZG93bihvcHRpb25zPzogewogICAgICAgICAgICBidXR0b24/OiAibGVmdCIgfCAicmlnaHQiIHwgIm1pZGRsZSI7CiAgICAgICAgfSk6IFByb21pc2U8dm9pZD47CiAgICAgICAgdXAob3B0aW9ucz86IHsKICAgICAgICAgICAgYnV0dG9uPzogImxlZnQiIHwgInJpZ2h0IiB8ICJtaWRkbGUiOwogICAgICAgIH0pOiBQcm9taXNlPHZvaWQ+OwogICAgICAgIHdoZWVsKGRlbHRhWDogbnVtYmVyLCBkZWx0YVk6IG51bWJlcik6IFByb21pc2U8dm9pZD47CiAgICB9OwogICAga2V5Ym9hcmQ6IHsKICAgICAgICB0eXBlKHRleHQ6IHN0cmluZyk6IFByb21pc2U8dm9pZD47CiAgICAgICAgcHJlc3Moa2V5OiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+OwogICAgfTsKICAgIGxvY2F0b3Ioc2VsZWN0b3I6IHN0cmluZyk6IEh1bWFuTG9jYXRvcjsKICAgIHZpZXdwb3J0U2l6ZSgpOiB7CiAgICAgICAgd2lkdGg6IG51bWJlcjsKICAgICAgICBoZWlnaHQ6IG51bWJlcjsKICAgIH0gfCBudWxsOwogICAgZXZhbHVhdGUocGFnZUZ1bmN0aW9uOiBhbnkpOiBQcm9taXNlPGFueT47Cn0KZXhwb3J0IGludGVyZmFjZSBIdW1hbk9wdGlvbnMgewogICAgc3BlZWQ/OiBudW1iZXI7CiAgICBuYXRpdmVDdXJzb3I/OiBib29sZWFuOwogICAgdHlwb1JhdGU/OiBudW1iZXI7Cn0KZXhwb3J0IGludGVyZmFjZSBIdW1hbkNsaWNrT3B0aW9ucyB7CiAgICBidXR0b24/OiAibGVmdCIgfCAicmlnaHQiIHwgIm1pZGRsZSI7Cn0KdHlwZSBQb2ludCA9IHsKICAgIHg6IG51bWJlcjsKICAgIHk6IG51bWJlcjsKfTsKZXhwb3J0IGRlY2xhcmUgY2xhc3MgSHVtYW4gewogICAgcHJpdmF0ZSByZWFkb25seSBwYWdlOwogICAgcHJpdmF0ZSByZWFkb25seSBzcGVlZDsKICAgIHByaXZhdGUgcmVhZG9ubHkgbmF0aXZlQ3Vyc29yOwogICAgcHJpdmF0ZSByZWFkb25seSB0eXBvUmF0ZTsKICAgIHByaXZhdGUgeDsKICAgIHByaXZhdGUgeTsKICAgIHByaXZhdGUgcGxhY2VkOwogICAgY29uc3RydWN0b3IocGFnZTogSHVtYW5QYWdlLCBvcHRpb25zPzogSHVtYW5PcHRpb25zKTsKICAgIHBhdXNlKG1pbj86IG51bWJlciwgbWF4PzogbnVtYmVyKTogUHJvbWlzZTx2b2lkPjsKICAgIG1vdmVUbyh4OiBudW1iZXIsIHk6IG51bWJlcik6IFByb21pc2U8dm9pZD47CiAgICBjbGljayh0YXJnZXQ6IHN0cmluZyB8IFBvaW50LCBvcHRpb25zPzogSHVtYW5DbGlja09wdGlvbnMpOiBQcm9taXNlPHZvaWQ+OwogICAgaG92ZXIodGFyZ2V0OiBzdHJpbmcgfCBQb2ludCk6IFByb21pc2U8dm9pZD47CiAgICBjbGVhcihzZWxlY3Rvcjogc3RyaW5nKTogUHJvbWlzZTx2b2lkPjsKICAgIHR5cGUodGFyZ2V0OiBzdHJpbmcgfCBudWxsLCB0ZXh0OiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+OwogICAgc2Nyb2xsKGRlbHRhWTogbnVtYmVyKTogUHJvbWlzZTx2b2lkPjsKICAgIHNjcm9sbFRvKHNlbGVjdG9yOiBzdHJpbmcpOiBQcm9taXNlPHZvaWQ+OwogICAgaWRsZShtcz86IG51bWJlcik6IFByb21pc2U8dm9pZD47CiAgICBwcml2YXRlIGtleURlbGF5OwogICAgcHJpdmF0ZSBlbnN1cmVQbGFjZWQ7CiAgICBwcml2YXRlIHZpZXdwb3J0SGVpZ2h0OwogICAgcHJpdmF0ZSBwb2ludEluc2lkZTsKICAgIHByaXZhdGUgY3VydmU7Cn0KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gY3JlYXRlSHVtYW4ocGFnZTogSHVtYW5QYWdlLCBvcHRpb25zPzogSHVtYW5PcHRpb25zKTogSHVtYW47CmV4cG9ydCB7fTsK
+export interface HumanBox {
+    x: number;
+    y: number;
+    width: number;
+    height: number;
+}
+export interface HumanLocator {
+    scrollIntoViewIfNeeded(): Promise<void>;
+    boundingBox(): Promise<HumanBox | null>;
+}
+export interface HumanPage {
+    mouse: {
+        move(x: number, y: number): Promise<void>;
+        down(options?: {
+            button?: "left" | "right" | "middle";
+        }): Promise<void>;
+        up(options?: {
+            button?: "left" | "right" | "middle";
+        }): Promise<void>;
+        wheel(deltaX: number, deltaY: number): Promise<void>;
+    };
+    keyboard: {
+        type(text: string): Promise<void>;
+        press(key: string): Promise<void>;
+    };
+    locator(selector: string): HumanLocator;
+    viewportSize(): {
+        width: number;
+        height: number;
+    } | null;
+    evaluate(pageFunction: any): Promise<any>;
+}
+export interface HumanOptions {
+    speed?: number;
+    nativeCursor?: boolean;
+    typoRate?: number;
+}
+export interface HumanClickOptions {
+    button?: "left" | "right" | "middle";
+}
+type Point = {
+    x: number;
+    y: number;
+};
+export declare class Human {
+    private readonly page;
+    private readonly speed;
+    private readonly nativeCursor;
+    private readonly typoRate;
+    private x;
+    private y;
+    private placed;
+    constructor(page: HumanPage, options?: HumanOptions);
+    pause(min?: number, max?: number): Promise<void>;
+    moveTo(x: number, y: number): Promise<void>;
+    click(target: string | Point, options?: HumanClickOptions): Promise<void>;
+    hover(target: string | Point): Promise<void>;
+    clear(selector: string): Promise<void>;
+    type(target: string | null, text: string): Promise<void>;
+    scroll(deltaY: number): Promise<void>;
+    scrollTo(selector: string): Promise<void>;
+    idle(ms?: number): Promise<void>;
+    private keyDelay;
+    private ensurePlaced;
+    private viewportHeight;
+    private pointInside;
+    private curve;
+}
+export declare function createHuman(page: HumanPage, options?: HumanOptions): Human;
+export {};

@@ -1,1 +1,75 @@
-CmV4cG9ydCBkZWZhdWx0IHsKCW5hdmlnYXRvcjogewoJCQoJCQoJCXVzZXJBZ2VudDogIm5hdmlnYXRvci51c2VyQWdlbnQiLAoJCQoJCWRvTm90VHJhY2s6ICJuYXZpZ2F0b3IuZG9Ob3RUcmFjayIsCgkJYXBwQ29kZU5hbWU6ICJuYXZpZ2F0b3IuYXBwQ29kZU5hbWUiLAoJCWFwcE5hbWU6ICJuYXZpZ2F0b3IuYXBwTmFtZSIsCgkJYXBwVmVyc2lvbjogIm5hdmlnYXRvci5hcHBWZXJzaW9uIiwKCQlvc2NwdTogIm5hdmlnYXRvci5vc2NwdSIsCgkJCgkJCgkJCgkJCgkJcGxhdGZvcm06ICJuYXZpZ2F0b3IucGxhdGZvcm0iLAoJCQoJCWhhcmR3YXJlQ29uY3VycmVuY3k6ICJuYXZpZ2F0b3IuaGFyZHdhcmVDb25jdXJyZW5jeSIsCgkJcHJvZHVjdDogIm5hdmlnYXRvci5wcm9kdWN0IiwKCQkKCQkKCQkKCQkKCQltYXhUb3VjaFBvaW50czogIm5hdmlnYXRvci5tYXhUb3VjaFBvaW50cyIsCgkJZXh0cmFQcm9wZXJ0aWVzOiB7CgkJCQoJCQlnbG9iYWxQcml2YWN5Q29udHJvbDogIm5hdmlnYXRvci5nbG9iYWxQcml2YWN5Q29udHJvbCIsCgkJfSwKCX0sCgoJc2NyZWVuOiB7CgkJCgkJYXZhaWxMZWZ0OiAic2NyZWVuLmF2YWlsTGVmdCIsCgkJYXZhaWxUb3A6ICJzY3JlZW4uYXZhaWxUb3AiLAoJCWF2YWlsV2lkdGg6ICJzY3JlZW4uYXZhaWxXaWR0aCIsCgkJYXZhaWxIZWlnaHQ6ICJzY3JlZW4uYXZhaWxIZWlnaHQiLAoJCWhlaWdodDogInNjcmVlbi5oZWlnaHQiLAoJCXdpZHRoOiAic2NyZWVuLndpZHRoIiwKCQljb2xvckRlcHRoOiAic2NyZWVuLmNvbG9yRGVwdGgiLAoJCXBpeGVsRGVwdGg6ICJzY3JlZW4ucGl4ZWxEZXB0aCIsCgkJCgkJcGFnZVhPZmZzZXQ6ICJzY3JlZW4ucGFnZVhPZmZzZXQiLAoJCXBhZ2VZT2Zmc2V0OiAic2NyZWVuLnBhZ2VZT2Zmc2V0IiwKCQlvdXRlckhlaWdodDogIndpbmRvdy5vdXRlckhlaWdodCIsCgkJb3V0ZXJXaWR0aDogIndpbmRvdy5vdXRlcldpZHRoIiwKCQlpbm5lckhlaWdodDogIndpbmRvdy5pbm5lckhlaWdodCIsCgkJaW5uZXJXaWR0aDogIndpbmRvdy5pbm5lcldpZHRoIiwKCQlzY3JlZW5YOiAid2luZG93LnNjcmVlblgiLAoJCXNjcmVlblk6ICJ3aW5kb3cuc2NyZWVuWSIsCgkJCgkJCgkJCgl9LAoKCQoJCgkKCQoKCWhlYWRlcnM6IHsKCQkKCQkKCQkiQWNjZXB0LUVuY29kaW5nIjogImhlYWRlcnMuQWNjZXB0LUVuY29kaW5nIiwKCX0sCgoJYmF0dGVyeTogewoJCWNoYXJnaW5nOiAiYmF0dGVyeTpjaGFyZ2luZyIsCgkJY2hhcmdpbmdUaW1lOiAiYmF0dGVyeTpjaGFyZ2luZ1RpbWUiLAoJCWRpc2NoYXJnaW5nVGltZTogImJhdHRlcnk6ZGlzY2hhcmdpbmdUaW1lIiwKCX0sCgoJCgkKfTsK
+
+export default {
+	navigator: {
+		
+		
+		userAgent: "navigator.userAgent",
+		
+		doNotTrack: "navigator.doNotTrack",
+		appCodeName: "navigator.appCodeName",
+		appName: "navigator.appName",
+		appVersion: "navigator.appVersion",
+		oscpu: "navigator.oscpu",
+		
+		
+		
+		
+		platform: "navigator.platform",
+		
+		hardwareConcurrency: "navigator.hardwareConcurrency",
+		product: "navigator.product",
+		
+		
+		
+		
+		maxTouchPoints: "navigator.maxTouchPoints",
+		extraProperties: {
+			
+			globalPrivacyControl: "navigator.globalPrivacyControl",
+		},
+	},
+
+	screen: {
+		
+		availLeft: "screen.availLeft",
+		availTop: "screen.availTop",
+		availWidth: "screen.availWidth",
+		availHeight: "screen.availHeight",
+		height: "screen.height",
+		width: "screen.width",
+		colorDepth: "screen.colorDepth",
+		pixelDepth: "screen.pixelDepth",
+		
+		pageXOffset: "screen.pageXOffset",
+		pageYOffset: "screen.pageYOffset",
+		outerHeight: "window.outerHeight",
+		outerWidth: "window.outerWidth",
+		innerHeight: "window.innerHeight",
+		innerWidth: "window.innerWidth",
+		screenX: "window.screenX",
+		screenY: "window.screenY",
+		
+		
+		
+	},
+
+	
+	
+	
+	
+
+	headers: {
+		
+		
+		"Accept-Encoding": "headers.Accept-Encoding",
+	},
+
+	battery: {
+		charging: "battery:charging",
+		chargingTime: "battery:chargingTime",
+		dischargingTime: "battery:dischargingTime",
+	},
+
+	
+	
+};

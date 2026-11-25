@@ -1,1 +1,39 @@
-aW1wb3J0IHsgYXVkaXRGaW5nZXJwcmludCwgYmV4eGN2IH0gZnJvbSAiLi9kaXN0L2luZGV4LmpzIjsKCmNvbnN0IGNvbXBhcmUgPSBwcm9jZXNzLmFyZ3YuaW5jbHVkZXMoIi0tY29tcGFyZSIpOwpjb25zdCBtb2RlcyA9IGNvbXBhcmUKCT8gWwoJCQlbInRhbnBhIHByZXNldCIsIHsgb3M6ICJ3aW5kb3dzIiB9XSwKCQkJWyJwcmVzZXQgcmVhbGlzdGljIiwgeyBvczogIndpbmRvd3MiLCBwcmVzZXQ6ICJyZWFsaXN0aWMiIH1dLAoJCV0KCTogW1sicHJlc2V0IHJlYWxpc3RpYyIsIHsgb3M6ICJ3aW5kb3dzIiwgcHJlc2V0OiAicmVhbGlzdGljIiB9XV07Cgpjb25zdCB0MCA9IERhdGUubm93KCk7CmNvbnN0IHN0YW1wID0gKG1zZykgPT4gY29uc29sZS5sb2coYFskeygoRGF0ZS5ub3coKSAtIHQwKSAvIDEwMDApLnRvRml4ZWQoMSl9c10gJHttc2d9YCk7CmNvbnN0IGxpbWl0ID0gKHByb21pc2UsIG1zLCBsYWJlbCkgPT4KCVByb21pc2UucmFjZShbCgkJcHJvbWlzZSwKCQluZXcgUHJvbWlzZSgoXywgcmVqZWN0KSA9PiBzZXRUaW1lb3V0KCgpID0+IHJlamVjdChuZXcgRXJyb3IoYCR7bGFiZWx9IGxlYmloIGRhcmkgJHttcyAvIDEwMDB9c2ApKSwgbXMpLnVucmVmKCkpLAoJXSk7Cgpmb3IgKGNvbnN0IFtsYWJlbCwgb3B0aW9uc10gb2YgbW9kZXMpIHsKCXN0YW1wKGAke2xhYmVsfTogbWVsdW5jdXJrYW4gYnJvd3NlcmApOwoJY29uc3QgYnJvd3NlciA9IGF3YWl0IGxpbWl0KGJleHhjdihvcHRpb25zKSwgOTAwMDAsICJwZWx1bmN1cmFuIik7Cgl0cnkgewoJCXN0YW1wKCJicm93c2VyIHNpYXAiKTsKCQljb25zdCBwYWdlID0gYXdhaXQgYnJvd3Nlci5uZXdQYWdlKCk7CgkJc3RhbXAoIm1lbWJ1a2EgaGFsYW1hbiIpOwoJCWF3YWl0IHBhZ2UuZ290bygiaHR0cHM6Ly9leGFtcGxlLmNvbSIsIHsgd2FpdFVudGlsOiAiZG9tY29udGVudGxvYWRlZCIsIHRpbWVvdXQ6IDMwMDAwIH0pOwoJCXN0YW1wKCJhdWRpdCBmaW5nZXJwcmludCIpOwoJCWNvbnN0IHJlcG9ydCA9IGF3YWl0IGxpbWl0KGF1ZGl0RmluZ2VycHJpbnQocGFnZSksIDIwMDAwLCAiYXVkaXQiKTsKCQlzdGFtcChgc2tvciAke3JlcG9ydC5zY29yZX0vMTAwYCk7CgkJZm9yIChjb25zdCBjaGVjayBvZiByZXBvcnQuY2hlY2tzKSB7CgkJCWNvbnNvbGUubG9nKGAke2NoZWNrLm9rID8gIm9rICAgIiA6ICJHQUdBTCJ9ICR7Y2hlY2suaWQucGFkRW5kKDE1KX0gJHtjaGVjay5kZXRhaWx9YCk7CgkJfQoJfSBmaW5hbGx5IHsKCQlhd2FpdCBicm93c2VyLmNsb3NlKCk7Cgl9Cn0KCnN0YW1wKCJzZWxlc2FpIik7CnByb2Nlc3MuZXhpdCgwKTsK
+import { auditFingerprint, bexxcv } from "./dist/index.js";
+
+const compare = process.argv.includes("--compare");
+const modes = compare
+	? [
+			["tanpa preset", { os: "windows" }],
+			["preset realistic", { os: "windows", preset: "realistic" }],
+		]
+	: [["preset realistic", { os: "windows", preset: "realistic" }]];
+
+const t0 = Date.now();
+const stamp = (msg) => console.log(`[${((Date.now() - t0) / 1000).toFixed(1)}s] ${msg}`);
+const limit = (promise, ms, label) =>
+	Promise.race([
+		promise,
+		new Promise((_, reject) => setTimeout(() => reject(new Error(`${label} lebih dari ${ms / 1000}s`)), ms).unref()),
+	]);
+
+for (const [label, options] of modes) {
+	stamp(`${label}: meluncurkan browser`);
+	const browser = await limit(bexxcv(options), 90000, "peluncuran");
+	try {
+		stamp("browser siap");
+		const page = await browser.newPage();
+		stamp("membuka halaman");
+		await page.goto("https://example.com", { waitUntil: "domcontentloaded", timeout: 30000 });
+		stamp("audit fingerprint");
+		const report = await limit(auditFingerprint(page), 20000, "audit");
+		stamp(`skor ${report.score}/100`);
+		for (const check of report.checks) {
+			console.log(`${check.ok ? "ok   " : "GAGAL"} ${check.id.padEnd(15)} ${check.detail}`);
+		}
+	} finally {
+		await browser.close();
+	}
+}
+
+stamp("selesai");
+process.exit(0);

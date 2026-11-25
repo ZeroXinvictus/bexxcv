@@ -1,1 +1,118 @@
-aW1wb3J0IHR5cGUgeyBCcm93c2VyLCBCcm93c2VyQ29udGV4dCwgUmVzcG9uc2UgfSBmcm9tICJwbGF5d3JpZ2h0LWNvcmUiOwppbXBvcnQgdHlwZSB7IEJleHhjdlBsdWdpbiB9IGZyb20gIi4vdHlwZXMuanMiOwoKLyoqCiAqIE1vbml0b3JzIENsb3VkZmxhcmUgQm90IE1hbmFnZW1lbnQgc2NvcmVzIGZyb20gcmVzcG9uc2UgaGVhZGVycy4KICoKICogV2hlbiBCb3QgTWFuYWdlbWVudCBpcyBlbmFibGVkLCBDbG91ZGZsYXJlIG1heSBleHBvc2UgdGhlIGNvbXB1dGVkIGJvdCBzY29yZQogKiB2aWEgY3VzdG9tIGhlYWRlcnMuIFRoaXMgcGx1Z2luIHBhcnNlcyB0aG9zZSBoZWFkZXJzIGFuZCBleHBvc2VzIHRoZW0gdGhyb3VnaAogKiBhIHF1ZXJ5IEFQSSBzbyBkb3duc3RyZWFtIGNvZGUgY2FuIG1ha2UgZGVjaXNpb25zIGJhc2VkIG9uIHRoZSBzY29yZS4KICoKICogU3VwcG9ydGVkIGhlYWRlciBuYW1lcyAoY2FzZS1pbnNlbnNpdGl2ZSk6CiAqICAgLSBjZi1iYXktcGFzcyAoRW50ZXJwcmlzZSBKUyBEZXRlY3Rpb24gcGFzcy9mYWlsKQogKiAgIC0gY2YtcmF5ICh1c2VkIGFsb25nc2lkZSBjbGFzc2lmaWNhdGlvbikKICogICAtIHgtbW96IChGaXJlZm94LXNwZWNpZmljIGFudGktYm90IG1hcmtlciBvYnNlcnZlZCBpbiB0aGUgd2lsZCkKICovCgpleHBvcnQgaW50ZXJmYWNlIEJvdFNjb3JlT3B0aW9ucyB7CgkvKiogQ2FjaGUgY29sbGVjdGVkIHNjb3JlcyBwZXItY29udGV4dCBmb3IgbGF0ZXIgcmV0cmlldmFsLiBEZWZhdWx0IHRydWUuICovCgljYWNoZT86IGJvb2xlYW47Cn0KCmludGVyZmFjZSBTY29yZUVudHJ5IHsKCXVybDogc3RyaW5nOwoJc2NvcmU6IG51bWJlciB8IG51bGw7CglzcmM6IHN0cmluZzsKCXRpbWVzdGFtcDogbnVtYmVyOwp9Cgpjb25zdCBTQ09SRVMgPSBuZXcgV2Vha01hcDxCcm93c2VyQ29udGV4dCwgU2NvcmVFbnRyeVtdPigpOwpjb25zdCBXQVRDSEVEID0gbmV3IFdlYWtTZXQ8b2JqZWN0PigpOwoKLyoqIFBhcnNlIGEgYm90LW1hbmFnZW1lbnQgc2NvcmUgZnJvbSBhIHJlc3BvbnNlLiBSZXR1cm5zIG51bGwgaWYgbm90IHByZXNlbnQuICovCmZ1bmN0aW9uIHBhcnNlQm90U2NvcmUocmVzcG9uc2U6IFJlc3BvbnNlKTogeyBzY29yZTogbnVtYmVyIHwgbnVsbDsgc3JjOiBzdHJpbmcgfSB8IG51bGwgewoJY29uc3QgaGVhZGVycyA9IHJlc3BvbnNlLmhlYWRlcnMoKTsKCS8vIENsb3VkZmxhcmUgRW50ZXJwcmlzZSBCb3QgTWFuYWdlbWVudCBzb21ldGltZXMgZWNob2VzIHNjb3JlCgljb25zdCByYXcgPQoJCWhlYWRlcnNbImNmLWJvdC1tYW5hZ2VtZW50LXNjb3JlIl0gPz8KCQloZWFkZXJzWyJ4LWNmLWJvdC1zY29yZSJdID8/CgkJaGVhZGVyc1sieC1tb3oiXSA/PwoJCW51bGw7CglpZiAoIXJhdykgcmV0dXJuIG51bGw7Cgljb25zdCBzY29yZSA9IE51bWJlcihyYXcpOwoJaWYgKCFOdW1iZXIuaXNGaW5pdGUoc2NvcmUpKSByZXR1cm4gbnVsbDsKCXJldHVybiB7IHNjb3JlLCBzcmM6IHJhdyB9Owp9CgpleHBvcnQgZnVuY3Rpb24gYm90U2NvcmUob3B0aW9uczogQm90U2NvcmVPcHRpb25zID0ge30pOiBCZXh4Y3ZQbHVnaW4gewoJY29uc3QgY2FjaGVFbmFibGVkID0gb3B0aW9ucy5jYWNoZSA/PyB0cnVlOwoKCXJldHVybiB7CgkJbmFtZTogImJvdC1zY29yZS1tb25pdG9yIiwKCQlvcmRlcjogNDEsCgkJb25Db250ZXh0KGNvbnRleHQpIHsKCQkJaWYgKCFjYWNoZUVuYWJsZWQpIHJldHVybjsKCQkJU0NPUkVTLnNldChjb250ZXh0LCBbXSk7CgkJfSwKCQlvblBhZ2UocGFnZSkgewoJCQlpZiAoV0FUQ0hFRC5oYXMocGFnZSkpIHJldHVybjsKCQkJV0FUQ0hFRC5hZGQocGFnZSk7CgoJCQlwYWdlLmNvbnRleHQoKT8ub24/LigicmVzcG9uc2UiLCAocmVzcG9uc2U6IFJlc3BvbnNlKSA9PiB7CgkJCQljb25zdCByZXN1bHQgPSBwYXJzZUJvdFNjb3JlKHJlc3BvbnNlKTsKCQkJCWlmICghcmVzdWx0IHx8IHJlc3VsdC5zY29yZSA9PT0gbnVsbCkgcmV0dXJuOwoKCQkJCWNvbnN0IGVudHJ5OiBTY29yZUVudHJ5ID0gewoJCQkJCXVybDogcmVzcG9uc2UudXJsKCksCgkJCQkJc2NvcmU6IHJlc3VsdC5zY29yZSwKCQkJCQlzcmM6IHJlc3VsdC5zcmMsCgkJCQkJdGltZXN0YW1wOiBEYXRlLm5vdygpLAoJCQkJfTsKCgkJCQlpZiAoY2FjaGVFbmFibGVkICYmIHBhZ2UuY29udGV4dCgpKSB7CgkJCQkJY29uc3QgbGlzdCA9IFNDT1JFUy5nZXQocGFnZS5jb250ZXh0KCkpID8/IFtdOwoJCQkJCWxpc3QucHVzaChlbnRyeSk7CgkJCQkJaWYgKGxpc3QubGVuZ3RoID4gNTApIGxpc3Quc2hpZnQoKTsKCQkJCQlpZiAocGFnZS5jb250ZXh0KCkpIFNDT1JFUy5zZXQocGFnZS5jb250ZXh0KCksIGxpc3QpOwoJCQkJfQoKCQkJCS8vIExvZyBsb3cgc2NvcmVzIGFzIHdhcm5pbmdzIChzY29yZSA8IDMwID0gbGlrZWx5IGF1dG9tYXRlZCBwZXIgQ0YgZG9jcykKCQkJCWlmIChyZXN1bHQuc2NvcmUgPCAzMCkgewoJCQkJCWNvbnNvbGUud2FybigKCQkJCQkJYFtiZXh4Y3ZdIGJvdC1zY29yZTogbG93IHNjb3JlICR7cmVzdWx0LnNjb3JlfSBvbiAke3Jlc3BvbnNlLnVybCgpfSAoc3JjOiAke3Jlc3VsdC5zcmN9KWAsCgkJCQkJKTsKCQkJCX0KCQkJfSk7CgkJfSwKCX07Cn0KCi8qKiBSZXRyaWV2ZSBjYWNoZWQgYm90LXNjb3JlIGVudHJpZXMgZm9yIGEgY29udGV4dC4gKi8KZXhwb3J0IGZ1bmN0aW9uIGdldEJvdFNjb3Jlcyhjb250ZXh0OiBCcm93c2VyQ29udGV4dCk6IFNjb3JlRW50cnlbXSB7CglyZXR1cm4gU0NPUkVTLmdldChjb250ZXh0KSA/PyBbXTsKfQoKLyoqIEdldCB0aGUgYXZlcmFnZSBib3Qgc2NvcmUgYWNyb3NzIGFsbCBjYWNoZWQgZW50cmllcyBmb3IgYSBjb250ZXh0LiAqLwpleHBvcnQgZnVuY3Rpb24gYXZnQm90U2NvcmUoY29udGV4dDogQnJvd3NlckNvbnRleHQpOiBudW1iZXIgfCBudWxsIHsKCWNvbnN0IGVudHJpZXMgPSBTQ09SRVMuZ2V0KGNvbnRleHQpID8/IFtdOwoJY29uc3Qgc2NvcmVkID0gZW50cmllcy5maWx0ZXIoKGUpID0+IGUuc2NvcmUgIT09IG51bGwgJiYgZS5zY29yZSAhPT0gdW5kZWZpbmVkKTsKCWlmIChzY29yZWQubGVuZ3RoID09PSAwKSByZXR1cm4gbnVsbDsKCXJldHVybiBzY29yZWQucmVkdWNlKChzdW0sIGUpID0+IHN1bSArIChlLnNjb3JlID8/IDApLCAwKSAvIHNjb3JlZC5sZW5ndGg7Cn0KCi8qKiBDaGVjayB3aGV0aGVyIGFueSByZWNlbnQgc2NvcmUgZmVsbCBiZWxvdyB0aHJlc2hvbGQuICovCmV4cG9ydCBmdW5jdGlvbiBoYWRMb3dTY29yZShjb250ZXh0OiBCcm93c2VyQ29udGV4dCwgdGhyZXNob2xkID0gMzAsIHdpbmRvd01zID0gMzAwXzAwMCk6IGJvb2xlYW4gewoJY29uc3Qgbm93ID0gRGF0ZS5ub3coKTsKCXJldHVybiBTQ09SRVMuZ2V0KGNvbnRleHQpPy5zb21lKAoJCShlKSA9PiBlLnNjb3JlICE9PSBudWxsICYmIGUuc2NvcmUhIDwgdGhyZXNob2xkICYmIG5vdyAtIGUudGltZXN0YW1wIDwgd2luZG93TXMsCgkpID8/IGZhbHNlOwp9CgovKiogQXR0YWNoIGJvdC1zY29yZSBtb25pdG9yaW5nIHRvIGFuIGV4aXN0aW5nIGJyb3dzZXIgb3IgY29udGV4dC4gKi8KZXhwb3J0IGZ1bmN0aW9uIGF0dGFjaEJvdFNjb3JlPFQgZXh0ZW5kcyBCcm93c2VyIHwgQnJvd3NlckNvbnRleHQ+KAoJdGFyZ2V0OiBULAoJX29wdGlvbnM6IEJvdFNjb3JlT3B0aW9ucyA9IHt9LAopOiBUIHsKCXZvaWQgYm90U2NvcmUoX29wdGlvbnMpOwoJcmV0dXJuIHRhcmdldDsKfQo=
+import type { Browser, BrowserContext, Response } from "playwright-core";
+import type { BexxcvPlugin } from "./types.js";
+
+/**
+ * Monitors Cloudflare Bot Management scores from response headers.
+ *
+ * When Bot Management is enabled, Cloudflare may expose the computed bot score
+ * via custom headers. This plugin parses those headers and exposes them through
+ * a query API so downstream code can make decisions based on the score.
+ *
+ * Supported header names (case-insensitive):
+ *   - cf-bay-pass (Enterprise JS Detection pass/fail)
+ *   - cf-ray (used alongside classification)
+ *   - x-moz (Firefox-specific anti-bot marker observed in the wild)
+ */
+
+export interface BotScoreOptions {
+	/** Cache collected scores per-context for later retrieval. Default true. */
+	cache?: boolean;
+}
+
+interface ScoreEntry {
+	url: string;
+	score: number | null;
+	src: string;
+	timestamp: number;
+}
+
+const SCORES = new WeakMap<BrowserContext, ScoreEntry[]>();
+const WATCHED = new WeakSet<object>();
+
+/** Parse a bot-management score from a response. Returns null if not present. */
+function parseBotScore(response: Response): { score: number | null; src: string } | null {
+	const headers = response.headers();
+	// Cloudflare Enterprise Bot Management sometimes echoes score
+	const raw =
+		headers["cf-bot-management-score"] ??
+		headers["x-cf-bot-score"] ??
+		headers["x-moz"] ??
+		null;
+	if (!raw) return null;
+	const score = Number(raw);
+	if (!Number.isFinite(score)) return null;
+	return { score, src: raw };
+}
+
+export function botScore(options: BotScoreOptions = {}): BexxcvPlugin {
+	const cacheEnabled = options.cache ?? true;
+
+	return {
+		name: "bot-score-monitor",
+		order: 41,
+		onContext(context) {
+			if (!cacheEnabled) return;
+			SCORES.set(context, []);
+		},
+		onPage(page) {
+			if (WATCHED.has(page)) return;
+			WATCHED.add(page);
+
+			page.context()?.on?.("response", (response: Response) => {
+				const result = parseBotScore(response);
+				if (!result || result.score === null) return;
+
+				const entry: ScoreEntry = {
+					url: response.url(),
+					score: result.score,
+					src: result.src,
+					timestamp: Date.now(),
+				};
+
+				if (cacheEnabled && page.context()) {
+					const list = SCORES.get(page.context()) ?? [];
+					list.push(entry);
+					if (list.length > 50) list.shift();
+					if (page.context()) SCORES.set(page.context(), list);
+				}
+
+				// Log low scores as warnings (score < 30 = likely automated per CF docs)
+				if (result.score < 30) {
+					console.warn(
+						`[bexxcv] bot-score: low score ${result.score} on ${response.url()} (src: ${result.src})`,
+					);
+				}
+			});
+		},
+	};
+}
+
+/** Retrieve cached bot-score entries for a context. */
+export function getBotScores(context: BrowserContext): ScoreEntry[] {
+	return SCORES.get(context) ?? [];
+}
+
+/** Get the average bot score across all cached entries for a context. */
+export function avgBotScore(context: BrowserContext): number | null {
+	const entries = SCORES.get(context) ?? [];
+	const scored = entries.filter((e) => e.score !== null && e.score !== undefined);
+	if (scored.length === 0) return null;
+	return scored.reduce((sum, e) => sum + (e.score ?? 0), 0) / scored.length;
+}
+
+/** Check whether any recent score fell below threshold. */
+export function hadLowScore(context: BrowserContext, threshold = 30, windowMs = 300_000): boolean {
+	const now = Date.now();
+	return SCORES.get(context)?.some(
+		(e) => e.score !== null && e.score! < threshold && now - e.timestamp < windowMs,
+	) ?? false;
+}
+
+/** Attach bot-score monitoring to an existing browser or context. */
+export function attachBotScore<T extends Browser | BrowserContext>(
+	target: T,
+	_options: BotScoreOptions = {},
+): T {
+	void botScore(_options);
+	return target;
+}

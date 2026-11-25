@@ -1,1 +1,153 @@
-aW1wb3J0IHsgVW5rbm93blByb3BlcnR5IH0gZnJvbSAiLi9leGNlcHRpb25zLmpzIjsKY29uc3QgS05PV05fUEhZU0lDQUwgPSBuZXcgU2V0KFsKICAgICIxMjgweDcyMCIsCiAgICAiMTI4MHg4MDAiLAogICAgIjEzNjZ4NzY4IiwKICAgICIxNDQweDkwMCIsCiAgICAiMTUzNng4NjQiLAogICAgIjE2MDB4OTAwIiwKICAgICIxNjgweDEwNTAiLAogICAgIjE5MjB4MTA4MCIsCiAgICAiMTkyMHgxMjAwIiwKICAgICIyMDQ4eDExNTIiLAogICAgIjIyNTZ4MTUwNCIsCiAgICAiMjMwNHgxNDQwIiwKICAgICIyNTYweDEwODAiLAogICAgIjI1NjB4MTQ0MCIsCiAgICAiMjU2MHgxNjAwIiwKICAgICIyODgweDE2MjAiLAogICAgIjI4ODB4MTgwMCIsCiAgICAiMjk0MHgxOTEyIiwKICAgICIzMDAweDIwMDAiLAogICAgIjMwMjR4MTk2NCIsCiAgICAiMzQ0MHgxNDQwIiwKICAgICIzNDU2eDIyMzQiLAogICAgIjM4NDB4MjE2MCIsCiAgICAiMzg0MHgyNDAwIiwKICAgICI1MTIweDE0NDAiLAogICAgIjUxMjB4Mjg4MCIsCiAgICAiMjQwMHgxMzUwIiwKICAgICIzMjAweDE4MDAiLAogICAgIjIzMDR4MTI5NiIsCiAgICAiMzA3MngxNzI4IiwKICAgICI0MDk2eDIzMDQiLAogICAgIjIwMDB4MTEyNSIsCiAgICAiMjE2MHgxMzUwIiwKICAgICIzODQweDEwODAiLApdKTsKZXhwb3J0IGZ1bmN0aW9uIGlzS25vd25QaHlzaWNhbCh3aWR0aCwgaGVpZ2h0KSB7CiAgICByZXR1cm4gS05PV05fUEhZU0lDQUwuaGFzKGAke01hdGgucm91bmQod2lkdGgpfXgke01hdGgucm91bmQoaGVpZ2h0KX1gKTsKfQpleHBvcnQgZnVuY3Rpb24gY29oZXJlbnREcHJXZWlnaHRzKHBvb2wsIHdpZHRoLCBoZWlnaHQpIHsKICAgIGNvbnN0IHZhbHVlcyA9IHBvb2wubWFwKChbdmFsdWVdKSA9PiB2YWx1ZSk7CiAgICBjb25zdCB3ZWlnaHRzID0gcG9vbC5tYXAoKFt2YWx1ZSwgd2VpZ2h0XSkgPT4gaXNLbm93blBoeXNpY2FsKHdpZHRoICogdmFsdWUsIGhlaWdodCAqIHZhbHVlKSA/IHdlaWdodCA6IHdlaWdodCAqIDAuMDIpOwogICAgcmV0dXJuIFt2YWx1ZXMsIHdlaWdodHNdOwp9CmNvbnN0IFdFQkdMX0FMSUFTRVMgPSBbCiAgICBbIndlYmdsVmVuZG9yIiwgIndlYkdsOnZlbmRvciJdLAogICAgWyJ3ZWJnbFJlbmRlcmVyIiwgIndlYkdsOnJlbmRlcmVyIl0sCl07CmV4cG9ydCBmdW5jdGlvbiByZWNvbmNpbGVXZWJnbEtleXMoZGF0YSwga25vd24pIHsKICAgIGNvbnN0IG91dCA9IHt9OwogICAgZm9yIChjb25zdCBba2V5LCB2YWx1ZV0gb2YgT2JqZWN0LmVudHJpZXMoZGF0YSkpIHsKICAgICAgICBpZiAoa25vd25ba2V5XSkgewogICAgICAgICAgICBvdXRba2V5XSA9IHZhbHVlOwogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICB9CiAgICAgICAgY29uc3QgcGFpciA9IFdFQkdMX0FMSUFTRVMuZmluZCgoW2EsIGJdKSA9PiBhID09PSBrZXkgfHwgYiA9PT0ga2V5KTsKICAgICAgICBjb25zdCBvdGhlciA9IHBhaXIgPyAocGFpclswXSA9PT0ga2V5ID8gcGFpclsxXSA6IHBhaXJbMF0pIDogbnVsbDsKICAgICAgICBpZiAob3RoZXIgJiYga25vd25bb3RoZXJdKSB7CiAgICAgICAgICAgIG91dFtvdGhlcl0gPSB2YWx1ZTsKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgfQogICAgICAgIHRocm93IG5ldyBVbmtub3duUHJvcGVydHkoYFdlYkdMIGRhdGEga2V5ICIke2tleX0iIGlzIG5vdCBzdXBwb3J0ZWQgYnkgdGhlIGluc3RhbGxlZCBDYW1vdWZveCBidWlsZC4gVGhlIHdlYmdsX2RhdGEuZGIgaW4gdXNlIGRvZXMgbm90IG1hdGNoIHRoaXMgYnJvd3NlciB2ZXJzaW9uLiBSdW4gIm5weCBiZXh4Y3YgZG9jdG9yIiBmb3IgZGV0YWlscy5gKTsKICAgIH0KICAgIHJldHVybiBvdXQ7Cn0KZXhwb3J0IGNvbnN0IFJFQUxJU01fUFJPUEVSVElFUyA9IFsKICAgICJtZWRpYURldmljZXM6ZW5hYmxlZCIsCiAgICAibWVkaWFEZXZpY2VzOm1pY3JvcyIsCiAgICAibWVkaWFEZXZpY2VzOndlYmNhbXMiLAogICAgIm1lZGlhRGV2aWNlczpzcGVha2VycyIsCl07CmV4cG9ydCBmdW5jdGlvbiByZWFsaXNtRGVmYXVsdHMoa25vd24pIHsKICAgIGNvbnN0IG91dCA9IHt9OwogICAgaWYgKGtub3duWyJtZWRpYURldmljZXM6ZW5hYmxlZCJdID09PSAiYm9vbCIpCiAgICAgICAgb3V0WyJtZWRpYURldmljZXM6ZW5hYmxlZCJdID0gdHJ1ZTsKICAgIGZvciAoY29uc3Qga2V5IG9mIFsibWVkaWFEZXZpY2VzOm1pY3JvcyIsICJtZWRpYURldmljZXM6d2ViY2FtcyIsICJtZWRpYURldmljZXM6c3BlYWtlcnMiXSkgewogICAgICAgIGlmIChrbm93bltrZXldID09PSAiaW50IiB8fCBrbm93bltrZXldID09PSAidWludCIpCiAgICAgICAgICAgIG91dFtrZXldID0gMTsKICAgIH0KICAgIHJldHVybiBvdXQ7Cn0KY29uc3QgQ09NTU9OX1NDUkVFTlMgPSBbCiAgICBbMTkyMCwgMTA4MF0sCiAgICBbMTUzNiwgODY0XSwKICAgIFsxMzY2LCA3NjhdLAogICAgWzE0NDAsIDkwMF0sCiAgICBbMTYwMCwgOTAwXSwKICAgIFsxMjgwLCA3MjBdLAogICAgWzE2ODAsIDEwNTBdLAogICAgWzI1NjAsIDE0NDBdLAogICAgWzE5MjAsIDEyMDBdLAogICAgWzEyODAsIDgwMF0sCiAgICBbMTQ3MCwgOTU2XSwKICAgIFsxNTEyLCA5ODJdLAogICAgWzE3MjgsIDExMTddLAogICAgWzIwNDgsIDExNTJdLAogICAgWzE3OTIsIDExMjBdLApdOwpjb25zdCBXSURUSF9LRVlTID0gWyJzY3JlZW4ud2lkdGgiLCAic2NyZWVuLmF2YWlsV2lkdGgiLCAid2luZG93Lm91dGVyV2lkdGgiLCAid2luZG93LmlubmVyV2lkdGgiXTsKY29uc3QgSEVJR0hUX0tFWVMgPSBbInNjcmVlbi5oZWlnaHQiLCAic2NyZWVuLmF2YWlsSGVpZ2h0IiwgIndpbmRvdy5vdXRlckhlaWdodCIsICJ3aW5kb3cuaW5uZXJIZWlnaHQiXTsKZnVuY3Rpb24gc2hpZnQoY29uZmlnLCBrZXksIGRlbHRhKSB7CiAgICBjb25zdCB2YWx1ZSA9IGNvbmZpZ1trZXldOwogICAgaWYgKHR5cGVvZiB2YWx1ZSA9PT0gIm51bWJlciIgJiYgTnVtYmVyLmlzRmluaXRlKHZhbHVlKSkgewogICAgICAgIGNvbmZpZ1trZXldID0gTWF0aC5tYXgoMSwgTWF0aC5yb3VuZCh2YWx1ZSArIGRlbHRhKSk7CiAgICB9Cn0KZXhwb3J0IGZ1bmN0aW9uIHNuYXBTY3JlZW4oY29uZmlnLCBwb29sKSB7CiAgICBjb25zdCB3aWR0aCA9IE51bWJlcihjb25maWdbInNjcmVlbi53aWR0aCJdKTsKICAgIGNvbnN0IGhlaWdodCA9IE51bWJlcihjb25maWdbInNjcmVlbi5oZWlnaHQiXSk7CiAgICBpZiAoISh3aWR0aCA+IDAgJiYgaGVpZ2h0ID4gMCkpCiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgY29uc3QgdG90YWxXZWlnaHQgPSBwb29sLnJlZHVjZSgoYWNjLCBbLCB3XSkgPT4gYWNjICsgdywgMCk7CiAgICBjb25zdCBzY29yZUZvciA9ICh3LCBoKSA9PiB7CiAgICAgICAgbGV0IHNjb3JlID0gMDsKICAgICAgICBmb3IgKGNvbnN0IFtkcHIsIHdlaWdodF0gb2YgcG9vbCkgewogICAgICAgICAgICBpZiAoaXNLbm93blBoeXNpY2FsKHcgKiBkcHIsIGggKiBkcHIpKQogICAgICAgICAgICAgICAgc2NvcmUgKz0gd2VpZ2h0OwogICAgICAgIH0KICAgICAgICByZXR1cm4gc2NvcmU7CiAgICB9OwogICAgY29uc3QgY3VycmVudFNjb3JlID0gc2NvcmVGb3Iod2lkdGgsIGhlaWdodCk7CiAgICBpZiAoY3VycmVudFNjb3JlID49IHRvdGFsV2VpZ2h0ICogMC45OTkpCiAgICAgICAgcmV0dXJuIGZhbHNlOwogICAgbGV0IGJlc3QgPSBudWxsOwogICAgbGV0IGJlc3RTY29yZSA9IGN1cnJlbnRTY29yZTsKICAgIGxldCBiZXN0RGlzdGFuY2UgPSBOdW1iZXIuUE9TSVRJVkVfSU5GSU5JVFk7CiAgICBmb3IgKGNvbnN0IFt3LCBoXSBvZiBDT01NT05fU0NSRUVOUykgewogICAgICAgIGNvbnN0IHNjb3JlID0gc2NvcmVGb3IodywgaCk7CiAgICAgICAgaWYgKHNjb3JlIDwgYmVzdFNjb3JlKQogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICBjb25zdCBkaXN0YW5jZSA9IE1hdGguaHlwb3QodyAtIHdpZHRoLCBoIC0gaGVpZ2h0KTsKICAgICAgICBpZiAoc2NvcmUgPiBiZXN0U2NvcmUgfHwgZGlzdGFuY2UgPCBiZXN0RGlzdGFuY2UpIHsKICAgICAgICAgICAgYmVzdFNjb3JlID0gc2NvcmU7CiAgICAgICAgICAgIGJlc3REaXN0YW5jZSA9IGRpc3RhbmNlOwogICAgICAgICAgICBiZXN0ID0gW3csIGhdOwogICAgICAgIH0KICAgIH0KICAgIGlmICghYmVzdCB8fCAoYmVzdFswXSA9PT0gd2lkdGggJiYgYmVzdFsxXSA9PT0gaGVpZ2h0KSkKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICBjb25zdCBkdyA9IGJlc3RbMF0gLSB3aWR0aDsKICAgIGNvbnN0IGRoID0gYmVzdFsxXSAtIGhlaWdodDsKICAgIGZvciAoY29uc3Qga2V5IG9mIFdJRFRIX0tFWVMpCiAgICAgICAgc2hpZnQoY29uZmlnLCBrZXksIGR3KTsKICAgIGZvciAoY29uc3Qga2V5IG9mIEhFSUdIVF9LRVlTKQogICAgICAgIHNoaWZ0KGNvbmZpZywga2V5LCBkaCk7CiAgICByZXR1cm4gdHJ1ZTsKfQpleHBvcnQgZnVuY3Rpb24gbGFuZ3VhZ2VMaXN0KGxhbmd1YWdlLCByZWdpb24pIHsKICAgIGlmIChsYW5ndWFnZSA9PT0gImVuIikKICAgICAgICByZXR1cm4gYGVuLSR7cmVnaW9ufSwgZW5gOwogICAgcmV0dXJuIGAke2xhbmd1YWdlfS0ke3JlZ2lvbn0sICR7bGFuZ3VhZ2V9LCBlbi1VUywgZW5gOwp9Cg==
+import { UnknownProperty } from "./exceptions.js";
+const KNOWN_PHYSICAL = new Set([
+    "1280x720",
+    "1280x800",
+    "1366x768",
+    "1440x900",
+    "1536x864",
+    "1600x900",
+    "1680x1050",
+    "1920x1080",
+    "1920x1200",
+    "2048x1152",
+    "2256x1504",
+    "2304x1440",
+    "2560x1080",
+    "2560x1440",
+    "2560x1600",
+    "2880x1620",
+    "2880x1800",
+    "2940x1912",
+    "3000x2000",
+    "3024x1964",
+    "3440x1440",
+    "3456x2234",
+    "3840x2160",
+    "3840x2400",
+    "5120x1440",
+    "5120x2880",
+    "2400x1350",
+    "3200x1800",
+    "2304x1296",
+    "3072x1728",
+    "4096x2304",
+    "2000x1125",
+    "2160x1350",
+    "3840x1080",
+]);
+export function isKnownPhysical(width, height) {
+    return KNOWN_PHYSICAL.has(`${Math.round(width)}x${Math.round(height)}`);
+}
+export function coherentDprWeights(pool, width, height) {
+    const values = pool.map(([value]) => value);
+    const weights = pool.map(([value, weight]) => isKnownPhysical(width * value, height * value) ? weight : weight * 0.02);
+    return [values, weights];
+}
+const WEBGL_ALIASES = [
+    ["webglVendor", "webGl:vendor"],
+    ["webglRenderer", "webGl:renderer"],
+];
+export function reconcileWebglKeys(data, known) {
+    const out = {};
+    for (const [key, value] of Object.entries(data)) {
+        if (known[key]) {
+            out[key] = value;
+            continue;
+        }
+        const pair = WEBGL_ALIASES.find(([a, b]) => a === key || b === key);
+        const other = pair ? (pair[0] === key ? pair[1] : pair[0]) : null;
+        if (other && known[other]) {
+            out[other] = value;
+            continue;
+        }
+        throw new UnknownProperty(`WebGL data key "${key}" is not supported by the installed Camoufox build. The webgl_data.db in use does not match this browser version. Run "npx bexxcv doctor" for details.`);
+    }
+    return out;
+}
+export const REALISM_PROPERTIES = [
+    "mediaDevices:enabled",
+    "mediaDevices:micros",
+    "mediaDevices:webcams",
+    "mediaDevices:speakers",
+];
+export function realismDefaults(known) {
+    const out = {};
+    if (known["mediaDevices:enabled"] === "bool")
+        out["mediaDevices:enabled"] = true;
+    for (const key of ["mediaDevices:micros", "mediaDevices:webcams", "mediaDevices:speakers"]) {
+        if (known[key] === "int" || known[key] === "uint")
+            out[key] = 1;
+    }
+    return out;
+}
+const COMMON_SCREENS = [
+    [1920, 1080],
+    [1536, 864],
+    [1366, 768],
+    [1440, 900],
+    [1600, 900],
+    [1280, 720],
+    [1680, 1050],
+    [2560, 1440],
+    [1920, 1200],
+    [1280, 800],
+    [1470, 956],
+    [1512, 982],
+    [1728, 1117],
+    [2048, 1152],
+    [1792, 1120],
+];
+const WIDTH_KEYS = ["screen.width", "screen.availWidth", "window.outerWidth", "window.innerWidth"];
+const HEIGHT_KEYS = ["screen.height", "screen.availHeight", "window.outerHeight", "window.innerHeight"];
+function shift(config, key, delta) {
+    const value = config[key];
+    if (typeof value === "number" && Number.isFinite(value)) {
+        config[key] = Math.max(1, Math.round(value + delta));
+    }
+}
+export function snapScreen(config, pool) {
+    const width = Number(config["screen.width"]);
+    const height = Number(config["screen.height"]);
+    if (!(width > 0 && height > 0))
+        return false;
+    const totalWeight = pool.reduce((acc, [, w]) => acc + w, 0);
+    const scoreFor = (w, h) => {
+        let score = 0;
+        for (const [dpr, weight] of pool) {
+            if (isKnownPhysical(w * dpr, h * dpr))
+                score += weight;
+        }
+        return score;
+    };
+    const currentScore = scoreFor(width, height);
+    if (currentScore >= totalWeight * 0.999)
+        return false;
+    let best = null;
+    let bestScore = currentScore;
+    let bestDistance = Number.POSITIVE_INFINITY;
+    for (const [w, h] of COMMON_SCREENS) {
+        const score = scoreFor(w, h);
+        if (score < bestScore)
+            continue;
+        const distance = Math.hypot(w - width, h - height);
+        if (score > bestScore || distance < bestDistance) {
+            bestScore = score;
+            bestDistance = distance;
+            best = [w, h];
+        }
+    }
+    if (!best || (best[0] === width && best[1] === height))
+        return false;
+    const dw = best[0] - width;
+    const dh = best[1] - height;
+    for (const key of WIDTH_KEYS)
+        shift(config, key, dw);
+    for (const key of HEIGHT_KEYS)
+        shift(config, key, dh);
+    return true;
+}
+export function languageList(language, region) {
+    if (language === "en")
+        return `en-${region}, en`;
+    return `${language}-${region}, ${language}, en-US, en`;
+}

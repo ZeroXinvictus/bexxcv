@@ -1,1 +1,48 @@
-aW1wb3J0IHsgdHlwZSBCcmFrZU9wdGlvbnMgfSBmcm9tICIuL2JyYWtlLmpzIjsKaW1wb3J0IHsgdHlwZSBDaGFsbGVuZ2VJbmZvLCB0eXBlIENoYWxsZW5nZVR5cGUgfSBmcm9tICIuL2NsYXNzaWZ5LmpzIjsKaW1wb3J0IHsgdHlwZSBEb2RnZU9wdGlvbnMgfSBmcm9tICIuL2RvZGdlLmpzIjsKaW1wb3J0IHsgdHlwZSBFcGhlbWVyYWxPcHRpb25zIH0gZnJvbSAiLi9lcGhlbWVyYWwuanMiOwppbXBvcnQgeyB0eXBlIEdhdW50bGV0T3B0aW9ucywgdHlwZSBHYXVudGxldFJlc3VsdCB9IGZyb20gIi4vZ2F1bnRsZXQuanMiOwppbXBvcnQgeyB0eXBlIEh1bWFuUGx1Z2luT3B0aW9ucyB9IGZyb20gIi4vaHVtYW4uanMiOwppbXBvcnQgeyB0eXBlIEpzZE9wdGlvbnMgfSBmcm9tICIuL2pzZC5qcyI7CmltcG9ydCB7IHR5cGUgTGVuc09wdGlvbnMsIHR5cGUgTGVuc1JlcG9ydCwgdHlwZSBMZW5zQ2hlY2sgfSBmcm9tICIuL2xlbnMuanMiOwppbXBvcnQgeyB0eXBlIFByZWN1cnNvck9wdGlvbnMgfSBmcm9tICIuL3ByZWN1cnNvci5qcyI7CmltcG9ydCB7IHR5cGUgU3Rhc2hPcHRpb25zIH0gZnJvbSAiLi9zdGFzaC5qcyI7CmltcG9ydCB0eXBlIHsgQmV4eGN2UGx1Z2luIH0gZnJvbSAiLi90eXBlcy5qcyI7CmltcG9ydCB7IHR5cGUgVmVuZWVyT3B0aW9ucyB9IGZyb20gIi4vdmVuZWVyLmpzIjsKaW1wb3J0IHsgdHlwZSBXaXJldGFwT3B0aW9ucyB9IGZyb20gIi4vd2lyZXRhcC5qcyI7CmltcG9ydCB7IHR5cGUgQm90U2NvcmVPcHRpb25zIH0gZnJvbSAiLi9ib3RzY29yZS5qcyI7CmV4cG9ydCBpbnRlcmZhY2UgUGx1Z2luT3B0aW9ucyB7CiAgICBnYXVudGxldD86IGJvb2xlYW4gfCBHYXVudGxldE9wdGlvbnM7CiAgICB3aXJldGFwPzogYm9vbGVhbiB8IFdpcmV0YXBPcHRpb25zOwogICAgc3Rhc2g/OiBzdHJpbmcgfCBTdGFzaE9wdGlvbnM7CiAgICB2ZW5lZXI/OiBib29sZWFuIHwgVmVuZWVyT3B0aW9uczsKICAgIGJyYWtlPzogYm9vbGVhbiB8IEJyYWtlT3B0aW9uczsKICAgIGRvZGdlPzogRG9kZ2VPcHRpb25zOwogICAgY29jb29uPzogc3RyaW5nOwogICAgbGVucz86IGJvb2xlYW4gfCBMZW5zT3B0aW9uczsKICAgIGh1bWFuPzogYm9vbGVhbiB8IEh1bWFuUGx1Z2luT3B0aW9uczsKICAgIHBsdWdpbnM/OiBCZXh4Y3ZQbHVnaW5bXTsKICAgIC8qKiBFbmFibGUgQ2xvdWRmbGFyZSBjaGFsbGVuZ2UgY2xhc3NpZmljYXRpb24gKGNoYWxsZW5nZS1jbGFzc2lmeSkuIERlZmF1bHQgdHJ1ZS4gKi8KICAgIGNsYXNzaWZ5PzogYm9vbGVhbjsKICAgIC8qKiBFbmFibGUgSlMgRGV0ZWN0aW9uIGhhbmRsaW5nIChqc2QpLiBSZXF1aXJlcyBnYXVudGxldDogdHJ1ZS4gRGVmYXVsdCB0cnVlLiAqLwogICAganNkPzogYm9vbGVhbiB8IEpzZE9wdGlvbnM7CiAgICAvKiogRW5hYmxlIFR1cm5zdGlsZSBlcGhlbWVyYWwgSUQgdHJhY2tpbmcgKGVwaGVtZXJhbCkuIERlZmF1bHQgdHJ1ZS4gKi8KICAgIGVwaGVtZXJhbD86IGJvb2xlYW4gfCBFcGhlbWVyYWxPcHRpb25zOwogICAgLyoqIEVuYWJsZSBQcmVjdXJzb3IgY29va2llIGRyaWZ0IGRldGVjdGlvbiAocHJlY3Vyc29yKS4gRGVmYXVsdCB0cnVlLiAqLwogICAgcHJlY3Vyc29yPzogYm9vbGVhbiB8IFByZWN1cnNvck9wdGlvbnM7CiAgICAvKiogRW5hYmxlIEJvdCBNYW5hZ2VtZW50IHNjb3JlIG1vbml0b3JpbmcgKGJvdC1zY29yZS1tb25pdG9yKS4gRGVmYXVsdCBmYWxzZS4gKi8KICAgIGJvdFNjb3JlPzogYm9vbGVhbiB8IEJvdFNjb3JlT3B0aW9uczsKfQpleHBvcnQgZGVjbGFyZSBjb25zdCBQTFVHSU5fS0VZUzogcmVhZG9ubHkgWyJnYXVudGxldCIsICJ3aXJldGFwIiwgInN0YXNoIiwgInZlbmVlciIsICJicmFrZSIsICJkb2RnZSIsICJjb2Nvb24iLCAiZ2F1bnRsZXQiLCAibGVucyIsICJodW1hbiIsICJwbHVnaW5zIiwgImNsYXNzaWZ5IiwgImpzZCIsICJlcGhlbWVyYWwiLCAicHJlY3Vyc29yIiwgImJvdFNjb3JlIl07CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGJ1aWxkUGx1Z2lucyhvcHRpb25zOiBQbHVnaW5PcHRpb25zKTogQmV4eGN2UGx1Z2luW107CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHN0cmlwUGx1Z2luT3B0aW9uczxUIGV4dGVuZHMgUmVjb3JkPHN0cmluZywgdW5rbm93bj4+KG9wdGlvbnM6IFQpOiBUOwpleHBvcnQgeyBhcHBseVBsdWdpbnMsIHJ1bkJlZm9yZUxhdW5jaCwgdHlwZSBCZXh4Y3ZQbHVnaW4gfSBmcm9tICIuL3R5cGVzLmpzIjsKZXhwb3J0IHsgYXVkaXRGaW5nZXJwcmludCwgbGVuc1JlcG9ydCB9IGZyb20gIi4vbGVucy5qcyI7CmV4cG9ydCB7IGdhdW50bGV0UmVzdWx0LCBydW5HYXVudGxldCB9IGZyb20gIi4vZ2F1bnRsZXQuanMiOwpleHBvcnQgeyB3aXJldGFwRW50cmllcyB9IGZyb20gIi4vd2lyZXRhcC5qcyI7CmV4cG9ydCB7IGJyYWtlLCBjb2Nvb24sIGRvZGdlLCBnYXVudGxldCwgaHVtYW4sIGxlbnMsIHN0YXNoLCB2ZW5lZXIsIHdpcmV0YXAsIGNoYWxsZW5nZVBsdWdpbiwganNkLCBlcGhlbWVyYWwsIHByZWN1cnNvciwgYm90U2NvcmUsIGdldEVwaGVtZXJhbEVudHJpZXMsIHJlcGxheUVwaGVtZXJhbCwgaXNKc2RQYXNzZWQsIGdldFByZWN1cnNvclN0YXRlLCByZXNldFByZWN1cnNvclN0YXRlLCBnZXRCb3RTY29yZXMsIGF2Z0JvdFNjb3JlLCBoYWRMb3dTY29yZSB9IGZyb20gIi4vaW5kZXgtcmVleHBvcnRzLmpzIjsKZXhwb3J0IHR5cGUgeyBIdW1hblBsdWdpbk9wdGlvbnMsIEJyYWtlT3B0aW9ucywgRG9kZ2VPcHRpb25zLCBHYXVudGxldE9wdGlvbnMsIEdhdW50bGV0UmVzdWx0LCBMZW5zT3B0aW9ucywgTGVuc1JlcG9ydCwgTGVuc0NoZWNrLCBTdGFzaE9wdGlvbnMsIFZlbmVlck9wdGlvbnMsIFdpcmV0YXBPcHRpb25zLCBDaGFsbGVuZ2VJbmZvLCBDaGFsbGVuZ2VUeXBlLCBKc2RPcHRpb25zLCBFcGhlbWVyYWxPcHRpb25zLCBQcmVjdXJzb3JPcHRpb25zLCBCb3RTY29yZU9wdGlvbnMsIH07Cg==
+import { type BrakeOptions } from "./brake.js";
+import { type ChallengeInfo, type ChallengeType } from "./classify.js";
+import { type DodgeOptions } from "./dodge.js";
+import { type EphemeralOptions } from "./ephemeral.js";
+import { type GauntletOptions, type GauntletResult } from "./gauntlet.js";
+import { type HumanPluginOptions } from "./human.js";
+import { type JsdOptions } from "./jsd.js";
+import { type LensOptions, type LensReport, type LensCheck } from "./lens.js";
+import { type PrecursorOptions } from "./precursor.js";
+import { type StashOptions } from "./stash.js";
+import type { BexxcvPlugin } from "./types.js";
+import { type VeneerOptions } from "./veneer.js";
+import { type WiretapOptions } from "./wiretap.js";
+import { type BotScoreOptions } from "./botscore.js";
+import { type StealthOptions } from "./stealth.js";
+export interface PluginOptions {
+    gauntlet?: boolean | GauntletOptions;
+    wiretap?: boolean | WiretapOptions;
+    stash?: string | StashOptions;
+    veneer?: boolean | VeneerOptions;
+    brake?: boolean | BrakeOptions;
+    dodge?: DodgeOptions;
+    cocoon?: string;
+    lens?: boolean | LensOptions;
+    human?: boolean | HumanPluginOptions;
+    plugins?: BexxcvPlugin[];
+    /** Enable Cloudflare challenge classification (challenge-classify). Default true. */
+    classify?: boolean;
+    /** Enable JS Detection handling (jsd). Requires gauntlet: true. Default true. */
+    jsd?: boolean | JsdOptions;
+    /** Enable Turnstile ephemeral ID tracking (ephemeral). Default true. */
+    ephemeral?: boolean | EphemeralOptions;
+    /** Enable Precursor cookie drift detection (precursor). Default true. */
+    precursor?: boolean | PrecursorOptions;
+    /** Enable Bot Management score monitoring (bot-score-monitor). Default false. */
+    botScore?: boolean | BotScoreOptions;
+    /** Enable automation marker spoofing (stealth). Default false. */
+    stealth?: boolean | StealthOptions;
+}
+export declare const PLUGIN_KEYS: readonly ["gauntlet", "wiretap", "stash", "veneer", "brake", "dodge", "cocoon", "gauntlet", "lens", "human", "plugins", "classify", "jsd", "ephemeral", "precursor", "botScore", "stealth"];
+export declare function buildPlugins(options: PluginOptions): BexxcvPlugin[];
+export declare function stripPluginOptions<T extends Record<string, unknown>>(options: T): T;
+export { applyPlugins, runBeforeLaunch, type BexxcvPlugin } from "./types.js";
+export { auditFingerprint, lensReport } from "./lens.js";
+export { gauntletResult, runGauntlet } from "./gauntlet.js";
+export { wiretapEntries } from "./wiretap.js";
+export { brake, cocoon, dodge, gauntlet, human, lens, stash, veneer, wiretap, challengePlugin, jsd, ephemeral, precursor, botScore, stealth, attachStealth, getEphemeralEntries, replayEphemeral, isJsdPassed, getPrecursorState, resetPrecursorState, getBotScores, avgBotScore, hadLowScore } from "./index-reexports.js";
+export type { HumanPluginOptions, BrakeOptions, DodgeOptions, GauntletOptions, GauntletResult, LensOptions, LensReport, LensCheck, StashOptions, VeneerOptions, WiretapOptions, ChallengeInfo, ChallengeType, JsdOptions, EphemeralOptions, PrecursorOptions, BotScoreOptions, };

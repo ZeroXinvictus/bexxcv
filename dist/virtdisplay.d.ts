@@ -1,1 +1,12 @@
-ZXhwb3J0IGRlY2xhcmUgY2xhc3MgVmlydHVhbERpc3BsYXkgewogICAgcHJpdmF0ZSBkZWJ1ZzsKICAgIHByaXZhdGUgcHJvYzsKICAgIHByaXZhdGUgX2Rpc3BsYXk7CiAgICBjb25zdHJ1Y3RvcihkZWJ1Zz86IGJvb2xlYW4pOwogICAgcHJpdmF0ZSBnZXQgeHZmYl9hcmdzKCk7CiAgICBwcml2YXRlIGdldCB4dmZiX3BhdGgoKTsKICAgIHByaXZhdGUgc3Bhd25YdmZiOwogICAgZ2V0KCk6IFByb21pc2U8c3RyaW5nPjsKICAgIGtpbGwoKTogdm9pZDsKICAgIHByaXZhdGUgc3RhdGljIGFzc2VydF9saW51eDsKfQo=
+export declare class VirtualDisplay {
+    private debug;
+    private proc;
+    private _display;
+    constructor(debug?: boolean);
+    private get xvfb_args();
+    private get xvfb_path();
+    private spawnXvfb;
+    get(): Promise<string>;
+    kill(): void;
+    private static assert_linux;
+}

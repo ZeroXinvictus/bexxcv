@@ -1,1 +1,107 @@
-aW1wb3J0IGZzIGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgcGF0aCBmcm9tICJub2RlOnBhdGgiOwppbXBvcnQgeyBmaWxlVVJMVG9QYXRoIH0gZnJvbSAibm9kZTp1cmwiOwppbXBvcnQgeyBPU19BUkNIX01BVFJJWCB9IGZyb20gIi4uL3BrZ21hbi5qcyI7CmxldCBEYXRhYmFzZUNvbnN0cnVjdG9yID0gbnVsbDsKYXN5bmMgZnVuY3Rpb24gb3BlbkRhdGFiYXNlKHBhdGhOYW1lKSB7CiAgICBpZiAoIWZzLmV4aXN0c1N5bmMocGF0aE5hbWUpIHx8IGZzLnN0YXRTeW5jKHBhdGhOYW1lKS5zaXplID09PSAwKSB7CiAgICAgICAgdGhyb3cgbmV3IEVycm9yKGBXZWJHTCBkYXRhYmFzZSBub3QgZm91bmQgb3IgZW1wdHkgYXQgJHtwYXRoTmFtZX0uIFBsYWNlIGEgdmFsaWQgd2ViZ2xfZGF0YS5kYiBpbiBzcmMvZGF0YS1maWxlcyBhbmQgcmVidWlsZC5gKTsKICAgIH0KICAgIGlmICghRGF0YWJhc2VDb25zdHJ1Y3RvcikgewogICAgICAgIGlmICh0eXBlb2YgQnVuICE9PSAidW5kZWZpbmVkIikgewogICAgICAgICAgICBjb25zdCB7IERhdGFiYXNlOiBCdW5EYXRhYmFzZSB9ID0gYXdhaXQgaW1wb3J0KCJidW46c3FsaXRlIik7CiAgICAgICAgICAgIERhdGFiYXNlQ29uc3RydWN0b3IgPSBCdW5EYXRhYmFzZTsKICAgICAgICB9CiAgICAgICAgZWxzZSBpZiAodHlwZW9mIERlbm8gIT09ICJ1bmRlZmluZWQiKSB7CiAgICAgICAgICAgIGNvbnN0IHsgRGF0YWJhc2VTeW5jIH0gPSBhd2FpdCBpbXBvcnQoIm5vZGU6c3FsaXRlIik7CiAgICAgICAgICAgIERhdGFiYXNlQ29uc3RydWN0b3IgPSBEYXRhYmFzZVN5bmM7CiAgICAgICAgfQogICAgICAgIGVsc2UgewogICAgICAgICAgICBjb25zdCB7IGRlZmF1bHQ6IEJldHRlclNxbGl0ZTMgfSA9IGF3YWl0IGltcG9ydCgiYmV0dGVyLXNxbGl0ZTMiKTsKICAgICAgICAgICAgRGF0YWJhc2VDb25zdHJ1Y3RvciA9IEJldHRlclNxbGl0ZTM7CiAgICAgICAgfQogICAgfQogICAgcmV0dXJuIG5ldyBEYXRhYmFzZUNvbnN0cnVjdG9yKHBhdGhOYW1lKTsKfQpjb25zdCBjdXJyZW50RGlyID0gaW1wb3J0Lm1ldGEuZGlybmFtZSA/PyBwYXRoLmRpcm5hbWUoZmlsZVVSTFRvUGF0aChpbXBvcnQubWV0YS51cmwpKTsKY29uc3QgREJfUEFUSCA9IHBhdGguam9pbihjdXJyZW50RGlyLCAiLi4iLCAiZGF0YS1maWxlcyIsICJ3ZWJnbF9kYXRhLmRiIik7CmV4cG9ydCBhc3luYyBmdW5jdGlvbiBzYW1wbGVXZWJHTChvcywgdmVuZG9yLCByZW5kZXJlcikgewogICAgaWYgKCFPU19BUkNIX01BVFJJWFtvc10pIHsKICAgICAgICB0aHJvdyBuZXcgRXJyb3IoYEludmFsaWQgT1M6ICR7b3N9LiBNdXN0IGJlIG9uZSBvZjogd2luLCBtYWMsIGxpbmApOwogICAgfQogICAgY29uc3QgZGIgPSBhd2FpdCBvcGVuRGF0YWJhc2UoREJfUEFUSCk7CiAgICBsZXQgcXVlcnkgPSAiIjsKICAgIGxldCBwYXJhbXMgPSBbXTsKICAgIGlmICh2ZW5kb3IgJiYgcmVuZGVyZXIpIHsKICAgICAgICBxdWVyeSA9IGBTRUxFQ1QgdmVuZG9yLCByZW5kZXJlciwgZGF0YSwgJHtvc30gRlJPTSB3ZWJnbF9maW5nZXJwcmludHMgV0hFUkUgdmVuZG9yID0gPyBBTkQgcmVuZGVyZXIgPSA/YDsKICAgICAgICBwYXJhbXMgPSBbdmVuZG9yLCByZW5kZXJlcl07CiAgICB9CiAgICBlbHNlIHsKICAgICAgICBxdWVyeSA9IGBTRUxFQ1QgdmVuZG9yLCByZW5kZXJlciwgZGF0YSwgJHtvc30gRlJPTSB3ZWJnbF9maW5nZXJwcmludHMgV0hFUkUgJHtvc30gPiAwYDsKICAgIH0KICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgICAgdHJ5IHsKICAgICAgICAgICAgY29uc3Qgcm93cyA9IGRiLnByZXBhcmUocXVlcnkpLmFsbCguLi5wYXJhbXMpOwogICAgICAgICAgICBpZiAocm93cy5sZW5ndGggPT09IDApIHsKICAgICAgICAgICAgICAgIHJlamVjdChuZXcgRXJyb3IoYE5vIFdlYkdMIGRhdGEgZm91bmQgZm9yIE9TOiAke29zfWApKTsKICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgfQogICAgICAgICAgICBpZiAodmVuZG9yICYmIHJlbmRlcmVyKSB7CiAgICAgICAgICAgICAgICBjb25zdCByZXN1bHQgPSByb3dzWzBdOwogICAgICAgICAgICAgICAgaWYgKHJlc3VsdFtvc10gPD0gMCkgewogICAgICAgICAgICAgICAgICAgIGNvbnN0IHBhaXJzID0gZGIKICAgICAgICAgICAgICAgICAgICAgICAgLnByZXBhcmUoYFNFTEVDVCBESVNUSU5DVCB2ZW5kb3IsIHJlbmRlcmVyIEZST00gd2ViZ2xfZmluZ2VycHJpbnRzIFdIRVJFICR7b3N9ID4gMGApCiAgICAgICAgICAgICAgICAgICAgICAgIC5hbGwoKTsKICAgICAgICAgICAgICAgICAgICByZWplY3QobmV3IEVycm9yKGBWZW5kb3IgIiR7dmVuZG9yfSIgYW5kIHJlbmRlcmVyICIke3JlbmRlcmVyfSIgY29tYmluYXRpb24gbm90IHZhbGlkIGZvciAke29zfS4gUG9zc2libGUgcGFpcnM6ICR7cGFpcnMubWFwKChwYWlyKSA9PiBgJHtwYWlyLnZlbmRvcn0sICR7cGFpci5yZW5kZXJlcn1gKS5qb2luKCIsICIpfWApKTsKICAgICAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICByZXNvbHZlKEpTT04ucGFyc2UocmVzdWx0LmRhdGEpKTsKICAgICAgICAgICAgfQogICAgICAgICAgICBlbHNlIHsKICAgICAgICAgICAgICAgIGNvbnN0IGRhdGFTdHJzID0gcm93cy5tYXAoKHJvdykgPT4gcm93LmRhdGEpOwogICAgICAgICAgICAgICAgY29uc3QgcHJvYnMgPSByb3dzLm1hcCgocm93KSA9PiByb3dbb3NdKTsKICAgICAgICAgICAgICAgIGNvbnN0IHRvdGFsID0gcHJvYnMucmVkdWNlKChhLCBiKSA9PiBhICsgYiwgMCk7CiAgICAgICAgICAgICAgICBjb25zdCBwcm9ic05vcm0gPSBwcm9icy5tYXAoKHApID0+IHAgLyB0b3RhbCk7CiAgICAgICAgICAgICAgICBsZXQgY3VtdWxhdGl2ZSA9IDA7CiAgICAgICAgICAgICAgICBjb25zdCBidWYgPSBuZXcgVWludDMyQXJyYXkoMSk7CiAgICAgICAgICAgICAgICBjcnlwdG8uZ2V0UmFuZG9tVmFsdWVzKGJ1Zik7CiAgICAgICAgICAgICAgICBjb25zdCB0aHJlc2hvbGQgPSAoYnVmWzBdIC8gMHhmZmZmZmZmZikgKiAxOwogICAgICAgICAgICAgICAgbGV0IGlkeCA9IHByb2JzTm9ybS5sZW5ndGggLSAxOwogICAgICAgICAgICAgICAgZm9yIChsZXQgaSA9IDA7IGkgPCBwcm9ic05vcm0ubGVuZ3RoOyBpKyspIHsKICAgICAgICAgICAgICAgICAgICBjdW11bGF0aXZlICs9IHByb2JzTm9ybVtpXTsKICAgICAgICAgICAgICAgICAgICBpZiAodGhyZXNob2xkIDw9IGN1bXVsYXRpdmUpIHsKICAgICAgICAgICAgICAgICAgICAgICAgaWR4ID0gaTsKICAgICAgICAgICAgICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgcmVzb2x2ZShKU09OLnBhcnNlKGRhdGFTdHJzW2lkeF0pKTsKICAgICAgICAgICAgfQogICAgICAgIH0KICAgICAgICBjYXRjaCAoZXJyKSB7CiAgICAgICAgICAgIHJlamVjdChlcnIpOwogICAgICAgIH0KICAgIH0pLmZpbmFsbHkoKCkgPT4gewogICAgICAgIGRiLmNsb3NlKCk7CiAgICB9KTsKfQpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZ2V0UG9zc2libGVQYWlycygpIHsKICAgIGNvbnN0IGRiID0gYXdhaXQgb3BlbkRhdGFiYXNlKERCX1BBVEgpOwogICAgY29uc3QgcmVzdWx0ID0ge307CiAgICByZXR1cm4gbmV3IFByb21pc2UoKHJlc29sdmUsIHJlamVjdCkgPT4gewogICAgICAgIHRyeSB7CiAgICAgICAgICAgIGNvbnN0IG9zVHlwZXMgPSBPYmplY3Qua2V5cyhPU19BUkNIX01BVFJJWCk7CiAgICAgICAgICAgIG9zVHlwZXMuZm9yRWFjaCgob3NfdHlwZSkgPT4gewogICAgICAgICAgICAgICAgY29uc3Qgcm93cyA9IGRiCiAgICAgICAgICAgICAgICAgICAgLnByZXBhcmUoYFNFTEVDVCBESVNUSU5DVCB2ZW5kb3IsIHJlbmRlcmVyIEZST00gd2ViZ2xfZmluZ2VycHJpbnRzIFdIRVJFICR7b3NfdHlwZX0gPiAwIE9SREVSIEJZICR7b3NfdHlwZX0gREVTQ2ApCiAgICAgICAgICAgICAgICAgICAgLmFsbCgpOwogICAgICAgICAgICAgICAgcmVzdWx0W29zX3R5cGVdID0gcm93czsKICAgICAgICAgICAgfSk7CiAgICAgICAgICAgIHJlc29sdmUocmVzdWx0KTsKICAgICAgICB9CiAgICAgICAgY2F0Y2ggKGVycikgewogICAgICAgICAgICByZWplY3QoZXJyKTsKICAgICAgICB9CiAgICB9KS5maW5hbGx5KCgpID0+IHsKICAgICAgICBkYi5jbG9zZSgpOwogICAgfSk7Cn0K
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import { OS_ARCH_MATRIX } from "../pkgman.js";
+let DatabaseConstructor = null;
+async function openDatabase(pathName) {
+    if (!fs.existsSync(pathName) || fs.statSync(pathName).size === 0) {
+        throw new Error(`WebGL database not found or empty at ${pathName}. Place a valid webgl_data.db in src/data-files and rebuild.`);
+    }
+    if (!DatabaseConstructor) {
+        if (typeof Bun !== "undefined") {
+            const { Database: BunDatabase } = await import("bun:sqlite");
+            DatabaseConstructor = BunDatabase;
+        }
+        else if (typeof Deno !== "undefined") {
+            const { DatabaseSync } = await import("node:sqlite");
+            DatabaseConstructor = DatabaseSync;
+        }
+        else {
+            const { default: BetterSqlite3 } = await import("better-sqlite3");
+            DatabaseConstructor = BetterSqlite3;
+        }
+    }
+    return new DatabaseConstructor(pathName);
+}
+const currentDir = import.meta.dirname ?? path.dirname(fileURLToPath(import.meta.url));
+const DB_PATH = path.join(currentDir, "..", "data-files", "webgl_data.db");
+export async function sampleWebGL(os, vendor, renderer) {
+    if (!OS_ARCH_MATRIX[os]) {
+        throw new Error(`Invalid OS: ${os}. Must be one of: win, mac, lin`);
+    }
+    const db = await openDatabase(DB_PATH);
+    let query = "";
+    let params = [];
+    if (vendor && renderer) {
+        query = `SELECT vendor, renderer, data, ${os} FROM webgl_fingerprints WHERE vendor = ? AND renderer = ?`;
+        params = [vendor, renderer];
+    }
+    else {
+        query = `SELECT vendor, renderer, data, ${os} FROM webgl_fingerprints WHERE ${os} > 0`;
+    }
+    return new Promise((resolve, reject) => {
+        try {
+            const rows = db.prepare(query).all(...params);
+            if (rows.length === 0) {
+                reject(new Error(`No WebGL data found for OS: ${os}`));
+                return;
+            }
+            if (vendor && renderer) {
+                const result = rows[0];
+                if (result[os] <= 0) {
+                    const pairs = db
+                        .prepare(`SELECT DISTINCT vendor, renderer FROM webgl_fingerprints WHERE ${os} > 0`)
+                        .all();
+                    reject(new Error(`Vendor "${vendor}" and renderer "${renderer}" combination not valid for ${os}. Possible pairs: ${pairs.map((pair) => `${pair.vendor}, ${pair.renderer}`).join(", ")}`));
+                    return;
+                }
+                resolve(JSON.parse(result.data));
+            }
+            else {
+                const dataStrs = rows.map((row) => row.data);
+                const probs = rows.map((row) => row[os]);
+                const total = probs.reduce((a, b) => a + b, 0);
+                const probsNorm = probs.map((p) => p / total);
+                let cumulative = 0;
+                const buf = new Uint32Array(1);
+                crypto.getRandomValues(buf);
+                const threshold = (buf[0] / 0xffffffff) * 1;
+                let idx = probsNorm.length - 1;
+                for (let i = 0; i < probsNorm.length; i++) {
+                    cumulative += probsNorm[i];
+                    if (threshold <= cumulative) {
+                        idx = i;
+                        break;
+                    }
+                }
+                resolve(JSON.parse(dataStrs[idx]));
+            }
+        }
+        catch (err) {
+            reject(err);
+        }
+    }).finally(() => {
+        db.close();
+    });
+}
+export async function getPossiblePairs() {
+    const db = await openDatabase(DB_PATH);
+    const result = {};
+    return new Promise((resolve, reject) => {
+        try {
+            const osTypes = Object.keys(OS_ARCH_MATRIX);
+            osTypes.forEach((os_type) => {
+                const rows = db
+                    .prepare(`SELECT DISTINCT vendor, renderer FROM webgl_fingerprints WHERE ${os_type} > 0 ORDER BY ${os_type} DESC`)
+                    .all();
+                result[os_type] = rows;
+            });
+            resolve(result);
+        }
+        catch (err) {
+            reject(err);
+        }
+    }).finally(() => {
+        db.close();
+    });
+}

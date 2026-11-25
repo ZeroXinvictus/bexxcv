@@ -1,1 +1,69 @@
-aW1wb3J0IHR5cGUgeyBQYXRoTGlrZSB9IGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgdHlwZSB7IFdyaXRhYmxlIH0gZnJvbSAibm9kZTpzdHJlYW0iOwpleHBvcnQgZGVjbGFyZSBjb25zdCBPU19OQU1FOiAibWFjIiB8ICJ3aW4iIHwgImxpbiI7CmV4cG9ydCBkZWNsYXJlIGNvbnN0IElOU1RBTExfRElSOiBQYXRoTGlrZTsKZXhwb3J0IGRlY2xhcmUgY29uc3QgTE9DQUxfREFUQTogUGF0aExpa2U7CmV4cG9ydCBkZWNsYXJlIGNvbnN0IE9TX0FSQ0hfTUFUUklYOiB7CiAgICBba2V5OiBzdHJpbmddOiBzdHJpbmdbXTsKfTsKZXhwb3J0IGRlY2xhcmUgY2xhc3MgVmVyc2lvbiB7CiAgICByZWxlYXNlOiBzdHJpbmc7CiAgICB2ZXJzaW9uPzogc3RyaW5nOwogICAgc29ydGVkX3JlbDogbnVtYmVyW107CiAgICBjb25zdHJ1Y3RvcihyZWxlYXNlOiBzdHJpbmcsIHZlcnNpb24/OiBzdHJpbmcpOwogICAgcHJpdmF0ZSBidWlsZFNvcnRlZFJlbDsKICAgIGdldCBmdWxsU3RyaW5nKCk6IHN0cmluZzsKICAgIGVxdWFscyhvdGhlcjogVmVyc2lvbik6IGJvb2xlYW47CiAgICBsZXNzVGhhbihvdGhlcjogVmVyc2lvbik6IGJvb2xlYW47CiAgICBpc1N1cHBvcnRlZCgpOiBib29sZWFuOwogICAgc3RhdGljIGZyb21QYXRoKGZpbGVQYXRoPzogUGF0aExpa2UpOiBWZXJzaW9uOwogICAgc3RhdGljIGlzU3VwcG9ydGVkUGF0aChwYXRoOiBQYXRoTGlrZSk6IGJvb2xlYW47CiAgICBzdGF0aWMgYnVpbGRNaW5NYXgoKTogW1ZlcnNpb24sIFZlcnNpb25dOwp9CmV4cG9ydCBkZWNsYXJlIGNsYXNzIEdpdEh1YkRvd25sb2FkZXIgewogICAgZ2l0aHViUmVwbzogc3RyaW5nOwogICAgYXBpVXJsOiBzdHJpbmc7CiAgICBjb25zdHJ1Y3RvcihnaXRodWJSZXBvOiBzdHJpbmcpOwogICAgY2hlY2tBc3NldChhc3NldDogYW55LCBfcmVsZWFzZT86IGFueSk6IGFueTsKICAgIHJlbGVhc2VzVXJsKCk6IHN0cmluZzsKICAgIG1pc3NpbmdBc3NldEVycm9yKCk6IHZvaWQ7CiAgICBnZXRBc3NldCh7IHJldHJpZXMgfT86IHsKICAgICAgICByZXRyaWVzOiBudW1iZXI7CiAgICB9KTogUHJvbWlzZTxhbnk+Owp9CmV4cG9ydCBkZWNsYXJlIGNsYXNzIENhbW91Zm94RmV0Y2hlciBleHRlbmRzIEdpdEh1YkRvd25sb2FkZXIgewogICAgYXJjaDogc3RyaW5nOwogICAgX3ZlcnNpb25fb2JqPzogVmVyc2lvbjsKICAgIHBhdHRlcm46IFJlZ0V4cDsKICAgIF91cmw/OiBzdHJpbmc7CiAgICBpc1ByZXJlbGVhc2U6IGJvb2xlYW47CiAgICBzaGEyNTY/OiBzdHJpbmc7CiAgICBjcmVhdGVkQXQ/OiBzdHJpbmc7CiAgICBjb25zdHJ1Y3RvcigpOwogICAgaW5pdCgpOiBQcm9taXNlPHZvaWQ+OwogICAgcmVsZWFzZXNVcmwoKTogc3RyaW5nOwogICAgY2hlY2tBc3NldChhc3NldDogYW55LCByZWxlYXNlPzogYW55KTogW1ZlcnNpb24sIHN0cmluZ10gfCBudWxsOwogICAgbWlzc2luZ0Fzc2V0RXJyb3IoKTogdm9pZDsKICAgIHN0YXRpYyBnZXRQbGF0Zm9ybUFyY2goKTogc3RyaW5nOwogICAgZmV0Y2hMYXRlc3QoKTogUHJvbWlzZTx2b2lkPjsKICAgIHN0YXRpYyBkb3dubG9hZEZpbGUodXJsOiBzdHJpbmcpOiBQcm9taXNlPEJ1ZmZlcj47CiAgICBleHRyYWN0WmlwKHppcEZpbGU6IHN0cmluZyB8IEJ1ZmZlciwgZGVzdERpcj86IHN0cmluZyk6IFByb21pc2U8dm9pZD47CiAgICBzdGF0aWMgY2xlYW51cCgpOiBib29sZWFuOwogICAgc2V0VmVyc2lvbihkZXN0RGlyPzogc3RyaW5nKTogdm9pZDsKICAgIHByaXZhdGUgc3RhdGljIHJlbW92ZUxlZnRvdmVyczsKICAgIHByaXZhdGUgc3RhdGljIGFjdGl2YXRlOwogICAgaW5zdGFsbCgpOiBQcm9taXNlPHZvaWQ+OwogICAgZ2V0IHVybCgpOiBzdHJpbmc7CiAgICBnZXQgdmVyc2lvbigpOiBzdHJpbmc7CiAgICBnZXQgcmVsZWFzZSgpOiBzdHJpbmc7CiAgICBnZXQgdmVyc3RyKCk6IHN0cmluZzsKfQpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBpbnN0YWxsZWRWZXJTdHIoKTogc3RyaW5nOwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBjYW1vdWZveFBhdGgoX2Rvd25sb2FkSWZNaXNzaW5nPzogYm9vbGVhbik6IFBhdGhMaWtlOwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBlbnN1cmVDYW1vdWZveEluc3RhbGxlZCgpOiBQcm9taXNlPHZvaWQ+OwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBnZXRQYXRoKGZpbGU6IHN0cmluZyk6IHN0cmluZzsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gbGF1bmNoUGF0aCgpOiBzdHJpbmc7CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHdlYmRsKHVybDogc3RyaW5nLCBkZXNjPzogc3RyaW5nLCBiYXI/OiBib29sZWFuLCBidWZmZXI/OiBXcml0YWJsZSB8IG51bGwsIHsgcmV0cmllcyB9PzogewogICAgcmV0cmllczogbnVtYmVyOwp9KTogUHJvbWlzZTxCdWZmZXI+OwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiB1bnppcCh6aXBGaWxlOiBCdWZmZXIsIGV4dHJhY3RQYXRoOiBzdHJpbmcsIGRlc2M/OiBzdHJpbmcsIGJhcj86IGJvb2xlYW4pOiBQcm9taXNlPHZvaWQ+Owo=
+import type { PathLike } from "node:fs";
+import type { Writable } from "node:stream";
+export declare const OS_NAME: "mac" | "win" | "lin";
+export declare const INSTALL_DIR: PathLike;
+export declare const LOCAL_DATA: PathLike;
+export declare const OS_ARCH_MATRIX: {
+    [key: string]: string[];
+};
+export declare class Version {
+    release: string;
+    version?: string;
+    sorted_rel: number[];
+    constructor(release: string, version?: string);
+    private buildSortedRel;
+    get fullString(): string;
+    equals(other: Version): boolean;
+    lessThan(other: Version): boolean;
+    isSupported(): boolean;
+    static fromPath(filePath?: PathLike): Version;
+    static isSupportedPath(path: PathLike): boolean;
+    static buildMinMax(): [Version, Version];
+}
+export declare class GitHubDownloader {
+    githubRepo: string;
+    apiUrl: string;
+    constructor(githubRepo: string);
+    checkAsset(asset: any, _release?: any): any;
+    releasesUrl(): string;
+    missingAssetError(): void;
+    getAsset({ retries }?: {
+        retries: number;
+    }): Promise<any>;
+}
+export declare class CamoufoxFetcher extends GitHubDownloader {
+    arch: string;
+    _version_obj?: Version;
+    pattern: RegExp;
+    _url?: string;
+    isPrerelease: boolean;
+    sha256?: string;
+    createdAt?: string;
+    constructor();
+    init(): Promise<void>;
+    releasesUrl(): string;
+    checkAsset(asset: any, release?: any): [Version, string] | null;
+    missingAssetError(): void;
+    static getPlatformArch(): string;
+    fetchLatest(): Promise<void>;
+    static downloadFile(url: string): Promise<Buffer>;
+    extractZip(zipFile: string | Buffer, destDir?: string): Promise<void>;
+    static cleanup(): boolean;
+    setVersion(destDir?: string): void;
+    private static removeLeftovers;
+    private static activate;
+    install(): Promise<void>;
+    get url(): string;
+    get version(): string;
+    get release(): string;
+    get verstr(): string;
+}
+export declare function installedVerStr(): string;
+export declare function camoufoxPath(_downloadIfMissing?: boolean): PathLike;
+export declare function ensureCamoufoxInstalled(): Promise<void>;
+export declare function getPath(file: string): string;
+export declare function launchPath(): string;
+export declare function webdl(url: string, desc?: string, bar?: boolean, buffer?: Writable | null, { retries }?: {
+    retries: number;
+}): Promise<Buffer>;
+export declare function unzip(zipFile: Buffer, extractPath: string, desc?: string, bar?: boolean): Promise<void>;

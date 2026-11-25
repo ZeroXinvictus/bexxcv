@@ -1,1 +1,12 @@
-aW1wb3J0IHR5cGUgeyBCZXh4Y3ZQbHVnaW4gfSBmcm9tICIuL3R5cGVzLmpzIjsKZXhwb3J0IGludGVyZmFjZSBCcmFrZU9wdGlvbnMgewogICAgbWF4UnBzPzogbnVtYmVyOwogICAgcmVzcGVjdFJldHJ5QWZ0ZXI/OiBib29sZWFuOwogICAgcGVySG9zdD86IGJvb2xlYW47CiAgICBtYXhCYWNrb2ZmPzogbnVtYmVyOwogICAgLyoqIEVuYWJsZSBkZXRlY3Rpb24gb2YgQ2xvdWRmbGFyZSA0MDNzIGFuZCBiYWNrIG9mZiBhY2NvcmRpbmdseS4gRGVmYXVsdCB0cnVlLiAqLwogICAgcmVzcGVjdENmNDAzPzogYm9vbGVhbjsKfQpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBicmFrZShvcHRpb25zPzogQnJha2VPcHRpb25zKTogQmV4eGN2UGx1Z2luOwovKiogR2V0IHRoZSBjdXJyZW50IGNvbnNlY3V0aXZlLTQwMyBjb3VudGVyIGZvciBhIGhvc3QuICovCmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGdldENvbnNlY3V0aXZlNDAzKGhvc3Q6IHN0cmluZyk6IG51bWJlcjsK
+import type { BexxcvPlugin } from "./types.js";
+export interface BrakeOptions {
+    maxRps?: number;
+    respectRetryAfter?: boolean;
+    perHost?: boolean;
+    maxBackoff?: number;
+    /** Enable detection of Cloudflare 403s and back off accordingly. Default true. */
+    respectCf403?: boolean;
+}
+export declare function brake(options?: BrakeOptions): BexxcvPlugin;
+/** Get the current consecutive-403 counter for a host. */
+export declare function getConsecutive403(host: string): number;

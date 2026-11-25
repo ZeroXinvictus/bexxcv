@@ -1,1 +1,21 @@
-aW1wb3J0IHR5cGUgeyBQYWdlIH0gZnJvbSAicGxheXdyaWdodC1jb3JlIjsKaW1wb3J0IHsgdHlwZSBVYW1SZXN1bHQgfSBmcm9tICIuLi91YW0uanMiOwppbXBvcnQgdHlwZSB7IEJleHhjdlBsdWdpbiB9IGZyb20gIi4vdHlwZXMuanMiOwpleHBvcnQgaW50ZXJmYWNlIEdhdW50bGV0T3B0aW9ucyB7CiAgICBzb2x2ZT86IEFycmF5PCJ1YW0iIHwgInR1cm5zdGlsZSI+OwogICAgbWF4VHJpZXM/OiBudW1iZXI7CiAgICB0aW1lb3V0PzogbnVtYmVyOwogICAgc3VzdGFpbj86IG51bWJlcjsKICAgIHdhdGNoPzogYm9vbGVhbjsKICAgIGludGVydmFsPzogbnVtYmVyOwogICAgbWF4UnVudGltZT86IG51bWJlcjsKfQpleHBvcnQgaW50ZXJmYWNlIEdhdW50bGV0UmVzdWx0IHsKICAgIHBhc3NlZDogYm9vbGVhbjsKICAgIHRyaWVzOiBudW1iZXI7CiAgICB1YW06IFVhbVJlc3VsdCB8IG51bGw7CiAgICB0dXJuc3RpbGU6IHN0cmluZyB8IG51bGw7Cn0KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gZ2F1bnRsZXRSZXN1bHQocGFnZTogUGFnZSk6IEdhdW50bGV0UmVzdWx0IHwgbnVsbDsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gcnVuR2F1bnRsZXQocGFnZTogUGFnZSwgb3B0aW9ucz86IEdhdW50bGV0T3B0aW9ucyk6IFByb21pc2U8R2F1bnRsZXRSZXN1bHQ+OwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBnYXVudGxldChvcHRpb25zPzogR2F1bnRsZXRPcHRpb25zKTogQmV4eGN2UGx1Z2luOwo=
+import type { Page } from "playwright-core";
+import { type UamResult } from "../uam.js";
+import type { BexxcvPlugin } from "./types.js";
+export interface GauntletOptions {
+    solve?: Array<"uam" | "turnstile">;
+    maxTries?: number;
+    timeout?: number;
+    sustain?: number;
+    watch?: boolean;
+    interval?: number;
+    maxRuntime?: number;
+}
+export interface GauntletResult {
+    passed: boolean;
+    tries: number;
+    uam: UamResult | null;
+    turnstile: string | null;
+}
+export declare function gauntletResult(page: Page): GauntletResult | null;
+export declare function runGauntlet(page: Page, options?: GauntletOptions): Promise<GauntletResult>;
+export declare function gauntlet(options?: GauntletOptions): BexxcvPlugin;

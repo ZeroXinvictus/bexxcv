@@ -1,1 +1,13 @@
-aW1wb3J0IHR5cGUgeyBCcm93c2VyLCBCcm93c2VyQ29udGV4dCwgUGFnZSB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB7IHR5cGUgQ29udGV4dE9wdGlvbnMgfSBmcm9tICIuLi9wYWdlaG9va3MuanMiOwpleHBvcnQgaW50ZXJmYWNlIEJleHhjdlBsdWdpbiB7CiAgICBuYW1lOiBzdHJpbmc7CiAgICBvcmRlcj86IG51bWJlcjsKICAgIGJlZm9yZUxhdW5jaD8ob3B0aW9uczogUmVjb3JkPHN0cmluZywgdW5rbm93bj4pOiB2b2lkIHwgUHJvbWlzZTx2b2lkPjsKICAgIGJlZm9yZUNvbnRleHQ/KG9wdGlvbnM6IENvbnRleHRPcHRpb25zKTogdm9pZCB8IFByb21pc2U8dm9pZD47CiAgICBvbkNvbnRleHQ/KGNvbnRleHQ6IEJyb3dzZXJDb250ZXh0LCBvcHRpb25zOiBDb250ZXh0T3B0aW9ucyk6IHZvaWQgfCBQcm9taXNlPHZvaWQ+OwogICAgb25QYWdlPyhwYWdlOiBQYWdlLCBjb250ZXh0OiBCcm93c2VyQ29udGV4dCk6IHZvaWQ7CiAgICBiZWZvcmVDbG9zZT8oY29udGV4dHM6IEJyb3dzZXJDb250ZXh0W10pOiB2b2lkIHwgUHJvbWlzZTx2b2lkPjsKfQpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBydW5CZWZvcmVMYXVuY2gocGx1Z2luczogQmV4eGN2UGx1Z2luW10sIG9wdGlvbnM6IFJlY29yZDxzdHJpbmcsIHVua25vd24+KTogUHJvbWlzZTx2b2lkPjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gYXBwbHlQbHVnaW5zPFQgZXh0ZW5kcyBCcm93c2VyIHwgQnJvd3NlckNvbnRleHQ+KHRhcmdldDogVCwgcGx1Z2luczogQmV4eGN2UGx1Z2luW10pOiBQcm9taXNlPFQ+Owo=
+import type { Browser, BrowserContext, Page } from "playwright-core";
+import { type ContextOptions } from "../pagehooks.js";
+export interface BexxcvPlugin {
+    name: string;
+    order?: number;
+    beforeLaunch?(options: Record<string, unknown>): void | Promise<void>;
+    beforeContext?(options: ContextOptions): void | Promise<void>;
+    onContext?(context: BrowserContext, options: ContextOptions): void | Promise<void>;
+    onPage?(page: Page, context: BrowserContext): void;
+    beforeClose?(contexts: BrowserContext[]): void | Promise<void>;
+}
+export declare function runBeforeLaunch(plugins: BexxcvPlugin[], options: Record<string, unknown>): Promise<void>;
+export declare function applyPlugins<T extends Browser | BrowserContext>(target: T, plugins: BexxcvPlugin[]): Promise<T>;

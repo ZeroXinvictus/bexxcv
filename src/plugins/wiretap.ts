@@ -1,1 +1,173 @@
-aW1wb3J0ICogYXMgZnMgZnJvbSAibm9kZTpmcyI7CmltcG9ydCAqIGFzIHBhdGggZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHR5cGUgeyBCcm93c2VyQ29udGV4dCwgUmVzcG9uc2UgfSBmcm9tICJwbGF5d3JpZ2h0LWNvcmUiOwppbXBvcnQgdHlwZSB7IEJleHhjdlBsdWdpbiB9IGZyb20gIi4vdHlwZXMuanMiOwoKZXhwb3J0IGludGVyZmFjZSBXaXJldGFwT3B0aW9ucyB7CgltYXRjaD86IHN0cmluZ1tdOwoJbWV0aG9kcz86IHN0cmluZ1tdOwoJb3V0Pzogc3RyaW5nOwoJYm9kaWVzPzogYm9vbGVhbjsKCW1heEJvZHlCeXRlcz86IG51bWJlcjsKCXN0cmVhbVRpbWVvdXQ/OiBudW1iZXI7CglyZWRhY3Q/OiBib29sZWFuOwp9CgpleHBvcnQgaW50ZXJmYWNlIFdpcmV0YXBFbnRyeSB7Cgl0aW1lOiBzdHJpbmc7CgltZXRob2Q6IHN0cmluZzsKCXVybDogc3RyaW5nOwoJc3RhdHVzOiBudW1iZXI7CglyZXF1ZXN0SGVhZGVyczogUmVjb3JkPHN0cmluZywgc3RyaW5nPjsKCXBvc3REYXRhOiBzdHJpbmcgfCBudWxsOwoJcmVzcG9uc2VIZWFkZXJzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+OwoJY29udGVudFR5cGU6IHN0cmluZzsKCWJvZHk6IHN0cmluZyB8IG51bGw7Cglib2R5Tm90ZT86IHN0cmluZzsKCWV2ZW50cz86IHN0cmluZ1tdOwp9Cgpjb25zdCBTRU5TSVRJVkUgPSBuZXcgU2V0KFsKCSJjb29raWUiLAoJInNldC1jb29raWUiLAoJImF1dGhvcml6YXRpb24iLAoJInByb3h5LWF1dGhvcml6YXRpb24iLAoJIngtYXBpLWtleSIsCl0pOwoKY29uc3QgU1RPUkVTID0gbmV3IFdlYWtNYXA8QnJvd3NlckNvbnRleHQsIFdpcmV0YXBFbnRyeVtdPigpOwoKZXhwb3J0IGZ1bmN0aW9uIHdpcmV0YXBFbnRyaWVzKGNvbnRleHQ6IEJyb3dzZXJDb250ZXh0KTogV2lyZXRhcEVudHJ5W10gewoJcmV0dXJuIFNUT1JFUy5nZXQoY29udGV4dCkgPz8gW107Cn0KCmZ1bmN0aW9uIHNjcnViKAoJaGVhZGVyczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiwKCXJlZGFjdDogYm9vbGVhbiwKKTogUmVjb3JkPHN0cmluZywgc3RyaW5nPiB7CglpZiAoIXJlZGFjdCkgcmV0dXJuIHsgLi4uaGVhZGVycyB9OwoJY29uc3Qgb3V0OiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+ID0ge307Cglmb3IgKGNvbnN0IFtrZXksIHZhbHVlXSBvZiBPYmplY3QuZW50cmllcyhoZWFkZXJzKSkgewoJCW91dFtrZXldID0gU0VOU0lUSVZFLmhhcyhrZXkudG9Mb3dlckNhc2UoKSkgPyAiW3JlZGFjdGVkXSIgOiB2YWx1ZTsKCX0KCXJldHVybiBvdXQ7Cn0KCmZ1bmN0aW9uIG1hdGNoZXIocGF0dGVybnM6IHN0cmluZ1tdIHwgdW5kZWZpbmVkKTogKHVybDogc3RyaW5nKSA9PiBib29sZWFuIHsKCWlmICghcGF0dGVybnMgfHwgcGF0dGVybnMubGVuZ3RoID09PSAwKSByZXR1cm4gKCkgPT4gdHJ1ZTsKCWNvbnN0IHRlc3RzID0gcGF0dGVybnMubWFwKChwYXR0ZXJuKSA9PiB7CgkJaWYgKHBhdHRlcm4uc3RhcnRzV2l0aCgicmU6IikpIHsKCQkJY29uc3QgcmUgPSBuZXcgUmVnRXhwKHBhdHRlcm4uc2xpY2UoMykpOwoJCQlyZXR1cm4gKHVybDogc3RyaW5nKSA9PiByZS50ZXN0KHVybCk7CgkJfQoJCXJldHVybiAodXJsOiBzdHJpbmcpID0+IHVybC5pbmNsdWRlcyhwYXR0ZXJuKTsKCX0pOwoJcmV0dXJuICh1cmwpID0+IHRlc3RzLnNvbWUoKHRlc3QpID0+IHRlc3QodXJsKSk7Cn0KCmZ1bmN0aW9uIHdpdGhUaW1lb3V0PFQ+KHByb21pc2U6IFByb21pc2U8VD4sIG1zOiBudW1iZXIpOiBQcm9taXNlPFQ+IHsKCXJldHVybiBuZXcgUHJvbWlzZTxUPigocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CgkJY29uc3QgdGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHJlamVjdChuZXcgRXJyb3IoInRpbWVvdXQiKSksIG1zKTsKCQlwcm9taXNlLnRoZW4oCgkJCSh2YWx1ZSkgPT4gewoJCQkJY2xlYXJUaW1lb3V0KHRpbWVyKTsKCQkJCXJlc29sdmUodmFsdWUpOwoJCQl9LAoJCQkoZXJyb3IpID0+IHsKCQkJCWNsZWFyVGltZW91dCh0aW1lcik7CgkJCQlyZWplY3QoZXJyb3IpOwoJCQl9LAoJCSk7Cgl9KTsKfQoKZXhwb3J0IGZ1bmN0aW9uIHdpcmV0YXAoCglpbnB1dDogc3RyaW5nIHwgc3RyaW5nW10gfCBXaXJldGFwT3B0aW9ucyA9IHt9LAopOiBCZXh4Y3ZQbHVnaW4gewoJY29uc3Qgb3B0aW9uczogV2lyZXRhcE9wdGlvbnMgPQoJCXR5cGVvZiBpbnB1dCA9PT0gInN0cmluZyIKCQkJPyB7IG1hdGNoOiBbaW5wdXRdIH0KCQkJOiBBcnJheS5pc0FycmF5KGlucHV0KQoJCQkJPyB7IG1hdGNoOiBpbnB1dCB9CgkJCQk6IGlucHV0OwoJY29uc3QgbWF0Y2ggPSBtYXRjaGVyKG9wdGlvbnMubWF0Y2gpOwoJY29uc3QgbWV0aG9kcyA9IG5ldyBTZXQoKG9wdGlvbnMubWV0aG9kcyA/PyBbXSkubWFwKChtKSA9PiBtLnRvVXBwZXJDYXNlKCkpKTsKCWNvbnN0IHJlZGFjdCA9IG9wdGlvbnMucmVkYWN0ID8/IHRydWU7Cgljb25zdCBib2RpZXMgPSBvcHRpb25zLmJvZGllcyA/PyB0cnVlOwoJY29uc3QgbWF4Qnl0ZXMgPSBvcHRpb25zLm1heEJvZHlCeXRlcyA/PyAxXzAwMF8wMDA7Cgljb25zdCBzdHJlYW1UaW1lb3V0ID0gb3B0aW9ucy5zdHJlYW1UaW1lb3V0ID8/IDYwXzAwMDsKCWNvbnN0IHBlbmRpbmcgPSBuZXcgU2V0PFByb21pc2U8dm9pZD4+KCk7CgoJY29uc3QgY2FwdHVyZSA9IGFzeW5jIChyZXNwb25zZTogUmVzcG9uc2UsIGxpc3Q6IFdpcmV0YXBFbnRyeVtdKSA9PiB7CgkJY29uc3QgcmVxdWVzdCA9IHJlc3BvbnNlLnJlcXVlc3QoKTsKCQlpZiAobWV0aG9kcy5zaXplID4gMCAmJiAhbWV0aG9kcy5oYXMocmVxdWVzdC5tZXRob2QoKSkpIHJldHVybjsKCQljb25zdCB1cmwgPSByZXNwb25zZS51cmwoKTsKCQlpZiAoIW1hdGNoKHVybCkpIHJldHVybjsKCgkJY29uc3QgcmVzcG9uc2VIZWFkZXJzID0gcmVzcG9uc2UuaGVhZGVycygpOwoJCWNvbnN0IGNvbnRlbnRUeXBlID0gcmVzcG9uc2VIZWFkZXJzWyJjb250ZW50LXR5cGUiXSA/PyAiIjsKCQljb25zdCBlbnRyeTogV2lyZXRhcEVudHJ5ID0gewoJCQl0aW1lOiBuZXcgRGF0ZSgpLnRvSVNPU3RyaW5nKCksCgkJCW1ldGhvZDogcmVxdWVzdC5tZXRob2QoKSwKCQkJdXJsLAoJCQlzdGF0dXM6IHJlc3BvbnNlLnN0YXR1cygpLAoJCQlyZXF1ZXN0SGVhZGVyczogc2NydWIocmVxdWVzdC5oZWFkZXJzKCksIHJlZGFjdCksCgkJCXBvc3REYXRhOiByZXF1ZXN0LnBvc3REYXRhKCksCgkJCXJlc3BvbnNlSGVhZGVyczogc2NydWIocmVzcG9uc2VIZWFkZXJzLCByZWRhY3QpLAoJCQljb250ZW50VHlwZSwKCQkJYm9keTogbnVsbCwKCQl9OwoKCQlpZiAoYm9kaWVzKSB7CgkJCWNvbnN0IHN0cmVhbSA9IC9ldmVudC1zdHJlYW0vaS50ZXN0KGNvbnRlbnRUeXBlKTsKCQkJdHJ5IHsKCQkJCWNvbnN0IHRleHQgPSBhd2FpdCB3aXRoVGltZW91dChyZXNwb25zZS50ZXh0KCksIHN0cmVhbSA/IHN0cmVhbVRpbWVvdXQgOiAxMF8wMDApOwoJCQkJaWYgKEJ1ZmZlci5ieXRlTGVuZ3RoKHRleHQpID4gbWF4Qnl0ZXMpIHsKCQkJCQllbnRyeS5ib2R5ID0gdGV4dC5zbGljZSgwLCBtYXhCeXRlcyk7CgkJCQkJZW50cnkuYm9keU5vdGUgPSAidHJ1bmNhdGVkIjsKCQkJCX0gZWxzZSB7CgkJCQkJZW50cnkuYm9keSA9IHRleHQ7CgkJCQl9CgkJCQlpZiAoc3RyZWFtKSB7CgkJCQkJZW50cnkuZXZlbnRzID0gdGV4dAoJCQkJCQkuc3BsaXQoL1xyP1xuXHI/XG4vKQoJCQkJCQkubWFwKChjaHVuaykgPT4gY2h1bmsudHJpbSgpKQoJCQkJCQkuZmlsdGVyKEJvb2xlYW4pOwoJCQkJfQoJCQl9IGNhdGNoIChlcnJvcikgewoJCQkJZW50cnkuYm9keU5vdGUgPSAoZXJyb3IgYXMgRXJyb3IpLm1lc3NhZ2U7CgkJCX0KCQl9CgoJCWxpc3QucHVzaChlbnRyeSk7Cgl9OwoKCWNvbnN0IHNhdmUgPSBhc3luYyAoY29udGV4dHM6IEJyb3dzZXJDb250ZXh0W10pID0+IHsKCQlpZiAoIW9wdGlvbnMub3V0KSByZXR1cm47CgkJYXdhaXQgUHJvbWlzZS5hbGxTZXR0bGVkKFsuLi5wZW5kaW5nXSk7CgkJY29uc3QgZW50cmllcyA9IGNvbnRleHRzLmZsYXRNYXAoKGNvbnRleHQpID0+IHdpcmV0YXBFbnRyaWVzKGNvbnRleHQpKTsKCQllbnRyaWVzLnNvcnQoKGEsIGIpID0+IGEudGltZS5sb2NhbGVDb21wYXJlKGIudGltZSkpOwoJCWZzLm1rZGlyU3luYyhwYXRoLmRpcm5hbWUocGF0aC5yZXNvbHZlKG9wdGlvbnMub3V0KSksIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwoJCWZzLndyaXRlRmlsZVN5bmMoCgkJCW9wdGlvbnMub3V0LAoJCQlgJHtKU09OLnN0cmluZ2lmeSh7IGNhcHR1cmVkOiBlbnRyaWVzLmxlbmd0aCwgZW50cmllcyB9LCBudWxsLCAyKX1cbmAsCgkJCXsgbW9kZTogMG82MDAgfSwKCQkpOwoJfTsKCglyZXR1cm4gewoJCW5hbWU6ICJ3aXJldGFwIiwKCQlvcmRlcjogMzAsCgkJb25Db250ZXh0KGNvbnRleHQpIHsKCQkJY29uc3QgbGlzdDogV2lyZXRhcEVudHJ5W10gPSBbXTsKCQkJU1RPUkVTLnNldChjb250ZXh0LCBsaXN0KTsKCQkJY29udGV4dC5vbigicmVzcG9uc2UiLCAocmVzcG9uc2UpID0+IHsKCQkJCWNvbnN0IHRhc2sgPSBjYXB0dXJlKHJlc3BvbnNlLCBsaXN0KQoJCQkJCS5jYXRjaCgoKSA9PiB1bmRlZmluZWQpCgkJCQkJLmZpbmFsbHkoKCkgPT4gcGVuZGluZy5kZWxldGUodGFzaykpOwoJCQkJcGVuZGluZy5hZGQodGFzayk7CgkJCX0pOwoJCX0sCgkJYmVmb3JlQ2xvc2U6IHNhdmUsCgl9Owp9Cg==
+import * as fs from "node:fs";
+import * as path from "node:path";
+import type { BrowserContext, Response } from "playwright-core";
+import type { BexxcvPlugin } from "./types.js";
+
+export interface WiretapOptions {
+	match?: string[];
+	methods?: string[];
+	out?: string;
+	bodies?: boolean;
+	maxBodyBytes?: number;
+	streamTimeout?: number;
+	redact?: boolean;
+}
+
+export interface WiretapEntry {
+	time: string;
+	method: string;
+	url: string;
+	status: number;
+	requestHeaders: Record<string, string>;
+	postData: string | null;
+	responseHeaders: Record<string, string>;
+	contentType: string;
+	body: string | null;
+	bodyNote?: string;
+	events?: string[];
+}
+
+const SENSITIVE = new Set([
+	"cookie",
+	"set-cookie",
+	"authorization",
+	"proxy-authorization",
+	"x-api-key",
+]);
+
+const STORES = new WeakMap<BrowserContext, WiretapEntry[]>();
+
+export function wiretapEntries(context: BrowserContext): WiretapEntry[] {
+	return STORES.get(context) ?? [];
+}
+
+function scrub(
+	headers: Record<string, string>,
+	redact: boolean,
+): Record<string, string> {
+	if (!redact) return { ...headers };
+	const out: Record<string, string> = {};
+	for (const [key, value] of Object.entries(headers)) {
+		out[key] = SENSITIVE.has(key.toLowerCase()) ? "[redacted]" : value;
+	}
+	return out;
+}
+
+function matcher(patterns: string[] | undefined): (url: string) => boolean {
+	if (!patterns || patterns.length === 0) return () => true;
+	const tests = patterns.map((pattern) => {
+		if (pattern.startsWith("re:")) {
+			const re = new RegExp(pattern.slice(3));
+			return (url: string) => re.test(url);
+		}
+		return (url: string) => url.includes(pattern);
+	});
+	return (url) => tests.some((test) => test(url));
+}
+
+function withTimeout<T>(promise: Promise<T>, ms: number): Promise<T> {
+	return new Promise<T>((resolve, reject) => {
+		const timer = setTimeout(() => reject(new Error("timeout")), ms);
+		promise.then(
+			(value) => {
+				clearTimeout(timer);
+				resolve(value);
+			},
+			(error) => {
+				clearTimeout(timer);
+				reject(error);
+			},
+		);
+	});
+}
+
+export function wiretap(
+	input: string | string[] | WiretapOptions = {},
+): BexxcvPlugin {
+	const options: WiretapOptions =
+		typeof input === "string"
+			? { match: [input] }
+			: Array.isArray(input)
+				? { match: input }
+				: input;
+	const match = matcher(options.match);
+	const methods = new Set((options.methods ?? []).map((m) => m.toUpperCase()));
+	const redact = options.redact ?? true;
+	const bodies = options.bodies ?? true;
+	const maxBytes = options.maxBodyBytes ?? 1_000_000;
+	const streamTimeout = options.streamTimeout ?? 60_000;
+	const pending = new Set<Promise<void>>();
+
+	const capture = async (response: Response, list: WiretapEntry[]) => {
+		const request = response.request();
+		if (methods.size > 0 && !methods.has(request.method())) return;
+		const url = response.url();
+		if (!match(url)) return;
+
+		const responseHeaders = response.headers();
+		const contentType = responseHeaders["content-type"] ?? "";
+		const entry: WiretapEntry = {
+			time: new Date().toISOString(),
+			method: request.method(),
+			url,
+			status: response.status(),
+			requestHeaders: scrub(request.headers(), redact),
+			postData: request.postData(),
+			responseHeaders: scrub(responseHeaders, redact),
+			contentType,
+			body: null,
+		};
+
+		if (bodies) {
+			const stream = /event-stream/i.test(contentType);
+			try {
+				const text = await withTimeout(response.text(), stream ? streamTimeout : 10_000);
+				if (Buffer.byteLength(text) > maxBytes) {
+					entry.body = text.slice(0, maxBytes);
+					entry.bodyNote = "truncated";
+				} else {
+					entry.body = text;
+				}
+				if (stream) {
+					entry.events = text
+						.split(/\r?\n\r?\n/)
+						.map((chunk) => chunk.trim())
+						.filter(Boolean);
+				}
+			} catch (error) {
+				entry.bodyNote = (error as Error).message;
+			}
+		}
+
+		list.push(entry);
+	};
+
+	const save = async (contexts: BrowserContext[]) => {
+		if (!options.out) return;
+		await Promise.allSettled([...pending]);
+		const entries = contexts.flatMap((context) => wiretapEntries(context));
+		entries.sort((a, b) => a.time.localeCompare(b.time));
+		fs.mkdirSync(path.dirname(path.resolve(options.out)), { recursive: true });
+		fs.writeFileSync(
+			options.out,
+			`${JSON.stringify({ captured: entries.length, entries }, null, 2)}\n`,
+			{ mode: 0o600 },
+		);
+	};
+
+	return {
+		name: "wiretap",
+		order: 30,
+		onContext(context) {
+			const list: WiretapEntry[] = [];
+			STORES.set(context, list);
+			context.on("response", (response) => {
+				const task = capture(response, list)
+					.catch(() => undefined)
+					.finally(() => pending.delete(task));
+				pending.add(task);
+			});
+		},
+		beforeClose: save,
+	};
+}

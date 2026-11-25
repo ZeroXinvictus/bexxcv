@@ -1,1 +1,63 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgaXQgfSBmcm9tICJ2aXRlc3QiOwppbXBvcnQgeyBjcmVhdGVIdW1hbiwgdHlwZSBIdW1hblBhZ2UgfSBmcm9tICIuLi9zcmMvaHVtYW4uanMiOwoKZnVuY3Rpb24gbWFrZVBhZ2UoKSB7Cgljb25zdCBldmVudHM6IFtzdHJpbmcsIC4uLnVua25vd25bXV1bXSA9IFtdOwoJY29uc3QgcGFnZTogSHVtYW5QYWdlID0gewoJCW1vdXNlOiB7CgkJCW1vdmU6IGFzeW5jICh4LCB5KSA9PiB2b2lkIGV2ZW50cy5wdXNoKFsibW92ZSIsIHgsIHldKSwKCQkJZG93bjogYXN5bmMgKCkgPT4gdm9pZCBldmVudHMucHVzaChbImRvd24iXSksCgkJCXVwOiBhc3luYyAoKSA9PiB2b2lkIGV2ZW50cy5wdXNoKFsidXAiXSksCgkJCXdoZWVsOiBhc3luYyAoX2R4LCBkeSkgPT4gdm9pZCBldmVudHMucHVzaChbIndoZWVsIiwgZHldKSwKCQl9LAoJCWtleWJvYXJkOiB7CgkJCXR5cGU6IGFzeW5jICh0ZXh0KSA9PiB2b2lkIGV2ZW50cy5wdXNoKFsidHlwZSIsIHRleHRdKSwKCQkJcHJlc3M6IGFzeW5jIChrZXkpID0+IHZvaWQgZXZlbnRzLnB1c2goWyJwcmVzcyIsIGtleV0pLAoJCX0sCgkJbG9jYXRvcjogKCkgPT4gKHsKCQkJc2Nyb2xsSW50b1ZpZXdJZk5lZWRlZDogYXN5bmMgKCkgPT4ge30sCgkJCWJvdW5kaW5nQm94OiBhc3luYyAoKSA9PiAoeyB4OiA0MDAsIHk6IDkwMCwgd2lkdGg6IDIwMCwgaGVpZ2h0OiA0MCB9KSwKCQl9KSwKCQl2aWV3cG9ydFNpemU6ICgpID0+ICh7IHdpZHRoOiAxMjgwLCBoZWlnaHQ6IDcyMCB9KSwKCQlldmFsdWF0ZTogYXN5bmMgKCkgPT4gNzIwLAoJfTsKCXJldHVybiB7IHBhZ2UsIGV2ZW50cyB9Owp9CgpkZXNjcmliZSgiSHVtYW4iLCAoKSA9PiB7CglpdCgidHlwZXMgdGhlIGV4YWN0IHRleHQgZXZlbiB3aXRoIHR5cG9zIGVuYWJsZWQiLCBhc3luYyAoKSA9PiB7CgkJY29uc3QgeyBwYWdlLCBldmVudHMgfSA9IG1ha2VQYWdlKCk7CgkJY29uc3QgaHVtYW4gPSBjcmVhdGVIdW1hbihwYWdlLCB7IHNwZWVkOiAyMCwgdHlwb1JhdGU6IDAuMiB9KTsKCQlhd2FpdCBodW1hbi50eXBlKG51bGwsICJIZWxsbyBXb3JsZCIpOwoJCWNvbnN0IG91dDogc3RyaW5nW10gPSBbXTsKCQlmb3IgKGNvbnN0IFtuYW1lLCB2YWx1ZV0gb2YgZXZlbnRzKSB7CgkJCWlmIChuYW1lID09PSAidHlwZSIpIG91dC5wdXNoKHZhbHVlIGFzIHN0cmluZyk7CgkJCWlmIChuYW1lID09PSAicHJlc3MiICYmIHZhbHVlID09PSAiQmFja3NwYWNlIikgb3V0LnBvcCgpOwoJCX0KCQlleHBlY3Qob3V0LmpvaW4oIiIpKS50b0JlKCJIZWxsbyBXb3JsZCIpOwoJfSk7CgoJaXQoImNsaWNrcyBpbnNpZGUgdGhlIGVsZW1lbnQgYm94IiwgYXN5bmMgKCkgPT4gewoJCWNvbnN0IHsgcGFnZSwgZXZlbnRzIH0gPSBtYWtlUGFnZSgpOwoJCWNvbnN0IGh1bWFuID0gY3JlYXRlSHVtYW4ocGFnZSwgeyBzcGVlZDogMjAgfSk7CgkJYXdhaXQgaHVtYW4uY2xpY2soIiN0YXJnZXQiKTsKCQljb25zdCBtb3ZlcyA9IGV2ZW50cy5maWx0ZXIoKGUpID0+IGVbMF0gPT09ICJtb3ZlIik7CgkJY29uc3QgWywgeCwgeV0gPSBtb3Zlc1ttb3Zlcy5sZW5ndGggLSAxXSBhcyBbc3RyaW5nLCBudW1iZXIsIG51bWJlcl07CgkJZXhwZWN0KHgpLnRvQmVHcmVhdGVyVGhhbk9yRXF1YWwoNDAwKTsKCQlleHBlY3QoeCkudG9CZUxlc3NUaGFuT3JFcXVhbCg2MDApOwoJCWV4cGVjdCh5KS50b0JlR3JlYXRlclRoYW5PckVxdWFsKDkwMCk7CgkJZXhwZWN0KHkpLnRvQmVMZXNzVGhhbk9yRXF1YWwoOTQwKTsKCQlleHBlY3QoZXZlbnRzLnNvbWUoKGUpID0+IGVbMF0gPT09ICJkb3duIikpLnRvQmUodHJ1ZSk7CgkJZXhwZWN0KGV2ZW50cy5zb21lKChlKSA9PiBlWzBdID09PSAidXAiKSkudG9CZSh0cnVlKTsKCX0pOwoKCWl0KCJzY3JvbGxzIHRoZSByZXF1ZXN0ZWQgZGlzdGFuY2UiLCBhc3luYyAoKSA9PiB7CgkJY29uc3QgeyBwYWdlLCBldmVudHMgfSA9IG1ha2VQYWdlKCk7CgkJY29uc3QgaHVtYW4gPSBjcmVhdGVIdW1hbihwYWdlLCB7IHNwZWVkOiAyMCB9KTsKCQlhd2FpdCBodW1hbi5zY3JvbGwoNTAwKTsKCQljb25zdCB0b3RhbCA9IGV2ZW50cwoJCQkuZmlsdGVyKChlKSA9PiBlWzBdID09PSAid2hlZWwiKQoJCQkucmVkdWNlKChzdW0sIGUpID0+IHN1bSArIChlWzFdIGFzIG51bWJlciksIDApOwoJCWV4cGVjdCh0b3RhbCkudG9CZSg1MDApOwoJfSk7Cn0pOwo=
+import { describe, expect, it } from "vitest";
+import { createHuman, type HumanPage } from "../src/human.js";
+
+function makePage() {
+	const events: [string, ...unknown[]][] = [];
+	const page: HumanPage = {
+		mouse: {
+			move: async (x, y) => void events.push(["move", x, y]),
+			down: async () => void events.push(["down"]),
+			up: async () => void events.push(["up"]),
+			wheel: async (_dx, dy) => void events.push(["wheel", dy]),
+		},
+		keyboard: {
+			type: async (text) => void events.push(["type", text]),
+			press: async (key) => void events.push(["press", key]),
+		},
+		locator: () => ({
+			scrollIntoViewIfNeeded: async () => {},
+			boundingBox: async () => ({ x: 400, y: 900, width: 200, height: 40 }),
+		}),
+		viewportSize: () => ({ width: 1280, height: 720 }),
+		evaluate: async () => 720,
+	};
+	return { page, events };
+}
+
+describe("Human", () => {
+	it("types the exact text even with typos enabled", async () => {
+		const { page, events } = makePage();
+		const human = createHuman(page, { speed: 20, typoRate: 0.2 });
+		await human.type(null, "Hello World");
+		const out: string[] = [];
+		for (const [name, value] of events) {
+			if (name === "type") out.push(value as string);
+			if (name === "press" && value === "Backspace") out.pop();
+		}
+		expect(out.join("")).toBe("Hello World");
+	});
+
+	it("clicks inside the element box", async () => {
+		const { page, events } = makePage();
+		const human = createHuman(page, { speed: 20 });
+		await human.click("#target");
+		const moves = events.filter((e) => e[0] === "move");
+		const [, x, y] = moves[moves.length - 1] as [string, number, number];
+		expect(x).toBeGreaterThanOrEqual(400);
+		expect(x).toBeLessThanOrEqual(600);
+		expect(y).toBeGreaterThanOrEqual(900);
+		expect(y).toBeLessThanOrEqual(940);
+		expect(events.some((e) => e[0] === "down")).toBe(true);
+		expect(events.some((e) => e[0] === "up")).toBe(true);
+	});
+
+	it("scrolls the requested distance", async () => {
+		const { page, events } = makePage();
+		const human = createHuman(page, { speed: 20 });
+		await human.scroll(500);
+		const total = events
+			.filter((e) => e[0] === "wheel")
+			.reduce((sum, e) => sum + (e[1] as number), 0);
+		expect(total).toBe(500);
+	});
+});

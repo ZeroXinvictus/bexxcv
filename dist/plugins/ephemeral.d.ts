@@ -1,1 +1,28 @@
-aW1wb3J0IHR5cGUgeyBCcm93c2VyLCBCcm93c2VyQ29udGV4dCwgUGFnZSB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB0eXBlIHsgQmV4eGN2UGx1Z2luIH0gZnJvbSAiLi90eXBlcy5qcyI7Ci8qKgogKiBFeHRyYWN0cyBhbmQgcmVwbGF5cyBUdXJuc3RpbGUgRXBoZW1lcmFsIElEcy4KICoKICogQ2xvdWRmbGFyZSdzIFR1cm5zdGlsZSBhc3NpZ25zIGFuIGVwaGVtZXJhbF9pZCBwZXIgc2Vzc2lvbiB0aGF0IGlzIHNlbnQgYmFjawogKiBpbiB0aGUgdG9rZW4gcGF5bG9hZC4gV2hlbiB0aGUgc2FtZSB3aWRnZXQgaXMgc29sdmVkIGFnYWluIChlLmcuIGFmdGVyIGEKICogbmF2aWdhdGlvbiksIENsb3VkZmxhcmUgY3Jvc3MtcmVmZXJlbmNlcyB0aGlzIGlkIGFnYWluc3QgdGhlIHByZXZpb3VzIHNvbHZlLgogKiBTdG9yaW5nIGFuZCByZXBsYXlpbmcgaXQgcmVkdWNlcyB0aGUgY2hhbmNlIG9mIGEgZnJlc2ggaW50ZXJhY3RpdmUgY2hhbGxlbmdlLgogKi8KZXhwb3J0IGludGVyZmFjZSBFcGhlbWVyYWxPcHRpb25zIHsKICAgIC8qKiBNYXggYWdlIG9mIGEgc3RvcmVkIGVwaGVtZXJhbCBlbnRyeSBiZWZvcmUgaXQgaXMgY29uc2lkZXJlZCBzdGFsZSAobXMpLiBEZWZhdWx0IDEwIG1pbi4gKi8KICAgIG1heEFnZU1zPzogbnVtYmVyOwogICAgLyoqIElmIHRydWUsIHJlcGxheSB0aGUgZXBoZW1lcmFsX2lkIGV2ZW4gaWYgbm8gbmV3IHR1cm5zdGlsZSB3aWRnZXQgYXBwZWFycyBvbiBuZXh0IHBhZ2UuICovCiAgICBhdXRvUmVwbGF5PzogYm9vbGVhbjsKfQppbnRlcmZhY2UgRXBoZW1lcmFsRW50cnkgewogICAgd2lkZ2V0S2V5OiBzdHJpbmc7CiAgICBlcGhlbWVyYWxJZDogc3RyaW5nOwogICAgZXhwaXJlc0F0OiBudW1iZXI7Cn0KZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gZXBoZW1lcmFsKG9wdGlvbnM/OiBFcGhlbWVyYWxPcHRpb25zKTogQmV4eGN2UGx1Z2luOwovKiogUmV0cmlldmUgc3RvcmVkIGVwaGVtZXJhbCBlbnRyaWVzIGZvciBhIGNvbnRleHQuICovCmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGdldEVwaGVtZXJhbEVudHJpZXMoY29udGV4dDogQnJvd3NlckNvbnRleHQpOiBFcGhlbWVyYWxFbnRyeVtdOwovKiogSW5qZWN0IGEgc3RvcmVkIGVwaGVtZXJhbF9pZCBiYWNrIGludG8gYSBoaWRkZW4gaW5wdXQgb24gdGhlIHRhcmdldCBwYWdlLiAqLwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiByZXBsYXlFcGhlbWVyYWwocGFnZTogUGFnZSwgZXBoZW1lcmFsSWQ6IHN0cmluZyk6IFByb21pc2U8Ym9vbGVhbj47CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIGF0dGFjaEVwaGVtZXJhbDxUIGV4dGVuZHMgQnJvd3NlciB8IEJyb3dzZXJDb250ZXh0Pih0YXJnZXQ6IFQsIG9wdGlvbnM/OiBFcGhlbWVyYWxPcHRpb25zKTogVDsKZXhwb3J0IHt9Owo=
+import type { Browser, BrowserContext, Page } from "playwright-core";
+import type { BexxcvPlugin } from "./types.js";
+/**
+ * Extracts and replays Turnstile Ephemeral IDs.
+ *
+ * Cloudflare's Turnstile assigns an ephemeral_id per session that is sent back
+ * in the token payload. When the same widget is solved again (e.g. after a
+ * navigation), Cloudflare cross-references this id against the previous solve.
+ * Storing and replaying it reduces the chance of a fresh interactive challenge.
+ */
+export interface EphemeralOptions {
+    /** Max age of a stored ephemeral entry before it is considered stale (ms). Default 10 min. */
+    maxAgeMs?: number;
+    /** If true, replay the ephemeral_id even if no new turnstile widget appears on next page. */
+    autoReplay?: boolean;
+}
+interface EphemeralEntry {
+    widgetKey: string;
+    ephemeralId: string;
+    expiresAt: number;
+}
+export declare function ephemeral(options?: EphemeralOptions): BexxcvPlugin;
+/** Retrieve stored ephemeral entries for a context. */
+export declare function getEphemeralEntries(context: BrowserContext): EphemeralEntry[];
+/** Inject a stored ephemeral_id back into a hidden input on the target page. */
+export declare function replayEphemeral(page: Page, ephemeralId: string): Promise<boolean>;
+export declare function attachEphemeral<T extends Browser | BrowserContext>(target: T, options?: EphemeralOptions): T;
+export {};

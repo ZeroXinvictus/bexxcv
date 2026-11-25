@@ -1,1 +1,174 @@
-aW1wb3J0IHR5cGUgeyBQYWdlIH0gZnJvbSAicGxheXdyaWdodC1jb3JlIjsKaW1wb3J0IHsgb25FYWNoUGFnZSB9IGZyb20gIi4uL3BhZ2Vob29rcy5qcyI7CmltcG9ydCB7IHNsZWVwIH0gZnJvbSAiLi4vcmFuZG9tLmpzIjsKaW1wb3J0IHR5cGUgeyBCZXh4Y3ZQbHVnaW4gfSBmcm9tICIuL3R5cGVzLmpzIjsKCi8qKgogKiBIYW5kbGVzIENsb3VkZmxhcmUgSmF2YVNjcmlwdCBEZXRlY3Rpb24gKEpTRCkgY2hhbGxlbmdlcy4KICoKICogV2hlbiBKUyBEZXRlY3Rpb25zIGlzIGVuYWJsZWQsIENsb3VkZmxhcmUgaW5qZWN0cyBhIHNjcmlwdCB0aGF0IGNhbGxzCiAqIGB3aW5kb3cuY2xvdWRmbGFyZS5qc2QuZXhlY3V0ZU9uY2UoeyBjYWxsYmFjayhyZXN1bHQpIHt9IH0pYC4gVGhlIHJlc3VsdAogKiBtdXN0IGJlIGAic3VjY2VzcyJgIGZvciB0aGUgY2hhbGxlbmdlIHRvIHBhc3MuIFRoaXMgcGx1Z2luOgogKiAgIDEuIEluamVjdHMgYSBzYWZlIHdyYXBwZXIgdmlhIGFkZEluaXRTY3JpcHQgYmVmb3JlIGFueSBwYWdlIGxvYWQKICogICAyLiBQb2xscyBmb3IgdGhlIEpTRCBjYWxsYmFjayB0byBmaXJlCiAqICAgMy4gV2FpdHMgdW50aWwgY2ZfY2xlYXJhbmNlIGFwcGVhcnMgKEpTRCBjb21wbGV0aW9uIHNpZ25hbCkKICovCgpleHBvcnQgaW50ZXJmYWNlIEpzZE9wdGlvbnMgewoJLyoqIFRpbWVvdXQgZm9yIHdhaXRpbmcgZm9yIEpTRCBjb21wbGV0aW9uIGFmdGVyIG5hdmlnYXRpb24gKG1zKS4gRGVmYXVsdCAxNSBzLiAqLwoJdGltZW91dD86IG51bWJlcjsKCS8qKiBQb2xsIGludGVydmFsIHdoaWxlIHdhaXRpbmcgZm9yIHRoZSBKU0QgcmVzdWx0IChtcykuIERlZmF1bHQgNTAwLiAqLwoJaW50ZXJ2YWw/OiBudW1iZXI7Cn0KCmNvbnN0IEpTRF9SRUFEWSA9IG5ldyBXZWFrU2V0PFBhZ2U+KCk7CmNvbnN0IFdBVENIRUQgPSBuZXcgV2Vha1NldDxvYmplY3Q+KCk7Cgphc3luYyBmdW5jdGlvbiBpc0pzZFBhZ2UocGFnZTogUGFnZSk6IFByb21pc2U8Ym9vbGVhbj4gewoJdHJ5IHsKCQljb25zdCB0aXRsZSA9IChhd2FpdCBwYWdlLnRpdGxlKCkuY2F0Y2goKCkgPT4gIiIpKS50b0xvd2VyQ2FzZSgpOwoJCWlmICh0aXRsZS5pbmNsdWRlcygianVzdCBhIG1vbWVudCIpIHx8IHRpdGxlLmluY2x1ZGVzKCJhdHRlbnRpb24gcmVxdWlyZWQiKSkgewoJCQlyZXR1cm4gdHJ1ZTsKCQl9CgkJY29uc3QgaGFzSnNkID0gYXdhaXQgcGFnZS5ldmFsdWF0ZSgoKSA9PiB7CgkJCXRyeSB7CgkJCQljb25zdCB3ID0gd2luZG93IGFzIHVua25vd24gYXMgeyBjbG91ZGZsYXJlPzogeyBqc2Q/OiB1bmtub3duIH0gfTsKCQkJCXJldHVybiB0eXBlb2Ygd2luZG93ICE9PSAidW5kZWZpbmVkIiAmJiAhIXc/LmNsb3VkZmxhcmU/LmpzZDsKCQkJfSBjYXRjaCB7CgkJCQlyZXR1cm4gZmFsc2U7CgkJCX0KCQl9KS5jYXRjaCgoKSA9PiBmYWxzZSk7CgkJcmV0dXJuIGhhc0pzZDsKCX0gY2F0Y2ggewoJCXJldHVybiBmYWxzZTsKCX0KfQoKYXN5bmMgZnVuY3Rpb24gd2FpdEZvckpzZENvbXBsZXRpb24oCglwYWdlOiBQYWdlLAoJb3B0aW9uczogSnNkT3B0aW9ucywKKTogUHJvbWlzZTx7IHBhc3NlZDogYm9vbGVhbiB9PiB7Cgljb25zdCB0aW1lb3V0ID0gb3B0aW9ucy50aW1lb3V0ID8/IDE1XzAwMDsKCWNvbnN0IGludGVydmFsID0gb3B0aW9ucy5pbnRlcnZhbCA/PyA1MDA7Cgljb25zdCBzdGFydCA9IERhdGUubm93KCk7CgoJd2hpbGUgKERhdGUubm93KCkgLSBzdGFydCA8IHRpbWVvdXQgJiYgIXBhZ2UuaXNDbG9zZWQoKSkgewoJCXRyeSB7CgkJCWNvbnN0IHBhc3NlZCA9IGF3YWl0IHBhZ2UuZXZhbHVhdGUoKCkgPT4gewoJCQkJdHJ5IHsKCQkJCQljb25zdCB3ID0gd2luZG93IGFzIHVua25vd24gYXMgeyBjbG91ZGZsYXJlPzogeyBqc2Q/OiB7IHN0YXRlPzogc3RyaW5nIH0gfSB9OwoJCQkJCWlmICghdz8uY2xvdWRmbGFyZT8uanNkPy5zdGF0ZSkgcmV0dXJuIG51bGw7CgkJCQkJcmV0dXJuIHcuY2xvdWRmbGFyZS5qc2Quc3RhdGUgPT09ICJwYXNzZWQiID8gdHJ1ZSA6IG51bGw7CgkJCQl9IGNhdGNoIHsKCQkJCQlyZXR1cm4gbnVsbDsKCQkJCX0KCQkJfSkuY2F0Y2goKCkgPT4gbnVsbCk7CgoJCQlpZiAocGFzc2VkID09PSB0cnVlKSB7CgkJCQlyZXR1cm4geyBwYXNzZWQ6IHRydWUgfTsKCQkJfQoKCQkJLy8gQWxzbyBjaGVjayBpZiBjZl9jbGVhcmFuY2UgYXBwZWFyZWQgKGluZGljYXRlcyBKU0QgY29tcGxldGVkIGV4dGVybmFsbHkpCgkJCWNvbnN0IGNvb2tpZXMgPSBhd2FpdCBwYWdlLmNvbnRleHQoKS5jb29raWVzKHBhZ2UudXJsKCkpLmNhdGNoKCgpID0+IFtdKTsKCQkJaWYgKGNvb2tpZXMuc29tZSgoYzogeyBuYW1lOiBzdHJpbmcgfSkgPT4gYy5uYW1lID09PSAiY2ZfY2xlYXJhbmNlIikpIHsKCQkJCXJldHVybiB7IHBhc3NlZDogdHJ1ZSB9OwoJCQl9CgkJfSBjYXRjaCB7CgkJCS8vIGlnbm9yZSBldmFsdWF0aW9uIGVycm9ycwoJCX0KCgkJYXdhaXQgc2xlZXAoaW50ZXJ2YWwpOwoJfQoKCXJldHVybiB7IHBhc3NlZDogZmFsc2UgfTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGpzZChvcHRpb25zOiBKc2RPcHRpb25zID0ge30pOiBCZXh4Y3ZQbHVnaW4gewoJY29uc3QgdGltZW91dCA9IG9wdGlvbnMudGltZW91dCA/PyAxNV8wMDA7Cgljb25zdCBpbnRlcnZhbCA9IG9wdGlvbnMuaW50ZXJ2YWwgPz8gNTAwOwoKCXJldHVybiB7CgkJbmFtZTogImpzZCIsCgkJb3JkZXI6IDQzLAoJCW9uUGFnZShwYWdlKSB7CgkJCWlmIChXQVRDSEVELmhhcyhwYWdlKSkgcmV0dXJuOwoJCQlXQVRDSEVELmFkZChwYWdlKTsKCgkJCS8vIEluamVjdCBhIGZhbGxiYWNrIGNsb3VkZmxhcmUuanNkIG5hbWVzcGFjZSBzbyBwYWdlIEpTIGRvZXNuJ3QgY3Jhc2gKCQkJdm9pZCBwYWdlLmFkZEluaXRTY3JpcHQoKCkgPT4gewoJCQkJaWYgKHR5cGVvZiB3aW5kb3cgPT09ICJ1bmRlZmluZWQiKSByZXR1cm47CgkJCQljb25zdCB3ID0gd2luZG93IGFzIHVua25vd24gYXMgUmVjb3JkPHN0cmluZywgdW5rbm93bj47CgkJCQlpZiAoIXcuY2xvdWRmbGFyZSkgdy5jbG91ZGZsYXJlID0ge307CgkJCQljb25zdCBjZiA9IHcuY2xvdWRmbGFyZSBhcyBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjsKCQkJCWlmICghY2YuanNkKSB7CgkJCQkJY2YuanNkID0gewoJCQkJCQlzdGF0ZTogInBlbmRpbmciLAoJCQkJCQlleGVjdXRlT25jZShfb3B0czogeyBjYWxsYmFjaz86IChyOiBzdHJpbmcpID0+IHZvaWQgfSA9IHt9KSB7fSwKCQkJCQl9OwoJCQkJfQoJCQkJY29uc3QgX2pzZCA9IGNmLmpzZCBhcyB7IGV4ZWN1dGVPbmNlPzogKC4uLmE6IHVua25vd25bXSkgPT4gdW5rbm93biB9IHwgdW5kZWZpbmVkOwoJCQkJX2pzZCAmJgoJCQkJCU9iamVjdC5hc3NpZ24oY2YuanNkIGFzIG9iamVjdCwgewoJCQkJCQlleGVjdXRlT25jZTogZnVuY3Rpb24gKAoJCQkJCQkJb3B0czogeyBjYWxsYmFjaz86IChyOiBzdHJpbmcpID0+IHZvaWQgfSA9IHt9LAoJCQkJCQkpIHsKCQkJCQkJCWlmIChvcHRzLmNhbGxiYWNrKSB7CgkJCQkJCQkJc2V0VGltZW91dCgoKSA9PiBvcHRzLmNhbGxiYWNrISgic3VjY2VzcyIpLCAwKTsKCQkJCQkJCX0KCQkJCQkJCXJldHVybiB7IHRoZW46IChjYjogKHY6IHVua25vd24pID0+IHZvaWQpID0+IHNldFRpbWVvdXQoY2IsIDApIH07CgkJCQkJCX0sCgkJCQkJfSk7CgkJCX0pOwoKCQkJY29uc3Qgb3JpZ2luYWxHb3RvID0gcGFnZS5nb3RvLmJpbmQocGFnZSk7CgkJCXBhZ2UuZ290byA9IChhc3luYyAoLi4uYXJnczogUGFyYW1ldGVyczxQYWdlWyJnb3RvIl0+KSA9PiB7CgkJCQlKU0RfUkVBRFkuZGVsZXRlKHBhZ2UpOwoJCQkJY29uc3QgcmVzcG9uc2UgPSBhd2FpdCBvcmlnaW5hbEdvdG8oLi4uYXJncyk7CgoJCQkJLy8gSWYgd2UgbGFuZGVkIG9uIGEgSlNEIHBhZ2UsIHdhaXQgZm9yIGl0IHRvIGNvbXBsZXRlCgkJCQljb25zdCBjaGFsbGVuZ2luZyA9IGF3YWl0IGlzSnNkUGFnZShwYWdlKS5jYXRjaCgoKSA9PiBmYWxzZSk7CgkJCQlpZiAoY2hhbGxlbmdpbmcpIHsKCQkJCQljb25zdCByZXN1bHQgPSBhd2FpdCB3YWl0Rm9ySnNkQ29tcGxldGlvbihwYWdlLCB7IHRpbWVvdXQsIGludGVydmFsIH0pLmNhdGNoKAoJCQkJCQkoKSA9PiAoeyBwYXNzZWQ6IGZhbHNlIH0pLAoJCQkJCSk7CgkJCQkJaWYgKHJlc3VsdC5wYXNzZWQpIHsKCQkJCQkJSlNEX1JFQURZLmFkZChwYWdlKTsKCQkJCQl9IGVsc2UgewoJCQkJCQljb25zb2xlLndhcm4oYFtiZXh4Y3ZdIGpzZDogY2hhbGxlbmdlIGRpZCBub3QgY29tcGxldGUgd2l0aGluICR7dGltZW91dH1tc2ApOwoJCQkJCX0KCQkJCX0KCgkJCQlyZXR1cm4gcmVzcG9uc2U7CgkJCX0pIGFzIFBhZ2VbImdvdG8iXTsKCQl9LAoJfTsKfQoKLyoqIENoZWNrIHdoZXRoZXIgdGhlIGN1cnJlbnQgcGFnZSBoYXMgcGFzc2VkIGl0cyBKU0QgY2hhbGxlbmdlLiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gaXNKc2RQYXNzZWQocGFnZTogUGFnZSk6IFByb21pc2U8Ym9vbGVhbj4gewoJaWYgKEpTRF9SRUFEWS5oYXMocGFnZSkpIHJldHVybiB0cnVlOwoJY29uc3QgcGFzc2VkID0gYXdhaXQgcGFnZS5ldmFsdWF0ZSgoKSA9PiB7CgkJdHJ5IHsKCQkJY29uc3QgdyA9IHdpbmRvdyBhcyB1bmtub3duIGFzIHsgY2xvdWRmbGFyZT86IHsganNkPzogeyBzdGF0ZT86IHN0cmluZyB9IH0gfTsKCQkJcmV0dXJuIHc/LmNsb3VkZmxhcmU/LmpzZD8uc3RhdGUgPT09ICJwYXNzZWQiOwoJCX0gY2F0Y2ggewoJCQlyZXR1cm4gZmFsc2U7CgkJfQoJfSkuY2F0Y2goKCkgPT4gZmFsc2UpOwoJaWYgKHBhc3NlZCkgSlNEX1JFQURZLmFkZChwYWdlKTsKCXJldHVybiBwYXNzZWQ7Cn0KCi8qKiBBdHRhY2ggSlNEIGhhbmRsaW5nIHRvIGFuIGV4aXN0aW5nIGJyb3dzZXIgb3IgY29udGV4dC4gKi8KZXhwb3J0IGZ1bmN0aW9uIGF0dGFjaEpzZDxUIGV4dGVuZHMgaW1wb3J0KCJwbGF5d3JpZ2h0LWNvcmUiKS5Ccm93c2VyIHwgaW1wb3J0KCJwbGF5d3JpZ2h0LWNvcmUiKS5Ccm93c2VyQ29udGV4dD4oCgl0YXJnZXQ6IFQsCglfb3B0aW9uczogSnNkT3B0aW9ucyA9IHt9LAopOiBUIHsKCXZvaWQganNkKF9vcHRpb25zKTsKCXJldHVybiB0YXJnZXQ7Cn0K
+import type { Page } from "playwright-core";
+import { onEachPage } from "../pagehooks.js";
+import { sleep } from "../random.js";
+import type { BexxcvPlugin } from "./types.js";
+
+/**
+ * Handles Cloudflare JavaScript Detection (JSD) challenges.
+ *
+ * When JS Detections is enabled, Cloudflare injects a script that calls
+ * `window.cloudflare.jsd.executeOnce({ callback(result) {} })`. The result
+ * must be `"success"` for the challenge to pass. This plugin:
+ *   1. Injects a safe wrapper via addInitScript before any page load
+ *   2. Polls for the JSD callback to fire
+ *   3. Waits until cf_clearance appears (JSD completion signal)
+ */
+
+export interface JsdOptions {
+	/** Timeout for waiting for JSD completion after navigation (ms). Default 15 s. */
+	timeout?: number;
+	/** Poll interval while waiting for the JSD result (ms). Default 500. */
+	interval?: number;
+}
+
+const JSD_READY = new WeakSet<Page>();
+const WATCHED = new WeakSet<object>();
+
+async function isJsdPage(page: Page): Promise<boolean> {
+	try {
+		const title = (await page.title().catch(() => "")).toLowerCase();
+		if (title.includes("just a moment") || title.includes("attention required")) {
+			return true;
+		}
+		const hasJsd = await page.evaluate(() => {
+			try {
+				const w = window as unknown as { cloudflare?: { jsd?: { executeOnce?: (...a: unknown[]) => unknown; state?: string; _bexxcv?: boolean } } };
+				if (!w?.cloudflare?.jsd) return false;
+				// If it's our fallback (bexxcv), not a real CF challenge
+				if (w.cloudflare.jsd._bexxcv) return false;
+				// Real CF JSD has state "pending" or a registered executeOnce
+				return w.cloudflare.jsd.state === "pending" || typeof w.cloudflare.jsd.executeOnce === "function";
+			} catch {
+				return false;
+			}
+		}).catch(() => false);
+		return hasJsd;
+	} catch {
+		return false;
+	}
+}
+
+async function waitForJsdCompletion(
+	page: Page,
+	options: JsdOptions,
+): Promise<{ passed: boolean }> {
+	const timeout = options.timeout ?? 15_000;
+	const interval = options.interval ?? 500;
+	const start = Date.now();
+
+	while (Date.now() - start < timeout && !page.isClosed()) {
+		try {
+			const passed = await page.evaluate(() => {
+				try {
+					const w = window as unknown as { cloudflare?: { jsd?: { state?: string } } };
+					if (!w?.cloudflare?.jsd?.state) return null;
+					return w.cloudflare.jsd.state === "passed" ? true : null;
+				} catch {
+					return null;
+				}
+			}).catch(() => null);
+
+			if (passed === true) {
+				return { passed: true };
+			}
+
+			// Also check if cf_clearance appeared (indicates JSD completed externally)
+			const cookies = await page.context().cookies(page.url()).catch(() => []);
+			if (cookies.some((c: { name: string }) => c.name === "cf_clearance")) {
+				return { passed: true };
+			}
+		} catch {
+			// ignore evaluation errors
+		}
+
+		await sleep(interval);
+	}
+
+	return { passed: false };
+}
+
+export function jsd(options: JsdOptions = {}): BexxcvPlugin {
+	const timeout = options.timeout ?? 15_000;
+	const interval = options.interval ?? 500;
+
+	return {
+		name: "jsd",
+		order: 43,
+		onPage(page) {
+			if (WATCHED.has(page)) return;
+			WATCHED.add(page);
+
+			// Inject a fallback cloudflare.jsd namespace so page JS doesn't crash
+			void page.addInitScript(() => {
+				if (typeof window === "undefined") return;
+				const w = window as unknown as Record<string, unknown>;
+				if (!w.cloudflare) w.cloudflare = {};
+				const cf = w.cloudflare as Record<string, unknown>;
+				if (!cf.jsd) {
+					cf.jsd = {
+						state: "pending",
+						executeOnce(_opts: { callback?: (r: string) => void } = {}) {},
+					_bexxcv: true,
+};
+				}
+				const _jsd = cf.jsd as { executeOnce?: (...a: unknown[]) => unknown } | undefined;
+				_jsd &&
+					Object.assign(cf.jsd as object, {
+						executeOnce: function (
+							opts: { callback?: (r: string) => void } = {},
+						) {
+							if (opts.callback) {
+								setTimeout(() => opts.callback!("success"), 0);
+							}
+							return { then: (cb: (v: unknown) => void) => setTimeout(cb, 0) };
+						},
+					});
+			});
+
+			const originalGoto = page.goto.bind(page);
+			page.goto = (async (...args: Parameters<Page["goto"]>) => {
+				JSD_READY.delete(page);
+				const response = await originalGoto(...args);
+
+				// If we landed on a JSD page, wait for it to complete
+				const challenging = await isJsdPage(page).catch(() => false);
+				if (challenging) {
+					const result = await waitForJsdCompletion(page, { timeout, interval }).catch(
+						() => ({ passed: false }),
+					);
+					if (result.passed) {
+						JSD_READY.add(page);
+					} else {
+						console.warn(`[bexxcv] jsd: challenge did not complete within ${timeout}ms`);
+					}
+				}
+
+				return response;
+			}) as Page["goto"];
+		},
+	};
+}
+
+/** Check whether the current page has passed its JSD challenge. */
+export async function isJsdPassed(page: Page): Promise<boolean> {
+	if (JSD_READY.has(page)) return true;
+	const passed = await page.evaluate(() => {
+		try {
+			const w = window as unknown as { cloudflare?: { jsd?: { state?: string } } };
+			return w?.cloudflare?.jsd?.state === "passed";
+		} catch {
+			return false;
+		}
+	}).catch(() => false);
+	if (passed) JSD_READY.add(page);
+	return passed;
+}
+
+/** Attach JSD handling to an existing browser or context. */
+export function attachJsd<T extends import("playwright-core").Browser | import("playwright-core").BrowserContext>(
+	target: T,
+	_options: JsdOptions = {},
+): T {
+	void jsd(_options);
+	return target;
+}

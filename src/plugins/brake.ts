@@ -1,1 +1,118 @@
-aW1wb3J0IHR5cGUgeyBQYWdlLCBSZXNwb25zZSB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB7IHNsZWVwIH0gZnJvbSAiLi4vcmFuZG9tLmpzIjsKaW1wb3J0IHR5cGUgeyBCZXh4Y3ZQbHVnaW4gfSBmcm9tICIuL3R5cGVzLmpzIjsKCmV4cG9ydCBpbnRlcmZhY2UgQnJha2VPcHRpb25zIHsKCW1heFJwcz86IG51bWJlcjsKCXJlc3BlY3RSZXRyeUFmdGVyPzogYm9vbGVhbjsKCXBlckhvc3Q/OiBib29sZWFuOwoJbWF4QmFja29mZj86IG51bWJlcjsKCS8qKiBFbmFibGUgZGV0ZWN0aW9uIG9mIENsb3VkZmxhcmUgNDAzcyBhbmQgYmFjayBvZmYgYWNjb3JkaW5nbHkuIERlZmF1bHQgdHJ1ZS4gKi8KCXJlc3BlY3RDZjQwMz86IGJvb2xlYW47Cn0KCmNvbnN0IFdSQVBQRUQgPSBuZXcgV2Vha1NldDxQYWdlPigpOwoKZnVuY3Rpb24gaG9zdE9mKHVybDogc3RyaW5nLCBwZXJIb3N0OiBib29sZWFuKTogc3RyaW5nIHsKCWlmICghcGVySG9zdCkgcmV0dXJuICIqIjsKCXRyeSB7CgkJcmV0dXJuIG5ldyBVUkwodXJsKS5ob3N0OwoJfSBjYXRjaCB7CgkJcmV0dXJuICIqIjsKCX0KfQoKZnVuY3Rpb24gcGFyc2VSZXRyeUFmdGVyKHZhbHVlOiBzdHJpbmcgfCB1bmRlZmluZWQpOiBudW1iZXIgfCBudWxsIHsKCWlmICghdmFsdWUpIHJldHVybiBudWxsOwoJY29uc3Qgc2Vjb25kcyA9IE51bWJlcih2YWx1ZSk7CglpZiAoTnVtYmVyLmlzRmluaXRlKHNlY29uZHMpKSByZXR1cm4gTWF0aC5tYXgoMCwgc2Vjb25kcyAqIDEwMDApOwoJY29uc3QgZGF0ZSA9IERhdGUucGFyc2UodmFsdWUpOwoJcmV0dXJuIE51bWJlci5pc05hTihkYXRlKSA/IG51bGwgOiBNYXRoLm1heCgwLCBkYXRlIC0gRGF0ZS5ub3coKSk7Cn0KCi8qKiBDb3VudCBjb25zZWN1dGl2ZSA0MDNzIHBlciBob3N0IOKAlCB1c2VmdWwgZm9yIGRldGVjdGluZyByZXBlYXRlZCBDRiBibG9ja3MuICovCmNvbnN0IENPTlNFQ1VUSVZFXzQwMyA9IG5ldyBNYXA8c3RyaW5nLCBudW1iZXI+KCk7CgpleHBvcnQgZnVuY3Rpb24gYnJha2Uob3B0aW9uczogQnJha2VPcHRpb25zID0ge30pOiBCZXh4Y3ZQbHVnaW4gewoJY29uc3QgaW50ZXJ2YWwgPSAxMDAwIC8gKG9wdGlvbnMubWF4UnBzID8/IDIpOwoJY29uc3QgcmVzcGVjdCA9IG9wdGlvbnMucmVzcGVjdFJldHJ5QWZ0ZXIgPz8gdHJ1ZTsKCWNvbnN0IHBlckhvc3QgPSBvcHRpb25zLnBlckhvc3QgPz8gdHJ1ZTsKCWNvbnN0IG1heEJhY2tvZmYgPSBvcHRpb25zLm1heEJhY2tvZmYgPz8gMTIwXzAwMDsKCWNvbnN0IHJlc3BlY3RDZjQwMyA9IG9wdGlvbnMucmVzcGVjdENmNDAzID8/IHRydWU7Cgljb25zdCBuZXh0U2xvdCA9IG5ldyBNYXA8c3RyaW5nLCBudW1iZXI+KCk7Cgljb25zdCBibG9ja2VkVW50aWwgPSBuZXcgTWFwPHN0cmluZywgbnVtYmVyPigpOwoJY29uc3QgYmFja29mZiA9IG5ldyBNYXA8c3RyaW5nLCBudW1iZXI+KCk7CgoJY29uc3QgdGFrZSA9IGFzeW5jIChob3N0OiBzdHJpbmcpID0+IHsKCQljb25zdCBibG9ja2VkID0gKGJsb2NrZWRVbnRpbC5nZXQoaG9zdCkgPz8gMCkgLSBEYXRlLm5vdygpOwoJCWlmIChibG9ja2VkID4gMCkgYXdhaXQgc2xlZXAoYmxvY2tlZCk7CgkJY29uc3QgYXQgPSBNYXRoLm1heChEYXRlLm5vdygpLCBuZXh0U2xvdC5nZXQoaG9zdCkgPz8gMCk7CgkJbmV4dFNsb3Quc2V0KGhvc3QsIGF0ICsgaW50ZXJ2YWwpOwoJCWNvbnN0IHdhaXQgPSBhdCAtIERhdGUubm93KCk7CgkJaWYgKHdhaXQgPiAwKSBhd2FpdCBzbGVlcCh3YWl0KTsKCX07CgoJcmV0dXJuIHsKCQluYW1lOiAiYnJha2UiLAoJCW9yZGVyOiA5MCwKCQlvbkNvbnRleHQoY29udGV4dCkgewoJCQljb250ZXh0Lm9uKCJyZXNwb25zZSIsIChyZXNwb25zZTogUmVzcG9uc2UpID0+IHsKCQkJCWNvbnN0IHJlcXVlc3QgPSByZXNwb25zZS5yZXF1ZXN0KCk7CgkJCQlpZiAoIXJlcXVlc3QuaXNOYXZpZ2F0aW9uUmVxdWVzdCgpKSByZXR1cm47CgoJCQkJY29uc3QgaG9zdCA9IGhvc3RPZihyZXNwb25zZS51cmwoKSwgcGVySG9zdCk7CgkJCQljb25zdCBzdGF0dXMgPSByZXNwb25zZS5zdGF0dXMoKTsKCQkJCWNvbnN0IGhlYWRlcnMgPSByZXNwb25zZS5oZWFkZXJzKCk7CgoJCQkJLy8gUmF0ZSBsaW1pdDogNDI5IC8gNTAzCgkJCQlpZiAoc3RhdHVzID09PSA0MjkgfHwgc3RhdHVzID09PSA1MDMpIHsKCQkJCQljb25zdCBoZWFkZXIgPSByZXNwZWN0CgkJCQkJCT8gcGFyc2VSZXRyeUFmdGVyKGhlYWRlcnNbInJldHJ5LWFmdGVyIl0pCgkJCQkJCTogbnVsbDsKCQkJCQljb25zdCBuZXh0ID0gTWF0aC5taW4obWF4QmFja29mZiwgKGJhY2tvZmYuZ2V0KGhvc3QpID8/IDEwMDApICogMik7CgkJCQkJYmFja29mZi5zZXQoaG9zdCwgbmV4dCk7CgkJCQkJYmxvY2tlZFVudGlsLnNldChob3N0LCBEYXRlLm5vdygpICsgTWF0aC5taW4obWF4QmFja29mZiwgaGVhZGVyID8/IG5leHQpKTsKCQkJCQlDT05TRUNVVElWRV80MDMuZGVsZXRlKGhvc3QpOwoJCQkJCXJldHVybjsKCQkJCX0KCgkJCQkvLyBDbG91ZGZsYXJlIDQwMyB3aXRoIGNmLXJheSDihpIgbGlrZWx5IGEgYm90IGJsb2NrLCBhcHBseSBleHBvbmVudGlhbCBiYWNrb2ZmCgkJCQlpZiAocmVzcGVjdENmNDAzICYmIHN0YXR1cyA9PT0gNDAzICYmIGhlYWRlcnNbImNmLXJheSJdKSB7CgkJCQkJY29uc3QgcHJldiA9IENPTlNFQ1VUSVZFXzQwMy5nZXQoaG9zdCkgPz8gMDsKCQkJCQljb25zdCBjb3VudCA9IHByZXYgKyAxOwoJCQkJCUNPTlNFQ1VUSVZFXzQwMy5zZXQoaG9zdCwgY291bnQpOwoJCQkJCWlmIChjb3VudCA+PSAyKSB7CgkJCQkJCS8vIFNlY29uZCsgNDAzOiBsb25nZXIgYmFja29mZiwgbWF5IG5lZWQgZnJlc2ggY2xlYXJhbmNlCgkJCQkJCWNvbnN0IHBlbmFsdHkgPSBNYXRoLm1pbihtYXhCYWNrb2ZmLCA1XzAwMCAqIGNvdW50KTsKCQkJCQkJYmxvY2tlZFVudGlsLnNldChob3N0LCBEYXRlLm5vdygpICsgcGVuYWx0eSk7CgkJCQkJCWNvbnNvbGUud2FybigKCQkJCQkJCWBbYmV4eGN2XSBicmFrZTogQ2xvdWRmbGFyZSA0MDMgZGV0ZWN0ZWQgb24gJHtob3N0fSAoY29uc2VjdXRpdmU6ICR7Y291bnR9KS4gYCArCgkJCQkJCQkJYEJhY2tpbmcgb2ZmICR7cGVuYWx0eX1tcy4gQ29uc2lkZXIgcm90YXRpbmcgcHJveHkgb3IgY2xlYXJpbmcgY29va2llcy5gLAoJCQkJCQkpOwoJCQkJCX0KCQkJCQlyZXR1cm47CgkJCQl9CgoJCQkJLy8gU3VjY2Vzc2Z1bCByZXNwb25zZSBjbGVhcnMgY291bnRlcnMKCQkJCWlmIChzdGF0dXMgPCA0MDApIHsKCQkJCQliYWNrb2ZmLmRlbGV0ZShob3N0KTsKCQkJCQlDT05TRUNVVElWRV80MDMuZGVsZXRlKGhvc3QpOwoJCQkJfQoJCQl9KTsKCQl9LAoJCW9uUGFnZShwYWdlKSB7CgkJCWlmIChXUkFQUEVELmhhcyhwYWdlKSkgcmV0dXJuOwoJCQlXUkFQUEVELmFkZChwYWdlKTsKCQkJY29uc3Qgb3JpZ2luYWxHb3RvID0gcGFnZS5nb3RvLmJpbmQocGFnZSk7CgkJCXBhZ2UuZ290byA9IChhc3luYyAoLi4uYXJnczogUGFyYW1ldGVyczxQYWdlWyJnb3RvIl0+KSA9PiB7CgkJCQlhd2FpdCB0YWtlKGhvc3RPZihTdHJpbmcoYXJnc1swXSksIHBlckhvc3QpKTsKCQkJCXJldHVybiBvcmlnaW5hbEdvdG8oLi4uYXJncyk7CgkJCX0pIGFzIFBhZ2VbImdvdG8iXTsKCQl9LAoJfTsKfQoKLyoqIEdldCB0aGUgY3VycmVudCBjb25zZWN1dGl2ZS00MDMgY291bnRlciBmb3IgYSBob3N0LiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0Q29uc2VjdXRpdmU0MDMoaG9zdDogc3RyaW5nKTogbnVtYmVyIHsKCXJldHVybiBDT05TRUNVVElWRV80MDMuZ2V0KGhvc3QpID8/IDA7Cn0K
+import type { Page, Response } from "playwright-core";
+import { sleep } from "../random.js";
+import type { BexxcvPlugin } from "./types.js";
+
+export interface BrakeOptions {
+	maxRps?: number;
+	respectRetryAfter?: boolean;
+	perHost?: boolean;
+	maxBackoff?: number;
+	/** Enable detection of Cloudflare 403s and back off accordingly. Default true. */
+	respectCf403?: boolean;
+}
+
+const WRAPPED = new WeakSet<Page>();
+
+function hostOf(url: string, perHost: boolean): string {
+	if (!perHost) return "*";
+	try {
+		return new URL(url).host;
+	} catch {
+		return "*";
+	}
+}
+
+function parseRetryAfter(value: string | undefined): number | null {
+	if (!value) return null;
+	const seconds = Number(value);
+	if (Number.isFinite(seconds)) return Math.max(0, seconds * 1000);
+	const date = Date.parse(value);
+	return Number.isNaN(date) ? null : Math.max(0, date - Date.now());
+}
+
+/** Count consecutive 403s per host — useful for detecting repeated CF blocks. */
+const CONSECUTIVE_403 = new Map<string, number>();
+
+export function brake(options: BrakeOptions = {}): BexxcvPlugin {
+	const interval = 1000 / (options.maxRps ?? 2);
+	const respect = options.respectRetryAfter ?? true;
+	const perHost = options.perHost ?? true;
+	const maxBackoff = options.maxBackoff ?? 120_000;
+	const respectCf403 = options.respectCf403 ?? true;
+	const nextSlot = new Map<string, number>();
+	const blockedUntil = new Map<string, number>();
+	const backoff = new Map<string, number>();
+
+	const take = async (host: string) => {
+		const blocked = (blockedUntil.get(host) ?? 0) - Date.now();
+		if (blocked > 0) await sleep(blocked);
+		const at = Math.max(Date.now(), nextSlot.get(host) ?? 0);
+		nextSlot.set(host, at + interval);
+		const wait = at - Date.now();
+		if (wait > 0) await sleep(wait);
+	};
+
+	return {
+		name: "brake",
+		order: 90,
+		onContext(context) {
+			context.on("response", (response: Response) => {
+				const request = response.request();
+				if (!request.isNavigationRequest()) return;
+
+				const host = hostOf(response.url(), perHost);
+				const status = response.status();
+				const headers = response.headers();
+
+				// Rate limit: 429 / 503
+				if (status === 429 || status === 503) {
+					const header = respect
+						? parseRetryAfter(headers["retry-after"])
+						: null;
+					const next = Math.min(maxBackoff, (backoff.get(host) ?? 1000) * 2);
+					backoff.set(host, next);
+					blockedUntil.set(host, Date.now() + Math.min(maxBackoff, header ?? next));
+					CONSECUTIVE_403.delete(host);
+					return;
+				}
+
+				// Cloudflare 403 with cf-ray → likely a bot block, apply exponential backoff
+				if (respectCf403 && status === 403 && headers["cf-ray"]) {
+					const prev = CONSECUTIVE_403.get(host) ?? 0;
+					const count = prev + 1;
+					CONSECUTIVE_403.set(host, count);
+					if (count >= 2) {
+						// Second+ 403: longer backoff, may need fresh clearance
+						const penalty = Math.min(maxBackoff, 5_000 * count);
+						blockedUntil.set(host, Date.now() + penalty);
+						console.warn(
+							`[bexxcv] brake: Cloudflare 403 detected on ${host} (consecutive: ${count}). ` +
+								`Backing off ${penalty}ms. Consider rotating proxy or clearing cookies.`,
+						);
+					}
+					return;
+				}
+
+				// Successful response clears counters
+				if (status < 400) {
+					backoff.delete(host);
+					CONSECUTIVE_403.delete(host);
+				}
+			});
+		},
+		onPage(page) {
+			if (WRAPPED.has(page)) return;
+			WRAPPED.add(page);
+			const originalGoto = page.goto.bind(page);
+			page.goto = (async (...args: Parameters<Page["goto"]>) => {
+				await take(hostOf(String(args[0]), perHost));
+				return originalGoto(...args);
+			}) as Page["goto"];
+		},
+	};
+}
+
+/** Get the current consecutive-403 counter for a host. */
+export function getConsecutive403(host: string): number {
+	return CONSECUTIVE_403.get(host) ?? 0;
+}

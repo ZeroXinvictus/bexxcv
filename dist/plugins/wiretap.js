@@ -1,1 +1,128 @@
-aW1wb3J0ICogYXMgZnMgZnJvbSAibm9kZTpmcyI7CmltcG9ydCAqIGFzIHBhdGggZnJvbSAibm9kZTpwYXRoIjsKY29uc3QgU0VOU0lUSVZFID0gbmV3IFNldChbCiAgICAiY29va2llIiwKICAgICJzZXQtY29va2llIiwKICAgICJhdXRob3JpemF0aW9uIiwKICAgICJwcm94eS1hdXRob3JpemF0aW9uIiwKICAgICJ4LWFwaS1rZXkiLApdKTsKY29uc3QgU1RPUkVTID0gbmV3IFdlYWtNYXAoKTsKZXhwb3J0IGZ1bmN0aW9uIHdpcmV0YXBFbnRyaWVzKGNvbnRleHQpIHsKICAgIHJldHVybiBTVE9SRVMuZ2V0KGNvbnRleHQpID8/IFtdOwp9CmZ1bmN0aW9uIHNjcnViKGhlYWRlcnMsIHJlZGFjdCkgewogICAgaWYgKCFyZWRhY3QpCiAgICAgICAgcmV0dXJuIHsgLi4uaGVhZGVycyB9OwogICAgY29uc3Qgb3V0ID0ge307CiAgICBmb3IgKGNvbnN0IFtrZXksIHZhbHVlXSBvZiBPYmplY3QuZW50cmllcyhoZWFkZXJzKSkgewogICAgICAgIG91dFtrZXldID0gU0VOU0lUSVZFLmhhcyhrZXkudG9Mb3dlckNhc2UoKSkgPyAiW3JlZGFjdGVkXSIgOiB2YWx1ZTsKICAgIH0KICAgIHJldHVybiBvdXQ7Cn0KZnVuY3Rpb24gbWF0Y2hlcihwYXR0ZXJucykgewogICAgaWYgKCFwYXR0ZXJucyB8fCBwYXR0ZXJucy5sZW5ndGggPT09IDApCiAgICAgICAgcmV0dXJuICgpID0+IHRydWU7CiAgICBjb25zdCB0ZXN0cyA9IHBhdHRlcm5zLm1hcCgocGF0dGVybikgPT4gewogICAgICAgIGlmIChwYXR0ZXJuLnN0YXJ0c1dpdGgoInJlOiIpKSB7CiAgICAgICAgICAgIGNvbnN0IHJlID0gbmV3IFJlZ0V4cChwYXR0ZXJuLnNsaWNlKDMpKTsKICAgICAgICAgICAgcmV0dXJuICh1cmwpID0+IHJlLnRlc3QodXJsKTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuICh1cmwpID0+IHVybC5pbmNsdWRlcyhwYXR0ZXJuKTsKICAgIH0pOwogICAgcmV0dXJuICh1cmwpID0+IHRlc3RzLnNvbWUoKHRlc3QpID0+IHRlc3QodXJsKSk7Cn0KZnVuY3Rpb24gd2l0aFRpbWVvdXQocHJvbWlzZSwgbXMpIHsKICAgIHJldHVybiBuZXcgUHJvbWlzZSgocmVzb2x2ZSwgcmVqZWN0KSA9PiB7CiAgICAgICAgY29uc3QgdGltZXIgPSBzZXRUaW1lb3V0KCgpID0+IHJlamVjdChuZXcgRXJyb3IoInRpbWVvdXQiKSksIG1zKTsKICAgICAgICBwcm9taXNlLnRoZW4oKHZhbHVlKSA9PiB7CiAgICAgICAgICAgIGNsZWFyVGltZW91dCh0aW1lcik7CiAgICAgICAgICAgIHJlc29sdmUodmFsdWUpOwogICAgICAgIH0sIChlcnJvcikgPT4gewogICAgICAgICAgICBjbGVhclRpbWVvdXQodGltZXIpOwogICAgICAgICAgICByZWplY3QoZXJyb3IpOwogICAgICAgIH0pOwogICAgfSk7Cn0KZXhwb3J0IGZ1bmN0aW9uIHdpcmV0YXAoaW5wdXQgPSB7fSkgewogICAgY29uc3Qgb3B0aW9ucyA9IHR5cGVvZiBpbnB1dCA9PT0gInN0cmluZyIKICAgICAgICA/IHsgbWF0Y2g6IFtpbnB1dF0gfQogICAgICAgIDogQXJyYXkuaXNBcnJheShpbnB1dCkKICAgICAgICAgICAgPyB7IG1hdGNoOiBpbnB1dCB9CiAgICAgICAgICAgIDogaW5wdXQ7CiAgICBjb25zdCBtYXRjaCA9IG1hdGNoZXIob3B0aW9ucy5tYXRjaCk7CiAgICBjb25zdCBtZXRob2RzID0gbmV3IFNldCgob3B0aW9ucy5tZXRob2RzID8/IFtdKS5tYXAoKG0pID0+IG0udG9VcHBlckNhc2UoKSkpOwogICAgY29uc3QgcmVkYWN0ID0gb3B0aW9ucy5yZWRhY3QgPz8gdHJ1ZTsKICAgIGNvbnN0IGJvZGllcyA9IG9wdGlvbnMuYm9kaWVzID8/IHRydWU7CiAgICBjb25zdCBtYXhCeXRlcyA9IG9wdGlvbnMubWF4Qm9keUJ5dGVzID8/IDFfMDAwXzAwMDsKICAgIGNvbnN0IHN0cmVhbVRpbWVvdXQgPSBvcHRpb25zLnN0cmVhbVRpbWVvdXQgPz8gNjBfMDAwOwogICAgY29uc3QgcGVuZGluZyA9IG5ldyBTZXQoKTsKICAgIGNvbnN0IGNhcHR1cmUgPSBhc3luYyAocmVzcG9uc2UsIGxpc3QpID0+IHsKICAgICAgICBjb25zdCByZXF1ZXN0ID0gcmVzcG9uc2UucmVxdWVzdCgpOwogICAgICAgIGlmIChtZXRob2RzLnNpemUgPiAwICYmICFtZXRob2RzLmhhcyhyZXF1ZXN0Lm1ldGhvZCgpKSkKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIGNvbnN0IHVybCA9IHJlc3BvbnNlLnVybCgpOwogICAgICAgIGlmICghbWF0Y2godXJsKSkKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIGNvbnN0IHJlc3BvbnNlSGVhZGVycyA9IHJlc3BvbnNlLmhlYWRlcnMoKTsKICAgICAgICBjb25zdCBjb250ZW50VHlwZSA9IHJlc3BvbnNlSGVhZGVyc1siY29udGVudC10eXBlIl0gPz8gIiI7CiAgICAgICAgY29uc3QgZW50cnkgPSB7CiAgICAgICAgICAgIHRpbWU6IG5ldyBEYXRlKCkudG9JU09TdHJpbmcoKSwKICAgICAgICAgICAgbWV0aG9kOiByZXF1ZXN0Lm1ldGhvZCgpLAogICAgICAgICAgICB1cmwsCiAgICAgICAgICAgIHN0YXR1czogcmVzcG9uc2Uuc3RhdHVzKCksCiAgICAgICAgICAgIHJlcXVlc3RIZWFkZXJzOiBzY3J1YihyZXF1ZXN0LmhlYWRlcnMoKSwgcmVkYWN0KSwKICAgICAgICAgICAgcG9zdERhdGE6IHJlcXVlc3QucG9zdERhdGEoKSwKICAgICAgICAgICAgcmVzcG9uc2VIZWFkZXJzOiBzY3J1YihyZXNwb25zZUhlYWRlcnMsIHJlZGFjdCksCiAgICAgICAgICAgIGNvbnRlbnRUeXBlLAogICAgICAgICAgICBib2R5OiBudWxsLAogICAgICAgIH07CiAgICAgICAgaWYgKGJvZGllcykgewogICAgICAgICAgICBjb25zdCBzdHJlYW0gPSAvZXZlbnQtc3RyZWFtL2kudGVzdChjb250ZW50VHlwZSk7CiAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICBjb25zdCB0ZXh0ID0gYXdhaXQgd2l0aFRpbWVvdXQocmVzcG9uc2UudGV4dCgpLCBzdHJlYW0gPyBzdHJlYW1UaW1lb3V0IDogMTBfMDAwKTsKICAgICAgICAgICAgICAgIGlmIChCdWZmZXIuYnl0ZUxlbmd0aCh0ZXh0KSA+IG1heEJ5dGVzKSB7CiAgICAgICAgICAgICAgICAgICAgZW50cnkuYm9keSA9IHRleHQuc2xpY2UoMCwgbWF4Qnl0ZXMpOwogICAgICAgICAgICAgICAgICAgIGVudHJ5LmJvZHlOb3RlID0gInRydW5jYXRlZCI7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICBlbHNlIHsKICAgICAgICAgICAgICAgICAgICBlbnRyeS5ib2R5ID0gdGV4dDsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgICAgIGlmIChzdHJlYW0pIHsKICAgICAgICAgICAgICAgICAgICBlbnRyeS5ldmVudHMgPSB0ZXh0CiAgICAgICAgICAgICAgICAgICAgICAgIC5zcGxpdCgvXHI/XG5ccj9cbi8pCiAgICAgICAgICAgICAgICAgICAgICAgIC5tYXAoKGNodW5rKSA9PiBjaHVuay50cmltKCkpCiAgICAgICAgICAgICAgICAgICAgICAgIC5maWx0ZXIoQm9vbGVhbik7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggKGVycm9yKSB7CiAgICAgICAgICAgICAgICBlbnRyeS5ib2R5Tm90ZSA9IGVycm9yLm1lc3NhZ2U7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICAgICAgbGlzdC5wdXNoKGVudHJ5KTsKICAgIH07CiAgICBjb25zdCBzYXZlID0gYXN5bmMgKGNvbnRleHRzKSA9PiB7CiAgICAgICAgaWYgKCFvcHRpb25zLm91dCkKICAgICAgICAgICAgcmV0dXJuOwogICAgICAgIGF3YWl0IFByb21pc2UuYWxsU2V0dGxlZChbLi4ucGVuZGluZ10pOwogICAgICAgIGNvbnN0IGVudHJpZXMgPSBjb250ZXh0cy5mbGF0TWFwKChjb250ZXh0KSA9PiB3aXJldGFwRW50cmllcyhjb250ZXh0KSk7CiAgICAgICAgZW50cmllcy5zb3J0KChhLCBiKSA9PiBhLnRpbWUubG9jYWxlQ29tcGFyZShiLnRpbWUpKTsKICAgICAgICBmcy5ta2RpclN5bmMocGF0aC5kaXJuYW1lKHBhdGgucmVzb2x2ZShvcHRpb25zLm91dCkpLCB7IHJlY3Vyc2l2ZTogdHJ1ZSB9KTsKICAgICAgICBmcy53cml0ZUZpbGVTeW5jKG9wdGlvbnMub3V0LCBgJHtKU09OLnN0cmluZ2lmeSh7IGNhcHR1cmVkOiBlbnRyaWVzLmxlbmd0aCwgZW50cmllcyB9LCBudWxsLCAyKX1cbmAsIHsgbW9kZTogMG82MDAgfSk7CiAgICB9OwogICAgcmV0dXJuIHsKICAgICAgICBuYW1lOiAid2lyZXRhcCIsCiAgICAgICAgb3JkZXI6IDMwLAogICAgICAgIG9uQ29udGV4dChjb250ZXh0KSB7CiAgICAgICAgICAgIGNvbnN0IGxpc3QgPSBbXTsKICAgICAgICAgICAgU1RPUkVTLnNldChjb250ZXh0LCBsaXN0KTsKICAgICAgICAgICAgY29udGV4dC5vbigicmVzcG9uc2UiLCAocmVzcG9uc2UpID0+IHsKICAgICAgICAgICAgICAgIGNvbnN0IHRhc2sgPSBjYXB0dXJlKHJlc3BvbnNlLCBsaXN0KQogICAgICAgICAgICAgICAgICAgIC5jYXRjaCgoKSA9PiB1bmRlZmluZWQpCiAgICAgICAgICAgICAgICAgICAgLmZpbmFsbHkoKCkgPT4gcGVuZGluZy5kZWxldGUodGFzaykpOwogICAgICAgICAgICAgICAgcGVuZGluZy5hZGQodGFzayk7CiAgICAgICAgICAgIH0pOwogICAgICAgIH0sCiAgICAgICAgYmVmb3JlQ2xvc2U6IHNhdmUsCiAgICB9Owp9Cg==
+import * as fs from "node:fs";
+import * as path from "node:path";
+const SENSITIVE = new Set([
+    "cookie",
+    "set-cookie",
+    "authorization",
+    "proxy-authorization",
+    "x-api-key",
+]);
+const STORES = new WeakMap();
+export function wiretapEntries(context) {
+    return STORES.get(context) ?? [];
+}
+function scrub(headers, redact) {
+    if (!redact)
+        return { ...headers };
+    const out = {};
+    for (const [key, value] of Object.entries(headers)) {
+        out[key] = SENSITIVE.has(key.toLowerCase()) ? "[redacted]" : value;
+    }
+    return out;
+}
+function matcher(patterns) {
+    if (!patterns || patterns.length === 0)
+        return () => true;
+    const tests = patterns.map((pattern) => {
+        if (pattern.startsWith("re:")) {
+            const re = new RegExp(pattern.slice(3));
+            return (url) => re.test(url);
+        }
+        return (url) => url.includes(pattern);
+    });
+    return (url) => tests.some((test) => test(url));
+}
+function withTimeout(promise, ms) {
+    return new Promise((resolve, reject) => {
+        const timer = setTimeout(() => reject(new Error("timeout")), ms);
+        promise.then((value) => {
+            clearTimeout(timer);
+            resolve(value);
+        }, (error) => {
+            clearTimeout(timer);
+            reject(error);
+        });
+    });
+}
+export function wiretap(input = {}) {
+    const options = typeof input === "string"
+        ? { match: [input] }
+        : Array.isArray(input)
+            ? { match: input }
+            : input;
+    const match = matcher(options.match);
+    const methods = new Set((options.methods ?? []).map((m) => m.toUpperCase()));
+    const redact = options.redact ?? true;
+    const bodies = options.bodies ?? true;
+    const maxBytes = options.maxBodyBytes ?? 1_000_000;
+    const streamTimeout = options.streamTimeout ?? 60_000;
+    const pending = new Set();
+    const capture = async (response, list) => {
+        const request = response.request();
+        if (methods.size > 0 && !methods.has(request.method()))
+            return;
+        const url = response.url();
+        if (!match(url))
+            return;
+        const responseHeaders = response.headers();
+        const contentType = responseHeaders["content-type"] ?? "";
+        const entry = {
+            time: new Date().toISOString(),
+            method: request.method(),
+            url,
+            status: response.status(),
+            requestHeaders: scrub(request.headers(), redact),
+            postData: request.postData(),
+            responseHeaders: scrub(responseHeaders, redact),
+            contentType,
+            body: null,
+        };
+        if (bodies) {
+            const stream = /event-stream/i.test(contentType);
+            try {
+                const text = await withTimeout(response.text(), stream ? streamTimeout : 10_000);
+                if (Buffer.byteLength(text) > maxBytes) {
+                    entry.body = text.slice(0, maxBytes);
+                    entry.bodyNote = "truncated";
+                }
+                else {
+                    entry.body = text;
+                }
+                if (stream) {
+                    entry.events = text
+                        .split(/\r?\n\r?\n/)
+                        .map((chunk) => chunk.trim())
+                        .filter(Boolean);
+                }
+            }
+            catch (error) {
+                entry.bodyNote = error.message;
+            }
+        }
+        list.push(entry);
+    };
+    const save = async (contexts) => {
+        if (!options.out)
+            return;
+        await Promise.allSettled([...pending]);
+        const entries = contexts.flatMap((context) => wiretapEntries(context));
+        entries.sort((a, b) => a.time.localeCompare(b.time));
+        fs.mkdirSync(path.dirname(path.resolve(options.out)), { recursive: true });
+        fs.writeFileSync(options.out, `${JSON.stringify({ captured: entries.length, entries }, null, 2)}\n`, { mode: 0o600 });
+    };
+    return {
+        name: "wiretap",
+        order: 30,
+        onContext(context) {
+            const list = [];
+            STORES.set(context, list);
+            context.on("response", (response) => {
+                const task = capture(response, list)
+                    .catch(() => undefined)
+                    .finally(() => pending.delete(task));
+                pending.add(task);
+            });
+        },
+        beforeClose: save,
+    };
+}

@@ -1,1 +1,7 @@
-ewoJInRhZyI6ICJ2MTUyLjAuNC1iZXRhLjMwIiwKCSJyZXBvIjogImRhaWpyby9jYW1vdWZveCIsCgkicmVwb19uYW1lIjogIk9mZmljaWFsIiwKCSJ2ZXJzaW9uIjogIjE1Mi4wLjQiLAoJImJ1aWxkIjogImJldGEuMzAiCn0K
+{
+	"tag": "v152.0.4-beta.30",
+	"repo": "daijro/camoufox",
+	"repo_name": "Official",
+	"version": "152.0.4",
+	"build": "beta.30"
+}

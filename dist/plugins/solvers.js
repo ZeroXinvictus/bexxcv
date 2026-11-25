@@ -1,1 +1,16 @@
-aW1wb3J0IHsgd2F0Y2hUdXJuc3RpbGUgfSBmcm9tICIuLi90dXJuc3RpbGUuanMiOwppbXBvcnQgeyB3YXRjaFVhbSB9IGZyb20gIi4uL3VhbS5qcyI7CmV4cG9ydCBmdW5jdGlvbiB0dXJuc3RpbGUob3B0aW9ucyA9IHt9KSB7CiAgICByZXR1cm4gewogICAgICAgIG5hbWU6ICJ0dXJuc3RpbGUiLAogICAgICAgIG9yZGVyOiA0NSwKICAgICAgICBvblBhZ2U6IChwYWdlKSA9PiB3YXRjaFR1cm5zdGlsZShwYWdlLCBvcHRpb25zKSwKICAgIH07Cn0KZXhwb3J0IGZ1bmN0aW9uIHVhbShvcHRpb25zID0ge30pIHsKICAgIHJldHVybiB7CiAgICAgICAgbmFtZTogInVhbSIsCiAgICAgICAgb3JkZXI6IDQ1LAogICAgICAgIG9uUGFnZTogKHBhZ2UpID0+IHdhdGNoVWFtKHBhZ2UsIG9wdGlvbnMpLAogICAgfTsKfQo=
+import { watchTurnstile } from "../turnstile.js";
+import { watchUam } from "../uam.js";
+export function turnstile(options = {}) {
+    return {
+        name: "turnstile",
+        order: 45,
+        onPage: (page) => watchTurnstile(page, options),
+    };
+}
+export function uam(options = {}) {
+    return {
+        name: "uam",
+        order: 45,
+        onPage: (page) => watchUam(page, options),
+    };
+}

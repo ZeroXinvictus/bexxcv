@@ -1,1 +1,40 @@
-aW1wb3J0IHBhdGggZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHsgZmlsZVVSTFRvUGF0aCB9IGZyb20gIm5vZGU6dXJsIjsKaW1wb3J0IFdBUk5JTkdTX0RBVEEgZnJvbSAiLi9tYXBwaW5ncy93YXJuaW5ncy5jb25maWcuanMiOwoKY29uc3QgY3VycmVudERpciA9CglpbXBvcnQubWV0YS5kaXJuYW1lID8/IHBhdGguZGlybmFtZShmaWxlVVJMVG9QYXRoKGltcG9ydC5tZXRhLnVybCkpOwoKZXhwb3J0IGNsYXNzIExlYWtXYXJuaW5nIGV4dGVuZHMgRXJyb3IgewoJY29uc3RydWN0b3IobWVzc2FnZTogc3RyaW5nKSB7CgkJc3VwZXIobWVzc2FnZSk7CgkJdGhpcy5uYW1lID0gIkxlYWtXYXJuaW5nIjsKCX0KCglzdGF0aWMgd2Fybih3YXJuaW5nS2V5OiBzdHJpbmcsIGlLbm93V2hhdEltRG9pbmc/OiBib29sZWFuKTogdm9pZCB7CgkJbGV0IHdhcm5pbmcgPSAoV0FSTklOR1NfREFUQSBhcyBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+KVt3YXJuaW5nS2V5XTsKCQlpZiAoaUtub3dXaGF0SW1Eb2luZykgewoJCQlyZXR1cm47CgkJfQoJCWlmIChpS25vd1doYXRJbURvaW5nICE9PSB1bmRlZmluZWQpIHsKCQkJd2FybmluZyArPSAiXG5JZiB0aGlzIGlzIGludGVudGlvbmFsLCBwYXNzIGBpS25vd1doYXRJbURvaW5nPXRydWVgLiI7CgkJfQoKCQljb25zdCBjdXJyZW50TW9kdWxlID0gY3VycmVudERpcjsKCQljb25zdCBvcmlnaW5hbFN0YWNrVHJhY2UgPSBFcnJvci5wcmVwYXJlU3RhY2tUcmFjZTsKCQlFcnJvci5wcmVwYXJlU3RhY2tUcmFjZSA9IChfLCBzdGFjaykgPT4gc3RhY2s7CgkJY29uc3QgZXJyID0gbmV3IEVycm9yKCk7CgkJY29uc3Qgc3RhY2sgPSBlcnIuc3RhY2sgYXMgdW5rbm93biBhcyBOb2RlSlMuQ2FsbFNpdGVbXTsKCQlFcnJvci5wcmVwYXJlU3RhY2tUcmFjZSA9IG9yaWdpbmFsU3RhY2tUcmFjZTsKCgkJZm9yIChjb25zdCBmcmFtZSBvZiBzdGFjaykgewoJCQljb25zdCBmcmFtZUZpbGVOYW1lID0gZnJhbWUuZ2V0RmlsZU5hbWUoKTsKCQkJaWYgKGZyYW1lRmlsZU5hbWUgJiYgIWZyYW1lRmlsZU5hbWUuc3RhcnRzV2l0aChjdXJyZW50TW9kdWxlKSkgewoJCQkJY29uc29sZS53YXJuKGAke3dhcm5pbmd9IGF0ICR7ZnJhbWVGaWxlTmFtZX06JHtmcmFtZS5nZXRMaW5lTnVtYmVyKCl9YCk7CgkJCQlyZXR1cm47CgkJCX0KCQl9CgoJCWNvbnNvbGUud2Fybih3YXJuaW5nKTsKCX0KfQo=
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+import WARNINGS_DATA from "./mappings/warnings.config.js";
+
+const currentDir =
+	import.meta.dirname ?? path.dirname(fileURLToPath(import.meta.url));
+
+export class LeakWarning extends Error {
+	constructor(message: string) {
+		super(message);
+		this.name = "LeakWarning";
+	}
+
+	static warn(warningKey: string, iKnowWhatImDoing?: boolean): void {
+		let warning = (WARNINGS_DATA as Record<string, string>)[warningKey];
+		if (iKnowWhatImDoing) {
+			return;
+		}
+		if (iKnowWhatImDoing !== undefined) {
+			warning += "\nIf this is intentional, pass `iKnowWhatImDoing=true`.";
+		}
+
+		const currentModule = currentDir;
+		const originalStackTrace = Error.prepareStackTrace;
+		Error.prepareStackTrace = (_, stack) => stack;
+		const err = new Error();
+		const stack = err.stack as unknown as NodeJS.CallSite[];
+		Error.prepareStackTrace = originalStackTrace;
+
+		for (const frame of stack) {
+			const frameFileName = frame.getFileName();
+			if (frameFileName && !frameFileName.startsWith(currentModule)) {
+				console.warn(`${warning} at ${frameFileName}:${frame.getLineNumber()}`);
+				return;
+			}
+		}
+
+		console.warn(warning);
+	}
+}

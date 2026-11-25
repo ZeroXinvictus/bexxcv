@@ -1,1 +1,26 @@
-aW1wb3J0IHR5cGUgeyBCcm93c2VyQ29udGV4dCB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB0eXBlIHsgQmV4eGN2UGx1Z2luIH0gZnJvbSAiLi90eXBlcy5qcyI7CmV4cG9ydCBpbnRlcmZhY2UgV2lyZXRhcE9wdGlvbnMgewogICAgbWF0Y2g/OiBzdHJpbmdbXTsKICAgIG1ldGhvZHM/OiBzdHJpbmdbXTsKICAgIG91dD86IHN0cmluZzsKICAgIGJvZGllcz86IGJvb2xlYW47CiAgICBtYXhCb2R5Qnl0ZXM/OiBudW1iZXI7CiAgICBzdHJlYW1UaW1lb3V0PzogbnVtYmVyOwogICAgcmVkYWN0PzogYm9vbGVhbjsKfQpleHBvcnQgaW50ZXJmYWNlIFdpcmV0YXBFbnRyeSB7CiAgICB0aW1lOiBzdHJpbmc7CiAgICBtZXRob2Q6IHN0cmluZzsKICAgIHVybDogc3RyaW5nOwogICAgc3RhdHVzOiBudW1iZXI7CiAgICByZXF1ZXN0SGVhZGVyczogUmVjb3JkPHN0cmluZywgc3RyaW5nPjsKICAgIHBvc3REYXRhOiBzdHJpbmcgfCBudWxsOwogICAgcmVzcG9uc2VIZWFkZXJzOiBSZWNvcmQ8c3RyaW5nLCBzdHJpbmc+OwogICAgY29udGVudFR5cGU6IHN0cmluZzsKICAgIGJvZHk6IHN0cmluZyB8IG51bGw7CiAgICBib2R5Tm90ZT86IHN0cmluZzsKICAgIGV2ZW50cz86IHN0cmluZ1tdOwp9CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHdpcmV0YXBFbnRyaWVzKGNvbnRleHQ6IEJyb3dzZXJDb250ZXh0KTogV2lyZXRhcEVudHJ5W107CmV4cG9ydCBkZWNsYXJlIGZ1bmN0aW9uIHdpcmV0YXAoaW5wdXQ/OiBzdHJpbmcgfCBzdHJpbmdbXSB8IFdpcmV0YXBPcHRpb25zKTogQmV4eGN2UGx1Z2luOwo=
+import type { BrowserContext } from "playwright-core";
+import type { BexxcvPlugin } from "./types.js";
+export interface WiretapOptions {
+    match?: string[];
+    methods?: string[];
+    out?: string;
+    bodies?: boolean;
+    maxBodyBytes?: number;
+    streamTimeout?: number;
+    redact?: boolean;
+}
+export interface WiretapEntry {
+    time: string;
+    method: string;
+    url: string;
+    status: number;
+    requestHeaders: Record<string, string>;
+    postData: string | null;
+    responseHeaders: Record<string, string>;
+    contentType: string;
+    body: string | null;
+    bodyNote?: string;
+    events?: string[];
+}
+export declare function wiretapEntries(context: BrowserContext): WiretapEntry[];
+export declare function wiretap(input?: string | string[] | WiretapOptions): BexxcvPlugin;

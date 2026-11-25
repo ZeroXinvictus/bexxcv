@@ -1,1 +1,757 @@
-IyBiZXh4Y3YKCkhlYWRsZXNzIEZpcmVmb3ggYXV0b21hdGlvbiB3aXRoIHJlYWxpc3RpYyBicm93c2VyIGZpbmdlcnByaW50cywgYnVpbHQgb24gdG9wIG9mIFtDYW1vdWZveF0oaHR0cHM6Ly9naXRodWIuY29tL2RhaWpyby9jYW1vdWZveCkuCgo+ICoqRm9yayBub3RpY2U6KiogRm9ya2VkIGZyb20gW2NhbW91Zm94LWpzXShodHRwczovL2dpdGh1Yi5jb20vYXBpZnkvY2Ftb3Vmb3gtanMpIGJ5IFtBcGlmeV0uIEZ1bGwgY3JlZGl0IHRvIHRoZSBvcmlnaW5hbCBhdXRob3JzIGZvciB0aGUgYXJjaGl0ZWN0dXJlLCBmaW5nZXJwcmludCBnZW5lcmF0aW9uIHBpcGVsaW5lLCBhbmQgUGxheXdyaWdodCBpbnRlZ3JhdGlvbi4gVGhpcyBmb3JrIGFkZHMgZW50cm9weSBpbXByb3ZlbWVudHMsIEdQVS1hd2FyZSBXZWJHTCBzYW1wbGluZywgc2Vzc2lvbiBtYW5hZ2VtZW50LCBhbmQgZXJnb25vbWljIGVuaGFuY2VtZW50cy4KCi0tLQoKIyMgV2hhdCdzIGRpZmZlcmVudCBmcm9tIGNhbW91Zm94LWpzCgp8IEFyZWEgfCBPcmlnaW5hbCB8IGJleHhjdiB8CnwtLS18LS0tfC0tLXwKfCBJUCByZXNvbHV0aW9uIHwgU2VxdWVudGlhbCBmYWxsYmFjayAodXAgdG8gNnMgb24gY29sZCBzdGFydCkgfCBgUHJvbWlzZS5hbnkoKWAg4oCUIGFsbCBlbmRwb2ludHMgcmFjZSwgZmFzdGVzdCB3aW5zIHwKfCBSYW5kb21uZXNzIHNvdXJjZSB8IGBNYXRoLnJhbmRvbSgpYCB8IGBjcnlwdG8uZ2V0UmFuZG9tVmFsdWVzKClgIGV2ZXJ5d2hlcmUgfAp8IGB3aW5kb3cuZGV2aWNlUGl4ZWxSYXRpb2AgfCBOb3QgaW5qZWN0ZWQgKGFsd2F5cyAxLjApIHwgSW5qZWN0ZWQgcGVyLU9TIGZyb20gcmVhbC13b3JsZCB0ZWxlbWV0cnkgZGlzdHJpYnV0aW9uIHwKfCBEUFIgY29oZXJlbmNlIHwgQ2hvc2VuIGluZGVwZW5kZW50bHkgb2Ygc2NyZWVuIHNpemUgfCBTZWxlY3RlZCBzbyBDU1Mgw5cgRFBSIG1hdGNoZXMgYSBrbm93biBtb25pdG9yIHJlc29sdXRpb24gfAp8IFdpbmRvdyBwb3NpdGlvbiB8IFBlcmZlY3RseSBjZW50ZXJlZCB8IE9yZ2FuaWMgwrEyMHB4IGppdHRlciArIHVwcGVyLWJpYXNlZCBZIHBsYWNlbWVudCB8CnwgRG93bmxvYWQgcmV0cmllcyB8IEZsYXQgZGVsYXkgfCBFeHBvbmVudGlhbCBiYWNrb2ZmIHdpdGggY3J5cHRvIGppdHRlciAoMnMg4oaSIDRzIOKGkiA4cyDihpIgbWF4IDMwcykgfAp8IFh2ZmIgdHJpZ2dlciB8IGBoZWFkbGVzczogInZpcnR1YWwiYCBvbmx5IHwgYGhlYWRsZXNzOiBmYWxzZWAgYXV0by1zdGFydHMgWHZmYiB3aGVuIGAkRElTUExBWWAgaXMgdW5zZXQgfAp8IFdlYkdMIHNhbXBsaW5nIHwgYE1hdGgucmFuZG9tKClgIGZvciB3ZWlnaHRlZCBjaG9pY2UgfCBgY3J5cHRvLmdldFJhbmRvbVZhbHVlcygpYCB3aXRoIE9TLXdlaWdodGVkIEdQVSBwcm9maWxlcyB8CnwgVHVybnN0aWxlIHNvbHZlciB8IE1hbnVhbCB8IGB0dXJuc3RpbGU6IHRydWVgIOKAlCBiYWNrZ3JvdW5kIGNoZWNrYm94IGNsaWNrZXIgcGVyIHBhZ2UgfAp8IENsb3VkZmxhcmUgVUFNIHwgTWFudWFsIHwgYHVhbTogdHJ1ZWAg4oCUIHdhaXRzIHVudGlsIGNoYWxsZW5nZSBjbGVhcnMgYmVmb3JlIGNvbnRpbnVpbmcgfAp8IEh1bWFuIGJlaGF2aW9yIHwgQ3Vyc29yIG1vdmVtZW50IG9ubHkgKGBodW1hbml6ZWApIHwgYGF0dGFjaEh1bWFuQmVoYXZpb3IocGFnZSlgIOKAlCB0eXBlZCBzZXNzaW9ucyB3aXRoIGRyaWZ0LCB0eXBvcywgZmF0aWd1ZSB8CnwgTGF1bmNoIHNwZWVkIHwgU2VxdWVudGlhbCBzZXR1cCB8IFB1YmxpYyBJUCBsb29rdXAgcnVucyBpbiBwYXJhbGxlbCB3aXRoIGJpbmFyeSBjaGVjazsgdGVsZW1ldHJ5IG9mZiBieSBkZWZhdWx0IHwKfCBGaW5nZXJwcmludCBzZWVkcyB8IFBsYWluIHJhbmRvbSB8IEF1ZGlvLCBjYW52YXMsIGZvbnQtc3BhY2luZywgV2ViR0wgdmVuZG9yL3JlbmRlcmVyIGZyb20gcGVyLUdQVSBkYXRhYmFzZSB8CnwgSGFyZHdhcmUgY29uY3VycmVuY3kgfCBGaXhlZCAvIG5vdCBzcG9vZmVkIHwgU3Bvb2ZlZCBmcm9tIHJlYWxpc3RpYyBwb29sIHBlciB0YXJnZXQgT1MgfAp8IERldmljZSBtZW1vcnkgfCBOb3Qgc2V0IHwgSW5qZWN0ZWQgZnJvbSBmaW5nZXJwcmludC1kZXJpdmVkIG11bHRpcGxpZXIgfAp8IFRpbWV6b25lIHwgRXhhY3QgVVRDIG9mZnNldCB8IMKxMTUgbWluIGppdHRlciBmb3IgcmVhbGlzbSB8CgotLS0KCiMjIFJlcXVpcmVtZW50cwoKLSBOb2RlLmpzID49IDIyCi0gYHBsYXl3cmlnaHQtY29yZWAgPCAxLjYzLjAKLSBMaW51eCBoZWFkbGVzczogYFh2ZmJgIChpbnN0YWxsIHZpYSBwYWNrYWdlIG1hbmFnZXIgaWYgbmVlZGVkKQoKLS0tCgojIyBJbnN0YWxsYXRpb24KCmBgYGJhc2gKbnBtIGluc3RhbGwgYmV4eGN2IHBsYXl3cmlnaHQtY29yZQojIG9yCnBucG0gYWRkIGJleHhjdiBwbGF5d3JpZ2h0LWNvcmUKYGBgCgpGZXRjaCB0aGUgQ2Ftb3Vmb3ggYnJvd3NlciBiaW5hcnkgYWZ0ZXIgaW5zdGFsbGluZzoKCmBgYGJhc2gKbnB4IGJleHhjdiBmZXRjaApgYGAKCi0tLQoKIyMgQmFzaWMgdXNhZ2UKCmBgYHRzCmltcG9ydCB7IGJleHhjdiB9IGZyb20gImJleHhjdiI7Cgpjb25zdCBicm93c2VyID0gYXdhaXQgYmV4eGN2KHsgaGVhZGxlc3M6IHRydWUgfSk7CmNvbnN0IHBhZ2UgPSBhd2FpdCBicm93c2VyLm5ld1BhZ2UoKTsKYXdhaXQgcGFnZS5nb3RvKCJodHRwczovL2V4YW1wbGUuY29tIik7CmF3YWl0IGJyb3dzZXIuY2xvc2UoKTsKYGBgCgpPbiBhIGhlYWRsZXNzIExpbnV4IHNlcnZlciB3aXRob3V0IGAkRElTUExBWWAsIFh2ZmIgc3RhcnRzIGF1dG9tYXRpY2FsbHkgd2hlbiBgaGVhZGxlc3NgIGlzIGBmYWxzZWAgb3IgdW5zZXQg4oCUIG5vIGB4dmZiLXJ1bmAgd3JhcHBlciByZXF1aXJlZC4KCi0tLQoKIyMgT3B0aW9ucwoKYGBgdHMKY29uc3QgYnJvd3NlciA9IGF3YWl0IGJleHhjdih7CiAgLy8gLS0tIERpc3BsYXkgLS0tCiAgaGVhZGxlc3M6IGZhbHNlLCAgICAgIC8vIGZhbHNlIHwgdHJ1ZSB8ICJ2aXJ0dWFsIgogIGF1dG9feHZmYjogdHJ1ZSwgICAgICAvLyBhdXRvLXN0YXJ0IFh2ZmIgb24gTGludXggd2l0aG91dCAkRElTUExBWQoKICAvLyAtLS0gT1MgdGFyZ2V0aW5nIC0tLQogIG9zOiAid2luZG93cyIsICAgICAgICAvLyAibGludXgiIHwgIm1hY29zIiB8ICJ3aW5kb3dzIiB8IGFycmF5CgogIC8vIC0tLSBGaW5nZXJwcmludCBjdXN0b21pemF0aW9uIC0tLQogIGZpbmdlcnByaW50OiB1bmRlZmluZWQsICAgICAgIC8vIHBhc3MgYSBjdXN0b20gRmluZ2VycHJpbnQgb2JqZWN0CiAgZmZfdmVyc2lvbjogdW5kZWZpbmVkLCAgICAgICAgLy8gb3ZlcnJpZGUgRmlyZWZveCB2ZXJzaW9uIGluIFVBIHN0cmluZwogIHNjcmVlbjogdW5kZWZpbmVkLCAgICAgICAgICAgIC8vIHsgbWF4V2lkdGgsIG1heEhlaWdodCB9IOKAlCBjb25zdHJhaW4gcGh5c2ljYWwgc2NyZWVuCiAgd2luZG93OiB1bmRlZmluZWQsICAgICAgICAgICAgLy8gW3dpZHRoLCBoZWlnaHRdIOKAlCBmaXggb3V0ZXIgd2luZG93IGRpbWVuc2lvbnMKICB3ZWJnbF9jb25maWc6IHVuZGVmaW5lZCwgICAgICAvLyBbdmVuZG9yLCByZW5kZXJlcl0g4oCUIHBpY2sgc3BlY2lmaWMgV2ViR0wgcGFpcgogIGhhcmR3YXJlX2NvbmN1cnJlbmN5X292ZXJyaWRlOiB1bmRlZmluZWQsIC8vIG92ZXJyaWRlIENQVSB0aHJlYWQgY291bnQKICBkZXZpY2VfbWVtb3J5X292ZXJyaWRlOiB1bmRlZmluZWQsICAgICAgICAvLyBvdmVycmlkZSBuYXZpZ2F0b3IuZGV2aWNlTWVtb3J5CiAgdGltZXpvbmVfaml0dGVyOiB0cnVlLCAgICAgICAgLy8gwrExNSBtaW4gb2Zmc2V0IG5vaXNlIChkZWZhdWx0IG9uKQogIHBlcmZfaml0dGVyOiB0cnVlLCAgICAgICAgICAgIC8vIHBlcmZvcm1hbmNlLm5vdygpIGNsb2NrIGRyaWZ0IChkZWZhdWx0IG9uKQogIHNlc3Npb25fc3RpY2tpbmVzczogdHJ1ZSwgICAgIC8vIGtlZXAgdmFsdWVzIGNvbnNpc3RlbnQgd2l0aGluIGEgc2Vzc2lvbiAoZGVmYXVsdCBvbikKCiAgLy8gLS0tIE5ldHdvcmsgLyBsb2NhbGUgLS0tCiAgZ2VvaXA6IHRydWUsICAgICAgICAgICAgICAgICAgLy8gdHJ1ZSA9IGRldGVjdCBwdWJsaWMgSVA7IHN0cmluZyA9IHVzZSBzcGVjaWZpYyBJUAogIGxvY2FsZTogImVuLVVTIiwgICAgICAgICAgICAgIC8vIEJDUCA0NyBsb2NhbGUgc3RyaW5nIG9yIGFycmF5CiAgcHJveHk6ICJodHRwOi8vdXNlcjpwYXNzQGhvc3Q6cG9ydCIsCgogIC8vIC0tLSBQcml2YWN5IHRvZ2dsZXMgLS0tCiAgYmxvY2tfd2VicnRjOiBmYWxzZSwgICAgICAgICAgLy8gZGlzYWJsZSBXZWJSVEMgKHByZXZlbnRzIFNUVU4tYmFzZWQgSVAgbGVha3MpCiAgYmxvY2tfaW1hZ2VzOiBmYWxzZSwgICAgICAgICAgLy8gZGlzYWJsZSBpbWFnZSBsb2FkaW5nCiAgYmxvY2tfd2ViZ2w6IGZhbHNlLCAgICAgICAgICAgLy8gZGlzYWJsZSBXZWJHTCBlbnRpcmVseQogIGRpc2FibGVfY29vcDogZmFsc2UsICAgICAgICAgIC8vIGRpc2FibGUgQ3Jvc3MtT3JpZ2luLU9wZW5lci1Qb2xpY3kKCiAgLy8gLS0tIEJyb3dzZXIgYmVoYXZpb3IgLS0tCiAgaHVtYW5pemU6IGZhbHNlLCAgICAgICAgICAgICAgLy8gdHJ1ZSB8IG51bWJlcihtcykg4oCUIHJhbmRvbSBtb3VzZSBkZWxheXMKICB0dXJuc3RpbGU6IGZhbHNlLCAgICAgICAgICAgICAvLyBhdXRvLWNsaWNrIFR1cm5zdGlsZSBjaGVja2JveGVzCiAgdWFtOiBmYWxzZSwgICAgICAgICAgICAgICAgICAgLy8gd2FpdCBvdXQgQ2xvdWRmbGFyZSBVQU0gY2hhbGxlbmdlcwogIGVuYWJsZV9jYWNoZTogZmFsc2UsICAgICAgICAgIC8vIGVuYWJsZSBkaXNrICsgbWVtb3J5IGNhY2hlCiAgbWFpbl93b3JsZF9ldmFsOiBmYWxzZSwgICAgICAgLy8gYWxsb3cgSlMgZXZhbCBpbiBtYWluIHdvcmxkCgogIC8vIC0tLSBBZGRvbnMgJiBmb250cyAtLS0KICBhZGRvbnM6IFtdLCAgICAgICAgICAgICAgICAgICAvLyBwYXRocyB0byBGaXJlZm94IGV4dGVuc2lvbiBYUElzCiAgZXhjbHVkZV9hZGRvbnM6IFtdLCAgICAgICAgICAgLy8gYnVpbHQtaW4gYWRkb24ga2V5cyB0byBza2lwCiAgZm9udHM6IFtdLCAgICAgICAgICAgICAgICAgICAgLy8gYWRkaXRpb25hbCBmb250IG5hbWVzIHRvIGluamVjdAogIGN1c3RvbV9mb250c19vbmx5OiBmYWxzZSwgICAgIC8vIHN0cmlwIGJ1aWx0LWluIGZvbnRzLCB1c2Ugb25seSB5b3VyIGxpc3QKCiAgLy8gLS0tIExvdy1sZXZlbCAtLS0KICBleGVjdXRhYmxlX3BhdGg6IHVuZGVmaW5lZCwgICAvLyBwYXRoIHRvIGEgY3VzdG9tIEZpcmVmb3ggYmluYXJ5CiAgZmlyZWZveF91c2VyX3ByZWZzOiB7fSwgICAgICAgLy8gcmF3IEZpcmVmb3ggYWJvdXQ6Y29uZmlnIHByZWZzCiAgYXJnczogW10sICAgICAgICAgICAgICAgICAgICAgLy8gZXh0cmEgQ0xJIGFyZ3MgcGFzc2VkIHRvIEZpcmVmb3gKICBlbnY6IHt9LCAgICAgICAgICAgICAgICAgICAgICAvLyBleHRyYSBlbnZpcm9ubWVudCB2YXJpYWJsZXMKICBkZWJ1ZzogZmFsc2UsICAgICAgICAgICAgICAgICAvLyBwcmludCBmdWxsIGNvbmZpZyBiZWZvcmUgbGF1bmNoCn0pOwpgYGAKCiMjIyBgaGVhZGxlc3NgCgp8IFZhbHVlIHwgQmVoYXZpb3IgfAp8LS0tfC0tLXwKfCBgdHJ1ZWAgfCBQdXJlIGhlYWRsZXNzIOKAlCBubyBkaXNwbGF5IG5lZWRlZCB8CnwgYGZhbHNlYCAoZGVmYXVsdCkgfCBWaXNpYmxlIHdpbmRvdy4gT24gTGludXggd2l0aCBubyBgJERJU1BMQVlgLCBhdXRvLXN0YXJ0cyBYdmZiIHwKfCBgInZpcnR1YWwiYCB8IEV4cGxpY2l0IHZpcnR1YWwgZGlzcGxheSByZWdhcmRsZXNzIG9mIGAkRElTUExBWWAgc3RhdGUgfAoKIyMjIGBvc2AKClJlc3RyaWN0cyB0aGUgZmluZ2VycHJpbnQgZ2VuZXJhdG9yIHRvIGJyb3dzZXJzIHNlZW4gb24gdGhlIGdpdmVuIE9TKGVzKS4gQWZmZWN0cyBVQSBzdHJpbmcsIGBuYXZpZ2F0b3IucGxhdGZvcm1gLCBgbmF2aWdhdG9yLm9zY3B1YCwgc2NyZWVuIGRpbWVuc2lvbnMsIGFuZCBmb250IHNldC4KCmBgYHRzCmF3YWl0IGJleHhjdih7IG9zOiAid2luZG93cyIgfSk7CmF3YWl0IGJleHhjdih7IG9zOiBbIndpbmRvd3MiLCAibWFjb3MiXSB9KTsKYGBgCgojIyMgYGdlb2lwYAoKRGV0ZWN0cyB0aGUgc2VydmVyJ3MgcHVibGljIElQIGFuZCBhbGlnbnMgZ2VvbG9jYXRpb24gZmllbGRzICh0aW1lem9uZSwgbG9jYWxlLCBsYW5ndWFnZSBoZWFkZXJzKS4gQ29tYmluZSB3aXRoIGBwcm94eWAgdG8gbWF0Y2ggdGhlIHByb3h5IGV4aXQgbm9kZS4KCmBgYHRzCmF3YWl0IGJleHhjdih7IGdlb2lwOiB0cnVlIH0pOwphd2FpdCBiZXh4Y3YoeyBnZW9pcDogIjIwMy4wLjExMy40NSIgfSk7CmF3YWl0IGJleHhjdih7IHByb3h5OiAic29ja3M1Oi8vdXNlcjpwYXNzQHByb3h5LmV4YW1wbGUuY29tOjEwODAiLCBnZW9pcDogdHJ1ZSB9KTsKYGBgCgpSZXF1aXJlcyB0aGUgb3B0aW9uYWwgYGdlb2lwMmAgZXh0cmEuCgojIyMgYHNjcmVlbmAKCkNvbnN0cmFpbnMgdGhlIGdlbmVyYXRlZCBwaHlzaWNhbCBzY3JlZW4gc2l6ZS4gVGhlIHdpZHRoL2hlaWdodCBhcmUgdHJlYXRlZCBhcyBwaHlzaWNhbCBwaXhlbCBib3VuZHM7IHRoZSBmaW5hbCBDU1MgcGl4ZWxzIGRlcGVuZCBvbiB0aGUgc2VsZWN0ZWQgRFBSLgoKYGBgdHMKYXdhaXQgYmV4eGN2KHsgc2NyZWVuOiB7IG1heFdpZHRoOiAxOTIwLCBtYXhIZWlnaHQ6IDEwODAgfSB9KTsKYGBgCgojIyMgYHdlYmdsX2NvbmZpZ2AKCk92ZXJyaWRlIHRoZSBXZWJHTCB2ZW5kb3IvcmVuZGVyZXIgcGFpci4gVXNlIHRoZSBleHBvcnRlZCBoZWxwZXIgdG8gbGlzdCB2YWxpZCBjb21iaW5hdGlvbnM6CgpgYGB0cwppbXBvcnQgeyBnZXRQb3NzaWJsZVBhaXJzLCBzYW1wbGVHUFVQcm9maWxlLCBLTk9XTl9HUFVTIH0gZnJvbSAiYmV4eGN2IjsKLy8gb3IKYXdhaXQgYmV4eGN2KHsgd2ViZ2xfY29uZmlnOiBbIkludGVsIEluYy4iLCAiSW50ZWwgSXJpcyBPcGVuR0wgRW5naW5lIl0gfSk7CmBgYAoKIyMjIGB0dXJuc3RpbGVgCgpCYWNrZ3JvdW5kIHNvbHZlciBmb3IgQ2xvdWRmbGFyZSBUdXJuc3RpbGUgY2hlY2tib3hlcy4KCmBgYHRzCmNvbnN0IGJyb3dzZXIgPSBhd2FpdCBiZXh4Y3YoeyB0dXJuc3RpbGU6IHRydWUgfSk7CmBgYAoKUGVyLXBhZ2UgbG9vcC4gTG9va3MgZm9yIGBjZi10dXJuc3RpbGUtcmVzcG9uc2VgIGlucHV0cywgY2xpY2tzIHRoZSBjaGVja2JveCBhcmVhLCBzY3JvbGxzIGludG8gdmlldyBpZiBuZWVkZWQsIGFuZCBza2lwcyBhbHJlYWR5LXNvbHZlZCB3aWRnZXRzLiBXb3JrcyBhbG9uZ3NpZGUgYGh1bWFuaXplYC4KCk9wdGlvbnM6IGB7IGludGVydmFsOiAxMDAwLCByZXRyeUFmdGVyOiA4MDAwIH1gIChkZWZhdWx0cyBzaG93bikuCgojIyMgYHVhbWAKCldhaXRzIG91dCBDbG91ZGZsYXJlICJKdXN0IGEgbW9tZW50IiBwYWdlcy4KCmBgYHRzCmNvbnN0IGJyb3dzZXIgPSBhd2FpdCBiZXh4Y3YoeyB1YW06IHRydWUgfSk7CmBgYAoKT3B0aW9uczogYHsgdGltZW91dDogMzAwMDAsIGludGVydmFsOiAxNTAwLCB3YWl0T25Hb3RvOiB0cnVlIH1gLiBQYWdlcyB3aXRob3V0IGEgY2hhbGxlbmdlIHJldHVybiBpbW1lZGlhdGVseS4KCkNhbiBiZSBjb21iaW5lZCB3aXRoIGB0dXJuc3RpbGVgLgoKLS0tCgojIyBTZXNzaW9uIEFQSQoKQmV4eGN2IG1haW50YWlucyBwZXItcGFnZSBzZXNzaW9uIHN0YXRlIGZvciBjb25zaXN0ZW50IGZpbmdlcnByaW50aW5nIGFuZCBodW1hbi1saWtlIGJlaGF2aW9yIGFjcm9zcyBtdWx0aXBsZSBwYWdlIG5hdmlnYXRpb25zLgoKYGBgdHMKaW1wb3J0IHsgYXR0YWNoSHVtYW5CZWhhdmlvciwgZ2V0U2Vzc2lvbkluZm8sIGluaXRTZXNzaW9uLCBhZHZhbmNlUGFnZSwgZW5kU2Vzc2lvbiB9IGZyb20gImJleHhjdiI7Cgpjb25zdCBicm93c2VyID0gYXdhaXQgYmV4eGN2KHsgaGVhZGxlc3M6IHRydWUgfSk7CmNvbnN0IHBhZ2UgPSBhd2FpdCBicm93c2VyLm5ld1BhZ2UoKTsKCi8vIEluaXRpYWxpemUgYSBzZXNzaW9uIHRpZWQgdG8gdGhpcyBwYWdlCmluaXRTZXNzaW9uKHBhZ2UpOwoKLy8gQXR0YWNoIGh1bWFuLWxpa2UgYmVoYXZpb3IgKG1vdXNlIGRyaWZ0LCB0eXBpbmcgZGVsYXlzLCBwYWdlIHRyYW5zaXRpb24gcGFjaW5nKQphdHRhY2hIdW1hbkJlaGF2aW9yKHBhZ2UsIHsgc3BlZWQ6IDEsIGlkbGVEcmlmdDogdHJ1ZSB9KTsKCmF3YWl0IHBhZ2UuZ290bygiaHR0cHM6Ly9leGFtcGxlLmNvbS9wYWdlMSIpOwphZHZhbmNlUGFnZShwYWdlKTsgLy8gaW5jcmVtZW50IHNlc3Npb24gcGFnZSBjb3VudGVyCgpjb25zdCBpbmZvID0gZ2V0U2Vzc2lvbkluZm8ocGFnZSk7CmNvbnNvbGUubG9nKGluZm8uaWQsIGluZm8ucGFnZUNvdW50LCBpbmZvLmFnZU1zKTsKCmF3YWl0IHBhZ2UuZ290bygiaHR0cHM6Ly9leGFtcGxlLmNvbS9wYWdlMiIpOwplbmRTZXNzaW9uKHBhZ2UpOyAvLyBjbGVhbiB1cAphd2FpdCBicm93c2VyLmNsb3NlKCk7CmBgYAoKIyMjIGBpbml0U2Vzc2lvbihwYWdlLCBvcHRpb25zPylgCgpDcmVhdGVzIGEgbmV3IHNlc3Npb24gYm91bmQgdG8gdGhlIHBhZ2UuIFJldHVybnMgYSBzZXNzaW9uIElEIHN0cmluZy4gU2Vzc2lvbnMgdHJhY2sgYSByYW5kb20gc2VlZCBidWZmZXIgdXNlZCBmb3IgcmVwcm9kdWNpYmxlIHNlZWRlZCByYW5kb21uZXNzIGFjcm9zcyBwYWdlIGxvYWRzLgoKT3B0aW9uczogYHsgdGltZW91dD86IG51bWJlciwgbWF4UGFnZXM/OiBudW1iZXIsIHNlZWRMZW5ndGg/OiBudW1iZXIgfWAKCiMjIyBgZ2V0U2Vzc2lvbklkKHBhZ2UpYAoKUmV0dXJucyB0aGUgY3VycmVudCBzZXNzaW9uIElEIGZvciBhIHBhZ2UsIG9yIGBudWxsYCBpZiBub25lIGV4aXN0cy4KCiMjIyBgYWR2YW5jZVBhZ2UocGFnZSlgCgpJbmNyZW1lbnRzIHRoZSBwYWdlIGNvdW50ZXIgZm9yIHRoZSBhY3RpdmUgc2Vzc2lvbi4gQ2FsbGVkIGF1dG9tYXRpY2FsbHkgYnkgYGF0dGFjaEh1bWFuQmVoYXZpb3JgIGR1cmluZyBuYXZpZ2F0aW9uLgoKIyMjIGBlbmRTZXNzaW9uKHBhZ2UpYAoKUmVtb3ZlcyBzZXNzaW9uIHN0YXRlIGZyb20gdGhlIHBhZ2UgYW5kIGNsZWFucyB1cCBpbnRlcm5hbCBtYXBzLgoKIyMjIGBpc1Nlc3Npb25FeHBpcmVkKHBhZ2UsIHRpbWVvdXRNcz8pYAoKUmV0dXJucyBgdHJ1ZWAgaWYgdGhlIHNlc3Npb24gYWdlIGV4Y2VlZHMgYHRpbWVvdXRNc2AgKGRlZmF1bHQgMzAgbWludXRlcykuCgojIyMgYGF0dGFjaEh1bWFuQmVoYXZpb3IocGFnZSwgb3B0aW9ucz8pYAoKV3JhcHMgYHBhZ2UuZ290bygpYCwgYHBhZ2UuY2xpY2soKWAsIGFuZCBgcGFnZS5ldmFsdWF0ZSgpYCB3aXRoIGh1bWFuLWxpa2UgdGltaW5nLiBVc2VzIHNlZWRlZCBHYXVzc2lhbiBkcmlmdCBmb3IgaWRsZSBjdXJzb3IgbW92ZW1lbnQgYmFzZWQgb24gdGhlIHNlc3Npb24gc2VlZC4KCk9wdGlvbnM6CnwgT3B0aW9uIHwgRGVmYXVsdCB8IERlc2NyaXB0aW9uIHwKfC0tLXwtLS18LS0tfAp8IGBzcGVlZGAgfCBgMWAgfCBNdWx0aXBsaWVyIGZvciBhbGwgZGVsYXlzIChsb3dlciA9IGZhc3RlcikgfAp8IGB0eXBvUmF0ZWAgfCBgMC4wMTVgIHwgUHJvYmFiaWxpdHkgb2YgcmFuZG9tIGNoYXJhY3RlciBlcnJvcnMgaW4gdHlwZWQgdGV4dCB8CnwgYHNjcm9sbFBhdHRlcm5gIHwgYCJuYXR1cmFsImAgfCBTY3JvbGwgcGF0dGVybiB0eXBlIHwKfCBgaWRsZURyaWZ0YCB8IGB0cnVlYCB8IFN1YnRsZSBjdXJzb3IgZHJpZnQgd2hpbGUgaWRsZSB8CnwgYHNlc3Npb25UaW1lb3V0YCB8IGAxODAwMDAwYCB8IFNlc3Npb24gZXhwaXJ5IGluIG1zIHwKfCBgbWF4UGFnZXNQZXJTZXNzaW9uYCB8IGAyMGAgfCBNYXggcGFnZXMgYmVmb3JlIHNlc3Npb24gZXhwaXJlcyB8CnwgYHBhZ2VUcmFuc2l0aW9uTWluTXNgIHwgYDgwMGAgfCBNaW4gZGVsYXkgYmV0d2VlbiBwYWdlIGxvYWRzIHwKfCBgcGFnZVRyYW5zaXRpb25NYXhNc2AgfCBgMzAwMGAgfCBNYXggZGVsYXkgYmV0d2VlbiBwYWdlIGxvYWRzIHwKfCBgbW91c2VBY2NlbGVyYXRpb25gIHwgYHRydWVgIHwgQWNjZWxlcmF0ZSBjdXJzb3IgdG93YXJkIHRhcmdldHMgfAoKIyMjIGBkZXRhY2hIdW1hbkJlaGF2aW9yKHBhZ2UpYAoKUmV2ZXJzZXMgdGhlIHdyYXBwZXJzIGFwcGxpZWQgYnkgYGF0dGFjaEh1bWFuQmVoYXZpb3JgLgoKIyMjIGBnZXRTZXNzaW9uSW5mbyhwYWdlKWAKClJldHVybnMgYHsgaWQsIHBhZ2VDb3VudCwgYWdlTXMgfWAgb3IgYG51bGxgIGlmIG5vIHNlc3Npb24gZXhpc3RzLgoKLS0tCgojIyBGaW5nZXJwcmludCBpbnRlcm5hbHMKCiMjIyBHUFUgcHJvZmlsZSBzYW1wbGluZwoKRWFjaCBmaW5nZXJwcmludCBpbmNsdWRlcyBhIHJhbmRvbWx5LXNlbGVjdGVkIGJ1dCBPUy13ZWlnaHRlZCBHUFUgcHJvZmlsZS4gS25vd24gR1BVcyBhcmUgc3RvcmVkIGluIGBLTk9XTl9HUFVzYCBwZXIgT1MsIHdpdGggd2VpZ2h0cyByZWZsZWN0aW5nIHR5cGljYWwgbWFya2V0IHNoYXJlLiBUaGUgc2FtZSBHUFUgcHJvZmlsZSBkZXRlcm1pbmVzIGJvdGggdGhlIGB3ZWJHbDp2ZW5kb3JgL2B3ZWJHbDpyZW5kZXJlcmAgZmluZ2VycHJpbnQgcHJvcGVydGllcyBhbmQgdGhlIEdMU0wgc2hhZGVyIHZlcnNpb24gc3RyaW5nLgoKT3B0aW9uYWwgV2ViR0wgZXh0ZW5zaW9ucyBhcmUgYWRkZWQgcHJvYmFiaWxpc3RpY2FsbHkgcGVyIE9TLiBUaGUgZnVsbCBsaXN0IGxpdmVzIGluIGBzcmMvd2ViZ2wvcHJvZmlsZXMudHNgIGFuZCBjYW4gYmUgZXh0ZW5kZWQuCgojIyMgU2NyZWVuIERQSSBjb2hlcmVuY2UKCmBkZXZpY2VQaXhlbFJhdGlvYCBpcyBzYW1wbGVkIGZyb20gYW4gT1Mtc3BlY2lmaWMgcG9vbCwgdGhlbiB2YWxpZGF0ZWQgc28gdGhhdCBgQ1NTX3dpZHRoIMOXIERQUmAgYW5kIGBDU1NfaGVpZ2h0IMOXIERQUmAgZWFjaCBsYW5kIG9uIGEga25vd24gcGh5c2ljYWwgbW9uaXRvciByZXNvbHV0aW9uLiBJbnZhbGlkIGNvbWJpbmF0aW9ucyByZWNlaXZlIG5lYXItemVybyB3ZWlnaHQsIG1ha2luZyBpbXBvc3NpYmxlIHJlc29sdXRpb25zIHN0YXRpc3RpY2FsbHkgbmVnbGlnaWJsZS4KCiMjIyBFeHRlbmRlZCBmaW5nZXJwcmludCBmaWVsZHMKCkJleW9uZCB0aGUgc3RhbmRhcmQgYGZpbmdlcnByaW50LWdlbmVyYXRvcmAgb3V0cHV0LCBiZXh4Y3YgYWRkcyB0aGVzZSBpbnRlcm5hbCBmaWVsZHMgdG8gdGhlIGdlbmVyYXRlZCBmaW5nZXJwcmludCBvYmplY3Q6Cgp8IEZpZWxkIHwgUHVycG9zZSB8CnwtLS18LS0tfAp8IGBhdWRpb1NlZWRgIHwgU2VlZCBmb3IgYXVkaW8gY29udGV4dCBmaW5nZXJwcmludGluZyB8CnwgYGNhbnZhc1NlZWRgIHwgU2VlZCBmb3IgY2FudmFzIGZpbmdlcnByaW50IG5vaXNlIHBhdHRlcm5zIHwKfCBgZm9udFNwYWNpbmdTZWVkYCB8IFNlZWQgZm9yIGZvbnQgbWVhc3VyZW1lbnQgc3BhY2luZyBqaXR0ZXIgfAp8IGB3ZWJnbFZlbmRvcmAgfCBQaHlzaWNhbCBHUFUgdmVuZG9yIG5hbWUgfAp8IGB3ZWJnbFJlbmRlcmVyYCB8IFBoeXNpY2FsIEdQVSByZW5kZXJlciBzdHJpbmcgfAp8IGB3ZWJnbEdMU0xgIHwgQ29ycmVzcG9uZGluZyBHTFNMIHZlcnNpb24gfAp8IGB3ZWJnbEV4dGVuc2lvbnNgIHwgU3VwcG9ydGVkIFdlYkdMIGV4dGVuc2lvbiBsaXN0IHwKfCBgaGFyZHdhcmVDb25jdXJyZW5jeVNlZWRgIHwgQ1BVIGNvcmUgY291bnQgc2VsZWN0aW9uIHwKfCBgbWVtb3J5TXVsdGlwbGllcmAgfCBSQU0gbXVsdGlwbGllciBmb3IgYG5hdmlnYXRvci5kZXZpY2VNZW1vcnlgIHwKfCBgcGVyZkppdHRlcmAgfCBgcGVyZm9ybWFuY2Uubm93KClgIGNsb2NrIGRyaWZ0IG9mZnNldCB8CnwgYHRpbWV6b25lT2Zmc2V0Sml0dGVyYCB8IFRpbWV6b25lIG9mZnNldCBzaGlmdCBpbiBzZWNvbmRzIHwKfCBgdG91Y2hTdXBwb3J0YCB8IFdoZXRoZXIgdG91Y2ggaW5wdXQgaXMgcmVwb3J0ZWQgfAp8IGBwb2ludGVyVHlwZWAgfCBQcmltYXJ5IHBvaW50ZXIgdHlwZSAoIm1vdXNlIi8idG91Y2giLyJwZW4iKSB8CgpUaGVzZSBmaWVsZHMgYXJlIGNvbnN1bWVkIGR1cmluZyBjb25maWcgYXNzZW1ibHkgd2hlbiB0aGUgaW5zdGFsbGVkIENhbW91Zm94IGJ1aWxkIHN1cHBvcnRzIHRoZSBjb3JyZXNwb25kaW5nIHByb3BlcnRpZXMgKGNoZWNrZWQgYWdhaW5zdCB0aGUgYnVpbGQncyBgcHJvcGVydGllcy5qc29uYCkuIE9sZGVyIGJ1aWxkcyB0aGF0IGxhY2sgYSBwcm9wZXJ0eSBzaW1wbHkgc2tpcCBpdC4KCi0tLQoKIyMgUGx1Z2lucwoKYmV4eGN2IHNoaXBzIGEgc2V0IG9mIHBsdWdnYWJsZSBiZWhhdmlvcnMgeW91IGNhbiBjb21wb3NlOgoKfCBQbHVnaW4gfCBXaGF0IGl0IGRvZXMgfAp8LS0tfC0tLXwKfCBgYnJha2VgIHwgUmF0ZS1saW1pdHMgcmVxdWVzdHMgd2l0aCBleHBvbmVudGlhbCBiYWNrb2ZmIHwKfCBgY29jb29uYCB8IFBlcnNpc3RzIGJyb3dzZXIgcHJvZmlsZSBkYXRhIHRvIGRpc2sgfAp8IGBkb2RnZWAgfCBSb3RhdGVzIHRocm91Z2ggYSBwcm94eSBwb29sIHdpdGggaGVhbHRoIGNoZWNrcyB8CnwgYGdhdW50bGV0YCB8IFJ1bnMgc3VzdGFpbmVkIGNoYWxsZW5nZS1zb2x2aW5nIGxvb3BzIHwKfCBgaHVtYW5gIHwgV3JhcHMgcGFnZSBpbnRlcmFjdGlvbnMgd2l0aCBodW1hbi1saWtlIHRpbWluZyB8CnwgYGxlbnNgIHwgQXVkaXRzIGZpbmdlcnByaW50IHByb3BlcnRpZXMgZm9yIGNvbnNpc3RlbmN5IHwKfCBgc3Rhc2hgIHwgU2F2ZXMgY29va2llcy9sb2NhbFN0b3JhZ2UgdG8gSlNPTiBmaWxlcyB8CnwgYHZlbmVlcmAgfCBTdHJpcHMgdW5uZWNlc3NhcnkgZmluZ2VycHJpbnQgcHJvcGVydGllcyB8CnwgYHdpcmV0YXBgIHwgTG9ncyBuZXR3b3JrIHJlcXVlc3QvcmVzcG9uc2UgZGV0YWlscyB8CgpTZWUgaW5kaXZpZHVhbCBwbHVnaW4gZG9jdW1lbnRhdGlvbiBmb3IgY29uZmlndXJhdGlvbiBvcHRpb25zLgoKLS0tCgojIyBMZW5zIEZpbmdlcnByaW50IEF1ZGl0CgpUaGUgYGxlbnNgIHBsdWdpbiBhdWRpdHMgdGhlIHJ1bm5pbmcgYnJvd3NlcidzIGZpbmdlcnByaW50IGluIHJlYWwgdGltZSBhbmQgcmVwb3J0cyBhbnkgaW5jb25zaXN0ZW5jaWVzOgoKYGBgdHMKaW1wb3J0IHsgYmV4eGN2LCBsZW5zLCBsZW5zUmVwb3J0IH0gZnJvbSAiYmV4eGN2IjsKCmNvbnN0IGJyb3dzZXIgPSBhd2FpdCBiZXh4Y3YoeyBoZWFkbGVzczogdHJ1ZSB9KTsKY29uc3QgcGFnZSA9IGF3YWl0IGJyb3dzZXIubmV3UGFnZSgpOwphd2FpdCBwYWdlLmdvdG8oImh0dHBzOi8vZXhhbXBsZS5jb20iKTsKCi8vIFRoZSBsZW5zIHBsdWdpbiBydW5zIGF1dG9tYXRpY2FsbHkgd2hlbiBhZGRlZCB0byBwbHVnaW5zCmNvbnN0IHJlcG9ydCA9IGxlbnNSZXBvcnQocGFnZSk7CmlmIChyZXBvcnQpIHsKICBjb25zb2xlLmxvZyhgU2NvcmU6ICR7cmVwb3J0LnNjb3JlfS8xMDBgKTsKICBmb3IgKGNvbnN0IGNoZWNrIG9mIHJlcG9ydC5jaGVja3MpIHsKICAgIGlmICghY2hlY2sub2spIGNvbnNvbGUubG9nKGAgIOKdjCAke2NoZWNrLmlkfTogJHtjaGVjay5kZXRhaWx9YCk7CiAgfQp9CmBgYAoKUnVuIHRoZSBhdWRpdCBtYW51YWxseSBvbiBhbnkgcGFnZToKCmBgYHRzCmltcG9ydCB7IGF1ZGl0RmluZ2VycHJpbnQgfSBmcm9tICJiZXh4Y3YiOwoKY29uc3QgcmVwb3J0ID0gYXdhaXQgYXVkaXRGaW5nZXJwcmludChwYWdlKTsKYGBgCgojIyMgQ2hlY2tzIHBlcmZvcm1lZAoKfCBDaGVjayBJRCB8IFdoYXQgaXQgdmFsaWRhdGVzIHwKfC0tLXwtLS18CnwgYHdlYmRyaXZlcmAgfCBgbmF2aWdhdG9yLndlYmRyaXZlcmAgaXMgYHVuZGVmaW5lZGAgLyBmYWxzeSB8CnwgYHVhLXBsYXRmb3JtYCB8IGBuYXZpZ2F0b3IucGxhdGZvcm1gIG1hdGNoZXMgT1MgaW4gVUEgc3RyaW5nIHwKfCBgbGFuZ3VhZ2VgIHwgRmlyc3QgbGFuZ3VhZ2UgaW4gYG5hdmlnYXRvci5sYW5ndWFnZXNgIGVxdWFscyBgbmF2aWdhdG9yLmxhbmd1YWdlYCB8CnwgYGxvY2FsZS1pbnRsYCB8IGBJbnRsLkRhdGVUaW1lRm9ybWF0KClgIGxvY2FsZSBtYXRjaGVzIGBuYXZpZ2F0b3IubGFuZ3VhZ2VgIHByZWZpeCB8CnwgYGRwci1zY3JlZW5gIHwgQ1NTIMOXIERQUiBsYW5kcyBvbiBhIGtub3duIHBoeXNpY2FsIG1vbml0b3IgcmVzb2x1dGlvbiB8CnwgYHdpbmRvdy1zaXplYCB8IGlubmVyIOKJpCBvdXRlciDiiaQgc2NyZWVuICsgMTYgcHggKENocm9tZSBmcmFtZSBidWZmZXIpIHwKfCBgY29yZXNgIHwgaGFyZHdhcmVDb25jdXJyZW5jeSBpcyBhIHBsYXVzaWJsZSBDUFUgY29yZSBjb3VudCB8CnwgYHRvdWNoYCB8IGBtYXhUb3VjaFBvaW50c2AgaXMgMCBvbiBkZXNrdG9wIFVBcyB8CnwgYHdlYmdsYCB8IFdlYkdMIHZlbmRvci9yZW5kZXJlciBhcmUgcHJlc2VudCBhbmQgbm9uLW51bGwgfAp8IGB3ZWJnbC1zb2Z0d2FyZWAgfCBSZW5kZXJlciBpcyBub3QgYSBzb2Z0d2FyZSBmYWxsYmFjayAobGx2bXBpcGUvc3dpZnRzaGFkZXIpIHwKfCBgbmF0aXZlLWNvZGVgIHwgQ29yZSBBUElzIGhhdmUgYFtuYXRpdmUgY29kZV1gIHRvU3RyaW5nIG91dHB1dCB8CnwgYHVhLWhpbnRzYCB8IGB1c2VyQWdlbnREYXRhYCBhYnNlbnQgZm9yIEZpcmVmb3gsIHByZXNlbnQgZm9yIENocm9tZS1saWtlIFVBcyB8CnwgYGNocm9tZS1vYmplY3RgIHwgYHdpbmRvdy5jaHJvbWVgIGFic2VudCBmb3IgRmlyZWZveCB8CnwgYHBkZi12aWV3ZXJgIHwgYG5hdmlnYXRvci5wZGZWaWV3ZXJFbmFibGVkYCBpcyBgdHJ1ZWAgb24gRmlyZWZveCB8CnwgYGZvY3VzYCB8IFBhZ2UgaXMgZm9jdXNlZCBhbmQgdmlzaWJsZSB8CnwgYG1lZGlhLWRldmljZXNgIHwgQXQgbGVhc3Qgb25lIG1lZGlhIGRldmljZSBvciBoZWFkbGVzcyB0aW1lb3V0IGZhbGxiYWNrIHwKfCBgYXVkaW8tc2FtcGxlLXJhdGVgIHwgYEF1ZGlvQ29udGV4dC5zYW1wbGVSYXRlYCBpcyA0NDEwMCBvciA0ODAwMCB8CnwgYGZvbnRzLWVudW1lcmF0ZWRgIHwgYGRvY3VtZW50LmZvbnRzLnNpemUgPiAwYCBhbmQgbm8gbG9hZCBlcnJvciB8CnwgYHdlYmdsLXNoYWRlci1wcmVjaXNpb25gIHwgSGlnaHAgZmxvYXQgc2hhZGVyIHByZWNpc2lvbiDiiaUgMjMgKGRlc2t0b3AgR1BVKSB8CnwgYGNsaWVudC1oaW50cy1wbGF0Zm9ybWAgfCBgdXNlckFnZW50RGF0YS5wbGF0Zm9ybWAgY29uc2lzdGVudCB3aXRoIGBuYXZpZ2F0b3IucGxhdGZvcm1gIHwKCi0tLQoKIyMgQ29udGV4dCBJc29sYXRpb24KCkV2ZXJ5IFBsYXl3cmlnaHQgYGJyb3dzZXJDb250ZXh0YCBnZXRzIGFuIGluZGVwZW5kZW50IGZpbmdlcnByaW50LCBzdG9yYWdlLCBhbmQgY29va2llcy4gQ3Jvc3MtY29udGV4dCBsZWFrYWdlIGlzIGd1YXJkZWQgYnkgdGVzdCBjb3ZlcmFnZToKCmBgYHRzCmltcG9ydCB7IENhbW91Zm94IH0gZnJvbSAiYmV4eGN2IjsKCmNvbnN0IGJyb3dzZXIgPSBhd2FpdCBDYW1vdWZveCh7IGhlYWRsZXNzOiB0cnVlIH0pOwoKY29uc3QgY3R4QSA9IGF3YWl0IGJyb3dzZXIubmV3Q29udGV4dCgpOwpjb25zdCBjdHhCID0gYXdhaXQgYnJvd3Nlci5uZXdDb250ZXh0KCk7Cgpjb25zdCBwYWdlQSA9IGF3YWl0IGN0eEEubmV3UGFnZSgpOwpjb25zdCBwYWdlQiA9IGF3YWl0IGN0eEIubmV3UGFnZSgpOwoKYXdhaXQgcGFnZUEuZ290bygiaHR0cHM6Ly9leGFtcGxlLmNvbSIpOwphd2FpdCBwYWdlQi5nb3RvKCJodHRwczovL2V4YW1wbGUuY29tIik7CgovLyBsb2NhbFN0b3JhZ2Ugc2V0IGluIEEgaXMgaW52aXNpYmxlIGZyb20gQgphd2FpdCBwYWdlQS5ldmFsdWF0ZSgoKSA9PiBsb2NhbFN0b3JhZ2Uuc2V0SXRlbSgia2V5IiwgInNlY3JldC1hIikpOwpjb25zdCBsZWFrZWQgPSBhd2FpdCBwYWdlQi5ldmFsdWF0ZSgoKSA9PiBsb2NhbFN0b3JhZ2UuZ2V0SXRlbSgia2V5IikpOwpjb25zb2xlLmxvZyhsZWFrZWQpOyAvLyBudWxsIOKckwpgYGAKClRlc3RzIGFyZSBpbiBgdGVzdC9pc29sYXRpb24udGVzdC50c2AuCgotLS0KCiMjIEJlaGF2aW9yYWwgU2VlZGluZwoKQmV5b25kIHJhdyBmaW5nZXJwcmludCBwcm9wZXJ0aWVzLCBiZXh4Y3Ygc2VlZHMgaGlnaC1sZXZlbCBiZWhhdmlvcmFsIHNpZ25hbHMgdGhhdCBkZXRlY3RvcnMgZmxhZyBhcyBzdXNwaWNpb3VzIHdoZW4gbWlzc2luZyBvciBkZWZhdWx0OgoKfCBQcm9wZXJ0eSBHcm91cCB8IFdoYXQgR2V0cyBTZWVkZWQgfCBSZWFsaXNtIExvZ2ljIHwKfC0tLXwtLS18LS0tfAp8ICoqQmF0dGVyeSoqIHwgYGJhdHRlcnk6bGV2ZWxgLCBgY2hhcmdpbmdgLCBgZGlzY2hhcmdpbmdUaW1lYCB8IERlc2t0b3Ag4oaSIGZ1bGwgJiBkaXNjaGFyZ2luZzsgTGFwdG9wL01hYyDihpIgMjDigJM5NSUgd2l0aCB+MjUlIGNoYXJnaW5nIHN0YXRlIHwKfCAqKk1lZGlhIGRldmljZXMqKiB8IGBtZWRpYURldmljZXM6bWljcm9zL3dlYmNhbXMvc3BlYWtlcnNgIHwgT1Mtd2VpZ2h0ZWQgcG9vbHM6IG1pY3MgWzAtMl0sIGNhbXMgWzAtMl0sIHNwZWFrZXJzIFswLTRdIHwKfCAqKlNwZWVjaCB2b2ljZXMqKiB8IGB2b2ljZXNbXWAsIGBibG9ja0lmTm90RGVmaW5lZGAsIGBmYWtlQ29tcGxldGlvbmAgfCAy4oCTMTAgdm9pY2VzIG1hdGNoaW5nIGxvY2FsZSBsYW5ndWFnZSB8CnwgKipEbyBOb3QgVHJhY2sqKiB8IGBuYXZpZ2F0b3IuZG9Ob3RUcmFja2AgfCB+MjAlIG9mIHJlYWwgdXNlcnMgZW5hYmxlIEROVCB8CnwgKipHUEMqKiB8IGBuYXZpZ2F0b3IuZ2xvYmFsUHJpdmFjeUNvbnRyb2xgIHwgfjEwJSBzaWduYWwgR1BDIHwKfCAqKlJlZmVycmVyIHBvbGljeSoqIHwgRmlyZWZveCBwcmVmIGBwcml2YWN5LnJlZmVycmVyX3BvbGljeWAgfCBTYW1lLU9yaWdpbiBvbiBjcm9zcy1vcmlnaW4gZm9yIG5vbi1oZWFkbGVzcyB8CnwgKipPbmxpbmUvY29va2llcyoqIHwgYG5hdmlnYXRvci5vbkxpbmVgLCBgY29va2llRW5hYmxlZGAgfCBBbG1vc3QgYWx3YXlzIG9ubGluZSBhbmQgY29va2llcyBlbmFibGVkIHwKClRoZXNlIGFyZSBhcHBsaWVkIGF1dG9tYXRpY2FsbHkgd2hlbiB0aGUgaW5zdGFsbGVkIENhbW91Zm94IGJ1aWxkIHN1cHBvcnRzIHRoZSBjb3JyZXNwb25kaW5nIHByb3BlcnRpZXMuIFJ1biBgbnB4IGJleHhjdiBkb2N0b3JgIHRvIHNlZSB5b3VyIGJ1aWxkJ3Mgc3VwcG9ydGVkIHByb3BlcnRpZXMuCgotLS0KCiMjIFBlcnNpc3RlbnQgY29udGV4dAoKYGBgdHMKaW1wb3J0IHsgYmV4eGN2IH0gZnJvbSAiYmV4eGN2IjsKCmNvbnN0IGNvbnRleHQgPSBhd2FpdCBiZXh4Y3YoewogIHVzZXJfZGF0YV9kaXI6ICIuL2Jyb3dzZXItcHJvZmlsZSIsCiAgaGVhZGxlc3M6IGZhbHNlLAp9KTsKCmNvbnN0IHBhZ2UgPSBhd2FpdCBjb250ZXh0Lm5ld1BhZ2UoKTsKYXdhaXQgcGFnZS5nb3RvKCJodHRwczovL2V4YW1wbGUuY29tIik7CmF3YWl0IGNvbnRleHQuY2xvc2UoKTsKYGBgCgpBIHBlcnNpc3RlZCBwcm9maWxlIHN1cnZpdmVzIHJlc3RhcnRzLiBOb3RlOiBzaGFyaW5nIHByb2ZpbGVzIGFjcm9zcyBkaWZmZXJlbnQgT1MgZmluZ2VycHJpbnRzIG1heSBsZWFrIGluY29uc2lzdGVuY2llcy4KCi0tLQoKIyMgU2NyaXB0aW5nIGhlbHBlcnMKClRoZSBgZ2V0UG9zc2libGVQYWlycygpYCwgYHNhbXBsZUdQVVByb2ZpbGUoKWAsIGFuZCBgcmVzb2x2ZVVBT1MoKWAgZnVuY3Rpb25zIGFyZSBleHBvcnRlZCBmb3IgYWR2YW5jZWQgdXNlIGNhc2VzOgoKYGBgdHMKaW1wb3J0IHsgZ2V0UG9zc2libGVQYWlycywgZ2VuZXJhdGVGaW5nZXJwcmludCwgZ2V0UmVhbGlzdGljRm9udHMsIHJlc29sdmVVQU9TIH0gZnJvbSAiYmV4eGN2IjsKCmNvbnN0IHBhaXJzID0gYXdhaXQgZ2V0UG9zc2libGVQYWlycygpOwpjb25zb2xlLmxvZyhwYWlycy53aW5kb3dzWzBdKTsgLy8geyB2ZW5kb3I6ICIuLi4iLCByZW5kZXJlcjogIi4uLiIgfQoKY29uc3QgZ3B1ID0gc2FtcGxlR1BVUHJvZmlsZSgibGludXgiKTsKY29uc29sZS5sb2coZ3B1LnZlbmRvciwgZ3B1LnJlbmRlcmVyKTsKCmNvbnN0IGZwID0gZ2VuZXJhdGVGaW5nZXJwcmludChbMTI4MCwgNzIwXSwgeyBvcGVyYXRpbmdTeXN0ZW1zOiBbImxpbnV4Il0gfSk7CmNvbnNvbGUubG9nKGZwLnNjcmVlbi53aWR0aCwgZnAuYXVkaW9TZWVkLCBmcC53ZWJnbFZlbmRvcik7CmBgYAoKLS0tCgojIyBUcm91Ymxlc2hvb3RpbmcKCiMjIyBgVW5rbm93blByb3BlcnR5YCDigJQgdW5zdXBwb3J0ZWQgY29uZmlnIGtleQoKU29tZSBmaW5nZXJwcmludCBwcm9wZXJ0aWVzIGFyZW4ndCBzdXBwb3J0ZWQgYnkgb2xkZXIgQ2Ftb3Vmb3ggYnVpbGRzLiBSdW4gYG5weCBiZXh4Y3YgZG9jdG9yYCB0byBzZWUgd2hpY2ggcHJvcGVydGllcyB5b3VyIGluc3RhbGxlZCBidWlsZCBzdXBwb3J0cy4gUHJvcGVydGllcyBub3QgaW4gYHByb3BlcnRpZXMuanNvbmAgYXJlIHNraXBwZWQgYXV0b21hdGljYWxseSB3aGVuIHVzaW5nIHRoZSBkZWZhdWx0IGZpbmdlcnByaW50IHBpcGVsaW5lLgoKIyMjIGBWaXJ0dWFsRGlzcGxheUVycm9yYCDigJQgWHZmYiBub3QgZm91bmQKCkluc3RhbGwgWHZmYiBvbiB5b3VyIHN5c3RlbToKCmBgYGJhc2gKIyBEZWJpYW4gLyBVYnVudHUKc3VkbyBhcHQtZ2V0IHVwZGF0ZSAmJiBzdWRvIGFwdC1nZXQgaW5zdGFsbCAteSB4dmZiCgojIEFscGluZSBMaW51eAphcGsgYWRkIHh2ZmItcnVuCgojIEZlZG9yYSAvIFJIRUwKZG5mIGluc3RhbGwgeG9yZy14MTEtc2VydmVyLVh2ZmIKYGBgCgojIyMgYENhbW91Zm94Tm90SW5zdGFsbGVkYCDigJQgYmluYXJ5IG1pc3NpbmcKCmBgYGJhc2gKbnB4IGJleHhjdiBmZXRjaApgYGAKClByZS1wcm92aXNpb25lZCBiaW5hcnkgKERvY2tlciAvIENJKToKYGBgYmFzaApQTEFZV1JJR0hUX1NLSVBfQlJPV1NFUl9ET1dOTE9BRD0xCkNBTU9VRk9YX0lOU1RBTExfRElSPS9wYXRoL3RvL3lvdXIvYmluYXJ5CmBgYAoKIyMjIGBVbnN1cHBvcnRlZFZlcnNpb25gIOKAlCBvdXRkYXRlZCBiaW5hcnkKCmBgYGJhc2gKbnB4IGJleHhjdiBmZXRjaApgYGAKCiMjIyBgQ29ycnVwdGVkRG93bmxvYWRgIOKAlCBjaGVja3N1bSBtaXNtYXRjaAoKYGBgYmFzaApucHggYmV4eGN2IHJlbW92ZQpucHggYmV4eGN2IGZldGNoCiMgb3IgbWFudWFsbHk6CnJtIC1yZiB+Ly5jYWNoZS9jYW1vdWZveApucHggYmV4eGN2IGZldGNoCmBgYAoKIyMjIGBVbnN1cHBvcnRlZEFyY2hpdGVjdHVyZWAg4oCUIHBsYXRmb3JtIG5vdCBzdXBwb3J0ZWQKClN1cHBvcnRlZCBtYXRyaXg6Cgp8IE9TIHwgQXJjaGl0ZWN0dXJlcyB8CnwtLS18LS0tfAp8IExpbnV4IHwgYHg4Nl82NGAsIGBhcm02NGAsIGBpNjg2YCB8CnwgbWFjT1MgfCBgeDg2XzY0YCwgYGFybTY0YCB8CnwgV2luZG93cyB8IGB4ODZfNjRgLCBgaTY4NmAgfAoKIyMjIGBNaXNzaW5nUmVsZWFzZWAg4oCUIEdpdEh1YiByYXRlIGxpbWl0IG9yIG5ldHdvcmsgaXNzdWUKCioqRml4IOKAlCBhZGQgYSBHaXRIdWIgdG9rZW46KioKYGBgYmFzaApHSVRIVUJfVE9LRU49Z2hwX3lvdXJfdG9rZW4gbnB4IGJleHhjdiBmZXRjaApgYGAKClVuYXV0aGVudGljYXRlZCBHaXRIdWIgQVBJIGlzIGxpbWl0ZWQgdG8gNjAgcmVxdWVzdHMvaG91ciBwZXIgSVAuCgojIyMgYFdlYkdMIGRhdGFiYXNlIG5vdCBmb3VuZCBvciBlbXB0eWAKClRoZSBwYWNrYWdlIHNoaXBzIGB3ZWJnbF9kYXRhLmRiYCBpbnNpZGUgYGRpc3QvZGF0YS1maWxlc2AuIElmIHlvdSBzZWUgdGhpcyBlcnJvciB3aGlsZSBkZXZlbG9waW5nIGJleHhjdiBpdHNlbGYsIHBsYWNlIGEgdmFsaWQgYHdlYmdsX2RhdGEuZGJgIGluIGBzcmMvZGF0YS1maWxlc2AgYW5kIHJ1biBgcG5wbSBidWlsZGAgYWdhaW4uCgojIyMgYHBsYXl3cmlnaHQtY29yZWAgdmVyc2lvbiBtaXNtYXRjaAoKYmV4eGN2IHJlcXVpcmVzIGBwbGF5d3JpZ2h0LWNvcmUgPCAxLjYzLjBgLgoKKipGaXg6KioKYGBgYmFzaApucG0gaW5zdGFsbCBwbGF5d3JpZ2h0LWNvcmVAMS42Mi4xCmBgYAoKIyMjIE5vZGUuanMgdmVyc2lvbiB0b28gb2xkCgpiZXh4Y3YgcmVxdWlyZXMgTm9kZS5qcyA+PSAyMi4KCioqRml4OioqCmBgYGJhc2gKbm9kZSAtLXZlcnNpb24KbnZtIGluc3RhbGwgMjIgJiYgbnZtIHVzZSAyMgpgYGAKCiMjIyBgSW52YWxpZFByb3h5YCDigJQgcHJveHkgZm9ybWF0IHdyb25nCgpQcm94eSBtdXN0IGJlIGBwcm90b2NvbDovL1t1c2VyOnBhc3N3b3JkQF1ob3N0OnBvcnRgOgoKYGBgdHMKYXdhaXQgYmV4eGN2KHsKICBwcm94eTogImh0dHA6Ly91c2VyOnBhc3NAcHJveHkuZXhhbXBsZS5jb206ODA4MCIsCn0pOwpgYGAKCiMjIyBgTm9uRmlyZWZveEZpbmdlcnByaW50YCDigJQgd3JvbmcgYnJvd3NlciBmaW5nZXJwcmludAoKWW91IHBhc3NlZCBhIGZpbmdlcnByaW50IGdlbmVyYXRlZCBmb3IgQ2hyb21lIG9yIFNhZmFyaS4gYmV4eGN2IG9ubHkgYWNjZXB0cyBGaXJlZm94IGZpbmdlcnByaW50cy4KCioqRml4OioqIHJlZ2VuZXJhdGUgd2l0aCBgYnJvd3NlcnM6IFsiZmlyZWZveCJdYCwgb3IgcGFzcyBgaV9rbm93X3doYXRfaW1fZG9pbmc6IHRydWVgIGlmIHlvdSdyZSBpbnRlbnRpb25hbGx5IG1peGluZyAoZGV0ZWN0aW9uIHJpc2spLgoKLS0tCgojIyBMaWNlbnNlCgpNUEwtMi4wIOKAlCBzYW1lIGFzIHRoZSB1cHN0cmVhbSBbY2Ftb3Vmb3gtanNdKGh0dHBzOi8vZ2l0aHViLmNvbS9hcGlmeS9jYW1vdWZveC1qcykuCg==
+# bexxcv
+
+Headless Firefox automation with realistic browser fingerprints, built on top of [Camoufox](https://github.com/daijro/camoufox).
+
+> **Fork notice:** Forked from [camoufox-js](https://github.com/apify/camoufox-js) by [Apify]. Full credit to the original authors for the architecture, fingerprint generation pipeline, and Playwright integration. This fork adds entropy improvements, GPU-aware WebGL sampling, session management, and ergonomic enhancements.
+>
+> **v1.1.4:** Enhanced fingerprint realism (canvas anti-aliasing offset, audio sample-rate jitter, performance clock drift), expanded 2024–2026 GPU profiles, six new Cloudflare-aware plugins (`jsd`, `ephemeral`, `precursor`, `classify`, `botscore`, `brake`), and improved JSD challenge detection that only activates on real Cloudflare challenge pages.
+
+---
+
+## What's different from camoufox-js
+
+| Area | Original | bexxcv |
+|---|---|---|
+| IP resolution | Sequential fallback (up to 6s on cold start) | `Promise.any()` — all endpoints race, fastest wins |
+| Randomness source | `Math.random()` | `crypto.getRandomValues()` everywhere |
+| `window.devicePixelRatio` | Not injected (always 1.0) | Injected per-OS from real-world telemetry distribution |
+| DPR coherence | Chosen independently of screen size | Selected so CSS × DPR matches a known monitor resolution |
+| Window position | Perfectly centered | Organic ±20px jitter + upper-biased Y placement |
+| Download retries | Flat delay | Exponential backoff with crypto jitter (2s → 4s → 8s → max 30s) |
+| Xvfb trigger | `headless: "virtual"` only | `headless: false` auto-starts Xvfb when `$DISPLAY` is unset |
+| WebGL sampling | `Math.random()` for weighted choice | `crypto.getRandomValues()` with OS-weighted GPU profiles |
+| Turnstile solver | Manual | `turnstile: true` — background checkbox clicker per page |
+| Cloudflare UAM | Manual | `uam: true` — waits until challenge clears before continuing |
+| Human behavior | Cursor movement only (`humanize`) | `attachHumanBehavior(page)` — typed sessions with drift, typos, fatigue |
+| Launch speed | Sequential setup | Public IP lookup runs in parallel with binary check; telemetry off by default |
+| Fingerprint seeds | Plain random | Audio, canvas, font-spacing, WebGL vendor/renderer from per-GPU database |
+| Hardware concurrency | Fixed / not spoofed | Spoofed from realistic pool per target OS |
+| Device memory | Not set | Injected from fingerprint-derived multiplier |
+| Timezone | Exact UTC offset | ±15 min jitter for realism |
+
+---
+
+## Requirements
+
+- Node.js >= 22
+- `playwright-core` < 1.63.0
+- Linux headless: `Xvfb` (install via package manager if needed)
+
+---
+
+## Installation
+
+```bash
+npm install bexxcv playwright-core
+# or
+pnpm add bexxcv playwright-core
+```
+
+Fetch the Camoufox browser binary after installing:
+
+```bash
+npx bexxcv fetch
+```
+
+---
+
+## Basic usage
+
+```ts
+import { bexxcv } from "bexxcv";
+
+const browser = await bexxcv({ headless: true });
+const page = await browser.newPage();
+await page.goto("https://example.com");
+await browser.close();
+```
+
+On a headless Linux server without `$DISPLAY`, Xvfb starts automatically when `headless` is `false` or unset — no `xvfb-run` wrapper required.
+
+---
+
+## Options
+
+```ts
+const browser = await bexxcv({
+  // --- Display ---
+  headless: false,      // false | true | "virtual"
+  auto_xvfb: true,      // auto-start Xvfb on Linux without $DISPLAY
+
+  // --- OS targeting ---
+  os: "windows",        // "linux" | "macos" | "windows" | array
+
+  // --- Fingerprint customization ---
+  fingerprint: undefined,       // pass a custom Fingerprint object
+  ff_version: undefined,        // override Firefox version in UA string
+  screen: undefined,            // { maxWidth, maxHeight } — constrain physical screen
+  window: undefined,            // [width, height] — fix outer window dimensions
+  webgl_config: undefined,      // [vendor, renderer] — pick specific WebGL pair
+  hardware_concurrency_override: undefined, // override CPU thread count
+  device_memory_override: undefined,        // override navigator.deviceMemory
+  timezone_jitter: true,        // ±15 min offset noise (default on)
+  perf_jitter: true,            // performance.now() clock drift (default on)
+  session_stickiness: true,     // keep values consistent within a session (default on)
+
+  // --- Network / locale ---
+  geoip: true,                  // true = detect public IP; string = use specific IP
+  locale: "en-US",              // BCP 47 locale string or array
+  proxy: "http://user:pass@host:port",
+
+  // --- Privacy toggles ---
+  block_webrtc: false,          // disable WebRTC (prevents STUN-based IP leaks)
+  block_images: false,          // disable image loading
+  block_webgl: false,           // disable WebGL entirely
+  disable_coop: false,          // disable Cross-Origin-Opener-Policy
+
+  // --- Browser behavior ---
+  humanize: false,              // true | number(ms) — random mouse delays
+  turnstile: false,             // auto-click Turnstile checkboxes
+  uam: false,                   // wait out Cloudflare UAM challenges
+  enable_cache: false,          // enable disk + memory cache
+  main_world_eval: false,       // allow JS eval in main world
+
+  // --- Cloudflare / anti-bot plugins (v1.1.4) ---
+classify: true, // auto-detect Cloudflare challenge type per response (default)
+jsd: true, // intercept JSD challenges, wait for cf_clearance (auto-activates on CF pages)
+ephemeral: true, // capture & replay Turnstile ephemeral IDs (default)
+precursor: true, // detect cf_ cookie drift between navigations (default)
+botScore: false, // monitor Cloudflare bot score per page
+brake: false, // rate-limit navigation after CF 403/429 responses
+gauntlet: false, // run a full fingerprint audit gauntlet before each page
+wiretap: false, // intercept & log network requests/responses
+stash: false, // persist fingerprint state to a file for reuse across runs
+veneer: false, // apply a visual "veneer" of extra browser-like CSS properties
+cocoon: false, // sandboxed session isolation
+dodge: false, // avoid re-challenge by rotating ephemeral identifiers
+lens: false, // run the lens audit on each page (fingerprint consistency check)
+human: false, // attach human-like behavior wrapper per page
+
+// --- Addons & fonts ---
+  addons: [],                   // paths to Firefox extension XPIs
+  exclude_addons: [],           // built-in addon keys to skip
+  fonts: [],                    // additional font names to inject
+  custom_fonts_only: false,     // strip built-in fonts, use only your list
+
+  // --- Low-level ---
+  executable_path: undefined,   // path to a custom Firefox binary
+  firefox_user_prefs: {},       // raw Firefox about:config prefs
+  args: [],                     // extra CLI args passed to Firefox
+  env: {},                      // extra environment variables
+  debug: false,                 // print full config before launch
+});
+```
+
+### `headless`
+
+| Value | Behavior |
+|---|---|
+| `true` | Pure headless — no display needed |
+| `false` (default) | Visible window. On Linux with no `$DISPLAY`, auto-starts Xvfb |
+| `"virtual"` | Explicit virtual display regardless of `$DISPLAY` state |
+
+### `os`
+
+Restricts the fingerprint generator to browsers seen on the given OS(es). Affects UA string, `navigator.platform`, `navigator.oscpu`, screen dimensions, and font set.
+
+```ts
+await bexxcv({ os: "windows" });
+await bexxcv({ os: ["windows", "macos"] });
+```
+
+### `geoip`
+
+Detects the server's public IP and aligns geolocation fields (timezone, locale, language headers). Combine with `proxy` to match the proxy exit node.
+
+```ts
+await bexxcv({ geoip: true });
+await bexxcv({ geoip: "203.0.113.45" });
+await bexxcv({ proxy: "socks5://user:pass@proxy.example.com:1080", geoip: true });
+```
+
+Requires the optional `geoip2` extra.
+
+### `screen`
+
+Constrains the generated physical screen size. The width/height are treated as physical pixel bounds; the final CSS pixels depend on the selected DPR.
+
+```ts
+await bexxcv({ screen: { maxWidth: 1920, maxHeight: 1080 } });
+```
+
+### `webgl_config`
+
+Override the WebGL vendor/renderer pair. Use the exported helper to list valid combinations:
+
+```ts
+import { getPossiblePairs, sampleGPUProfile, KNOWN_GPUS } from "bexxcv";
+// or
+await bexxcv({ webgl_config: ["Intel Inc.", "Intel Iris OpenGL Engine"] });
+```
+
+### `turnstile`
+
+Background solver for Cloudflare Turnstile checkboxes.
+
+```ts
+const browser = await bexxcv({ turnstile: true });
+```
+
+Per-page loop. Looks for `cf-turnstile-response` inputs, clicks the checkbox area, scrolls into view if needed, and skips already-solved widgets. Works alongside `humanize`.
+
+Options: `{ interval: 1000, retryAfter: 8000 }` (defaults shown).
+
+### `uam`
+
+Waits out Cloudflare "Just a moment" pages.
+
+```ts
+const browser = await bexxcv({ uam: true });
+```
+
+Options: `{ timeout: 30000, interval: 1500, waitOnGoto: true }`. Pages without a challenge return immediately.
+
+Can be combined with `turnstile`.
+
+---
+
+## Cloudflare plugins (v1.1.4)
+
+bexxcv ships six Cloudflare-aware plugins that are enabled by default (or opt-in). Each plugin integrates via the `PluginOptions` interface and is built into the browser context by `buildPlugins()`.
+
+### `classify` — challenge-classify (default: `true`)
+
+Reads HTTP responses and page titles to detect which Cloudflare anti-bot layer fired. Classifies as `jsd`, `managed`, `interactive`, `non_interactive`, `turnstile`, `rate_limit`, or `bot_score_low`. Results are cached per-response and exposed via `challengeInfoFor(response)` and `pageChallengeHistory(page)`.
+
+```ts
+import { bexxcv, challengeInfoFor } from "bexxcv";
+
+const browser = await bexxcv({ classify: true });
+// On response inspection:
+const page = await browser.newPage();
+const resp = await page.goto("https://protected-site.com");
+const info = challengeInfoFor(resp);
+if (info.type === "managed") console.log("Managed challenge detected");
+```
+
+### `jsd` — JS Detection handler (default: `true`)
+
+Intercepts `page.goto()` and detects real Cloudflare JavaScript Detection challenges by checking for:
+- "Just a moment" / "Attention required" page titles
+- `window.cloudflare.jsd` with `state === "pending"` (only when Cloudflare itself injected the namespace)
+
+If a challenge is detected, polls for `cf_clearance` cookie or JSD state transition. Pages without a Cloudflare challenge pass through instantly — no 15s penalty.
+
+```ts
+import { bexxcv, isJsdPassed } from "bexxcv";
+
+const browser = await bexxcv({
+  jsd: { timeout: 20_000, interval: 500 },
+});
+const page = await browser.newPage();
+await page.goto("https://protected-site.com");
+const passed = await isJsdPassed(page);
+```
+
+Options: `{ timeout?: number, interval?: number }`
+
+### `ephemeral` — Turnstile ephemeral ID tracking (default: `true`)
+
+Captures `ephemeral_id` from Turnstile responses and replays it on subsequent navigations to reduce re-challenge frequency. Stored per-context with a 10-minute TTL.
+
+```ts
+import { bexxcv, getEphemeralEntries, replayEphemeral } from "bexxcv";
+
+const browser = await bexxcv({
+  ephemeral: { autoReplay: true, maxAgeMs: 1_800_000 },
+});
+const context = (browser as any).contexts()[0];
+const entries = getEphemeralEntries(context);
+```
+
+### `precursor` — cookie drift detection (default: `true`)
+
+Watches `cf_` prefixed cookies on every navigation and response. When `cf_clearance` stays the same but a precursor cookie value changes, it signals a stale session. Emits a warning and optionally auto-reloads.
+
+```ts
+import { bexxcv, getPrecursorState } from "bexxcv";
+
+const browser = await bexxcv({
+  precursor: { warn: true, autoReload: true },
+});
+const page = await browser.newPage();
+await page.goto("https://protected-site.com");
+const state = getPrecursorState(page);
+```
+
+Options: `{ warn?: boolean, autoReload?: boolean, names?: string[] }`
+
+### `botScore` — bot score monitor (default: `false`)
+
+Periodically checks Cloudflare's bot score via the page's `window.__cfBotScore` (when available) and logs the value. Useful for debugging why a site is issuing managed challenges.
+
+```ts
+import { bexxcv, getBotScores, hadLowScore } from "bexxcv";
+
+const browser = await bexxcv({ botScore: { log: true } });
+const page = await browser.newPage();
+await page.goto("https://protected-site.com");
+const scores = getBotScores(page);
+if (hadLowScore(page, 40)) console.log("Bot score was low — expect challenges");
+```
+
+### `brake` — rate limiter with CF 403 support (default: `false`)
+
+Intercepts `page.goto()` and applies exponential backoff when Cloudflare returns HTTP 403 or 429. Prevents rapid re-challenge loops.
+
+```ts
+import { bexxcv, brake } from "bexxcv";
+
+const browser = await bexxcv({
+  brake: { maxRetries: 3, baseDelayMs: 2000 },
+});
+```
+
+Options: `{ maxRetries?: number, baseDelayMs?: number }`
+
+### `stealth` — automation marker spoofing (default: `false`)
+
+Patches `navigator.webdriver`, `navigator.plugins`, `navigator.languages`, and removes framework markers (`window.Cypress`, `window.__playwright`, `window._phantom`, etc.) via `addInitScript`. All patches run in the page's main world before any site JavaScript executes.
+
+```ts
+import { bexxcv, stealth, attachStealth } from "bexxcv";
+
+// Use as a launch option:
+const browser = await bexxcv({
+  stealth: {
+    webdriver: true,
+    plugins: true,
+    languages: true,
+    frameworkMarkers: true,
+  },
+});
+
+// Or attach to an existing browser:
+attachStealth(browser, { webdriver: true });
+```
+
+Options: `{ webdriver?: boolean, plugins?: boolean, languages?: boolean, frameworkMarkers?: boolean }`
+
+---
+
+## Fingerprint quality (v1.1.4)
+
+bexxcv generates fingerprints with per-GPU WebGL data, canvas anti-aliasing offsets, audio sample-rate jitter, and performance clock drift. The fingerprint pipeline:
+
+1. **OS selection** — picks a Firefox version, platform, and screen size from a weighted pool
+2. **DPR coherence** — selects a device pixel ratio such that CSS × DPR matches a known monitor resolution
+3. **WebGL sampling** — queries `webgl_data.db` for vendor/renderer pairs weighted by OS and GPU generation (2024–2026 hardware included)
+4. **Canvas AA offset** — applies a per-GPU anti-aliasing sub-pixel offset to `canvasAaOffset`
+5. **Audio jitter** — applies `audioSampleRateJitter` (±0.5 Hz) to the Web Audio API clock
+6. **Perf jitter** — applies Gaussian `perfJitterSigma` drift to `performance.now()`
+7. **Font spacing** — picks a font rendering seed from a weighted list per OS
+
+```ts
+import { generateFingerprint, sampleGPUProfile, resolveUAOS } from "bexxcv";
+
+const fp = generateFingerprint([1920, 1080], {
+  operatingSystems: ["windows"],
+  canvasAaOffset: true,
+  audioSampleRateJitter: true,
+  perfJitterSigma: 0.15,
+});
+console.log(fp.webglVendor, fp.webglRenderer, fp.canvasAaOffset);
+
+const gpu = sampleGPUProfile("linux");
+console.log(gpu.vendor, gpu.renderer);
+
+const os = resolveUAOS(gpu.vendor, gpu.renderer);
+console.log(os); // "linux" | "windows" | "macos"
+```
+
+---
+
+## Session API
+
+Bexxcv maintains per-page session state for consistent fingerprinting and human-like behavior across multiple page navigations.
+
+```ts
+import { attachHumanBehavior, getSessionInfo, initSession, advancePage, endSession } from "bexxcv";
+
+const browser = await bexxcv({ headless: true });
+const page = await browser.newPage();
+
+// Initialize a session tied to this page
+initSession(page);
+
+// Attach human-like behavior (mouse drift, typing delays, page transition pacing)
+attachHumanBehavior(page, { speed: 1, idleDrift: true });
+
+await page.goto("https://example.com/page1");
+advancePage(page); // increment session page counter
+
+const info = getSessionInfo(page);
+console.log(info.id, info.pageCount, info.ageMs);
+
+await page.goto("https://example.com/page2");
+endSession(page); // clean up
+await browser.close();
+```
+
+### `initSession(page, options?)`
+
+Creates a new session bound to the page. Returns a session ID string. Sessions track a random seed buffer used for reproducible seeded randomness across page loads.
+
+Options: `{ timeout?: number, maxPages?: number, seedLength?: number }`
+
+### `getSessionId(page)`
+
+Returns the current session ID for a page, or `null` if none exists.
+
+### `advancePage(page)`
+
+Increments the page counter for the active session. Called automatically by `attachHumanBehavior` during navigation.
+
+### `endSession(page)`
+
+Removes session state from the page and cleans up internal maps.
+
+### `isSessionExpired(page, timeoutMs?)`
+
+Returns `true` if the session age exceeds `timeoutMs` (default 30 minutes).
+
+### `attachHumanBehavior(page, options?)`
+
+Wraps `page.goto()`, `page.click()`, and `page.evaluate()` with human-like timing. Uses seeded Gaussian drift for idle cursor movement based on the session seed.
+
+Options:
+| Option | Default | Description |
+|---|---|---|
+| `speed` | `1` | Multiplier for all delays (lower = faster) |
+| `typoRate` | `0.015` | Probability of random character errors in typed text |
+| `scrollPattern` | `"natural"` | Scroll pattern type |
+| `idleDrift` | `true` | Subtle cursor drift while idle |
+| `sessionTimeout` | `1800000` | Session expiry in ms |
+| `maxPagesPerSession` | `20` | Max pages before session expires |
+| `pageTransitionMinMs` | `800` | Min delay between page loads |
+| `pageTransitionMaxMs` | `3000` | Max delay between page loads |
+| `mouseAcceleration` | `true` | Accelerate cursor toward targets |
+
+### `detachHumanBehavior(page)`
+
+Reverses the wrappers applied by `attachHumanBehavior`.
+
+### `getSessionInfo(page)`
+
+Returns `{ id, pageCount, ageMs }` or `null` if no session exists.
+
+---
+
+## Fingerprint internals
+
+### GPU profile sampling
+
+Each fingerprint includes a randomly-selected but OS-weighted GPU profile. Known GPUs are stored in `KNOWN_GPUs` per OS, with weights reflecting typical market share. The same GPU profile determines both the `webGl:vendor`/`webGl:renderer` fingerprint properties and the GLSL shader version string.
+
+Optional WebGL extensions are added probabilistically per OS. The full list lives in `src/webgl/profiles.ts` and can be extended.
+
+### Screen DPI coherence
+
+`devicePixelRatio` is sampled from an OS-specific pool, then validated so that `CSS_width × DPR` and `CSS_height × DPR` each land on a known physical monitor resolution. Invalid combinations receive near-zero weight, making impossible resolutions statistically negligible.
+
+### Extended fingerprint fields
+
+Beyond the standard `fingerprint-generator` output, bexxcv adds these internal fields to the generated fingerprint object:
+
+| Field | Purpose |
+|---|---|
+| `audioSeed` | Seed for audio context fingerprinting |
+| `canvasSeed` | Seed for canvas fingerprint noise patterns |
+| `fontSpacingSeed` | Seed for font measurement spacing jitter |
+| `webglVendor` | Physical GPU vendor name |
+| `webglRenderer` | Physical GPU renderer string |
+| `webglGLSL` | Corresponding GLSL version |
+| `webglExtensions` | Supported WebGL extension list |
+| `hardwareConcurrencySeed` | CPU core count selection |
+| `memoryMultiplier` | RAM multiplier for `navigator.deviceMemory` |
+| `perfJitter` | `performance.now()` clock drift offset |
+| `timezoneOffsetJitter` | Timezone offset shift in seconds |
+| `touchSupport` | Whether touch input is reported |
+| `pointerType` | Primary pointer type ("mouse"/"touch"/"pen") |
+
+These fields are consumed during config assembly when the installed Camoufox build supports the corresponding properties (checked against the build's `properties.json`). Older builds that lack a property simply skip it.
+
+---
+
+## Plugins
+
+bexxcv ships a set of pluggable behaviors you can compose:
+
+| Plugin | What it does |
+|---|---|
+| `brake` | Rate-limits requests with exponential backoff |
+| `cocoon` | Persists browser profile data to disk |
+| `dodge` | Rotates through a proxy pool with health checks |
+| `gauntlet` | Runs sustained challenge-solving loops |
+| `human` | Wraps page interactions with human-like timing |
+| `lens` | Audits fingerprint properties for consistency |
+| `stash` | Saves cookies/localStorage to JSON files |
+| `veneer` | Strips unnecessary fingerprint properties |
+| `wiretap` | Logs network request/response details |
+
+See individual plugin documentation for configuration options.
+
+---
+
+## Lens Fingerprint Audit
+
+The `lens` plugin audits the running browser's fingerprint in real time and reports any inconsistencies:
+
+```ts
+import { bexxcv, lens, lensReport } from "bexxcv";
+
+const browser = await bexxcv({ headless: true });
+const page = await browser.newPage();
+await page.goto("https://example.com");
+
+// The lens plugin runs automatically when added to plugins
+const report = lensReport(page);
+if (report) {
+  console.log(`Score: ${report.score}/100`);
+  for (const check of report.checks) {
+    if (!check.ok) console.log(`  ❌ ${check.id}: ${check.detail}`);
+  }
+}
+```
+
+Run the audit manually on any page:
+
+```ts
+import { auditFingerprint } from "bexxcv";
+
+const report = await auditFingerprint(page);
+```
+
+### Checks performed
+
+| Check ID | What it validates |
+|---|---|
+| `webdriver` | `navigator.webdriver` is `undefined` / falsy |
+| `ua-platform` | `navigator.platform` matches OS in UA string |
+| `language` | First language in `navigator.languages` equals `navigator.language` |
+| `locale-intl` | `Intl.DateTimeFormat()` locale matches `navigator.language` prefix |
+| `dpr-screen` | CSS × DPR lands on a known physical monitor resolution |
+| `window-size` | inner ≤ outer ≤ screen + 16 px (Chrome frame buffer) |
+| `cores` | hardwareConcurrency is a plausible CPU core count |
+| `touch` | `maxTouchPoints` is 0 on desktop UAs |
+| `webgl` | WebGL vendor/renderer are present and non-null |
+| `webgl-software` | Renderer is not a software fallback (llvmpipe/swiftshader) |
+| `native-code` | Core APIs have `[native code]` toString output |
+| `ua-hints` | `userAgentData` absent for Firefox, present for Chrome-like UAs |
+| `chrome-object` | `window.chrome` absent for Firefox |
+| `pdf-viewer` | `navigator.pdfViewerEnabled` is `true` on Firefox |
+| `focus` | Page is focused and visible |
+| `media-devices` | At least one media device or headless timeout fallback |
+| `audio-sample-rate` | `AudioContext.sampleRate` is 44100 or 48000 |
+| `fonts-enumerated` | `document.fonts.size > 0` and no load error |
+| `webgl-shader-precision` | Highp float shader precision ≥ 23 (desktop GPU) |
+| `client-hints-platform` | `userAgentData.platform` consistent with `navigator.platform` |
+
+---
+
+## Context Isolation
+
+Every Playwright `browserContext` gets an independent fingerprint, storage, and cookies. Cross-context leakage is guarded by test coverage:
+
+```ts
+import { Camoufox } from "bexxcv";
+
+const browser = await Camoufox({ headless: true });
+
+const ctxA = await browser.newContext();
+const ctxB = await browser.newContext();
+
+const pageA = await ctxA.newPage();
+const pageB = await ctxB.newPage();
+
+await pageA.goto("https://example.com");
+await pageB.goto("https://example.com");
+
+// localStorage set in A is invisible from B
+await pageA.evaluate(() => localStorage.setItem("key", "secret-a"));
+const leaked = await pageB.evaluate(() => localStorage.getItem("key"));
+console.log(leaked); // null ✓
+```
+
+Tests are in `test/isolation.test.ts`.
+
+---
+
+## Behavioral Seeding
+
+Beyond raw fingerprint properties, bexxcv seeds high-level behavioral signals that detectors flag as suspicious when missing or default:
+
+| Property Group | What Gets Seeded | Realism Logic |
+|---|---|---|
+| **Battery** | `battery:level`, `charging`, `dischargingTime` | Desktop → full & discharging; Laptop/Mac → 20–95% with ~25% charging state |
+| **Media devices** | `mediaDevices:micros/webcams/speakers` | OS-weighted pools: mics [0-2], cams [0-2], speakers [0-4] |
+| **Speech voices** | `voices[]`, `blockIfNotDefined`, `fakeCompletion` | 2–10 voices matching locale language |
+| **Do Not Track** | `navigator.doNotTrack` | ~20% of real users enable DNT |
+| **GPC** | `navigator.globalPrivacyControl` | ~10% signal GPC |
+| **Referrer policy** | Firefox pref `privacy.referrer_policy` | Same-Origin on cross-origin for non-headless |
+| **Online/cookies** | `navigator.onLine`, `cookieEnabled` | Almost always online and cookies enabled |
+
+These are applied automatically when the installed Camoufox build supports the corresponding properties. Run `npx bexxcv doctor` to see your build's supported properties.
+
+---
+
+## Persistent context
+
+```ts
+import { bexxcv } from "bexxcv";
+
+const context = await bexxcv({
+  user_data_dir: "./browser-profile",
+  headless: false,
+});
+
+const page = await context.newPage();
+await page.goto("https://example.com");
+await context.close();
+```
+
+A persisted profile survives restarts. Note: sharing profiles across different OS fingerprints may leak inconsistencies.
+
+---
+
+## Scripting helpers
+
+The `getPossiblePairs()`, `sampleGPUProfile()`, and `resolveUAOS()` functions are exported for advanced use cases:
+
+```ts
+import { getPossiblePairs, generateFingerprint, getRealisticFonts, resolveUAOS } from "bexxcv";
+
+const pairs = await getPossiblePairs();
+console.log(pairs.windows[0]); // { vendor: "...", renderer: "..." }
+
+const gpu = sampleGPUProfile("linux");
+console.log(gpu.vendor, gpu.renderer);
+
+const fp = generateFingerprint([1280, 720], { operatingSystems: ["linux"] });
+console.log(fp.screen.width, fp.audioSeed, fp.webglVendor);
+```
+
+---
+
+## Troubleshooting
+
+### `UnknownProperty` — unsupported config key
+
+Some fingerprint properties aren't supported by older Camoufox builds. Run `npx bexxcv doctor` to see which properties your installed build supports. Properties not in `properties.json` are skipped automatically when using the default fingerprint pipeline.
+
+### `VirtualDisplayError` — Xvfb not found
+
+Install Xvfb on your system:
+
+```bash
+# Debian / Ubuntu
+sudo apt-get update && sudo apt-get install -y xvfb
+
+# Alpine Linux
+apk add xvfb-run
+
+# Fedora / RHEL
+dnf install xorg-x11-server-Xvfb
+```
+
+### `CamoufoxNotInstalled` — binary missing
+
+```bash
+npx bexxcv fetch
+```
+
+Pre-provisioned binary (Docker / CI):
+```bash
+PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1
+CAMOUFOX_INSTALL_DIR=/path/to/your/binary
+```
+
+### `UnsupportedVersion` — outdated binary
+
+```bash
+npx bexxcv fetch
+```
+
+### `CorruptedDownload` — checksum mismatch
+
+```bash
+npx bexxcv remove
+npx bexxcv fetch
+# or manually:
+rm -rf ~/.cache/camoufox
+npx bexxcv fetch
+```
+
+### `UnsupportedArchitecture` — platform not supported
+
+Supported matrix:
+
+| OS | Architectures |
+|---|---|
+| Linux | `x86_64`, `arm64`, `i686` |
+| macOS | `x86_64`, `arm64` |
+| Windows | `x86_64`, `i686` |
+
+### `MissingRelease` — GitHub rate limit or network issue
+
+**Fix — add a GitHub token:**
+```bash
+GITHUB_TOKEN=ghp_your_token npx bexxcv fetch
+```
+
+Unauthenticated GitHub API is limited to 60 requests/hour per IP.
+
+### `WebGL database not found or empty`
+
+The package ships `webgl_data.db` inside `dist/data-files`. If you see this error while developing bexxcv itself, place a valid `webgl_data.db` in `src/data-files` and run `pnpm build` again.
+
+### `playwright-core` version mismatch
+
+bexxcv requires `playwright-core < 1.63.0`.
+
+**Fix:**
+```bash
+npm install playwright-core@1.62.1
+```
+
+### Node.js version too old
+
+bexxcv requires Node.js >= 22.
+
+**Fix:**
+```bash
+node --version
+nvm install 22 && nvm use 22
+```
+
+### `InvalidProxy` — proxy format wrong
+
+Proxy must be `protocol://[user:password@]host:port`:
+
+```ts
+await bexxcv({
+  proxy: "http://user:pass@proxy.example.com:8080",
+});
+```
+
+### `NonFirefoxFingerprint` — wrong browser fingerprint
+
+You passed a fingerprint generated for Chrome or Safari. bexxcv only accepts Firefox fingerprints.
+
+**Fix:** regenerate with `browsers: ["firefox"]`, or pass `i_know_what_im_doing: true` if you're intentionally mixing (detection risk).
+
+---
+
+## License
+
+MPL-2.0 — same as the upstream [camoufox-js](https://github.com/apify/camoufox-js).

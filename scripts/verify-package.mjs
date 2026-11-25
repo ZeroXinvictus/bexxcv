@@ -1,1 +1,53 @@
-aW1wb3J0IHsgc3Bhd25TeW5jIH0gZnJvbSAibm9kZTpjaGlsZF9wcm9jZXNzIjsKaW1wb3J0IGZzIGZyb20gIm5vZGU6ZnMiOwppbXBvcnQgcGF0aCBmcm9tICJub2RlOnBhdGgiOwppbXBvcnQgeyBmaWxlVVJMVG9QYXRoIH0gZnJvbSAibm9kZTp1cmwiOwoKY29uc3Qgcm9vdCA9IHBhdGguam9pbihwYXRoLmRpcm5hbWUoZmlsZVVSTFRvUGF0aChpbXBvcnQubWV0YS51cmwpKSwgIi4uIik7CmNvbnN0IHJlcXVpcmVkID0gWyJ3ZWJnbF9kYXRhLmRiIiwgImJyb3dzZXItcGluLmpzb24iLCAidGVycml0b3J5SW5mby54bWwiLCAiZGF0YS12ZXJzaW9uLmpzb24iXTsKY29uc3QgbWlzc2luZyA9IFtdOwpjb25zdCBtaW5CeXRlcyA9IE51bWJlcihwcm9jZXNzLmVudi5CRVhYQ1ZfTUlOX0RCX0JZVEVTIHx8IDEwMDAwMCk7CmxldCBkYlNpemUgPSAwOwp0cnkgewoJZGJTaXplID0gZnMuc3RhdFN5bmMocGF0aC5qb2luKHJvb3QsICJkaXN0IiwgImRhdGEtZmlsZXMiLCAid2ViZ2xfZGF0YS5kYiIpKS5zaXplOwp9IGNhdGNoIHsKCWRiU2l6ZSA9IDA7Cn0KCmZvciAoY29uc3QgbmFtZSBvZiByZXF1aXJlZCkgewoJY29uc3QgZmlsZSA9IHBhdGguam9pbihyb290LCAiZGlzdCIsICJkYXRhLWZpbGVzIiwgbmFtZSk7CglpZiAoIWZzLmV4aXN0c1N5bmMoZmlsZSkgfHwgZnMuc3RhdFN5bmMoZmlsZSkuc2l6ZSA9PT0gMCkgewoJCW1pc3NpbmcucHVzaChuYW1lKTsKCX0KfQoKaWYgKGRiU2l6ZSA+IDAgJiYgZGJTaXplIDwgbWluQnl0ZXMpIHsKCWNvbnNvbGUuZXJyb3IoYHdlYmdsX2RhdGEuZGIgdGVybGFsdSBrZWNpbCAoJHtkYlNpemV9IGJ5dGVzKSwga2VtdW5na2luYW4gZGF0YWJhc2UgYnVhdGFuYCk7Cglwcm9jZXNzLmV4aXQoMSk7Cn0KCmlmIChtaXNzaW5nLmxlbmd0aCA+IDApIHsKCWNvbnNvbGUuZXJyb3IoYGRpc3QvZGF0YS1maWxlcyBpcyBtaXNzaW5nIG9yIGhhcyBlbXB0eSBmaWxlczogJHttaXNzaW5nLmpvaW4oIiwgIil9YCk7Cglwcm9jZXNzLmV4aXQoMSk7Cn0KCmNvbnNvbGUubG9nKCJkaXN0L2RhdGEtZmlsZXMgT0siKTsKCmNvbnN0IFttYWpvciwgbWlub3JdID0gcHJvY2Vzcy52ZXJzaW9ucy5ub2RlLnNwbGl0KCIuIikubWFwKE51bWJlcik7CmlmIChtYWpvciA+IDIyIHx8IChtYWpvciA9PT0gMjIgJiYgbWlub3IgPj0gMTIpKSB7Cgljb25zdCBwcm9iZSA9IHNwYXduU3luYygKCQlwcm9jZXNzLmV4ZWNQYXRoLAoJCVsKCQkJIi1lIiwKCQkJImNvbnN0IG0gPSByZXF1aXJlKCdiZXh4Y3YnKTsgaWYgKHR5cGVvZiBtLkJleHhjdiAhPT0gJ2Z1bmN0aW9uJyB8fCB0eXBlb2YgbS5sYXVuY2hPcHRpb25zICE9PSAnZnVuY3Rpb24nKSBwcm9jZXNzLmV4aXQoMyk7IiwKCQldLAoJCXsgY3dkOiByb290LCBlbmNvZGluZzogInV0ZjgiIH0sCgkpOwoJaWYgKHByb2JlLnN0YXR1cyAhPT0gMCkgewoJCWNvbnNvbGUuZXJyb3IoInJlcXVpcmUoJ2JleHhjdicpIGdhZ2FsOiIsIChwcm9iZS5zdGRlcnIgfHwgIiIpLnRyaW0oKSk7CgkJcHJvY2Vzcy5leGl0KDEpOwoJfQoJY29uc29sZS5sb2coInJlcXVpcmUoKSBPSyIpOwp9IGVsc2UgewoJY29uc29sZS5sb2coInJlcXVpcmUoKSBkaWxld2F0aSwgYnV0dWggTm9kZSAyMi4xMiBhdGF1IGxlYmloIGJhcnUiKTsKfQo=
+import { spawnSync } from "node:child_process";
+import fs from "node:fs";
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+
+const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
+const required = ["webgl_data.db", "browser-pin.json", "territoryInfo.xml", "data-version.json"];
+const missing = [];
+const minBytes = Number(process.env.BEXXCV_MIN_DB_BYTES || 100000);
+let dbSize = 0;
+try {
+	dbSize = fs.statSync(path.join(root, "dist", "data-files", "webgl_data.db")).size;
+} catch {
+	dbSize = 0;
+}
+
+for (const name of required) {
+	const file = path.join(root, "dist", "data-files", name);
+	if (!fs.existsSync(file) || fs.statSync(file).size === 0) {
+		missing.push(name);
+	}
+}
+
+if (dbSize > 0 && dbSize < minBytes) {
+	console.error(`webgl_data.db terlalu kecil (${dbSize} bytes), kemungkinan database buatan`);
+	process.exit(1);
+}
+
+if (missing.length > 0) {
+	console.error(`dist/data-files is missing or has empty files: ${missing.join(", ")}`);
+	process.exit(1);
+}
+
+console.log("dist/data-files OK");
+
+const [major, minor] = process.versions.node.split(".").map(Number);
+if (major > 22 || (major === 22 && minor >= 12)) {
+	const probe = spawnSync(
+		process.execPath,
+		[
+			"-e",
+			"const m = require('bexxcv'); if (typeof m.Bexxcv !== 'function' || typeof m.launchOptions !== 'function') process.exit(3);",
+		],
+		{ cwd: root, encoding: "utf8" },
+	);
+	if (probe.status !== 0) {
+		console.error("require('bexxcv') gagal:", (probe.stderr || "").trim());
+		process.exit(1);
+	}
+	console.log("require() OK");
+} else {
+	console.log("require() dilewati, butuh Node 22.12 atau lebih baru");
+}

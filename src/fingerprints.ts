@@ -1,1 +1,270 @@
-aW1wb3J0IHsKCXR5cGUgRmluZ2VycHJpbnQsCglGaW5nZXJwcmludEdlbmVyYXRvciwKCXR5cGUgRmluZ2VycHJpbnRHZW5lcmF0b3JPcHRpb25zLAoJdHlwZSBTY3JlZW5GaW5nZXJwcmludCwKfSBmcm9tICJmaW5nZXJwcmludC1nZW5lcmF0b3IiOwppbXBvcnQgQlJPV1NFUkZPUkdFX0RBVEEgZnJvbSAiLi9tYXBwaW5ncy9icm93c2VyZm9yZ2UuY29uZmlnLmpzIjsKaW1wb3J0IHsgc2FtcGxlR1BVUHJvZmlsZSwgcmVzb2x2ZVVBT1MgfSBmcm9tICIuL3dlYmdsL3Byb2ZpbGVzLmpzIjsKCmV4cG9ydCBjb25zdCBTVVBQT1JURURfT1MgPSBbImxpbnV4IiwgIm1hY29zIiwgIndpbmRvd3MiXSBhcyBjb25zdDsKCmNvbnN0IEZQX0dFTkVSQVRPUiA9IG5ldyBGaW5nZXJwcmludEdlbmVyYXRvcih7Cglicm93c2VyczogWyJmaXJlZm94Il0sCglvcGVyYXRpbmdTeXN0ZW1zOiBTVVBQT1JURURfT1MgYXMgYW55LAp9KTsKCmV4cG9ydCBmdW5jdGlvbiBjcnlwdG9SYW5kSW50KG1pbjogbnVtYmVyLCBtYXg6IG51bWJlcik6IG51bWJlciB7Cgljb25zdCBidWYgPSBuZXcgVWludDMyQXJyYXkoMSk7CgljcnlwdG8uZ2V0UmFuZG9tVmFsdWVzKGJ1Zik7CglyZXR1cm4gbWluICsgKGJ1ZlswXSEgJSAobWF4IC0gbWluICsgMSkpOwp9CgpleHBvcnQgZnVuY3Rpb24gY3J5cHRvRmxvYXQoKTogbnVtYmVyIHsKCWNvbnN0IGJ1ZiA9IG5ldyBVaW50MzJBcnJheSgxKTsKCWNyeXB0by5nZXRSYW5kb21WYWx1ZXMoYnVmKTsKCXJldHVybiBidWZbMF0hIC8gMHgxMDAwMDAwMDA7Cn0KCmV4cG9ydCBpbnRlcmZhY2UgRXh0ZW5kZWRTY3JlZW4gZXh0ZW5kcyBTY3JlZW5GaW5nZXJwcmludCB7CglzY3JlZW5ZPzogbnVtYmVyOwoJYXVkaW9TZWVkPzogbnVtYmVyOwoJY2FudmFzU2VlZD86IG51bWJlcjsKCXdlYmdsVmVuZG9yPzogc3RyaW5nOwoJd2ViZ2xSZW5kZXJlcj86IHN0cmluZzsKCXdlYmdsR0xTTD86IHN0cmluZzsKCXdlYmdsRXh0ZW5zaW9ucz86IHN0cmluZ1tdOwoJZm9udFNwYWNpbmdTZWVkPzogbnVtYmVyOwoJcGVyZkppdHRlcj86IG51bWJlcjsKCXRpbWV6b25lT2Zmc2V0Sml0dGVyPzogbnVtYmVyOwoJbWVtb3J5TXVsdGlwbGllcj86IG51bWJlcjsKCWhhcmR3YXJlQ29uY3VycmVuY3lTZWVkPzogbnVtYmVyOwoJLy8gQWRkaXRpb25hbCByZWFsaXNtIGZpZWxkcwoJdG91Y2hTdXBwb3J0PzogYm9vbGVhbjsKCXRvdWNoUG9pbnRzPzogbnVtYmVyOwoJcG9pbnRlclR5cGU/OiAibW91c2UiIHwgInRvdWNoIiB8ICJwZW4iOwoJb25saW5lU3RhdGU/OiBib29sZWFuOwoJcGxhdGZvcm1EZXZpY2VNZW1vcnk/OiBudW1iZXI7Cn0KCi8vIFJlYWxpc3RpYyBmb250IGxpc3RzIHBlciBPUyDigJQgdGhlc2UgYXJlIGFjdHVhbCBzeXN0ZW0gZm9udHMsIG5vdCByYW5kb20gc3RyaW5ncwpjb25zdCBSRUFMSVNUSUNfRk9OVFMgPSB7Cgl3aW46IFsKCQkiQXJpYWwiLCAiQXJpYWwgQmxhY2siLCAiQ2FsaWJyaSIsICJDYW1icmlhIiwgIkNhbWJyaWEgTWF0aCIsICJDb21pYyBTYW5zIE1TIiwKCQkiQ29uc29sYXMiLCAiQ291cmllciBOZXciLCAiR2VvcmdpYSIsICJJbXBhY3QiLCAiU2Vnb2UgVUkiLCAiVGltZXMgTmV3IFJvbWFuIiwKCQkiVHJlYnVjaGV0IE1TIiwgIlZlcmRhbmEiLCAiTWljcm9zb2Z0IFlhSGVpIiwgIk1pY3Jvc29mdCBKaGVuZ0hlaSIsCgldLAoJbWFjOiBbCgkJIkFwcGxlIFNEIEdvdGhpYyBOZW8iLCAiQXZlbmlyIiwgIkJhc2tlcnZpbGxlIiwgIkJpZyBDYXNsb24iLCAiQ2hhbGtib2FyZCIsCgkJIkNoYWxrYm9hcmQgU0UiLCAiQ2hpYXJhIEhlYWQiLCAiQ29sb3JhZG8iLCAiRGlkb3QiLCAiRnV0dXJhIiwgIkdlbmV2YSIsCgkJIkdpbGwgU2FucyIsICJIZWx2ZXRpY2EiLCAiSGVsdmV0aWNhIE5ldWUiLCAiSGlyYWdpbm8gS2FrdSBHb3RoaWMgUHJvIiwKCQkiSGlyYWdpbm8gTWFydSBHb3RoaWMgUHJvIiwgIk1lbmxvIiwgIk11a3RhIE1haGVlIiwgIk1WIEJvbGkiLCAiTm90byBTYW5zIiwKCQkiUGFsYXRpbm8iLCAiU2FuIEZyYW5jaXNjbyIsICJTVEhlaXRpIiwgIlN5bWJvbCIsICJUYWhvbWEiLCAiVGhvbmJ1cmkiLAoJCSJUaW1lcyIsICJUcmF0dGF0ZWxsbyIsICJaYXBmaW5vIiwKCV0sCglsaW46IFsKCQkiQXJpYWwiLCAiQ2FudGFyZWxsIiwgIkNvbWZvcnRhYSIsICJEZWphVnUgU2FucyIsICJEZWphVnUgU2FucyBNb25vIiwKCQkiRmlyYSBDb2RlIiwgIkZpcmEgU2FucyIsICJHb29nbGUgU2FucyIsICJJb3NldmthIiwgIkxpYmVyYXRpb24gTW9ubyIsCgkJIkxpYmVyYXRpb24gU2FucyIsICJMaWJlcmF0aW9uIFNlcmlmIiwgIk1vbm9zcGFjZSIsICJOb3RvIENvbG9yIEVtb2ppIiwKCQkiTm90byBTYW5zIiwgIk5vdG8gU2FucyBDSksiLCAiUm9ib3RvIiwgIlNvdXJjZSBDb2RlIFBybyIsICJVYnVudHUiLAoJCSJVYnVudHUgQ29uZGVuc2VkIiwgIlVidW50dSBNb25vIiwKCV0sCn07CgovLyBSZWFsaXN0aWMgY2FudmFzIG5vaXNlIHBhdHRlcm5zIHRoYXQgbWF0Y2ggR1BVIG91dHB1dCBjaGFyYWN0ZXJpc3RpY3MKY29uc3QgQ0FOVkFTX05PSVNFX1BBVFRFUk5TID0gWwoJeyB0eXBlOiAiZ2F1c3NpYW4iLCBzaWdtYTogMC41IH0sCgl7IHR5cGU6ICJnYXVzc2lhbiIsIHNpZ21hOiAxLjAgfSwKCXsgdHlwZTogInBvaXNzb24iLCByYXRlOiAwLjMgfSwKCXsgdHlwZTogInNhbHRQZXBwZXIiLCBkZW5zaXR5OiAwLjAyIH0sCgl7IHR5cGU6ICJub25lIiB9LCAvLyBjbGVhbiByZW5kZXJlcnMgZXhpc3QgdG9vCl07CgovLyBTdWJ0bGUgdGltaW5nIHZhcmlhdGlvbnMgdGhhdCBkaWZmZXIgYnkgR1BVIGNsYXNzCmNvbnN0IFJFTkRFUl9USU1FX1ZBUklBVElPTlM6IFJlY29yZDxzdHJpbmcsIHsgbWluTXM6IG51bWJlcjsgbWF4TXM6IG51bWJlciB9PiA9IHsKCUludGVsOiB7IG1pbk1zOiA4LCBtYXhNczogMTggfSwKCU5WSURJQTogeyBtaW5NczogMywgbWF4TXM6IDggfSwKCUFNRDogeyBtaW5NczogNCwgbWF4TXM6IDEwIH0sCglNZXNhOiB7IG1pbk1zOiAxNSwgbWF4TXM6IDM1IH0sCglBcHBsZTogeyBtaW5NczogNSwgbWF4TXM6IDEyIH0sCglNaWNyb3NvZnQ6IHsgbWluTXM6IDIwLCBtYXhNczogNTAgfSwKCU1vemlsbGE6IHsgbWluTXM6IDEwLCBtYXhNczogMjAgfSwKCUdvb2dsZTogeyBtaW5NczogNiwgbWF4TXM6IDE0IH0sCn07CgpmdW5jdGlvbiBwaWNrV2VpZ2h0ZWQ8VD4oaXRlbXM6IFRbXSwgd2VpZ2h0czogbnVtYmVyW10pOiBUIHsKCWNvbnN0IHRvdGFsID0gd2VpZ2h0cy5yZWR1Y2UoKGEsIGIpID0+IGEgKyBiLCAwKTsKCWNvbnN0IGJ1ZiA9IG5ldyBVaW50MzJBcnJheSgxKTsKCWNyeXB0by5nZXRSYW5kb21WYWx1ZXMoYnVmKTsKCWxldCB0aHJlc2hvbGQgPSAoYnVmWzBdISAvIDB4MTAwMDAwMDAwKSAqIHRvdGFsOwoJZm9yIChsZXQgaSA9IDA7IGkgPCBpdGVtcy5sZW5ndGg7IGkrKykgewoJCXRocmVzaG9sZCAtPSB3ZWlnaHRzW2ldITsKCQlpZiAodGhyZXNob2xkIDw9IDApIHJldHVybiBpdGVtc1tpXSE7Cgl9CglyZXR1cm4gaXRlbXNbaXRlbXMubGVuZ3RoIC0gMV0hOwp9CgpmdW5jdGlvbiBfY2FzdFRvUHJvcGVydGllcygKCWNhbW91Zm94RGF0YTogUmVjb3JkPHN0cmluZywgYW55PiwKCWNhc3RFbnVtOiBSZWNvcmQ8c3RyaW5nLCBhbnk+LAoJYmZEaWN0OiBSZWNvcmQ8c3RyaW5nLCBhbnk+LAoJZmZWZXJzaW9uPzogc3RyaW5nLAopOiB2b2lkIHsKCWZvciAobGV0IFtrZXksIGRhdGFdIG9mIE9iamVjdC5lbnRyaWVzKGJmRGljdCkpIHsKCQlpZiAoIWRhdGEpIGNvbnRpbnVlOwoJCWNvbnN0IHR5cGVLZXkgPSBjYXN0RW51bVtrZXldOwoJCWlmICghdHlwZUtleSkgY29udGludWU7CgkJaWYgKHR5cGVvZiBkYXRhID09PSAib2JqZWN0IiAmJiAhQXJyYXkuaXNBcnJheShkYXRhKSkgewoJCQlfY2FzdFRvUHJvcGVydGllcyhjYW1vdWZveERhdGEsIHR5cGVLZXksIGRhdGEsIGZmVmVyc2lvbik7CgkJCWNvbnRpbnVlOwoJCX0KCQlpZiAodHlwZUtleS5zdGFydHNXaXRoKCJzY3JlZW4uIikgJiYgdHlwZW9mIGRhdGEgPT09ICJudW1iZXIiICYmIGRhdGEgPCAwKSB7CgkJCWRhdGEgPSAwOwoJCX0KCQlpZiAoZmZWZXJzaW9uICYmIHR5cGVvZiBkYXRhID09PSAic3RyaW5nIikgewoJCQlkYXRhID0gZGF0YS5yZXBsYWNlQWxsKAoJCQkJLyg/PCFcZCkoMVswLTldezJ9KShcLjApKD8hXGQpL2dpLAoJCQkJYCR7ZmZWZXJzaW9ufSQyYCwKCQkJKTsKCQl9CgkJY2Ftb3Vmb3hEYXRhW3R5cGVLZXldID0gZGF0YTsKCX0KfQoKZnVuY3Rpb24gaGFuZGxlU2NyZWVuWFkoCgljYW1vdWZveERhdGE6IFJlY29yZDxzdHJpbmcsIGFueT4sCglmcFNjcmVlbjogU2NyZWVuRmluZ2VycHJpbnQsCik6IHZvaWQgewoJaWYgKCJ3aW5kb3cuc2NyZWVuWSIgaW4gY2Ftb3Vmb3hEYXRhKSByZXR1cm47Cgljb25zdCBzY3JlZW5YID0gZnBTY3JlZW4uc2NyZWVuWDsKCWlmICghc2NyZWVuWCkgewoJCWNhbW91Zm94RGF0YVsid2luZG93LnNjcmVlblgiXSA9IDA7CgkJY2Ftb3Vmb3hEYXRhWyJ3aW5kb3cuc2NyZWVuWSJdID0gMDsKCQlyZXR1cm47Cgl9CglpZiAoc2NyZWVuWCA+PSAtNTAgJiYgc2NyZWVuWCA8PSA1MCkgewoJCWNhbW91Zm94RGF0YVsid2luZG93LnNjcmVlblkiXSA9IHNjcmVlblg7CgkJcmV0dXJuOwoJfQoJY29uc3Qgc2NyZWVuWSA9IGZwU2NyZWVuLmF2YWlsSGVpZ2h0IC0gZnBTY3JlZW4ub3V0ZXJIZWlnaHQ7CglpZiAoc2NyZWVuWSA9PT0gMCkgewoJCWNhbW91Zm94RGF0YVsid2luZG93LnNjcmVlblkiXSA9IDA7Cgl9IGVsc2UgaWYgKHNjcmVlblkgPiAwKSB7CgkJY2Ftb3Vmb3hEYXRhWyJ3aW5kb3cuc2NyZWVuWSJdID0gY3J5cHRvUmFuZEludCgwLCBzY3JlZW5ZKTsKCX0gZWxzZSB7CgkJY2Ftb3Vmb3hEYXRhWyJ3aW5kb3cuc2NyZWVuWSJdID0gY3J5cHRvUmFuZEludChzY3JlZW5ZLCAwKTsKCX0KfQoKZnVuY3Rpb24gYXBwbHlSZWFsaXNtU2VlZHMoZnA6IEV4dGVuZGVkU2NyZWVuLCB1YTogc3RyaW5nKTogdm9pZCB7Cgljb25zdCBvcyA9IHJlc29sdmVVQU9TKHVhKTsKCWNvbnN0IGdwdSA9IHNhbXBsZUdQVVByb2ZpbGUob3MpOwoKCS8vIENvcmUgYXVkaW8vY2FudmFzL2ZvbnQgc2VlZHMKCWZwLmF1ZGlvU2VlZCA9IGNyeXB0b1JhbmRJbnQoMSwgNF8yOTRfOTY3XzI5NSk7CglmcC5jYW52YXNTZWVkID0gY3J5cHRvUmFuZEludCgxLCA0XzI5NF85NjdfMjk1KTsKCWZwLmZvbnRTcGFjaW5nU2VlZCA9IGNyeXB0b1JhbmRJbnQoMSwgNF8yOTRfOTY3XzI5NSk7CglmcC53ZWJnbFZlbmRvciA9IGdwdS52ZW5kb3I7CglmcC53ZWJnbFJlbmRlcmVyID0gZ3B1LnJlbmRlcmVyOwoJZnAud2ViZ2xHTFNMID0gZ3B1Lmdsc2xWZXJzaW9uOwoJZnAud2ViZ2xFeHRlbnNpb25zID0gZ3B1LndlYmdsRXh0ZW5zaW9uczsKCgkvLyBQZXJmb3JtYW5jZSB0aW1pbmcgaml0dGVyIGJhc2VkIG9uIEdQVSBjbGFzcwoJY29uc3QgcGVyZlJhbmdlID0gUkVOREVSX1RJTUVfVkFSSUFUSU9OU1tncHUudmVuZG9yXSA/PyB7IG1pbk1zOiA1LCBtYXhNczogMjAgfTsKCWZwLnBlcmZKaXR0ZXIgPSAoY3J5cHRvRmxvYXQoKSAtIDAuNSkgKiAocGVyZlJhbmdlLm1heE1zIC0gcGVyZlJhbmdlLm1pbk1zKTsKCgkvLyBUaW1lem9uZSBvZmZzZXQgaml0dGVyICjCsTE1IG1pbikKCWZwLnRpbWV6b25lT2Zmc2V0Sml0dGVyID0gY3J5cHRvUmFuZEludCgtMTUsIDE1KSAqIDYwOyAvLyBpbiBzZWNvbmRzCgoJLy8gTWVtb3J5IG11bHRpcGxpZXIgKDAuODXigJMxLjE1eCBiYXNlKQoJZnAubWVtb3J5TXVsdGlwbGllciA9IDAuODUgKyBjcnlwdG9GbG9hdCgpICogMC4zOwoKCS8vIEhhcmR3YXJlIGNvbmN1cnJlbmN5IGZyb20gcmVhbGlzdGljIHBvb2wKCWNvbnN0IHBvc3NpYmxlQ29yZXMgPSBbMiwgNCwgNiwgOCwgMTAsIDEyLCAxNiwgMjAsIDI0XTsKCWZwLmhhcmR3YXJlQ29uY3VycmVuY3lTZWVkID0gcG9zc2libGVDb3Jlc1tjcnlwdG9SYW5kSW50KDAsIHBvc3NpYmxlQ29yZXMubGVuZ3RoIC0gMSldITsKCgkvLyBUb3VjaCBzdXBwb3J0IGNvcnJlbGF0ZXMgd2l0aCBkZXZpY2UgdHlwZSAobW9yZSBjb21tb24gb24gbW9iaWxlL3RhYmxldHMpCgljb25zdCB0b3VjaENoYW5jZSA9IG9zID09PSAid2luIiA/IDAuMTUgOiBvcyA9PT0gIm1hYyIgPyAwLjA1IDogMC4wMjsKCWZwLnRvdWNoU3VwcG9ydCA9IGNyeXB0b0Zsb2F0KCkgPCB0b3VjaENoYW5jZTsKCWZwLnRvdWNoUG9pbnRzID0gZnAudG91Y2hTdXBwb3J0ID8gY3J5cHRvUmFuZEludCgxLCA1KSA6IDA7CgoJLy8gUG9pbnRlciB0eXBlIGNvbnNpc3RlbmN5IOKAlCBkZXNrdG9wIGhhcyBtb3VzZSwgdG91Y2ggZGV2aWNlcyBoYXZlIHBvaW50ZXIrdG91Y2gKCWlmIChmcC50b3VjaFN1cHBvcnQpIHsKCQlmcC5wb2ludGVyVHlwZSA9IGNyeXB0b0Zsb2F0KCkgPCAwLjMgPyAidG91Y2giIDogIm1vdXNlIjsKCX0gZWxzZSB7CgkJZnAucG9pbnRlclR5cGUgPSBjcnlwdG9GbG9hdCgpIDwgMC4wNSA/ICJwZW4iIDogIm1vdXNlIjsKCX0KCgkvLyBPbmxpbmUgc3RhdGUgaXMgYWxtb3N0IGFsd2F5cyB0cnVlIGZvciByZWFsIGJyb3dzZXJzCglmcC5vbmxpbmVTdGF0ZSA9IGNyeXB0b0Zsb2F0KCkgPiAwLjAwMTsKfQoKZXhwb3J0IGZ1bmN0aW9uIGdlbmVyYXRlRmluZ2VycHJpbnQoCgl3aW5kb3c/OiBbbnVtYmVyLCBudW1iZXJdLAoJY29uZmlnPzogUGFydGlhbDxGaW5nZXJwcmludEdlbmVyYXRvck9wdGlvbnM+LAopOiBGaW5nZXJwcmludCAmIEV4dGVuZGVkU2NyZWVuIHsKCWxldCBmcDogRmluZ2VycHJpbnQgJiBFeHRlbmRlZFNjcmVlbjsKCWlmICh3aW5kb3cpIHsKCQljb25zdCBnZW5lcmF0ZWQgPSBGUF9HRU5FUkFUT1IuZ2V0RmluZ2VycHJpbnQoY29uZmlnKTsKCQlmcCA9IGdlbmVyYXRlZC5maW5nZXJwcmludCBhcyBGaW5nZXJwcmludCAmIEV4dGVuZGVkU2NyZWVuOwoJCWhhbmRsZVdpbmRvd1NpemUoZnAsIHdpbmRvd1swXSwgd2luZG93WzFdKTsKCX0gZWxzZSB7CgkJY29uc3QgZ2VuZXJhdGVkID0gRlBfR0VORVJBVE9SLmdldEZpbmdlcnByaW50KGNvbmZpZyk7CgkJZnAgPSBnZW5lcmF0ZWQuZmluZ2VycHJpbnQgYXMgRmluZ2VycHJpbnQgJiBFeHRlbmRlZFNjcmVlbjsKCX0KCgljb25zdCB1YSA9IGZwLm5hdmlnYXRvcj8udXNlckFnZW50ID8/ICIiOwoJaWYgKHVhKSB7CgkJYXBwbHlSZWFsaXNtU2VlZHMoZnAsIHVhKTsKCX0KCglyZXR1cm4gZnA7Cn0KCmZ1bmN0aW9uIGhhbmRsZVdpbmRvd1NpemUoCglmcDogRmluZ2VycHJpbnQsCglvdXRlcldpZHRoOiBudW1iZXIsCglvdXRlckhlaWdodDogbnVtYmVyLAopOiB2b2lkIHsKCWNvbnN0IHNjOiBFeHRlbmRlZFNjcmVlbiA9IHsgLi4uZnAuc2NyZWVuLCBzY3JlZW5ZOiB1bmRlZmluZWQgfTsKCgljb25zdCBjZW50ZXJYID0gTWF0aC5mbG9vcigoc2Mud2lkdGggLSBvdXRlcldpZHRoKSAvIDIpOwoJY29uc3Qgaml0dGVyWCA9IE1hdGguZmxvb3IoKGNyeXB0b0Zsb2F0KCkgLSAwLjUpICogNDApOwoJc2Muc2NyZWVuWCArPSBNYXRoLm1heCgwLCBNYXRoLm1pbihzYy53aWR0aCAtIG91dGVyV2lkdGgsIGNlbnRlclggKyBqaXR0ZXJYKSk7CgoJY29uc3QgYXZhaWxZID0gTWF0aC5tYXgoMCwgc2MuaGVpZ2h0IC0gb3V0ZXJIZWlnaHQgLSA0MCk7CglzYy5zY3JlZW5ZID0gTWF0aC5mbG9vcihjcnlwdG9GbG9hdCgpICogYXZhaWxZICogMC40NSk7CglpZiAoc2MuaW5uZXJXaWR0aCkgewoJCXNjLmlubmVyV2lkdGggPSBNYXRoLm1heChvdXRlcldpZHRoIC0gc2Mub3V0ZXJXaWR0aCArIHNjLmlubmVyV2lkdGgsIDApOwoJfQoJaWYgKHNjLmlubmVySGVpZ2h0KSB7CgkJc2MuaW5uZXJIZWlnaHQgPSBNYXRoLm1heChvdXRlckhlaWdodCAtIHNjLm91dGVySGVpZ2h0ICsgc2MuaW5uZXJIZWlnaHQsIDApOwoJfQoJc2Mub3V0ZXJXaWR0aCA9IG91dGVyV2lkdGg7CglzYy5vdXRlckhlaWdodCA9IG91dGVySGVpZ2h0OwoJZnAuc2NyZWVuID0gc2M7Cn0KCmV4cG9ydCBmdW5jdGlvbiBmcm9tQnJvd3NlcmZvcmdlKAoJZmluZ2VycHJpbnQ6IEZpbmdlcnByaW50LAoJZmZWZXJzaW9uPzogc3RyaW5nLAopOiBSZWNvcmQ8c3RyaW5nLCBhbnk+IHsKCWNvbnN0IGNhbW91Zm94RGF0YTogUmVjb3JkPHN0cmluZywgYW55PiA9IHt9OwoJX2Nhc3RUb1Byb3BlcnRpZXMoCgkJY2Ftb3Vmb3hEYXRhLAoJCUJST1dTRVJGT1JHRV9EQVRBLAoJCXsgLi4uZmluZ2VycHJpbnQgfSwKCQlmZlZlcnNpb24sCgkpOwoJaGFuZGxlU2NyZWVuWFkoY2Ftb3Vmb3hEYXRhLCBmaW5nZXJwcmludC5zY3JlZW4pOwoJcmV0dXJuIGNhbW91Zm94RGF0YTsKfQoKLyoqCiAqIFJldHVybnMgYSByZWFsaXN0aWMgZm9udCBsaXN0IGZvciB0aGUgZ2l2ZW4gT1MuCiAqIFRoZXNlIGFyZSBhY3R1YWwgc3lzdGVtIGZvbnRzIHRoYXQgd291bGQgYXBwZWFyIG9uIHRoYXQgcGxhdGZvcm0uCiAqLwpleHBvcnQgZnVuY3Rpb24gZ2V0UmVhbGlzdGljRm9udHMob3M6IHN0cmluZyk6IHN0cmluZ1tdIHsKCWNvbnN0IGtleSA9IG9zLnRvTG93ZXJDYXNlKCkgYXMga2V5b2YgdHlwZW9mIFJFQUxJU1RJQ19GT05UUzsKCXJldHVybiBSRUFMSVNUSUNfRk9OVFNba2V5XSA/PyBSRUFMSVNUSUNfRk9OVFMubGluOwp9Cg==
+import {
+	type Fingerprint,
+	FingerprintGenerator,
+	type FingerprintGeneratorOptions,
+	type ScreenFingerprint,
+} from "fingerprint-generator";
+import BROWSERFORGE_DATA from "./mappings/browserforge.config.js";
+import { sampleGPUProfile, resolveUAOS } from "./webgl/profiles.js";
+
+export const SUPPORTED_OS = ["linux", "macos", "windows"] as const;
+
+const FP_GENERATOR = new FingerprintGenerator({
+	browsers: ["firefox"],
+	operatingSystems: SUPPORTED_OS as any,
+});
+
+export function cryptoRandInt(min: number, max: number): number {
+	const buf = new Uint32Array(1);
+	crypto.getRandomValues(buf);
+	return min + (buf[0]! % (max - min + 1));
+}
+
+export function cryptoFloat(): number {
+	const buf = new Uint32Array(1);
+	crypto.getRandomValues(buf);
+	return buf[0]! / 0x100000000;
+}
+
+export interface ExtendedScreen extends ScreenFingerprint {
+	screenY?: number;
+	audioSeed?: number;
+	canvasSeed?: number;
+	webglVendor?: string;
+	webglRenderer?: string;
+	webglGLSL?: string;
+	webglExtensions?: string[];
+	fontSpacingSeed?: number;
+	perfJitter?: number;
+	timezoneOffsetJitter?: number;
+	memoryMultiplier?: number;
+	hardwareConcurrencySeed?: number;
+	// Additional realism fields
+	touchSupport?: boolean;
+	touchPoints?: number;
+	pointerType?: "mouse" | "touch" | "pen";
+	onlineState?: boolean;
+	platformDeviceMemory?: number;
+}
+
+// Realistic font lists per OS — these are actual system fonts, not random strings
+const REALISTIC_FONTS = {
+	win: [
+		"Arial", "Arial Black", "Calibri", "Cambria", "Cambria Math", "Comic Sans MS",
+		"Consolas", "Courier New", "Georgia", "Impact", "Segoe UI", "Times New Roman",
+		"Trebuchet MS", "Verdana", "Microsoft YaHei", "Microsoft JhengHei",
+	],
+	mac: [
+		"Apple SD Gothic Neo", "Avenir", "Baskerville", "Big Caslon", "Chalkboard",
+		"Chalkboard SE", "Chiara Head", "Colorado", "Didot", "Futura", "Geneva",
+		"Gill Sans", "Helvetica", "Helvetica Neue", "Hiragino Kaku Gothic Pro",
+		"Hiragino Maru Gothic Pro", "Menlo", "Mukta Mahee", "MV Boli", "Noto Sans",
+		"Palatino", "San Francisco", "STHeiti", "Symbol", "Tahoma", "Thonburi",
+		"Times", "Trattatello", "Zapfino",
+	],
+	lin: [
+		"Arial", "Cantarell", "Comfortaa", "DejaVu Sans", "DejaVu Sans Mono",
+		"Fira Code", "Fira Sans", "Google Sans", "Iosevka", "Liberation Mono",
+		"Liberation Sans", "Liberation Serif", "Monospace", "Noto Color Emoji",
+		"Noto Sans", "Noto Sans CJK", "Roboto", "Source Code Pro", "Ubuntu",
+		"Ubuntu Condensed", "Ubuntu Mono",
+	],
+};
+
+// Realistic canvas noise patterns that match GPU output characteristics
+const CANVAS_NOISE_PATTERNS = [
+	{ type: "gaussian", sigma: 0.5 },
+	{ type: "gaussian", sigma: 1.0 },
+	{ type: "poisson", rate: 0.3 },
+	{ type: "saltPepper", density: 0.02 },
+	{ type: "none" }, // clean renderers exist too
+];
+
+// Subtle timing variations that differ by GPU class
+const RENDER_TIME_VARIATIONS: Record<string, { minMs: number; maxMs: number }> = {
+	Intel: { minMs: 8, maxMs: 18 },
+	NVIDIA: { minMs: 3, maxMs: 8 },
+	AMD: { minMs: 4, maxMs: 10 },
+	Mesa: { minMs: 15, maxMs: 35 },
+	Apple: { minMs: 5, maxMs: 12 },
+	Microsoft: { minMs: 20, maxMs: 50 },
+	Mozilla: { minMs: 10, maxMs: 20 },
+	Google: { minMs: 6, maxMs: 14 },
+};
+
+function pickWeighted<T>(items: T[], weights: number[]): T {
+	const total = weights.reduce((a, b) => a + b, 0);
+	const buf = new Uint32Array(1);
+	crypto.getRandomValues(buf);
+	let threshold = (buf[0]! / 0x100000000) * total;
+	for (let i = 0; i < items.length; i++) {
+		threshold -= weights[i]!;
+		if (threshold <= 0) return items[i]!;
+	}
+	return items[items.length - 1]!;
+}
+
+function _castToProperties(
+	camoufoxData: Record<string, any>,
+	castEnum: Record<string, any>,
+	bfDict: Record<string, any>,
+	ffVersion?: string,
+): void {
+	for (let [key, data] of Object.entries(bfDict)) {
+		if (!data) continue;
+		const typeKey = castEnum[key];
+		if (!typeKey) continue;
+		if (typeof data === "object" && !Array.isArray(data)) {
+			_castToProperties(camoufoxData, typeKey, data, ffVersion);
+			continue;
+		}
+		if (typeKey.startsWith("screen.") && typeof data === "number" && data < 0) {
+			data = 0;
+		}
+		if (ffVersion && typeof data === "string") {
+			data = data.replaceAll(
+				/(?<!\d)(1[0-9]{2})(\.0)(?!\d)/gi,
+				`${ffVersion}$2`,
+			);
+		}
+		camoufoxData[typeKey] = data;
+	}
+}
+
+function handleScreenXY(
+	camoufoxData: Record<string, any>,
+	fpScreen: ScreenFingerprint,
+): void {
+	if ("window.screenY" in camoufoxData) return;
+	const screenX = fpScreen.screenX;
+	if (!screenX) {
+		camoufoxData["window.screenX"] = 0;
+		camoufoxData["window.screenY"] = 0;
+		return;
+	}
+	if (screenX >= -50 && screenX <= 50) {
+		camoufoxData["window.screenY"] = screenX;
+		return;
+	}
+	const screenY = fpScreen.availHeight - fpScreen.outerHeight;
+	if (screenY === 0) {
+		camoufoxData["window.screenY"] = 0;
+	} else if (screenY > 0) {
+		camoufoxData["window.screenY"] = cryptoRandInt(0, screenY);
+	} else {
+		camoufoxData["window.screenY"] = cryptoRandInt(screenY, 0);
+	}
+}
+
+function applyRealismSeeds(fp: ExtendedScreen, ua: string): void {
+	const os = resolveUAOS(ua);
+	const gpu = sampleGPUProfile(os);
+
+	// Core audio/canvas/font seeds
+	fp.audioSeed = cryptoRandInt(1, 4_294_967_295);
+	fp.canvasSeed = cryptoRandInt(1, 4_294_967_295);
+	fp.fontSpacingSeed = cryptoRandInt(1, 4_294_967_295);
+	fp.webglVendor = gpu.vendor;
+	fp.webglRenderer = gpu.renderer;
+	fp.webglGLSL = gpu.glslVersion;
+	fp.webglExtensions = gpu.webglExtensions;
+
+	// Performance timing jitter based on GPU class
+	const perfRange = RENDER_TIME_VARIATIONS[gpu.vendor] ?? { minMs: 5, maxMs: 20 };
+	fp.perfJitter = (cryptoFloat() - 0.5) * (perfRange.maxMs - perfRange.minMs);
+
+	// Timezone offset jitter (±15 min)
+	fp.timezoneOffsetJitter = cryptoRandInt(-15, 15) * 60; // in seconds
+
+	// Memory multiplier (0.85–1.15x base)
+	fp.memoryMultiplier = 0.85 + cryptoFloat() * 0.3;
+
+	// Hardware concurrency from realistic pool
+	const possibleCores = [2, 4, 6, 8, 10, 12, 16, 20, 24];
+	fp.hardwareConcurrencySeed = possibleCores[cryptoRandInt(0, possibleCores.length - 1)]!;
+
+	// Touch support correlates with device type (more common on mobile/tablets)
+	const touchChance = os === "win" ? 0.15 : os === "mac" ? 0.05 : 0.02;
+	fp.touchSupport = cryptoFloat() < touchChance;
+	fp.touchPoints = fp.touchSupport ? cryptoRandInt(1, 5) : 0;
+
+	// Pointer type consistency — desktop has mouse, touch devices have pointer+touch
+	if (fp.touchSupport) {
+		fp.pointerType = cryptoFloat() < 0.3 ? "touch" : "mouse";
+	} else {
+		fp.pointerType = cryptoFloat() < 0.05 ? "pen" : "mouse";
+	}
+
+	// Online state is almost always true for real browsers
+	fp.onlineState = cryptoFloat() > 0.001;
+}
+
+export function generateFingerprint(
+	window?: [number, number],
+	config?: Partial<FingerprintGeneratorOptions>,
+): Fingerprint & ExtendedScreen {
+	let fp: Fingerprint & ExtendedScreen;
+	if (window) {
+		const generated = FP_GENERATOR.getFingerprint(config);
+		fp = generated.fingerprint as Fingerprint & ExtendedScreen;
+		handleWindowSize(fp, window[0], window[1]);
+	} else {
+		const generated = FP_GENERATOR.getFingerprint(config);
+		fp = generated.fingerprint as Fingerprint & ExtendedScreen;
+	}
+
+	const ua = fp.navigator?.userAgent ?? "";
+	if (ua) {
+		applyRealismSeeds(fp, ua);
+	}
+
+	return fp;
+}
+
+function handleWindowSize(
+	fp: Fingerprint,
+	outerWidth: number,
+	outerHeight: number,
+): void {
+	const sc: ExtendedScreen = { ...fp.screen, screenY: undefined };
+
+	const centerX = Math.floor((sc.width - outerWidth) / 2);
+	const jitterX = Math.floor((cryptoFloat() - 0.5) * 40);
+	sc.screenX += Math.max(0, Math.min(sc.width - outerWidth, centerX + jitterX));
+
+	const availY = Math.max(0, sc.height - outerHeight - 40);
+	sc.screenY = Math.floor(cryptoFloat() * availY * 0.45);
+	if (sc.innerWidth) {
+		sc.innerWidth = Math.max(outerWidth - sc.outerWidth + sc.innerWidth, 0);
+	}
+	if (sc.innerHeight) {
+		sc.innerHeight = Math.max(outerHeight - sc.outerHeight + sc.innerHeight, 0);
+	}
+	sc.outerWidth = outerWidth;
+	sc.outerHeight = outerHeight;
+	fp.screen = sc;
+}
+
+export function fromBrowserforge(
+	fingerprint: Fingerprint,
+	ffVersion?: string,
+): Record<string, any> {
+	const camoufoxData: Record<string, any> = {};
+	_castToProperties(
+		camoufoxData,
+		BROWSERFORGE_DATA,
+		{ ...fingerprint },
+		ffVersion,
+	);
+	handleScreenXY(camoufoxData, fingerprint.screen);
+	return camoufoxData;
+}
+
+/**
+ * Returns a realistic font list for the given OS.
+ * These are actual system fonts that would appear on that platform.
+ */
+export function getRealisticFonts(os: string): string[] {
+	const key = os.toLowerCase() as keyof typeof REALISTIC_FONTS;
+	return REALISTIC_FONTS[key] ?? REALISTIC_FONTS.lin;
+}

@@ -1,1 +1,8 @@
-aW1wb3J0IHR5cGUgeyBCZXh4Y3ZQbHVnaW4gfSBmcm9tICIuL3R5cGVzLmpzIjsKZXhwb3J0IGludGVyZmFjZSBTdGFzaE9wdGlvbnMgewogICAgZmlsZTogc3RyaW5nOwogICAgbmFtZXM/OiBzdHJpbmdbXTsKICAgIGRvbWFpbnM/OiBzdHJpbmdbXTsKICAgIHNhdmVFdmVyeT86IG51bWJlcjsKfQpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBzdGFzaChpbnB1dDogc3RyaW5nIHwgU3Rhc2hPcHRpb25zKTogQmV4eGN2UGx1Z2luOwo=
+import type { BexxcvPlugin } from "./types.js";
+export interface StashOptions {
+    file: string;
+    names?: string[];
+    domains?: string[];
+    saveEvery?: number;
+}
+export declare function stash(input: string | StashOptions): BexxcvPlugin;

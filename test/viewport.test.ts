@@ -1,1 +1,78 @@
-aW1wb3J0IHsgZGVzY3JpYmUsIGV4cGVjdCwgdGVzdCB9IGZyb20gInZpdGVzdCI7CmltcG9ydCB7IENhbW91Zm94IH0gZnJvbSAiLi4vc3JjIjsKaW1wb3J0IHsgYXR0YWNoTm9WaWV3cG9ydERlZmF1bHQsIHNwb29mc1dpbmRvd0RpbWVuc2lvbnMgfSBmcm9tICIuLi9zcmMvdXRpbHMiOwoKZGVzY3JpYmUoInNwb29mc1dpbmRvd0RpbWVuc2lvbnMiLCAoKSA9PiB7Cgl0ZXN0KCJkZXRlY3RzIGEgc3Bvb2ZlZCBkaW1lbnNpb24gYWNyb3NzIGNvbmZpZyBjaHVua3MiLCAoKSA9PiB7CgkJZXhwZWN0KAoJCQlzcG9vZnNXaW5kb3dEaW1lbnNpb25zKHsKCQkJCWVudjogewoJCQkJCUNBTU9VX0NPTkZJR18yOiAnZXJXaWR0aCI6MTI4MH0nLAoJCQkJCUNBTU9VX0NPTkZJR18xOiAneyJ3aW5kb3cub3V0JywKCQkJCX0sCgkJCX0pLAoJCSkudG9CZSh0cnVlKTsKCX0pOwoKCXRlc3QoImlzIGZhbHNlIHdpdGhvdXQgd2luZG93IGRpbWVuc2lvbnMgaW4gdGhlIGNvbmZpZyIsICgpID0+IHsKCQlleHBlY3QoCgkJCXNwb29mc1dpbmRvd0RpbWVuc2lvbnMoewoJCQkJZW52OiB7IENBTU9VX0NPTkZJR18xOiAneyJuYXZpZ2F0b3IucGxhdGZvcm0iOiJXaW4zMiJ9JyB9LAoJCQl9KSwKCQkpLnRvQmUoZmFsc2UpOwoJfSk7CgoJdGVzdCgiaXMgZmFsc2Ugd2l0aG91dCBhIGNvbmZpZyIsICgpID0+IHsKCQlleHBlY3Qoc3Bvb2ZzV2luZG93RGltZW5zaW9ucyh7fSkpLnRvQmUoZmFsc2UpOwoJfSk7Cn0pOwoKZGVzY3JpYmUoImF0dGFjaE5vVmlld3BvcnREZWZhdWx0IiwgKCkgPT4gewoJY29uc3Qgc3R1YiA9ICgpID0+IHsKCQljb25zdCBjYWxsczogYW55W10gPSBbXTsKCQlyZXR1cm4gewoJCQljYWxscywKCQkJbmV3UGFnZTogKG9wdGlvbnM/OiBhbnkpID0+IGNhbGxzLnB1c2gob3B0aW9ucyksCgkJCW5ld0NvbnRleHQ6IChvcHRpb25zPzogYW55KSA9PiBjYWxscy5wdXNoKG9wdGlvbnMpLAoJCX07Cgl9OwoKCXRlc3QoImRlZmF1bHRzIG5ld1BhZ2UvbmV3Q29udGV4dCB0byBubyB2aWV3cG9ydCIsICgpID0+IHsKCQljb25zdCB0YXJnZXQgPSBhdHRhY2hOb1ZpZXdwb3J0RGVmYXVsdChzdHViKCkpOwoJCXRhcmdldC5uZXdQYWdlKCk7CgkJdGFyZ2V0Lm5ld0NvbnRleHQoeyBsb2NhbGU6ICJlbi1VUyIgfSk7CgkJZXhwZWN0KHRhcmdldC5jYWxscykudG9FcXVhbChbCgkJCXsgdmlld3BvcnQ6IG51bGwgfSwKCQkJeyBsb2NhbGU6ICJlbi1VUyIsIHZpZXdwb3J0OiBudWxsIH0sCgkJXSk7Cgl9KTsKCgl0ZXN0KCJrZWVwcyBhbiBleHBsaWNpdCB2aWV3cG9ydCIsICgpID0+IHsKCQljb25zdCB0YXJnZXQgPSBhdHRhY2hOb1ZpZXdwb3J0RGVmYXVsdChzdHViKCkpOwoJCXRhcmdldC5uZXdQYWdlKHsgdmlld3BvcnQ6IHsgd2lkdGg6IDgwMCwgaGVpZ2h0OiA2MDAgfSB9KTsKCQlleHBlY3QodGFyZ2V0LmNhbGxzKS50b0VxdWFsKFt7IHZpZXdwb3J0OiB7IHdpZHRoOiA4MDAsIGhlaWdodDogNjAwIH0gfV0pOwoJfSk7Cn0pOwoKZGVzY3JpYmUoIndpbmRvdyBzaXplIiwgKCkgPT4gewoJdGVzdCgicGFnZSByZXBvcnRzIHRoZSBzcG9vZmVkIHdpbmRvdyBzaXplLCBub3QgUGxheXdyaWdodCdzIGRlZmF1bHQiLCBhc3luYyAoKSA9PiB7CgkJY29uc3QgYnJvd3NlciA9IGF3YWl0IENhbW91Zm94KHsKCQkJb3M6ICJ3aW5kb3dzIiwKCQkJaGVhZGxlc3M6IHRydWUsCgkJCXdpbmRvdzogWzE2NTAsIDEwODBdLAoJCX0pOwoKCQl0cnkgewoJCQljb25zdCBwYWdlID0gYXdhaXQgYnJvd3Nlci5uZXdQYWdlKCk7CgkJCWNvbnN0IHNpemUgPSBhd2FpdCBwYWdlLmV2YWx1YXRlKCgpID0+ICh7CgkJCQl3aWR0aDogd2luZG93LmlubmVyV2lkdGgsCgkJCQloZWlnaHQ6IHdpbmRvdy5pbm5lckhlaWdodCwKCQkJfSkpOwoJCQlleHBlY3Qoc2l6ZS53aWR0aCkudG9CZSgxNjUwKTsKCQkJZXhwZWN0KHNpemUuaGVpZ2h0KS50b0JlTGVzc1RoYW5PckVxdWFsKDEwODApOwoJCQlleHBlY3Qoc2l6ZSkubm90LnRvRXF1YWwoeyB3aWR0aDogMTI4MCwgaGVpZ2h0OiA3MjAgfSk7CgkJfSBmaW5hbGx5IHsKCQkJYXdhaXQgYnJvd3Nlci5jbG9zZSgpOwoJCX0KCX0sIDMwZTMpOwp9KTsK
+import { describe, expect, test } from "vitest";
+import { Camoufox } from "../src";
+import { attachNoViewportDefault, spoofsWindowDimensions } from "../src/utils";
+
+describe("spoofsWindowDimensions", () => {
+	test("detects a spoofed dimension across config chunks", () => {
+		expect(
+			spoofsWindowDimensions({
+				env: {
+					CAMOU_CONFIG_2: 'erWidth":1280}',
+					CAMOU_CONFIG_1: '{"window.out',
+				},
+			}),
+		).toBe(true);
+	});
+
+	test("is false without window dimensions in the config", () => {
+		expect(
+			spoofsWindowDimensions({
+				env: { CAMOU_CONFIG_1: '{"navigator.platform":"Win32"}' },
+			}),
+		).toBe(false);
+	});
+
+	test("is false without a config", () => {
+		expect(spoofsWindowDimensions({})).toBe(false);
+	});
+});
+
+describe("attachNoViewportDefault", () => {
+	const stub = () => {
+		const calls: any[] = [];
+		return {
+			calls,
+			newPage: (options?: any) => calls.push(options),
+			newContext: (options?: any) => calls.push(options),
+		};
+	};
+
+	test("defaults newPage/newContext to no viewport", () => {
+		const target = attachNoViewportDefault(stub());
+		target.newPage();
+		target.newContext({ locale: "en-US" });
+		expect(target.calls).toEqual([
+			{ viewport: null },
+			{ locale: "en-US", viewport: null },
+		]);
+	});
+
+	test("keeps an explicit viewport", () => {
+		const target = attachNoViewportDefault(stub());
+		target.newPage({ viewport: { width: 800, height: 600 } });
+		expect(target.calls).toEqual([{ viewport: { width: 800, height: 600 } }]);
+	});
+});
+
+describe("window size", () => {
+	test("page reports the spoofed window size, not Playwright's default", async () => {
+		const browser = await Camoufox({
+			os: "windows",
+			headless: true,
+			window: [1650, 1080],
+		});
+
+		try {
+			const page = await browser.newPage();
+			const size = await page.evaluate(() => ({
+				width: window.innerWidth,
+				height: window.innerHeight,
+			}));
+			expect(size.width).toBe(1650);
+			expect(size.height).toBeLessThanOrEqual(1080);
+			expect(size).not.toEqual({ width: 1280, height: 720 });
+		} finally {
+			await browser.close();
+		}
+	}, 30e3);
+});

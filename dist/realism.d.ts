@@ -1,1 +1,7 @@
-ZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gaXNLbm93blBoeXNpY2FsKHdpZHRoOiBudW1iZXIsIGhlaWdodDogbnVtYmVyKTogYm9vbGVhbjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gY29oZXJlbnREcHJXZWlnaHRzKHBvb2w6IFtudW1iZXIsIG51bWJlcl1bXSwgd2lkdGg6IG51bWJlciwgaGVpZ2h0OiBudW1iZXIpOiBbbnVtYmVyW10sIG51bWJlcltdXTsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gcmVjb25jaWxlV2ViZ2xLZXlzKGRhdGE6IFJlY29yZDxzdHJpbmcsIHVua25vd24+LCBrbm93bjogUmVjb3JkPHN0cmluZywgc3RyaW5nPik6IFJlY29yZDxzdHJpbmcsIHVua25vd24+OwpleHBvcnQgZGVjbGFyZSBjb25zdCBSRUFMSVNNX1BST1BFUlRJRVM6IHN0cmluZ1tdOwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiByZWFsaXNtRGVmYXVsdHMoa25vd246IFJlY29yZDxzdHJpbmcsIHN0cmluZz4pOiBSZWNvcmQ8c3RyaW5nLCB1bmtub3duPjsKZXhwb3J0IGRlY2xhcmUgZnVuY3Rpb24gc25hcFNjcmVlbihjb25maWc6IFJlY29yZDxzdHJpbmcsIHVua25vd24+LCBwb29sOiBbbnVtYmVyLCBudW1iZXJdW10pOiBib29sZWFuOwpleHBvcnQgZGVjbGFyZSBmdW5jdGlvbiBsYW5ndWFnZUxpc3QobGFuZ3VhZ2U6IHN0cmluZywgcmVnaW9uOiBzdHJpbmcpOiBzdHJpbmc7Cg==
+export declare function isKnownPhysical(width: number, height: number): boolean;
+export declare function coherentDprWeights(pool: [number, number][], width: number, height: number): [number[], number[]];
+export declare function reconcileWebglKeys(data: Record<string, unknown>, known: Record<string, string>): Record<string, unknown>;
+export declare const REALISM_PROPERTIES: string[];
+export declare function realismDefaults(known: Record<string, string>): Record<string, unknown>;
+export declare function snapScreen(config: Record<string, unknown>, pool: [number, number][]): boolean;
+export declare function languageList(language: string, region: string): string;

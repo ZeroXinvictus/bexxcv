@@ -1,1 +1,5 @@
-ZXhwb3J0IGRlY2xhcmUgY2xhc3MgQ09OU1RSQUlOVFMgewogICAgc3RhdGljIHJlYWRvbmx5IE1JTl9WRVJTSU9OOiBzdHJpbmc7CiAgICBzdGF0aWMgcmVhZG9ubHkgTUFYX1ZFUlNJT046IHN0cmluZzsKICAgIHN0YXRpYyByZWFkb25seSBQTEFZV1JJR0hUXzFfNjFfTUlOX1ZFUlNJT046IHN0cmluZzsKfQo=
+export declare class CONSTRAINTS {
+    static readonly MIN_VERSION: string;
+    static readonly MAX_VERSION: string;
+    static readonly PLAYWRIGHT_1_61_MIN_VERSION: string;
+}

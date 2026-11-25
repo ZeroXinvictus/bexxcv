@@ -1,1 +1,49 @@
-aW1wb3J0IHsgb25FYWNoQ29udGV4dCwgb25FYWNoUGFnZSwgfSBmcm9tICIuLi9wYWdlaG9va3MuanMiOwpjb25zdCBERUZBVUxUX09SREVSID0gNTA7CmZ1bmN0aW9uIHNvcnRQbHVnaW5zKHBsdWdpbnMpIHsKICAgIHJldHVybiBbLi4ucGx1Z2luc10uc29ydCgoYSwgYikgPT4gKGEub3JkZXIgPz8gREVGQVVMVF9PUkRFUikgLSAoYi5vcmRlciA/PyBERUZBVUxUX09SREVSKSk7Cn0KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJ1bkJlZm9yZUxhdW5jaChwbHVnaW5zLCBvcHRpb25zKSB7CiAgICBmb3IgKGNvbnN0IHBsdWdpbiBvZiBzb3J0UGx1Z2lucyhwbHVnaW5zKSkgewogICAgICAgIGF3YWl0IHBsdWdpbi5iZWZvcmVMYXVuY2g/LihvcHRpb25zKTsKICAgIH0KfQpleHBvcnQgYXN5bmMgZnVuY3Rpb24gYXBwbHlQbHVnaW5zKHRhcmdldCwgcGx1Z2lucykgewogICAgY29uc3Qgc29ydGVkID0gc29ydFBsdWdpbnMocGx1Z2lucyk7CiAgICBhd2FpdCBvbkVhY2hDb250ZXh0KHRhcmdldCwgewogICAgICAgIGJlZm9yZTogYXN5bmMgKG9wdGlvbnMpID0+IHsKICAgICAgICAgICAgZm9yIChjb25zdCBwbHVnaW4gb2Ygc29ydGVkKQogICAgICAgICAgICAgICAgYXdhaXQgcGx1Z2luLmJlZm9yZUNvbnRleHQ/LihvcHRpb25zKTsKICAgICAgICB9LAogICAgICAgIGFmdGVyOiBhc3luYyAoY29udGV4dCwgb3B0aW9ucykgPT4gewogICAgICAgICAgICBmb3IgKGNvbnN0IHBsdWdpbiBvZiBzb3J0ZWQpCiAgICAgICAgICAgICAgICBhd2FpdCBwbHVnaW4ub25Db250ZXh0Py4oY29udGV4dCwgb3B0aW9ucyk7CiAgICAgICAgfSwKICAgIH0pOwogICAgZm9yIChjb25zdCBwbHVnaW4gb2Ygc29ydGVkKSB7CiAgICAgICAgaWYgKCFwbHVnaW4ub25QYWdlKQogICAgICAgICAgICBjb250aW51ZTsKICAgICAgICBjb25zdCBoYW5kbGVyID0gcGx1Z2luLm9uUGFnZS5iaW5kKHBsdWdpbik7CiAgICAgICAgb25FYWNoUGFnZSh0YXJnZXQsIChwYWdlKSA9PiBoYW5kbGVyKHBhZ2UsIHBhZ2UuY29udGV4dCgpKSk7CiAgICB9CiAgICBjb25zdCBjbG9zZXJzID0gc29ydGVkLmZpbHRlcigocGx1Z2luKSA9PiBwbHVnaW4uYmVmb3JlQ2xvc2UpOwogICAgaWYgKGNsb3NlcnMubGVuZ3RoID4gMCkgewogICAgICAgIGNvbnN0IGhvbGRlciA9IHRhcmdldDsKICAgICAgICBjb25zdCBvcmlnaW5hbENsb3NlID0gaG9sZGVyLmNsb3NlLmJpbmQodGFyZ2V0KTsKICAgICAgICBob2xkZXIuY2xvc2UgPSBhc3luYyAoLi4uYXJncykgPT4gewogICAgICAgICAgICBjb25zdCBjb250ZXh0cyA9IHR5cGVvZiB0YXJnZXQuY29udGV4dHMgPT09ICJmdW5jdGlvbiIKICAgICAgICAgICAgICAgID8gdGFyZ2V0LmNvbnRleHRzKCkKICAgICAgICAgICAgICAgIDogW3RhcmdldF07CiAgICAgICAgICAgIGZvciAoY29uc3QgcGx1Z2luIG9mIFsuLi5jbG9zZXJzXS5yZXZlcnNlKCkpIHsKICAgICAgICAgICAgICAgIHRyeSB7CiAgICAgICAgICAgICAgICAgICAgYXdhaXQgcGx1Z2luLmJlZm9yZUNsb3NlPy4oY29udGV4dHMpOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2F0Y2ggKGVycm9yKSB7CiAgICAgICAgICAgICAgICAgICAgY29uc29sZS53YXJuKGBbYmV4eGN2XSBwbHVnaW4gIiR7cGx1Z2luLm5hbWV9IiBmYWlsZWQgb24gY2xvc2U6ICR7ZXJyb3IubWVzc2FnZX1gKTsKICAgICAgICAgICAgICAgIH0KICAgICAgICAgICAgfQogICAgICAgICAgICByZXR1cm4gb3JpZ2luYWxDbG9zZSguLi5hcmdzKTsKICAgICAgICB9OwogICAgfQogICAgcmV0dXJuIHRhcmdldDsKfQo=
+import { onEachContext, onEachPage, } from "../pagehooks.js";
+const DEFAULT_ORDER = 50;
+function sortPlugins(plugins) {
+    return [...plugins].sort((a, b) => (a.order ?? DEFAULT_ORDER) - (b.order ?? DEFAULT_ORDER));
+}
+export async function runBeforeLaunch(plugins, options) {
+    for (const plugin of sortPlugins(plugins)) {
+        await plugin.beforeLaunch?.(options);
+    }
+}
+export async function applyPlugins(target, plugins) {
+    const sorted = sortPlugins(plugins);
+    await onEachContext(target, {
+        before: async (options) => {
+            for (const plugin of sorted)
+                await plugin.beforeContext?.(options);
+        },
+        after: async (context, options) => {
+            for (const plugin of sorted)
+                await plugin.onContext?.(context, options);
+        },
+    });
+    for (const plugin of sorted) {
+        if (!plugin.onPage)
+            continue;
+        const handler = plugin.onPage.bind(plugin);
+        onEachPage(target, (page) => handler(page, page.context()));
+    }
+    const closers = sorted.filter((plugin) => plugin.beforeClose);
+    if (closers.length > 0) {
+        const holder = target;
+        const originalClose = holder.close.bind(target);
+        holder.close = async (...args) => {
+            const contexts = typeof target.contexts === "function"
+                ? target.contexts()
+                : [target];
+            for (const plugin of [...closers].reverse()) {
+                try {
+                    await plugin.beforeClose?.(contexts);
+                }
+                catch (error) {
+                    console.warn(`[bexxcv] plugin "${plugin.name}" failed on close: ${error.message}`);
+                }
+            }
+            return originalClose(...args);
+        };
+    }
+    return target;
+}

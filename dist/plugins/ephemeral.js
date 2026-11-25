@@ -1,1 +1,131 @@
-Y29uc3QgQ09OVEVYVF9EQVRBID0gbmV3IFdlYWtNYXAoKTsKY29uc3QgUEFHRV9MQVNUX1VSTCA9IG5ldyBXZWFrTWFwKCk7CmNvbnN0IFdBVENIRUQgPSBuZXcgV2Vha1NldCgpOwpmdW5jdGlvbiBnZXRDb250ZXh0U3RvcmUoY29udGV4dCkgewogICAgbGV0IHN0b3JlID0gQ09OVEVYVF9EQVRBLmdldChjb250ZXh0KTsKICAgIGlmICghc3RvcmUpIHsKICAgICAgICBzdG9yZSA9IG5ldyBNYXAoKTsKICAgICAgICBDT05URVhUX0RBVEEuc2V0KGNvbnRleHQsIHN0b3JlKTsKICAgIH0KICAgIHJldHVybiBzdG9yZTsKfQphc3luYyBmdW5jdGlvbiBleHRyYWN0RXBoZW1lcmFsSWQocGFnZSkgewogICAgdHJ5IHsKICAgICAgICBjb25zdCByZXN1bHQgPSBhd2FpdCBwYWdlLmV2YWx1YXRlKCgpID0+IHsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGNvbnN0IHcgPSB3aW5kb3c7CiAgICAgICAgICAgICAgICBjb25zdCByZXNwID0gdy50dXJuc3RpbGU/LmdldFJlc3BvbnNlPy4oKTsKICAgICAgICAgICAgICAgIGlmICghcmVzcCB8fCByZXNwLmxlbmd0aCA8IDIwKQogICAgICAgICAgICAgICAgICAgIHJldHVybiBudWxsOwogICAgICAgICAgICAgICAgLy8gRXBoZW1lcmFsIGlkIGlzIGVtYmVkZGVkIGFzID9lcGhlbWVyYWxfaWQ9PGhleD4gaW5zaWRlIHRoZSByZXNwb25zZSBxdWVyeXN0cmluZwogICAgICAgICAgICAgICAgY29uc3QgbSA9IHJlc3AubWF0Y2goL2VwaGVtZXJhbF9pZD0oW0EtWmEtejAtOV8tXSspLyk7CiAgICAgICAgICAgICAgICByZXR1cm4gbT8uWzFdID8/IG51bGw7CiAgICAgICAgICAgIH0KICAgICAgICAgICAgY2F0Y2ggewogICAgICAgICAgICAgICAgcmV0dXJuIG51bGw7CiAgICAgICAgICAgIH0KICAgICAgICB9KTsKICAgICAgICByZXR1cm4gcmVzdWx0ID8/IG51bGw7CiAgICB9CiAgICBjYXRjaCB7CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9Cn0KYXN5bmMgZnVuY3Rpb24gcmVhZFRva2VuKHBhZ2UpIHsKICAgIHJldHVybiBwYWdlLmV2YWx1YXRlKCgpID0+IHsKICAgICAgICBmb3IgKGNvbnN0IGVsIG9mIEFycmF5LmZyb20oZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnW25hbWU9ImNmLXR1cm5zdGlsZS1yZXNwb25zZSJdJykpKSB7CiAgICAgICAgICAgIGlmIChlbC52YWx1ZSAmJiBlbC52YWx1ZS5sZW5ndGggPiAyMCkKICAgICAgICAgICAgICAgIHJldHVybiBlbC52YWx1ZTsKICAgICAgICB9CiAgICAgICAgcmV0dXJuIG51bGw7CiAgICB9KS5jYXRjaCgoKSA9PiBudWxsKTsKfQpleHBvcnQgZnVuY3Rpb24gZXBoZW1lcmFsKG9wdGlvbnMgPSB7fSkgewogICAgY29uc3QgbWF4QWdlID0gb3B0aW9ucy5tYXhBZ2VNcyA/PyA2MDBfMDAwOyAvLyAxMCBtaW4KICAgIGNvbnN0IGF1dG9SZXBsYXkgPSBvcHRpb25zLmF1dG9SZXBsYXkgPz8gZmFsc2U7CiAgICByZXR1cm4gewogICAgICAgIG5hbWU6ICJlcGhlbWVyYWwiLAogICAgICAgIG9yZGVyOiA0NCwKICAgICAgICBvbkNvbnRleHQoY29udGV4dCkgewogICAgICAgICAgICBjb25zdCBzdG9yZSA9IGdldENvbnRleHRTdG9yZShjb250ZXh0KTsKICAgICAgICAgICAgLy8gUHJ1bmUgc3RhbGUgZW50cmllcyBldmVyeSBtaW51dGUKICAgICAgICAgICAgY29uc3QgcHJ1bmUgPSBzZXRJbnRlcnZhbCgoKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwogICAgICAgICAgICAgICAgZm9yIChjb25zdCBba2V5LCBlbnRyeV0gb2Ygc3RvcmUuZW50cmllcygpKSB7CiAgICAgICAgICAgICAgICAgICAgaWYgKGVudHJ5LmV4cGlyZXNBdCA8IG5vdykKICAgICAgICAgICAgICAgICAgICAgICAgc3RvcmUuZGVsZXRlKGtleSk7CiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgIH0sIDYwXzAwMCk7CiAgICAgICAgICAgIHBydW5lLnVucmVmKCk7CiAgICAgICAgfSwKICAgICAgICBvblBhZ2UocGFnZSkgewogICAgICAgICAgICBpZiAoV0FUQ0hFRC5oYXMocGFnZSkpCiAgICAgICAgICAgICAgICByZXR1cm47CiAgICAgICAgICAgIFdBVENIRUQuYWRkKHBhZ2UpOwogICAgICAgICAgICBjb25zdCBvcmlnaW5hbEdvdG8gPSBwYWdlLmdvdG8uYmluZChwYWdlKTsKICAgICAgICAgICAgcGFnZS5nb3RvID0gKGFzeW5jICguLi5hcmdzKSA9PiB7CiAgICAgICAgICAgICAgICBjb25zdCB1cmwgPSBTdHJpbmcoYXJnc1swXSk7CiAgICAgICAgICAgICAgICAvLyBCZWZvcmUgbmF2aWdhdGluZywgdHJ5IHRvIHJlcGxheSBzdG9yZWQgZXBoZW1lcmFsX2lkIGludG8gaGlkZGVuIGlucHV0CiAgICAgICAgICAgICAgICBpZiAoYXV0b1JlcGxheSkgewogICAgICAgICAgICAgICAgICAgIGNvbnN0IHByZXYgPSBQQUdFX0xBU1RfVVJMLmdldChwYWdlKTsKICAgICAgICAgICAgICAgICAgICBpZiAocHJldiAmJiBwcmV2ICE9PSB1cmwpIHsKICAgICAgICAgICAgICAgICAgICAgICAgLy8gRGlmZmVyZW50IHBhZ2Ug4oCUIGNsZWFyIHN0YWxlIGRhdGEKICAgICAgICAgICAgICAgICAgICAgICAgY29uc3Qgc3RvcmUgPSBnZXRDb250ZXh0U3RvcmUocGFnZS5jb250ZXh0KCkpOwogICAgICAgICAgICAgICAgICAgICAgICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwogICAgICAgICAgICAgICAgICAgICAgICBmb3IgKGNvbnN0IFtrZXksIGVdIG9mIHN0b3JlLmVudHJpZXMoKSkgewogICAgICAgICAgICAgICAgICAgICAgICAgICAgaWYgKGUuZXhwaXJlc0F0IDwgbm93KQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0b3JlLmRlbGV0ZShrZXkpOwogICAgICAgICAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgUEFHRV9MQVNUX1VSTC5zZXQocGFnZSwgdXJsKTsKICAgICAgICAgICAgICAgIHJldHVybiBvcmlnaW5hbEdvdG8oLi4uYXJncyk7CiAgICAgICAgICAgIH0pOwogICAgICAgICAgICAvLyBXYXRjaCBmb3IgbmV3IHRva2VucyBhbmQgY2FwdHVyZSBlcGhlbWVyYWwgaWRzCiAgICAgICAgICAgIHBhZ2Uub24oImxvYWQiLCBhc3luYyAoKSA9PiB7CiAgICAgICAgICAgICAgICB0cnkgewogICAgICAgICAgICAgICAgICAgIGNvbnN0IHRva2VuID0gYXdhaXQgcmVhZFRva2VuKHBhZ2UpOwogICAgICAgICAgICAgICAgICAgIGlmICghdG9rZW4pCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgICAgICAgICBjb25zdCBlaWQgPSBhd2FpdCBleHRyYWN0RXBoZW1lcmFsSWQocGFnZSk7CiAgICAgICAgICAgICAgICAgICAgaWYgKCFlaWQpCiAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybjsKICAgICAgICAgICAgICAgICAgICBjb25zdCBrZXkgPSBgJHtwYWdlLnVybCgpfToke2VpZC5zbGljZSgwLCA4KX1gOwogICAgICAgICAgICAgICAgICAgIGdldENvbnRleHRTdG9yZShwYWdlLmNvbnRleHQoKSkuc2V0KGtleSwgewogICAgICAgICAgICAgICAgICAgICAgICB3aWRnZXRLZXk6IGtleSwKICAgICAgICAgICAgICAgICAgICAgICAgZXBoZW1lcmFsSWQ6IGVpZCwKICAgICAgICAgICAgICAgICAgICAgICAgZXhwaXJlc0F0OiBEYXRlLm5vdygpICsgbWF4QWdlLAogICAgICAgICAgICAgICAgICAgIH0pOwogICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgY2F0Y2ggewogICAgICAgICAgICAgICAgICAgIC8vIGlnbm9yZQogICAgICAgICAgICAgICAgfQogICAgICAgICAgICB9KTsKICAgICAgICB9LAogICAgfTsKfQovKiogUmV0cmlldmUgc3RvcmVkIGVwaGVtZXJhbCBlbnRyaWVzIGZvciBhIGNvbnRleHQuICovCmV4cG9ydCBmdW5jdGlvbiBnZXRFcGhlbWVyYWxFbnRyaWVzKGNvbnRleHQpIHsKICAgIGNvbnN0IHN0b3JlID0gQ09OVEVYVF9EQVRBLmdldChjb250ZXh0KSA/PyBuZXcgTWFwKCk7CiAgICByZXR1cm4gWy4uLnN0b3JlLnZhbHVlcygpXS5maWx0ZXIoKGUpID0+IGUuZXhwaXJlc0F0ID4gRGF0ZS5ub3coKSk7Cn0KLyoqIEluamVjdCBhIHN0b3JlZCBlcGhlbWVyYWxfaWQgYmFjayBpbnRvIGEgaGlkZGVuIGlucHV0IG9uIHRoZSB0YXJnZXQgcGFnZS4gKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHJlcGxheUVwaGVtZXJhbChwYWdlLCBlcGhlbWVyYWxJZCkgewogICAgdHJ5IHsKICAgICAgICBhd2FpdCBwYWdlLmV2YWx1YXRlKChpZCkgPT4gewogICAgICAgICAgICBjb25zdCBpbnB1dCA9IGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3IoJ2lucHV0W25hbWU9ImNmLXR1cm5zdGlsZS1yZXNwb25zZSJdJyk7CiAgICAgICAgICAgIGlmICghaW5wdXQpCiAgICAgICAgICAgICAgICByZXR1cm4gZmFsc2U7CiAgICAgICAgICAgIGlucHV0LmRhdGFzZXQuZXBoZW1lcmFsUmVmID0gaWQ7CiAgICAgICAgICAgIHJldHVybiB0cnVlOwogICAgICAgIH0sIGVwaGVtZXJhbElkKTsKICAgICAgICByZXR1cm4gdHJ1ZTsKICAgIH0KICAgIGNhdGNoIHsKICAgICAgICByZXR1cm4gZmFsc2U7CiAgICB9Cn0KZXhwb3J0IGZ1bmN0aW9uIGF0dGFjaEVwaGVtZXJhbCh0YXJnZXQsIG9wdGlvbnMgPSB7fSkgewogICAgdm9pZCBlcGhlbWVyYWwob3B0aW9ucyk7IC8vIHNpZGUtZWZmZWN0IHBsdWdpbiByZWdpc3RyYXRpb24gaGFuZGxlZCBieSBhcHBseVBsdWdpbnMKICAgIHJldHVybiB0YXJnZXQ7Cn0K
+const CONTEXT_DATA = new WeakMap();
+const PAGE_LAST_URL = new WeakMap();
+const WATCHED = new WeakSet();
+function getContextStore(context) {
+    let store = CONTEXT_DATA.get(context);
+    if (!store) {
+        store = new Map();
+        CONTEXT_DATA.set(context, store);
+    }
+    return store;
+}
+async function extractEphemeralId(page) {
+    try {
+        const result = await page.evaluate(() => {
+            try {
+                const w = window;
+                const resp = w.turnstile?.getResponse?.();
+                if (!resp || resp.length < 20)
+                    return null;
+                // Ephemeral id is embedded as ?ephemeral_id=<hex> inside the response querystring
+                const m = resp.match(/ephemeral_id=([A-Za-z0-9_-]+)/);
+                return m?.[1] ?? null;
+            }
+            catch {
+                return null;
+            }
+        });
+        return result ?? null;
+    }
+    catch {
+        return null;
+    }
+}
+async function readToken(page) {
+    return page.evaluate(() => {
+        for (const el of Array.from(document.querySelectorAll('[name="cf-turnstile-response"]'))) {
+            if (el.value && el.value.length > 20)
+                return el.value;
+        }
+        return null;
+    }).catch(() => null);
+}
+export function ephemeral(options = {}) {
+    const maxAge = options.maxAgeMs ?? 600_000; // 10 min
+    const autoReplay = options.autoReplay ?? false;
+    return {
+        name: "ephemeral",
+        order: 44,
+        onContext(context) {
+            const store = getContextStore(context);
+            // Prune stale entries every minute
+            const prune = setInterval(() => {
+                const now = Date.now();
+                for (const [key, entry] of store.entries()) {
+                    if (entry.expiresAt < now)
+                        store.delete(key);
+                }
+            }, 60_000);
+            prune.unref();
+        },
+        onPage(page) {
+            if (WATCHED.has(page))
+                return;
+            WATCHED.add(page);
+            const originalGoto = page.goto.bind(page);
+            page.goto = (async (...args) => {
+                const url = String(args[0]);
+                // Before navigating, try to replay stored ephemeral_id into hidden input
+                if (autoReplay) {
+                    const prev = PAGE_LAST_URL.get(page);
+                    if (prev && prev !== url) {
+                        // Different page — clear stale data
+                        const store = getContextStore(page.context());
+                        const now = Date.now();
+                        for (const [key, e] of store.entries()) {
+                            if (e.expiresAt < now)
+                                store.delete(key);
+                        }
+                    }
+                }
+                PAGE_LAST_URL.set(page, url);
+                return originalGoto(...args);
+            });
+            // Watch for new tokens and capture ephemeral ids
+            page.on("load", async () => {
+                try {
+                    const token = await readToken(page);
+                    if (!token)
+                        return;
+                    const eid = await extractEphemeralId(page);
+                    if (!eid)
+                        return;
+                    const key = `${page.url()}:${eid.slice(0, 8)}`;
+                    getContextStore(page.context()).set(key, {
+                        widgetKey: key,
+                        ephemeralId: eid,
+                        expiresAt: Date.now() + maxAge,
+                    });
+                }
+                catch {
+                    // ignore
+                }
+            });
+        },
+    };
+}
+/** Retrieve stored ephemeral entries for a context. */
+export function getEphemeralEntries(context) {
+    const store = CONTEXT_DATA.get(context) ?? new Map();
+    return [...store.values()].filter((e) => e.expiresAt > Date.now());
+}
+/** Inject a stored ephemeral_id back into a hidden input on the target page. */
+export async function replayEphemeral(page, ephemeralId) {
+    try {
+        await page.evaluate((id) => {
+            const input = document.querySelector('input[name="cf-turnstile-response"]');
+            if (!input)
+                return false;
+            input.dataset.ephemeralRef = id;
+            return true;
+        }, ephemeralId);
+        return true;
+    }
+    catch {
+        return false;
+    }
+}
+export function attachEphemeral(target, options = {}) {
+    void ephemeral(options); // side-effect plugin registration handled by applyPlugins
+    return target;
+}

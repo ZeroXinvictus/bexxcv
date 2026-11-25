@@ -1,1 +1,96 @@
-Y29uc3QgU0VTU0lPTlMgPSBuZXcgV2Vha01hcCgpOwpjb25zdCBBQ1RJVkVfU0VTU0lPTlMgPSBuZXcgTWFwKCk7CmxldCBzZXNzaW9uSWRDb3VudGVyID0gMDsKZnVuY3Rpb24gZ2VuZXJhdGVTZWVkKGxlbmd0aCkgewogICAgY29uc3QgYnVmID0gbmV3IFVpbnQ4QXJyYXkobGVuZ3RoKTsKICAgIGNyeXB0by5nZXRSYW5kb21WYWx1ZXMoYnVmKTsKICAgIHJldHVybiBidWY7Cn0KZnVuY3Rpb24gZGVyaXZlQnl0ZShzZWVkLCBpbmRleCkgewogICAgbGV0IGhhc2ggPSAweDllMzc3OWI5OwogICAgY29uc3QgZGF0YSA9IG5ldyBVaW50OEFycmF5KHNlZWQubGVuZ3RoICsgNCk7CiAgICBkYXRhLnNldChzZWVkKTsKICAgIGNvbnN0IHZpZXcgPSBuZXcgRGF0YVZpZXcoZGF0YS5idWZmZXIpOwogICAgdmlldy5zZXRVaW50MzIoc2VlZC5sZW5ndGgsIGluZGV4LCBmYWxzZSk7CiAgICBmb3IgKGxldCBpID0gMDsgaSA8IGRhdGEubGVuZ3RoOyBpKyspIHsKICAgICAgICBoYXNoIF49IGRhdGFbaV07CiAgICAgICAgaGFzaCA9IChoYXNoICogMHg1YmQxZTk5NSArIDB4N2I1YTlhN2YpID4+PiAwOwogICAgfQogICAgcmV0dXJuIGhhc2ggPj4+IDA7Cn0KZnVuY3Rpb24gc2VlZGVkUmFuZG9tKHNlZWQsIGluZGV4KSB7CiAgICBjb25zdCB2YWx1ZSA9IGRlcml2ZUJ5dGUoc2VlZCwgaW5kZXgpOwogICAgcmV0dXJuIHZhbHVlIC8gMHgxMDAwMDAwMDA7Cn0KZnVuY3Rpb24gZ2F1c3NGcm9tU2VlZChzZWVkLCBpbmRleCwgbWVhbiwgc2QpIHsKICAgIGNvbnN0IHUxID0gTWF0aC5tYXgoc2VlZGVkUmFuZG9tKHNlZWQsIGluZGV4ICogMiksIDFlLTEwKTsKICAgIGNvbnN0IHUyID0gc2VlZGVkUmFuZG9tKHNlZWQsIGluZGV4ICogMiArIDEpOwogICAgY29uc3QgeiA9IE1hdGguc3FydCgtMiAqIE1hdGgubG9nKHUxKSkgKiBNYXRoLmNvcygyICogTWF0aC5QSSAqIHUyKTsKICAgIHJldHVybiBtZWFuICsgc2QgKiB6Owp9CmV4cG9ydCBmdW5jdGlvbiBnZXRTZXNzaW9uSWQocGFnZSkgewogICAgY29uc3Qgc3RhdGUgPSBTRVNTSU9OUy5nZXQocGFnZSk7CiAgICBpZiAoIXN0YXRlKQogICAgICAgIHJldHVybiBudWxsOwogICAgZm9yIChjb25zdCBbaWQsIHNdIG9mIEFDVElWRV9TRVNTSU9OUykgewogICAgICAgIGlmIChzID09PSBzdGF0ZSkKICAgICAgICAgICAgcmV0dXJuIGlkOwogICAgfQogICAgcmV0dXJuIG51bGw7Cn0KZXhwb3J0IGZ1bmN0aW9uIGluaXRTZXNzaW9uKHBhZ2UsIG9wdGlvbnMgPSB7fSkgewogICAgY29uc3QgZXhpc3RpbmdJZCA9IGdldFNlc3Npb25JZChwYWdlKTsKICAgIGlmIChleGlzdGluZ0lkKQogICAgICAgIHJldHVybiBleGlzdGluZ0lkOwogICAgY29uc3QgaWQgPSBgc2Vzc18keysrc2Vzc2lvbklkQ291bnRlcn1fJHtEYXRlLm5vdygpLnRvU3RyaW5nKDM2KX1gOwogICAgY29uc3Qgc3RhdGUgPSB7CiAgICAgICAgY3JlYXRlZEF0OiBEYXRlLm5vdygpLAogICAgICAgIHBhZ2VDb3VudDogMCwKICAgICAgICBzZWVkQnVmZmVyOiBnZW5lcmF0ZVNlZWQob3B0aW9ucy5zZWVkTGVuZ3RoID8/IDMyKSwKICAgIH07CiAgICBTRVNTSU9OUy5zZXQocGFnZSwgc3RhdGUpOwogICAgQUNUSVZFX1NFU1NJT05TLnNldChpZCwgc3RhdGUpOwogICAgcmV0dXJuIGlkOwp9CmV4cG9ydCBmdW5jdGlvbiBnZXRTZXNzaW9uKHN0YXRlKSB7CiAgICByZXR1cm4gewogICAgICAgIHNlZWQ6IHN0YXRlLnNlZWRCdWZmZXIsCiAgICAgICAgbm93OiBEYXRlLm5vdygpLAogICAgICAgIGVsYXBzZWRNczogRGF0ZS5ub3coKSAtIHN0YXRlLmNyZWF0ZWRBdCwKICAgICAgICBwYWdlSW5kZXg6IHN0YXRlLnBhZ2VDb3VudCwKICAgIH07Cn0KZXhwb3J0IGZ1bmN0aW9uIGdldFNlZWRlZEZsb2F0KHN0YXRlLCBpbmRleCkgewogICAgcmV0dXJuIHNlZWRlZFJhbmRvbShzdGF0ZS5zZWVkQnVmZmVyLCBpbmRleCk7Cn0KZXhwb3J0IGZ1bmN0aW9uIGdldFNlZWRlZEludChzdGF0ZSwgaW5kZXgsIG1pbiwgbWF4KSB7CiAgICBjb25zdCByYW5nZSA9IG1heCAtIG1pbiArIDE7CiAgICByZXR1cm4gbWluICsgKGRlcml2ZUJ5dGUoc3RhdGUuc2VlZEJ1ZmZlciwgaW5kZXgpICUgcmFuZ2UpOwp9CmV4cG9ydCBmdW5jdGlvbiBnZXRTZWVkZWRHYXVzcyhzdGF0ZSwgaW5kZXgsIG1lYW4sIHNkKSB7CiAgICByZXR1cm4gZ2F1c3NGcm9tU2VlZChzdGF0ZS5zZWVkQnVmZmVyLCBpbmRleCwgbWVhbiwgc2QpOwp9CmV4cG9ydCBmdW5jdGlvbiBhZHZhbmNlUGFnZShwYWdlKSB7CiAgICBjb25zdCBzdGF0ZSA9IFNFU1NJT05TLmdldChwYWdlKTsKICAgIGlmIChzdGF0ZSkKICAgICAgICBzdGF0ZS5wYWdlQ291bnQrKzsKfQpleHBvcnQgZnVuY3Rpb24gZW5kU2Vzc2lvbihwYWdlKSB7CiAgICBjb25zdCBzdGF0ZSA9IFNFU1NJT05TLmdldChwYWdlKTsKICAgIGlmICghc3RhdGUpCiAgICAgICAgcmV0dXJuOwogICAgZm9yIChjb25zdCBbaWQsIHNdIG9mIEFDVElWRV9TRVNTSU9OUykgewogICAgICAgIGlmIChzID09PSBzdGF0ZSkgewogICAgICAgICAgICBBQ1RJVkVfU0VTU0lPTlMuZGVsZXRlKGlkKTsKICAgICAgICAgICAgYnJlYWs7CiAgICAgICAgfQogICAgfQogICAgU0VTU0lPTlMuZGVsZXRlKHBhZ2UpOwp9CmV4cG9ydCBmdW5jdGlvbiBpc1Nlc3Npb25FeHBpcmVkKHBhZ2UsIHRpbWVvdXRNcykgewogICAgY29uc3Qgc3RhdGUgPSBTRVNTSU9OUy5nZXQocGFnZSk7CiAgICBpZiAoIXN0YXRlKQogICAgICAgIHJldHVybiB0cnVlOwogICAgY29uc3QgdGltZW91dCA9IHRpbWVvdXRNcyA/PyAxXzgwMF8wMDA7CiAgICByZXR1cm4gRGF0ZS5ub3coKSAtIHN0YXRlLmNyZWF0ZWRBdCA+IHRpbWVvdXQ7Cn0K
+const SESSIONS = new WeakMap();
+const ACTIVE_SESSIONS = new Map();
+let sessionIdCounter = 0;
+function generateSeed(length) {
+    const buf = new Uint8Array(length);
+    crypto.getRandomValues(buf);
+    return buf;
+}
+function deriveByte(seed, index) {
+    let hash = 0x9e3779b9;
+    const data = new Uint8Array(seed.length + 4);
+    data.set(seed);
+    const view = new DataView(data.buffer);
+    view.setUint32(seed.length, index, false);
+    for (let i = 0; i < data.length; i++) {
+        hash ^= data[i];
+        hash = (hash * 0x5bd1e995 + 0x7b5a9a7f) >>> 0;
+    }
+    return hash >>> 0;
+}
+function seededRandom(seed, index) {
+    const value = deriveByte(seed, index);
+    return value / 0x100000000;
+}
+function gaussFromSeed(seed, index, mean, sd) {
+    const u1 = Math.max(seededRandom(seed, index * 2), 1e-10);
+    const u2 = seededRandom(seed, index * 2 + 1);
+    const z = Math.sqrt(-2 * Math.log(u1)) * Math.cos(2 * Math.PI * u2);
+    return mean + sd * z;
+}
+export function getSessionId(page) {
+    const state = SESSIONS.get(page);
+    if (!state)
+        return null;
+    for (const [id, s] of ACTIVE_SESSIONS) {
+        if (s === state)
+            return id;
+    }
+    return null;
+}
+export function initSession(page, options = {}) {
+    const existingId = getSessionId(page);
+    if (existingId)
+        return existingId;
+    const id = `sess_${++sessionIdCounter}_${Date.now().toString(36)}`;
+    const state = {
+        createdAt: Date.now(),
+        pageCount: 0,
+        seedBuffer: generateSeed(options.seedLength ?? 32),
+    };
+    SESSIONS.set(page, state);
+    ACTIVE_SESSIONS.set(id, state);
+    return id;
+}
+export function getSession(state) {
+    return {
+        seed: state.seedBuffer,
+        now: Date.now(),
+        elapsedMs: Date.now() - state.createdAt,
+        pageIndex: state.pageCount,
+    };
+}
+export function getSeededFloat(state, index) {
+    return seededRandom(state.seedBuffer, index);
+}
+export function getSeededInt(state, index, min, max) {
+    const range = max - min + 1;
+    return min + (deriveByte(state.seedBuffer, index) % range);
+}
+export function getSeededGauss(state, index, mean, sd) {
+    return gaussFromSeed(state.seedBuffer, index, mean, sd);
+}
+export function advancePage(page) {
+    const state = SESSIONS.get(page);
+    if (state)
+        state.pageCount++;
+}
+export function endSession(page) {
+    const state = SESSIONS.get(page);
+    if (!state)
+        return;
+    for (const [id, s] of ACTIVE_SESSIONS) {
+        if (s === state) {
+            ACTIVE_SESSIONS.delete(id);
+            break;
+        }
+    }
+    SESSIONS.delete(page);
+}
+export function isSessionExpired(page, timeoutMs) {
+    const state = SESSIONS.get(page);
+    if (!state)
+        return true;
+    const timeout = timeoutMs ?? 1_800_000;
+    return Date.now() - state.createdAt > timeout;
+}

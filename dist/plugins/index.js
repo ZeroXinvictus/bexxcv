@@ -1,1 +1,86 @@
-aW1wb3J0IHsgYnJha2UgfSBmcm9tICIuL2JyYWtlLmpzIjsKaW1wb3J0IHsgY2hhbGxlbmdlUGx1Z2luIH0gZnJvbSAiLi9jbGFzc2lmeS5qcyI7CmltcG9ydCB7IGNvY29vbiB9IGZyb20gIi4vY29jb29uLmpzIjsKaW1wb3J0IHsgZG9kZ2UgfSBmcm9tICIuL2RvZGdlLmpzIjsKaW1wb3J0IHsgZXBoZW1lcmFsIH0gZnJvbSAiLi9lcGhlbWVyYWwuanMiOwppbXBvcnQgeyBnYXVudGxldCB9IGZyb20gIi4vZ2F1bnRsZXQuanMiOwppbXBvcnQgeyBodW1hbiB9IGZyb20gIi4vaHVtYW4uanMiOwppbXBvcnQgeyBqc2QgfSBmcm9tICIuL2pzZC5qcyI7CmltcG9ydCB7IGxlbnMgfSBmcm9tICIuL2xlbnMuanMiOwppbXBvcnQgeyBwcmVjdXJzb3IgfSBmcm9tICIuL3ByZWN1cnNvci5qcyI7CmltcG9ydCB7IHN0YXNoIH0gZnJvbSAiLi9zdGFzaC5qcyI7CmltcG9ydCB7IHZlbmVlciB9IGZyb20gIi4vdmVuZWVyLmpzIjsKaW1wb3J0IHsgd2lyZXRhcCB9IGZyb20gIi4vd2lyZXRhcC5qcyI7CmltcG9ydCB7IGJvdFNjb3JlIH0gZnJvbSAiLi9ib3RzY29yZS5qcyI7CmV4cG9ydCBjb25zdCBQTFVHSU5fS0VZUyA9IFsKICAgICJnYXVudGxldCIsCiAgICAid2lyZXRhcCIsCiAgICAic3Rhc2giLAogICAgInZlbmVlciIsCiAgICAiYnJha2UiLAogICAgImRvZGdlIiwKICAgICJjb2Nvb24iLAogICAgImdhdW50bGV0IiwKICAgICJsZW5zIiwKICAgICJodW1hbiIsCiAgICAicGx1Z2lucyIsCiAgICAiY2xhc3NpZnkiLAogICAgImpzZCIsCiAgICAiZXBoZW1lcmFsIiwKICAgICJwcmVjdXJzb3IiLAogICAgImJvdFNjb3JlIiwKXTsKZnVuY3Rpb24gb3B0cyh2YWx1ZSkgewogICAgcmV0dXJuIHZhbHVlID09PSB0cnVlID8ge30gOiB2YWx1ZTsKfQpleHBvcnQgZnVuY3Rpb24gYnVpbGRQbHVnaW5zKG9wdGlvbnMpIHsKICAgIGNvbnN0IGxpc3QgPSBbXTsKICAgIC8vIENvcmUgcHJvdGVjdGlvbiBwbHVnaW5zIOKAlCBvcmRlciBtYXR0ZXJzCiAgICBpZiAob3B0aW9ucy5kb2RnZSkKICAgICAgICBsaXN0LnB1c2goZG9kZ2Uob3B0aW9ucy5kb2RnZSkpOwogICAgaWYgKG9wdGlvbnMuY29jb29uKQogICAgICAgIGxpc3QucHVzaChjb2Nvb24oeyBkaXI6IG9wdGlvbnMuY29jb29uIH0pKTsKICAgIGlmIChvcHRpb25zLnN0YXNoKSB7CiAgICAgICAgbGlzdC5wdXNoKHN0YXNoKHR5cGVvZiBvcHRpb25zLnN0YXNoID09PSAic3RyaW5nIiA/IHsgZmlsZTogb3B0aW9ucy5zdGFzaCB9IDogb3B0aW9ucy5zdGFzaCkpOwogICAgfQogICAgaWYgKG9wdGlvbnMudmVuZWVyKQogICAgICAgIGxpc3QucHVzaCh2ZW5lZXIob3B0cyhvcHRpb25zLnZlbmVlcikpKTsKICAgIGlmIChvcHRpb25zLmNsYXNzaWZ5ICE9PSBmYWxzZSkKICAgICAgICBsaXN0LnB1c2goY2hhbGxlbmdlUGx1Z2luKCkpOwogICAgaWYgKG9wdGlvbnMucHJlY3Vyc29yICE9PSBmYWxzZSkKICAgICAgICBsaXN0LnB1c2gocHJlY3Vyc29yKHR5cGVvZiBvcHRpb25zLnByZWN1cnNvciA9PT0gIm9iamVjdCIgPyBvcHRpb25zLnByZWN1cnNvciA6IHt9KSk7CiAgICBpZiAob3B0aW9ucy5ib3RTY29yZSkKICAgICAgICBsaXN0LnB1c2goYm90U2NvcmUodHlwZW9mIG9wdGlvbnMuYm90U2NvcmUgPT09ICJvYmplY3QiID8gb3B0aW9ucy5ib3RTY29yZSA6IHt9KSk7CiAgICBpZiAob3B0aW9ucy5qc2QgIT09IGZhbHNlKQogICAgICAgIGxpc3QucHVzaChqc2QodHlwZW9mIG9wdGlvbnMuanNkID09PSAib2JqZWN0IiA/IG9wdGlvbnMuanNkIDoge30pKTsKICAgIGlmIChvcHRpb25zLmVwaGVtZXJhbCAhPT0gZmFsc2UpCiAgICAgICAgbGlzdC5wdXNoKGVwaGVtZXJhbCh0eXBlb2Ygb3B0aW9ucy5lcGhlbWVyYWwgPT09ICJvYmplY3QiID8gb3B0aW9ucy5lcGhlbWVyYWwgOiB7fSkpOwogICAgaWYgKG9wdGlvbnMuZ2F1bnRsZXQpCiAgICAgICAgbGlzdC5wdXNoKGdhdW50bGV0KG9wdHMob3B0aW9ucy5nYXVudGxldCkpKTsKICAgIGlmIChvcHRpb25zLmh1bWFuKQogICAgICAgIGxpc3QucHVzaChodW1hbihvcHRzKG9wdGlvbnMuaHVtYW4pKSk7CiAgICBpZiAob3B0aW9ucy5icmFrZSkKICAgICAgICBsaXN0LnB1c2goYnJha2Uob3B0cyhvcHRpb25zLmJyYWtlKSkpOwogICAgaWYgKG9wdGlvbnMubGVucykKICAgICAgICBsaXN0LnB1c2gobGVucyhvcHRzKG9wdGlvbnMubGVucykpKTsKICAgIGlmIChvcHRpb25zLndpcmV0YXApCiAgICAgICAgbGlzdC5wdXNoKHdpcmV0YXAob3B0cyhvcHRpb25zLndpcmV0YXApKSk7CiAgICBpZiAob3B0aW9ucy5wbHVnaW5zKQogICAgICAgIGxpc3QucHVzaCguLi5vcHRpb25zLnBsdWdpbnMpOwogICAgcmV0dXJuIGxpc3Q7Cn0KZXhwb3J0IGZ1bmN0aW9uIHN0cmlwUGx1Z2luT3B0aW9ucyhvcHRpb25zKSB7CiAgICBjb25zdCBjb3B5ID0geyAuLi5vcHRpb25zIH07CiAgICBmb3IgKGNvbnN0IGtleSBvZiBQTFVHSU5fS0VZUykKICAgICAgICBkZWxldGUgY29weVtrZXldOwogICAgcmV0dXJuIGNvcHk7Cn0KZXhwb3J0IHsgYXBwbHlQbHVnaW5zLCBydW5CZWZvcmVMYXVuY2ggfSBmcm9tICIuL3R5cGVzLmpzIjsKZXhwb3J0IHsgYXVkaXRGaW5nZXJwcmludCwgbGVuc1JlcG9ydCB9IGZyb20gIi4vbGVucy5qcyI7CmV4cG9ydCB7IGdhdW50bGV0UmVzdWx0LCBydW5HYXVudGxldCB9IGZyb20gIi4vZ2F1bnRsZXQuanMiOwpleHBvcnQgeyB3aXJldGFwRW50cmllcyB9IGZyb20gIi4vd2lyZXRhcC5qcyI7CmV4cG9ydCB7IGJyYWtlLCBjb2Nvb24sIGRvZGdlLCBnYXVudGxldCwgaHVtYW4sIGxlbnMsIHN0YXNoLCB2ZW5lZXIsIHdpcmV0YXAsIGNoYWxsZW5nZVBsdWdpbiwganNkLCBlcGhlbWVyYWwsIHByZWN1cnNvciwgYm90U2NvcmUsIGdldEVwaGVtZXJhbEVudHJpZXMsIHJlcGxheUVwaGVtZXJhbCwgaXNKc2RQYXNzZWQsIGdldFByZWN1cnNvclN0YXRlLCByZXNldFByZWN1cnNvclN0YXRlLCBnZXRCb3RTY29yZXMsIGF2Z0JvdFNjb3JlLCBoYWRMb3dTY29yZSB9IGZyb20gIi4vaW5kZXgtcmVleHBvcnRzLmpzIjsK
+import { brake } from "./brake.js";
+import { challengePlugin } from "./classify.js";
+import { cocoon } from "./cocoon.js";
+import { dodge } from "./dodge.js";
+import { ephemeral } from "./ephemeral.js";
+import { gauntlet } from "./gauntlet.js";
+import { human } from "./human.js";
+import { jsd } from "./jsd.js";
+import { lens } from "./lens.js";
+import { precursor } from "./precursor.js";
+import { stash } from "./stash.js";
+import { veneer } from "./veneer.js";
+import { wiretap } from "./wiretap.js";
+import { botScore } from "./botscore.js";
+import { stealth } from "./stealth.js";
+export const PLUGIN_KEYS = [
+    "gauntlet",
+    "wiretap",
+    "stash",
+    "veneer",
+    "brake",
+    "dodge",
+    "cocoon",
+    "gauntlet",
+    "lens",
+    "human",
+    "plugins",
+    "classify",
+    "jsd",
+    "ephemeral",
+    "precursor",
+    "botScore",
+    "stealth",
+];
+function opts(value) {
+    return value === true ? {} : value;
+}
+export function buildPlugins(options) {
+    const list = [];
+    // Core protection plugins — order matters
+    if (options.dodge)
+        list.push(dodge(options.dodge));
+    if (options.cocoon)
+        list.push(cocoon({ dir: options.cocoon }));
+    if (options.stash) {
+        list.push(stash(typeof options.stash === "string" ? { file: options.stash } : options.stash));
+    }
+    if (options.veneer)
+        list.push(veneer(opts(options.veneer)));
+    if (options.classify !== false)
+        list.push(challengePlugin());
+    if (options.precursor !== false)
+        list.push(precursor(typeof options.precursor === "object" ? options.precursor : {}));
+    if (options.botScore)
+        list.push(botScore(typeof options.botScore === "object" ? options.botScore : {}));
+    if (options.jsd !== false)
+        list.push(jsd(typeof options.jsd === "object" ? options.jsd : {}));
+    if (options.stealth)
+        list.push(stealth(typeof options.stealth === "object" ? options.stealth : {}));
+    if (options.ephemeral !== false)
+        list.push(ephemeral(typeof options.ephemeral === "object" ? options.ephemeral : {}));
+    if (options.gauntlet)
+        list.push(gauntlet(opts(options.gauntlet)));
+    if (options.human)
+        list.push(human(opts(options.human)));
+    if (options.brake)
+        list.push(brake(opts(options.brake)));
+    if (options.lens)
+        list.push(lens(opts(options.lens)));
+    if (options.wiretap)
+        list.push(wiretap(opts(options.wiretap)));
+    if (options.plugins)
+        list.push(...options.plugins);
+    return list;
+}
+export function stripPluginOptions(options) {
+    const copy = { ...options };
+    for (const key of PLUGIN_KEYS)
+        delete copy[key];
+    return copy;
+}
+export { applyPlugins, runBeforeLaunch } from "./types.js";
+export { auditFingerprint, lensReport } from "./lens.js";
+export { gauntletResult, runGauntlet } from "./gauntlet.js";
+export { wiretapEntries } from "./wiretap.js";
+export { brake, cocoon, dodge, gauntlet, human, lens, stash, veneer, wiretap, challengePlugin, jsd, ephemeral, precursor, botScore, stealth, attachStealth, getEphemeralEntries, replayEphemeral, isJsdPassed, getPrecursorState, resetPrecursorState, getBotScores, avgBotScore, hadLowScore } from "./index-reexports.js";

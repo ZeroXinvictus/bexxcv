@@ -1,1 +1,88 @@
-aW1wb3J0ICogYXMgZnMgZnJvbSAibm9kZTpmcyI7CmltcG9ydCAqIGFzIHBhdGggZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHsgZWZmZWN0aXZlUGluLCBwaW5NYXRjaGVzIH0gZnJvbSAiLi9icm93c2VyLXBpbi5qcyI7CmltcG9ydCB7IElOU1RBTExfRElSLCBWZXJzaW9uIH0gZnJvbSAiLi9wa2dtYW4uanMiOwpleHBvcnQgY29uc3QgYnJvd3NlcnNEaXIgPSAoKSA9PiBwYXRoLmpvaW4oSU5TVEFMTF9ESVIudG9TdHJpbmcoKSwgImJyb3dzZXJzIik7CmV4cG9ydCBjb25zdCBjb25maWdGaWxlID0gKCkgPT4gcGF0aC5qb2luKElOU1RBTExfRElSLnRvU3RyaW5nKCksICJjb25maWcuanNvbiIpOwpleHBvcnQgY29uc3QgY29tcGF0RmxhZyA9ICgpID0+IHBhdGguam9pbihJTlNUQUxMX0RJUi50b1N0cmluZygpLCAiLjAuNV9GTEFHIik7CmV4cG9ydCBmdW5jdGlvbiBsb2FkQ29uZmlnKCkgewogICAgdHJ5IHsKICAgICAgICByZXR1cm4gSlNPTi5wYXJzZShmcy5yZWFkRmlsZVN5bmMoY29uZmlnRmlsZSgpLCAidXRmLTgiKSk7CiAgICB9CiAgICBjYXRjaCB7CiAgICAgICAgcmV0dXJuIHt9OwogICAgfQp9CmV4cG9ydCBmdW5jdGlvbiBzYXZlQ29uZmlnKGNvbmZpZykgewogICAgZnMubWtkaXJTeW5jKElOU1RBTExfRElSLCB7IHJlY3Vyc2l2ZTogdHJ1ZSB9KTsKICAgIGNvbnN0IHRtcCA9IGAke2NvbmZpZ0ZpbGUoKX0uJHtwcm9jZXNzLnBpZH0udG1wYDsKICAgIGZzLndyaXRlRmlsZVN5bmModG1wLCBKU09OLnN0cmluZ2lmeShjb25maWcsIG51bGwsIDIpKTsKICAgIGZzLnJlbmFtZVN5bmModG1wLCBjb25maWdGaWxlKCkpOwp9CmV4cG9ydCBmdW5jdGlvbiBzZXRBY3RpdmUocmVsYXRpdmVQYXRoKSB7CiAgICBzYXZlQ29uZmlnKHsgLi4ubG9hZENvbmZpZygpLCBhY3RpdmVfdmVyc2lvbjogcmVsYXRpdmVQYXRoIH0pOwp9CmNvbnN0IFJFUE9fTkFNRVMgPSB7ICJkYWlqcm8vY2Ftb3Vmb3giOiAib2ZmaWNpYWwiIH07CmV4cG9ydCBmdW5jdGlvbiBnZXRSZXBvTmFtZShnaXRodWJSZXBvKSB7CiAgICByZXR1cm4gUkVQT19OQU1FU1tnaXRodWJSZXBvXSA/PyBnaXRodWJSZXBvLnNwbGl0KCIvIilbMF0udG9Mb3dlckNhc2UoKTsKfQpleHBvcnQgZnVuY3Rpb24gdmVyc2lvbkZvbGRlck5hbWUodmVyc2lvbiwgYnVpbGQsIHNoYTI1NikgewogICAgY29uc3QgYmFzZSA9IGAke3ZlcnNpb259LSR7YnVpbGR9YDsKICAgIHJldHVybiBzaGEyNTYgPyBgJHtiYXNlfS0ke3NoYTI1Ni5zbGljZSgwLCA4KX1gIDogYmFzZTsKfQpleHBvcnQgZnVuY3Rpb24gbGlzdEluc3RhbGxlZCgpIHsKICAgIGNvbnN0IGluc3RhbGxlZCA9IFtdOwogICAgaWYgKCFmcy5leGlzdHNTeW5jKGJyb3dzZXJzRGlyKCkpKQogICAgICAgIHJldHVybiBpbnN0YWxsZWQ7CiAgICBjb25zdCBhY3RpdmUgPSBsb2FkQ29uZmlnKCkuYWN0aXZlX3ZlcnNpb247CiAgICBmb3IgKGNvbnN0IHJlcG8gb2YgZnMucmVhZGRpclN5bmMoYnJvd3NlcnNEaXIoKSwgeyB3aXRoRmlsZVR5cGVzOiB0cnVlIH0pKSB7CiAgICAgICAgaWYgKCFyZXBvLmlzRGlyZWN0b3J5KCkgfHwgcmVwby5uYW1lLnN0YXJ0c1dpdGgoIi4iKSkKICAgICAgICAgICAgY29udGludWU7CiAgICAgICAgY29uc3QgcmVwb0RpciA9IHBhdGguam9pbihicm93c2Vyc0RpcigpLCByZXBvLm5hbWUpOwogICAgICAgIGZvciAoY29uc3QgZm9sZGVyIG9mIGZzLnJlYWRkaXJTeW5jKHJlcG9EaXIsIHsgd2l0aEZpbGVUeXBlczogdHJ1ZSB9KSkgewogICAgICAgICAgICBjb25zdCBkaXIgPSBwYXRoLmpvaW4ocmVwb0RpciwgZm9sZGVyLm5hbWUpOwogICAgICAgICAgICBjb25zdCB2ZXJzaW9uSnNvbiA9IHBhdGguam9pbihkaXIsICJ2ZXJzaW9uLmpzb24iKTsKICAgICAgICAgICAgaWYgKCFmb2xkZXIuaXNEaXJlY3RvcnkoKSB8fCAhZnMuZXhpc3RzU3luYyh2ZXJzaW9uSnNvbikpCiAgICAgICAgICAgICAgICBjb250aW51ZTsKICAgICAgICAgICAgdHJ5IHsKICAgICAgICAgICAgICAgIGNvbnN0IGRhdGEgPSBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyh2ZXJzaW9uSnNvbiwgInV0Zi04IikpOwogICAgICAgICAgICAgICAgY29uc3QgcmVsYXRpdmVQYXRoID0gYGJyb3dzZXJzLyR7cmVwby5uYW1lfS8ke2ZvbGRlci5uYW1lfWA7CiAgICAgICAgICAgICAgICBpbnN0YWxsZWQucHVzaCh7CiAgICAgICAgICAgICAgICAgICAgcmVwb05hbWU6IHJlcG8ubmFtZSwKICAgICAgICAgICAgICAgICAgICB2ZXJzaW9uOiBWZXJzaW9uLmZyb21QYXRoKGRpciksCiAgICAgICAgICAgICAgICAgICAgcGF0aDogZGlyLAogICAgICAgICAgICAgICAgICAgIHJlbGF0aXZlUGF0aCwKICAgICAgICAgICAgICAgICAgICBpc0FjdGl2ZTogcmVsYXRpdmVQYXRoID09PSBhY3RpdmUsCiAgICAgICAgICAgICAgICAgICAgaXNQcmVyZWxlYXNlOiBkYXRhLnByZXJlbGVhc2UgPz8gZmFsc2UsCiAgICAgICAgICAgICAgICAgICAgc2hhMjU2OiBkYXRhLnNoYTI1NiA/PyB1bmRlZmluZWQsCiAgICAgICAgICAgICAgICB9KTsKICAgICAgICAgICAgfQogICAgICAgICAgICBjYXRjaCB7CiAgICAgICAgICAgIH0KICAgICAgICB9CiAgICB9CiAgICBjb25zdCBjb21wYXJlID0gKGEsIGIpID0+IGEubGVzc1RoYW4oYikgPyAtMSA6IGIubGVzc1RoYW4oYSkgPyAxIDogMDsKICAgIHJldHVybiBpbnN0YWxsZWQuc29ydCgoYSwgYikgPT4gKGEucmVwb05hbWUgPCBiLnJlcG9OYW1lID8gMSA6IGEucmVwb05hbWUgPiBiLnJlcG9OYW1lID8gLTEgOiAwKSB8fAogICAgICAgIGNvbXBhcmUoYi52ZXJzaW9uLCBhLnZlcnNpb24pKTsKfQpleHBvcnQgZnVuY3Rpb24gZ2V0QWN0aXZlUGF0aCgpIHsKICAgIGNvbnN0IGNvbmZpZyA9IGxvYWRDb25maWcoKTsKICAgIGNvbnN0IGFjdGl2ZSA9IGNvbmZpZy5hY3RpdmVfdmVyc2lvbjsKICAgIGNvbnN0IHBpbiA9IGVmZmVjdGl2ZVBpbihjb25maWcpOwogICAgaWYgKHBpbikgewogICAgICAgIGNvbnN0IGluc3QgPSBsaXN0SW5zdGFsbGVkKCkuZmluZCgodikgPT4gcGluTWF0Y2hlcyhwaW4sIHYucmVwb05hbWUsIHYudmVyc2lvbi52ZXJzaW9uID8/ICIiLCB2LnZlcnNpb24ucmVsZWFzZSkpOwogICAgICAgIHJldHVybiBpbnN0Py5wYXRoID8/IG51bGw7CiAgICB9CiAgICBpZiAoYWN0aXZlKSB7CiAgICAgICAgY29uc3QgYWN0aXZlUGF0aCA9IHBhdGguam9pbihJTlNUQUxMX0RJUi50b1N0cmluZygpLCBhY3RpdmUpOwogICAgICAgIGlmIChmcy5leGlzdHNTeW5jKHBhdGguam9pbihhY3RpdmVQYXRoLCAidmVyc2lvbi5qc29uIikpKSB7CiAgICAgICAgICAgIHJldHVybiBhY3RpdmVQYXRoOwogICAgICAgIH0KICAgIH0KICAgIGlmICghY29uZmlnLmNoYW5uZWwgJiYgIWNvbmZpZy5waW5uZWQpIHsKICAgICAgICBjb25zdCBbbmV3ZXN0XSA9IGxpc3RJbnN0YWxsZWQoKTsKICAgICAgICBpZiAobmV3ZXN0KQogICAgICAgICAgICByZXR1cm4gbmV3ZXN0LnBhdGg7CiAgICB9CiAgICByZXR1cm4gbnVsbDsKfQo=
+import * as fs from "node:fs";
+import * as path from "node:path";
+import { effectivePin, pinMatches } from "./browser-pin.js";
+import { INSTALL_DIR, Version } from "./pkgman.js";
+export const browsersDir = () => path.join(INSTALL_DIR.toString(), "browsers");
+export const configFile = () => path.join(INSTALL_DIR.toString(), "config.json");
+export const compatFlag = () => path.join(INSTALL_DIR.toString(), ".0.5_FLAG");
+export function loadConfig() {
+    try {
+        return JSON.parse(fs.readFileSync(configFile(), "utf-8"));
+    }
+    catch {
+        return {};
+    }
+}
+export function saveConfig(config) {
+    fs.mkdirSync(INSTALL_DIR, { recursive: true });
+    const tmp = `${configFile()}.${process.pid}.tmp`;
+    fs.writeFileSync(tmp, JSON.stringify(config, null, 2));
+    fs.renameSync(tmp, configFile());
+}
+export function setActive(relativePath) {
+    saveConfig({ ...loadConfig(), active_version: relativePath });
+}
+const REPO_NAMES = { "daijro/camoufox": "official" };
+export function getRepoName(githubRepo) {
+    return REPO_NAMES[githubRepo] ?? githubRepo.split("/")[0].toLowerCase();
+}
+export function versionFolderName(version, build, sha256) {
+    const base = `${version}-${build}`;
+    return sha256 ? `${base}-${sha256.slice(0, 8)}` : base;
+}
+export function listInstalled() {
+    const installed = [];
+    if (!fs.existsSync(browsersDir()))
+        return installed;
+    const active = loadConfig().active_version;
+    for (const repo of fs.readdirSync(browsersDir(), { withFileTypes: true })) {
+        if (!repo.isDirectory() || repo.name.startsWith("."))
+            continue;
+        const repoDir = path.join(browsersDir(), repo.name);
+        for (const folder of fs.readdirSync(repoDir, { withFileTypes: true })) {
+            const dir = path.join(repoDir, folder.name);
+            const versionJson = path.join(dir, "version.json");
+            if (!folder.isDirectory() || !fs.existsSync(versionJson))
+                continue;
+            try {
+                const data = JSON.parse(fs.readFileSync(versionJson, "utf-8"));
+                const relativePath = `browsers/${repo.name}/${folder.name}`;
+                installed.push({
+                    repoName: repo.name,
+                    version: Version.fromPath(dir),
+                    path: dir,
+                    relativePath,
+                    isActive: relativePath === active,
+                    isPrerelease: data.prerelease ?? false,
+                    sha256: data.sha256 ?? undefined,
+                });
+            }
+            catch {
+            }
+        }
+    }
+    const compare = (a, b) => a.lessThan(b) ? -1 : b.lessThan(a) ? 1 : 0;
+    return installed.sort((a, b) => (a.repoName < b.repoName ? 1 : a.repoName > b.repoName ? -1 : 0) ||
+        compare(b.version, a.version));
+}
+export function getActivePath() {
+    const config = loadConfig();
+    const active = config.active_version;
+    const pin = effectivePin(config);
+    if (pin) {
+        const inst = listInstalled().find((v) => pinMatches(pin, v.repoName, v.version.version ?? "", v.version.release));
+        return inst?.path ?? null;
+    }
+    if (active) {
+        const activePath = path.join(INSTALL_DIR.toString(), active);
+        if (fs.existsSync(path.join(activePath, "version.json"))) {
+            return activePath;
+        }
+    }
+    if (!config.channel && !config.pinned) {
+        const [newest] = listInstalled();
+        if (newest)
+            return newest.path;
+    }
+    return null;
+}

@@ -1,1 +1,195 @@
-aW1wb3J0IHsgVUFQYXJzZXIgfSBmcm9tICJ1YS1wYXJzZXItanMiOwoKZXhwb3J0IGNvbnN0IEtOT1dOX0dQVVM6IFJlY29yZDwid2luIiB8ICJtYWMiIHwgImxpbiIsIEFycmF5PHsgdmVuZG9yOiBzdHJpbmc7IHJlbmRlcmVyOiBzdHJpbmc7IHdlaWdodDogbnVtYmVyIH0+PiA9IHsKCXdpbjogWwoJCS8vIEludGVsIGludGVncmF0ZWQg4oCUIG1vc3QgY29tbW9uIG9uIG9mZmljZS9ob21lIFBDcwoJCXsgdmVuZG9yOiAiSW50ZWwiLCByZW5kZXJlcjogIkludGVsKFIpIFVIRCBHcmFwaGljcyA2MzAiLCB3ZWlnaHQ6IDI4IH0sCgkJeyB2ZW5kb3I6ICJJbnRlbCIsIHJlbmRlcmVyOiAiSW50ZWwoUikgVUhEIEdyYXBoaWNzIDYyMCIsIHdlaWdodDogMTggfSwKCQl7IHZlbmRvcjogIkludGVsIiwgcmVuZGVyZXI6ICJJbnRlbChSKSBJcmlzIFhlIEdyYXBoaWNzIiwgd2VpZ2h0OiAxNCB9LAoJCXsgdmVuZG9yOiAiSW50ZWwiLCByZW5kZXJlcjogIkludGVsKFIpIEhEIEdyYXBoaWNzIDYyMCIsIHdlaWdodDogOCB9LAoJCXsgdmVuZG9yOiAiSW50ZWwiLCByZW5kZXJlcjogIkludGVsKFIpIEhEIEdyYXBoaWNzIDUzMCIsIHdlaWdodDogNSB9LAoJCXsgdmVuZG9yOiAiSW50ZWwiLCByZW5kZXJlcjogIkludGVsKFIpIFVIRCBHcmFwaGljcyA3MzAiLCB3ZWlnaHQ6IDMgfSwKCQkvLyBOVklESUEgZGlzY3JldGUg4oCUIGdhbWluZy93b3Jrc3RhdGlvbnMKCQl7IHZlbmRvcjogIk5WSURJQSIsIHJlbmRlcmVyOiAiTlZJRElBIEdlRm9yY2UgR1RYIDE2NTAiLCB3ZWlnaHQ6IDEwIH0sCgkJeyB2ZW5kb3I6ICJOVklESUEiLCByZW5kZXJlcjogIk5WSURJQSBHZUZvcmNlIEdUWCAxMDUwIFRpIiwgd2VpZ2h0OiA3IH0sCgkJeyB2ZW5kb3I6ICJOVklESUEiLCByZW5kZXJlcjogIk5WSURJQSBHZUZvcmNlIFJUWCAzMDYwIiwgd2VpZ2h0OiA1IH0sCgkJeyB2ZW5kb3I6ICJOVklESUEiLCByZW5kZXJlcjogIk5WSURJQSBHZUZvcmNlIFJUWCAzMDYwIFRpIiwgd2VpZ2h0OiAzIH0sCgkJeyB2ZW5kb3I6ICJOVklESUEiLCByZW5kZXJlcjogIk5WSURJQSBHZUZvcmNlIFJUWCA0MDYwIiwgd2VpZ2h0OiAyIH0sCgkJLy8gQU1EIGRpc2NyZXRlCgkJeyB2ZW5kb3I6ICJBTUQiLCByZW5kZXJlcjogIkFNRCBSYWRlb24gUlggNjYwMCIsIHdlaWdodDogNCB9LAoJCXsgdmVuZG9yOiAiQU1EIiwgcmVuZGVyZXI6ICJBTUQgUmFkZW9uIFJYIDU4MCIsIHdlaWdodDogMyB9LAoJCXsgdmVuZG9yOiAiQU1EIiwgcmVuZGVyZXI6ICJBTUQgUmFkZW9uIFJYIDc4MDAgWFQiLCB3ZWlnaHQ6IDIgfSwKCQkvLyBNaWNyb3NvZnQgYmFzaWMg4oCUIFZNIGZhbGxiYWNrCgkJeyB2ZW5kb3I6ICJNaWNyb3NvZnQiLCByZW5kZXJlcjogIk1pY3Jvc29mdCBCYXNpYyBSZW5kZXIgRHJpdmVyIiwgd2VpZ2h0OiAyIH0sCgldLAoJbWFjOiBbCgkJLy8gQXBwbGUgU2lsaWNvbgoJCXsgdmVuZG9yOiAiQXBwbGUiLCByZW5kZXJlcjogIkFwcGxlIE0xIiwgd2VpZ2h0OiAyMiB9LAoJCXsgdmVuZG9yOiAiQXBwbGUiLCByZW5kZXJlcjogIkFwcGxlIE0xIFBybyIsIHdlaWdodDogMTQgfSwKCQl7IHZlbmRvcjogIkFwcGxlIiwgcmVuZGVyZXI6ICJBcHBsZSBNMSBNYXgiLCB3ZWlnaHQ6IDggfSwKCQl7IHZlbmRvcjogIkFwcGxlIiwgcmVuZGVyZXI6ICJBcHBsZSBNMiIsIHdlaWdodDogMTggfSwKCQl7IHZlbmRvcjogIkFwcGxlIiwgcmVuZGVyZXI6ICJBcHBsZSBNMiBQcm8iLCB3ZWlnaHQ6IDEwIH0sCgkJeyB2ZW5kb3I6ICJBcHBsZSIsIHJlbmRlcmVyOiAiQXBwbGUgTTMiLCB3ZWlnaHQ6IDggfSwKCQl7IHZlbmRvcjogIkFwcGxlIiwgcmVuZGVyZXI6ICJBcHBsZSBNMyBQcm8iLCB3ZWlnaHQ6IDYgfSwKCQl7IHZlbmRvcjogIkFwcGxlIiwgcmVuZGVyZXI6ICJBcHBsZSBNNCIsIHdlaWdodDogNCB9LAoJCXsgdmVuZG9yOiAiQXBwbGUiLCByZW5kZXJlcjogIkFwcGxlIE00IFBybyIsIHdlaWdodDogMyB9LAoJCS8vIEludGVsIE1hY3MgKHN0aWxsIGNvbW1vbiBpbiBlbnRlcnByaXNlKQoJCXsgdmVuZG9yOiAiQXBwbGUiLCByZW5kZXJlcjogIkFwcGxlIEludGVncmF0ZWQgR1BVIiwgd2VpZ2h0OiA1IH0sCgkJeyB2ZW5kb3I6ICJBcHBsZSIsIHJlbmRlcmVyOiAiQXBwbGUgTWFjQm9vayBQcm8gR1BVIiwgd2VpZ2h0OiAyIH0sCgldLAoJbGluOiBbCgkJLy8gSW50ZWwgb24gTGludXggZGVza3RvcHMKCQl7IHZlbmRvcjogIkludGVsIiwgcmVuZGVyZXI6ICJJbnRlbChSKSBIRCBHcmFwaGljcyA2MzAgKEtCTCBHVDIpIiwgd2VpZ2h0OiAxOCB9LAoJCXsgdmVuZG9yOiAiSW50ZWwiLCByZW5kZXJlcjogIkludGVsKFIpIFVIRCBHcmFwaGljcyA2MzAgKENGTCBHVDIpIiwgd2VpZ2h0OiAxMCB9LAoJCXsgdmVuZG9yOiAiSW50ZWwiLCByZW5kZXJlcjogIkludGVsKFIpIFVIRCBHcmFwaGljcyA3NzAgKEFETCBHVDIpIiwgd2VpZ2h0OiA3IH0sCgkJeyB2ZW5kb3I6ICJJbnRlbCIsIHJlbmRlcmVyOiAiTWVzYSBJbnRlbChSKSBVSEQgR3JhcGhpY3MgNjIwIChLQkwgR1QyKSIsIHdlaWdodDogNiB9LAoJCXsgdmVuZG9yOiAiSW50ZWwiLCByZW5kZXJlcjogIk1lc2EgSW50ZWwoUikgVUhEIEdyYXBoaWNzIDYzMCAoS0JMIEdUMikiLCB3ZWlnaHQ6IDQgfSwKCQkvLyBOVklESUEgb24gTGludXgKCQl7IHZlbmRvcjogIk5WSURJQSIsIHJlbmRlcmVyOiAiTlZJRElBIEdlRm9yY2UgUlRYIDMwODAiLCB3ZWlnaHQ6IDggfSwKCQl7IHZlbmRvcjogIk5WSURJQSIsIHJlbmRlcmVyOiAiTlZJRElBIEdlRm9yY2UgUlRYIDMwNjAiLCB3ZWlnaHQ6IDYgfSwKCQl7IHZlbmRvcjogIk5WSURJQSIsIHJlbmRlcmVyOiAiTlZJRElBIEdlRm9yY2UgUlRYIDQwOTAiLCB3ZWlnaHQ6IDMgfSwKCQl7IHZlbmRvcjogIk5WSURJQSIsIHJlbmRlcmVyOiAiTlZJRElBIEdlRm9yY2UgR1RYIDE2NTAiLCB3ZWlnaHQ6IDQgfSwKCQkvLyBBTUQgb24gTGludXgKCQl7IHZlbmRvcjogIkFNRCIsIHJlbmRlcmVyOiAiQU1EIFJhZGVvbiBSWCA2NjAwIChSQURWIE5BVkkyMykiLCB3ZWlnaHQ6IDUgfSwKCQl7IHZlbmRvcjogIkFNRCIsIHJlbmRlcmVyOiAiQU1EIFJhZGVvbiBSWCA3ODAwIFhUIChSQURWIE5BVkkzMikiLCB3ZWlnaHQ6IDQgfSwKCQl7IHZlbmRvcjogIkFNRCIsIHJlbmRlcmVyOiAiQU1EIFJhZGVvbiBHcmFwaGljcyAoUkFEViBOQVZJMjEpIiwgd2VpZ2h0OiA1IH0sCgkJeyB2ZW5kb3I6ICJBTUQiLCByZW5kZXJlcjogIkFNRCBSYWRlb24gUlggNzkwMCBYVFggKFJBRFYgTkFWSTMxKSIsIHdlaWdodDogMyB9LAoJCS8vIFNvZnR3YXJlIHJlbmRlcmVycyAoVk1zLCBDSSBzZXJ2ZXJzKQoJCXsgdmVuZG9yOiAibGx2bXBpcGUiLCByZW5kZXJlcjogImxsdm1waXBlIChMTFZNIDE1LjAuNyAyNTYgYml0cykiLCB3ZWlnaHQ6IDggfSwKCQl7IHZlbmRvcjogImxsdm1waXBlIiwgcmVuZGVyZXI6ICJsbHZtcGlwZSAoTExWTSAxNi4wLjYgMjU2IGJpdHMpIiwgd2VpZ2h0OiA0IH0sCgkJeyB2ZW5kb3I6ICJHb29nbGUgSW5jLiIsIHJlbmRlcmVyOiAiQU5HTEUgKEludGVsLCBJbnRlbChSKSBVSEQgR3JhcGhpY3MgNjMwLCBPcGVuR0wgNC42KSIsIHdlaWdodDogNSB9LAoJCXsgdmVuZG9yOiAiTW96aWxsYSIsIHJlbmRlcmVyOiAiV2ViUmVuZGVyIChOVklESUEgQ29ycG9yYXRpb24gLS0gNC42IChDb21wYXRpYmlsaXR5KSkiLCB3ZWlnaHQ6IDMgfSwKCV0sCn07Cgpjb25zdCBCQVNFX1dFQkdMX0VYVEVOU0lPTlMgPSBbCgkiV0VCR0xfbG9zZV9jb250ZXh0IiwKCSJXRUJHTF9jb21wcmVzc2VkX3RleHR1cmVfczN0YyIsCgkiV0VCR0xfY29tcHJlc3NlZF90ZXh0dXJlX2FzdGMiLAoJIldFQkdMX2NvbXByZXNzZWRfdGV4dHVyZV9FVEMxIiwKCSJXRUJHTF9kZXB0aF90ZXh0dXJlIiwKCSJXRUJHTF9kcmF3X2J1ZmZlcnMiLAoJIldFQkdMX2RlYnVnX3JlbmRlcmVyX2luZm8iLAoJIldFQkdMX2RlYnVnX3NoYWRlcnMiLAoJIkVYVF9ibGVuZF9taW5tYXgiLAoJIkVYVF9jb2xvcl9idWZmZXJfaGFsZl9mbG9hdCIsCgkiRVhUX2Zsb2F0X2JsZW5kIiwKCSJFWFRfZnJhZ19kZXB0aCIsCgkiRVhUX3NoYWRlcl90ZXh0dXJlX2xvZCIsCgkiRVhUX3RleHR1cmVfY29tcHJlc3Npb25fcmd0YyIsCgkiRVhUX3RleHR1cmVfZmlsdGVyX2FuaXNvdHJvcGljIiwKCSJLSFJfcGFyYWxsZWxfc2hhZGVyX2NvbXBpbGUiLAoJIk9FU19lbGVtZW50X2luZGV4X3VpbnQiLAoJIk9FU19zdGFuZGFyZF9kZXJpdmF0aXZlcyIsCgkiT0VTX3ZlcnRleF9hcnJheV9vYmplY3QiLAoJIldFQkdMX2NvbG9yX2J1ZmZlcl9mbG9hdCIsCgkiV0VCR0xfcHJvdm9raW5nX3ZlcnRleCIsCl07CgovLyBPcHRpb25hbCBleHRlbnNpb25zIHRoYXQgc29tZSBHUFVzL2RyaXZlcnMgc3VwcG9ydApjb25zdCBPUFRJT05BTF9FWFRFTlNJT05TX1dJTiA9IFsiV0VCR0xfc2FtcGxlX3ZhcmlhYmxlcyIsICJFWFRfY29sb3JfYnVmZmVyX2Zsb2F0Il07CmNvbnN0IE9QVElPTkFMX0VYVEVOU0lPTlNfTUFDID0gWyJXRUJHTF9zYW1wbGVfdmFyaWFibGVzIiwgIkVYVF9jb2xvcl9idWZmZXJfZmxvYXQiXTsKY29uc3QgT1BUSU9OQUxfRVhURU5TSU9OU19MSU4gPSBbCgkiV0VCR0xfc2FtcGxlX3ZhcmlhYmxlcyIsCgkiRVhUX2NvbG9yX2J1ZmZlcl9mbG9hdCIsCgkiV0VCR0xfcG9seWdvbl9tb2RlIiwKCSJFWFRfc2hhZGVyX3RleHR1cmVfbG9kIiwKCSJXRUJHTF9jbGlwX2N1bGxfZGlzdGFuY2UiLApdOwoKZnVuY3Rpb24gcGlja1dlaWdodGVkPFQ+KGl0ZW1zOiBUW10sIHdlaWdodHM6IG51bWJlcltdKTogVCB7Cgljb25zdCB0b3RhbCA9IHdlaWdodHMucmVkdWNlKChhLCBiKSA9PiBhICsgYiwgMCk7Cgljb25zdCBidWYgPSBuZXcgVWludDMyQXJyYXkoMSk7CgljcnlwdG8uZ2V0UmFuZG9tVmFsdWVzKGJ1Zik7CglsZXQgdGhyZXNob2xkID0gKGJ1ZlswXSEgLyAweDEwMDAwMDAwMCkgKiB0b3RhbDsKCWZvciAobGV0IGkgPSAwOyBpIDwgaXRlbXMubGVuZ3RoOyBpKyspIHsKCQl0aHJlc2hvbGQgLT0gd2VpZ2h0c1tpXSE7CgkJaWYgKHRocmVzaG9sZCA8PSAwKSByZXR1cm4gaXRlbXNbaV0hOwoJfQoJcmV0dXJuIGl0ZW1zW2l0ZW1zLmxlbmd0aCAtIDFdITsKfQoKZXhwb3J0IGZ1bmN0aW9uIHNhbXBsZUdQVVByb2ZpbGUob3M6ICJ3aW4iIHwgIm1hYyIgfCAibGluIik6IHsKCXZlbmRvcjogc3RyaW5nOwoJcmVuZGVyZXI6IHN0cmluZzsKCXdlYmdsRXh0ZW5zaW9uczogc3RyaW5nW107CglnbHNsVmVyc2lvbjogc3RyaW5nOwp9IHsKCWNvbnN0IHBvb2wgPSBLTk9XTl9HUFVTW29zXTsKCWNvbnN0IGdwdSA9IHBpY2tXZWlnaHRlZChwb29sLm1hcChnID0+IGcucmVuZGVyZXIpLCBwb29sLm1hcChnID0+IGcud2VpZ2h0KSk7Cgljb25zdCB2ZW5kb3JFbnRyeSA9IHBvb2wuZmluZChnID0+IGcucmVuZGVyZXIgPT09IGdwdSkhOwoJY29uc3QgdmVuZG9yID0gdmVuZG9yRW50cnkudmVuZG9yOwoKCS8vIEJ1aWxkIGJhc2UgZXh0ZW5zaW9uIGxpc3QKCWNvbnN0IGJhc2VFeHRzID0gWy4uLkJBU0VfV0VCR0xfRVhURU5TSU9OU107CgoJLy8gQWRkIG9wdGlvbmFsIGV4dGVuc2lvbnMgcHJvYmFiaWxpc3RpY2FsbHkKCWNvbnN0IG9wdGlvbmFsUG9vbCA9IG9zID09PSAid2luIgoJCT8gT1BUSU9OQUxfRVhURU5TSU9OU19XSU4KCQk6IG9zID09PSAibWFjIgoJCQk/IE9QVElPTkFMX0VYVEVOU0lPTlNfTUFDCgkJCTogT1BUSU9OQUxfRVhURU5TSU9OU19MSU47CgoJY29uc3QgbnVtT3B0aW9uYWwgPSBjcnlwdG9SYW5kSW50KDAsIE1hdGgubWluKDIsIG9wdGlvbmFsUG9vbC5sZW5ndGgpKTsKCWZvciAobGV0IGkgPSAwOyBpIDwgbnVtT3B0aW9uYWw7IGkrKykgewoJCWNvbnN0IGV4dCA9IG9wdGlvbmFsUG9vbFtjcnlwdG9SYW5kSW50KDAsIG9wdGlvbmFsUG9vbC5sZW5ndGggLSAxKV0hOwoJCWlmICghYmFzZUV4dHMuaW5jbHVkZXMoZXh0KSkgYmFzZUV4dHMucHVzaChleHQpOwoJfQoJYmFzZUV4dHMuc29ydCgpOwoKCS8vIEdMU0wgdmVyc2lvbiB2YXJpZXMgYnkgdmVuZG9yL2RyaXZlciBnZW5lcmF0aW9uCgljb25zdCBnbHNsVmVyc2lvbnNCeVZlbmRvcjogUmVjb3JkPHN0cmluZywgc3RyaW5nW10+ID0gewoJCUludGVsOiBbCgkJCSJPcGVuR0wgRVMgR0xTTCAzLjAwIChCdWlsZCAzMS4wLjEwMS4yMTE1KSIsCgkJCSJPcGVuR0wgR0xTTCA0LjYwIiwKCQkJIk9wZW5HTCBFUyBHTFNMIDMuMDAgKEJ1aWxkIDMxLjAuMTAxLjIxMzkpIiwKCQldLAoJCU5WSURJQTogWwoJCQkiT3BlbkdMIEdMU0wgNC42MCBOVklESUEiLAoJCQkiT3BlbkdMIEVTIEdMU0wgMy4wMCBOVklESUEiLAoJCQkiT3BlbkdMIEdMU0wgNC41MCBOVklESUEiLAoJCV0sCgkJQU1EOiBbCgkJCSJPcGVuR0wgR0xTTCA0LjYwIiwKCQkJIk9wZW5HTCBFUyBHTFNMIDMuMDAgKEJ1aWxkZXIgSUQ6ODA4KSIsCgkJCSJPcGVuR0wgR0xTTCA0LjUwIEFNRCIsCgkJXSwKCQlNZXNhOiBbCgkJCSJPcGVuR0wgR0xTTCA0LjYwIChhZGFwdGVyOiBNZXNhOyBkcml2ZXI6ICIsCgkJCSJPcGVuR0wgRVMgR0xTTCAzLjAwIChNZXNhIDIzLjIuMS0xZGViaWFuKSIsCgkJCSJPcGVuR0wgR0xTTCA0LjUwIChNZXNhIDIyLjMuNikiLAoJCV0sCgkJQXBwbGU6IFsKCQkJIk9wZW5HTCBHTFNMIDQuMSIsCgkJCSJPcGVuR0wgRVMgR0xTTCAzLjAwIiwKCQkJIk1ldGFsIEFQSSBHTFNMIDEuMy4wIiwKCQldLAoJCSJsbHZtcGlwZSI6IFsKCQkJIk9wZW5HTCBHTFNMIDQuNTAgKE1lc2EgMjMuMi4xKSIsCgkJCSJPcGVuR0wgRVMgR0xTTCAzLjAwIChsbHZtcGlwZSBMTFZNIDE1LjAuNykiLAoJCV0sCgkJTWljcm9zb2Z0OiBbIk9wZW5HTCBFUyBHTFNMIDEuMC4wIl0sCgkJTW96aWxsYTogWyJPcGVuR0wgR0xTTCA0LjYwIl0sCgkJR29vZ2xlOiBbIk9wZW5HTCBFUyBHTFNMIDMuMDAiXSwKCX07CgoJY29uc3QgdmVuZG9yR2xzbCA9IGdsc2xWZXJzaW9uc0J5VmVuZG9yW3ZlbmRvci50b0xvd2VyQ2FzZSgpXSA/PyBbIk9wZW5HTCBHTFNMIDQuNjAiXTsKCWNvbnN0IGdsc2xWZXJzaW9uID0gdmVuZG9yR2xzbFtjcnlwdG9SYW5kSW50KDAsIHZlbmRvckdsc2wubGVuZ3RoIC0gMSldITsKCglyZXR1cm4geyB2ZW5kb3IsIHJlbmRlcmVyOiBncHUsIHdlYmdsRXh0ZW5zaW9uczogYmFzZUV4dHMsIGdsc2xWZXJzaW9uIH07Cn0KCi8vIENvbnZlbmllbmNlIHdyYXBwZXIgdXNpbmcgY3J5cHRvLXNhZmUgcmFuZG9tCmZ1bmN0aW9uIGNyeXB0b1JhbmRJbnQobWluOiBudW1iZXIsIG1heDogbnVtYmVyKTogbnVtYmVyIHsKCWNvbnN0IGJ1ZiA9IG5ldyBVaW50MzJBcnJheSgxKTsKCWNyeXB0by5nZXRSYW5kb21WYWx1ZXMoYnVmKTsKCXJldHVybiBtaW4gKyAoYnVmWzBdISAlIChtYXggLSBtaW4gKyAxKSk7Cn0KCmV4cG9ydCBmdW5jdGlvbiByZXNvbHZlVUFPUyh1c2VyQWdlbnQ6IHN0cmluZyk6ICJ3aW4iIHwgIm1hYyIgfCAibGluIiB7Cgljb25zdCBwYXJzZXIgPSBuZXcgVUFQYXJzZXIodXNlckFnZW50KTsKCWNvbnN0IG9zTmFtZSA9IHBhcnNlci5nZXRPUygpLm5hbWUgPz8gIiI7CglpZiAob3NOYW1lLnN0YXJ0c1dpdGgoIm1hY09TIikgfHwgb3NOYW1lLmluY2x1ZGVzKCJNYWMiKSkgcmV0dXJuICJtYWMiOwoJaWYgKG9zTmFtZS5zdGFydHNXaXRoKCJXaW5kb3dzIikpIHJldHVybiAid2luIjsKCXJldHVybiAibGluIjsKfQo=
+import { UAParser } from "ua-parser-js";
+
+export const KNOWN_GPUS: Record<"win" | "mac" | "lin", Array<{ vendor: string; renderer: string; weight: number }>> = {
+	win: [
+		// Intel integrated — most common on office/home PCs
+		{ vendor: "Intel", renderer: "Intel(R) UHD Graphics 630", weight: 28 },
+		{ vendor: "Intel", renderer: "Intel(R) UHD Graphics 620", weight: 18 },
+		{ vendor: "Intel", renderer: "Intel(R) Iris Xe Graphics", weight: 14 },
+		{ vendor: "Intel", renderer: "Intel(R) HD Graphics 620", weight: 8 },
+		{ vendor: "Intel", renderer: "Intel(R) HD Graphics 530", weight: 5 },
+		{ vendor: "Intel", renderer: "Intel(R) UHD Graphics 730", weight: 3 },
+		// NVIDIA discrete — gaming/workstations
+		{ vendor: "NVIDIA", renderer: "NVIDIA GeForce GTX 1650", weight: 10 },
+		{ vendor: "NVIDIA", renderer: "NVIDIA GeForce GTX 1050 Ti", weight: 7 },
+		{ vendor: "NVIDIA", renderer: "NVIDIA GeForce RTX 3060", weight: 5 },
+		{ vendor: "NVIDIA", renderer: "NVIDIA GeForce RTX 3060 Ti", weight: 3 },
+		{ vendor: "NVIDIA", renderer: "NVIDIA GeForce RTX 4060", weight: 2 },
+		// AMD discrete
+		{ vendor: "AMD", renderer: "AMD Radeon RX 6600", weight: 4 },
+		{ vendor: "AMD", renderer: "AMD Radeon RX 580", weight: 3 },
+		{ vendor: "AMD", renderer: "AMD Radeon RX 7800 XT", weight: 2 },
+		// Microsoft basic — VM fallback
+		{ vendor: "Microsoft", renderer: "Microsoft Basic Render Driver", weight: 2 },
+	],
+	mac: [
+		// Apple Silicon
+		{ vendor: "Apple", renderer: "Apple M1", weight: 22 },
+		{ vendor: "Apple", renderer: "Apple M1 Pro", weight: 14 },
+		{ vendor: "Apple", renderer: "Apple M1 Max", weight: 8 },
+		{ vendor: "Apple", renderer: "Apple M2", weight: 18 },
+		{ vendor: "Apple", renderer: "Apple M2 Pro", weight: 10 },
+		{ vendor: "Apple", renderer: "Apple M3", weight: 8 },
+		{ vendor: "Apple", renderer: "Apple M3 Pro", weight: 6 },
+		{ vendor: "Apple", renderer: "Apple M4", weight: 4 },
+		{ vendor: "Apple", renderer: "Apple M4 Pro", weight: 3 },
+		// Intel Macs (still common in enterprise)
+		{ vendor: "Apple", renderer: "Apple Integrated GPU", weight: 5 },
+		{ vendor: "Apple", renderer: "Apple MacBook Pro GPU", weight: 2 },
+	],
+	lin: [
+		// Intel on Linux desktops
+		{ vendor: "Intel", renderer: "Intel(R) HD Graphics 630 (KBL GT2)", weight: 18 },
+		{ vendor: "Intel", renderer: "Intel(R) UHD Graphics 630 (CFL GT2)", weight: 10 },
+		{ vendor: "Intel", renderer: "Intel(R) UHD Graphics 770 (ADL GT2)", weight: 7 },
+		{ vendor: "Intel", renderer: "Mesa Intel(R) UHD Graphics 620 (KBL GT2)", weight: 6 },
+		{ vendor: "Intel", renderer: "Mesa Intel(R) UHD Graphics 630 (KBL GT2)", weight: 4 },
+		// NVIDIA on Linux
+		{ vendor: "NVIDIA", renderer: "NVIDIA GeForce RTX 3080", weight: 8 },
+		{ vendor: "NVIDIA", renderer: "NVIDIA GeForce RTX 3060", weight: 6 },
+		{ vendor: "NVIDIA", renderer: "NVIDIA GeForce RTX 4090", weight: 3 },
+		{ vendor: "NVIDIA", renderer: "NVIDIA GeForce GTX 1650", weight: 4 },
+		// AMD on Linux
+		{ vendor: "AMD", renderer: "AMD Radeon RX 6600 (RADV NAVI23)", weight: 5 },
+		{ vendor: "AMD", renderer: "AMD Radeon RX 7800 XT (RADV NAVI32)", weight: 4 },
+		{ vendor: "AMD", renderer: "AMD Radeon Graphics (RADV NAVI21)", weight: 5 },
+		{ vendor: "AMD", renderer: "AMD Radeon RX 7900 XTX (RADV NAVI31)", weight: 3 },
+		// Software renderers (VMs, CI servers)
+		{ vendor: "llvmpipe", renderer: "llvmpipe (LLVM 15.0.7 256 bits)", weight: 8 },
+		{ vendor: "llvmpipe", renderer: "llvmpipe (LLVM 16.0.6 256 bits)", weight: 4 },
+		{ vendor: "Google Inc.", renderer: "ANGLE (Intel, Intel(R) UHD Graphics 630, OpenGL 4.6)", weight: 5 },
+		{ vendor: "Mozilla", renderer: "WebRender (NVIDIA Corporation -- 4.6 (Compatibility))", weight: 3 },
+	],
+};
+
+const BASE_WEBGL_EXTENSIONS = [
+	"WEBGL_lose_context",
+	"WEBGL_compressed_texture_s3tc",
+	"WEBGL_compressed_texture_astc",
+	"WEBGL_compressed_texture_ETC1",
+	"WEBGL_depth_texture",
+	"WEBGL_draw_buffers",
+	"WEBGL_debug_renderer_info",
+	"WEBGL_debug_shaders",
+	"EXT_blend_minmax",
+	"EXT_color_buffer_half_float",
+	"EXT_float_blend",
+	"EXT_frag_depth",
+	"EXT_shader_texture_lod",
+	"EXT_texture_compression_rgtc",
+	"EXT_texture_filter_anisotropic",
+	"KHR_parallel_shader_compile",
+	"OES_element_index_uint",
+	"OES_standard_derivatives",
+	"OES_vertex_array_object",
+	"WEBGL_color_buffer_float",
+	"WEBGL_provoking_vertex",
+];
+
+// Optional extensions that some GPUs/drivers support
+const OPTIONAL_EXTENSIONS_WIN = ["WEBGL_sample_variables", "EXT_color_buffer_float"];
+const OPTIONAL_EXTENSIONS_MAC = ["WEBGL_sample_variables", "EXT_color_buffer_float"];
+const OPTIONAL_EXTENSIONS_LIN = [
+	"WEBGL_sample_variables",
+	"EXT_color_buffer_float",
+	"WEBGL_polygon_mode",
+	"EXT_shader_texture_lod",
+	"WEBGL_clip_cull_distance",
+];
+
+function pickWeighted<T>(items: T[], weights: number[]): T {
+	const total = weights.reduce((a, b) => a + b, 0);
+	const buf = new Uint32Array(1);
+	crypto.getRandomValues(buf);
+	let threshold = (buf[0]! / 0x100000000) * total;
+	for (let i = 0; i < items.length; i++) {
+		threshold -= weights[i]!;
+		if (threshold <= 0) return items[i]!;
+	}
+	return items[items.length - 1]!;
+}
+
+export function sampleGPUProfile(os: "win" | "mac" | "lin"): {
+	vendor: string;
+	renderer: string;
+	webglExtensions: string[];
+	glslVersion: string;
+} {
+	const pool = KNOWN_GPUS[os];
+	const gpu = pickWeighted(pool.map(g => g.renderer), pool.map(g => g.weight));
+	const vendorEntry = pool.find(g => g.renderer === gpu)!;
+	const vendor = vendorEntry.vendor;
+
+	// Build base extension list
+	const baseExts = [...BASE_WEBGL_EXTENSIONS];
+
+	// Add optional extensions probabilistically
+	const optionalPool = os === "win"
+		? OPTIONAL_EXTENSIONS_WIN
+		: os === "mac"
+			? OPTIONAL_EXTENSIONS_MAC
+			: OPTIONAL_EXTENSIONS_LIN;
+
+	const numOptional = cryptoRandInt(0, Math.min(2, optionalPool.length));
+	for (let i = 0; i < numOptional; i++) {
+		const ext = optionalPool[cryptoRandInt(0, optionalPool.length - 1)]!;
+		if (!baseExts.includes(ext)) baseExts.push(ext);
+	}
+	baseExts.sort();
+
+	// GLSL version varies by vendor/driver generation
+	const glslVersionsByVendor: Record<string, string[]> = {
+		Intel: [
+			"OpenGL ES GLSL 3.00 (Build 31.0.101.2115)",
+			"OpenGL GLSL 4.60",
+			"OpenGL ES GLSL 3.00 (Build 31.0.101.2139)",
+		],
+		NVIDIA: [
+			"OpenGL GLSL 4.60 NVIDIA",
+			"OpenGL ES GLSL 3.00 NVIDIA",
+			"OpenGL GLSL 4.50 NVIDIA",
+		],
+		AMD: [
+			"OpenGL GLSL 4.60",
+			"OpenGL ES GLSL 3.00 (Builder ID:808)",
+			"OpenGL GLSL 4.50 AMD",
+		],
+		Mesa: [
+			"OpenGL GLSL 4.60 (adapter: Mesa; driver: ",
+			"OpenGL ES GLSL 3.00 (Mesa 23.2.1-1debian)",
+			"OpenGL GLSL 4.50 (Mesa 22.3.6)",
+		],
+		Apple: [
+			"OpenGL GLSL 4.1",
+			"OpenGL ES GLSL 3.00",
+			"Metal API GLSL 1.3.0",
+		],
+		"llvmpipe": [
+			"OpenGL GLSL 4.50 (Mesa 23.2.1)",
+			"OpenGL ES GLSL 3.00 (llvmpipe LLVM 15.0.7)",
+		],
+		Microsoft: ["OpenGL ES GLSL 1.0.0"],
+		Mozilla: ["OpenGL GLSL 4.60"],
+		Google: ["OpenGL ES GLSL 3.00"],
+	};
+
+	const vendorGlsl = glslVersionsByVendor[vendor.toLowerCase()] ?? ["OpenGL GLSL 4.60"];
+	const glslVersion = vendorGlsl[cryptoRandInt(0, vendorGlsl.length - 1)]!;
+
+	return { vendor, renderer: gpu, webglExtensions: baseExts, glslVersion };
+}
+
+// Convenience wrapper using crypto-safe random
+function cryptoRandInt(min: number, max: number): number {
+	const buf = new Uint32Array(1);
+	crypto.getRandomValues(buf);
+	return min + (buf[0]! % (max - min + 1));
+}
+
+export function resolveUAOS(userAgent: string): "win" | "mac" | "lin" {
+	const parser = new UAParser(userAgent);
+	const osName = parser.getOS().name ?? "";
+	if (osName.startsWith("macOS") || osName.includes("Mac")) return "mac";
+	if (osName.startsWith("Windows")) return "win";
+	return "lin";
+}

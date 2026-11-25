@@ -1,1 +1,16 @@
-Ly8gUmUtZXhwb3J0cyBmb3IgY29udmVuaWVuY2Ug4oCUIGF2b2lkcyBjaXJjdWxhciByZWZlcmVuY2VzIGluIGluZGV4LnRzCmV4cG9ydCB7IGJyYWtlIH0gZnJvbSAiLi9icmFrZS5qcyI7CmV4cG9ydCB7IGNoYWxsZW5nZVBsdWdpbiB9IGZyb20gIi4vY2xhc3NpZnkuanMiOwpleHBvcnQgeyBjb2Nvb24gfSBmcm9tICIuL2NvY29vbi5qcyI7CmV4cG9ydCB7IGRvZGdlIH0gZnJvbSAiLi9kb2RnZS5qcyI7CmV4cG9ydCB7IGVwaGVtZXJhbCwgZ2V0RXBoZW1lcmFsRW50cmllcywgcmVwbGF5RXBoZW1lcmFsIH0gZnJvbSAiLi9lcGhlbWVyYWwuanMiOwpleHBvcnQgeyBnYXVudGxldCB9IGZyb20gIi4vZ2F1bnRsZXQuanMiOwpleHBvcnQgeyBodW1hbiB9IGZyb20gIi4vaHVtYW4uanMiOwpleHBvcnQgeyBqc2QsIGlzSnNkUGFzc2VkIH0gZnJvbSAiLi9qc2QuanMiOwpleHBvcnQgeyBsZW5zIH0gZnJvbSAiLi9sZW5zLmpzIjsKZXhwb3J0IHsgcHJlY3Vyc29yLCBnZXRQcmVjdXJzb3JTdGF0ZSwgcmVzZXRQcmVjdXJzb3JTdGF0ZSB9IGZyb20gIi4vcHJlY3Vyc29yLmpzIjsKZXhwb3J0IHsgc3Rhc2ggfSBmcm9tICIuL3N0YXNoLmpzIjsKZXhwb3J0IHsgdmVuZWVyIH0gZnJvbSAiLi92ZW5lZXIuanMiOwpleHBvcnQgeyB3aXJldGFwIH0gZnJvbSAiLi93aXJldGFwLmpzIjsKZXhwb3J0IHsgYm90U2NvcmUsIGdldEJvdFNjb3JlcywgYXZnQm90U2NvcmUsIGhhZExvd1Njb3JlIH0gZnJvbSAiLi9ib3RzY29yZS5qcyI7Cg==
+// Re-exports for convenience — avoids circular references in index.ts
+export { brake } from "./brake.js";
+export { challengePlugin } from "./classify.js";
+export { cocoon } from "./cocoon.js";
+export { dodge } from "./dodge.js";
+export { ephemeral, getEphemeralEntries, replayEphemeral } from "./ephemeral.js";
+export { gauntlet } from "./gauntlet.js";
+export { human } from "./human.js";
+export { jsd, isJsdPassed } from "./jsd.js";
+export { lens } from "./lens.js";
+export { precursor, getPrecursorState, resetPrecursorState } from "./precursor.js";
+export { stash } from "./stash.js";
+export { veneer } from "./veneer.js";
+export { wiretap } from "./wiretap.js";
+export { botScore, getBotScores, avgBotScore, hadLowScore } from "./botscore.js";
+export { stealth, attachStealth } from "./stealth.js";

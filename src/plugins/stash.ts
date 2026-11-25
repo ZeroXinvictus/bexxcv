@@ -1,1 +1,124 @@
-aW1wb3J0ICogYXMgZnMgZnJvbSAibm9kZTpmcyI7CmltcG9ydCAqIGFzIHBhdGggZnJvbSAibm9kZTpwYXRoIjsKaW1wb3J0IHR5cGUgeyBCcm93c2VyQ29udGV4dCB9IGZyb20gInBsYXl3cmlnaHQtY29yZSI7CmltcG9ydCB0eXBlIHsgQmV4eGN2UGx1Z2luIH0gZnJvbSAiLi90eXBlcy5qcyI7Cgp0eXBlIENvb2tpZSA9IEF3YWl0ZWQ8UmV0dXJuVHlwZTxCcm93c2VyQ29udGV4dFsiY29va2llcyJdPj5bbnVtYmVyXTsKCmV4cG9ydCBpbnRlcmZhY2UgU3Rhc2hPcHRpb25zIHsKCWZpbGU6IHN0cmluZzsKCW5hbWVzPzogc3RyaW5nW107Cglkb21haW5zPzogc3RyaW5nW107CglzYXZlRXZlcnk/OiBudW1iZXI7Cn0KCmludGVyZmFjZSBTdGFzaEZpbGUgewoJdmVyc2lvbjogMTsKCXNhdmVkOiBzdHJpbmc7Cglkb21haW5zOiBSZWNvcmQ8c3RyaW5nLCBDb29raWVbXT47Cglib3VuZD86IFJlY29yZDxzdHJpbmcsIHN0cmluZz47Cn0KCmZ1bmN0aW9uIGRvbWFpbktleShjb29raWU6IENvb2tpZSk6IHN0cmluZyB7CglyZXR1cm4gY29va2llLmRvbWFpbi5yZXBsYWNlKC9eXC4vLCAiIikudG9Mb3dlckNhc2UoKTsKfQoKZnVuY3Rpb24gZXhwaXJlZChjb29raWU6IENvb2tpZSk6IGJvb2xlYW4gewoJcmV0dXJuIGNvb2tpZS5leHBpcmVzID4gMCAmJiBjb29raWUuZXhwaXJlcyA8IERhdGUubm93KCkgLyAxMDAwOwp9CgpmdW5jdGlvbiByZWFkRmlsZShmaWxlOiBzdHJpbmcpOiBTdGFzaEZpbGUgewoJdHJ5IHsKCQljb25zdCByYXcgPSBKU09OLnBhcnNlKGZzLnJlYWRGaWxlU3luYyhmaWxlLCAidXRmLTgiKSk7CgkJaWYgKHJhdyAmJiB0eXBlb2YgcmF3ID09PSAib2JqZWN0IiAmJiByYXcuZG9tYWlucykgcmV0dXJuIHJhdyBhcyBTdGFzaEZpbGU7Cgl9IGNhdGNoIHsKCQlyZXR1cm4geyB2ZXJzaW9uOiAxLCBzYXZlZDogbmV3IERhdGUoMCkudG9JU09TdHJpbmcoKSwgZG9tYWluczoge30gfTsKCX0KCXJldHVybiB7IHZlcnNpb246IDEsIHNhdmVkOiBuZXcgRGF0ZSgwKS50b0lTT1N0cmluZygpLCBkb21haW5zOiB7fSB9Owp9CgpleHBvcnQgZnVuY3Rpb24gc3Rhc2goaW5wdXQ6IHN0cmluZyB8IFN0YXNoT3B0aW9ucyk6IEJleHhjdlBsdWdpbiB7Cgljb25zdCBvcHRpb25zOiBTdGFzaE9wdGlvbnMgPSB0eXBlb2YgaW5wdXQgPT09ICJzdHJpbmciID8geyBmaWxlOiBpbnB1dCB9IDogaW5wdXQ7Cgljb25zdCBmaWxlID0gcGF0aC5yZXNvbHZlKG9wdGlvbnMuZmlsZSk7Cgljb25zdCBuYW1lcyA9IG9wdGlvbnMubmFtZXMgPyBuZXcgU2V0KG9wdGlvbnMubmFtZXMpIDogbnVsbDsKCWNvbnN0IGRvbWFpbnMgPSBvcHRpb25zLmRvbWFpbnM/Lm1hcCgoZCkgPT4gZC50b0xvd2VyQ2FzZSgpLnJlcGxhY2UoL15cLi8sICIiKSkgPz8gbnVsbDsKCWNvbnN0IGtub3duID0gbmV3IFNldDxCcm93c2VyQ29udGV4dD4oKTsKCWxldCB0aW1lcjogTm9kZUpTLlRpbWVvdXQgfCBudWxsID0gbnVsbDsKCWxldCBsYXVuY2hQcm94eSA9ICJkaXJlY3QiOwoJY29uc3QgY29udGV4dFByb3h5ID0gbmV3IFdlYWtNYXA8QnJvd3NlckNvbnRleHQsIHN0cmluZz4oKTsKCgljb25zdCB3YW50ZWQgPSAoY29va2llOiBDb29raWUpOiBib29sZWFuID0+IHsKCQlpZiAobmFtZXMgJiYgIW5hbWVzLmhhcyhjb29raWUubmFtZSkpIHJldHVybiBmYWxzZTsKCQlpZiAoZG9tYWlucykgewoJCQljb25zdCBrZXkgPSBkb21haW5LZXkoY29va2llKTsKCQkJaWYgKCFkb21haW5zLnNvbWUoKGQpID0+IGtleSA9PT0gZCB8fCBrZXkuZW5kc1dpdGgoYC4ke2R9YCkpKSByZXR1cm4gZmFsc2U7CgkJfQoJCXJldHVybiB0cnVlOwoJfTsKCgljb25zdCBCT1VORCA9IG5ldyBTZXQoWyJjZl9jbGVhcmFuY2UiXSk7CgoJY29uc3Qgc2F2ZSA9IGFzeW5jIChjb250ZXh0czogQnJvd3NlckNvbnRleHRbXSkgPT4gewoJCWNvbnN0IGRhdGEgPSByZWFkRmlsZShmaWxlKTsKCQlmb3IgKGNvbnN0IGNvbnRleHQgb2YgY29udGV4dHMpIHsKCQkJY29uc3QgZ3JvdXBlZDogUmVjb3JkPHN0cmluZywgQ29va2llW10+ID0ge307CgkJCWZvciAoY29uc3QgY29va2llIG9mIGF3YWl0IGNvbnRleHQuY29va2llcygpKSB7CgkJCQlpZiAoIXdhbnRlZChjb29raWUpIHx8IGV4cGlyZWQoY29va2llKSkgY29udGludWU7CgkJCQkoZ3JvdXBlZFtkb21haW5LZXkoY29va2llKV0gPz89IFtdKS5wdXNoKGNvb2tpZSk7CgkJCX0KCQkJZm9yIChjb25zdCBba2V5LCBsaXN0XSBvZiBPYmplY3QuZW50cmllcyhncm91cGVkKSkgewoJCQkJZGF0YS5kb21haW5zW2tleV0gPSBsaXN0OwoJCQkJKGRhdGEuYm91bmQgPz89IHt9KVtrZXldID0gY29udGV4dFByb3h5LmdldChjb250ZXh0KSA/PyBsYXVuY2hQcm94eTsKCQkJfQoJCX0KCQlmb3IgKGNvbnN0IFtrZXksIGxpc3RdIG9mIE9iamVjdC5lbnRyaWVzKGRhdGEuZG9tYWlucykpIHsKCQkJY29uc3QgYWxpdmUgPSBsaXN0LmZpbHRlcigoY29va2llKSA9PiAhZXhwaXJlZChjb29raWUpKTsKCQkJaWYgKGFsaXZlLmxlbmd0aCA+IDApIGRhdGEuZG9tYWluc1trZXldID0gYWxpdmU7CgkJCWVsc2UgZGVsZXRlIGRhdGEuZG9tYWluc1trZXldOwoJCX0KCQlkYXRhLnNhdmVkID0gbmV3IERhdGUoKS50b0lTT1N0cmluZygpOwoJCWZzLm1rZGlyU3luYyhwYXRoLmRpcm5hbWUoZmlsZSksIHsgcmVjdXJzaXZlOiB0cnVlIH0pOwoJCWZzLndyaXRlRmlsZVN5bmMoZmlsZSwgYCR7SlNPTi5zdHJpbmdpZnkoZGF0YSwgbnVsbCwgMil9XG5gLCB7IG1vZGU6IDBvNjAwIH0pOwoJfTsKCglyZXR1cm4gewoJCW5hbWU6ICJzdGFzaCIsCgkJb3JkZXI6IDIwLAoJCWJlZm9yZUxhdW5jaChsYXVuY2gpIHsKCQkJY29uc3QgcHJveHkgPSBsYXVuY2gucHJveHkgYXMgeyBzZXJ2ZXI/OiBzdHJpbmcgfSB8IHN0cmluZyB8IHVuZGVmaW5lZDsKCQkJaWYgKHR5cGVvZiBwcm94eSA9PT0gInN0cmluZyIpIGxhdW5jaFByb3h5ID0gcHJveHk7CgkJCWVsc2UgaWYgKHByb3h5ICYmIHByb3h5LnNlcnZlcikgbGF1bmNoUHJveHkgPSBwcm94eS5zZXJ2ZXI7CgkJfSwKCQlhc3luYyBvbkNvbnRleHQoY29udGV4dCwgY29udGV4dE9wdGlvbnMpIHsKCQkJa25vd24uYWRkKGNvbnRleHQpOwoJCQljb25zdCBjdXJyZW50ID0gY29udGV4dE9wdGlvbnMucHJveHk/LnNlcnZlciA/PyBsYXVuY2hQcm94eTsKCQkJY29udGV4dFByb3h5LnNldChjb250ZXh0LCBjdXJyZW50KTsKCQkJY29uc3QgZGF0YSA9IHJlYWRGaWxlKGZpbGUpOwoJCQljb25zdCBjb29raWVzID0gT2JqZWN0LmVudHJpZXMoZGF0YS5kb21haW5zKS5mbGF0TWFwKChba2V5LCBsaXN0XSkgPT4KCQkJCWxpc3QuZmlsdGVyKChjb29raWUpID0+IHsKCQkJCQlpZiAoIXdhbnRlZChjb29raWUpIHx8IGV4cGlyZWQoY29va2llKSkgcmV0dXJuIGZhbHNlOwoJCQkJCWlmIChCT1VORC5oYXMoY29va2llLm5hbWUpICYmIChkYXRhLmJvdW5kPy5ba2V5XSA/PyAiZGlyZWN0IikgIT09IGN1cnJlbnQpIHJldHVybiBmYWxzZTsKCQkJCQlyZXR1cm4gdHJ1ZTsKCQkJCX0pLAoJCQkpOwoJCQlpZiAoY29va2llcy5sZW5ndGggPiAwKSB7CgkJCQl0cnkgewoJCQkJCWF3YWl0IGNvbnRleHQuYWRkQ29va2llcyhjb29raWVzKTsKCQkJCX0gY2F0Y2ggKGVycm9yKSB7CgkJCQkJY29uc29sZS53YXJuKGBbYmV4eGN2XSBzdGFzaCBjb3VsZCBub3QgbG9hZCBjb29raWVzOiAkeyhlcnJvciBhcyBFcnJvcikubWVzc2FnZX1gKTsKCQkJCX0KCQkJfQoJCQlpZiAob3B0aW9ucy5zYXZlRXZlcnkgJiYgIXRpbWVyKSB7CgkJCQl0aW1lciA9IHNldEludGVydmFsKCgpID0+IHsKCQkJCQl2b2lkIHNhdmUoWy4uLmtub3duXSkuY2F0Y2goKCkgPT4gdW5kZWZpbmVkKTsKCQkJCX0sIG9wdGlvbnMuc2F2ZUV2ZXJ5KTsKCQkJCXRpbWVyLnVucmVmKCk7CgkJCX0KCQl9LAoJCWFzeW5jIGJlZm9yZUNsb3NlKGNvbnRleHRzKSB7CgkJCWlmICh0aW1lcikgY2xlYXJJbnRlcnZhbCh0aW1lcik7CgkJCXRpbWVyID0gbnVsbDsKCQkJYXdhaXQgc2F2ZShjb250ZXh0cyk7CgkJfSwKCX07Cn0K
+import * as fs from "node:fs";
+import * as path from "node:path";
+import type { BrowserContext } from "playwright-core";
+import type { BexxcvPlugin } from "./types.js";
+
+type Cookie = Awaited<ReturnType<BrowserContext["cookies"]>>[number];
+
+export interface StashOptions {
+	file: string;
+	names?: string[];
+	domains?: string[];
+	saveEvery?: number;
+}
+
+interface StashFile {
+	version: 1;
+	saved: string;
+	domains: Record<string, Cookie[]>;
+	bound?: Record<string, string>;
+}
+
+function domainKey(cookie: Cookie): string {
+	return cookie.domain.replace(/^\./, "").toLowerCase();
+}
+
+function expired(cookie: Cookie): boolean {
+	return cookie.expires > 0 && cookie.expires < Date.now() / 1000;
+}
+
+function readFile(file: string): StashFile {
+	try {
+		const raw = JSON.parse(fs.readFileSync(file, "utf-8"));
+		if (raw && typeof raw === "object" && raw.domains) return raw as StashFile;
+	} catch {
+		return { version: 1, saved: new Date(0).toISOString(), domains: {} };
+	}
+	return { version: 1, saved: new Date(0).toISOString(), domains: {} };
+}
+
+export function stash(input: string | StashOptions): BexxcvPlugin {
+	const options: StashOptions = typeof input === "string" ? { file: input } : input;
+	const file = path.resolve(options.file);
+	const names = options.names ? new Set(options.names) : null;
+	const domains = options.domains?.map((d) => d.toLowerCase().replace(/^\./, "")) ?? null;
+	const known = new Set<BrowserContext>();
+	let timer: NodeJS.Timeout | null = null;
+	let launchProxy = "direct";
+	const contextProxy = new WeakMap<BrowserContext, string>();
+
+	const wanted = (cookie: Cookie): boolean => {
+		if (names && !names.has(cookie.name)) return false;
+		if (domains) {
+			const key = domainKey(cookie);
+			if (!domains.some((d) => key === d || key.endsWith(`.${d}`))) return false;
+		}
+		return true;
+	};
+
+	const BOUND = new Set(["cf_clearance"]);
+
+	const save = async (contexts: BrowserContext[]) => {
+		const data = readFile(file);
+		for (const context of contexts) {
+			const grouped: Record<string, Cookie[]> = {};
+			for (const cookie of await context.cookies()) {
+				if (!wanted(cookie) || expired(cookie)) continue;
+				(grouped[domainKey(cookie)] ??= []).push(cookie);
+			}
+			for (const [key, list] of Object.entries(grouped)) {
+				data.domains[key] = list;
+				(data.bound ??= {})[key] = contextProxy.get(context) ?? launchProxy;
+			}
+		}
+		for (const [key, list] of Object.entries(data.domains)) {
+			const alive = list.filter((cookie) => !expired(cookie));
+			if (alive.length > 0) data.domains[key] = alive;
+			else delete data.domains[key];
+		}
+		data.saved = new Date().toISOString();
+		fs.mkdirSync(path.dirname(file), { recursive: true });
+		fs.writeFileSync(file, `${JSON.stringify(data, null, 2)}\n`, { mode: 0o600 });
+	};
+
+	return {
+		name: "stash",
+		order: 20,
+		beforeLaunch(launch) {
+			const proxy = launch.proxy as { server?: string } | string | undefined;
+			if (typeof proxy === "string") launchProxy = proxy;
+			else if (proxy && proxy.server) launchProxy = proxy.server;
+		},
+		async onContext(context, contextOptions) {
+			known.add(context);
+			const current = contextOptions.proxy?.server ?? launchProxy;
+			contextProxy.set(context, current);
+			const data = readFile(file);
+			const cookies = Object.entries(data.domains).flatMap(([key, list]) =>
+				list.filter((cookie) => {
+					if (!wanted(cookie) || expired(cookie)) return false;
+					if (BOUND.has(cookie.name) && (data.bound?.[key] ?? "direct") !== current) return false;
+					return true;
+				}),
+			);
+			if (cookies.length > 0) {
+				try {
+					await context.addCookies(cookies);
+				} catch (error) {
+					console.warn(`[bexxcv] stash could not load cookies: ${(error as Error).message}`);
+				}
+			}
+			if (options.saveEvery && !timer) {
+				timer = setInterval(() => {
+					void save([...known]).catch(() => undefined);
+				}, options.saveEvery);
+				timer.unref();
+			}
+		},
+		async beforeClose(contexts) {
+			if (timer) clearInterval(timer);
+			timer = null;
+			await save(contexts);
+		},
+	};
+}
