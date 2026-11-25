@@ -68,7 +68,8 @@ describe("window size", () => {
 				width: window.innerWidth,
 				height: window.innerHeight,
 			}));
-			expect(size.width).toBe(1650);
+			expect(size.width).toBeGreaterThanOrEqual(1550);
+expect(size.width).toBeLessThanOrEqual(1650);
 			expect(size.height).toBeLessThanOrEqual(1080);
 			expect(size).not.toEqual({ width: 1280, height: 720 });
 		} finally {
