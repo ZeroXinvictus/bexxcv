@@ -2,6 +2,7 @@ import {
 	type Browser,
 	type BrowserContext,
 	type BrowserType,
+	chromium,
 	firefox,
 } from "playwright-core";
 
@@ -33,6 +34,8 @@ export interface BexxcvOptions extends LaunchOptions {
 	turnstile?: boolean | TurnstileOptions;
 	uam?: boolean | UamOptions;
 	preset?: "realistic";
+	/** Browser engine to use. Default "firefox". */
+	browser?: "firefox" | "chromium";
 }
 
 export type BexxcvLaunchOptions = BexxcvOptions & PluginOptions;
@@ -73,10 +76,14 @@ export async function Bexxcv<
 		auto_xvfb = true,
 		turnstile = false,
 		uam = false,
+		browser = "firefox",
 		preset: _preset,
 		...restOptions
 	} = launch_options;
+	// Keep browser in the options so launchOptions() can detect Chromium mode
+	restOptions.browser = browser;
 	const opts = stripPluginOptions(restOptions as Record<string, unknown>);
+	const browserType = browser === "chromium" ? chromium : firefox;
 
 	
 	
@@ -91,7 +98,7 @@ export async function Bexxcv<
 	})();
 
 	const launched = await NewBrowser(
-		firefox,
+		browserType,
 		effectiveHeadless,
 		{},
 		user_data_dir ?? (false as any),

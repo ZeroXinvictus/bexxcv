@@ -9,8 +9,12 @@ import { sampleGPUProfile, resolveUAOS } from "./webgl/profiles.js";
 
 export const SUPPORTED_OS = ["linux", "macos", "windows"] as const;
 
-const FP_GENERATOR = new FingerprintGenerator({
+const FP_GENERATOR_FF = new FingerprintGenerator({
 	browsers: ["firefox"],
+	operatingSystems: SUPPORTED_OS as any,
+});
+const FP_GENERATOR_CR = new FingerprintGenerator({
+	browsers: ["chrome"],
 	operatingSystems: SUPPORTED_OS as any,
 });
 
@@ -201,15 +205,20 @@ function applyRealismSeeds(fp: ExtendedScreen, ua: string): void {
 
 export function generateFingerprint(
 	window?: [number, number],
-	config?: Partial<FingerprintGeneratorOptions>,
+	config?: Partial<FingerprintGeneratorOptions> & { browser?: "firefox" | "chromium" },
 ): Fingerprint & ExtendedScreen {
+	const browser = config?.browser ?? "firefox";
+	const generator = browser === "chromium" ? FP_GENERATOR_CR : FP_GENERATOR_FF;
+	// Strip browser from config before passing to generator
+	const genConfig = { ...config };
+	delete genConfig.browser;
 	let fp: Fingerprint & ExtendedScreen;
 	if (window) {
-		const generated = FP_GENERATOR.getFingerprint(config);
+		const generated = generator.getFingerprint(genConfig);
 		fp = generated.fingerprint as Fingerprint & ExtendedScreen;
 		handleWindowSize(fp, window[0], window[1]);
 	} else {
-		const generated = FP_GENERATOR.getFingerprint(config);
+		const generated = generator.getFingerprint(genConfig);
 		fp = generated.fingerprint as Fingerprint & ExtendedScreen;
 	}
 

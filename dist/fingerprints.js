@@ -2,8 +2,12 @@ import { FingerprintGenerator, } from "fingerprint-generator";
 import BROWSERFORGE_DATA from "./mappings/browserforge.config.js";
 import { sampleGPUProfile, resolveUAOS } from "./webgl/profiles.js";
 export const SUPPORTED_OS = ["linux", "macos", "windows"];
-const FP_GENERATOR = new FingerprintGenerator({
+const FP_GENERATOR_FF = new FingerprintGenerator({
     browsers: ["firefox"],
+    operatingSystems: SUPPORTED_OS,
+});
+const FP_GENERATOR_CR = new FingerprintGenerator({
+    browsers: ["chrome"],
     operatingSystems: SUPPORTED_OS,
 });
 export function cryptoRandInt(min, max) {
@@ -150,14 +154,19 @@ function applyRealismSeeds(fp, ua) {
     fp.onlineState = cryptoFloat() > 0.001;
 }
 export function generateFingerprint(window, config) {
+    const browser = config?.browser ?? "firefox";
+    const generator = browser === "chromium" ? FP_GENERATOR_CR : FP_GENERATOR_FF;
+    // Strip browser from config before passing to generator
+    const genConfig = { ...config };
+    delete genConfig.browser;
     let fp;
     if (window) {
-        const generated = FP_GENERATOR.getFingerprint(config);
+        const generated = generator.getFingerprint(genConfig);
         fp = generated.fingerprint;
         handleWindowSize(fp, window[0], window[1]);
     }
     else {
-        const generated = FP_GENERATOR.getFingerprint(config);
+        const generated = generator.getFingerprint(genConfig);
         fp = generated.fingerprint;
     }
     const ua = fp.navigator?.userAgent ?? "";

@@ -575,6 +575,8 @@ export interface LaunchOptions {
 	idle_drift?: boolean;
 	typo_rate?: number;
 	mouse_acceleration?: boolean;
+	browser?: "firefox" | "chromium";
+	chromium_sandbox?: boolean;
 	[key: string]: any;
 }
 
@@ -638,6 +640,7 @@ export async function launchOptions({
 	timezone_jitter = true,
 	perf_jitter = true,
 	session_stickiness = true,
+	chromium_sandbox,
 	...launch_options
 }: Omit<LaunchOptions, "headless"> & {
 	headless?: boolean;
@@ -711,9 +714,34 @@ export async function launchOptions({
 		ff_version_str = installedVerStr().split(".", 1)[0];
 	}
 
+	const targetBrowser = (launch_options.browser ?? "firefox") as "firefox" | "chromium";
+	
+	// For Chromium mode, skip the Camoufox-specific fingerprint pipeline
+	// and return a minimal Playwright launch config
+	if (targetBrowser === "chromium") {
+		const chromiumOut: PlaywrightLaunchOptions = {
+			args: args,
+			env: env as any,
+			proxy: proxyUrl
+				? {
+					server: proxyUrl.origin,
+					username: proxyUrl.username,
+					password: proxyUrl.password,
+					bypass: typeof proxy === "string" ? undefined : proxy?.bypass,
+				}
+				: undefined,
+			headless: headlessBoolean,
+		};
+		if (chromium_sandbox === false) {
+			(chromiumOut as any).chromiumSandbox = false;
+		}
+		return chromiumOut;
+	}
+	
 	if (!fingerprint) {
 		fingerprint = generateFingerprint(window, {
 			operatingSystems,
+			browser: targetBrowser,
 		}) as Fingerprint & ExtendedScreen;
 	} else {
 		if (!i_know_what_im_doing) {
@@ -981,11 +1009,11 @@ const targetOS = getTargetOS(config);
 		firefoxUserPrefs: { ...FAST_STARTUP_PREFS, ...firefox_user_prefs },
 		proxy: proxyUrl
 			? {
-					server: proxyUrl.origin,
-					username: proxyUrl.username,
-					password: proxyUrl.password,
-					bypass: typeof proxy === "string" ? undefined : proxy?.bypass,
-				}
+				server: proxyUrl.origin,
+				username: proxyUrl.username,
+				password: proxyUrl.password,
+				bypass: typeof proxy === "string" ? undefined : proxy?.bypass,
+			}
 			: undefined,
 		headless: headlessBoolean,
 		...launch_options,

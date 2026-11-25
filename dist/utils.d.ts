@@ -47,9 +47,11 @@ export interface LaunchOptions {
     idle_drift?: boolean;
     typo_rate?: number;
     mouse_acceleration?: boolean;
+    browser?: "firefox" | "chromium";
+    chromium_sandbox?: boolean;
     [key: string]: any;
 }
-export declare function launchOptions({ config, os, block_images, block_webrtc, block_webgl, disable_coop, webgl_config, geoip, humanize, locale, addons, fonts, custom_fonts_only, exclude_addons, screen, window, fingerprint, ff_version, headless, main_world_eval, executable_path, firefox_user_prefs, proxy, enable_cache, realism, args, env, i_know_what_im_doing, debug, virtual_display, hardware_concurrency_override, device_memory_override, timezone_jitter, perf_jitter, session_stickiness, ...launch_options }: Omit<LaunchOptions, "headless"> & {
+export declare function launchOptions({ config, os, block_images, block_webrtc, block_webgl, disable_coop, webgl_config, geoip, humanize, locale, addons, fonts, custom_fonts_only, exclude_addons, screen, window, fingerprint, ff_version, headless, main_world_eval, executable_path, firefox_user_prefs, proxy, enable_cache, realism, args, env, i_know_what_im_doing, debug, virtual_display, hardware_concurrency_override, device_memory_override, timezone_jitter, perf_jitter, session_stickiness, chromium_sandbox, ...launch_options }: Omit<LaunchOptions, "headless"> & {
     headless?: boolean;
 }): Promise<Record<string, any>>;
 export {};

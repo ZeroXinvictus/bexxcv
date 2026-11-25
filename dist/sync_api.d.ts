@@ -9,6 +9,8 @@ export interface BexxcvOptions extends LaunchOptions {
     turnstile?: boolean | TurnstileOptions;
     uam?: boolean | UamOptions;
     preset?: "realistic";
+    /** Browser engine to use. Default "firefox". */
+    browser?: "firefox" | "chromium";
 }
 export type BexxcvLaunchOptions = BexxcvOptions & PluginOptions;
 export declare function Bexxcv<UserDataDir extends string | undefined = undefined, ReturnType = UserDataDir extends string ? BrowserContext : Browser>(launch_options?: BexxcvOptions & PluginOptions & {

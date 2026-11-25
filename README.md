@@ -60,13 +60,29 @@ npx bexxcv fetch
 ```ts
 import { bexxcv } from "bexxcv";
 
+// Firefox mode (default)
 const browser = await bexxcv({ headless: true });
 const page = await browser.newPage();
 await page.goto("https://example.com");
 await browser.close();
+
+// Chromium mode
+const chromium = await bexxcv({ browser: "chromium", headless: true });
+const cPage = await chromium.newPage();
+await cPage.goto("https://example.com");
+await chromium.close();
 ```
 
 On a headless Linux server without `$DISPLAY`, Xvfb starts automatically when `headless` is `false` or unset — no `xvfb-run` wrapper required.
+
+### Browser engines
+
+| `browser` value | Engine | UA string | Fingerprint source |
+|---|---|---|---|
+| `"firefox"` (default) | Camoufox (Firefox) | `Firefox/xxx` | GPU-aware WebGL sampling + Camoufox config pipeline |
+| `"chromium"` | Playwright Chromium | `Chrome/xxx` | Chromium-native fingerprinting via Playwright |
+
+Chromium mode uses Playwright's built-in Chromium browser and skips the Camoufox-specific fingerprint pipeline (no `CAMOUFOX_CONFIG` env vars, no `properties.json` validation). All plugins (JSD, ephemeral, precursor, stealth, etc.) work identically in both modes.
 
 ---
 
@@ -80,6 +96,11 @@ const browser = await bexxcv({
 
   // --- OS targeting ---
   os: "windows",        // "linux" | "macos" | "windows" | array
+
+
+// --- Browser engine ---
+	browser: "firefox", // "firefox" (default) | "chromium"
+	chromium_sandbox: true, // set false to disable Chromium sandbox (Docker/root)
 
   // --- Fingerprint customization ---
   fingerprint: undefined,       // pass a custom Fingerprint object

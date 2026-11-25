@@ -1,4 +1,4 @@
-import { firefox, } from "playwright-core";
+import { chromium, firefox, } from "playwright-core";
 import { attachNoViewportDefault, launchOptions, spoofsWindowDimensions, syncAttachVD, } from "./utils.js";
 import { warnIfDataStale } from "./doctor.js";
 import { validateOptions } from "./schema.js";
@@ -28,8 +28,11 @@ export async function Bexxcv(launch_options = {}, extraPlugins = []) {
     ];
     launch_options = { ...launch_options };
     await runBeforeLaunch(pluginList, launch_options);
-    const { headless, user_data_dir, auto_xvfb = true, turnstile = false, uam = false, preset: _preset, ...restOptions } = launch_options;
+    const { headless, user_data_dir, auto_xvfb = true, turnstile = false, uam = false, browser = "firefox", preset: _preset, ...restOptions } = launch_options;
+    // Keep browser in the options so launchOptions() can detect Chromium mode
+    restOptions.browser = browser;
     const opts = stripPluginOptions(restOptions);
+    const browserType = browser === "chromium" ? chromium : firefox;
     const needsDisplay = auto_xvfb && needsXvfb();
     const effectiveHeadless = (() => {
         if (headless === "virtual")
@@ -40,7 +43,7 @@ export async function Bexxcv(launch_options = {}, extraPlugins = []) {
             return "virtual";
         return headless ?? false;
     })();
-    const launched = await NewBrowser(firefox, effectiveHeadless, {}, user_data_dir ?? false, false, opts);
+    const launched = await NewBrowser(browserType, effectiveHeadless, {}, user_data_dir ?? false, false, opts);
     if (turnstile) {
         attachTurnstile(launched, turnstile === true ? {} : turnstile);
     }

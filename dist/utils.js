@@ -425,7 +425,7 @@ function getProxyUrl(proxy) {
         url.password = password;
     return url;
 }
-export async function launchOptions({ config, os, block_images, block_webrtc, block_webgl, disable_coop, webgl_config, geoip, humanize, locale, addons, fonts, custom_fonts_only, exclude_addons, screen, window, fingerprint, ff_version, headless, main_world_eval, executable_path, firefox_user_prefs, proxy, enable_cache, realism, args, env, i_know_what_im_doing, debug, virtual_display, hardware_concurrency_override, device_memory_override, timezone_jitter = true, perf_jitter = true, session_stickiness = true, ...launch_options }) {
+export async function launchOptions({ config, os, block_images, block_webrtc, block_webgl, disable_coop, webgl_config, geoip, humanize, locale, addons, fonts, custom_fonts_only, exclude_addons, screen, window, fingerprint, ff_version, headless, main_world_eval, executable_path, firefox_user_prefs, proxy, enable_cache, realism, args, env, i_know_what_im_doing, debug, virtual_display, hardware_concurrency_override, device_memory_override, timezone_jitter = true, perf_jitter = true, session_stickiness = true, chromium_sandbox, ...launch_options }) {
     if (!config) {
         config = {};
     }
@@ -481,9 +481,32 @@ export async function launchOptions({ config, os, block_images, block_webrtc, bl
     else {
         ff_version_str = installedVerStr().split(".", 1)[0];
     }
+    const targetBrowser = (launch_options.browser ?? "firefox");
+    // For Chromium mode, skip the Camoufox-specific fingerprint pipeline
+    // and return a minimal Playwright launch config
+    if (targetBrowser === "chromium") {
+        const chromiumOut = {
+            args: args,
+            env: env,
+            proxy: proxyUrl
+                ? {
+                    server: proxyUrl.origin,
+                    username: proxyUrl.username,
+                    password: proxyUrl.password,
+                    bypass: typeof proxy === "string" ? undefined : proxy?.bypass,
+                }
+                : undefined,
+            headless: headlessBoolean,
+        };
+        if (chromium_sandbox === false) {
+            chromiumOut.chromiumSandbox = false;
+        }
+        return chromiumOut;
+    }
     if (!fingerprint) {
         fingerprint = generateFingerprint(window, {
             operatingSystems,
+            browser: targetBrowser,
         });
     }
     else {

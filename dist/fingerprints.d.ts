@@ -21,7 +21,9 @@ export interface ExtendedScreen extends ScreenFingerprint {
     onlineState?: boolean;
     platformDeviceMemory?: number;
 }
-export declare function generateFingerprint(window?: [number, number], config?: Partial<FingerprintGeneratorOptions>): Fingerprint & ExtendedScreen;
+export declare function generateFingerprint(window?: [number, number], config?: Partial<FingerprintGeneratorOptions> & {
+    browser?: "firefox" | "chromium";
+}): Fingerprint & ExtendedScreen;
 export declare function fromBrowserforge(fingerprint: Fingerprint, ffVersion?: string): Record<string, any>;
 /**
  * Returns a realistic font list for the given OS.

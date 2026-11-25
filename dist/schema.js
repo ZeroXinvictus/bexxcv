@@ -192,6 +192,8 @@ const SPEC = {
     idle_drift: [z.boolean(), "a boolean"],
     typo_rate: [z.number().min(0).max(0.5), "a float between 0 and 0.5"],
     mouse_acceleration: [z.boolean(), "a boolean"],
+    browser: [z.enum(["firefox", "chromium"]), '"firefox" | "chromium" (default: "firefox")'],
+    chromium_sandbox: [z.boolean(), "a boolean (Chromium sandbox)"],
 };
 const PASSTHROUGH = new Set([
     "allow_webgl",
