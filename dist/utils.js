@@ -1,5 +1,5 @@
 import { execFileSync } from "node:child_process";
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import { UAParser } from "ua-parser-js";
 import { addDefaultAddons, confirmPaths, } from "./addons.js";
@@ -425,6 +425,35 @@ function getProxyUrl(proxy) {
         url.password = password;
     return url;
 }
+/**
+ * Detect a system-installed Chromium binary (apt, dnf, brew).
+ * Returns the path if found, otherwise undefined (Playwright falls back to its own).
+ */
+function detectSystemChromium() {
+    const candidates = [
+        // Linux
+        "/usr/bin/chromium",
+        "/usr/bin/chromium-browser",
+        "/usr/bin/google-chrome",
+        "/usr/bin/google-chrome-stable",
+        // macOS
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "/Applications/Chromium.app/Contents/MacOS/Chromium",
+        // Windows
+        "C:\Program Files\Google\Chrome\Application\chrome.exe",
+        "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+    ];
+    for (const p of candidates) {
+        try {
+            if (existsSync(p))
+                return p;
+        }
+        catch {
+            // ignore
+        }
+    }
+    return undefined;
+}
 export async function launchOptions({ config, os, block_images, block_webrtc, block_webgl, disable_coop, webgl_config, geoip, humanize, locale, addons, fonts, custom_fonts_only, exclude_addons, screen, window, fingerprint, ff_version, headless, main_world_eval, executable_path, firefox_user_prefs, proxy, enable_cache, realism, args, env, i_know_what_im_doing, debug, virtual_display, hardware_concurrency_override, device_memory_override, timezone_jitter = true, perf_jitter = true, session_stickiness = true, chromium_sandbox, ...launch_options }) {
     if (!config) {
         config = {};
@@ -485,6 +514,8 @@ export async function launchOptions({ config, os, block_images, block_webrtc, bl
     // For Chromium mode, skip the Camoufox-specific fingerprint pipeline
     // and return a minimal Playwright launch config
     if (targetBrowser === "chromium") {
+        // Auto-detect system Chromium (apt) first, fall back to Playwright's built-in
+        const systemChromium = detectSystemChromium();
         const chromiumOut = {
             args: args,
             env: env,
@@ -498,6 +529,9 @@ export async function launchOptions({ config, os, block_images, block_webrtc, bl
                 : undefined,
             headless: headlessBoolean,
         };
+        if (systemChromium) {
+            chromiumOut.executablePath = systemChromium;
+        }
         if (chromium_sandbox === false) {
             chromiumOut.chromiumSandbox = false;
         }

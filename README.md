@@ -82,7 +82,19 @@ On a headless Linux server without `$DISPLAY`, Xvfb starts automatically when `h
 | `"firefox"` (default) | Camoufox (Firefox) | `Firefox/xxx` | GPU-aware WebGL sampling + Camoufox config pipeline |
 | `"chromium"` | Playwright Chromium | `Chrome/xxx` | Chromium-native fingerprinting via Playwright |
 
-Chromium mode uses Playwright's built-in Chromium browser and skips the Camoufox-specific fingerprint pipeline (no `CAMOUFOX_CONFIG` env vars, no `properties.json` validation). All plugins (JSD, ephemeral, precursor, stealth, etc.) work identically in both modes.
+Chromium mode auto-detects a system-installed browser in this order:
+1. `google-chrome` / `google-chrome-stable` (apt)
+2. `chromium` / `chromium-browser` (apt)
+3. Playwright's built-in Chromium (fallback)
+
+It skips the Camoufox-specific fingerprint pipeline (no `CAMOUFOX_CONFIG` env vars, no `properties.json` validation). All plugins (JSD, ephemeral, precursor, stealth, etc.) work identically in both modes.
+
+```bash
+# Install system Chromium (Debian/Ubuntu)
+sudo apt install -y chromium
+# or
+sudo apt install -y google-chrome-stable
+```
 
 ---
 

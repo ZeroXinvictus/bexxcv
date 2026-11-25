@@ -1,5 +1,5 @@
 import { execFileSync } from "node:child_process";
-import { type PathLike, readFileSync } from "node:fs";
+import { type PathLike, existsSync, readFileSync } from "node:fs";
 import path from "node:path";
 import type {
 	Fingerprint,
@@ -604,6 +604,34 @@ function getProxyUrl(
 	return url;
 }
 
+/**
+ * Detect a system-installed Chromium binary (apt, dnf, brew).
+ * Returns the path if found, otherwise undefined (Playwright falls back to its own).
+ */
+function detectSystemChromium(): string | undefined {
+ const candidates = [
+  // Linux
+  "/usr/bin/chromium",
+  "/usr/bin/chromium-browser",
+  "/usr/bin/google-chrome",
+  "/usr/bin/google-chrome-stable",
+  // macOS
+  "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "/Applications/Chromium.app/Contents/MacOS/Chromium",
+  // Windows
+  "C:\Program Files\Google\Chrome\Application\chrome.exe",
+  "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe",
+ ];
+ for (const p of candidates) {
+  try {
+   if (existsSync(p)) return p;
+  } catch {
+   // ignore
+  }
+ }
+ return undefined;
+}
+
 export async function launchOptions({
 	config,
 	os,
@@ -719,6 +747,8 @@ export async function launchOptions({
 	// For Chromium mode, skip the Camoufox-specific fingerprint pipeline
 	// and return a minimal Playwright launch config
 	if (targetBrowser === "chromium") {
+		// Auto-detect system Chromium (apt) first, fall back to Playwright's built-in
+		const systemChromium = detectSystemChromium();
 		const chromiumOut: PlaywrightLaunchOptions = {
 			args: args,
 			env: env as any,
@@ -732,6 +762,9 @@ export async function launchOptions({
 				: undefined,
 			headless: headlessBoolean,
 		};
+		if (systemChromium) {
+			chromiumOut.executablePath = systemChromium;
+		}
 		if (chromium_sandbox === false) {
 			(chromiumOut as any).chromiumSandbox = false;
 		}
